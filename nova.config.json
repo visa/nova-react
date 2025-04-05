@@ -1,0 +1,8 @@
+{
+  "packageName": "nova-react",
+  "ossFirstCommitDate": "2025-03-17",
+  "fileExclusions": ["/**/*.json", "/**/__snapshots__/**", "/**/node_modules/**", "apps/workshop/build"],
+  "licenseFileExclusions": [],
+  "licensePaths": ["libs/nova-react"],
+  "licenseHeaderPaths": ["libs/nova-react", "bin", "apps/workshop"]
+}
