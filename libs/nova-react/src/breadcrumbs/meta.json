@@ -1,0 +1,31 @@
+{
+  "description": "Supplemental navigation indicating the user's location in a site or app.",
+  "displayName": "Breadcrumbs",
+  "filePath": "/breadcrumbs/index.tsx",
+  "gitLink": "https://stash.trusted.visa.com:7990/projects/VC/repos/nova-react/browse/libs/nova-react/src/breadcrumbs/index.tsx",
+  "props": [
+    {
+      "description": "Use Custom Separator",
+      "name": "customSeparator",
+      "required": false,
+      "type": "boolean"
+    },
+    {
+      "description": "This is a useRef",
+      "name": "ref",
+      "required": false,
+      "type": "ForwardedRef<HTMLElementType>"
+    },
+    {
+      "defaultValue": "nav",
+      "description": "Tag of Component",
+      "name": "tag",
+      "required": false,
+      "type": "ElementType"
+    }
+  ],
+  "vgar": "TODO",
+  "wcag": "TODO",
+  "docs": "{@link https://design.visa.com/react/components/breadcrumbs See Docs}",
+  "testAvg": 100
+}

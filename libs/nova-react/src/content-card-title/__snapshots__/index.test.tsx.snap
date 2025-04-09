@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContentCardTitle should render defaults correctly 1`] = `
+<div>
+  <h3
+    class="v-content-card-title"
+  >
+    Test ContentCardTitle
+  </h3>
+</div>
+`;

@@ -1,0 +1,29 @@
+{
+  "description": "Interactive element enabling users to select a single option from a list.",
+  "displayName": "DropdownMenu",
+  "filePath": "/dropdown-menu/index.tsx",
+  "gitLink": "https://stash.trusted.visa.com:7990/projects/VC/repos/nova-react/browse/libs/nova-react/src/dropdown-menu/index.tsx",
+  "props": [
+    {
+      "description": "This is a useRef",
+      "name": "ref",
+      "required": false,
+      "type": "ForwardedRef<HTMLElementType>"
+    },
+    {
+      "defaultValue": "div",
+      "description": "Scroll",
+      "name": "tag",
+      "required": false,
+      "type": "ElementType"
+    }
+  ],
+  "related": [
+    "dropdown-button",
+    "dropdown-container"
+  ],
+  "vgar": "TODO",
+  "wcag": "TODO",
+  "docs": "{@link https://design.visa.com/react/components/dropdown-menu See Docs}",
+  "testAvg": 100
+}

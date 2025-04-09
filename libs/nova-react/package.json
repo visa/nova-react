@@ -1,0 +1,79 @@
+{
+  "name": "@visa/nova-react",
+  "version": "2.5.3",
+  "description": "Visa Product Design System Nova React library",
+  "author": "Visa Product Design System",
+  "main": "./index.js",
+  "module": "./index.mjs",
+  "types": "./index.d.ts",
+  "sideEffects": false,
+  "optionalDependencies": {},
+  "peerDependencies": {
+    "@visa/nova-icons-react": "^1 || ^2",
+    "@visa/nova-styles": "^1.6.1",
+    "clsx": "^2.1.0",
+    "react": "^18 || ^19",
+    "react-dom": "^18 || ^19",
+    "tslib": "^2.6.2"
+  },
+  "scripts": {
+    "build": "rollup -c --bundleConfigAsCjs",
+    "dev": "rollup -c -w --bundleConfigAsCjs",
+    "docGen": "node ./bin/doc-gen.mjs",
+    "prebuild": "pnpm docGen",
+    "prepare": "mkdir -p dist && npx @visa/scripts package -c -o ./dist",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "watch": "rollup -c -w --bundleConfigAsCjs"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "keywords": [
+    "visa product design system",
+    "visa design system",
+    "visa design",
+    "design system",
+    "JS",
+    "nova",
+    "react",
+    "rollup",
+    "typescript",
+    "UI",
+    "vds",
+    "visa",
+    "visa-ui",
+    "vite"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.2",
+    "@rollup/plugin-node-resolve": "^16.0.0",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^12.1.1",
+    "@testing-library/jest-dom": "^6.4.5",
+    "@testing-library/react": "^16.0.0",
+    "@testing-library/user-event": "^14.5.2",
+    "@types/jest": "^29.5.12",
+    "@types/jest-axe": "^3.5.9",
+    "@types/react": "^18.3.1 || 19.x",
+    "@types/react-dom": "^18.3.0 || 19.x",
+    "@visa/scripts": "^4.0.1",
+    "change-case": "^4.1.2",
+    "gitlog": "^5.0.2",
+    "glob": "^10.3.14",
+    "jest": "^29.7.0",
+    "jest-axe": "^9.0.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "react-docgen-typescript": "^2.2.2",
+    "rollup": "^4.17.2",
+    "rollup-plugin-copy": "^3.5.0",
+    "ts-jest": "^29.1.2",
+    "ts-jest-mock-import-meta": "^1.2.0",
+    "typescript": "^5.7.2"
+  }
+}

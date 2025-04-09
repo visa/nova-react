@@ -1,0 +1,42 @@
+{
+  "@visa/nova-icons-react@2.0.3": {
+    "licenses": "Custom: https://productdesignsystem.visa.com/",
+    "path": "node_modules/@visa/nova-icons-react",
+    "licenseFile": "node_modules/@visa/nova-icons-react/README.md"
+  },
+  "@visa/nova-styles@1.6.1": {
+    "licenses": "Apache-2.0",
+    "publisher": "Visa Product Design System",
+    "path": "node_modules/@visa/nova-styles",
+    "licenseFile": "node_modules/@visa/nova-styles/LICENSE",
+    "noticeFile": "node_modules/@visa/nova-styles/NOTICE"
+  },
+  "clsx@2.1.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/lukeed/clsx",
+    "publisher": "Luke Edwards",
+    "email": "luke.edwards05@gmail.com",
+    "url": "https://lukeed.com",
+    "path": "node_modules/clsx",
+    "licenseFile": "node_modules/clsx/license"
+  },
+  "react-dom@18.3.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/facebook/react",
+    "path": "node_modules/react-dom",
+    "licenseFile": "node_modules/react-dom/LICENSE"
+  },
+  "react@18.3.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/facebook/react",
+    "path": "node_modules/react",
+    "licenseFile": "node_modules/react/LICENSE"
+  },
+  "tslib@2.8.1": {
+    "licenses": "0BSD",
+    "repository": "https://github.com/Microsoft/tslib",
+    "publisher": "Microsoft Corp.",
+    "path": "node_modules/tslib",
+    "licenseFile": "node_modules/tslib/LICENSE.txt"
+  }
+}

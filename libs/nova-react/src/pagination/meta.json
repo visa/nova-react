@@ -1,0 +1,29 @@
+{
+  "description": "Set of links used to navigate content split across multiple pages.",
+  "displayName": "Pagination",
+  "filePath": "/pagination/index.tsx",
+  "gitLink": "https://stash.trusted.visa.com:7990/projects/VC/repos/nova-react/browse/libs/nova-react/src/pagination/index.tsx",
+  "props": [
+    {
+      "description": "This is a useRef",
+      "name": "ref",
+      "required": false,
+      "type": "ForwardedRef<HTMLElementType>"
+    },
+    {
+      "defaultValue": "ul",
+      "description": "Tag of Component",
+      "name": "tag",
+      "required": false,
+      "type": "ElementType"
+    }
+  ],
+  "vgar": "TODO",
+  "wcag": "TODO",
+  "related": [
+    "pagination-overflow",
+    "use-pagination"
+  ],
+  "docs": "{@link https://design.visa.com/react/components/pagination See Docs}",
+  "testAvg": 100
+}

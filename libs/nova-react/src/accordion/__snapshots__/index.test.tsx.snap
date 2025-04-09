@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Accordion should render defaults correctly 1`] = `
+<div>
+  <details
+    class="v-accordion"
+  />
+</div>
+`;

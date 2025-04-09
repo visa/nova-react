@@ -1,0 +1,22 @@
+{
+  "description": "Control that allows users to select multiple options from a dropdown menu.",
+  "displayName": "Multiselect",
+  "noComponent": true,
+  "related": [
+    "button",
+    "checkbox",
+    "chip",
+    "combobox",
+    "divider",
+    "dropdown-container",
+    "input",
+    "input-container",
+    "label",
+    "listbox",
+    "listbox-container",
+    "listbox-item",
+    "typography",
+    "utility",
+    "utility-fragment"
+  ]
+}

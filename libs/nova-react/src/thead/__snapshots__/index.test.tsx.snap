@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Thead should render defaults correctly 1`] = `
+<div>
+  <table>
+    <thead
+      data-testid="test-id"
+    />
+  </table>
+</div>
+`;

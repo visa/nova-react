@@ -1,0 +1,5 @@
+{
+  "displayName": "Spacing",
+  "noComponent": true,
+  "related": ["utility", "utility-fragment"]
+}

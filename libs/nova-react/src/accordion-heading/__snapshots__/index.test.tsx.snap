@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AccordionHeading should render defaults correctly 1`] = `
+<div>
+  <summary
+    class="v-button v-accordion-heading"
+  >
+    AccordionHeading
+  </summary>
+</div>
+`;

@@ -1,0 +1,6 @@
+{
+  "description": "Menu or panel next to the page content that links to important pages or features.",
+  "displayName": "VerticalNavigation",
+  "noComponent": true,
+  "related": ["nav", "tabs"]
+}

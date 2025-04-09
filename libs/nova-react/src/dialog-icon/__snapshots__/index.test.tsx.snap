@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DialogIcon should render defaults correctly 1`] = `
+<div>
+  <svg
+    aria-hidden="false"
+    aria-label="Information"
+    class="v-icon v-icon-visa v-icon-low v-icon-information v-message-icon"
+    focusable="false"
+    height="24"
+    viewBox="0 0 24 24"
+    width="24"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      class="v-icon-secondary"
+      d="M12 24C5.38 24 0 18.62 0 12C0 5.38 5.38 0 12 0C18.62 0 24 5.38 24 12C24 18.62 18.62 24 12 24ZM12 2C6.49 2 2 6.49 2 12C2 17.51 6.49 22 12 22C17.51 22 22 17.51 22 12C22 6.49 17.51 2 12 2Z"
+    />
+    <path
+      class="v-icon-primary"
+      d="M15 19H9V17.0351H11.451V12.9874H9.43137V11.0225H13.4118V17.0351H15V19ZM12 9.53895C10.7549 9.53895 9.73529 8.51719 9.73529 7.26947C9.73529 6.02175 10.7549 5 12 5C13.2549 5 14.2647 6.02175 14.2647 7.26947C14.2647 8.51719 13.2549 9.53895 12 9.53895ZM12 6.96491C11.8333 6.96491 11.6961 7.10246 11.6961 7.26947C11.6961 7.43649 11.8333 7.57403 12 7.57403C12.1667 7.57403 12.3039 7.43649 12.3039 7.26947C12.3039 7.10246 12.1667 6.96491 12 6.96491Z"
+    />
+    <defs>
+      <clippath>
+        <rect
+          height="24"
+          width="24"
+        />
+      </clippath>
+    </defs>
+  </svg>
+</div>
+`;

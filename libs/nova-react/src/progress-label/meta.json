@@ -1,0 +1,25 @@
+{
+  "description": "Label used with a progress component for textual representation of status.",
+  "displayName": "ProgressLabel",
+  "filePath": "/progress-label/index.tsx",
+  "gitLink": "https://stash.trusted.visa.com:7990/projects/VC/repos/nova-react/browse/libs/nova-react/src/progress-label/index.tsx",
+  "props": [
+    {
+      "description": "This is a useRef",
+      "name": "ref",
+      "required": false,
+      "type": "ForwardedRef<HTMLElementType>"
+    },
+    {
+      "defaultValue": "label",
+      "description": "Tag of Component",
+      "name": "tag",
+      "required": false,
+      "type": "ElementType"
+    }
+  ],
+  "vgar": "TODO",
+  "wcag": "TODO",
+  "docs": "{@link https://design.visa.com/react/components/progress See Docs}",
+  "testAvg": 100
+}

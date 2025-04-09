@@ -1,0 +1,246 @@
+{
+  "description": "Wraps around a component and add Nova utility classes to its direct child without adding extra elements to the DOM.",
+  "displayName": "UtilityFragment",
+  "filePath": "/utility-fragment/index.tsx",
+  "gitLink": "https://stash.trusted.visa.com:7990/projects/VC/repos/nova-react/browse/libs/nova-react/src/utility-fragment/index.tsx",
+  "props": [
+    {
+      "description": "Child element that the styles are applies to. Only allows for single child element.",
+      "name": "children",
+      "required": true,
+      "type": "ReactElement<any, string | JSXElementConstructor<any>>"
+    },
+    {
+      "description": "",
+      "name": "vAlignContent",
+      "required": false,
+      "type": "\"center\" | \"start\" | \"end\" | \"around\" | \"between\" | \"evenly\""
+    },
+    {
+      "description": "",
+      "name": "vAlignItems",
+      "required": false,
+      "type": "\"center\" | \"start\" | \"baseline\" | \"end\" | \"stretch\""
+    },
+    {
+      "description": "",
+      "name": "vAlignSelf",
+      "required": false,
+      "type": "\"center\" | \"start\" | \"auto\" | \"end\" | \"stretch\""
+    },
+    {
+      "description": "",
+      "name": "vColGap",
+      "required": false,
+      "type": "0 | 1 | 48 | 4 | 10 | 3 | 2 | 5 | 6 | 7 | 8 | 9 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 | 25 | 26 | 27 | 28 | 29 | 30 | 31 | 32 | 33 | 34 | 35 | 36 | 37 | 38 | 39 | 40 | 41 | 42 | 43 | 44 | 45 | 46 | 47"
+    },
+    {
+      "description": "",
+      "name": "vContainerHide",
+      "required": false,
+      "type": "\"xs\" | \"sm\" | \"md\" | \"lg\" | \"xl\" | \"xxl\" | \"desktop\" | \"mobile\""
+    },
+    {
+      "description": "",
+      "name": "vElevation",
+      "required": false,
+      "type": "\"small\" | \"none\" | \"large\" | \"inset\" | \"medium\" | \"xlarge\" | \"xxlarge\" | \"xsmall\""
+    },
+    {
+      "description": "",
+      "name": "vFlex",
+      "required": false,
+      "type": "boolean"
+    },
+    {
+      "description": "",
+      "name": "vFlexCol",
+      "required": false,
+      "type": "boolean"
+    },
+    {
+      "description": "",
+      "name": "vFlexColReverse",
+      "required": false,
+      "type": "boolean"
+    },
+    {
+      "description": "",
+      "name": "vFlexGrow",
+      "required": false,
+      "type": "boolean"
+    },
+    {
+      "description": "",
+      "name": "vFlexGrow0",
+      "required": false,
+      "type": "boolean"
+    },
+    {
+      "description": "",
+      "name": "vFlexInline",
+      "required": false,
+      "type": "boolean"
+    },
+    {
+      "description": "",
+      "name": "vFlexNoWrap",
+      "required": false,
+      "type": "boolean"
+    },
+    {
+      "description": "",
+      "name": "vFlexRow",
+      "required": false,
+      "type": "boolean"
+    },
+    {
+      "description": "",
+      "name": "vFlexRowReverse",
+      "required": false,
+      "type": "boolean"
+    },
+    {
+      "description": "",
+      "name": "vFlexShrink",
+      "required": false,
+      "type": "boolean"
+    },
+    {
+      "description": "",
+      "name": "vFlexShrink0",
+      "required": false,
+      "type": "boolean"
+    },
+    {
+      "description": "",
+      "name": "vFlexWrap",
+      "required": false,
+      "type": "boolean"
+    },
+    {
+      "description": "",
+      "name": "vFlexWrapReverse",
+      "required": false,
+      "type": "boolean"
+    },
+    {
+      "description": "",
+      "name": "vGap",
+      "required": false,
+      "type": "Omit<VSpacing, \"auto\"> | \"normal\""
+    },
+    {
+      "description": "",
+      "name": "vHide",
+      "required": false,
+      "type": "boolean"
+    },
+    {
+      "description": "",
+      "name": "vJustifyContent",
+      "required": false,
+      "type": "\"center\" | \"start\" | \"end\" | \"around\" | \"between\" | \"evenly\""
+    },
+    {
+      "description": "",
+      "name": "vMargin",
+      "required": false,
+      "type": "0 | \"inherit\" | \"auto\" | 1 | 48 | 4 | 10 | 3 | 2 | 5 | 6 | 7 | 8 | 9 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 | 25 | 26 | 27 | 28 | 29 | 30 | 31 | 32 | 33 | 34 | 35 | 36 | 37 | 38 | 39 | 40 | 41 | 42 | 43 | 44 | 45 | 46 | 47"
+    },
+    {
+      "description": "",
+      "name": "vMarginBottom",
+      "required": false,
+      "type": "0 | \"inherit\" | \"auto\" | 1 | 48 | 4 | 10 | 3 | 2 | 5 | 6 | 7 | 8 | 9 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 | 25 | 26 | 27 | 28 | 29 | 30 | 31 | 32 | 33 | 34 | 35 | 36 | 37 | 38 | 39 | 40 | 41 | 42 | 43 | 44 | 45 | 46 | 47"
+    },
+    {
+      "description": "",
+      "name": "vMarginHorizontal",
+      "required": false,
+      "type": "0 | \"inherit\" | \"auto\" | 1 | 48 | 4 | 10 | 3 | 2 | 5 | 6 | 7 | 8 | 9 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 | 25 | 26 | 27 | 28 | 29 | 30 | 31 | 32 | 33 | 34 | 35 | 36 | 37 | 38 | 39 | 40 | 41 | 42 | 43 | 44 | 45 | 46 | 47"
+    },
+    {
+      "description": "",
+      "name": "vMarginLeft",
+      "required": false,
+      "type": "0 | \"inherit\" | \"auto\" | 1 | 48 | 4 | 10 | 3 | 2 | 5 | 6 | 7 | 8 | 9 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 | 25 | 26 | 27 | 28 | 29 | 30 | 31 | 32 | 33 | 34 | 35 | 36 | 37 | 38 | 39 | 40 | 41 | 42 | 43 | 44 | 45 | 46 | 47"
+    },
+    {
+      "description": "",
+      "name": "vMarginRight",
+      "required": false,
+      "type": "0 | \"inherit\" | \"auto\" | 1 | 48 | 4 | 10 | 3 | 2 | 5 | 6 | 7 | 8 | 9 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 | 25 | 26 | 27 | 28 | 29 | 30 | 31 | 32 | 33 | 34 | 35 | 36 | 37 | 38 | 39 | 40 | 41 | 42 | 43 | 44 | 45 | 46 | 47"
+    },
+    {
+      "description": "",
+      "name": "vMarginTop",
+      "required": false,
+      "type": "0 | \"inherit\" | \"auto\" | 1 | 48 | 4 | 10 | 3 | 2 | 5 | 6 | 7 | 8 | 9 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 | 25 | 26 | 27 | 28 | 29 | 30 | 31 | 32 | 33 | 34 | 35 | 36 | 37 | 38 | 39 | 40 | 41 | 42 | 43 | 44 | 45 | 46 | 47"
+    },
+    {
+      "description": "",
+      "name": "vMarginVertical",
+      "required": false,
+      "type": "0 | \"inherit\" | \"auto\" | 1 | 48 | 4 | 10 | 3 | 2 | 5 | 6 | 7 | 8 | 9 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 | 25 | 26 | 27 | 28 | 29 | 30 | 31 | 32 | 33 | 34 | 35 | 36 | 37 | 38 | 39 | 40 | 41 | 42 | 43 | 44 | 45 | 46 | 47"
+    },
+    {
+      "description": "",
+      "name": "vMediaHide",
+      "required": false,
+      "type": "\"xs\" | \"sm\" | \"md\" | \"lg\" | \"xl\" | \"xxl\" | \"desktop\" | \"mobile\""
+    },
+    {
+      "description": "",
+      "name": "vPadding",
+      "required": false,
+      "type": "0 | \"inherit\" | \"auto\" | 1 | 48 | 4 | 10 | 3 | 2 | 5 | 6 | 7 | 8 | 9 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 | 25 | 26 | 27 | 28 | 29 | 30 | 31 | 32 | 33 | 34 | 35 | 36 | 37 | 38 | 39 | 40 | 41 | 42 | 43 | 44 | 45 | 46 | 47"
+    },
+    {
+      "description": "",
+      "name": "vPaddingBottom",
+      "required": false,
+      "type": "0 | \"inherit\" | \"auto\" | 1 | 48 | 4 | 10 | 3 | 2 | 5 | 6 | 7 | 8 | 9 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 | 25 | 26 | 27 | 28 | 29 | 30 | 31 | 32 | 33 | 34 | 35 | 36 | 37 | 38 | 39 | 40 | 41 | 42 | 43 | 44 | 45 | 46 | 47"
+    },
+    {
+      "description": "",
+      "name": "vPaddingHorizontal",
+      "required": false,
+      "type": "0 | \"inherit\" | \"auto\" | 1 | 48 | 4 | 10 | 3 | 2 | 5 | 6 | 7 | 8 | 9 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 | 25 | 26 | 27 | 28 | 29 | 30 | 31 | 32 | 33 | 34 | 35 | 36 | 37 | 38 | 39 | 40 | 41 | 42 | 43 | 44 | 45 | 46 | 47"
+    },
+    {
+      "description": "",
+      "name": "vPaddingLeft",
+      "required": false,
+      "type": "0 | \"inherit\" | \"auto\" | 1 | 48 | 4 | 10 | 3 | 2 | 5 | 6 | 7 | 8 | 9 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 | 25 | 26 | 27 | 28 | 29 | 30 | 31 | 32 | 33 | 34 | 35 | 36 | 37 | 38 | 39 | 40 | 41 | 42 | 43 | 44 | 45 | 46 | 47"
+    },
+    {
+      "description": "",
+      "name": "vPaddingRight",
+      "required": false,
+      "type": "0 | \"inherit\" | \"auto\" | 1 | 48 | 4 | 10 | 3 | 2 | 5 | 6 | 7 | 8 | 9 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 | 25 | 26 | 27 | 28 | 29 | 30 | 31 | 32 | 33 | 34 | 35 | 36 | 37 | 38 | 39 | 40 | 41 | 42 | 43 | 44 | 45 | 46 | 47"
+    },
+    {
+      "description": "",
+      "name": "vPaddingTop",
+      "required": false,
+      "type": "0 | \"inherit\" | \"auto\" | 1 | 48 | 4 | 10 | 3 | 2 | 5 | 6 | 7 | 8 | 9 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 | 25 | 26 | 27 | 28 | 29 | 30 | 31 | 32 | 33 | 34 | 35 | 36 | 37 | 38 | 39 | 40 | 41 | 42 | 43 | 44 | 45 | 46 | 47"
+    },
+    {
+      "description": "",
+      "name": "vPaddingVertical",
+      "required": false,
+      "type": "0 | \"inherit\" | \"auto\" | 1 | 48 | 4 | 10 | 3 | 2 | 5 | 6 | 7 | 8 | 9 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 | 25 | 26 | 27 | 28 | 29 | 30 | 31 | 32 | 33 | 34 | 35 | 36 | 37 | 38 | 39 | 40 | 41 | 42 | 43 | 44 | 45 | 46 | 47"
+    },
+    {
+      "description": "",
+      "name": "vRowGap",
+      "required": false,
+      "type": "0 | 1 | 48 | 4 | 10 | 3 | 2 | 5 | 6 | 7 | 8 | 9 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 | 25 | 26 | 27 | 28 | 29 | 30 | 31 | 32 | 33 | 34 | 35 | 36 | 37 | 38 | 39 | 40 | 41 | 42 | 43 | 44 | 45 | 46 | 47"
+    }
+  ],
+  "vgar": "TODO",
+  "wcag": "TODO",
+  "docs": "{@link https://design.visa.com/react/utilities/api See Docs}",
+  "testAvg": 100
+}

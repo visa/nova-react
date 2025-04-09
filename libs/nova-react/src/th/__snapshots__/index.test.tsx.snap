@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Th should render defaults correctly 1`] = `
+<div>
+  <table>
+    <tbody>
+      <tr>
+        <th
+          class="v-th"
+          data-testid="test-id"
+        >
+          Test
+        </th>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;

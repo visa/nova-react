@@ -1,0 +1,34 @@
+{
+  "description": "Container for styling input elements.",
+  "displayName": "InputContainer",
+  "filePath": "/input-container/index.tsx",
+  "gitLink": "https://stash.trusted.visa.com:7990/projects/VC/repos/nova-react/browse/libs/nova-react/src/input-container/index.tsx",
+  "props": [
+    {
+      "description": "This is a useRef",
+      "name": "ref",
+      "required": false,
+      "type": "ForwardedRef<HTMLElementType>"
+    },
+    {
+      "description": "Type of Surface",
+      "name": "surfaceType",
+      "required": false,
+      "type": "\"alternate\""
+    },
+    {
+      "description": "Tag of Component",
+      "name": "tag",
+      "required": false,
+      "type": "ElementType"
+    }
+  ],
+  "docs": "{@link https://design.visa.com/react/components/input See Docs}",
+  "related": [
+    "combobox",
+    "input",
+    "select",
+    "textarea"
+  ],
+  "testAvg": 100
+}

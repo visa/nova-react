@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Listbox should render defaults correctly 1`] = `
+<div>
+  <ul
+    class="v-listbox"
+  />
+</div>
+`;

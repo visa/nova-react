@@ -1,0 +1,22 @@
+{
+  "description": "Icon to display within message content.",
+  "displayName": "MessageIcon",
+  "filePath": "/message-icon/index.tsx",
+  "gitLink": "https://stash.trusted.visa.com:7990/projects/VC/repos/nova-react/browse/libs/nova-react/src/message-icon/index.tsx",
+  "props": [
+    {
+      "defaultValue": null,
+      "description": "Cloned Element",
+      "name": "element",
+      "required": false,
+      "type": "ReactElement<any, string | JSXElementConstructor<any>>"
+    },
+    {
+      "description": "This is a useRef",
+      "name": "ref",
+      "required": false,
+      "type": "ForwardedRef<HTMLElementType>"
+    }
+  ],
+  "testAvg": 100
+}

@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BadgeEllipse should render defaults correctly 1`] = `
+<div>
+  <svg
+    aria-hidden="true"
+    class="v-icon v-icon-tiny v-ellipse"
+    height="16"
+    style="--v-icon-height: var(--size-scalable-8); --v-icon-width: var(--size-scalable-8);"
+    viewBox="0 0 16 16"
+    width="16"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <circle
+      cx="8"
+      cy="8"
+      r="8"
+      style="fill: var(--v-badge-ellipse-color);"
+    />
+  </svg>
+</div>
+`;

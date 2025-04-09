@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Breadcrumbs should render defaults correctly 1`] = `
+<div>
+  <nav
+    aria-label="Breadcrumb"
+    class="v-breadcrumbs"
+  />
+</div>
+`;

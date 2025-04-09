@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Badge should render defaults correctly 1`] = `
+<div>
+  <div
+    class="v-badge"
+  />
+</div>
+`;

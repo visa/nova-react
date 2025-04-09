@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tr should render defaults correctly 1`] = `
+<div>
+  <table>
+    <tbody>
+      <tr
+        data-testid="test-id"
+      />
+    </tbody>
+  </table>
+</div>
+`;

@@ -1,0 +1,34 @@
+{
+  "description": "Selection element that allows users to switch between states or views.",
+  "displayName": "Toggle",
+  "filePath": "/toggle/index.tsx",
+  "gitLink": "https://stash.trusted.visa.com:7990/projects/VC/repos/nova-react/browse/libs/nova-react/src/toggle/index.tsx",
+  "props": [
+    {
+      "description": "Icons only toggle button",
+      "name": "iconOnly",
+      "required": false,
+      "type": "boolean"
+    },
+    {
+      "description": "This is a useRef",
+      "name": "ref",
+      "required": false,
+      "type": "ForwardedRef<HTMLElementType>"
+    },
+    {
+      "defaultValue": "label",
+      "description": "Tag of Component",
+      "name": "tag",
+      "required": false,
+      "type": "ElementType"
+    }
+  ],
+  "related": [
+    "toggle-container"
+  ],
+  "vgar": "TODO",
+  "wcag": "TODO",
+  "docs": "{@link https://design.visa.com/react/components/toggle-button See Docs}",
+  "testAvg": 100
+}

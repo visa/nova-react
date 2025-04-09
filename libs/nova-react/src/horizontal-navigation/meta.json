@@ -1,0 +1,6 @@
+{
+  "description": "Menu or panel at the top of page content that links to important pages or features.",
+  "displayName": "HorizontalNavigation",
+  "noComponent": true,
+  "related": ["nav", "tabs"]
+}

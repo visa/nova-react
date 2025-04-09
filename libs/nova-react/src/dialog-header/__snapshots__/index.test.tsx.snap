@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DialogHeader should render defaults correctly 1`] = `
+<div>
+  <h2
+    class="v-dialog-header v-align-items-center v-flex v-gap-6 v-justify-content-start"
+  >
+    Test DialogHeader
+  </h2>
+</div>
+`;

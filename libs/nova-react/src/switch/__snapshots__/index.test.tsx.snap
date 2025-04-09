@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Switch should render defaults correctly 1`] = `
+<div>
+  <input
+    class="v-switch"
+    id="test-id"
+    role="switch"
+    type="checkbox"
+  />
+  <label
+    for="test-id"
+  >
+    Test Label
+  </label>
+</div>
+`;

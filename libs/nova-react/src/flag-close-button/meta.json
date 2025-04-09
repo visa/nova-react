@@ -1,0 +1,76 @@
+{
+  "description": "Close button to dismiss a flag message.",
+  "displayName": "FlagCloseButton",
+  "filePath": "/flag-close-button/index.tsx",
+  "gitLink": "https://stash.trusted.visa.com:7990/projects/VC/repos/nova-react/browse/libs/nova-react/src/flag-close-button/index.tsx",
+  "props": [
+    {
+      "description": "Alternate color scheme",
+      "name": "alternate",
+      "required": false,
+      "type": "boolean"
+    },
+    {
+      "description": "Size of Button",
+      "name": "buttonSize",
+      "required": false,
+      "type": "\"small\" | \"large\""
+    },
+    {
+      "description": "Color Scheme of Button",
+      "name": "colorScheme",
+      "required": false,
+      "type": "\"secondary\" | \"tertiary\""
+    },
+    {
+      "description": "Destructive Button",
+      "name": "destructive",
+      "required": false,
+      "type": "boolean"
+    },
+    {
+      "description": "Cloned Element (not compatible with tag property)",
+      "name": "element",
+      "required": false,
+      "type": "ReactElement<any, string | JSXElementConstructor<any>>"
+    },
+    {
+      "description": "Icon Button",
+      "name": "iconButton",
+      "required": false,
+      "type": "boolean"
+    },
+    {
+      "description": "Icon Two Button",
+      "name": "iconTwoColor",
+      "required": false,
+      "type": "boolean"
+    },
+    {
+      "description": "This is a useRef",
+      "name": "ref",
+      "required": false,
+      "type": "ForwardedRef<HTMLElementType>"
+    },
+    {
+      "description": "Stacked Button",
+      "name": "stacked",
+      "required": false,
+      "type": "boolean"
+    },
+    {
+      "description": "Subtle Button",
+      "name": "subtle",
+      "required": false,
+      "type": "boolean"
+    },
+    {
+      "description": "Tag (not compatible with element property)",
+      "name": "tag",
+      "required": false,
+      "type": "ElementType"
+    }
+  ],
+  "docs": "{@link https://design.visa.com/react/components/flag See Docs}",
+  "testAvg": 100
+}

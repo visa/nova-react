@@ -1,0 +1,71 @@
+{
+  "description": "Default summary element, styled as a button that is used to expand and collapse content.",
+  "displayName": "AccordionHeading",
+  "filePath": "/accordion-heading/index.tsx",
+  "gitLink": "https://stash.trusted.visa.com:7990/projects/VC/repos/nova-react/browse/libs/nova-react/src/accordion-heading/index.tsx",
+  "props": [
+    {
+      "description": "Alternate color scheme",
+      "name": "alternate",
+      "required": false,
+      "type": "boolean"
+    },
+    {
+      "description": "Size of Button",
+      "name": "buttonSize",
+      "required": false,
+      "type": "\"small\" | \"large\""
+    },
+    {
+      "description": "Color Scheme of Button",
+      "name": "colorScheme",
+      "required": false,
+      "type": "\"secondary\" | \"tertiary\""
+    },
+    {
+      "description": "Destructive Button",
+      "name": "destructive",
+      "required": false,
+      "type": "boolean"
+    },
+    {
+      "description": "Icon Button",
+      "name": "iconButton",
+      "required": false,
+      "type": "boolean"
+    },
+    {
+      "description": "Icon Two Button",
+      "name": "iconTwoColor",
+      "required": false,
+      "type": "boolean"
+    },
+    {
+      "description": "This is a useRef",
+      "name": "ref",
+      "required": false,
+      "type": "ForwardedRef<HTMLElementType>"
+    },
+    {
+      "description": "Stacked Button",
+      "name": "stacked",
+      "required": false,
+      "type": "boolean"
+    },
+    {
+      "description": "Subtle Button",
+      "name": "subtle",
+      "required": false,
+      "type": "boolean"
+    },
+    {
+      "defaultValue": "summary",
+      "description": "Tag (not compatible with element property)",
+      "name": "tag",
+      "required": false,
+      "type": "ElementType"
+    }
+  ],
+  "docs": "{@link https://design.visa.com/react/components/accordion See Docs}",
+  "testAvg": 100
+}

@@ -1,0 +1,8 @@
+{
+  "description": "{@link https://productdesignsystem.visa.com/react/components/section-message See Docs}",
+  "displayName": "SectionMessageIcon",
+  "filePath": "/section-message-icon/index.tsx",
+  "gitLink": "https://stash.trusted.visa.com:7990/projects/VC/repos/nova-react/browse/libs/nova-react/src/section-message-icon/index.tsx",
+  "props": [],
+  "testAvg": 100
+}

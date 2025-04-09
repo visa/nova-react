@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Select should render defaults correctly 1`] = `
+<div>
+  <select
+    class="v-input"
+    id="test-id"
+  />
+  <label
+    for="test-id"
+  >
+    Test Label
+  </label>
+</div>
+`;

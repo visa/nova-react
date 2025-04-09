@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`radio should render defaults correctly 1`] = `
+<div>
+  <input
+    class="v-radio"
+    id="test-radio"
+    type="radio"
+  />
+  <label
+    for="test-radio"
+  >
+    Test Label
+  </label>
+</div>
+`;

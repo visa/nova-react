@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DialogContent should render defaults correctly 1`] = `
+<div>
+  <div
+    class="v-message-content v-pb-2 v-pr-2"
+  />
+</div>
+`;

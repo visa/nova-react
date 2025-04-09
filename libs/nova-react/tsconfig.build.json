@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "allowImportingTsExtensions": false,
+    "declaration": true,
+    "declarationDir": "dist",
+    "noEmit": false
+  },
+  "extends": "../../tsconfig.json",
+  "exclude": ["node_modules", "src/**/*.test.*", "src/test-setup.ts"],
+  "include": ["src/"]
+}

@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Checkbox should render defaults correctly 1`] = `
+<div>
+  <input
+    class="v-checkbox"
+    id="checkbox-default"
+    type="checkbox"
+  />
+  <label
+    for="checkbox-default"
+  >
+    Test label
+  </label>
+</div>
+`;

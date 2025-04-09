@@ -1,0 +1,73 @@
+/**
+ *              Copyright (c) 2025 Visa, Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *         http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ **/
+import { VisaChevronDownTiny, VisaChevronRightTiny } from '@visa/nova-icons-react';
+import cn from 'clsx';
+import { ForwardedRef, ReactElement, cloneElement } from 'react';
+import { default as forwardRef, DefaultProperties } from '../types';
+
+const CSS_PREFIX = 'v-accordion-toggle-icon';
+
+export type AccordionToggleIconProperties = {
+  /** manually assign the open state of the accordion */
+  accordionOpen?: boolean;
+  /** @ignore */
+  children?: never;
+  /** @ignore */
+  className?: string;
+  /** The icon in closed state */
+  elementClosed?: ReactElement;
+  /** The icon in the open state */
+  elementOpen?: ReactElement;
+  /** @deprecated Migrate to `elementClosed` and `elementOpen` */
+  tag?: never;
+};
+
+const AccordionToggleIcon = <HTMLElementType,>(
+  {
+    accordionOpen,
+    className,
+    elementClosed = <VisaChevronRightTiny rtl />,
+    elementOpen = <VisaChevronDownTiny />,
+    ...remainingProps
+  }: AccordionToggleIconProperties,
+  ref: ForwardedRef<HTMLElementType>
+) => (
+  <>
+    {(!accordionOpen || accordionOpen === undefined) &&
+      cloneElement<AccordionToggleIconProperties & DefaultProperties<HTMLElementType>>(elementClosed, {
+        className: cn(CSS_PREFIX, `${CSS_PREFIX}-closed`, className, elementClosed.props.className),
+        ref,
+        style: { ...elementClosed.props.style },
+        ...remainingProps,
+      })}
+    {(accordionOpen || accordionOpen === undefined) &&
+      cloneElement<AccordionToggleIconProperties & DefaultProperties<HTMLElementType>>(elementOpen, {
+        className: cn(CSS_PREFIX, `${CSS_PREFIX}-open`, className, elementOpen.props.className),
+        ref,
+        style: { ...elementOpen.props.style },
+        ...remainingProps,
+      })}
+  </>
+);
+
+/**
+ * Component containing the icon and logic for the accordion toggle icon.
+ * @docs {@link https://design.visa.com/react/components/accordion | See Docs}
+ */
+export default forwardRef<AccordionToggleIconProperties, HTMLElement>(AccordionToggleIcon);
+
+AccordionToggleIcon.displayName = 'AccordionToggleIcon';

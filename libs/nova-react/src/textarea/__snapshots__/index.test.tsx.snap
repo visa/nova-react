@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Textarea should render defaults correctly 1`] = `
+<div>
+  <textarea
+    class="v-input"
+    id="test-id"
+  />
+  <label
+    for="test-id"
+  >
+    Test label
+  </label>
+</div>
+`;

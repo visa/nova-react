@@ -1,0 +1,5 @@
+**/meta.json
+**/*.ts
+**/*.tsx
+!**/*.d.ts
+/node_modules

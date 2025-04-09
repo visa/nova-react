@@ -1,0 +1,22 @@
+{
+  "description": "Container used with a radio component to add a border and background color.",
+  "displayName": "RadioPanel",
+  "filePath": "/radio-panel/index.tsx",
+  "gitLink": "https://stash.trusted.visa.com:7990/projects/VC/repos/nova-react/browse/libs/nova-react/src/radio-panel/index.tsx",
+  "props": [
+    {
+      "description": "This is a useRef",
+      "name": "ref",
+      "required": false,
+      "type": "ForwardedRef<HTMLElementType>"
+    },
+    {
+      "description": "Tag of Component",
+      "name": "tag",
+      "required": false,
+      "type": "ElementType"
+    }
+  ],
+  "docs": "{@link https://design.visa.com/react/components/radio See Docs}",
+  "testAvg": 100
+}

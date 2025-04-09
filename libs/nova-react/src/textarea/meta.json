@@ -1,0 +1,24 @@
+{
+  "description": "Input component with optional dynamic sizing, usually used for long-form text input.",
+  "displayName": "Textarea",
+  "filePath": "/textarea/index.tsx",
+  "gitLink": "https://stash.trusted.visa.com:7990/projects/VC/repos/nova-react/browse/libs/nova-react/src/textarea/index.tsx",
+  "props": [
+    {
+      "description": "fixed height",
+      "name": "fixed",
+      "required": false,
+      "type": "boolean"
+    },
+    {
+      "description": "This is a useRef",
+      "name": "ref",
+      "required": false,
+      "type": "ForwardedRef<HTMLElementType>"
+    }
+  ],
+  "vgar": "TODO",
+  "wcag": "TODO",
+  "docs": "{@link https://design.visa.com/react/components/textarea See Docs}",
+  "testAvg": 100
+}

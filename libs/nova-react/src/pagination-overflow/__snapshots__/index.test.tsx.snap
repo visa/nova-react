@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PaginationOverflow should render defaults correctly 1`] = `
+<div>
+  <ul>
+    <li
+      class="v-pagination-overflow"
+      data-testid="test-id"
+    />
+  </ul>
+</div>
+`;

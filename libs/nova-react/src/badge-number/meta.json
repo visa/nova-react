@@ -1,0 +1,49 @@
+{
+  "description": "Element to contain a number to display as a badge. Usually display on top of another element.",
+  "displayName": "BadgeNumber",
+  "filePath": "/badge-number/index.tsx",
+  "gitLink": "https://stash.trusted.visa.com:7990/projects/VC/repos/nova-react/browse/libs/nova-react/src/badge-number/index.tsx",
+  "props": [
+    {
+      "description": "Active style",
+      "name": "active",
+      "required": false,
+      "type": "boolean"
+    },
+    {
+      "description": "Type of Badge",
+      "name": "badgeType",
+      "required": false,
+      "type": "\"subtle\" | \"critical\" | \"neutral\" | \"stable\" | \"warning\""
+    },
+    {
+      "description": "Variant of Badge",
+      "name": "badgeVariant",
+      "required": false,
+      "type": "\"number\" | \"icon\""
+    },
+    {
+      "description": "Clear background",
+      "name": "clear",
+      "required": false,
+      "type": "boolean"
+    },
+    {
+      "description": "This is a useRef",
+      "name": "ref",
+      "required": false,
+      "type": "ForwardedRef<HTMLElementType>"
+    },
+    {
+      "description": "Tag of Component",
+      "name": "tag",
+      "required": false,
+      "type": "ElementType"
+    }
+  ],
+  "vgar": "TODO",
+  "wcag": "TODO",
+  "docs": "{@link https://design.visa.com/react/components/badge-number See Docs}",
+  "testAvg": 100,
+  "deprecated": "This component is deprecated and will be removed in the next major version. Please use the Badge component with the badgeVariant prop set to 'number' instead."
+}

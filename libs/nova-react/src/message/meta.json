@@ -1,0 +1,39 @@
+{
+  "description": "Container for message elements. This is the base element for banner, flag, and section message.",
+  "displayName": "Message",
+  "filePath": "/message/index.tsx",
+  "gitLink": "https://stash.trusted.visa.com:7990/projects/VC/repos/nova-react/browse/libs/nova-react/src/message/index.tsx",
+  "props": [
+    {
+      "description": "Message Type",
+      "name": "messageType",
+      "required": false,
+      "type": "\"subtle\" | \"warning\" | \"error\" | \"success\""
+    },
+    {
+      "description": "This is a useRef",
+      "name": "ref",
+      "required": false,
+      "type": "ForwardedRef<HTMLElementType>"
+    },
+    {
+      "defaultValue": "div",
+      "description": "Tag of Component",
+      "name": "tag",
+      "required": false,
+      "type": "ElementType"
+    }
+  ],
+  "related": [
+    "banner",
+    "flag",
+    "message-close-button",
+    "message-content",
+    "message-icon",
+    "section-message"
+  ],
+  "vgar": "TODO",
+  "wcag": "TODO",
+  "docs": "{@link https://design.visa.com/react/components See Docs}",
+  "testAvg": 100
+}

@@ -1,0 +1,31 @@
+{
+  "description": "Sets of vertical headers that reveal or hide the accordion panel.",
+  "displayName": "Accordion",
+  "filePath": "/accordion/index.tsx",
+  "gitLink": "https://stash.trusted.visa.com:7990/projects/VC/repos/nova-react/browse/libs/nova-react/src/accordion/index.tsx",
+  "props": [
+    {
+      "description": "This is a useRef",
+      "name": "ref",
+      "required": false,
+      "type": "ForwardedRef<HTMLElementType>"
+    },
+    {
+      "defaultValue": "details",
+      "description": "Tag of Component",
+      "name": "tag",
+      "required": false,
+      "type": "ElementType"
+    }
+  ],
+  "docs": "{@link https://design.visa.com/react/components/accordion See Docs}",
+  "related": [
+    "accordion-heading",
+    "accordion-panel",
+    "accordion-toggle-icon",
+    "use-accordion"
+  ],
+  "vgar": "TODO",
+  "wcag": "TODO",
+  "testAvg": 100
+}

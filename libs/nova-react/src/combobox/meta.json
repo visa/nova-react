@@ -1,0 +1,28 @@
+{
+  "description": "Dropdown menu enabling users to enter text or select items from a list.",
+  "displayName": "Combobox",
+  "filePath": "/combobox/index.tsx",
+  "gitLink": "https://stash.trusted.visa.com:7990/projects/VC/repos/nova-react/browse/libs/nova-react/src/combobox/index.tsx",
+  "props": [
+    {
+      "description": "This is a useRef",
+      "name": "ref",
+      "required": false,
+      "type": "ForwardedRef<HTMLElementType>"
+    },
+    {
+      "defaultValue": "div",
+      "description": "Tag of the component",
+      "name": "tag",
+      "required": false,
+      "type": "ElementType"
+    }
+  ],
+  "related": [
+    "dropdown-menu"
+  ],
+  "vgar": "TODO",
+  "wcag": "TODO",
+  "docs": "{@link https://design.visa.com/react/components/combobox See Docs}",
+  "testAvg": 100
+}

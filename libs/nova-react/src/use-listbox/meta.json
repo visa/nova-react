@@ -1,0 +1,73 @@
+{
+  "description": "This hook is used to manage the selected state and keyboard navigation of listbox component.",
+  "displayName": "useListbox",
+  "filePath": "/use-listbox/index.ts",
+  "gitLink": "https://stash.trusted.visa.com:7990/projects/VC/repos/nova-react/browse/libs/nova-react/src/use-listbox/index.ts",
+  "props": [
+    {
+      "defaultValue": false,
+      "description": "Auto select (not compatible with multi-select listbox)",
+      "name": "autoSelect",
+      "required": false,
+      "type": "boolean"
+    },
+    {
+      "defaultValue": -1,
+      "description": "Default selected elements",
+      "name": "defaultSelected",
+      "required": false,
+      "type": "number | number[]"
+    },
+    {
+      "description": "Ref for the tab elements",
+      "name": "ref",
+      "required": false,
+      "type": "MutableRefObject<HTMLElementType[]>"
+    }
+  ],
+  "vgar": "TODO",
+  "wcag": "TODO",
+  "returnType": [
+    {
+      "description": "Function that returns true if index is selected",
+      "name": "isIndexSelected",
+      "type": "(index: number) => boolean"
+    },
+    {
+      "description": "Get tab index for tab key navigation",
+      "name": "getTabIndex",
+      "type": "(index: number, disabled?: boolean) => -1 | 0"
+    },
+    {
+      "description": "Function that handles on key down for navigation",
+      "name": "onKeyNavigation",
+      "type": "(e: KeyboardEvent) => void"
+    },
+    {
+      "description": "Ref object to use if ref isn't supplied in props",
+      "name": "ref",
+      "type": "MutableRefObject<(HTMLElementType | null)[]>"
+    },
+    {
+      "description": "Index of the selected listbox",
+      "name": "selectedIndex",
+      "type": "number"
+    },
+    {
+      "description": "Indices of the selected listbox(s)",
+      "name": "selectedIndices",
+      "type": "number[]"
+    },
+    {
+      "description": "Function that toggles selected state of listbox",
+      "name": "toggleIndexSelected",
+      "type": "(index: number) => void"
+    }
+  ],
+  "related": [
+    "listbox"
+  ],
+  "docs": "{@link https://design.visa.com/react/hooks/use-listbox See Docs}",
+  "testAvg": 100,
+  "clientSideOnly": true
+}

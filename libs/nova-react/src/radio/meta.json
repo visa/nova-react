@@ -1,0 +1,28 @@
+{
+  "description": "Interactive elements that allow users to select a single option from a list.",
+  "displayName": "Radio",
+  "filePath": "/radio/index.tsx",
+  "gitLink": "https://stash.trusted.visa.com:7990/projects/VC/repos/nova-react/browse/libs/nova-react/src/radio/index.tsx",
+  "props": [
+    {
+      "description": "This is a useRef",
+      "name": "ref",
+      "required": false,
+      "type": "ForwardedRef<HTMLElementType>"
+    },
+    {
+      "defaultValue": "input",
+      "description": "Tag of Component",
+      "name": "tag",
+      "required": false,
+      "type": "ElementType"
+    }
+  ],
+  "vgar": "TODO",
+  "wcag": "TODO",
+  "related": [
+    "radio-panel"
+  ],
+  "docs": "{@link https://design.visa.com/react/components/radio See Docs}",
+  "testAvg": 100
+}

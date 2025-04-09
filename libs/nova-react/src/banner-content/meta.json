@@ -1,0 +1,8 @@
+{
+  "description": "{@link https://productdesignsystem.visa.com/react/components/banner See Docs}",
+  "displayName": "BannerContent",
+  "filePath": "/banner-content/index.tsx",
+  "gitLink": "https://stash.trusted.visa.com:7990/projects/VC/repos/nova-react/browse/libs/nova-react/src/banner-content/index.tsx",
+  "props": [],
+  "testAvg": 100
+}

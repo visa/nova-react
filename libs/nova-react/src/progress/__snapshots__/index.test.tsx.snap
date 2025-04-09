@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Progress should render circular defaults correctly 1`] = `
+<div>
+  <div
+    aria-label="default circular progress"
+    class="v-progress v-progress-circular"
+    role="progressbar"
+    style="animation-play-state: running; --v-progress-circular-size: 72px;"
+  >
+    <svg
+      class="v-progress-circular-track"
+    >
+      <circle
+        class="v-progress-circular-background"
+      />
+      <circle
+        class="v-progress-circular-bar"
+        style="stroke-dasharray: 0, 213.62830044410595; stroke-dashoffset: 0;"
+      />
+    </svg>
+  </div>
+</div>
+`;
+
+exports[`Progress should render defaults correctly (linear) 1`] = `
+<div>
+  <progress
+    class="v-progress v-progress-bar"
+    style="animation-play-state: running;"
+  />
+</div>
+`;

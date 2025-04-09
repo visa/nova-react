@@ -1,0 +1,109 @@
+{
+  "testAvg": 100,
+  "description": "This hook is used to to validate card numbers. This hook uses BIN regex's, length, Luhn checksum algorithm (modulo 10 check), and brands to check card number validity. This hook is designed to be flexible and allow for custom validators.",
+  "displayName": "useCardNumberValidation",
+  "filePath": "/use-card-number-validation/index.ts",
+  "gitLink": "https://stash.trusted.visa.com:7990/projects/VC/repos/nova-react/browse/libs/nova-react/src/use-card-number-validation/index.ts",
+  "props": [
+    {
+      "defaultValue": "undefined",
+      "description": "Allowed brands array, if undefined all brands allowed. This is used for validation only and will not filter the validators.",
+      "name": "allowedBrands",
+      "required": false,
+      "type": "Brand[]"
+    },
+    {
+      "description": "Default card number input state",
+      "name": "defaultCardNumberInputValue",
+      "required": false,
+      "type": "string"
+    },
+    {
+      "defaultValue": "undefined",
+      "description": "Filtered brands array, if undefined no brands will be filtered. Only these brands will be checked for, the rest will be filtered out.",
+      "name": "filteredForBrands",
+      "required": false,
+      "type": "Brand[]"
+    },
+    {
+      "defaultValue": true,
+      "description": "Remove all digits passed the matching card validator's max length",
+      "name": "trimToMaxLength",
+      "required": false,
+      "type": "boolean"
+    },
+    {
+      "defaultValue": "{ ...cardValidators }",
+      "description": "Custom validators if our validators don't fit your use cases",
+      "name": "validators",
+      "required": false,
+      "type": "Record<Brand, CardValidator<Brand>>"
+    }
+  ],
+  "returnType": [
+    {
+      "description": "BIN is valid",
+      "name": "binValid",
+      "type": "boolean"
+    },
+    {
+      "description": "Brand if BIN is valid, undefined if BIN is not valid",
+      "name": "brand",
+      "type": "Brand | undefined"
+    },
+    {
+      "description": "The brand input is included in allowedBrands",
+      "name": "brandValid",
+      "type": "boolean"
+    },
+    {
+      "description": "Raw input value state sent from onCardNumberChange",
+      "name": "cardNumberInputValue",
+      "type": "string"
+    },
+    {
+      "description": "Card validator from BIN if BIN is matched, undefined if BIN not recognized",
+      "name": "cardValidator",
+      "type": "CardValidator<Brand> | undefined"
+    },
+    {
+      "description": "cardNumberInputValue with non digit values filtered out, and/or max characters removed",
+      "name": "cleanCardNumber",
+      "type": "string"
+    },
+    {
+      "description": "cleanCardNumber with the proper spacing",
+      "name": "formattedCardNumber",
+      "type": "string"
+    },
+    {
+      "description": "Valid last digit based off mod 10 check",
+      "name": "lastDigitValid",
+      "type": "boolean"
+    },
+    {
+      "description": "The card number length is valid, validated with cleanCardNumber",
+      "name": "lengthValid",
+      "type": "boolean"
+    },
+    {
+      "description": "Setter for cardNumberInputValue state",
+      "name": "onCardNumberChange",
+      "type": "(cardNumberInputValue: string) => void"
+    },
+    {
+      "description": "The card number is fully valid based on BIN regex's, allowed brands, length, and modulo 10 check",
+      "name": "valid",
+      "type": "boolean"
+    }
+  ],
+  "docs": "{@link https://design.visa.com/react/hooks/use-card-number-validation See Docs}",
+  "disclaimer": "This hook's validation is not comprehensive and is subject to change. VPDS does not maintain acceptance marks for all brands for legal reasons. This hook is designed to let you bring your own validators, if custom validators are required for your use case.",
+  "related": [
+    "input",
+    "select"
+  ],
+  "returns": "",
+  "devNote": "This hook's validation is not comprehensive and is subject to change. VPDS does not maintain acceptance marks for all brands for legal reasons. This hook is designed to let you bring your own validators, if custom validators are required for your use case.",
+  "clientSideOnly": true
+}

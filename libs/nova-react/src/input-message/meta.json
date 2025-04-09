@@ -1,0 +1,29 @@
+{
+  "description": "Message shown beneath input components to provide context or guidance.",
+  "displayName": "InputMessage",
+  "filePath": "/input-message/index.tsx",
+  "gitLink": "https://stash.trusted.visa.com:7990/projects/VC/repos/nova-react/browse/libs/nova-react/src/input-message/index.tsx",
+  "props": [
+    {
+      "description": "Color variant",
+      "name": "colorScheme",
+      "required": false,
+      "type": "\"default\" | \"subtle\" | \"active\" | \"on-active\""
+    },
+    {
+      "description": "This is a useRef",
+      "name": "ref",
+      "required": false,
+      "type": "ForwardedRef<HTMLElementType>"
+    },
+    {
+      "defaultValue": "span",
+      "description": "Tag of Component",
+      "name": "tag",
+      "required": false,
+      "type": "ElementType"
+    }
+  ],
+  "docs": "{@link https://design.visa.com/react/components/input See Docs}",
+  "testAvg": 100
+}

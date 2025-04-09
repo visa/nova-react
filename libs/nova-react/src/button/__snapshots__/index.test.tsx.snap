@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button should render defaults correctly 1`] = `
+<div>
+  <button
+    class="v-button"
+  >
+    V-Button
+  </button>
+</div>
+`;

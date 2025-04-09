@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Progress should render defaults correctly 1`] = `
+<div>
+  <progress
+    class="v-progress v-progress-bar"
+    style="animation-play-state: running;"
+  />
+</div>
+`;

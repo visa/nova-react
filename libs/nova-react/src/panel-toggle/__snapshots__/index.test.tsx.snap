@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PanelToggle should render defaults correctly 1`] = `
+<div>
+  <button
+    class="v-button v-panel-toggle"
+  >
+    Test PanelToggle
+  </button>
+</div>
+`;

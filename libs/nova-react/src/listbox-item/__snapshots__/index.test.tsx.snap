@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ListboxItem should render defaults correctly 1`] = `
+<div>
+  <ul>
+    <li
+      class="v-listbox-item"
+      data-testid="test-id"
+    />
+  </ul>
+</div>
+`;

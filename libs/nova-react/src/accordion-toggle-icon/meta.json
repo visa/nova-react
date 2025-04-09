@@ -1,0 +1,36 @@
+{
+  "description": "Component containing the icon and logic for the accordion toggle icon.",
+  "displayName": "AccordionToggleIcon",
+  "filePath": "/accordion-toggle-icon/index.tsx",
+  "gitLink": "https://stash.trusted.visa.com:7990/projects/VC/repos/nova-react/browse/libs/nova-react/src/accordion-toggle-icon/index.tsx",
+  "props": [
+    {
+      "description": "manually assign the open state of the accordion",
+      "name": "accordionOpen",
+      "required": false,
+      "type": "boolean"
+    },
+    {
+      "defaultValue": "<VisaChevronRightTiny rtl />",
+      "description": "The icon in closed state",
+      "name": "elementClosed",
+      "required": false,
+      "type": "ReactElement<any, string | JSXElementConstructor<any>>"
+    },
+    {
+      "defaultValue": "<VisaChevronDownTiny />",
+      "description": "The icon in the open state",
+      "name": "elementOpen",
+      "required": false,
+      "type": "ReactElement<any, string | JSXElementConstructor<any>>"
+    },
+    {
+      "description": "This is a useRef",
+      "name": "ref",
+      "required": false,
+      "type": "ForwardedRef<HTMLElementType>"
+    }
+  ],
+  "docs": "{@link https://design.visa.com/react/components/accordion See Docs}",
+  "testAvg": 100
+}

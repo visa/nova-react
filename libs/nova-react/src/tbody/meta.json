@@ -1,0 +1,16 @@
+{
+  "description": "Table body component that contains all the tr and td cells.",
+  "displayName": "Tbody",
+  "filePath": "/tbody/index.tsx",
+  "gitLink": "https://stash.trusted.visa.com:7990/projects/VC/repos/nova-react/browse/libs/nova-react/src/tbody/index.tsx",
+  "props": [
+    {
+      "description": "This is a useRef",
+      "name": "ref",
+      "required": false,
+      "type": "ForwardedRef<HTMLElementType>"
+    }
+  ],
+  "docs": "{@link https://design.visa.com/react/components/table See Docs}",
+  "testAvg": 100
+}

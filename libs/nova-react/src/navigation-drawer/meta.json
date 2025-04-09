@@ -1,0 +1,6 @@
+{
+  "description": "Collapsible panel or menu next to page content that links to important pages or features.",
+  "displayName": "NavigationDrawer",
+  "noComponent": true,
+  "related": ["nav", "tabs"]
+}

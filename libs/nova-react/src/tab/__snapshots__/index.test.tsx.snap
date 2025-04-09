@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tab should render defaults correctly 1`] = `
+<div>
+  <ul>
+    <li
+      class="v-tab"
+      data-testid="test-id"
+    />
+  </ul>
+</div>
+`;

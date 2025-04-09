@@ -1,0 +1,71 @@
+{
+  "description": "This hook allows us to set the <defaultSelected> value, which indicates that we are selecting that item by default.",
+  "displayName": "useTabs",
+  "filePath": "/use-tabs/index.ts",
+  "gitLink": "https://stash.trusted.visa.com:7990/projects/VC/repos/nova-react/browse/libs/nova-react/src/use-tabs/index.ts",
+  "props": [
+    {
+      "defaultValue": null,
+      "description": "Arrow key navigation direction, 'horizontal', 'vertical', 'both', 'none'",
+      "name": "arrowKeyNavigation",
+      "required": false,
+      "type": "\"none\" | \"both\" | \"horizontal\" | \"vertical\""
+    },
+    {
+      "defaultValue": false,
+      "description": "Auto select tab on keyboard navigation",
+      "name": "autoSelect",
+      "required": false,
+      "type": "boolean"
+    },
+    {
+      "defaultValue": -1,
+      "description": "Default selected tab",
+      "name": "defaultSelected",
+      "required": false,
+      "type": "number"
+    },
+    {
+      "description": "Ref for the tab elements",
+      "name": "ref",
+      "required": false,
+      "type": "MutableRefObject<HTMLElementType[]>"
+    }
+  ],
+  "vgar": "TODO",
+  "wcag": "TODO",
+  "returnType": [
+    {
+      "description": "Get tab index for tab key navigation",
+      "name": "getTabIndex",
+      "type": "(index: number, disabled?: boolean) => -1 | 0"
+    },
+    {
+      "description": "Function that handles selected state of tabs",
+      "name": "onIndexChange",
+      "type": "(index: number, disabled?: boolean) => void"
+    },
+    {
+      "description": "Function that handles on key down for navigation",
+      "name": "onKeyNavigation",
+      "type": "(e: KeyboardEvent) => void"
+    },
+    {
+      "description": "Ref object to use if ref isn't supplied in props",
+      "name": "ref",
+      "type": "MutableRefObject<(HTMLElementType | null)[]>"
+    },
+    {
+      "description": "Index of the selected tab",
+      "name": "selectedIndex",
+      "type": "number"
+    }
+  ],
+  "related": [
+    "nav",
+    "tabs"
+  ],
+  "docs": "{@link https://design.visa.com/react/hooks/use-tabs See Docs}",
+  "testAvg": 100,
+  "clientSideOnly": true
+}

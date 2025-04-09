@@ -1,0 +1,16 @@
+{
+  "description": "Table head component that contains all the th cells.",
+  "displayName": "Thead",
+  "filePath": "/thead/index.tsx",
+  "gitLink": "https://stash.trusted.visa.com:7990/projects/VC/repos/nova-react/browse/libs/nova-react/src/thead/index.tsx",
+  "props": [
+    {
+      "description": "This is a useRef",
+      "name": "ref",
+      "required": false,
+      "type": "ForwardedRef<HTMLElementType>"
+    }
+  ],
+  "docs": "{@link https://design.visa.com/react/components/table See Docs}",
+  "testAvg": 100
+}

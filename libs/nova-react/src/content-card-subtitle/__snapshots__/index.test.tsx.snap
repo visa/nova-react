@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContentCardSubtitle should render defaults correctly 1`] = `
+<div>
+  <h4
+    class="v-content-card-subtitle"
+  >
+    Test ContentCardSubtitle
+  </h4>
+</div>
+`;

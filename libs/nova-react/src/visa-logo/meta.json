@@ -1,0 +1,27 @@
+{
+  "description": "Visa brand logo.",
+  "displayName": "Visa Logo",
+  "filePath": "/visa-logo/index.tsx",
+  "gitLink": "https://stash.trusted.visa.com:7990/projects/VC/repos/nova-react/browse/libs/nova-react/src/visa-logo/index.tsx",
+  "props": [
+    {
+      "description": "CSS class name",
+      "name": "className",
+      "required": false,
+      "type": "string"
+    },
+    {
+      "description": "aria-label for the logo",
+      "name": "aria-label",
+      "required": false,
+      "type": "string"
+    }
+  ],
+  "related": [
+    "nav",
+    "footer"
+  ],
+  "vgar": "TODO",
+  "wcag": "TODO",
+  "testAvg": 100
+}

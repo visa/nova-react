@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContentCard should render defaults correctly 1`] = `
+<div>
+  <div
+    class="v-content-card"
+  />
+</div>
+`;

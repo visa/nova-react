@@ -1,0 +1,24 @@
+{
+  "description": "Visual element used to separate and group information on a page.",
+  "displayName": "Divider",
+  "filePath": "/divider/index.tsx",
+  "gitLink": "https://stash.trusted.visa.com:7990/projects/VC/repos/nova-react/browse/libs/nova-react/src/divider/index.tsx",
+  "props": [
+    {
+      "description": "Divider Type",
+      "name": "dividerType",
+      "required": false,
+      "type": "\"section\" | \"decorative\""
+    },
+    {
+      "description": "This is a useRef",
+      "name": "ref",
+      "required": false,
+      "type": "ForwardedRef<HTMLElementType>"
+    }
+  ],
+  "vgar": "TODO",
+  "wcag": "TODO",
+  "docs": "{@link https://design.visa.com/react/components/divider See Docs}",
+  "testAvg": 100
+}

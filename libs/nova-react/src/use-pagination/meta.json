@@ -1,0 +1,118 @@
+{
+  "description": "This hook is used to manage pagination events, state, and visible page blocks.",
+  "displayName": "usePagination",
+  "filePath": "/use-pagination/index.ts",
+  "gitLink": "https://stash.trusted.visa.com:7990/projects/VC/repos/nova-react/browse/libs/nova-react/src/use-pagination/index.ts",
+  "props": [
+    {
+      "defaultValue": 1,
+      "description": "Default selected page",
+      "name": "defaultSelected",
+      "required": false,
+      "type": "number"
+    },
+    {
+      "defaultValue": 3,
+      "description": "Maximum length of pages to show on the end pagination block",
+      "name": "endBlockMaxLength",
+      "required": false,
+      "type": "number"
+    },
+    {
+      "defaultValue": null,
+      "description": "Maximum page number to be shown, (default null for no maximum)",
+      "name": "maxPageNumber",
+      "required": false,
+      "type": "number"
+    },
+    {
+      "defaultValue": 3,
+      "description": "Maximum length of pages to show on the middle pagination block",
+      "name": "middleBlockMaxLength",
+      "required": false,
+      "type": "number"
+    },
+    {
+      "defaultValue": -1,
+      "description": "What to separate the pagination array up with, usually this separator will be replaced with icon or ellipses when shown in the UI",
+      "name": "separator",
+      "required": false,
+      "type": "string | number"
+    },
+    {
+      "defaultValue": 3,
+      "description": "Maximum length of pages to show on the start pagination block",
+      "name": "startBlockMaxLength",
+      "required": false,
+      "type": "number"
+    },
+    {
+      "defaultValue": 1,
+      "description": "Start from this page",
+      "name": "startPage",
+      "required": false,
+      "type": "number"
+    },
+    {
+      "description": "Length of total pages",
+      "name": "totalPages",
+      "required": true,
+      "type": "number"
+    }
+  ],
+  "returnType": [
+    {
+      "description": "Is first page currently selected",
+      "name": "isFirstPage",
+      "type": "boolean"
+    },
+    {
+      "description": "Is last page currently selected",
+      "name": "isLastPage",
+      "type": "boolean"
+    },
+    {
+      "description": "Event to handle first page selection",
+      "name": "onFirstPage",
+      "type": "() => void"
+    },
+    {
+      "description": "Event to handle last page selection",
+      "name": "onLastPage",
+      "type": "() => void"
+    },
+    {
+      "description": "Event to handle next page selection",
+      "name": "onNextPage",
+      "type": "() => void"
+    },
+    {
+      "description": "Event to handle page selection",
+      "name": "onPageChange",
+      "type": "(pageNumber: number) => void"
+    },
+    {
+      "description": "Event to handle previous page selection",
+      "name": "onPreviousPage",
+      "type": "() => void"
+    },
+    {
+      "description": "Array of currently visible pages split by separator",
+      "name": "pages",
+      "type": "(string | number)[]"
+    },
+    {
+      "description": "Currently selected page",
+      "name": "selectedPage",
+      "type": "number"
+    }
+  ],
+  "vgar": "TODO",
+  "wcag": "TODO",
+  "related": [
+    "pagination"
+  ],
+  "docs": "{@link https://design.visa.com/react/hooks/use-pagination See Docs}",
+  "testAvg": 100,
+  "clientSideOnly": true
+}

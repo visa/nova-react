@@ -1,0 +1,23 @@
+{
+  "description": "Component containing the header of the anchor link menu.",
+  "displayName": "AnchorLinkMenuHeader",
+  "filePath": "/anchor-link-menu-header/index.tsx",
+  "gitLink": "https://stash.trusted.visa.com:7990/projects/VC/repos/nova-react/browse/libs/nova-react/src/anchor-link-menu-header/index.tsx",
+  "props": [
+    {
+      "description": "This is a useRef",
+      "name": "ref",
+      "required": false,
+      "type": "ForwardedRef<HTMLElementType>"
+    },
+    {
+      "defaultValue": "div",
+      "description": "Tag of Component",
+      "name": "tag",
+      "required": false,
+      "type": "ElementType"
+    }
+  ],
+  "docs": "{@link https://design.visa.com/react/components/anchor-link-menu See Docs}",
+  "testAvg": 100
+}

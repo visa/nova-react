@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Wizard should render defaults correctly 1`] = `
+<div>
+  <ol
+    class="v-wizard"
+  />
+</div>
+`;

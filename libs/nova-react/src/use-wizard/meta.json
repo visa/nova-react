@@ -1,0 +1,132 @@
+{
+  "description": "This hook is used to control the state of a wizard component.",
+  "displayName": "useWizard",
+  "filePath": "/use-wizard/index.ts",
+  "gitLink": "https://stash.trusted.visa.com:7990/projects/VC/repos/nova-react/browse/libs/nova-react/src/use-wizard/index.ts",
+  "props": [
+    {
+      "defaultValue": true,
+      "description": "Auto progress on complete",
+      "name": "autoProgressComplete",
+      "required": false,
+      "type": "boolean"
+    },
+    {
+      "defaultValue": false,
+      "description": "Auto progress on error",
+      "name": "autoProgressError",
+      "required": false,
+      "type": "boolean"
+    },
+    {
+      "defaultValue": 0,
+      "description": "Current step",
+      "name": "defaultActiveStep",
+      "required": false,
+      "type": "number"
+    },
+    {
+      "defaultValue": true,
+      "description": "If the complete and error sets are mutually exclusive",
+      "name": "isExclusiveSets",
+      "required": false,
+      "type": "boolean"
+    },
+    {
+      "description": "Length of steps",
+      "name": "length",
+      "required": true,
+      "type": "number"
+    }
+  ],
+  "docs": "{@link https://design.visa.com/react/hooks/use-wizard See Docs}",
+  "returnType": [
+    {
+      "description": "Return the current step of the wizard",
+      "name": "currentStep",
+      "type": "number"
+    },
+    {
+      "description": "Check if the wizard has any error step",
+      "name": "hasError",
+      "type": "() => boolean"
+    },
+    {
+      "description": "Check if the step is available",
+      "name": "isStepAvailable",
+      "type": "(index: number) => boolean"
+    },
+    {
+      "description": "Check if the current step is the first step",
+      "name": "isFirstStep",
+      "type": "(index: number) => boolean"
+    },
+    {
+      "description": "Check if the current step is the last step",
+      "name": "isLastStep",
+      "type": "(index: number) => boolean"
+    },
+    {
+      "description": "Check if the step is completed",
+      "name": "isStepComplete",
+      "type": "(index: number) => boolean"
+    },
+    {
+      "description": "Check if the step has an error",
+      "name": "isStepError",
+      "type": "(index: number) => boolean"
+    },
+    {
+      "description": "Check if the wizard is complete",
+      "name": "isWizardComplete",
+      "type": "() => boolean"
+    },
+    {
+      "description": "Return the maximum available step of the wizard",
+      "name": "maxStep",
+      "type": "number"
+    },
+    {
+      "description": "Move to the selected step",
+      "name": "onStepChange",
+      "type": "(index: number) => void"
+    },
+    {
+      "description": "Move to the next step",
+      "name": "onStepNext",
+      "type": "() => void"
+    },
+    {
+      "description": "Move to the previous step",
+      "name": "onStepPrevious",
+      "type": "() => void"
+    },
+    {
+      "description": "Mark the step as complete",
+      "name": "onStepComplete",
+      "type": "(index: number, { autoProgress = true }) => void"
+    },
+    {
+      "description": "Mark the step as error",
+      "name": "onStepError",
+      "type": "(index: number, { autoProgress = false }) => void"
+    },
+    {
+      "description": "Reset the step status",
+      "name": "onStepReset",
+      "type": "(index: number) => void"
+    },
+    {
+      "description": "Reset the wizard status (to the desired step)",
+      "name": "onWizardReset",
+      "type": "(index: number) => void"
+    }
+  ],
+  "related": [
+    "wizard"
+  ],
+  "vgar": "TODO",
+  "wcag": "TODO",
+  "testAvg": 100,
+  "clientSideOnly": true
+}

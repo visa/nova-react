@@ -1,0 +1,22 @@
+{
+  "description": "Text elements to only be read by screen readers but not shown visually on screen.",
+  "displayName": "ScreenReader",
+  "filePath": "/screen-reader/index.tsx",
+  "gitLink": "https://stash.trusted.visa.com:7990/projects/VC/repos/nova-react/browse/libs/nova-react/src/screen-reader/index.tsx",
+  "props": [
+    {
+      "description": "This is a useRef",
+      "name": "ref",
+      "required": false,
+      "type": "ForwardedRef<HTMLElementType>"
+    },
+    {
+      "defaultValue": "span",
+      "description": "Tag of Component",
+      "name": "tag",
+      "required": false,
+      "type": "ElementType"
+    }
+  ],
+  "testAvg": 100
+}
