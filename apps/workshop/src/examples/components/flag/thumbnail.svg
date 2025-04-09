@@ -1,0 +1,53 @@
+<svg width="304" height="140" viewBox="0 0 304 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g clip-path="url(#clip0_4033_14730)">
+        <rect width="304" height="140" fill="var(--palette-default-surface-2, #F0F0F0)" />
+        <g clip-path="url(#clip1_4033_14730)">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M68.8546 82.2222H151.582V82.1533H68.8546V82.2222ZM89.5365 82.0843H106.082V81.8085H89.5365V82.0843ZM110.218 81.5409L142.999 81.7396H77.4376L110.218 81.5409ZM114.355 82.0843H130.9V81.8085H114.355V82.0843ZM151.582 82.0843H139.173V81.8086H155.718C157.509 81.8086 159.097 81.799 159.652 81.7848C160.206 81.7706 159.598 81.755 158.15 81.7462L112.65 81.4705C111.202 81.4617 109.234 81.4617 107.786 81.4705L62.2858 81.7462C60.834 81.755 60.2301 81.7706 60.7843 81.7848C61.3345 81.799 62.9228 81.8086 64.718 81.8086H81.2635V82.0843H68.8544C64.2837 82.0843 60.5817 82.1152 60.5817 82.1533V82.2222C60.5817 82.2603 64.2837 82.2911 68.8544 82.2911H151.582C156.148 82.2911 159.854 82.2603 159.854 82.2222V82.1533C159.854 82.1152 156.148 82.0843 151.582 82.0843Z"
+                fill="#003EA9" />
+            <rect x="49.4136" y="-24.5864" width="206.173" height="146.173"
+                fill="var(--palette-default-surface-1, white)" stroke="var(--palette-default-surface-2, #F0F0F0)"
+                stroke-width="0.827273" />
+            <rect x="88" y="7" width="127.4" height="3" rx="1.5" fill="var(--palette-default-text, black)"
+                fill-opacity="0.1" />
+            <rect x="88" y="47" width="127.4" height="3" rx="1.5" fill="var(--palette-default-text, black)"
+                fill-opacity="0.1" />
+            <rect x="88" y="-4" width="79" height="6" rx="3" fill="var(--palette-default-text, black)"
+                fill-opacity="0.1" />
+            <rect x="88" y="36" width="79" height="6" rx="3" fill="var(--palette-default-text, black)"
+                fill-opacity="0.1" />
+            <rect x="88" y="14" width="127.4" height="3" rx="1.5" fill="var(--palette-default-text, black)"
+                fill-opacity="0.1" />
+            <rect x="88" y="54" width="127.4" height="3" rx="1.5" fill="var(--palette-default-text, black)"
+                fill-opacity="0.1" />
+            <g clip-path="url(#clip2_4033_14730)">
+                <rect x="57" y="79" width="152.087" height="33" rx="4.30435"
+                    fill="var(--palette-default-surface-1, white)" />
+                <path
+                    d="M57 110.131H209.087C209.087 111.235 208.192 112.131 207.087 112.131H59C57.8954 112.131 57 111.235 57 110.131Z"
+                    fill="#40996B" />
+                <rect x="79" y="89" width="67.4348" height="3" rx="1.5" fill="var(--palette-default-text, black)"
+                    fill-opacity="0.5" />
+                <rect x="79" y="97" width="94" height="3" rx="1.5" fill="var(--palette-default-text, black)"
+                    fill-opacity="0.2" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M73 90.625C73 88.0362 70.7614 85.9375 68 85.9375C65.2386 85.9375 63 88.0362 63 90.625C63 93.2138 65.2386 95.3125 68 95.3125C70.7614 95.3125 73 93.2138 73 90.625ZM74 90.625C74 93.7315 71.3136 96.25 68 96.25C64.6864 96.25 62 93.7315 62 90.625C62 87.5185 64.6864 85 68 85C71.3136 85 74 87.5185 74 90.625ZM69.6464 89.356C69.8417 89.173 70.1583 89.173 70.3536 89.356C70.5488 89.5391 70.5488 89.8359 70.3536 90.019L67.8536 92.3627C67.6583 92.5458 67.3417 92.5458 67.1464 92.3627L65.6464 90.9565C65.4512 90.7734 65.4512 90.4766 65.6464 90.2935C65.8417 90.1105 66.1583 90.1105 66.3536 90.2935L67.5 91.3683L69.6464 89.356Z"
+                    fill="#40996B" />
+            </g>
+            <rect x="57" y="79" width="126" height="33" rx="4" stroke="var(--palette-default-text, black)"
+                stroke-opacity="0.1" />
+        </g>
+    </g>
+    <defs>
+        <clipPath id="clip0_4033_14730">
+            <rect width="304" height="140" fill="var(--palette-default-surface-1, white)" />
+        </clipPath>
+        <clipPath id="clip1_4033_14730">
+            <rect width="206.818" height="182" fill="var(--palette-default-surface-1, white)"
+                transform="translate(49 -60)" />
+        </clipPath>
+        <clipPath id="clip2_4033_14730">
+            <rect x="57" y="79" width="126" height="33" rx="4" fill="var(--palette-default-surface-1, white)" />
+        </clipPath>
+    </defs>
+</svg>

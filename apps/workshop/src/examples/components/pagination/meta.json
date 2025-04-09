@@ -1,0 +1,41 @@
+{
+  "min-max-pagination": {
+    "file": "min-max-pagination.tsx",
+    "id": "min-max-pagination",
+    "title": "Pagination with minimum and maximum",
+    "testAvg": 100
+  },
+  "one-digit-pagination": {
+    "file": "one-digit-pagination.tsx",
+    "id": "one-digit-pagination",
+    "title": "Default pagination with first page selected",
+    "testAvg": 100
+  },
+  "slim-pagination": {
+    "file": "slim-pagination.tsx",
+    "id": "slim-pagination",
+    "title": "Default slim pagination",
+    "testAvg": 100
+  },
+  "last-page-selected": {
+    "file": "last-page-selected.tsx",
+    "id": "last-page-selected",
+    "title": "Default pagination with last page selected",
+    "testAvg": 100
+  },
+  "table-pagination": {
+    "file": "table-pagination.tsx",
+    "id": "table-pagination",
+    "title": "Pagination for tables",
+    "testAvg": 100
+  },
+  "two-digit-pagination": {
+    "file": "two-digit-pagination.tsx",
+    "id": "two-digit-pagination",
+    "title": "Default pagination with middle page selected",
+    "testAvg": 100
+  },
+  "meta": {
+    "designReviewDate": "2024-05-09"
+  }
+}

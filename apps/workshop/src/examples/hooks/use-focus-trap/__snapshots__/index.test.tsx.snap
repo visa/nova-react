@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`useFocusTrap example Behavior and usage should render correctly 1`] = `
+<div>
+  <button
+    class="v-button"
+  >
+    Open dialog
+  </button>
+  <dialog
+    aria-describedby="use-focus-trap-usage-description"
+    aria-labelledby="use-focus-trap-usage-title"
+    class="v-message v-dialog v-dialog-default"
+    id="use-focus-trap-usage"
+  >
+    <div
+      class="v-message-content v-pb-2 v-pr-2"
+    >
+      <h2
+        class="v-dialog-header v-align-items-center v-flex v-gap-6 v-justify-content-start"
+        id="use-focus-trap-usage-title"
+      >
+        Default title
+      </h2>
+      <p
+        id="use-focus-trap-usage-description"
+      >
+        This is required text that describes the dialog title in more detail.
+      </p>
+      <div
+        class="v-align-items-center v-flex v-flex-wrap v-gap-8 v-justify-content-end v-pt-16"
+      >
+        <button
+          class="v-button"
+        >
+          Primary action
+        </button>
+        <button
+          class="v-button v-button-secondary"
+        >
+          Secondary action
+        </button>
+      </div>
+    </div>
+    <button
+      aria-label="Close"
+      class="v-button v-button-small v-button-tertiary v-button-icon v-button-subtle -v-mt-20 -v-ml-12 -v-mr-18"
+    >
+      <svg
+        aria-hidden="true"
+        class="v-icon v-icon-visa v-icon-tiny v-icon-close"
+        focusable="false"
+        height="16"
+        viewBox="0 0 16 16"
+        width="16"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          class="v-icon-primary"
+          d="M8.00001 9.4149L13.9498 15.3646L15.364 13.9504L9.41423 8.00069L15.364 2.05094L13.9498 0.636723L8.00001 6.58647L2.05026 0.636719L0.636047 2.05093L6.5858 8.00069L0.636054 13.9504L2.05027 15.3646L8.00001 9.4149Z"
+        />
+        <defs>
+          <clippath>
+            <rect
+              height="16"
+              transform="translate(0 0.000488281)"
+              width="16"
+            />
+          </clippath>
+        </defs>
+      </svg>
+    </button>
+  </dialog>
+</div>
+`;

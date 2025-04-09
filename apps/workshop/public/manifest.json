@@ -1,0 +1,33 @@
+{
+  "background_color": "#1434CB",
+  "display": "minimal-ui",
+  "description": "Visa Design System Nova React Library is a collection of reusable components and styles that are used to build Visa products.",
+  "icons": [
+    {
+      "src": "logo-64x64.png",
+      "sizes": "64x64",
+      "type": "image/png"
+    },
+    {
+      "src": "logo-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "logo-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "maskable-logo-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "name": "VPDS Nova | React",
+  "orientation": "any",
+  "short_name": "VPDS Nova | React",
+  "start_url": "/react",
+  "theme_color": "#1434CB"
+}

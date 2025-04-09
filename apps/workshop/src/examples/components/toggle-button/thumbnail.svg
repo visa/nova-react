@@ -1,0 +1,47 @@
+<svg width="300" height="140" viewBox="0 0 300 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect width="300" height="140" fill="var(--palette-default-surface-2, #F0F0F0)" />
+    <g filter="url(#filter0_ii_2887_84888)">
+        <mask id="path-2-inside-1_2887_84888" fill="var(--palette-default-surface-1, white)">
+            <path d="M56 49H149V91H56V49Z" />
+        </mask>
+        <path d="M56 49H149V91H56V49Z" fill="var(--palette-default-surface-2, #F0F0F0)" />
+        <path fill-rule="evenodd" clip-rule="evenodd"
+            d="M67 65H69V67H67V65ZM65 69V63H71V69H65ZM67 73H69V75H67V73ZM65 77V71H71V77H65ZM77 65H75V67H77V65ZM73 63V69H79V63H73ZM75 73H77V75H75V73ZM73 77V71H79V77H73Z"
+            fill="var(--palette-default-active, #1434CB)" />
+        <rect x="86" y="67.5" width="55" height="5" rx="2.5" fill="var(--palette-default-text, black)"
+            fill-opacity="0.5" />
+        <path d="M56 49H149H56ZM149 93H56V89H149V93ZM56 91V49V91ZM149 49V91V49Z"
+            fill="var(--palette-default-active, #1434CB)" mask="url(#path-2-inside-1_2887_84888)" />
+    </g>
+    <path d="M149.5 49L149.5 91" stroke="var(--palette-default-active, #1434CB)" />
+    <path d="M150.5 49L150.5 91" stroke="var(--palette-default-active, #1434CB)" />
+    <rect width="93" height="42" transform="translate(151 49)" fill="var(--palette-default-surface-1, white)" />
+    <path fill-rule="evenodd" clip-rule="evenodd"
+        d="M163 65H161V67H163V65ZM159 63V69H165V63H159ZM167 67H175V65H167V67ZM167 75H175V73H167V75ZM161 73H163V75H161V73ZM159 77V71H165V77H159Z"
+        fill="var(--palette-default-active, #1434CB)" />
+    <rect x="181" y="67.5" width="55" height="5" rx="2.5" fill="var(--palette-default-text, black)"
+        fill-opacity="0.2" />
+    <rect x="55.5" y="48.5" width="189" height="43" rx="5.5" stroke="var(--palette-default-active, #1434CB)" />
+    <defs>
+        <filter id="filter0_ii_2887_84888" x="56" y="49" width="93" height="42" filterUnits="userSpaceOnUse"
+            color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                result="hardAlpha" />
+            <feOffset />
+            <feGaussianBlur stdDeviation="2" />
+            <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0" />
+            <feBlend mode="normal" in2="shape" result="effect1_innerShadow_2887_84888" />
+            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                result="hardAlpha" />
+            <feMorphology radius="1" operator="erode" in="SourceAlpha" result="effect2_innerShadow_2887_84888" />
+            <feOffset />
+            <feGaussianBlur stdDeviation="2" />
+            <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2 0" />
+            <feBlend mode="normal" in2="effect1_innerShadow_2887_84888" result="effect2_innerShadow_2887_84888" />
+        </filter>
+    </defs>
+</svg>

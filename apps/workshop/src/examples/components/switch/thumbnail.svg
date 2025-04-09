@@ -1,0 +1,6 @@
+<svg width="300" height="140" viewBox="0 0 300 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect width="300" height="140" fill="var(--palette-default-surface-2, #F0F0F0)" />
+    <rect x="128" y="58" width="44" height="24" rx="12" fill="var(--palette-default-active, #1434CB)" />
+    <rect x="151.5" y="61.5" width="17" height="17" rx="8.5" fill="var(--palette-default-surface-1, white)" />
+    <rect x="151.5" y="61.5" width="17" height="17" rx="8.5" stroke="var(--palette-default-surface-1, white)" />
+</svg>

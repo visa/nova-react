@@ -1,0 +1,1588 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Combobox examples autocomplete with auto selection should render correctly 1`] = `
+<div>
+  <div
+    class="v-combobox"
+  >
+    <div
+      class="v-dropdown v-flex v-flex-col v-gap-4"
+    >
+      <label
+        class="v-label"
+        for="downshift-:ru:-input"
+        id="downshift-:ru:-label"
+      >
+        Label
+      </label>
+      <div
+        class="v-surface v-input-container v-flex-row"
+      >
+        <input
+          aria-activedescendant=""
+          aria-autocomplete="list"
+          aria-controls="downshift-:ru:-menu"
+          aria-expanded="false"
+          aria-haspopup="listbox"
+          aria-labelledby="downshift-:ru:-label"
+          aria-owns="downshift-:ru:-menu"
+          autocomplete="off"
+          class="v-input"
+          id="downshift-:ru:-input"
+          name="text-input-field-11"
+          role="combobox"
+          type="text"
+          value=""
+        />
+        <button
+          aria-controls="downshift-:ru:-menu"
+          aria-expanded="false"
+          aria-label="expand"
+          class="v-button v-button-small v-button-tertiary v-button-icon"
+          id="downshift-:ru:-toggle-button"
+          tabindex="-1"
+        >
+          <svg
+            aria-hidden="true"
+            class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-down"
+            focusable="false"
+            height="16"
+            viewBox="0 0 16 16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="v-icon-primary"
+              clip-rule="evenodd"
+              d="M2.47597 4.00049L1 5.39358L8 12.0005L15 5.39358L13.524 4.00049L8 9.21431L2.47597 4.00049Z"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div
+      class="v-listbox-container"
+    >
+      <ul
+        aria-labelledby="downshift-:ru:-label"
+        class="v-listbox"
+        id="downshift-:ru:-menu"
+        role="listbox"
+      >
+        <li
+          aria-disabled="false"
+          aria-selected="false"
+          class="v-listbox-item"
+          id="downshift-:ru:-item-0"
+          role="option"
+        >
+          <span
+            class="v-radio v-flex-shrink-0"
+          />
+          Option A
+        </li>
+        <li
+          aria-disabled="false"
+          aria-selected="false"
+          class="v-listbox-item"
+          id="downshift-:ru:-item-1"
+          role="option"
+        >
+          <span
+            class="v-radio v-flex-shrink-0"
+          />
+          Option B
+        </li>
+        <li
+          aria-disabled="false"
+          aria-selected="false"
+          class="v-listbox-item"
+          id="downshift-:ru:-item-2"
+          role="option"
+        >
+          <span
+            class="v-radio v-flex-shrink-0"
+          />
+          Option C
+        </li>
+        <li
+          aria-disabled="false"
+          aria-selected="false"
+          class="v-listbox-item"
+          id="downshift-:ru:-item-3"
+          role="option"
+        >
+          <span
+            class="v-radio v-flex-shrink-0"
+          />
+          Option D
+        </li>
+        <li
+          aria-disabled="false"
+          aria-selected="false"
+          class="v-listbox-item"
+          id="downshift-:ru:-item-4"
+          role="option"
+        >
+          <span
+            class="v-radio v-flex-shrink-0"
+          />
+          Option E
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Combobox examples autocomplete with manual selection should render correctly 1`] = `
+<div>
+  <div
+    class="v-combobox"
+  >
+    <div
+      class="v-dropdown v-flex v-flex-col v-gap-4"
+    >
+      <label
+        class="v-label"
+        for="downshift-:r11:-input"
+        id="downshift-:r11:-label"
+      >
+        Label
+      </label>
+      <div
+        class="v-surface v-input-container v-flex-row"
+      >
+        <input
+          aria-activedescendant=""
+          aria-autocomplete="list"
+          aria-controls="downshift-:r11:-menu"
+          aria-expanded="false"
+          aria-haspopup="listbox"
+          aria-labelledby="downshift-:r11:-label"
+          aria-owns="downshift-:r11:-menu"
+          autocomplete="off"
+          class="v-input"
+          id="downshift-:r11:-input"
+          name="text-input-field-12"
+          role="combobox"
+          type="text"
+          value=""
+        />
+        <button
+          aria-controls="downshift-:r11:-menu"
+          aria-expanded="false"
+          aria-label="expand"
+          class="v-button v-button-small v-button-tertiary v-button-icon"
+          id="downshift-:r11:-toggle-button"
+          tabindex="-1"
+        >
+          <svg
+            aria-hidden="true"
+            class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-down"
+            focusable="false"
+            height="16"
+            viewBox="0 0 16 16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="v-icon-primary"
+              clip-rule="evenodd"
+              d="M2.47597 4.00049L1 5.39358L8 12.0005L15 5.39358L13.524 4.00049L8 9.21431L2.47597 4.00049Z"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div
+      class="v-listbox-container"
+    >
+      <ul
+        aria-labelledby="downshift-:r11:-label"
+        class="v-listbox"
+        id="downshift-:r11:-menu"
+        role="listbox"
+      >
+        <li
+          aria-disabled="false"
+          aria-selected="false"
+          class="v-listbox-item"
+          id="downshift-:r11:-item-0"
+          role="option"
+        >
+          <span
+            class="v-radio v-flex-shrink-0"
+          />
+          Option A
+        </li>
+        <li
+          aria-disabled="false"
+          aria-selected="false"
+          class="v-listbox-item"
+          id="downshift-:r11:-item-1"
+          role="option"
+        >
+          <span
+            class="v-radio v-flex-shrink-0"
+          />
+          Option B
+        </li>
+        <li
+          aria-disabled="false"
+          aria-selected="false"
+          class="v-listbox-item"
+          id="downshift-:r11:-item-2"
+          role="option"
+        >
+          <span
+            class="v-radio v-flex-shrink-0"
+          />
+          Option C
+        </li>
+        <li
+          aria-disabled="false"
+          aria-selected="false"
+          class="v-listbox-item"
+          id="downshift-:r11:-item-3"
+          role="option"
+        >
+          <span
+            class="v-radio v-flex-shrink-0"
+          />
+          Option D
+        </li>
+        <li
+          aria-disabled="false"
+          aria-selected="false"
+          class="v-listbox-item"
+          id="downshift-:r11:-item-4"
+          role="option"
+        >
+          <span
+            class="v-radio v-flex-shrink-0"
+          />
+          Option E
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Combobox examples clear button combobox should render correctly 1`] = `
+<div>
+  <div
+    class="v-combobox"
+  >
+    <div
+      class="v-dropdown v-flex v-flex-col v-gap-4"
+    >
+      <label
+        class="v-label"
+        for="downshift-:rf:-input"
+        id="downshift-:rf:-label"
+      >
+        Label
+      </label>
+      <div
+        class="v-surface v-input-container v-flex-row"
+      >
+        <input
+          aria-activedescendant=""
+          aria-autocomplete="list"
+          aria-controls="downshift-:rf:-menu"
+          aria-expanded="false"
+          aria-haspopup="listbox"
+          aria-labelledby="downshift-:rf:-label"
+          aria-owns="downshift-:rf:-menu"
+          autocomplete="off"
+          class="v-input"
+          id="downshift-:rf:-input"
+          name="text-input-field-4"
+          role="combobox"
+          type="text"
+          value="Option A"
+        />
+        <button
+          aria-controls="downshift-:rf:-menu"
+          aria-expanded="false"
+          aria-label="expand"
+          class="v-button v-button-small v-button-tertiary v-button-icon"
+          id="downshift-:rf:-toggle-button"
+          tabindex="-1"
+        >
+          <svg
+            aria-hidden="true"
+            class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-down"
+            focusable="false"
+            height="16"
+            viewBox="0 0 16 16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="v-icon-primary"
+              clip-rule="evenodd"
+              d="M2.47597 4.00049L1 5.39358L8 12.0005L15 5.39358L13.524 4.00049L8 9.21431L2.47597 4.00049Z"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div
+      class="v-listbox-container"
+    >
+      <ul
+        aria-labelledby="downshift-:rf:-label"
+        class="v-listbox"
+        id="downshift-:rf:-menu"
+        role="listbox"
+      >
+        <li
+          aria-disabled="false"
+          aria-selected="true"
+          class="v-listbox-item"
+          id="downshift-:rf:-item-0"
+          role="option"
+        >
+          <span
+            class="v-radio v-flex-shrink-0"
+          />
+          Option A
+        </li>
+        <li
+          aria-disabled="false"
+          aria-selected="false"
+          class="v-listbox-item"
+          id="downshift-:rf:-item-1"
+          role="option"
+        >
+          <span
+            class="v-radio v-flex-shrink-0"
+          />
+          Option B
+        </li>
+        <li
+          aria-disabled="false"
+          aria-selected="false"
+          class="v-listbox-item"
+          id="downshift-:rf:-item-2"
+          role="option"
+        >
+          <span
+            class="v-radio v-flex-shrink-0"
+          />
+          Option C
+        </li>
+        <li
+          aria-disabled="false"
+          aria-selected="false"
+          class="v-listbox-item"
+          id="downshift-:rf:-item-3"
+          role="option"
+        >
+          <span
+            class="v-radio v-flex-shrink-0"
+          />
+          Option D
+        </li>
+        <li
+          aria-disabled="false"
+          aria-selected="false"
+          class="v-listbox-item"
+          id="downshift-:rf:-item-4"
+          role="option"
+        >
+          <span
+            class="v-radio v-flex-shrink-0"
+          />
+          Option E
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Combobox examples combobox with item disabled should render correctly 1`] = `
+<div>
+  <div
+    class="v-combobox"
+  >
+    <div
+      class="v-dropdown v-flex v-flex-col v-gap-4"
+    >
+      <label
+        class="v-label"
+        for="downshift-:rr:-input"
+        id="downshift-:rr:-label"
+      >
+        Label
+      </label>
+      <div
+        class="v-surface v-input-container v-flex-row"
+      >
+        <input
+          aria-activedescendant=""
+          aria-autocomplete="list"
+          aria-controls="downshift-:rr:-menu"
+          aria-expanded="false"
+          aria-haspopup="listbox"
+          aria-labelledby="downshift-:rr:-label"
+          aria-owns="downshift-:rr:-menu"
+          autocomplete="off"
+          class="v-input"
+          id="downshift-:rr:-input"
+          name="text-input-field-9"
+          role="combobox"
+          type="text"
+          value=""
+        />
+        <button
+          aria-controls="downshift-:rr:-menu"
+          aria-expanded="false"
+          aria-label="expand"
+          class="v-button v-button-small v-button-tertiary v-button-icon"
+          id="downshift-:rr:-toggle-button"
+          tabindex="-1"
+        >
+          <svg
+            aria-hidden="true"
+            class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-down"
+            focusable="false"
+            height="16"
+            viewBox="0 0 16 16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="v-icon-primary"
+              clip-rule="evenodd"
+              d="M2.47597 4.00049L1 5.39358L8 12.0005L15 5.39358L13.524 4.00049L8 9.21431L2.47597 4.00049Z"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div
+      class="v-listbox-container"
+    >
+      <ul
+        aria-labelledby="downshift-:rr:-label"
+        class="v-listbox"
+        id="downshift-:rr:-menu"
+        role="listbox"
+      >
+        <li
+          aria-disabled="false"
+          aria-selected="false"
+          class="v-listbox-item"
+          id="downshift-:rr:-item-0"
+          role="option"
+        >
+          <span
+            class="v-radio v-flex-shrink-0"
+          />
+          Option A
+        </li>
+        <li
+          aria-disabled="false"
+          aria-selected="false"
+          class="v-listbox-item"
+          id="downshift-:rr:-item-1"
+          role="option"
+        >
+          <span
+            class="v-radio v-flex-shrink-0"
+          />
+          Option B
+        </li>
+        <li
+          aria-disabled="true"
+          aria-selected="false"
+          class="v-listbox-item"
+          disabled=""
+          id="downshift-:rr:-item-2"
+          role="option"
+        >
+          <span
+            class="v-radio v-flex-shrink-0"
+          />
+          Option C
+        </li>
+        <li
+          aria-disabled="false"
+          aria-selected="false"
+          class="v-listbox-item"
+          id="downshift-:rr:-item-3"
+          role="option"
+        >
+          <span
+            class="v-radio v-flex-shrink-0"
+          />
+          Option D
+        </li>
+        <li
+          aria-disabled="false"
+          aria-selected="false"
+          class="v-listbox-item"
+          id="downshift-:rr:-item-4"
+          role="option"
+        >
+          <span
+            class="v-radio v-flex-shrink-0"
+          />
+          Option E
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Combobox examples combobox without chevron icon should render correctly 1`] = `
+<div>
+  <div
+    class="v-combobox"
+  >
+    <div
+      class="v-dropdown v-flex v-flex-col v-gap-4"
+    >
+      <label
+        class="v-label"
+        for="downshift-:ro:-input"
+        id="downshift-:ro:-label"
+      >
+        Label
+      </label>
+      <div
+        class="v-surface v-input-container v-flex-row"
+      >
+        <input
+          aria-activedescendant=""
+          aria-autocomplete="list"
+          aria-controls="downshift-:ro:-menu"
+          aria-expanded="false"
+          aria-haspopup="listbox"
+          aria-labelledby="downshift-:ro:-label"
+          aria-owns="downshift-:ro:-menu"
+          autocomplete="off"
+          class="v-input"
+          id="downshift-:ro:-input"
+          name="text-input-field-10"
+          role="combobox"
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+    <div
+      class="v-listbox-container"
+    >
+      <ul
+        aria-labelledby="downshift-:ro:-label"
+        class="v-listbox"
+        id="downshift-:ro:-menu"
+        role="listbox"
+      >
+        <li
+          aria-disabled="false"
+          aria-selected="false"
+          class="v-listbox-item"
+          id="downshift-:ro:-item-0"
+          role="option"
+        >
+          <span
+            class="v-radio v-flex-shrink-0"
+          />
+          Option A
+        </li>
+        <li
+          aria-disabled="false"
+          aria-selected="false"
+          class="v-listbox-item"
+          id="downshift-:ro:-item-1"
+          role="option"
+        >
+          <span
+            class="v-radio v-flex-shrink-0"
+          />
+          Option B
+        </li>
+        <li
+          aria-disabled="false"
+          aria-selected="false"
+          class="v-listbox-item"
+          id="downshift-:ro:-item-2"
+          role="option"
+        >
+          <span
+            class="v-radio v-flex-shrink-0"
+          />
+          Option C
+        </li>
+        <li
+          aria-disabled="false"
+          aria-selected="false"
+          class="v-listbox-item"
+          id="downshift-:ro:-item-3"
+          role="option"
+        >
+          <span
+            class="v-radio v-flex-shrink-0"
+          />
+          Option D
+        </li>
+        <li
+          aria-disabled="false"
+          aria-selected="false"
+          class="v-listbox-item"
+          id="downshift-:ro:-item-4"
+          role="option"
+        >
+          <span
+            class="v-radio v-flex-shrink-0"
+          />
+          Option E
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Combobox examples default combobox should render correctly 1`] = `
+<div>
+  <div
+    class="v-combobox"
+  >
+    <div
+      class="v-dropdown v-flex v-flex-col v-gap-4"
+    >
+      <label
+        class="v-label"
+        for="downshift-:r0:-input"
+        id="downshift-:r0:-label"
+      >
+        Label
+      </label>
+      <div
+        class="v-surface v-input-container v-flex-row"
+      >
+        <input
+          aria-activedescendant=""
+          aria-autocomplete="list"
+          aria-controls="downshift-:r0:-menu"
+          aria-expanded="false"
+          aria-haspopup="listbox"
+          aria-labelledby="downshift-:r0:-label"
+          aria-owns="downshift-:r0:-menu"
+          autocomplete="off"
+          class="v-input"
+          id="downshift-:r0:-input"
+          name="text-input-field-1"
+          role="combobox"
+          type="text"
+          value=""
+        />
+        <button
+          aria-controls="downshift-:r0:-menu"
+          aria-expanded="false"
+          aria-label="expand"
+          class="v-button v-button-small v-button-tertiary v-button-icon"
+          id="downshift-:r0:-toggle-button"
+          tabindex="-1"
+        >
+          <svg
+            aria-hidden="true"
+            class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-down"
+            focusable="false"
+            height="16"
+            viewBox="0 0 16 16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="v-icon-primary"
+              clip-rule="evenodd"
+              d="M2.47597 4.00049L1 5.39358L8 12.0005L15 5.39358L13.524 4.00049L8 9.21431L2.47597 4.00049Z"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div
+      class="v-listbox-container"
+    >
+      <ul
+        aria-labelledby="downshift-:r0:-label"
+        class="v-listbox"
+        id="downshift-:r0:-menu"
+        role="listbox"
+      >
+        <li
+          aria-disabled="false"
+          aria-selected="false"
+          class="v-listbox-item"
+          id="downshift-:r0:-item-0"
+          role="option"
+        >
+          <span
+            class="v-radio v-flex-shrink-0"
+          />
+          Option A
+        </li>
+        <li
+          aria-disabled="false"
+          aria-selected="false"
+          class="v-listbox-item"
+          id="downshift-:r0:-item-1"
+          role="option"
+        >
+          <span
+            class="v-radio v-flex-shrink-0"
+          />
+          Option B
+        </li>
+        <li
+          aria-disabled="false"
+          aria-selected="false"
+          class="v-listbox-item"
+          id="downshift-:r0:-item-2"
+          role="option"
+        >
+          <span
+            class="v-radio v-flex-shrink-0"
+          />
+          Option C
+        </li>
+        <li
+          aria-disabled="false"
+          aria-selected="false"
+          class="v-listbox-item"
+          id="downshift-:r0:-item-3"
+          role="option"
+        >
+          <span
+            class="v-radio v-flex-shrink-0"
+          />
+          Option D
+        </li>
+        <li
+          aria-disabled="false"
+          aria-selected="false"
+          class="v-listbox-item"
+          id="downshift-:r0:-item-4"
+          role="option"
+        >
+          <span
+            class="v-radio v-flex-shrink-0"
+          />
+          Option E
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Combobox examples disabled combobox should render correctly 1`] = `
+<div>
+  <div
+    class="v-combobox"
+  >
+    <div
+      class="v-dropdown v-flex v-flex-col v-gap-4"
+    >
+      <label
+        class="v-label"
+        for="downshift-:rn:-input"
+        id="downshift-:rn:-label"
+      >
+        Label
+      </label>
+      <div
+        class="v-surface v-input-container v-flex-row"
+      >
+        <input
+          aria-activedescendant=""
+          aria-autocomplete="list"
+          aria-controls="downshift-:rn:-menu"
+          aria-expanded="false"
+          aria-haspopup="listbox"
+          aria-labelledby="downshift-:rn:-label"
+          aria-owns="downshift-:rn:-menu"
+          autocomplete="off"
+          class="v-input"
+          disabled=""
+          id="downshift-:rn:-input"
+          name="text-input-field-8"
+          role="combobox"
+          type="text"
+          value="Option A"
+        />
+        <button
+          aria-controls="downshift-:rn:-menu"
+          aria-expanded="false"
+          aria-label="expand"
+          class="v-button v-button-small v-button-tertiary v-button-icon"
+          id="downshift-:rn:-toggle-button"
+          tabindex="-1"
+        >
+          <svg
+            aria-hidden="true"
+            class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-down"
+            focusable="false"
+            height="16"
+            viewBox="0 0 16 16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="v-icon-primary"
+              clip-rule="evenodd"
+              d="M2.47597 4.00049L1 5.39358L8 12.0005L15 5.39358L13.524 4.00049L8 9.21431L2.47597 4.00049Z"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div
+      class="v-listbox-container"
+    >
+      <ul
+        aria-labelledby="downshift-:rn:-label"
+        class="v-listbox"
+        id="downshift-:rn:-menu"
+        role="listbox"
+      >
+        <li
+          aria-disabled="false"
+          aria-selected="true"
+          class="v-listbox-item"
+          id="downshift-:rn:-item-0"
+          role="option"
+        >
+          <span
+            class="v-radio v-flex-shrink-0"
+          />
+          Option A
+        </li>
+        <li
+          aria-disabled="false"
+          aria-selected="false"
+          class="v-listbox-item"
+          id="downshift-:rn:-item-1"
+          role="option"
+        >
+          <span
+            class="v-radio v-flex-shrink-0"
+          />
+          Option B
+        </li>
+        <li
+          aria-disabled="false"
+          aria-selected="false"
+          class="v-listbox-item"
+          id="downshift-:rn:-item-2"
+          role="option"
+        >
+          <span
+            class="v-radio v-flex-shrink-0"
+          />
+          Option C
+        </li>
+        <li
+          aria-disabled="false"
+          aria-selected="false"
+          class="v-listbox-item"
+          id="downshift-:rn:-item-3"
+          role="option"
+        >
+          <span
+            class="v-radio v-flex-shrink-0"
+          />
+          Option D
+        </li>
+        <li
+          aria-disabled="false"
+          aria-selected="false"
+          class="v-listbox-item"
+          id="downshift-:rn:-item-4"
+          role="option"
+        >
+          <span
+            class="v-radio v-flex-shrink-0"
+          />
+          Option E
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Combobox examples error combobox should render correctly 1`] = `
+<div>
+  <div
+    class="v-flex v-flex-col v-gap-12"
+  >
+    <div
+      class="v-combobox"
+    >
+      <div
+        class="v-dropdown v-flex v-flex-col v-gap-4"
+      >
+        <label
+          class="v-label"
+          for="downshift-:ra:-input"
+          id="downshift-:ra:-label"
+        >
+          Label (required)
+        </label>
+        <div
+          class="v-surface v-input-container v-flex-row"
+        >
+          <input
+            aria-activedescendant=""
+            aria-autocomplete="list"
+            aria-controls="downshift-:ra:-menu"
+            aria-describedby="input-error-message"
+            aria-expanded="false"
+            aria-haspopup="listbox"
+            aria-invalid="false"
+            aria-labelledby="downshift-:ra:-label"
+            aria-owns="downshift-:ra:-menu"
+            autocomplete="off"
+            class="v-input"
+            id="downshift-:ra:-input"
+            name="text-input-field-6"
+            role="combobox"
+            type="text"
+            value=""
+          />
+          <button
+            aria-controls="downshift-:ra:-menu"
+            aria-expanded="false"
+            aria-label="expand"
+            class="v-button v-button-small v-button-tertiary v-button-icon"
+            id="downshift-:ra:-toggle-button"
+            tabindex="-1"
+          >
+            <svg
+              aria-hidden="true"
+              class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-down"
+              focusable="false"
+              height="16"
+              viewBox="0 0 16 16"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                class="v-icon-primary"
+                clip-rule="evenodd"
+                d="M2.47597 4.00049L1 5.39358L8 12.0005L15 5.39358L13.524 4.00049L8 9.21431L2.47597 4.00049Z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+      <div
+        class="v-listbox-container"
+      >
+        <ul
+          aria-labelledby="downshift-:ra:-label"
+          class="v-listbox"
+          id="downshift-:ra:-menu"
+          role="listbox"
+        >
+          <li
+            aria-disabled="false"
+            aria-selected="false"
+            class="v-listbox-item"
+            id="downshift-:ra:-item-0"
+            role="option"
+          >
+            <span
+              class="v-radio v-flex-shrink-0"
+            />
+            Option A
+          </li>
+          <li
+            aria-disabled="false"
+            aria-selected="false"
+            class="v-listbox-item"
+            id="downshift-:ra:-item-1"
+            role="option"
+          >
+            <span
+              class="v-radio v-flex-shrink-0"
+            />
+            Option B
+          </li>
+          <li
+            aria-disabled="false"
+            aria-selected="false"
+            class="v-listbox-item"
+            id="downshift-:ra:-item-2"
+            role="option"
+          >
+            <span
+              class="v-radio v-flex-shrink-0"
+            />
+            Option C
+          </li>
+          <li
+            aria-disabled="false"
+            aria-selected="false"
+            class="v-listbox-item"
+            id="downshift-:ra:-item-3"
+            role="option"
+          >
+            <span
+              class="v-radio v-flex-shrink-0"
+            />
+            Option D
+          </li>
+          <li
+            aria-disabled="false"
+            aria-selected="false"
+            class="v-listbox-item"
+            id="downshift-:ra:-item-4"
+            role="option"
+          >
+            <span
+              class="v-radio v-flex-shrink-0"
+            />
+            Option E
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div
+      class="v-flex v-gap-12"
+    >
+      <button
+        class="v-button"
+      >
+        Submit
+      </button>
+      <button
+        class="v-button v-button-secondary"
+      >
+        Reset
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Combobox examples inline message combobox should render correctly 1`] = `
+<div>
+  <div
+    class="v-combobox"
+  >
+    <div
+      class="v-dropdown v-flex v-flex-col v-gap-4"
+    >
+      <label
+        class="v-label"
+        for="downshift-:r7:-input"
+        id="downshift-:r7:-label"
+      >
+        Label
+      </label>
+      <div
+        class="v-surface v-input-container v-flex-row"
+      >
+        <input
+          aria-activedescendant=""
+          aria-autocomplete="list"
+          aria-controls="downshift-:r7:-menu"
+          aria-describedby="combobox-inline-message"
+          aria-expanded="false"
+          aria-haspopup="listbox"
+          aria-labelledby="downshift-:r7:-label"
+          aria-owns="downshift-:r7:-menu"
+          autocomplete="off"
+          class="v-input"
+          id="downshift-:r7:-input"
+          name="text-input-field-3"
+          role="combobox"
+          type="text"
+          value=""
+        />
+        <button
+          aria-controls="downshift-:r7:-menu"
+          aria-expanded="false"
+          aria-label="expand"
+          class="v-button v-button-small v-button-tertiary v-button-icon"
+          id="downshift-:r7:-toggle-button"
+          tabindex="-1"
+        >
+          <svg
+            aria-hidden="true"
+            class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-down"
+            focusable="false"
+            height="16"
+            viewBox="0 0 16 16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="v-icon-primary"
+              clip-rule="evenodd"
+              d="M2.47597 4.00049L1 5.39358L8 12.0005L15 5.39358L13.524 4.00049L8 9.21431L2.47597 4.00049Z"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </button>
+      </div>
+      <span
+        class="v-input-message"
+        id="combobox-inline-message"
+      >
+        This is optional text that describes the label in more detail.
+      </span>
+    </div>
+    <div
+      class="v-listbox-container"
+    >
+      <ul
+        aria-labelledby="downshift-:r7:-label"
+        class="v-listbox"
+        id="downshift-:r7:-menu"
+        role="listbox"
+      >
+        <li
+          aria-disabled="false"
+          aria-selected="false"
+          class="v-listbox-item"
+          id="downshift-:r7:-item-0"
+          role="option"
+        >
+          <span
+            class="v-radio v-flex-shrink-0"
+          />
+          Option A
+        </li>
+        <li
+          aria-disabled="false"
+          aria-selected="false"
+          class="v-listbox-item"
+          id="downshift-:r7:-item-1"
+          role="option"
+        >
+          <span
+            class="v-radio v-flex-shrink-0"
+          />
+          Option B
+        </li>
+        <li
+          aria-disabled="false"
+          aria-selected="false"
+          class="v-listbox-item"
+          id="downshift-:r7:-item-2"
+          role="option"
+        >
+          <span
+            class="v-radio v-flex-shrink-0"
+          />
+          Option C
+        </li>
+        <li
+          aria-disabled="false"
+          aria-selected="false"
+          class="v-listbox-item"
+          id="downshift-:r7:-item-3"
+          role="option"
+        >
+          <span
+            class="v-radio v-flex-shrink-0"
+          />
+          Option D
+        </li>
+        <li
+          aria-disabled="false"
+          aria-selected="false"
+          class="v-listbox-item"
+          id="downshift-:r7:-item-4"
+          role="option"
+        >
+          <span
+            class="v-radio v-flex-shrink-0"
+          />
+          Option E
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Combobox examples leading icon combobox should render correctly 1`] = `
+<div>
+  <div
+    class="v-combobox"
+  >
+    <div
+      class="v-dropdown v-flex v-flex-col v-gap-4"
+    >
+      <label
+        class="v-label"
+        for="downshift-:rj:-input"
+        id="downshift-:rj:-label"
+      >
+        Label
+      </label>
+      <div
+        class="v-surface v-input-container v-flex-row"
+      >
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-low v-icon-search"
+          focusable="false"
+          height="24"
+          viewBox="0 0 24 24"
+          width="24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-secondary"
+            clip-rule="evenodd"
+            d="M9 7V5C11.2056 5 13 6.79443 13 9H11C11 7.89697 10.103 7 9 7ZM16.5181 15L24 22.4819L22.4819 24L15 16.5181C15.5551 16.0636 16.0636 15.5551 16.5181 15Z"
+            fill-rule="evenodd"
+          />
+          <path
+            class="v-icon-primary"
+            d="M9 1C4.58887 1 1 4.58887 1 9C1 13.4111 4.58887 17 9 17C13.4111 17 17 13.4111 17 9C17 4.58887 13.4111 1 9 1ZM9 15C5.69141 15 3 12.3086 3 9C3 5.69141 5.69141 3 9 3C12.3086 3 15 5.69141 15 9C15 12.3086 12.3086 15 9 15Z"
+          />
+        </svg>
+        <input
+          aria-activedescendant=""
+          aria-autocomplete="list"
+          aria-controls="downshift-:rj:-menu"
+          aria-expanded="false"
+          aria-haspopup="listbox"
+          aria-labelledby="downshift-:rj:-label"
+          aria-owns="downshift-:rj:-menu"
+          autocomplete="off"
+          class="v-input"
+          id="downshift-:rj:-input"
+          name="text-input-field-5"
+          role="combobox"
+          type="text"
+          value=""
+        />
+        <button
+          aria-controls="downshift-:rj:-menu"
+          aria-expanded="false"
+          aria-label="expand"
+          class="v-button v-button-small v-button-tertiary v-button-icon"
+          id="downshift-:rj:-toggle-button"
+          tabindex="-1"
+        >
+          <svg
+            aria-hidden="true"
+            class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-down"
+            focusable="false"
+            height="16"
+            viewBox="0 0 16 16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="v-icon-primary"
+              clip-rule="evenodd"
+              d="M2.47597 4.00049L1 5.39358L8 12.0005L15 5.39358L13.524 4.00049L8 9.21431L2.47597 4.00049Z"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div
+      class="v-listbox-container"
+    >
+      <ul
+        aria-labelledby="downshift-:rj:-label"
+        class="v-listbox"
+        id="downshift-:rj:-menu"
+        role="listbox"
+      >
+        <li
+          aria-disabled="false"
+          aria-selected="false"
+          class="v-listbox-item"
+          id="downshift-:rj:-item-0"
+          role="option"
+        >
+          <span
+            class="v-radio v-flex-shrink-0"
+          />
+          Option A
+        </li>
+        <li
+          aria-disabled="false"
+          aria-selected="false"
+          class="v-listbox-item"
+          id="downshift-:rj:-item-1"
+          role="option"
+        >
+          <span
+            class="v-radio v-flex-shrink-0"
+          />
+          Option B
+        </li>
+        <li
+          aria-disabled="false"
+          aria-selected="false"
+          class="v-listbox-item"
+          id="downshift-:rj:-item-2"
+          role="option"
+        >
+          <span
+            class="v-radio v-flex-shrink-0"
+          />
+          Option C
+        </li>
+        <li
+          aria-disabled="false"
+          aria-selected="false"
+          class="v-listbox-item"
+          id="downshift-:rj:-item-3"
+          role="option"
+        >
+          <span
+            class="v-radio v-flex-shrink-0"
+          />
+          Option D
+        </li>
+        <li
+          aria-disabled="false"
+          aria-selected="false"
+          class="v-listbox-item"
+          id="downshift-:rj:-item-4"
+          role="option"
+        >
+          <span
+            class="v-radio v-flex-shrink-0"
+          />
+          Option E
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Combobox examples pre-selected combobox should render correctly 1`] = `
+<div>
+  <div
+    class="v-combobox"
+  >
+    <div
+      class="v-dropdown v-flex v-flex-col v-gap-4"
+    >
+      <label
+        class="v-label"
+        for="downshift-:r3:-input"
+        id="downshift-:r3:-label"
+      >
+        Label
+      </label>
+      <div
+        class="v-surface v-input-container v-flex-row"
+      >
+        <input
+          aria-activedescendant=""
+          aria-autocomplete="list"
+          aria-controls="downshift-:r3:-menu"
+          aria-expanded="false"
+          aria-haspopup="listbox"
+          aria-labelledby="downshift-:r3:-label"
+          aria-owns="downshift-:r3:-menu"
+          autocomplete="off"
+          class="v-input"
+          id="downshift-:r3:-input"
+          name="text-input-field-2"
+          role="combobox"
+          type="text"
+          value="Option A"
+        />
+        <button
+          aria-controls="downshift-:r3:-menu"
+          aria-expanded="false"
+          aria-label="expand"
+          class="v-button v-button-small v-button-tertiary v-button-icon"
+          id="downshift-:r3:-toggle-button"
+          tabindex="-1"
+        >
+          <svg
+            aria-hidden="true"
+            class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-down"
+            focusable="false"
+            height="16"
+            viewBox="0 0 16 16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="v-icon-primary"
+              clip-rule="evenodd"
+              d="M2.47597 4.00049L1 5.39358L8 12.0005L15 5.39358L13.524 4.00049L8 9.21431L2.47597 4.00049Z"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div
+      class="v-listbox-container"
+    >
+      <ul
+        aria-labelledby="downshift-:r3:-label"
+        class="v-listbox"
+        id="downshift-:r3:-menu"
+        role="listbox"
+      >
+        <li
+          aria-disabled="false"
+          aria-selected="true"
+          class="v-listbox-item"
+          id="downshift-:r3:-item-0"
+          role="option"
+        >
+          <span
+            class="v-radio v-flex-shrink-0"
+          />
+          Option A
+        </li>
+        <li
+          aria-disabled="false"
+          aria-selected="false"
+          class="v-listbox-item"
+          id="downshift-:r3:-item-1"
+          role="option"
+        >
+          <span
+            class="v-radio v-flex-shrink-0"
+          />
+          Option B
+        </li>
+        <li
+          aria-disabled="false"
+          aria-selected="false"
+          class="v-listbox-item"
+          id="downshift-:r3:-item-2"
+          role="option"
+        >
+          <span
+            class="v-radio v-flex-shrink-0"
+          />
+          Option C
+        </li>
+        <li
+          aria-disabled="false"
+          aria-selected="false"
+          class="v-listbox-item"
+          id="downshift-:r3:-item-3"
+          role="option"
+        >
+          <span
+            class="v-radio v-flex-shrink-0"
+          />
+          Option D
+        </li>
+        <li
+          aria-disabled="false"
+          aria-selected="false"
+          class="v-listbox-item"
+          id="downshift-:r3:-item-4"
+          role="option"
+        >
+          <span
+            class="v-radio v-flex-shrink-0"
+          />
+          Option E
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Combobox examples read-only combobox should render correctly 1`] = `
+<div>
+  <div
+    class="v-combobox"
+  >
+    <div
+      class="v-dropdown v-flex v-flex-col v-gap-4"
+    >
+      <label
+        class="v-label"
+        for="downshift-:rm:-input"
+        id="downshift-:rm:-label"
+      >
+        Label
+      </label>
+      <div
+        class="v-surface v-input-container v-flex-row"
+      >
+        <input
+          aria-activedescendant=""
+          aria-autocomplete="list"
+          aria-controls="downshift-:rm:-menu"
+          aria-expanded="false"
+          aria-haspopup="listbox"
+          aria-labelledby="downshift-:rm:-label"
+          aria-owns="combobox-listbox-example-7"
+          autocomplete="off"
+          class="v-input"
+          id="downshift-:rm:-input"
+          name="text-input-field-7"
+          readonly=""
+          role="combobox"
+          type="text"
+          value="Option A"
+        />
+        <button
+          aria-controls="downshift-:rm:-menu"
+          aria-expanded="false"
+          aria-label="expand"
+          class="v-button v-button-small v-button-tertiary v-button-icon"
+          disabled=""
+          id="downshift-:rm:-toggle-button"
+          tabindex="-1"
+        >
+          <svg
+            aria-hidden="true"
+            class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-down"
+            focusable="false"
+            height="16"
+            viewBox="0 0 16 16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="v-icon-primary"
+              clip-rule="evenodd"
+              d="M2.47597 4.00049L1 5.39358L8 12.0005L15 5.39358L13.524 4.00049L8 9.21431L2.47597 4.00049Z"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

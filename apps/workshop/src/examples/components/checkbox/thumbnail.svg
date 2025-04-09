@@ -1,0 +1,12 @@
+<svg width="304" height="140" viewBox="0 0 304 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect width="304" height="140" fill="var(--palette-default-surface-2, #F0F0F0)" />
+    <rect x="61.5" y="44.5" width="181" height="53" rx="3.5" fill="var(--palette-default-surface-1, white)" />
+    <rect x="84" y="63" width="16" height="16" rx="1" fill="var(--palette-default-active, #1434CB)" />
+    <path fill-rule="evenodd" clip-rule="evenodd"
+        d="M97.7205 66.2935C97.3331 65.9022 96.7519 65.9022 96.3644 66.2935L89.9714 72.75L87.6467 70.4022C87.2592 70.0109 86.678 70.0109 86.2906 70.4022C85.9031 70.7935 85.9031 71.3804 86.2906 71.7717L89.1965 74.7065C89.584 75.0978 90.1651 75.0978 90.5526 74.7065L97.6236 67.5652C98.108 67.2717 98.108 66.587 97.7205 66.2935Z"
+        fill="var(--palette-default-surface-1, white)" />
+    <rect x="84" y="63" width="16" height="16" rx="1" stroke="var(--palette-default-active, #1434CB)"
+        stroke-width="2" />
+    <rect x="117" y="67" width="102" height="8" rx="4" fill="var(--palette-default-text, black)" fill-opacity="0.2" />
+    <rect x="61.5" y="44.5" width="181" height="53" rx="3.5" stroke="var(--palette-default-surface-2, #F0F0F0)" />
+</svg>

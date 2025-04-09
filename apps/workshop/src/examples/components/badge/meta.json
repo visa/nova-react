@@ -1,0 +1,188 @@
+{
+  "subtle-badge-default": {
+    "file": "subtle-badge-default.tsx",
+    "id": "subtle-badge-default",
+    "title": "Default subtle badge",
+    "testAvg": 100
+  },
+  "subtle-badge-without-icon": {
+    "file": "subtle-badge-without-icon.tsx",
+    "id": "subtle-badge-without-icon",
+    "title": "Subtle badge without icon",
+    "testAvg": 100
+  },
+  "subtle-badge-with-indicator": {
+    "file": "subtle-badge-with-indicator.tsx",
+    "id": "subtle-badge-with-indicator",
+    "title": "Subtle badge with indicator",
+    "testAvg": 100
+  },
+  "subtle-badge-without-background": {
+    "file": "subtle-badge-without-background.tsx",
+    "id": "subtle-badge-without-background",
+    "title": "Subtle badge without background",
+    "testAvg": 100
+  },
+  "neutral-badge-default": {
+    "file": "neutral-badge-default.tsx",
+    "id": "neutral-badge-default",
+    "title": "Default neutral badge",
+    "testAvg": 100
+  },
+  "neutral-badge-without-icon": {
+    "file": "neutral-badge-without-icon.tsx",
+    "id": "neutral-badge-without-icon",
+    "title": "Neutral badge without icon",
+    "testAvg": 100
+  },
+  "neutral-badge-with-indicator": {
+    "file": "neutral-badge-with-indicator.tsx",
+    "id": "neutral-badge-with-indicator",
+    "title": "Neutral badge with indicator",
+    "testAvg": 100
+  },
+  "neutral-badge-without-background": {
+    "file": "neutral-badge-without-background.tsx",
+    "id": "neutral-badge-without-background",
+    "title": "Neutral badge without background",
+    "testAvg": 100
+  },
+  "neutral-badge-icon": {
+    "file": "neutral-badge-icon.tsx",
+    "id": "neutral-badge-icon",
+    "title": "Neutral icon badge",
+    "testAvg": 100
+  },
+  "neutral-badge-icon-without-background": {
+    "file": "neutral-badge-icon-without-background.tsx",
+    "id": "neutral-badge-icon-without-background",
+    "title": "Neutral badge icon without background",
+    "testAvg": 100
+  },
+  "positive-badge-default": {
+    "file": "positive-badge-default.tsx",
+    "id": "positive-badge-default",
+    "title": "Default positive badge",
+    "testAvg": 100
+  },
+  "positive-badge-without-icon": {
+    "file": "positive-badge-without-icon.tsx",
+    "id": "positive-badge-without-icon",
+    "title": "Positive badge without icon",
+    "testAvg": 100
+  },
+  "positive-badge-with-indicator": {
+    "file": "positive-badge-with-indicator.tsx",
+    "id": "positive-badge-with-indicator",
+    "title": "Positive badge with indicator",
+    "testAvg": 100
+  },
+  "positive-badge-without-background": {
+    "file": "positive-badge-without-background.tsx",
+    "id": "positive-badge-without-background",
+    "title": "Positive badge without background",
+    "testAvg": 100
+  },
+  "positive-badge-icon": {
+    "file": "positive-badge-icon.tsx",
+    "id": "positive-badge-icon",
+    "title": "Positive icon badge with background",
+    "testAvg": 100
+  },
+  "positive-badge-icon-without-background": {
+    "file": "positive-badge-icon-without-background.tsx",
+    "id": "positive-badge-icon-without-background",
+    "title": "Positive icon badge without background",
+    "testAvg": 100
+  },
+  "warning-badge-default": {
+    "file": "warning-badge-default.tsx",
+    "id": "warning-badge-default",
+    "title": "Default warning badge",
+    "testAvg": 100
+  },
+  "warning-badge-without-icon": {
+    "file": "warning-badge-without-icon.tsx",
+    "id": "warning-badge-without-icon",
+    "title": "Warning badge without icon",
+    "testAvg": 100
+  },
+  "warning-badge-with-indicator": {
+    "file": "warning-badge-with-indicator.tsx",
+    "id": "warning-badge-with-indicator",
+    "title": "Warning badge with indicator",
+    "testAvg": 100
+  },
+  "warning-badge-without-background": {
+    "file": "warning-badge-without-background.tsx",
+    "id": "warning-badge-without-background",
+    "title": "Warning badge without background",
+    "testAvg": 100
+  },
+  "warning-badge-icon": {
+    "file": "warning-badge-icon.tsx",
+    "id": "warning-badge-icon",
+    "title": "Warning icon badge with background",
+    "testAvg": 100
+  },
+  "warning-badge-icon-without-background": {
+    "file": "warning-badge-icon-without-background.tsx",
+    "id": "warning-badge-icon-without-background",
+    "title": "Warning icon badge without background",
+    "testAvg": 100
+  },
+  "negative-badge-default": {
+    "file": "negative-badge-default.tsx",
+    "id": "negative-badge-default",
+    "title": "Default negative badge",
+    "testAvg": 100
+  },
+  "negative-badge-without-icon": {
+    "file": "negative-badge-without-icon.tsx",
+    "id": "negative-badge-without-icon",
+    "title": "Negative badge without icon",
+    "testAvg": 100
+  },
+  "negative-badge-with-indicator": {
+    "file": "negative-badge-with-indicator.tsx",
+    "id": "negative-badge-with-indicator",
+    "title": "Negative badge with indicator",
+    "testAvg": 100
+  },
+  "negative-badge-without-background": {
+    "file": "negative-badge-without-background.tsx",
+    "id": "negative-badge-without-background",
+    "title": "Negative badge without background",
+    "testAvg": 100
+  },
+  "negative-badge-icon": {
+    "file": "negative-badge-icon.tsx",
+    "id": "negative-badge-icon",
+    "title": "Negative icon badge with background",
+    "testAvg": 100
+  },
+  "negative-badge-icon-without-background": {
+    "file": "negative-badge-icon-without-background.tsx",
+    "id": "negative-badge-icon-without-background",
+    "title": "Negative icon badge without background",
+    "testAvg": 100
+  },
+  "badge-number-default": {
+    "file": "badge-number-default.tsx",
+    "id": "badge-number-default",
+    "title": "Short number badge with background",
+    "testAvg": 100
+  },
+  "badge-number-without-background": {
+    "file": "badge-number-without-background.tsx",
+    "id": "badge-number-without-background",
+    "title": "Short number badge without background",
+    "testAvg": 100
+  },
+  "badge-number-long": {
+    "file": "badge-number-long.tsx",
+    "id": "badge-number-long",
+    "title": "Long number badge",
+    "testAvg": 100
+  }
+}

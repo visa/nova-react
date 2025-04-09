@@ -1,0 +1,243 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Breadcrumbs examples Breadcrumbs with SVG separator should render correctly 1`] = `
+<div>
+  <nav
+    aria-label="Custom svg separator breadcrumbs"
+    class="v-breadcrumbs v-breadcrumbs-custom"
+  >
+    <ol>
+      <li>
+        <a
+          class="v-link"
+          href="./"
+        >
+          L1 label
+        </a>
+         
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-right v-icon-rtl"
+          focusable="false"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M5.39309 1.00049L12 8.00049L5.39309 15.0005L4 13.5245L9.21383 8.00049L4 2.47646L5.39309 1.00049Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </li>
+      <li>
+        <a
+          class="v-link"
+          href="./"
+        >
+          L2 label
+        </a>
+         
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-right v-icon-rtl"
+          focusable="false"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M5.39309 1.00049L12 8.00049L5.39309 15.0005L4 13.5245L9.21383 8.00049L4 2.47646L5.39309 1.00049Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </li>
+      <li>
+        <a
+          class="v-link"
+          href="./"
+        >
+          L3 label
+        </a>
+         
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-right v-icon-rtl"
+          focusable="false"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M5.39309 1.00049L12 8.00049L5.39309 15.0005L4 13.5245L9.21383 8.00049L4 2.47646L5.39309 1.00049Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </li>
+      <li>
+        <span
+          aria-current="page"
+        >
+          L4 label
+        </span>
+      </li>
+    </ol>
+  </nav>
+</div>
+`;
+
+exports[`Breadcrumbs examples Breadcrumbs with custom separator should render correctly 1`] = `
+<div>
+  <nav
+    aria-label="Custom separator breadcrumbs"
+    class="v-breadcrumbs"
+    style="--v-breadcrumbs-pseudo-separator: '+';"
+  >
+    <ol>
+      <li>
+        <a
+          class="v-link"
+          href="./"
+        >
+          L1 label
+        </a>
+      </li>
+      <li>
+        <a
+          class="v-link"
+          href="./"
+        >
+          L2 label
+        </a>
+      </li>
+      <li>
+        <a
+          class="v-link"
+          href="./"
+        >
+          L3 label
+        </a>
+      </li>
+      <li>
+        <span
+          aria-current="page"
+        >
+          L4 label
+        </span>
+      </li>
+    </ol>
+  </nav>
+</div>
+`;
+
+exports[`Breadcrumbs examples Breadcrumbs with default separator should render correctly 1`] = `
+<div>
+  <nav
+    aria-label="Default breadcrumbs"
+    class="v-breadcrumbs"
+  >
+    <ol>
+      <li>
+        <a
+          class="v-link"
+          href="./"
+        >
+          L1 label
+        </a>
+      </li>
+      <li>
+        <a
+          class="v-link"
+          href="./"
+        >
+          L2 label
+        </a>
+      </li>
+      <li>
+        <a
+          class="v-link"
+          href="./"
+        >
+          L3 label
+        </a>
+      </li>
+      <li>
+        <span
+          aria-current="page"
+        >
+          L4 label
+        </span>
+      </li>
+    </ol>
+  </nav>
+</div>
+`;
+
+exports[`Breadcrumbs examples Breadcrumbs with inline separator should render correctly 1`] = `
+<div>
+  <nav
+    aria-label="Inline separator breadcrumbs"
+    class="v-breadcrumbs v-breadcrumbs-custom"
+  >
+    <ol>
+      <li>
+        <a
+          class="v-link"
+          href="./"
+        >
+          L1 label
+        </a>
+         
+        <span
+          aria-hidden="true"
+        >
+          |
+        </span>
+      </li>
+      <li>
+        <a
+          class="v-link"
+          href="./"
+        >
+          L2 label
+        </a>
+         
+        <span
+          aria-hidden="true"
+        >
+          |
+        </span>
+      </li>
+      <li>
+        <a
+          class="v-link"
+          href="./"
+        >
+          L3 label
+        </a>
+         
+        <span
+          aria-hidden="true"
+        >
+          |
+        </span>
+      </li>
+      <li>
+        <span
+          aria-current="page"
+        >
+          L4 label
+        </span>
+      </li>
+    </ol>
+  </nav>
+</div>
+`;

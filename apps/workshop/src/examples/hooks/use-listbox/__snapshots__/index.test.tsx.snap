@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`useListbox example Behavior and usage should render correctly 1`] = `
+<div>
+  <fieldset>
+    <legend
+      class="v-label"
+      id="use-listbox-usage-legend"
+    >
+      Label (required)
+    </legend>
+    <div
+      class="v-listbox-container"
+    >
+      <ul
+        aria-labelledby="use-listbox-usage-legend"
+        class="v-listbox v-listbox-scroll"
+        id="use-listbox-usage"
+        role="listbox"
+      >
+        <li
+          aria-selected="true"
+          class="v-listbox-item"
+          role="option"
+          tabindex="0"
+        >
+          <span
+            class="v-radio v-flex-shrink-0 "
+          />
+          Item A
+        </li>
+        <li
+          aria-disabled="true"
+          aria-selected="false"
+          class="v-listbox-item"
+          role="option"
+          tabindex="-1"
+        >
+          <span
+            class="v-radio v-flex-shrink-0 "
+          />
+          Item B
+        </li>
+        <li
+          aria-selected="false"
+          class="v-listbox-item"
+          role="option"
+          tabindex="-1"
+        >
+          <span
+            class="v-radio v-flex-shrink-0 "
+          />
+          Item C
+        </li>
+        <li
+          aria-selected="false"
+          class="v-listbox-item"
+          role="option"
+          tabindex="-1"
+        >
+          <span
+            class="v-radio v-flex-shrink-0 "
+          />
+          Item D
+        </li>
+        <li
+          aria-selected="false"
+          class="v-listbox-item"
+          role="option"
+          tabindex="-1"
+        >
+          <span
+            class="v-radio v-flex-shrink-0 "
+          />
+          Item E
+        </li>
+      </ul>
+    </div>
+  </fieldset>
+</div>
+`;

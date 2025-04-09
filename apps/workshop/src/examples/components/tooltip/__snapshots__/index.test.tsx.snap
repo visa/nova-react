@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tooltip examples Bottom-positioned tooltip should render correctly 1`] = `
+<div>
+  <div
+    class="v-flex v-justify-content-center v-m-24"
+  >
+    <button
+      class="v-button"
+    >
+      Primary action
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Tooltip examples Left-positioned tooltip should render correctly 1`] = `
+<div>
+  <div
+    class="v-flex v-justify-content-center v-m-24"
+  >
+    <button
+      class="v-button"
+    >
+      Primary action
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Tooltip examples Right-positioned tooltip should render correctly 1`] = `
+<div>
+  <div
+    class="v-flex v-justify-content-center v-m-24"
+  >
+    <button
+      class="v-button"
+    >
+      Primary action
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Tooltip examples Top-positioned tooltip should render correctly 1`] = `
+<div>
+  <div
+    class="v-flex v-justify-content-center v-m-24"
+  >
+    <button
+      class="v-button"
+    >
+      Primary action
+    </button>
+  </div>
+</div>
+`;

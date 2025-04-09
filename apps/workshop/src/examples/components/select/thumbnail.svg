@@ -1,0 +1,41 @@
+<svg width="304" height="141" viewBox="0 0 304 141" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g clip-path="url(#clip0_2768_87609)">
+        <path d="M0 10C0 4.47715 4.47715 0 10 0H294C299.523 0 304 4.47715 304 10V141H0V10Z"
+            fill="var(--palette-default-surface-2, #F0F0F0)" />
+        <rect x="63.75" y="20.25" width="175.5" height="29.5" rx="6.75" fill="var(--palette-default-surface-1, white)"
+            stroke="var(--palette-default-active, #1434CB)" stroke-width="1.5" />
+        <path fill-rule="evenodd" clip-rule="evenodd"
+            d="M223.5 31.1367L228.949 36.5862L227.8 37.7353L223.5 33.4348L219.199 37.7353L218.05 36.5862L223.5 31.1367Z"
+            fill="var(--palette-default-active, #1434CB)" />
+        <rect x="63" y="55" width="177" height="100" rx="6" fill="var(--palette-default-surface-1, white)" />
+        <rect x="70.1206" y="62.4141" width="161.862" height="28" rx="4"
+            fill="var(--palette-default-surface-1, white)" />
+        <rect x="104.121" y="73.9141" width="109.862" height="5" rx="2.5" fill="var(--palette-default-text, black)"
+            fill-opacity="0.2" />
+        <rect x="70.1206" y="94.4141" width="161.862" height="25" rx="4"
+            fill="var(--palette-default-surface-2, #F0F0F0)" />
+        <g clip-path="url(#clip1_2768_87609)">
+            <path
+                d="M90.9127 103.208L82.2132 111.907L78.3887 108.083L79.5377 106.934L82.2132 109.609L89.7637 102.059L90.9127 103.208Z"
+                fill="var(--palette-default-active, #1434CB)" />
+        </g>
+        <rect x="103.121" y="104.414" width="109.862" height="5" rx="2.5" fill="var(--palette-default-text, black)"
+            fill-opacity="0.5" />
+        <rect x="70.1206" y="123.414" width="161.862" height="28" rx="4"
+            fill="var(--palette-default-surface-1, white)" />
+        <rect x="104.121" y="134.914" width="109.862" height="5" rx="2.5" fill="var(--palette-default-text, black)"
+            fill-opacity="0.2" />
+        <rect x="63.5" y="55.5" width="176" height="99" rx="5.5" stroke="var(--palette-default-text, black)"
+            stroke-opacity="0.1" />
+    </g>
+    <defs>
+        <clipPath id="clip0_2768_87609">
+            <path d="M0 10C0 4.47715 4.47715 0 10 0H294C299.523 0 304 4.47715 304 10V141H0V10Z"
+                fill="var(--palette-default-surface-1, white)" />
+        </clipPath>
+        <clipPath id="clip1_2768_87609">
+            <rect width="13" height="13" fill="var(--palette-default-surface-1, white)"
+                transform="translate(78.1206 100.414)" />
+        </clipPath>
+    </defs>
+</svg>

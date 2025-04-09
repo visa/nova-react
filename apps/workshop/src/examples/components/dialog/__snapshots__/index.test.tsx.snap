@@ -1,0 +1,537 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dialog examples Default dialog should render correctly 1`] = `
+<div>
+  <button
+    class="v-button"
+  >
+    Open default dialog
+  </button>
+  <dialog
+    aria-describedby="dialog-description"
+    aria-labelledby="dialog-title"
+    class="v-message v-dialog v-dialog-default"
+    id="dialog"
+  >
+    <div
+      class="v-message-content v-pb-2 v-pr-2"
+    >
+      <h2
+        class="v-dialog-header v-align-items-center v-flex v-gap-6 v-justify-content-start"
+        id="dialog-title"
+      >
+        Default title
+      </h2>
+      <p
+        id="dialog-description"
+      >
+        This is required text that describes the dialog title in more detail.
+      </p>
+      <div
+        class="v-align-items-center v-flex v-flex-wrap v-gap-8 v-pt-16"
+      >
+        <button
+          class="v-button"
+        >
+          Primary action
+        </button>
+        <button
+          class="v-button v-button-secondary"
+        >
+          Secondary action
+        </button>
+      </div>
+    </div>
+    <button
+      aria-label="Close"
+      class="v-button v-button-small v-button-tertiary v-button-icon v-button-subtle -v-mt-20 -v-ml-12 -v-mr-18"
+    >
+      <svg
+        aria-hidden="true"
+        class="v-icon v-icon-visa v-icon-tiny v-icon-close"
+        focusable="false"
+        height="16"
+        viewBox="0 0 16 16"
+        width="16"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          class="v-icon-primary"
+          d="M8.00001 9.4149L13.9498 15.3646L15.364 13.9504L9.41423 8.00069L15.364 2.05094L13.9498 0.636723L8.00001 6.58647L2.05026 0.636719L0.636047 2.05093L6.5858 8.00069L0.636054 13.9504L2.05027 15.3646L8.00001 9.4149Z"
+        />
+        <defs>
+          <clippath>
+            <rect
+              height="16"
+              transform="translate(0 0.000488281)"
+              width="16"
+            />
+          </clippath>
+        </defs>
+      </svg>
+    </button>
+  </dialog>
+</div>
+`;
+
+exports[`Dialog examples Dialog without close icon button should render correctly 1`] = `
+<div>
+  <button
+    class="v-button"
+  >
+    Open dialog without close icon
+  </button>
+  <dialog
+    aria-describedby="no-close-dialog-description"
+    aria-labelledby="no-close-dialog-title"
+    class="v-message v-message-error v-dialog"
+    id="no-close-dialog"
+  >
+    <div
+      class="v-message-content v-pb-2 v-pr-2"
+    >
+      <h2
+        class="v-dialog-header v-align-items-center v-flex v-gap-6 v-justify-content-start"
+        id="no-close-dialog-title"
+      >
+        <svg
+          aria-hidden="false"
+          aria-label="Error"
+          class="v-icon v-icon-visa v-icon-low v-icon-error v-message-icon"
+          focusable="false"
+          height="24"
+          viewBox="0 0 24 24"
+          width="24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M11 6V14H13V6H11ZM12 18C12.5523 18 13 17.5523 13 17C13 16.4477 12.5523 16 12 16C11.4477 16 11 16.4477 11 17C11 17.5523 11.4477 18 12 18Z"
+            fill-rule="evenodd"
+          />
+          <path
+            class="v-icon-secondary"
+            d="M12 24C5.38 24 0 18.62 0 12C0 5.38 5.38 0 12 0C18.62 0 24 5.38 24 12C24 18.62 18.62 24 12 24ZM12 2C6.49 2 2 6.49 2 12C2 17.51 6.49 22 12 22C17.51 22 22 17.51 22 12C22 6.49 17.51 2 12 2Z"
+          />
+          <defs>
+            <clippath>
+              <rect
+                height="24"
+                width="24"
+              />
+            </clippath>
+          </defs>
+        </svg>
+        Error title
+      </h2>
+      <p
+        id="no-close-dialog-description"
+      >
+        This is required text that describes the dialog title in more detail.
+      </p>
+      <div
+        class="v-align-items-center v-flex v-flex-wrap v-gap-8 v-justify-content-end v-pt-16"
+      >
+        <button
+          class="v-button"
+        >
+          Close
+        </button>
+      </div>
+    </div>
+  </dialog>
+</div>
+`;
+
+exports[`Dialog examples Error dialog should render correctly 1`] = `
+<div>
+  <button
+    class="v-button"
+  >
+    Open error dialog
+  </button>
+  <dialog
+    aria-describedby="error-dialog-description"
+    aria-labelledby="error-dialog-title"
+    class="v-message v-message-error v-dialog"
+    id="error-dialog"
+  >
+    <div
+      class="v-message-content v-pb-2 v-pr-2"
+    >
+      <h2
+        class="v-dialog-header v-align-items-center v-flex v-gap-6 v-justify-content-start"
+        id="error-dialog-title"
+      >
+        <svg
+          aria-hidden="false"
+          aria-label="Error"
+          class="v-icon v-icon-visa v-icon-low v-icon-error v-message-icon"
+          focusable="false"
+          height="24"
+          viewBox="0 0 24 24"
+          width="24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M11 6V14H13V6H11ZM12 18C12.5523 18 13 17.5523 13 17C13 16.4477 12.5523 16 12 16C11.4477 16 11 16.4477 11 17C11 17.5523 11.4477 18 12 18Z"
+            fill-rule="evenodd"
+          />
+          <path
+            class="v-icon-secondary"
+            d="M12 24C5.38 24 0 18.62 0 12C0 5.38 5.38 0 12 0C18.62 0 24 5.38 24 12C24 18.62 18.62 24 12 24ZM12 2C6.49 2 2 6.49 2 12C2 17.51 6.49 22 12 22C17.51 22 22 17.51 22 12C22 6.49 17.51 2 12 2Z"
+          />
+          <defs>
+            <clippath>
+              <rect
+                height="24"
+                width="24"
+              />
+            </clippath>
+          </defs>
+        </svg>
+        Error title
+      </h2>
+      <p
+        id="error-dialog-description"
+      >
+        This is required text that describes the dialog title in more detail.
+      </p>
+      <div
+        class="v-align-items-center v-flex v-flex-wrap v-gap-8 v-pt-16"
+      >
+        <button
+          class="v-button"
+        >
+          Primary action
+        </button>
+      </div>
+    </div>
+    <button
+      aria-label="Close"
+      class="v-button v-button-small v-button-tertiary v-button-icon v-button-subtle -v-mt-20 -v-ml-12 -v-mr-18"
+    >
+      <svg
+        aria-hidden="true"
+        class="v-icon v-icon-visa v-icon-tiny v-icon-close"
+        focusable="false"
+        height="16"
+        viewBox="0 0 16 16"
+        width="16"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          class="v-icon-primary"
+          d="M8.00001 9.4149L13.9498 15.3646L15.364 13.9504L9.41423 8.00069L15.364 2.05094L13.9498 0.636723L8.00001 6.58647L2.05026 0.636719L0.636047 2.05093L6.5858 8.00069L0.636054 13.9504L2.05027 15.3646L8.00001 9.4149Z"
+        />
+        <defs>
+          <clippath>
+            <rect
+              height="16"
+              transform="translate(0 0.000488281)"
+              width="16"
+            />
+          </clippath>
+        </defs>
+      </svg>
+    </button>
+  </dialog>
+</div>
+`;
+
+exports[`Dialog examples Success dialog should render correctly 1`] = `
+<div>
+  <button
+    class="v-button"
+  >
+    Open success dialog
+  </button>
+  <dialog
+    aria-describedby="success-dialog-description"
+    aria-labelledby="success-dialog-title"
+    class="v-message v-message-success v-dialog"
+    id="success-dialog"
+  >
+    <div
+      class="v-message-content v-pb-2 v-pr-2"
+    >
+      <h2
+        class="v-dialog-header v-align-items-center v-flex v-gap-6 v-justify-content-start"
+        id="success-dialog-title"
+      >
+        <svg
+          aria-hidden="false"
+          aria-label="Success"
+          class="v-icon v-icon-visa v-icon-low v-icon-success v-message-icon"
+          focusable="false"
+          height="24"
+          viewBox="0 0 24 24"
+          width="24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-secondary"
+            d="M10.5726 14.2094L8.36276 11.9469L7 13.3422L10.5726 17L18 9.39529L16.6372 8L10.5726 14.2094Z"
+          />
+          <path
+            class="v-icon-primary"
+            d="M12 0C5.38317 0 0 5.38317 0 12C0 18.6168 5.38317 24 12 24C18.6168 24 24 18.6168 24 12C24 5.38317 18.6168 0 12 0ZM12 21.8182C6.58647 21.8182 2.18182 17.4141 2.18182 12C2.18182 6.58647 6.58647 2.18182 12 2.18182C17.4141 2.18182 21.8182 6.58647 21.8182 12C21.8182 17.4141 17.4141 21.8182 12 21.8182Z"
+          />
+          <defs>
+            <clippath>
+              <rect
+                height="24"
+                width="24"
+              />
+            </clippath>
+          </defs>
+        </svg>
+        Success title
+      </h2>
+      <p
+        id="success-dialog-description"
+      >
+        This is required text that describes the dialog title in more detail.
+      </p>
+      <div
+        class="v-align-items-center v-flex v-flex-wrap v-gap-8 v-pt-16"
+      >
+        <button
+          class="v-button"
+        >
+          Primary action
+        </button>
+      </div>
+    </div>
+    <button
+      aria-label="Close"
+      class="v-button v-button-small v-button-tertiary v-button-icon v-button-subtle -v-mt-20 -v-ml-12 -v-mr-18"
+    >
+      <svg
+        aria-hidden="true"
+        class="v-icon v-icon-visa v-icon-tiny v-icon-close"
+        focusable="false"
+        height="16"
+        viewBox="0 0 16 16"
+        width="16"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          class="v-icon-primary"
+          d="M8.00001 9.4149L13.9498 15.3646L15.364 13.9504L9.41423 8.00069L15.364 2.05094L13.9498 0.636723L8.00001 6.58647L2.05026 0.636719L0.636047 2.05093L6.5858 8.00069L0.636054 13.9504L2.05027 15.3646L8.00001 9.4149Z"
+        />
+        <defs>
+          <clippath>
+            <rect
+              height="16"
+              transform="translate(0 0.000488281)"
+              width="16"
+            />
+          </clippath>
+        </defs>
+      </svg>
+    </button>
+  </dialog>
+</div>
+`;
+
+exports[`Dialog examples Touring tips dialog should render correctly 1`] = `
+<div>
+  <button
+    class="v-button"
+  >
+    Open touring tips dialog
+  </button>
+  <dialog
+    aria-describedby="touring-tips-dialog-description"
+    aria-labelledby="touring-tips-dialog-title"
+    class="v-message v-dialog v-dialog-default"
+    id="touring-tips-dialog"
+  >
+    <div
+      class="v-message-content v-pb-2 v-pr-2"
+    >
+      <h2
+        class="v-dialog-header v-align-items-center v-flex v-gap-6 v-justify-content-start"
+        id="touring-tips-dialog-title"
+      >
+        Touring tips title
+      </h2>
+      <div
+        class="v-align-items-center v-flex v-flex-row v-gap-8 v-pb-8"
+      >
+        <svg
+          fill="none"
+          height="36"
+          viewBox="0 0 36 36"
+          width="36"
+        >
+          <rect
+            fill="#B3D7FF"
+            fill-opacity="0.35"
+            height="36"
+            rx="18"
+            width="36"
+          />
+          <path
+            d="M17.238 13.856C16.8327 13.856 16.3953 13.936 15.926 14.096C15.4567 14.256 15.03 14.496 14.646 14.816H14.502L14.614 13.136C15.0087 12.88 15.478 12.6827 16.022 12.544C16.566 12.4053 17.0727 12.336 17.542 12.336C18.7473 12.336 19.6913 12.5867 20.374 13.088C21.0673 13.5787 21.414 14.4427 21.414 15.68C21.414 16.256 21.3233 16.784 21.142 17.264C20.9713 17.7333 20.742 18.16 20.454 18.544C20.1767 18.928 19.8833 19.28 19.574 19.6C19.382 19.8133 19.126 20.0747 18.806 20.384C18.486 20.6827 18.1287 21.008 17.734 21.36C17.3393 21.712 16.9393 22.0533 16.534 22.384H21.67L21.526 24H14.406V22.576C15.0247 22.0213 15.5527 21.5467 15.99 21.152C16.438 20.7573 16.8327 20.3947 17.174 20.064C17.5153 19.7333 17.83 19.4027 18.118 19.072C18.502 18.6347 18.8167 18.1493 19.062 17.616C19.318 17.072 19.446 16.5013 19.446 15.904C19.446 15.1467 19.2593 14.6187 18.886 14.32C18.5127 14.0107 17.9633 13.856 17.238 13.856Z"
+            fill="black"
+          />
+        </svg>
+        <p
+          class="v-typography-body-2-bold"
+        >
+          Touring tips instructions
+        </p>
+      </div>
+      <p
+        id="touring-tips-dialog-description"
+      >
+        This is required text that describes the dialog title in more detail.
+      </p>
+      <div
+        class="v-align-items-center v-flex v-flex-wrap v-gap-8 v-justify-content-between v-pt-16"
+      >
+        <p>
+          2 of 4
+        </p>
+        <div
+          class="v-flex v-flex-wrap v-gap-8 v-justify-content-between"
+        >
+          <button
+            class="v-button v-button-secondary"
+          >
+            Previous
+          </button>
+          <button
+            class="v-button"
+          >
+            Next
+          </button>
+        </div>
+      </div>
+    </div>
+    <button
+      aria-label="Close"
+      class="v-button v-button-small v-button-tertiary v-button-icon v-button-subtle -v-mt-20 -v-ml-12 -v-mr-18"
+    >
+      <svg
+        aria-hidden="true"
+        class="v-icon v-icon-visa v-icon-tiny v-icon-close"
+        focusable="false"
+        height="16"
+        viewBox="0 0 16 16"
+        width="16"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          class="v-icon-primary"
+          d="M8.00001 9.4149L13.9498 15.3646L15.364 13.9504L9.41423 8.00069L15.364 2.05094L13.9498 0.636723L8.00001 6.58647L2.05026 0.636719L0.636047 2.05093L6.5858 8.00069L0.636054 13.9504L2.05027 15.3646L8.00001 9.4149Z"
+        />
+        <defs>
+          <clippath>
+            <rect
+              height="16"
+              transform="translate(0 0.000488281)"
+              width="16"
+            />
+          </clippath>
+        </defs>
+      </svg>
+    </button>
+  </dialog>
+</div>
+`;
+
+exports[`Dialog examples Warning dialog should render correctly 1`] = `
+<div>
+  <button
+    class="v-button"
+  >
+    Open warning dialog
+  </button>
+  <dialog
+    aria-describedby="warning-dialog-description"
+    aria-labelledby="warning-dialog-title"
+    class="v-message v-message-warning v-dialog"
+    id="warning-dialog"
+  >
+    <div
+      class="v-message-content v-pb-2 v-pr-2"
+    >
+      <h2
+        class="v-dialog-header v-align-items-center v-flex v-gap-6 v-justify-content-start"
+        id="warning-dialog-title"
+      >
+        <svg
+          aria-hidden="false"
+          aria-label="Warning"
+          class="v-icon v-icon-visa v-icon-low v-icon-warning v-message-icon"
+          focusable="false"
+          height="24"
+          viewBox="0 0 24 24"
+          width="24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-secondary"
+            d="M24 23H0V20.64L11.41 0H13.72L24 20.66V23ZM2.08 21H21.93L12.53 2.1L2.08 21Z"
+          />
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M11.5 8H13.5V15H11.5V8ZM11.5 17H13.5V19H11.5V17Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+        Warning title
+      </h2>
+      <p
+        id="warning-dialog-description"
+      >
+        This is required text that describes the dialog title in more detail.
+      </p>
+      <div
+        class="v-align-items-center v-flex v-flex-wrap v-gap-8 v-pt-16"
+      >
+        <button
+          class="v-button"
+        >
+          Primary action
+        </button>
+      </div>
+    </div>
+    <button
+      aria-label="Close"
+      class="v-button v-button-small v-button-tertiary v-button-icon v-button-subtle -v-mt-20 -v-ml-12 -v-mr-18"
+    >
+      <svg
+        aria-hidden="true"
+        class="v-icon v-icon-visa v-icon-tiny v-icon-close"
+        focusable="false"
+        height="16"
+        viewBox="0 0 16 16"
+        width="16"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          class="v-icon-primary"
+          d="M8.00001 9.4149L13.9498 15.3646L15.364 13.9504L9.41423 8.00069L15.364 2.05094L13.9498 0.636723L8.00001 6.58647L2.05026 0.636719L0.636047 2.05093L6.5858 8.00069L0.636054 13.9504L2.05027 15.3646L8.00001 9.4149Z"
+        />
+        <defs>
+          <clippath>
+            <rect
+              height="16"
+              transform="translate(0 0.000488281)"
+              width="16"
+            />
+          </clippath>
+        </defs>
+      </svg>
+    </button>
+  </dialog>
+</div>
+`;

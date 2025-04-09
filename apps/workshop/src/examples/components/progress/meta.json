@@ -1,0 +1,119 @@
+{
+  "circular-custom-size-progress": {
+    "file": "circular-custom-size-progress.tsx",
+    "id": "circular-custom-size-progress",
+    "tags": {
+      "custom": true
+    },
+    "title": "Custom size determinate circular progress indicator",
+    "testAvg": 100
+  },
+  "complete-progress": {
+    "file": "complete-progress.tsx",
+    "id": "complete-progress",
+    "tags": {
+      "docs": true
+    },
+    "title": "Completed linear progress indicator",
+    "testAvg": 100
+  },
+  "determinate-circular-progress": {
+    "file": "determinate-circular-progress.tsx",
+    "id": "determinate-circular-progress",
+    "tags": {
+      "docs": true
+    },
+    "title": "Large determinate circular progress indicator",
+    "testAvg": 100
+  },
+  "determinate-circular-small-progress": {
+    "file": "determinate-circular-small-progress.tsx",
+    "id": "determinate-circular-small-progress",
+    "tags": {
+      "docs": true
+    },
+    "title": "Small determinate circular progress indicator",
+    "testAvg": 100
+  },
+  "determinate-progress": {
+    "file": "determinate-progress.tsx",
+    "id": "determinate-progress",
+    "tags": {
+      "docs": true
+    },
+    "title": "Determinate linear progress indicator",
+    "testAvg": 100
+  },
+  "error-progress": {
+    "file": "error-progress.tsx",
+    "id": "error-progress",
+    "tags": {
+      "docs": true
+    },
+    "title": "Error linear progress indicator",
+    "testAvg": 100
+  },
+  "indeterminate-circular-progress": {
+    "file": "indeterminate-circular-progress.tsx",
+    "id": "indeterminate-circular-progress",
+    "tags": {
+      "docs": true
+    },
+    "title": "Large indeterminate circular progress indicator",
+    "testAvg": 100
+  },
+  "indeterminate-circular-small-progress": {
+    "file": "indeterminate-circular-small-progress.tsx",
+    "id": "indeterminate-circular-small-progress",
+    "tags": {
+      "docs": true
+    },
+    "title": "Small indeterminate circular progress indicator",
+    "testAvg": 100
+  },
+  "indeterminate-progress": {
+    "file": "indeterminate-progress.tsx",
+    "id": "indeterminate-progress",
+    "tags": {
+      "docs": true
+    },
+    "title": "Indeterminate linear progress indicator",
+    "testAvg": 100
+  },
+  "determinate-no-label-progress": {
+    "file": "determinate-no-label-progress.tsx",
+    "id": "determinate-no-label-progress",
+    "tags": {
+      "docs": true
+    },
+    "title": "Determinate linear progress indicator without visible label",
+    "testAvg": 100
+  },
+  "indeterminate-no-label-progress": {
+    "file": "indeterminate-no-label-progress.tsx",
+    "id": "indeterminate-no-label-progress",
+    "tags": {
+      "docs": true
+    },
+    "title": "Indeterminate linear progress indicator without visible label",
+    "testAvg": 100
+  },
+  "complete-circular-progress": {
+    "file": "complete-circular-progress.tsx",
+    "id": "complete-circular-progress",
+    "tags": {
+      "docs": true
+    },
+    "title": "Completed determinate circular progress indicator",
+    "testAvg": 100
+  },
+  "error-circular-progress": {
+    "file": "error-circular-progress.tsx",
+    "id": "error-circular-progress",
+    "tags": {
+      "docs": true
+    },
+    "title": "Error determinate circular progress indicator",
+    "testAvg": 100
+  }
+}

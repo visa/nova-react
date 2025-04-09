@@ -1,0 +1,1080 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Chip examples Compact removable chip group should render correctly 1`] = `
+<div>
+  <div
+    class="v-flex v-flex-wrap v-gap-8"
+  >
+    <div
+      class="v-chip v-chip-compact v-flex"
+    >
+      Label 1
+      <button
+        aria-label="Clear Label 1"
+        class="v-button v-button-tertiary v-button-icon v-button-subtle"
+      >
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-tiny v-icon-clear-alt"
+          focusable="false"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M8 16.0005C12.4183 16.0005 16 12.4188 16 8.00049C16 3.58221 12.4183 0.000488281 8 0.000488281C3.58172 0.000488281 0 3.58221 0 8.00049C0 12.4188 3.58172 16.0005 8 16.0005ZM11.7071 10.2934L9.41424 8.00052L11.7071 5.70761L10.2929 4.2934L8.00003 6.5863L5.70712 4.2934L4.29291 5.70761L6.58582 8.00052L4.29294 10.2934L5.70715 11.7076L8.00003 9.41473L10.2929 11.7076L11.7071 10.2934Z"
+            fill-rule="evenodd"
+          />
+          <defs>
+            <clippath>
+              <rect
+                height="16"
+                transform="translate(0 0.000488281)"
+                width="16"
+              />
+            </clippath>
+          </defs>
+        </svg>
+      </button>
+    </div>
+    <div
+      class="v-chip v-chip-compact v-flex"
+    >
+      Label 2
+      <button
+        aria-label="Clear Label 2"
+        class="v-button v-button-tertiary v-button-icon v-button-subtle"
+      >
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-tiny v-icon-clear-alt"
+          focusable="false"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M8 16.0005C12.4183 16.0005 16 12.4188 16 8.00049C16 3.58221 12.4183 0.000488281 8 0.000488281C3.58172 0.000488281 0 3.58221 0 8.00049C0 12.4188 3.58172 16.0005 8 16.0005ZM11.7071 10.2934L9.41424 8.00052L11.7071 5.70761L10.2929 4.2934L8.00003 6.5863L5.70712 4.2934L4.29291 5.70761L6.58582 8.00052L4.29294 10.2934L5.70715 11.7076L8.00003 9.41473L10.2929 11.7076L11.7071 10.2934Z"
+            fill-rule="evenodd"
+          />
+          <defs>
+            <clippath>
+              <rect
+                height="16"
+                transform="translate(0 0.000488281)"
+                width="16"
+              />
+            </clippath>
+          </defs>
+        </svg>
+      </button>
+    </div>
+    <div
+      class="v-chip v-chip-compact v-flex"
+    >
+      Label 3
+      <button
+        aria-label="Clear Label 3"
+        class="v-button v-button-tertiary v-button-icon v-button-subtle"
+      >
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-tiny v-icon-clear-alt"
+          focusable="false"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M8 16.0005C12.4183 16.0005 16 12.4188 16 8.00049C16 3.58221 12.4183 0.000488281 8 0.000488281C3.58172 0.000488281 0 3.58221 0 8.00049C0 12.4188 3.58172 16.0005 8 16.0005ZM11.7071 10.2934L9.41424 8.00052L11.7071 5.70761L10.2929 4.2934L8.00003 6.5863L5.70712 4.2934L4.29291 5.70761L6.58582 8.00052L4.29294 10.2934L5.70715 11.7076L8.00003 9.41473L10.2929 11.7076L11.7071 10.2934Z"
+            fill-rule="evenodd"
+          />
+          <defs>
+            <clippath>
+              <rect
+                height="16"
+                transform="translate(0 0.000488281)"
+                width="16"
+              />
+            </clippath>
+          </defs>
+        </svg>
+      </button>
+    </div>
+    <div
+      class="v-chip v-chip-compact v-flex"
+    >
+      Label 4
+      <button
+        aria-label="Clear Label 4"
+        class="v-button v-button-tertiary v-button-icon v-button-subtle"
+      >
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-tiny v-icon-clear-alt"
+          focusable="false"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M8 16.0005C12.4183 16.0005 16 12.4188 16 8.00049C16 3.58221 12.4183 0.000488281 8 0.000488281C3.58172 0.000488281 0 3.58221 0 8.00049C0 12.4188 3.58172 16.0005 8 16.0005ZM11.7071 10.2934L9.41424 8.00052L11.7071 5.70761L10.2929 4.2934L8.00003 6.5863L5.70712 4.2934L4.29291 5.70761L6.58582 8.00052L4.29294 10.2934L5.70715 11.7076L8.00003 9.41473L10.2929 11.7076L11.7071 10.2934Z"
+            fill-rule="evenodd"
+          />
+          <defs>
+            <clippath>
+              <rect
+                height="16"
+                transform="translate(0 0.000488281)"
+                width="16"
+              />
+            </clippath>
+          </defs>
+        </svg>
+      </button>
+    </div>
+    <div
+      class="v-chip v-chip-compact v-flex"
+    >
+      Label 5
+      <button
+        aria-label="Clear Label 5"
+        class="v-button v-button-tertiary v-button-icon v-button-subtle"
+      >
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-tiny v-icon-clear-alt"
+          focusable="false"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M8 16.0005C12.4183 16.0005 16 12.4188 16 8.00049C16 3.58221 12.4183 0.000488281 8 0.000488281C3.58172 0.000488281 0 3.58221 0 8.00049C0 12.4188 3.58172 16.0005 8 16.0005ZM11.7071 10.2934L9.41424 8.00052L11.7071 5.70761L10.2929 4.2934L8.00003 6.5863L5.70712 4.2934L4.29291 5.70761L6.58582 8.00052L4.29294 10.2934L5.70715 11.7076L8.00003 9.41473L10.2929 11.7076L11.7071 10.2934Z"
+            fill-rule="evenodd"
+          />
+          <defs>
+            <clippath>
+              <rect
+                height="16"
+                transform="translate(0 0.000488281)"
+                width="16"
+              />
+            </clippath>
+          </defs>
+        </svg>
+      </button>
+    </div>
+    <div
+      class="v-chip v-chip-compact v-flex"
+    >
+      Label 6
+      <button
+        aria-label="Clear Label 6"
+        class="v-button v-button-tertiary v-button-icon v-button-subtle"
+      >
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-tiny v-icon-clear-alt"
+          focusable="false"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M8 16.0005C12.4183 16.0005 16 12.4188 16 8.00049C16 3.58221 12.4183 0.000488281 8 0.000488281C3.58172 0.000488281 0 3.58221 0 8.00049C0 12.4188 3.58172 16.0005 8 16.0005ZM11.7071 10.2934L9.41424 8.00052L11.7071 5.70761L10.2929 4.2934L8.00003 6.5863L5.70712 4.2934L4.29291 5.70761L6.58582 8.00052L4.29294 10.2934L5.70715 11.7076L8.00003 9.41473L10.2929 11.7076L11.7071 10.2934Z"
+            fill-rule="evenodd"
+          />
+          <defs>
+            <clippath>
+              <rect
+                height="16"
+                transform="translate(0 0.000488281)"
+                width="16"
+              />
+            </clippath>
+          </defs>
+        </svg>
+      </button>
+    </div>
+  </div>
+  <div
+    class="v-mt-12"
+  >
+    <button
+      class="v-button"
+    >
+      Reset
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Chip examples Compact removable chip should render correctly 1`] = `
+<div>
+  <div
+    class="v-chip v-chip-compact v-flex"
+  >
+    <span>
+      Label
+    </span>
+    <button
+      aria-label="clear Label"
+      class="v-button v-button-tertiary v-button-icon v-button-subtle"
+    >
+      <svg
+        aria-hidden="true"
+        class="v-icon v-icon-visa v-icon-tiny v-icon-clear-alt"
+        focusable="false"
+        height="16"
+        viewBox="0 0 16 16"
+        width="16"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          class="v-icon-primary"
+          clip-rule="evenodd"
+          d="M8 16.0005C12.4183 16.0005 16 12.4188 16 8.00049C16 3.58221 12.4183 0.000488281 8 0.000488281C3.58172 0.000488281 0 3.58221 0 8.00049C0 12.4188 3.58172 16.0005 8 16.0005ZM11.7071 10.2934L9.41424 8.00052L11.7071 5.70761L10.2929 4.2934L8.00003 6.5863L5.70712 4.2934L4.29291 5.70761L6.58582 8.00052L4.29294 10.2934L5.70715 11.7076L8.00003 9.41473L10.2929 11.7076L11.7071 10.2934Z"
+          fill-rule="evenodd"
+        />
+        <defs>
+          <clippath>
+            <rect
+              height="16"
+              transform="translate(0 0.000488281)"
+              width="16"
+            />
+          </clippath>
+        </defs>
+      </svg>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Chip examples Compact removable chip with avatar should render correctly 1`] = `
+<div>
+  <div
+    class="v-chip v-chip-compact v-flex"
+  >
+    <img
+      aria-label="Alex Miller"
+      class="v-avatar"
+      src="https://www.url.com/alex-miller-stock.png"
+    />
+    <span>
+      Label
+    </span>
+    <button
+      aria-label="clear Label"
+      class="v-button v-button-tertiary v-button-icon v-button-subtle"
+    >
+      <svg
+        aria-hidden="true"
+        class="v-icon v-icon-visa v-icon-tiny v-icon-clear-alt"
+        focusable="false"
+        height="16"
+        viewBox="0 0 16 16"
+        width="16"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          class="v-icon-primary"
+          clip-rule="evenodd"
+          d="M8 16.0005C12.4183 16.0005 16 12.4188 16 8.00049C16 3.58221 12.4183 0.000488281 8 0.000488281C3.58172 0.000488281 0 3.58221 0 8.00049C0 12.4188 3.58172 16.0005 8 16.0005ZM11.7071 10.2934L9.41424 8.00052L11.7071 5.70761L10.2929 4.2934L8.00003 6.5863L5.70712 4.2934L4.29291 5.70761L6.58582 8.00052L4.29294 10.2934L5.70715 11.7076L8.00003 9.41473L10.2929 11.7076L11.7071 10.2934Z"
+          fill-rule="evenodd"
+        />
+        <defs>
+          <clippath>
+            <rect
+              height="16"
+              transform="translate(0 0.000488281)"
+              width="16"
+            />
+          </clippath>
+        </defs>
+      </svg>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Chip examples Compact removable chip with icon should render correctly 1`] = `
+<div>
+  <div
+    class="v-chip v-chip-compact v-flex"
+  >
+    <svg
+      aria-hidden="true"
+      class="v-icon v-icon-visa v-icon-tiny v-icon-account"
+      focusable="false"
+      height="16"
+      viewBox="0 0 16 16"
+      width="16"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        class="v-icon-secondary"
+        clip-rule="evenodd"
+        d="M8 11C5.23858 11 3 13.2386 3 16H1C1 12.134 4.13401 9 8 9C11.866 9 15 12.134 15 16H13C13 13.2386 10.7614 11 8 11Z"
+        fill-rule="evenodd"
+      />
+      <path
+        class="v-icon-primary"
+        clip-rule="evenodd"
+        d="M8 2C6.89543 2 6 2.89543 6 4C6 5.10457 6.89543 6 8 6C9.10457 6 10 5.10457 10 4C10 2.89543 9.10457 2 8 2ZM4 4C4 1.79086 5.79086 0 8 0C10.2091 0 12 1.79086 12 4C12 6.20914 10.2091 8 8 8C5.79086 8 4 6.20914 4 4Z"
+        fill-rule="evenodd"
+      />
+    </svg>
+    <span>
+      Label
+    </span>
+    <button
+      aria-label="clear Label"
+      class="v-button v-button-tertiary v-button-icon v-button-subtle"
+    >
+      <svg
+        aria-hidden="true"
+        class="v-icon v-icon-visa v-icon-tiny v-icon-clear-alt"
+        focusable="false"
+        height="16"
+        viewBox="0 0 16 16"
+        width="16"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          class="v-icon-primary"
+          clip-rule="evenodd"
+          d="M8 16.0005C12.4183 16.0005 16 12.4188 16 8.00049C16 3.58221 12.4183 0.000488281 8 0.000488281C3.58172 0.000488281 0 3.58221 0 8.00049C0 12.4188 3.58172 16.0005 8 16.0005ZM11.7071 10.2934L9.41424 8.00052L11.7071 5.70761L10.2929 4.2934L8.00003 6.5863L5.70712 4.2934L4.29291 5.70761L6.58582 8.00052L4.29294 10.2934L5.70715 11.7076L8.00003 9.41473L10.2929 11.7076L11.7071 10.2934Z"
+          fill-rule="evenodd"
+        />
+        <defs>
+          <clippath>
+            <rect
+              height="16"
+              transform="translate(0 0.000488281)"
+              width="16"
+            />
+          </clippath>
+        </defs>
+      </svg>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Chip examples Default removable chip should render correctly 1`] = `
+<div>
+  <div
+    class="v-chip v-flex"
+  >
+    <span>
+      Label
+    </span>
+    <button
+      aria-label="clear Label"
+      class="v-button v-button-tertiary v-button-icon v-button-subtle"
+    >
+      <svg
+        aria-hidden="true"
+        class="v-icon v-icon-visa v-icon-tiny v-icon-clear-alt"
+        focusable="false"
+        height="16"
+        viewBox="0 0 16 16"
+        width="16"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          class="v-icon-primary"
+          clip-rule="evenodd"
+          d="M8 16.0005C12.4183 16.0005 16 12.4188 16 8.00049C16 3.58221 12.4183 0.000488281 8 0.000488281C3.58172 0.000488281 0 3.58221 0 8.00049C0 12.4188 3.58172 16.0005 8 16.0005ZM11.7071 10.2934L9.41424 8.00052L11.7071 5.70761L10.2929 4.2934L8.00003 6.5863L5.70712 4.2934L4.29291 5.70761L6.58582 8.00052L4.29294 10.2934L5.70715 11.7076L8.00003 9.41473L10.2929 11.7076L11.7071 10.2934Z"
+          fill-rule="evenodd"
+        />
+        <defs>
+          <clippath>
+            <rect
+              height="16"
+              transform="translate(0 0.000488281)"
+              width="16"
+            />
+          </clippath>
+        </defs>
+      </svg>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Chip examples Default selection chip should render correctly 1`] = `
+<div>
+  <label
+    class="v-chip v-chip-selection v-label v-gap-6"
+    for="default-selection-chip"
+  >
+    Label
+    <input
+      class="v-checkbox"
+      id="default-selection-chip"
+      type="checkbox"
+    />
+  </label>
+</div>
+`;
+
+exports[`Chip examples Disabled removable chip should render correctly 1`] = `
+<div>
+  <div
+    class="v-chip v-flex"
+  >
+    <label
+      class="v-label"
+      for="multi-line-selection-chip"
+    >
+      Label
+    </label>
+    <button
+      aria-label="clear"
+      class="v-button v-button-tertiary v-button-icon v-button-subtle"
+      disabled=""
+      id="multi-line-selection-chip"
+    >
+      <svg
+        aria-hidden="true"
+        class="v-icon v-icon-visa v-icon-tiny v-icon-clear-alt"
+        focusable="false"
+        height="16"
+        viewBox="0 0 16 16"
+        width="16"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          class="v-icon-primary"
+          clip-rule="evenodd"
+          d="M8 16.0005C12.4183 16.0005 16 12.4188 16 8.00049C16 3.58221 12.4183 0.000488281 8 0.000488281C3.58172 0.000488281 0 3.58221 0 8.00049C0 12.4188 3.58172 16.0005 8 16.0005ZM11.7071 10.2934L9.41424 8.00052L11.7071 5.70761L10.2929 4.2934L8.00003 6.5863L5.70712 4.2934L4.29291 5.70761L6.58582 8.00052L4.29294 10.2934L5.70715 11.7076L8.00003 9.41473L10.2929 11.7076L11.7071 10.2934Z"
+          fill-rule="evenodd"
+        />
+        <defs>
+          <clippath>
+            <rect
+              height="16"
+              transform="translate(0 0.000488281)"
+              width="16"
+            />
+          </clippath>
+        </defs>
+      </svg>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Chip examples Disabled selected selection chip should render correctly 1`] = `
+<div>
+  <label
+    class="v-chip v-chip-selection v-label v-gap-6"
+    for="checked-disabled-selection-chip"
+  >
+    Label
+    <input
+      checked=""
+      class="v-checkbox"
+      disabled=""
+      id="checked-disabled-selection-chip"
+      type="checkbox"
+    />
+  </label>
+</div>
+`;
+
+exports[`Chip examples Disabled selection chip should render correctly 1`] = `
+<div>
+  <label
+    class="v-chip v-chip-selection v-label v-gap-6"
+    for="disabled-selection-chip"
+  >
+    Label
+    <input
+      class="v-checkbox"
+      disabled=""
+      id="disabled-selection-chip"
+      type="checkbox"
+    />
+  </label>
+</div>
+`;
+
+exports[`Chip examples Multi-line selection chip should render correctly 1`] = `
+<div>
+  <label
+    class="v-chip v-chip-selection v-label v-gap-6"
+    for="multi-line-selection-chip"
+  >
+    This is a chip label
+    <br />
+    that wraps on
+    <br />
+    multiple lines
+    <input
+      class="v-checkbox"
+      id="multi-line-selection-chip"
+      type="checkbox"
+    />
+  </label>
+</div>
+`;
+
+exports[`Chip examples Removable chip group should render correctly 1`] = `
+<div>
+  <div
+    class="v-flex v-flex-wrap v-gap-8"
+  >
+    <div
+      class="v-chip v-flex"
+    >
+      Label 1
+      <button
+        aria-label="Clear Label 1"
+        class="v-button v-button-tertiary v-button-icon v-button-subtle"
+      >
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-tiny v-icon-clear-alt"
+          focusable="false"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M8 16.0005C12.4183 16.0005 16 12.4188 16 8.00049C16 3.58221 12.4183 0.000488281 8 0.000488281C3.58172 0.000488281 0 3.58221 0 8.00049C0 12.4188 3.58172 16.0005 8 16.0005ZM11.7071 10.2934L9.41424 8.00052L11.7071 5.70761L10.2929 4.2934L8.00003 6.5863L5.70712 4.2934L4.29291 5.70761L6.58582 8.00052L4.29294 10.2934L5.70715 11.7076L8.00003 9.41473L10.2929 11.7076L11.7071 10.2934Z"
+            fill-rule="evenodd"
+          />
+          <defs>
+            <clippath>
+              <rect
+                height="16"
+                transform="translate(0 0.000488281)"
+                width="16"
+              />
+            </clippath>
+          </defs>
+        </svg>
+      </button>
+    </div>
+    <div
+      class="v-chip v-flex"
+    >
+      Label 2
+      <button
+        aria-label="Clear Label 2"
+        class="v-button v-button-tertiary v-button-icon v-button-subtle"
+      >
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-tiny v-icon-clear-alt"
+          focusable="false"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M8 16.0005C12.4183 16.0005 16 12.4188 16 8.00049C16 3.58221 12.4183 0.000488281 8 0.000488281C3.58172 0.000488281 0 3.58221 0 8.00049C0 12.4188 3.58172 16.0005 8 16.0005ZM11.7071 10.2934L9.41424 8.00052L11.7071 5.70761L10.2929 4.2934L8.00003 6.5863L5.70712 4.2934L4.29291 5.70761L6.58582 8.00052L4.29294 10.2934L5.70715 11.7076L8.00003 9.41473L10.2929 11.7076L11.7071 10.2934Z"
+            fill-rule="evenodd"
+          />
+          <defs>
+            <clippath>
+              <rect
+                height="16"
+                transform="translate(0 0.000488281)"
+                width="16"
+              />
+            </clippath>
+          </defs>
+        </svg>
+      </button>
+    </div>
+    <div
+      class="v-chip v-flex"
+    >
+      Label 3
+      <button
+        aria-label="Clear Label 3"
+        class="v-button v-button-tertiary v-button-icon v-button-subtle"
+      >
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-tiny v-icon-clear-alt"
+          focusable="false"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M8 16.0005C12.4183 16.0005 16 12.4188 16 8.00049C16 3.58221 12.4183 0.000488281 8 0.000488281C3.58172 0.000488281 0 3.58221 0 8.00049C0 12.4188 3.58172 16.0005 8 16.0005ZM11.7071 10.2934L9.41424 8.00052L11.7071 5.70761L10.2929 4.2934L8.00003 6.5863L5.70712 4.2934L4.29291 5.70761L6.58582 8.00052L4.29294 10.2934L5.70715 11.7076L8.00003 9.41473L10.2929 11.7076L11.7071 10.2934Z"
+            fill-rule="evenodd"
+          />
+          <defs>
+            <clippath>
+              <rect
+                height="16"
+                transform="translate(0 0.000488281)"
+                width="16"
+              />
+            </clippath>
+          </defs>
+        </svg>
+      </button>
+    </div>
+    <div
+      class="v-chip v-flex"
+    >
+      Label 4
+      <button
+        aria-label="Clear Label 4"
+        class="v-button v-button-tertiary v-button-icon v-button-subtle"
+      >
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-tiny v-icon-clear-alt"
+          focusable="false"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M8 16.0005C12.4183 16.0005 16 12.4188 16 8.00049C16 3.58221 12.4183 0.000488281 8 0.000488281C3.58172 0.000488281 0 3.58221 0 8.00049C0 12.4188 3.58172 16.0005 8 16.0005ZM11.7071 10.2934L9.41424 8.00052L11.7071 5.70761L10.2929 4.2934L8.00003 6.5863L5.70712 4.2934L4.29291 5.70761L6.58582 8.00052L4.29294 10.2934L5.70715 11.7076L8.00003 9.41473L10.2929 11.7076L11.7071 10.2934Z"
+            fill-rule="evenodd"
+          />
+          <defs>
+            <clippath>
+              <rect
+                height="16"
+                transform="translate(0 0.000488281)"
+                width="16"
+              />
+            </clippath>
+          </defs>
+        </svg>
+      </button>
+    </div>
+    <div
+      class="v-chip v-flex"
+    >
+      Label 5
+      <button
+        aria-label="Clear Label 5"
+        class="v-button v-button-tertiary v-button-icon v-button-subtle"
+      >
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-tiny v-icon-clear-alt"
+          focusable="false"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M8 16.0005C12.4183 16.0005 16 12.4188 16 8.00049C16 3.58221 12.4183 0.000488281 8 0.000488281C3.58172 0.000488281 0 3.58221 0 8.00049C0 12.4188 3.58172 16.0005 8 16.0005ZM11.7071 10.2934L9.41424 8.00052L11.7071 5.70761L10.2929 4.2934L8.00003 6.5863L5.70712 4.2934L4.29291 5.70761L6.58582 8.00052L4.29294 10.2934L5.70715 11.7076L8.00003 9.41473L10.2929 11.7076L11.7071 10.2934Z"
+            fill-rule="evenodd"
+          />
+          <defs>
+            <clippath>
+              <rect
+                height="16"
+                transform="translate(0 0.000488281)"
+                width="16"
+              />
+            </clippath>
+          </defs>
+        </svg>
+      </button>
+    </div>
+    <div
+      class="v-chip v-flex"
+    >
+      Label 6
+      <button
+        aria-label="Clear Label 6"
+        class="v-button v-button-tertiary v-button-icon v-button-subtle"
+      >
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-tiny v-icon-clear-alt"
+          focusable="false"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M8 16.0005C12.4183 16.0005 16 12.4188 16 8.00049C16 3.58221 12.4183 0.000488281 8 0.000488281C3.58172 0.000488281 0 3.58221 0 8.00049C0 12.4188 3.58172 16.0005 8 16.0005ZM11.7071 10.2934L9.41424 8.00052L11.7071 5.70761L10.2929 4.2934L8.00003 6.5863L5.70712 4.2934L4.29291 5.70761L6.58582 8.00052L4.29294 10.2934L5.70715 11.7076L8.00003 9.41473L10.2929 11.7076L11.7071 10.2934Z"
+            fill-rule="evenodd"
+          />
+          <defs>
+            <clippath>
+              <rect
+                height="16"
+                transform="translate(0 0.000488281)"
+                width="16"
+              />
+            </clippath>
+          </defs>
+        </svg>
+      </button>
+    </div>
+    <div
+      class="v-chip v-flex"
+    >
+      Label 7
+      <button
+        aria-label="Clear Label 7"
+        class="v-button v-button-tertiary v-button-icon v-button-subtle"
+      >
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-tiny v-icon-clear-alt"
+          focusable="false"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M8 16.0005C12.4183 16.0005 16 12.4188 16 8.00049C16 3.58221 12.4183 0.000488281 8 0.000488281C3.58172 0.000488281 0 3.58221 0 8.00049C0 12.4188 3.58172 16.0005 8 16.0005ZM11.7071 10.2934L9.41424 8.00052L11.7071 5.70761L10.2929 4.2934L8.00003 6.5863L5.70712 4.2934L4.29291 5.70761L6.58582 8.00052L4.29294 10.2934L5.70715 11.7076L8.00003 9.41473L10.2929 11.7076L11.7071 10.2934Z"
+            fill-rule="evenodd"
+          />
+          <defs>
+            <clippath>
+              <rect
+                height="16"
+                transform="translate(0 0.000488281)"
+                width="16"
+              />
+            </clippath>
+          </defs>
+        </svg>
+      </button>
+    </div>
+    <div
+      class="v-chip v-flex"
+    >
+      Label 8
+      <button
+        aria-label="Clear Label 8"
+        class="v-button v-button-tertiary v-button-icon v-button-subtle"
+      >
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-tiny v-icon-clear-alt"
+          focusable="false"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M8 16.0005C12.4183 16.0005 16 12.4188 16 8.00049C16 3.58221 12.4183 0.000488281 8 0.000488281C3.58172 0.000488281 0 3.58221 0 8.00049C0 12.4188 3.58172 16.0005 8 16.0005ZM11.7071 10.2934L9.41424 8.00052L11.7071 5.70761L10.2929 4.2934L8.00003 6.5863L5.70712 4.2934L4.29291 5.70761L6.58582 8.00052L4.29294 10.2934L5.70715 11.7076L8.00003 9.41473L10.2929 11.7076L11.7071 10.2934Z"
+            fill-rule="evenodd"
+          />
+          <defs>
+            <clippath>
+              <rect
+                height="16"
+                transform="translate(0 0.000488281)"
+                width="16"
+              />
+            </clippath>
+          </defs>
+        </svg>
+      </button>
+    </div>
+  </div>
+  <div
+    class="v-mt-12"
+  >
+    <button
+      class="v-button"
+    >
+      Reset
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Chip examples Removable chip with avatar should render correctly 1`] = `
+<div>
+  <div
+    class="v-chip v-flex"
+  >
+    <img
+      aria-label="Alex Miller"
+      class="v-avatar"
+      src="https://www.url.com/alex-miller-stock.png"
+    />
+    <span>
+      Label
+    </span>
+    <button
+      aria-label="clear Label"
+      class="v-button v-button-tertiary v-button-icon v-button-subtle"
+    >
+      <svg
+        aria-hidden="true"
+        class="v-icon v-icon-visa v-icon-tiny v-icon-clear-alt"
+        focusable="false"
+        height="16"
+        viewBox="0 0 16 16"
+        width="16"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          class="v-icon-primary"
+          clip-rule="evenodd"
+          d="M8 16.0005C12.4183 16.0005 16 12.4188 16 8.00049C16 3.58221 12.4183 0.000488281 8 0.000488281C3.58172 0.000488281 0 3.58221 0 8.00049C0 12.4188 3.58172 16.0005 8 16.0005ZM11.7071 10.2934L9.41424 8.00052L11.7071 5.70761L10.2929 4.2934L8.00003 6.5863L5.70712 4.2934L4.29291 5.70761L6.58582 8.00052L4.29294 10.2934L5.70715 11.7076L8.00003 9.41473L10.2929 11.7076L11.7071 10.2934Z"
+          fill-rule="evenodd"
+        />
+        <defs>
+          <clippath>
+            <rect
+              height="16"
+              transform="translate(0 0.000488281)"
+              width="16"
+            />
+          </clippath>
+        </defs>
+      </svg>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Chip examples Removable chip with icon should render correctly 1`] = `
+<div>
+  <div
+    class="v-chip v-flex"
+  >
+    <svg
+      aria-hidden="true"
+      class="v-icon v-icon-visa v-icon-tiny v-icon-account"
+      focusable="false"
+      height="16"
+      viewBox="0 0 16 16"
+      width="16"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        class="v-icon-secondary"
+        clip-rule="evenodd"
+        d="M8 11C5.23858 11 3 13.2386 3 16H1C1 12.134 4.13401 9 8 9C11.866 9 15 12.134 15 16H13C13 13.2386 10.7614 11 8 11Z"
+        fill-rule="evenodd"
+      />
+      <path
+        class="v-icon-primary"
+        clip-rule="evenodd"
+        d="M8 2C6.89543 2 6 2.89543 6 4C6 5.10457 6.89543 6 8 6C9.10457 6 10 5.10457 10 4C10 2.89543 9.10457 2 8 2ZM4 4C4 1.79086 5.79086 0 8 0C10.2091 0 12 1.79086 12 4C12 6.20914 10.2091 8 8 8C5.79086 8 4 6.20914 4 4Z"
+        fill-rule="evenodd"
+      />
+    </svg>
+    <span>
+      Label
+    </span>
+    <button
+      aria-label="clear Label"
+      class="v-button v-button-tertiary v-button-icon v-button-subtle"
+    >
+      <svg
+        aria-hidden="true"
+        class="v-icon v-icon-visa v-icon-tiny v-icon-clear-alt"
+        focusable="false"
+        height="16"
+        viewBox="0 0 16 16"
+        width="16"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          class="v-icon-primary"
+          clip-rule="evenodd"
+          d="M8 16.0005C12.4183 16.0005 16 12.4188 16 8.00049C16 3.58221 12.4183 0.000488281 8 0.000488281C3.58172 0.000488281 0 3.58221 0 8.00049C0 12.4188 3.58172 16.0005 8 16.0005ZM11.7071 10.2934L9.41424 8.00052L11.7071 5.70761L10.2929 4.2934L8.00003 6.5863L5.70712 4.2934L4.29291 5.70761L6.58582 8.00052L4.29294 10.2934L5.70715 11.7076L8.00003 9.41473L10.2929 11.7076L11.7071 10.2934Z"
+          fill-rule="evenodd"
+        />
+        <defs>
+          <clippath>
+            <rect
+              height="16"
+              transform="translate(0 0.000488281)"
+              width="16"
+            />
+          </clippath>
+        </defs>
+      </svg>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Chip examples Selected selection chip should render correctly 1`] = `
+<div>
+  <label
+    class="v-chip v-chip-selection v-label v-gap-6"
+    for="selected-selection-chip"
+  >
+    Label
+    <input
+      checked=""
+      class="v-checkbox"
+      id="selected-selection-chip"
+      type="checkbox"
+    />
+  </label>
+</div>
+`;
+
+exports[`Chip examples Selection chip group should render correctly 1`] = `
+<div>
+  <div
+    class="v-flex v-flex-wrap v-gap-8"
+    style="inline-size: 50%;"
+  >
+    <label
+      class="v-chip v-chip-selection v-label v-gap-6"
+      for="selection-group-chip-0"
+    >
+      <span>
+        Label 1
+      </span>
+      <input
+        class="v-checkbox"
+        id="selection-group-chip-0"
+        type="checkbox"
+      />
+    </label>
+    <label
+      class="v-chip v-chip-selection v-label v-gap-6"
+      for="selection-group-chip-1"
+    >
+      <span>
+        Label 2
+      </span>
+      <input
+        class="v-checkbox"
+        id="selection-group-chip-1"
+        type="checkbox"
+      />
+    </label>
+    <label
+      class="v-chip v-chip-selection v-label v-gap-6"
+      for="selection-group-chip-2"
+    >
+      <span>
+        Label 3
+      </span>
+      <input
+        class="v-checkbox"
+        id="selection-group-chip-2"
+        type="checkbox"
+      />
+    </label>
+    <label
+      class="v-chip v-chip-selection v-label v-gap-6"
+      for="selection-group-chip-3"
+    >
+      <span>
+        Label 4
+      </span>
+      <input
+        class="v-checkbox"
+        id="selection-group-chip-3"
+        type="checkbox"
+      />
+    </label>
+    <label
+      class="v-chip v-chip-selection v-label v-gap-6"
+      for="selection-group-chip-4"
+    >
+      <span>
+        Label 5
+      </span>
+      <input
+        class="v-checkbox"
+        id="selection-group-chip-4"
+        type="checkbox"
+      />
+    </label>
+    <label
+      class="v-chip v-chip-selection v-label v-gap-6"
+      for="selection-group-chip-5"
+    >
+      <span>
+        Label 6
+      </span>
+      <input
+        class="v-checkbox"
+        id="selection-group-chip-5"
+        type="checkbox"
+      />
+    </label>
+    <label
+      class="v-chip v-chip-selection v-label v-gap-6"
+      for="selection-group-chip-6"
+    >
+      <span>
+        Label 7
+      </span>
+      <input
+        class="v-checkbox"
+        id="selection-group-chip-6"
+        type="checkbox"
+      />
+    </label>
+  </div>
+</div>
+`;
+
+exports[`Chip examples Static chip should render correctly 1`] = `
+<div>
+  <label
+    class="v-chip v-flex"
+    readonly=""
+  >
+    Label
+  </label>
+</div>
+`;

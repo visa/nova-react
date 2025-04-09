@@ -1,0 +1,748 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Select examples Default select should render correctly 1`] = `
+<div>
+  <fieldset
+    class="v-flex v-flex-col v-gap-6"
+  >
+    <label
+      class="v-label"
+      for="default-select"
+    >
+      Label (required)
+    </label>
+    <div
+      class="v-surface v-input-container"
+    >
+      <select
+        class="v-input"
+        id="default-select"
+        name="default-select-name"
+      >
+        <option
+          hidden=""
+          value=""
+        />
+        <option
+          value="0"
+        >
+          Option A
+        </option>
+        <option
+          value="1"
+        >
+          Option B
+        </option>
+        <option
+          value="2"
+        >
+          Option C
+        </option>
+        <option
+          value="3"
+        >
+          Option D
+        </option>
+        <option
+          value="4"
+        >
+          Option E
+        </option>
+      </select>
+      <div
+        class="v-input-control"
+      >
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-down"
+          focusable="false"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M2.47597 4.00049L1 5.39358L8 12.0005L15 5.39358L13.524 4.00049L8 9.21431L2.47597 4.00049Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+    </div>
+  </fieldset>
+</div>
+`;
+
+exports[`Select examples Disabled select should render correctly 1`] = `
+<div>
+  <div
+    class="v-flex v-flex-col v-gap-16"
+  >
+    <fieldset
+      aria-labelledby="disabled-select-message"
+      class="v-flex v-flex-col v-gap-6"
+    >
+      <label
+        class="v-label"
+        for="disabled-select"
+      >
+        Label (required)
+      </label>
+      <div
+        class="v-surface v-input-container"
+      >
+        <select
+          aria-describedby="disabled-select-message"
+          class="v-input"
+          disabled=""
+          id="disabled-select"
+          name="disabled-select-name"
+        >
+          <option
+            hidden=""
+            value=""
+          />
+          <option
+            value="0"
+          >
+            Option A
+          </option>
+          <option
+            value="1"
+          >
+            Option B
+          </option>
+          <option
+            value="2"
+          >
+            Option C
+          </option>
+          <option
+            value="3"
+          >
+            Option D
+          </option>
+          <option
+            value="4"
+          >
+            Option E
+          </option>
+        </select>
+        <div
+          class="v-input-control"
+        >
+          <svg
+            aria-hidden="true"
+            class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-down"
+            focusable="false"
+            height="16"
+            viewBox="0 0 16 16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="v-icon-primary"
+              clip-rule="evenodd"
+              d="M2.47597 4.00049L1 5.39358L8 12.0005L15 5.39358L13.524 4.00049L8 9.21431L2.47597 4.00049Z"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </div>
+      </div>
+      <span
+        class="v-input-message"
+        id="disabled-select-message"
+      >
+        This is optional text that describes the label in more detail.
+      </span>
+    </fieldset>
+    <div
+      class="v-align-items-center v-flex v-gap-2"
+    >
+      <input
+        checked=""
+        class="v-checkbox"
+        id="disabled-select-demo-checkbox"
+        type="checkbox"
+      />
+      <label
+        class="v-label"
+        for="disabled-select-demo-checkbox"
+      >
+        Mark select as disabled
+      </label>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Select examples Read-only select should render correctly 1`] = `
+<div>
+  <fieldset
+    class="v-flex v-flex-col v-gap-6"
+  >
+    <label
+      class="v-label"
+      for="read-only-select"
+    >
+      Label (required)
+    </label>
+    <div
+      class="v-surface v-input-container"
+    >
+      <select
+        class="v-input"
+        id="read-only-select"
+        name="read-only-select-name"
+        readonly=""
+        required=""
+      >
+        <option
+          hidden=""
+          value=""
+        />
+        <option
+          disabled=""
+          selected=""
+          value="0"
+        >
+          Option A
+        </option>
+        <option
+          disabled=""
+          value="1"
+        >
+          Option B
+        </option>
+        <option
+          disabled=""
+          value="2"
+        >
+          Option C
+        </option>
+        <option
+          disabled=""
+          value="3"
+        >
+          Option D
+        </option>
+        <option
+          disabled=""
+          value="4"
+        >
+          Option E
+        </option>
+      </select>
+      <div
+        class="v-input-control"
+      >
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-down"
+          focusable="false"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M2.47597 4.00049L1 5.39358L8 12.0005L15 5.39358L13.524 4.00049L8 9.21431L2.47597 4.00049Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+    </div>
+  </fieldset>
+</div>
+`;
+
+exports[`Select examples Select for card expiration should render correctly 1`] = `
+<div>
+  <form
+    class="v-flex v-flex-col v-gap-6"
+    novalidate=""
+  >
+    <fieldset
+      aria-labelledby="card-expiration-select-message"
+      class="v-flex v-flex-col v-gap-4"
+    >
+      <legend
+        class="v-label"
+      >
+        Expires (MM/YY)
+      </legend>
+      <div
+        class="v-align-items-center v-flex v-flex-row v-gap-6"
+      >
+        <div
+          class="v-surface v-input-container"
+        >
+          <select
+            aria-describedby="card-expiration-select-message"
+            aria-invalid="false"
+            aria-label="Expiration month"
+            aria-required="true"
+            autocomplete="cc-exp-month"
+            class="v-input"
+            id="card-expiration-select-month"
+            name="card-expiration-select-month"
+            required=""
+          >
+            <option
+              hidden=""
+              value=""
+            />
+            <option
+              value="1"
+            >
+              01
+            </option>
+            <option
+              value="2"
+            >
+              02
+            </option>
+            <option
+              value="3"
+            >
+              03
+            </option>
+            <option
+              value="4"
+            >
+              04
+            </option>
+            <option
+              value="5"
+            >
+              05
+            </option>
+            <option
+              value="6"
+            >
+              06
+            </option>
+            <option
+              value="7"
+            >
+              07
+            </option>
+            <option
+              value="8"
+            >
+              08
+            </option>
+            <option
+              value="9"
+            >
+              09
+            </option>
+            <option
+              value="10"
+            >
+              10
+            </option>
+            <option
+              value="11"
+            >
+              11
+            </option>
+            <option
+              value="12"
+            >
+              12
+            </option>
+          </select>
+          <div
+            class="v-input-control"
+          >
+            <svg
+              aria-hidden="true"
+              class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-down"
+              focusable="false"
+              height="16"
+              viewBox="0 0 16 16"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                class="v-icon-primary"
+                clip-rule="evenodd"
+                d="M2.47597 4.00049L1 5.39358L8 12.0005L15 5.39358L13.524 4.00049L8 9.21431L2.47597 4.00049Z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
+        </div>
+        <span
+          aria-hidden="true"
+          class="v-typography-body-1"
+        >
+          /
+        </span>
+        <div
+          class="v-surface v-input-container"
+        >
+          <select
+            aria-describedby="card-expiration-select-message"
+            aria-invalid="false"
+            aria-label="Expiration year"
+            aria-required="true"
+            autocomplete="cc-exp-year"
+            class="v-input"
+            id="card-expiration-select-year"
+            name="card-expiration-select-year"
+            required=""
+          >
+            <option
+              hidden=""
+              value=""
+            />
+            <option
+              value="2025"
+            >
+              25
+            </option>
+            <option
+              value="2026"
+            >
+              26
+            </option>
+            <option
+              value="2027"
+            >
+              27
+            </option>
+            <option
+              value="2028"
+            >
+              28
+            </option>
+            <option
+              value="2029"
+            >
+              29
+            </option>
+            <option
+              value="2030"
+            >
+              30
+            </option>
+            <option
+              value="2031"
+            >
+              31
+            </option>
+            <option
+              value="2032"
+            >
+              32
+            </option>
+            <option
+              value="2033"
+            >
+              33
+            </option>
+            <option
+              value="2034"
+            >
+              34
+            </option>
+            <option
+              value="2035"
+            >
+              35
+            </option>
+          </select>
+          <div
+            class="v-input-control"
+          >
+            <svg
+              aria-hidden="true"
+              class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-down"
+              focusable="false"
+              height="16"
+              viewBox="0 0 16 16"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                class="v-icon-primary"
+                clip-rule="evenodd"
+                d="M2.47597 4.00049L1 5.39358L8 12.0005L15 5.39358L13.524 4.00049L8 9.21431L2.47597 4.00049Z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </fieldset>
+    <div>
+      <button
+        class="v-button"
+        type="submit"
+      >
+        Submit
+      </button>
+    </div>
+  </form>
+</div>
+`;
+
+exports[`Select examples Select with error should render correctly 1`] = `
+<div>
+  <form
+    class="v-flex v-flex-col v-gap-16"
+    novalidate=""
+  >
+    <fieldset
+      aria-labelledby="error-select-message"
+      class="v-flex v-flex-col v-gap-6"
+    >
+      <label
+        class="v-label"
+        for="error-select"
+      >
+        Label (required)
+      </label>
+      <div
+        class="v-surface v-input-container"
+      >
+        <select
+          aria-describedby="error-select-message"
+          aria-invalid="false"
+          class="v-input"
+          id="error-select"
+          name="full-name"
+          required=""
+        >
+          <option
+            hidden=""
+            value=""
+          />
+          <option
+            value="0"
+          >
+            Option A
+          </option>
+          <option
+            value="1"
+          >
+            Option B
+          </option>
+          <option
+            value="2"
+          >
+            Option C
+          </option>
+          <option
+            value="3"
+          >
+            Option D
+          </option>
+          <option
+            value="4"
+          >
+            Option E
+          </option>
+        </select>
+        <div
+          class="v-input-control"
+        >
+          <svg
+            aria-hidden="true"
+            class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-down"
+            focusable="false"
+            height="16"
+            viewBox="0 0 16 16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="v-icon-primary"
+              clip-rule="evenodd"
+              d="M2.47597 4.00049L1 5.39358L8 12.0005L15 5.39358L13.524 4.00049L8 9.21431L2.47597 4.00049Z"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </div>
+      </div>
+    </fieldset>
+    <div
+      class="v-flex v-gap-10"
+    >
+      <button
+        class="v-button"
+        type="submit"
+      >
+        Submit
+      </button>
+      <button
+        class="v-button v-button-secondary"
+        type="reset"
+      >
+        Reset
+      </button>
+    </div>
+  </form>
+</div>
+`;
+
+exports[`Select examples Select with inline label should render correctly 1`] = `
+<div>
+  <fieldset
+    class="v-align-items-center v-flex v-flex-row v-gap-6"
+  >
+    <label
+      class="v-label"
+      for="inline-select"
+    >
+      Label (required)
+    </label>
+    <div
+      class="v-surface v-input-container"
+    >
+      <select
+        class="v-input"
+        id="inline-select"
+        name="inline-select-name"
+      >
+        <option
+          hidden=""
+          value=""
+        />
+        <option
+          value="0"
+        >
+          Option A
+        </option>
+        <option
+          value="1"
+        >
+          Option B
+        </option>
+        <option
+          value="2"
+        >
+          Option C
+        </option>
+        <option
+          value="3"
+        >
+          Option D
+        </option>
+        <option
+          value="4"
+        >
+          Option E
+        </option>
+      </select>
+      <div
+        class="v-input-control"
+      >
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-down"
+          focusable="false"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M2.47597 4.00049L1 5.39358L8 12.0005L15 5.39358L13.524 4.00049L8 9.21431L2.47597 4.00049Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+    </div>
+  </fieldset>
+</div>
+`;
+
+exports[`Select examples Select with inline message should render correctly 1`] = `
+<div>
+  <fieldset
+    aria-labelledby="select-with-inline-message-message"
+    class="v-flex v-flex-col v-gap-6"
+  >
+    <label
+      class="v-label"
+      for="select-with-inline-message"
+    >
+      Label (required)
+    </label>
+    <div
+      class="v-surface v-input-container"
+    >
+      <select
+        aria-describedby="select-with-inline-message-message"
+        class="v-input"
+        id="select-with-inline-message"
+        name="select-with-inline-message-name"
+      >
+        <option
+          hidden=""
+          value=""
+        />
+        <option
+          value="0"
+        >
+          Option A
+        </option>
+        <option
+          value="1"
+        >
+          Option B
+        </option>
+        <option
+          value="2"
+        >
+          Option C
+        </option>
+        <option
+          value="3"
+        >
+          Option D
+        </option>
+        <option
+          value="4"
+        >
+          Option E
+        </option>
+      </select>
+      <div
+        class="v-input-control"
+      >
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-down"
+          focusable="false"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M2.47597 4.00049L1 5.39358L8 12.0005L15 5.39358L13.524 4.00049L8 9.21431L2.47597 4.00049Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+    </div>
+    <span
+      class="v-input-message"
+      id="select-with-inline-message-message"
+    >
+      This is optional text that describes the label in more detail.
+    </span>
+  </fieldset>
+</div>
+`;

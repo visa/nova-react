@@ -1,0 +1,60 @@
+{
+  "avatar-as-button": {
+    "file": "avatar-as-button.tsx",
+    "id": "avatar-as-button",
+    "title": "Avatar as button",
+    "testAvg": 100
+  },
+  "large-icon-avatar": {
+    "file": "large-icon-avatar.tsx",
+    "id": "large-icon-avatar",
+    "title": "Large icon avatar",
+    "testAvg": 100
+  },
+  "fictitious-brand-avatar": {
+    "file": "fictitious-brand-avatar.tsx",
+    "id": "fictitious-brand-avatar",
+    "title": "Large ficticious brand avatar",
+    "testAvg": 100
+  },
+  "large-image-avatar": {
+    "file": "large-image-avatar.tsx",
+    "id": "large-image-avatar",
+    "title": "Large image avatar",
+    "testAvg": 100
+  },
+  "large-initials-avatar": {
+    "file": "large-initials-avatar.tsx",
+    "title": "Large initials avatar",
+    "id": "large-initials-avatar",
+    "testAvg": 100
+  },
+  "small-horizontal-icon-avatar": {
+    "file": "small-horizontal-icon-avatar.tsx",
+    "id": "small-horizontal-icon-avatar",
+    "title": "Small horizontal icon avatar",
+    "testAvg": 100
+  },
+  "small-image-avatar": {
+    "file": "small-image-avatar.tsx",
+    "id": "small-image-avatar",
+    "title": "Small image avatar",
+    "testAvg": 100
+  },
+  "small-initials-avatar": {
+    "file": "small-initials-avatar.tsx",
+    "id": "small-initials-avatar",
+    "title": "Small initials avatar",
+    "testAvg": 100
+  },
+  "small-vertical-icon-avatar": {
+    "file": "small-vertical-icon-avatar.tsx",
+    "id": "small-vertical-icon-avatar",
+    "title": "Small vertical icon avatar",
+    "testAvg": 100
+  },
+  "vertical-image-with-text-avatar": {
+    "file": "vertical-image-with-text-avatar.tsx",
+    "id": "vertical-image-with-text-avatar"
+  }
+}

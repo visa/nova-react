@@ -1,0 +1,28 @@
+{
+  "default-dropdown-menu": {
+    "file": "default-dropdown-menu.tsx",
+    "id": "default-dropdown-menu",
+    "title": "Default text button dropdown menu",
+    "testAvg": 100
+  },
+  "icon-dropdown-menu": {
+    "file": "icon-dropdown-menu.tsx",
+    "id": "icon-dropdown-menu",
+    "title": "Default icon button dropdown menu",
+    "testAvg": 100
+  },
+  "dropdown-menu-with-tabs": {
+    "description": "Custom dropdown menu with tabs.",
+    "file": "dropdown-menu-with-tabs.tsx",
+    "id": "dropdown-menu-with-tabs",
+    "title": "Dropdown menu with tabs",
+    "testAvg": 100
+  },
+  "dropdown-menu-with-leading-icons": {
+    "file": "dropdown-menu-with-leading-icons.tsx",
+    "id": "dropdown-menu-with-leading-icons",
+    "title": "Dropdown menu with leading icons and destructive action",
+    "description": "Custom dropdown menu with leading icons and destructive action.",
+    "testAvg": 100
+  }
+}

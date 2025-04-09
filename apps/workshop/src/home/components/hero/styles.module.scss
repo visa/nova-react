@@ -1,0 +1,140 @@
+/**
+ *              Copyright (c) 2025 Visa, Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *         http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ **/
+@keyframes pulse-scale {
+  0% {
+    scale: 115%;
+  }
+  50% {
+    scale: 90%;
+  }
+  100% {
+    scale: 115%;
+    transform: rotate(1turn);
+  }
+}
+
+@keyframes pulse-rotate {
+  100% {
+    transform: rotate(1turn);
+  }
+}
+
+.homeHero {
+  display: flex;
+  overflow: hidden;
+  gap: 36px;
+  padding-block: 10vh;
+  place-items: center;
+  position: relative;
+  max-inline-size: 1300px;
+  inline-size: 100%;
+  margin-inline: auto;
+}
+
+.homeHeroLeft {
+  grid-area: left;
+  position: relative;
+  flex-grow: 1;
+  max-width: 600px;
+}
+
+.homeHeroRight {
+  grid-area: right;
+  position: relative;
+  margin-inline-end: auto;
+}
+
+.homeHeroGlow {
+  content: '';
+  display: block;
+  position: absolute;
+  inset: 50%;
+  translate: -50% -50% 0;
+  inline-size: 150px;
+  block-size: 150px;
+  filter: blur(40px);
+  border-radius: var(--size-rounded-large);
+  background: linear-gradient(to bottom right, hsla(41, 100%, 61%, 1) 30%, transparent 50%, #1434cb 70%);
+  animation: pulse-scale 12s ease-in-out infinite;
+}
+
+.homeHeroBrowser {
+  inline-size: 350px;
+  block-size: 240px;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border-radius: 16px;
+  transition: all 0.3s ease-in-out;
+  box-shadow: var(--elevation-large);
+  color: var(--palette-default-border);
+}
+
+.homeHeroBrowser:hover {
+  color: var(--palette-default-active);
+}
+
+.homeHeroBrowser:before {
+  border-radius: 15px;
+  content: '';
+  position: absolute;
+  display: block;
+  inset: 0;
+  margin: 1px;
+  background: var(--palette-default-surface-1);
+}
+
+.homeHeroBrowser:after {
+  z-index: -1;
+  content: '';
+  inset: -50%;
+  display: block;
+  position: absolute;
+  opacity: 0.8;
+  border-radius: 16px;
+  background: linear-gradient(to right, currentColor 40%, var(--palette-default-active), currentColor 60%);
+  animation: pulse-rotate 15s linear infinite;
+}
+
+.homeHeroBrowserHeader {
+  display: flex;
+  height: 40px;
+  padding: 10px 14px;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+  border-block-end: 1px solid;
+  border-color: currentColor;
+}
+
+.homeHeroBrowserDot {
+  block-size: 10px;
+  inline-size: 10px;
+  border-radius: var(--size-rounded-pill);
+  background: currentColor;
+}
+
+.homeHeroBrowserContent {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 1;
+  flex-grow: 1;
+}

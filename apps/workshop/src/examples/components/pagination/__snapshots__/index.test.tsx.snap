@@ -1,0 +1,1135 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pagination examples Default pagination with first page selected should render correctly 1`] = `
+<div>
+  <nav
+    aria-label="1 digit pagination"
+    role="navigation"
+  >
+    <ul
+      class="v-pagination v-flex v-flex-row v-align-items-center v-gap-4"
+    >
+      <li
+        class="v-mobile-container-hide"
+      >
+        <button
+          aria-label="Go to first page"
+          class="v-button v-button-small v-button-tertiary v-button-icon"
+          disabled=""
+        >
+          <svg
+            aria-hidden="true"
+            class="v-icon v-icon-visa v-icon-tiny v-icon-arrow-start v-icon-rtl"
+            focusable="false"
+            height="16"
+            viewBox="0 0 16 16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <rect
+              height="1"
+              transform="translate(7 7.00049)"
+              width="1"
+            />
+            <path
+              class="v-icon-primary"
+              clip-rule="evenodd"
+              d="M2 15.0002V1.00024H4L4 15.0002H2ZM6 8.00025L12.6069 1.00024L14 2.47622L8.78617 8.00025L14 13.5243L12.6069 15.0002L6 8.00025Z"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </button>
+      </li>
+      <li>
+        <button
+          aria-label="Go to previous page"
+          class="v-button v-button-small v-button-tertiary v-button-icon"
+          disabled=""
+        >
+          <svg
+            aria-hidden="true"
+            class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-left v-icon-rtl"
+            focusable="false"
+            height="16"
+            viewBox="0 0 16 16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="v-icon-primary"
+              clip-rule="evenodd"
+              d="M10.6069 1.00049L12 2.47646L6.78617 8.00049L12 13.5245L10.6069 15.0005L4 8.00049L10.6069 1.00049Z"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </button>
+      </li>
+      <li>
+        <button
+          aria-current="true"
+          aria-label="Page 1"
+          class="v-button v-button-tertiary"
+        >
+          1
+        </button>
+      </li>
+      <li>
+        <button
+          aria-label="Page 2"
+          class="v-button v-button-tertiary"
+        >
+          2
+        </button>
+      </li>
+      <li>
+        <button
+          aria-label="Page 3"
+          class="v-button v-button-tertiary"
+        >
+          3
+        </button>
+      </li>
+      <li
+        class="v-mobile-container-hide"
+      >
+        <button
+          aria-label="Page 4"
+          class="v-button v-button-tertiary"
+        >
+          4
+        </button>
+      </li>
+      <li
+        class="v-mobile-container-hide"
+      >
+        <button
+          aria-label="Page 5"
+          class="v-button v-button-tertiary"
+        >
+          5
+        </button>
+      </li>
+      <li
+        class="v-mobile-container-hide"
+      >
+        <button
+          aria-label="Page 6"
+          class="v-button v-button-tertiary"
+        >
+          6
+        </button>
+      </li>
+      <li
+        class="v-mobile-container-hide"
+      >
+        <button
+          aria-label="Page 7"
+          class="v-button v-button-tertiary"
+        >
+          7
+        </button>
+      </li>
+      <li
+        class="v-pagination-overflow v-flex v-align-items-center v-mobile-container-hide"
+      >
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-tiny v-icon-option-horizontal"
+          focusable="false"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M3 8C3 8.82843 2.32843 9.5 1.5 9.5C0.671573 9.5 0 8.82843 0 8C0 7.17157 0.671573 6.5 1.5 6.5C2.32843 6.5 3 7.17157 3 8ZM9.5 8C9.5 8.82843 8.82843 9.5 8 9.5C7.17157 9.5 6.5 8.82843 6.5 8C6.5 7.17157 7.17157 6.5 8 6.5C8.82843 6.5 9.5 7.17157 9.5 8ZM14.5 9.5C15.3284 9.5 16 8.82843 16 8C16 7.17157 15.3284 6.5 14.5 6.5C13.6716 6.5 13 7.17157 13 8C13 8.82843 13.6716 9.5 14.5 9.5Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </li>
+      <li
+        class="v-mobile-container-hide"
+      >
+        <button
+          aria-label="Page 100"
+          class="v-button v-button-tertiary"
+        >
+          100
+        </button>
+      </li>
+      <li>
+        <button
+          aria-label="Go to next page"
+          class="v-button v-button-small v-button-tertiary v-button-icon"
+        >
+          <svg
+            aria-hidden="true"
+            class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-right v-icon-rtl"
+            focusable="false"
+            height="16"
+            viewBox="0 0 16 16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="v-icon-primary"
+              clip-rule="evenodd"
+              d="M5.39309 1.00049L12 8.00049L5.39309 15.0005L4 13.5245L9.21383 8.00049L4 2.47646L5.39309 1.00049Z"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </button>
+      </li>
+      <li
+        class="v-mobile-container-hide"
+      >
+        <button
+          aria-label="Go to last page"
+          class="v-button v-button-small v-button-tertiary v-button-icon"
+        >
+          <svg
+            aria-hidden="true"
+            class="v-icon v-icon-visa v-icon-tiny v-icon-arrow-end v-icon-rtl"
+            focusable="false"
+            height="16"
+            viewBox="0 0 16 16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <rect
+              height="1"
+              transform="translate(8 7.00049)"
+              width="1"
+            />
+            <path
+              class="v-icon-primary"
+              clip-rule="evenodd"
+              d="M2 2.47622L7.20919 8.00024L2 13.5243L3.3954 15.0002L10 8.00024L3.3954 1.00024L2 2.47622ZM12 1.00024H14L14 15.0002H12L12 1.00024Z"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </button>
+      </li>
+    </ul>
+  </nav>
+</div>
+`;
+
+exports[`Pagination examples Default pagination with last page selected should render correctly 1`] = `
+<div>
+  <nav
+    aria-label="1 digit pagination"
+    role="navigation"
+  >
+    <ul
+      class="v-pagination v-flex v-flex-row v-align-items-center v-gap-4"
+    >
+      <li
+        class="v-mobile-container-hide"
+      >
+        <button
+          aria-label="Go to first page"
+          class="v-button v-button-small v-button-tertiary v-button-icon"
+        >
+          <svg
+            aria-hidden="true"
+            class="v-icon v-icon-visa v-icon-tiny v-icon-arrow-start v-icon-rtl"
+            focusable="false"
+            height="16"
+            viewBox="0 0 16 16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <rect
+              height="1"
+              transform="translate(7 7.00049)"
+              width="1"
+            />
+            <path
+              class="v-icon-primary"
+              clip-rule="evenodd"
+              d="M2 15.0002V1.00024H4L4 15.0002H2ZM6 8.00025L12.6069 1.00024L14 2.47622L8.78617 8.00025L14 13.5243L12.6069 15.0002L6 8.00025Z"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </button>
+      </li>
+      <li>
+        <button
+          aria-label="Go to previous page"
+          class="v-button v-button-small v-button-tertiary v-button-icon"
+        >
+          <svg
+            aria-hidden="true"
+            class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-left v-icon-rtl"
+            focusable="false"
+            height="16"
+            viewBox="0 0 16 16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="v-icon-primary"
+              clip-rule="evenodd"
+              d="M10.6069 1.00049L12 2.47646L6.78617 8.00049L12 13.5245L10.6069 15.0005L4 8.00049L10.6069 1.00049Z"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </button>
+      </li>
+      <li>
+        <button
+          aria-label="Page 1"
+          class="v-button v-button-tertiary"
+        >
+          1
+        </button>
+      </li>
+      <li
+        class="v-pagination-overflow v-flex v-align-items-center v-mobile-container-hide"
+      >
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-tiny v-icon-option-horizontal"
+          focusable="false"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M3 8C3 8.82843 2.32843 9.5 1.5 9.5C0.671573 9.5 0 8.82843 0 8C0 7.17157 0.671573 6.5 1.5 6.5C2.32843 6.5 3 7.17157 3 8ZM9.5 8C9.5 8.82843 8.82843 9.5 8 9.5C7.17157 9.5 6.5 8.82843 6.5 8C6.5 7.17157 7.17157 6.5 8 6.5C8.82843 6.5 9.5 7.17157 9.5 8ZM14.5 9.5C15.3284 9.5 16 8.82843 16 8C16 7.17157 15.3284 6.5 14.5 6.5C13.6716 6.5 13 7.17157 13 8C13 8.82843 13.6716 9.5 14.5 9.5Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </li>
+      <li
+        class="v-mobile-container-hide"
+      >
+        <button
+          aria-label="Page 96"
+          class="v-button v-button-tertiary"
+        >
+          96
+        </button>
+      </li>
+      <li
+        class="v-mobile-container-hide"
+      >
+        <button
+          aria-label="Page 97"
+          class="v-button v-button-tertiary"
+        >
+          97
+        </button>
+      </li>
+      <li
+        class="v-mobile-container-hide"
+      >
+        <button
+          aria-label="Page 98"
+          class="v-button v-button-tertiary"
+        >
+          98
+        </button>
+      </li>
+      <li
+        class="v-mobile-container-hide"
+      >
+        <button
+          aria-label="Page 99"
+          class="v-button v-button-tertiary"
+        >
+          99
+        </button>
+      </li>
+      <li
+        class="v-mobile-container-hide"
+      >
+        <button
+          aria-current="true"
+          aria-label="Page 100"
+          class="v-button v-button-tertiary"
+        >
+          100
+        </button>
+      </li>
+      <li>
+        <button
+          aria-label="Go to next page"
+          class="v-button v-button-small v-button-tertiary v-button-icon"
+          disabled=""
+        >
+          <svg
+            aria-hidden="true"
+            class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-right v-icon-rtl"
+            focusable="false"
+            height="16"
+            viewBox="0 0 16 16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="v-icon-primary"
+              clip-rule="evenodd"
+              d="M5.39309 1.00049L12 8.00049L5.39309 15.0005L4 13.5245L9.21383 8.00049L4 2.47646L5.39309 1.00049Z"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </button>
+      </li>
+      <li
+        class="v-mobile-container-hide"
+      >
+        <button
+          aria-label="Go to last page"
+          class="v-button v-button-small v-button-tertiary v-button-icon"
+          disabled=""
+        >
+          <svg
+            aria-hidden="true"
+            class="v-icon v-icon-visa v-icon-tiny v-icon-arrow-end v-icon-rtl"
+            focusable="false"
+            height="16"
+            viewBox="0 0 16 16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <rect
+              height="1"
+              transform="translate(8 7.00049)"
+              width="1"
+            />
+            <path
+              class="v-icon-primary"
+              clip-rule="evenodd"
+              d="M2 2.47622L7.20919 8.00024L2 13.5243L3.3954 15.0002L10 8.00024L3.3954 1.00024L2 2.47622ZM12 1.00024H14L14 15.0002H12L12 1.00024Z"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </button>
+      </li>
+    </ul>
+  </nav>
+</div>
+`;
+
+exports[`Pagination examples Default pagination with middle page selected should render correctly 1`] = `
+<div>
+  <nav
+    aria-label="2 digit pagination"
+    role="navigation"
+  >
+    <ul
+      class="v-pagination v-flex v-flex-row v-align-items-center v-gap-4"
+    >
+      <li
+        class="v-mobile-container-hide"
+      >
+        <button
+          aria-label="Go to first page"
+          class="v-button v-button-small v-button-tertiary v-button-icon"
+        >
+          <svg
+            aria-hidden="true"
+            class="v-icon v-icon-visa v-icon-tiny v-icon-arrow-start v-icon-rtl"
+            focusable="false"
+            height="16"
+            viewBox="0 0 16 16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <rect
+              height="1"
+              transform="translate(7 7.00049)"
+              width="1"
+            />
+            <path
+              class="v-icon-primary"
+              clip-rule="evenodd"
+              d="M2 15.0002V1.00024H4L4 15.0002H2ZM6 8.00025L12.6069 1.00024L14 2.47622L8.78617 8.00025L14 13.5243L12.6069 15.0002L6 8.00025Z"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </button>
+      </li>
+      <li>
+        <button
+          aria-label="Go to previous page"
+          class="v-button v-button-small v-button-tertiary v-button-icon"
+        >
+          <svg
+            aria-hidden="true"
+            class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-left v-icon-rtl"
+            focusable="false"
+            height="16"
+            viewBox="0 0 16 16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="v-icon-primary"
+              clip-rule="evenodd"
+              d="M10.6069 1.00049L12 2.47646L6.78617 8.00049L12 13.5245L10.6069 15.0005L4 8.00049L10.6069 1.00049Z"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </button>
+      </li>
+      <li>
+        <button
+          aria-label="Page 1"
+          class="v-button v-button-tertiary v-mobile-container-hide"
+        >
+          1
+        </button>
+      </li>
+      <li
+        class="v-pagination-overflow v-flex v-align-items-center v-mobile-container-hide"
+      >
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-tiny v-icon-option-horizontal"
+          focusable="false"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M3 8C3 8.82843 2.32843 9.5 1.5 9.5C0.671573 9.5 0 8.82843 0 8C0 7.17157 0.671573 6.5 1.5 6.5C2.32843 6.5 3 7.17157 3 8ZM9.5 8C9.5 8.82843 8.82843 9.5 8 9.5C7.17157 9.5 6.5 8.82843 6.5 8C6.5 7.17157 7.17157 6.5 8 6.5C8.82843 6.5 9.5 7.17157 9.5 8ZM14.5 9.5C15.3284 9.5 16 8.82843 16 8C16 7.17157 15.3284 6.5 14.5 6.5C13.6716 6.5 13 7.17157 13 8C13 8.82843 13.6716 9.5 14.5 9.5Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </li>
+      <li>
+        <button
+          aria-label="Page 4"
+          class="v-button v-button-tertiary"
+        >
+          4
+        </button>
+      </li>
+      <li>
+        <button
+          aria-current="true"
+          aria-label="Page 5"
+          class="v-button v-button-tertiary"
+        >
+          5
+        </button>
+      </li>
+      <li>
+        <button
+          aria-label="Page 6"
+          class="v-button v-button-tertiary"
+        >
+          6
+        </button>
+      </li>
+      <li
+        class="v-pagination-overflow v-flex v-align-items-center v-mobile-container-hide"
+      >
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-tiny v-icon-option-horizontal"
+          focusable="false"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M3 8C3 8.82843 2.32843 9.5 1.5 9.5C0.671573 9.5 0 8.82843 0 8C0 7.17157 0.671573 6.5 1.5 6.5C2.32843 6.5 3 7.17157 3 8ZM9.5 8C9.5 8.82843 8.82843 9.5 8 9.5C7.17157 9.5 6.5 8.82843 6.5 8C6.5 7.17157 7.17157 6.5 8 6.5C8.82843 6.5 9.5 7.17157 9.5 8ZM14.5 9.5C15.3284 9.5 16 8.82843 16 8C16 7.17157 15.3284 6.5 14.5 6.5C13.6716 6.5 13 7.17157 13 8C13 8.82843 13.6716 9.5 14.5 9.5Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </li>
+      <li
+        class="v-mobile-container-hide"
+      >
+        <button
+          aria-label="Page 100"
+          class="v-button v-button-tertiary"
+        >
+          100
+        </button>
+      </li>
+      <li>
+        <button
+          aria-label="Go to next page"
+          class="v-button v-button-small v-button-tertiary v-button-icon"
+        >
+          <svg
+            aria-hidden="true"
+            class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-right v-icon-rtl"
+            focusable="false"
+            height="16"
+            viewBox="0 0 16 16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="v-icon-primary"
+              clip-rule="evenodd"
+              d="M5.39309 1.00049L12 8.00049L5.39309 15.0005L4 13.5245L9.21383 8.00049L4 2.47646L5.39309 1.00049Z"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </button>
+      </li>
+      <li
+        class="v-mobile-container-hide"
+      >
+        <button
+          aria-label="Go to last page"
+          class="v-button v-button-small v-button-tertiary v-button-icon"
+        >
+          <svg
+            aria-hidden="true"
+            class="v-icon v-icon-visa v-icon-tiny v-icon-arrow-end v-icon-rtl"
+            focusable="false"
+            height="16"
+            viewBox="0 0 16 16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <rect
+              height="1"
+              transform="translate(8 7.00049)"
+              width="1"
+            />
+            <path
+              class="v-icon-primary"
+              clip-rule="evenodd"
+              d="M2 2.47622L7.20919 8.00024L2 13.5243L3.3954 15.0002L10 8.00024L3.3954 1.00024L2 2.47622ZM12 1.00024H14L14 15.0002H12L12 1.00024Z"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </button>
+      </li>
+    </ul>
+  </nav>
+</div>
+`;
+
+exports[`Pagination examples Default slim pagination should render correctly 1`] = `
+<div>
+  <nav
+    aria-label="pagination"
+  >
+    <ul
+      class="v-pagination v-flex v-flex-row v-align-items-center v-gap-4"
+    >
+      <li>
+        <button
+          aria-label="Go to previous page"
+          class="v-button v-button-small v-button-tertiary v-button-icon"
+          disabled=""
+        >
+          <svg
+            aria-hidden="true"
+            class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-left v-icon-rtl"
+            focusable="false"
+            height="16"
+            viewBox="0 0 16 16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="v-icon-primary"
+              clip-rule="evenodd"
+              d="M10.6069 1.00049L12 2.47646L6.78617 8.00049L12 13.5245L10.6069 15.0005L4 8.00049L10.6069 1.00049Z"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </button>
+      </li>
+      <li>
+        <button
+          aria-current="true"
+          aria-label="Page 1"
+          class="v-button v-button-tertiary"
+        >
+          1
+        </button>
+      </li>
+      <li
+        class="v-mobile-container-hide"
+      >
+        <button
+          aria-label="Page 2"
+          class="v-button v-button-tertiary"
+        >
+          2
+        </button>
+      </li>
+      <li
+        class="v-mobile-container-hide"
+      >
+        <button
+          aria-label="Page 3"
+          class="v-button v-button-tertiary"
+        >
+          3
+        </button>
+      </li>
+      <li
+        class="v-mobile-container-hide"
+      >
+        <button
+          aria-label="Page 4"
+          class="v-button v-button-tertiary"
+        >
+          4
+        </button>
+      </li>
+      <li>
+        <button
+          aria-label="Go to next page"
+          class="v-button v-button-small v-button-tertiary v-button-icon"
+        >
+          <svg
+            aria-hidden="true"
+            class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-right v-icon-rtl"
+            focusable="false"
+            height="16"
+            viewBox="0 0 16 16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="v-icon-primary"
+              clip-rule="evenodd"
+              d="M5.39309 1.00049L12 8.00049L5.39309 15.0005L4 13.5245L9.21383 8.00049L4 2.47646L5.39309 1.00049Z"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </button>
+      </li>
+    </ul>
+  </nav>
+</div>
+`;
+
+exports[`Pagination examples Pagination for tables should render correctly 1`] = `
+<div>
+  <div
+    class="v-align-items-center v-flex v-flex-row v-flex-wrap-reverse v-gap-10 v-justify-content-between"
+  >
+    <fieldset
+      class="v-align-items-center v-flex v-flex-row v-gap-12"
+      style="text-wrap: nowrap;"
+    >
+      <label
+        class="v-label"
+        for="select-items-per-page"
+      >
+        Items Per Page
+      </label>
+      <div
+        class="v-surface v-input-container"
+      >
+        <select
+          class="v-input"
+          id="select-items-per-page"
+          name="select-items-per-page"
+        >
+          <option
+            value="10"
+          >
+            10
+          </option>
+          <option
+            value="20"
+          >
+            20
+          </option>
+          <option
+            value="50"
+          >
+            50
+          </option>
+        </select>
+        <div
+          class="v-input-control"
+        >
+          <svg
+            aria-hidden="true"
+            class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-down"
+            focusable="false"
+            height="16"
+            viewBox="0 0 16 16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="v-icon-primary"
+              clip-rule="evenodd"
+              d="M2.47597 4.00049L1 5.39358L8 12.0005L15 5.39358L13.524 4.00049L8 9.21431L2.47597 4.00049Z"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </div>
+      </div>
+      <span
+        class="v-input-message"
+        id="select-default-message"
+      >
+        1 - 10 of 100
+      </span>
+    </fieldset>
+    <nav
+      aria-label="table pagination"
+      role="navigation"
+    >
+      <ul
+        class="v-pagination v-align-items-center v-flex v-flex-row v-gap-4"
+      >
+        <li>
+          <button
+            aria-label="Go to first page"
+            class="v-button v-button-small v-button-tertiary v-button-icon"
+            disabled=""
+          >
+            <svg
+              aria-hidden="true"
+              class="v-icon v-icon-visa v-icon-tiny v-icon-arrow-start v-icon-rtl"
+              focusable="false"
+              height="16"
+              viewBox="0 0 16 16"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect
+                height="1"
+                transform="translate(7 7.00049)"
+                width="1"
+              />
+              <path
+                class="v-icon-primary"
+                clip-rule="evenodd"
+                d="M2 15.0002V1.00024H4L4 15.0002H2ZM6 8.00025L12.6069 1.00024L14 2.47622L8.78617 8.00025L14 13.5243L12.6069 15.0002L6 8.00025Z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </button>
+        </li>
+        <li>
+          <button
+            aria-label="Go to previous page"
+            class="v-button v-button-small v-button-tertiary v-button-icon"
+            disabled=""
+          >
+            <svg
+              aria-hidden="true"
+              class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-left v-icon-rtl"
+              focusable="false"
+              height="16"
+              viewBox="0 0 16 16"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                class="v-icon-primary"
+                clip-rule="evenodd"
+                d="M10.6069 1.00049L12 2.47646L6.78617 8.00049L12 13.5245L10.6069 15.0005L4 8.00049L10.6069 1.00049Z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </button>
+        </li>
+        <li>
+          <button
+            aria-current="true"
+            aria-label="Page 1"
+            class="v-button v-button-tertiary"
+          >
+            1
+          </button>
+        </li>
+        <li>
+          <button
+            aria-current="false"
+            aria-label="Page 2"
+            class="v-button v-button-tertiary"
+          >
+            2
+          </button>
+        </li>
+        <li>
+          <button
+            aria-current="false"
+            aria-label="Page 3"
+            class="v-button v-button-tertiary"
+          >
+            3
+          </button>
+        </li>
+        <li
+          class="v-pagination-overflow v-align-items-center v-flex"
+        >
+          <svg
+            aria-hidden="true"
+            class="v-icon v-icon-visa v-icon-tiny v-icon-option-horizontal"
+            focusable="false"
+            height="16"
+            viewBox="0 0 16 16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="v-icon-primary"
+              clip-rule="evenodd"
+              d="M3 8C3 8.82843 2.32843 9.5 1.5 9.5C0.671573 9.5 0 8.82843 0 8C0 7.17157 0.671573 6.5 1.5 6.5C2.32843 6.5 3 7.17157 3 8ZM9.5 8C9.5 8.82843 8.82843 9.5 8 9.5C7.17157 9.5 6.5 8.82843 6.5 8C6.5 7.17157 7.17157 6.5 8 6.5C8.82843 6.5 9.5 7.17157 9.5 8ZM14.5 9.5C15.3284 9.5 16 8.82843 16 8C16 7.17157 15.3284 6.5 14.5 6.5C13.6716 6.5 13 7.17157 13 8C13 8.82843 13.6716 9.5 14.5 9.5Z"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </li>
+        <li>
+          <button
+            aria-current="false"
+            aria-label="Page 10"
+            class="v-button v-button-tertiary"
+          >
+            10
+          </button>
+        </li>
+        <li>
+          <button
+            aria-label="Go to next page"
+            class="v-button v-button-small v-button-tertiary v-button-icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-right v-icon-rtl"
+              focusable="false"
+              height="16"
+              viewBox="0 0 16 16"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                class="v-icon-primary"
+                clip-rule="evenodd"
+                d="M5.39309 1.00049L12 8.00049L5.39309 15.0005L4 13.5245L9.21383 8.00049L4 2.47646L5.39309 1.00049Z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </button>
+        </li>
+        <li>
+          <button
+            aria-label="Go to last page"
+            class="v-button v-button-small v-button-tertiary v-button-icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="v-icon v-icon-visa v-icon-tiny v-icon-arrow-end v-icon-rtl"
+              focusable="false"
+              height="16"
+              viewBox="0 0 16 16"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect
+                height="1"
+                transform="translate(8 7.00049)"
+                width="1"
+              />
+              <path
+                class="v-icon-primary"
+                clip-rule="evenodd"
+                d="M2 2.47622L7.20919 8.00024L2 13.5243L3.3954 15.0002L10 8.00024L3.3954 1.00024L2 2.47622ZM12 1.00024H14L14 15.0002H12L12 1.00024Z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </button>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</div>
+`;
+
+exports[`Pagination examples Pagination with minimum and maximum should render correctly 1`] = `
+<div>
+  <nav
+    aria-label="minimum and maximum pagination"
+    role="navigation"
+  >
+    <ul
+      class="v-pagination v-align-items-center v-flex v-flex-row v-gap-4"
+    >
+      <li>
+        <button
+          aria-label="Go to first page"
+          class="v-button v-button-small v-button-tertiary v-button-icon"
+          disabled=""
+        >
+          <svg
+            aria-hidden="true"
+            class="v-icon v-icon-visa v-icon-tiny v-icon-arrow-start v-icon-rtl"
+            focusable="false"
+            height="16"
+            viewBox="0 0 16 16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <rect
+              height="1"
+              transform="translate(7 7.00049)"
+              width="1"
+            />
+            <path
+              class="v-icon-primary"
+              clip-rule="evenodd"
+              d="M2 15.0002V1.00024H4L4 15.0002H2ZM6 8.00025L12.6069 1.00024L14 2.47622L8.78617 8.00025L14 13.5243L12.6069 15.0002L6 8.00025Z"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </button>
+      </li>
+      <li>
+        <button
+          aria-label="Go to previous page"
+          class="v-button v-button-small v-button-tertiary v-button-icon"
+          disabled=""
+        >
+          <svg
+            aria-hidden="true"
+            class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-left v-icon-rtl"
+            focusable="false"
+            height="16"
+            viewBox="0 0 16 16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="v-icon-primary"
+              clip-rule="evenodd"
+              d="M10.6069 1.00049L12 2.47646L6.78617 8.00049L12 13.5245L10.6069 15.0005L4 8.00049L10.6069 1.00049Z"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </button>
+      </li>
+      <li>
+        <button
+          aria-current="true"
+          aria-label="Page 50"
+          class="v-button v-button-tertiary"
+        >
+          50
+        </button>
+      </li>
+      <li>
+        <button
+          aria-current="false"
+          aria-label="Page 51"
+          class="v-button v-button-tertiary"
+        >
+          51
+        </button>
+      </li>
+      <li>
+        <button
+          aria-current="false"
+          aria-label="Page 52"
+          class="v-button v-button-tertiary"
+        >
+          52
+        </button>
+      </li>
+      <li
+        class="v-pagination-overflow v-align-items-center v-flex"
+      >
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-tiny v-icon-option-horizontal"
+          focusable="false"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M3 8C3 8.82843 2.32843 9.5 1.5 9.5C0.671573 9.5 0 8.82843 0 8C0 7.17157 0.671573 6.5 1.5 6.5C2.32843 6.5 3 7.17157 3 8ZM9.5 8C9.5 8.82843 8.82843 9.5 8 9.5C7.17157 9.5 6.5 8.82843 6.5 8C6.5 7.17157 7.17157 6.5 8 6.5C8.82843 6.5 9.5 7.17157 9.5 8ZM14.5 9.5C15.3284 9.5 16 8.82843 16 8C16 7.17157 15.3284 6.5 14.5 6.5C13.6716 6.5 13 7.17157 13 8C13 8.82843 13.6716 9.5 14.5 9.5Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </li>
+      <li>
+        <button
+          aria-current="false"
+          aria-label="Page 75"
+          class="v-button v-button-tertiary"
+        >
+          75
+        </button>
+      </li>
+      <li>
+        <button
+          aria-label="Go to next page"
+          class="v-button v-button-small v-button-tertiary v-button-icon"
+        >
+          <svg
+            aria-hidden="true"
+            class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-right v-icon-rtl"
+            focusable="false"
+            height="16"
+            viewBox="0 0 16 16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="v-icon-primary"
+              clip-rule="evenodd"
+              d="M5.39309 1.00049L12 8.00049L5.39309 15.0005L4 13.5245L9.21383 8.00049L4 2.47646L5.39309 1.00049Z"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </button>
+      </li>
+      <li>
+        <button
+          aria-label="Go to last page"
+          class="v-button v-button-small v-button-tertiary v-button-icon"
+        >
+          <svg
+            aria-hidden="true"
+            class="v-icon v-icon-visa v-icon-tiny v-icon-arrow-end v-icon-rtl"
+            focusable="false"
+            height="16"
+            viewBox="0 0 16 16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <rect
+              height="1"
+              transform="translate(8 7.00049)"
+              width="1"
+            />
+            <path
+              class="v-icon-primary"
+              clip-rule="evenodd"
+              d="M2 2.47622L7.20919 8.00024L2 13.5243L3.3954 15.0002L10 8.00024L3.3954 1.00024L2 2.47622ZM12 1.00024H14L14 15.0002H12L12 1.00024Z"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </button>
+      </li>
+    </ul>
+  </nav>
+</div>
+`;

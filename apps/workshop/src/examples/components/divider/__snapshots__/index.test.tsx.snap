@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Divider examples Decorative divider should render correctly 1`] = `
+<div>
+  <hr
+    aria-hidden="true"
+    class="v-divider v-divider-decorative"
+  />
+</div>
+`;
+
+exports[`Divider examples Default divider should render correctly 1`] = `
+<div>
+  <hr
+    class="v-divider"
+  />
+</div>
+`;
+
+exports[`Divider examples Section divider should render correctly 1`] = `
+<div>
+  <hr
+    class="v-divider v-divider-section"
+  />
+</div>
+`;

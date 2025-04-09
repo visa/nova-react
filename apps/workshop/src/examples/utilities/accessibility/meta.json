@@ -1,0 +1,20 @@
+{
+  "screen-reader-only-text": {
+    "file": "screen-reader-only-text.tsx",
+    "id": "screen-reader-only-text",
+    "title": "Screen reader-only text",
+    "tags": {
+      "docs": true
+    },
+    "testAvg": 100
+  },
+  "screen-reader-caption-within-table": {
+    "file": "screen-reader-caption-within-table.tsx",
+    "id": "screen-reader-caption-within-table",
+    "title": "Screen reader-only table caption",
+    "tags": {
+      "docs": true
+    },
+    "testAvg": 100
+  }
+}

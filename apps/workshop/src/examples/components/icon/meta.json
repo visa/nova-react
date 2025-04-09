@@ -1,0 +1,53 @@
+{
+  "default-icon": {
+    "file": "default-icon.tsx",
+    "id": "default-icon",
+    "title": "Default",
+    "testAvg": 100
+  },
+  "generic-icon": {
+    "file": "generic-icon.tsx",
+    "id": "generic-icon",
+    "title": "Generic",
+    "testAvg": 100
+  },
+  "high-resolution": {
+    "file": "high-resolution.tsx",
+    "id": "high-resolution",
+    "title": "High resolution",
+    "testAvg": 100
+  },
+  "low-resolution": {
+    "file": "low-resolution.tsx",
+    "id": "low-resolution",
+    "title": "Low resolution",
+    "testAvg": 100
+  },
+  "rtl-icon": {
+    "file": "rtl-icon.tsx",
+    "id": "rtl-icon",
+    "tags": {
+      "custom": true
+    },
+    "title": "Icon with right-to-left support",
+    "testAvg": 100
+  },
+  "tiny-resolution": {
+    "file": "tiny-resolution.tsx",
+    "id": "tiny-resolution",
+    "title": "Tiny resolution",
+    "testAvg": 100
+  },
+  "visa-icon": {
+    "file": "visa-icon.tsx",
+    "id": "visa-icon",
+    "title": "Visa",
+    "testAvg": 100
+  },
+  "custom-color-icon": {
+    "file": "custom-color-icon.tsx",
+    "id": "custom-color-icon",
+    "title": "Icon with custom colors",
+    "testAvg": 100
+  }
+}

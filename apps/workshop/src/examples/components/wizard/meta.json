@@ -1,0 +1,26 @@
+{
+  "horizontal-wizard": {
+    "file": "horizontal-wizard.tsx",
+    "id": "horizontal-wizard",
+    "title": "Horizontal multi-page wizard",
+    "testAvg": 92
+  },
+  "responsive-horizontal-wizard": {
+    "file": "responsive-horizontal-wizard.tsx",
+    "id": "responsive-horizontal-wizard",
+    "title": "Responsive horizontal wizard",
+    "testAvg": 81
+  },
+  "single-page-wizard": {
+    "file": "single-page-wizard.tsx",
+    "id": "single-page-wizard",
+    "title": "Default single-page wizard",
+    "testAvg": 95
+  },
+  "vertical-wizard": {
+    "file": "vertical-wizard.tsx",
+    "id": "vertical-wizard",
+    "title": "Vertical multi-page wizard",
+    "testAvg": 91
+  }
+}

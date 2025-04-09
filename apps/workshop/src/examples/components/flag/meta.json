@@ -1,0 +1,218 @@
+{
+  "button-error-flag": {
+    "file": "button-error-flag.tsx",
+    "id": "button-error-flag",
+    "tags": {
+      "docs": true
+    },
+    "title": "Error flag with button",
+    "testAvg": 100
+  },
+  "button-information-flag": {
+    "file": "button-information-flag.tsx",
+    "id": "button-information-flag",
+    "tags": {
+      "docs": true
+    },
+    "title": "Informational flag with button",
+    "testAvg": 100
+  },
+  "button-success-flag": {
+    "file": "button-success-flag.tsx",
+    "id": "button-success-flag",
+    "tags": {
+      "docs": true
+    },
+    "title": "Success flag with button",
+    "testAvg": 100
+  },
+  "button-warning-flag": {
+    "file": "button-warning-flag.tsx",
+    "id": "button-warning-flag",
+    "tags": {
+      "docs": true
+    },
+    "title": "Warning flag with button",
+    "testAvg": 100
+  },
+  "default-error-flag": {
+    "file": "default-error-flag.tsx",
+    "id": "default-error-flag",
+    "tags": {
+      "docs": true
+    },
+    "title": "Default error flag",
+    "testAvg": 100
+  },
+  "default-information-flag": {
+    "file": "default-information-flag.tsx",
+    "id": "default-information-flag",
+    "tags": {
+      "docs": true
+    },
+    "title": "Default informational flag",
+    "testAvg": 100
+  },
+  "default-success-flag": {
+    "file": "default-success-flag.tsx",
+    "id": "default-success-flag",
+    "tags": {
+      "docs": true
+    },
+    "title": "Default success flag",
+    "testAvg": 100
+  },
+  "default-warning-flag": {
+    "file": "default-warning-flag.tsx",
+    "id": "default-warning-flag",
+    "tags": {
+      "docs": true
+    },
+    "title": "Default warning flag",
+    "testAvg": 100
+  },
+  "empty-error-flag": {
+    "file": "empty-error-flag.tsx",
+    "id": "empty-error-flag",
+    "tags": {
+      "docs": true
+    },
+    "title": "Empty error flag",
+    "testAvg": 100
+  },
+  "empty-information-flag": {
+    "file": "empty-information-flag.tsx",
+    "id": "empty-information-flag",
+    "tags": {
+      "docs": true
+    },
+    "title": "Empty informational flag",
+    "testAvg": 100
+  },
+  "empty-success-flag": {
+    "file": "empty-success-flag.tsx",
+    "id": "empty-success-flag",
+    "tags": {
+      "docs": true
+    },
+    "title": "Empty success flag",
+    "testAvg": 100
+  },
+  "empty-warning-flag": {
+    "file": "empty-warning-flag.tsx",
+    "id": "empty-warning-flag",
+    "tags": {
+      "docs": true
+    },
+    "title": "Empty warning flag",
+    "testAvg": 100
+  },
+  "link-error-flag": {
+    "file": "link-error-flag.tsx",
+    "id": "link-error-flag",
+    "tags": {
+      "docs": true
+    },
+    "title": "Error flag with link",
+    "testAvg": 100
+  },
+  "link-information-flag": {
+    "file": "link-information-flag.tsx",
+    "id": "link-information-flag",
+    "tags": {
+      "docs": true
+    },
+    "title": "Informational flag with link",
+    "testAvg": 100
+  },
+  "link-success-flag": {
+    "file": "link-success-flag.tsx",
+    "id": "link-success-flag",
+    "tags": {
+      "docs": true
+    },
+    "title": "Success flag with link",
+    "testAvg": 100
+  },
+  "link-warning-flag": {
+    "file": "link-warning-flag.tsx",
+    "id": "link-warning-flag",
+    "tags": {
+      "docs": true
+    },
+    "title": "Warning flag with link",
+    "testAvg": 100
+  },
+  "persistent-error-flag": {
+    "file": "persistent-error-flag.tsx",
+    "id": "persistent-error-flag",
+    "tags": {
+      "docs": true
+    },
+    "title": "Error flag without close icon button",
+    "testAvg": 100
+  },
+  "persistent-information-flag": {
+    "file": "persistent-information-flag.tsx",
+    "id": "persistent-information-flag",
+    "tags": {
+      "docs": true
+    },
+    "title": "Informational flag without close icon button",
+    "testAvg": 100
+  },
+  "persistent-success-flag": {
+    "file": "persistent-success-flag.tsx",
+    "id": "persistent-success-flag",
+    "tags": {
+      "docs": true
+    },
+    "title": "Success flag without close icon button",
+    "testAvg": 100
+  },
+  "persistent-warning-flag": {
+    "file": "persistent-warning-flag.tsx",
+    "id": "persistent-warning-flag",
+    "tags": {
+      "docs": true
+    },
+    "title": "Warning flag without close icon button",
+    "testAvg": 100
+  },
+  "title-error-flag": {
+    "file": "title-error-flag.tsx",
+    "id": "title-error-flag",
+    "tags": {
+      "docs": true
+    },
+    "title": "Error flag with title",
+    "testAvg": 100
+  },
+  "title-information-flag": {
+    "file": "title-information-flag.tsx",
+    "id": "title-information-flag",
+    "tags": {
+      "docs": true
+    },
+    "title": "Informational flag with title",
+    "testAvg": 100
+  },
+  "title-success-flag": {
+    "file": "title-success-flag.tsx",
+    "id": "title-success-flag",
+    "tags": {
+      "docs": true
+    },
+    "title": "Success flag with title",
+    "testAvg": 100
+  },
+  "title-warning-flag": {
+    "file": "title-warning-flag.tsx",
+    "id": "title-warning-flag",
+    "tags": {
+      "docs": true
+    },
+    "title": "Warning flag with title",
+    "testAvg": 100
+  }
+}

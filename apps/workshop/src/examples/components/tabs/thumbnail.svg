@@ -1,0 +1,15 @@
+<svg width="304" height="140" viewBox="0 0 304 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect width="304" height="140" fill="var(--palette-default-surface-2, #F0F0F0)" />
+    <rect x="62.5" y="51.5" width="174" height="37" rx="3.5" fill="var(--palette-default-surface-1, white)" />
+    <rect x="73" y="61" width="50" height="20" rx="4.35294" fill="var(--palette-default-surface-2, #F0F0F0)" />
+    <path d="M86 71L110 71" stroke="var(--palette-default-text, black)" stroke-opacity="0.5" stroke-width="3"
+        stroke-linecap="round" />
+    <path d="M75 87H121" stroke="var(--palette-default-active, #1434CB)" stroke-width="2" stroke-linecap="round" />
+    <rect x="127" y="61" width="50" height="20" rx="4.35294" fill="var(--palette-default-surface-1, white)" />
+    <path d="M140 71L164 71" stroke="var(--palette-default-text, black)" stroke-opacity="0.2" stroke-width="3"
+        stroke-linecap="round" />
+    <rect x="176" y="61" width="50" height="20" rx="4.35294" fill="var(--palette-default-surface-1, white)" />
+    <path d="M189 71L213 71" stroke="var(--palette-default-text, black)" stroke-opacity="0.2" stroke-width="3"
+        stroke-linecap="round" />
+    <rect x="62.5" y="51.5" width="174" height="37" rx="3.5" stroke="var(--palette-default-surface-2, #F0F0F0)" />
+</svg>

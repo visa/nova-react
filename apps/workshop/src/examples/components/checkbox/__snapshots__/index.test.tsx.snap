@@ -1,0 +1,961 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Checkbox examples Checkbox group should render correctly 1`] = `
+<div>
+  <fieldset
+    aria-labelledby="checkbox-group-legend"
+  >
+    <legend
+      class="v-label"
+      id="checkbox-group-legend"
+    >
+      Group label
+    </legend>
+    <ul
+      class="v-flex v-flex-col"
+    >
+      <li
+        class="v-align-items-center v-flex v-gap-2"
+      >
+        <input
+          class="v-checkbox"
+          id="checkbox-group-option-0"
+          type="checkbox"
+        />
+        <label
+          class="v-label"
+          for="checkbox-group-option-0"
+        >
+          Label 1
+        </label>
+      </li>
+      <li
+        class="v-align-items-center v-flex v-gap-2"
+      >
+        <input
+          class="v-checkbox"
+          id="checkbox-group-option-1"
+          type="checkbox"
+        />
+        <label
+          class="v-label"
+          for="checkbox-group-option-1"
+        >
+          Label 2
+        </label>
+      </li>
+      <li
+        class="v-align-items-center v-flex v-gap-2"
+      >
+        <input
+          class="v-checkbox"
+          id="checkbox-group-option-2"
+          type="checkbox"
+        />
+        <label
+          class="v-label"
+          for="checkbox-group-option-2"
+        >
+          Label 3
+        </label>
+      </li>
+      <li
+        class="v-align-items-center v-flex v-gap-2"
+      >
+        <input
+          class="v-checkbox"
+          id="checkbox-group-option-3"
+          type="checkbox"
+        />
+        <label
+          class="v-label"
+          for="checkbox-group-option-3"
+        >
+          Label 4
+        </label>
+      </li>
+    </ul>
+  </fieldset>
+</div>
+`;
+
+exports[`Checkbox examples Checkbox group with error should render correctly 1`] = `
+<div>
+  <fieldset
+    aria-labelledby="group-with-validation-checkbox-legend"
+  >
+    <legend
+      aria-describedby="group-with-validation-checkbox-message"
+      class="v-label"
+      id="group-with-validation-checkbox-legend"
+    >
+      Group label
+    </legend>
+    <ul
+      class="v-flex v-flex-col"
+    >
+      <li
+        class="v-align-items-center v-flex v-gap-2"
+      >
+        <input
+          aria-invalid="false"
+          class="v-checkbox"
+          id="group-with-validation-checkbox-option-0"
+          type="checkbox"
+          value="label-1"
+        />
+        <label
+          class="v-label"
+          for="group-with-validation-checkbox-option-0"
+        >
+          Label 1
+        </label>
+      </li>
+      <li
+        class="v-align-items-center v-flex v-gap-2"
+      >
+        <input
+          aria-invalid="false"
+          checked=""
+          class="v-checkbox"
+          id="group-with-validation-checkbox-option-1"
+          type="checkbox"
+          value="label-2"
+        />
+        <label
+          class="v-label"
+          for="group-with-validation-checkbox-option-1"
+        >
+          Label 2
+        </label>
+      </li>
+      <li
+        class="v-align-items-center v-flex v-gap-2"
+      >
+        <input
+          aria-invalid="false"
+          class="v-checkbox"
+          id="group-with-validation-checkbox-option-2"
+          type="checkbox"
+          value="label-3"
+        />
+        <label
+          class="v-label"
+          for="group-with-validation-checkbox-option-2"
+        >
+          Label 3
+        </label>
+      </li>
+      <li
+        class="v-align-items-center v-flex v-gap-2"
+      >
+        <input
+          aria-invalid="false"
+          class="v-checkbox"
+          id="group-with-validation-checkbox-option-3"
+          type="checkbox"
+          value="label-4"
+        />
+        <label
+          class="v-label"
+          for="group-with-validation-checkbox-option-3"
+        >
+          Label 4
+        </label>
+      </li>
+    </ul>
+    <span
+      aria-atomic="true"
+      aria-live="assertive"
+      class="v-typography-body-3 v-input-message v-mt-4"
+      id="group-with-validation-checkbox-message"
+      role="alert"
+    />
+  </fieldset>
+  <button
+    class="v-button v-mt-12"
+  >
+    Submit
+  </button>
+</div>
+`;
+
+exports[`Checkbox examples Checkbox panel group should render correctly 1`] = `
+<div>
+  <fieldset
+    aria-labelledby="group-panel-checkbox-legend"
+  >
+    <legend
+      class="v-typography-label"
+      id="group-panel-checkbox-legend"
+    >
+      Group Label
+    </legend>
+    <div
+      class="v-flex v-flex-col v-gap-8"
+    >
+      <label
+        class="v-label v-checkbox-panel v-action v-action-secondary v-align-items-start"
+        for="group-panel-checkbox-option-0"
+      >
+        <div
+          class="v-flex v-gap-2"
+          style="inline-size: 100%;"
+        >
+          <input
+            aria-describedby="group-panel-checkbox-option-0-option-0"
+            class="v-checkbox v-flex-shrink-0"
+            id="group-panel-checkbox-option-0"
+            name="group-panel-checkbox-option-0"
+            type="checkbox"
+          />
+          <div
+            class="v-flex v-flex-col v-gap-2 v-my-8"
+          >
+            Label 1
+            <span
+              class="v-input-message"
+              id="group-panel-checkbox-option-0-option-0"
+            >
+              This is optional text that describes the label in more detail.
+            </span>
+          </div>
+        </div>
+      </label>
+      <label
+        class="v-label v-checkbox-panel v-action v-action-secondary v-align-items-start"
+        for="group-panel-checkbox-option-1"
+      >
+        <div
+          class="v-flex v-gap-2"
+          style="inline-size: 100%;"
+        >
+          <input
+            aria-describedby="group-panel-checkbox-option-1-option-1"
+            class="v-checkbox v-flex-shrink-0"
+            id="group-panel-checkbox-option-1"
+            name="group-panel-checkbox-option-1"
+            type="checkbox"
+          />
+          <div
+            class="v-flex v-flex-col v-gap-2 v-my-8"
+          >
+            Label 2
+            <span
+              class="v-input-message"
+              id="group-panel-checkbox-option-1-option-1"
+            >
+              This is optional text that describes the label in more detail.
+            </span>
+          </div>
+        </div>
+      </label>
+      <label
+        class="v-label v-checkbox-panel v-action v-action-secondary v-align-items-start"
+        for="group-panel-checkbox-option-2"
+      >
+        <div
+          class="v-flex v-gap-2"
+          style="inline-size: 100%;"
+        >
+          <input
+            aria-describedby="group-panel-checkbox-option-2-option-2"
+            class="v-checkbox v-flex-shrink-0"
+            id="group-panel-checkbox-option-2"
+            name="group-panel-checkbox-option-2"
+            type="checkbox"
+          />
+          <div
+            class="v-flex v-flex-col v-gap-2 v-my-8"
+          >
+            Label 3
+            <span
+              class="v-input-message"
+              id="group-panel-checkbox-option-2-option-2"
+            >
+              This is optional text that describes the label in more detail.
+            </span>
+          </div>
+        </div>
+      </label>
+    </div>
+  </fieldset>
+</div>
+`;
+
+exports[`Checkbox examples Checkbox panel group with error should render correctly 1`] = `
+<div>
+  <fieldset
+    aria-labelledby="error-group-panel-checkbox-legend"
+  >
+    <legend
+      aria-describedby="error-group-panel-checkbox-message"
+      class="v-typography-label"
+      id="error-group-panel-checkbox-legend"
+    >
+      Group Label
+    </legend>
+    <div
+      class="v-flex v-flex-col v-gap-8"
+    >
+      <label
+        class="v-label v-checkbox-panel v-action v-action-secondary v-align-items-start"
+        for="error-group-panel-checkbox-option-0"
+      >
+        <div
+          class="v-flex v-gap-2"
+          style="inline-size: 100%;"
+        >
+          <input
+            aria-describedby="error-group-panel-checkbox-option-0-message"
+            aria-invalid="false"
+            class="v-checkbox v-flex-shrink-0"
+            id="error-group-panel-checkbox-option-0"
+            type="checkbox"
+            value="label-1"
+          />
+          <div
+            class="v-flex v-flex-col v-gap-2 v-my-8"
+          >
+            Label 1
+            <span
+              class="v-input-message"
+              id="error-group-panel-checkbox-option-0-message"
+            >
+              This is optional text that describes the label in more detail.
+            </span>
+          </div>
+        </div>
+      </label>
+      <label
+        class="v-label v-checkbox-panel v-action v-action-secondary v-align-items-start"
+        for="error-group-panel-checkbox-option-1"
+      >
+        <div
+          class="v-flex v-gap-2"
+          style="inline-size: 100%;"
+        >
+          <input
+            aria-describedby="error-group-panel-checkbox-option-1-message"
+            aria-invalid="false"
+            class="v-checkbox v-flex-shrink-0"
+            id="error-group-panel-checkbox-option-1"
+            type="checkbox"
+            value="label-2"
+          />
+          <div
+            class="v-flex v-flex-col v-gap-2 v-my-8"
+          >
+            Label 2
+            <span
+              class="v-input-message"
+              id="error-group-panel-checkbox-option-1-message"
+            >
+              This is optional text that describes the label in more detail.
+            </span>
+          </div>
+        </div>
+      </label>
+      <label
+        class="v-label v-checkbox-panel v-action v-action-secondary v-align-items-start"
+        for="error-group-panel-checkbox-option-2"
+      >
+        <div
+          class="v-flex v-gap-2"
+          style="inline-size: 100%;"
+        >
+          <input
+            aria-describedby="error-group-panel-checkbox-option-2-message"
+            aria-invalid="false"
+            class="v-checkbox v-flex-shrink-0"
+            id="error-group-panel-checkbox-option-2"
+            type="checkbox"
+            value="label-3"
+          />
+          <div
+            class="v-flex v-flex-col v-gap-2 v-my-8"
+          >
+            Label 3
+            <span
+              class="v-input-message"
+              id="error-group-panel-checkbox-option-2-message"
+            >
+              This is optional text that describes the label in more detail.
+            </span>
+          </div>
+        </div>
+      </label>
+    </div>
+    <span
+      aria-atomic="true"
+      aria-live="assertive"
+      class="v-typography-body-3 v-input-message"
+      id="error-group-panel-checkbox-message"
+      role="alert"
+    />
+  </fieldset>
+  <button
+    class="v-button"
+  >
+    Submit
+  </button>
+</div>
+`;
+
+exports[`Checkbox examples Checkbox panel should render correctly 1`] = `
+<div>
+  <fieldset
+    aria-labelledby="with-description-panel-checkbox-message"
+  >
+    <label
+      class="v-label v-checkbox-panel v-action v-action-secondary v-align-items-start"
+      for="with-description-panel-checkbox"
+    >
+      <div
+        class="v-flex v-gap-2"
+        style="inline-size: 100%;"
+      >
+        <input
+          class="v-checkbox v-flex-shrink-0"
+          id="with-description-panel-checkbox"
+          name="with-description-panel-checkbox"
+          type="checkbox"
+        />
+        <div
+          class="v-flex v-flex-col v-gap-2 v-my-8"
+        >
+          Label
+          <span
+            class="v-input-message"
+            id="with-description-panel-checkbox-message"
+          >
+            This is optional text that describes the label in more detail.
+          </span>
+        </div>
+      </div>
+    </label>
+  </fieldset>
+</div>
+`;
+
+exports[`Checkbox examples Checkbox panel without description should render correctly 1`] = `
+<div>
+  <label
+    class="v-label v-checkbox-panel v-action v-action-secondary v-align-items-start"
+    for="without-description-panel-checkbox"
+  >
+    <div
+      class="v-align-items-center v-flex v-gap-2"
+      style="inline-size: 100%;"
+    >
+      <input
+        class="v-checkbox v-flex-shrink-0"
+        id="without-description-panel-checkbox"
+        name="without-description-panel-checkbox"
+        type="checkbox"
+      />
+      Label
+    </div>
+  </label>
+</div>
+`;
+
+exports[`Checkbox examples Checkbox with description should render correctly 1`] = `
+<div>
+  <fieldset
+    aria-labelledby="inline-message-checkbox-message"
+  >
+    <div
+      class="v-flex v-gap-2"
+    >
+      <input
+        class="v-checkbox"
+        id="inline-message-checkbox"
+        type="checkbox"
+      />
+      <div
+        class="v-flex v-flex-col v-gap-2 v-my-10"
+      >
+        <label
+          class="v-label"
+          for="inline-message-checkbox"
+        >
+          Label
+        </label>
+        <span
+          class="v-input-message"
+          id="inline-message-checkbox-message"
+        >
+          This is optional text that describes the label in more detail.
+        </span>
+      </div>
+    </div>
+  </fieldset>
+</div>
+`;
+
+exports[`Checkbox examples Checkbox with error should render correctly 1`] = `
+<div>
+  <fieldset
+    class="v-flex v-flex-col"
+  >
+    <div
+      class="v-align-items-center v-flex v-gap-2"
+    >
+      <input
+        aria-describedby="validation-checkbox-message"
+        aria-invalid="false"
+        aria-required="true"
+        class="v-checkbox"
+        id="validation-checkbox"
+        type="checkbox"
+        value="1"
+      />
+      <label
+        class="v-label"
+        for="validation-checkbox"
+      >
+        Label
+      </label>
+    </div>
+  </fieldset>
+  <button
+    class="v-button v-mt-12"
+  >
+    Submit
+  </button>
+</div>
+`;
+
+exports[`Checkbox examples Checkbox with label should render correctly 1`] = `
+<div>
+  <div
+    class="v-align-items-center v-flex v-gap-2"
+  >
+    <input
+      class="v-checkbox"
+      id="checkbox-default"
+      type="checkbox"
+    />
+    <label
+      class="v-label"
+      for="checkbox-default"
+    >
+      Label
+    </label>
+  </div>
+</div>
+`;
+
+exports[`Checkbox examples Checkbox without visible label should render correctly 1`] = `
+<div>
+  <div
+    class="v-align-items-center v-flex v-gap-2"
+  >
+    <input
+      aria-label="label"
+      class="v-checkbox"
+      type="checkbox"
+    />
+  </div>
+</div>
+`;
+
+exports[`Checkbox examples Checked checkbox should render correctly 1`] = `
+<div>
+  <div
+    class="v-align-items-center v-flex v-gap-2"
+  >
+    <input
+      checked=""
+      class="v-checkbox"
+      id="checked-checkbox"
+      type="checkbox"
+    />
+    <label
+      class="v-label"
+      for="checked-checkbox"
+    >
+      Label
+    </label>
+  </div>
+</div>
+`;
+
+exports[`Checkbox examples Disabled checkbox panel should render correctly 1`] = `
+<div>
+  <fieldset
+    aria-labelledby="checkbox-panel-disabled-message"
+  >
+    <label
+      class="v-label v-checkbox-panel v-action v-action-secondary v-align-items-start"
+      for="checkbox-panel-disabled"
+    >
+      <div
+        class="v-flex v-gap-2"
+        style="inline-size: 100%;"
+      >
+        <input
+          class="v-checkbox v-flex-shrink-0"
+          disabled=""
+          id="checkbox-panel-disabled"
+          name="checkbox-panel-disabled"
+          type="checkbox"
+        />
+        <div
+          class="v-flex v-flex-col v-gap-2 v-my-8"
+        >
+          Label
+          <span
+            class="v-input-message"
+            id="checkbox-panel-disabled-message"
+          >
+            This is optional text that describes the label in more detail.
+          </span>
+        </div>
+      </div>
+    </label>
+  </fieldset>
+</div>
+`;
+
+exports[`Checkbox examples Disabled checkbox should render correctly 1`] = `
+<div>
+  <div
+    class="v-align-items-center v-flex v-gap-2"
+  >
+    <input
+      class="v-checkbox"
+      disabled=""
+      id="checkbox-disabled"
+      type="checkbox"
+    />
+    <label
+      class="v-label"
+      for="checkbox-disabled"
+    >
+      Label
+    </label>
+  </div>
+</div>
+`;
+
+exports[`Checkbox examples Disabled checked checkbox should render correctly 1`] = `
+<div>
+  <div
+    class="v-align-items-center v-flex v-gap-2"
+  >
+    <input
+      checked=""
+      class="v-checkbox"
+      disabled=""
+      id="checkbox-disabled-checked"
+      type="checkbox"
+    />
+    <label
+      class="v-label"
+      for="checkbox-disabled-checked"
+    >
+      Label
+    </label>
+  </div>
+</div>
+`;
+
+exports[`Checkbox examples Error indeterminate checkbox group should render correctly 1`] = `
+<div>
+  <fieldset
+    aria-labelledby="error-indeterminate-group-checkbox-legend"
+    style="--v-checkbox-group-gap: 8px;"
+  >
+    <legend
+      aria-describedby="error-indeterminate-group-checkbox-message"
+      class="v-label"
+      id="error-indeterminate-group-checkbox-legend"
+    >
+      Group label
+    </legend>
+    <ul
+      class="v-flex v-flex-col"
+    >
+      <li
+        class="v-flex v-flex-col"
+      >
+        <div
+          class="v-align-items-center v-flex v-gap-2"
+        >
+          <input
+            aria-invalid="false"
+            class="v-checkbox"
+            id="error-indeterminate-group-checkbox-option-0"
+            type="checkbox"
+          />
+          <label
+            class="v-label"
+            for="error-indeterminate-group-checkbox-option-0"
+          >
+            L1 label 1
+          </label>
+        </div>
+        <ul
+          class="v-flex v-flex-col v-ml-16"
+        >
+          <li
+            class="v-flex v-flex-col"
+          >
+            <div
+              class="v-align-items-center v-flex v-gap-2"
+            >
+              <input
+                aria-invalid="false"
+                checked=""
+                class="v-checkbox"
+                id="error-indeterminate-group-checkbox-option-0-option-0"
+                type="checkbox"
+              />
+              <label
+                class="v-label"
+                for="error-indeterminate-group-checkbox-option-0-option-0"
+              >
+                L2 label 1
+              </label>
+            </div>
+          </li>
+          <li
+            class="v-flex v-flex-col"
+          >
+            <div
+              class="v-align-items-center v-flex v-gap-2"
+            >
+              <input
+                aria-invalid="false"
+                class="v-checkbox"
+                id="error-indeterminate-group-checkbox-option-0-option-1"
+                type="checkbox"
+              />
+              <label
+                class="v-label"
+                for="error-indeterminate-group-checkbox-option-0-option-1"
+              >
+                L2 label 2
+              </label>
+            </div>
+          </li>
+          <li
+            class="v-flex v-flex-col"
+          >
+            <div
+              class="v-align-items-center v-flex v-gap-2"
+            >
+              <input
+                aria-invalid="false"
+                class="v-checkbox"
+                id="error-indeterminate-group-checkbox-option-0-option-2"
+                type="checkbox"
+              />
+              <label
+                class="v-label"
+                for="error-indeterminate-group-checkbox-option-0-option-2"
+              >
+                L2 label 3
+              </label>
+            </div>
+          </li>
+        </ul>
+      </li>
+    </ul>
+    <span
+      aria-atomic="true"
+      aria-live="assertive"
+      class="v-typography-body-3 v-input-message"
+      id="error-indeterminate-group-checkbox-message"
+      role="alert"
+    />
+  </fieldset>
+  <button
+    class="v-button v-mt-12"
+  >
+    Submit
+  </button>
+</div>
+`;
+
+exports[`Checkbox examples Horizontal checkbox group should render correctly 1`] = `
+<div>
+  <fieldset
+    aria-labelledby="group-horizontal-checkbox-legend"
+  >
+    <legend
+      class="v-label v-label"
+      id="group-horizontal-checkbox-legend"
+    >
+      Group label
+    </legend>
+    <ul
+      class="v-flex v-flex-row v-flex-wrap v-gap-24"
+    >
+      <li
+        class="v-align-items-center v-flex v-gap-2"
+      >
+        <input
+          class="v-checkbox"
+          id="group-horizontal-checkbox-option-0"
+          type="checkbox"
+        />
+        <label
+          class="v-label"
+          for="group-horizontal-checkbox-option-0"
+        >
+          Label 1
+        </label>
+      </li>
+      <li
+        class="v-align-items-center v-flex v-gap-2"
+      >
+        <input
+          class="v-checkbox"
+          id="group-horizontal-checkbox-option-1"
+          type="checkbox"
+        />
+        <label
+          class="v-label"
+          for="group-horizontal-checkbox-option-1"
+        >
+          Label 2
+        </label>
+      </li>
+      <li
+        class="v-align-items-center v-flex v-gap-2"
+      >
+        <input
+          class="v-checkbox"
+          id="group-horizontal-checkbox-option-2"
+          type="checkbox"
+        />
+        <label
+          class="v-label"
+          for="group-horizontal-checkbox-option-2"
+        >
+          Label 3
+        </label>
+      </li>
+      <li
+        class="v-align-items-center v-flex v-gap-2"
+      >
+        <input
+          class="v-checkbox"
+          id="group-horizontal-checkbox-option-3"
+          type="checkbox"
+        />
+        <label
+          class="v-label"
+          for="group-horizontal-checkbox-option-3"
+        >
+          Label 4
+        </label>
+      </li>
+    </ul>
+  </fieldset>
+</div>
+`;
+
+exports[`Checkbox examples Indeterminate checkbox group should render correctly 1`] = `
+<div>
+  <fieldset
+    aria-labelledby="indeterminate-group-checkbox-legend"
+    style="--v-checkbox-group-gap: 8px;"
+  >
+    <legend
+      class="v-label"
+      id="indeterminate-group-checkbox-legend"
+    >
+      Group label
+    </legend>
+    <ul
+      class="v-flex v-flex-col"
+    >
+      <li
+        class="v-flex v-flex-col"
+      >
+        <div
+          class="v-align-items-center v-flex v-gap-2"
+        >
+          <input
+            class="v-checkbox"
+            id="indeterminate-group-checkbox-option-0"
+            type="checkbox"
+          />
+          <label
+            class="v-label"
+            for="indeterminate-group-checkbox-option-0"
+          >
+            L1 label 1
+          </label>
+        </div>
+        <ul
+          class="v-flex v-flex-col v-ml-16"
+        >
+          <li
+            class="v-flex v-flex-col"
+          >
+            <div
+              class="v-align-items-center v-flex v-gap-2"
+            >
+              <input
+                checked=""
+                class="v-checkbox"
+                id="indeterminate-group-checkbox-option-0-option-0"
+                type="checkbox"
+              />
+              <label
+                class="v-label"
+                for="indeterminate-group-checkbox-option-0-option-0"
+              >
+                L2 label 1
+              </label>
+            </div>
+          </li>
+          <li
+            class="v-flex v-flex-col"
+          >
+            <div
+              class="v-align-items-center v-flex v-gap-2"
+            >
+              <input
+                class="v-checkbox"
+                id="indeterminate-group-checkbox-option-0-option-1"
+                type="checkbox"
+              />
+              <label
+                class="v-label"
+                for="indeterminate-group-checkbox-option-0-option-1"
+              >
+                L2 label 2
+              </label>
+            </div>
+          </li>
+          <li
+            class="v-flex v-flex-col"
+          >
+            <div
+              class="v-align-items-center v-flex v-gap-2"
+            >
+              <input
+                class="v-checkbox"
+                id="indeterminate-group-checkbox-option-0-option-2"
+                type="checkbox"
+              />
+              <label
+                class="v-label"
+                for="indeterminate-group-checkbox-option-0-option-2"
+              >
+                L2 label 3
+              </label>
+            </div>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </fieldset>
+</div>
+`;

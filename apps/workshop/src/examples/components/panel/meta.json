@@ -1,0 +1,55 @@
+{
+  "default-panel": {
+    "file": "default-panel.tsx",
+    "id": "default-panel",
+    "title": "Default responsive panel",
+    "testAvg": 100
+  },
+  "expandable-panel": {
+    "file": "expandable-panel.tsx",
+    "id": "expandable-panel",
+    "iframe": true,
+    "title": "Modal expandable panel",
+    "testAvg": 100
+  },
+  "expandable-panel-secondary": {
+    "file": "expandable-panel-secondary.tsx",
+    "id": "expandable-panel-secondary",
+    "iframe": true,
+    "title": "Modal expandable panel with secondary button",
+    "testAvg": 100
+  },
+  "expandable-panel-skrim": {
+    "file": "expandable-panel-skrim.tsx",
+    "id": "expandable-panel-skrim",
+    "iframe": true,
+    "title": "Modal expandable panel with skrim",
+    "testAvg": 100
+  },
+  "expandable-responsive-panel": {
+    "file": "expandable-responsive-panel.tsx",
+    "title": "Responsive expanded panel",
+    "id": "expandable-responsive-panel",
+    "testAvg": 100
+  },
+  "modal-panel": {
+    "file": "modal-panel.tsx",
+    "id": "modal-panel",
+    "title": "Modal panel",
+    "testAvg": 100
+  },
+  "tabbed-expandable-panel": {
+    "file": "tabbed-expandable-panel.tsx",
+    "id": "tabbed-expandable-panel",
+    "iframe": true,
+    "title": "Tabbed modal expandable panel",
+    "testAvg": 100
+  },
+  "tabbed-expandable-responsive-panel": {
+    "file": "tabbed-expandable-responsive-panel.tsx",
+    "id": "tabbed-expandable-responsive-panel",
+    "iframe": true,
+    "title": "Tabbed responsive expanded panel",
+    "testAvg": 100
+  }
+}

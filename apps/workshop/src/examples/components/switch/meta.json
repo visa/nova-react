@@ -1,0 +1,29 @@
+{
+  "default-switch": {
+    "file": "default-switch.tsx",
+    "id": "default-switch",
+    "title": "Default switch",
+    "testAvg": 100
+  },
+  "disabled-switch": {
+    "file": "disabled-switch.tsx",
+    "id": "disabled-switch",
+    "title": "Disabled switch",
+    "testAvg": 100
+  },
+  "disabled-switch-on": {
+    "file": "disabled-switch-on.tsx",
+    "id": "disabled-switch-on",
+    "title": "Disabled selected switch",
+    "testAvg": 100
+  },
+  "optional-message-switch": {
+    "file": "optional-message-switch.tsx",
+    "id": "optional-message-switch",
+    "title": "Switch with description",
+    "testAvg": 100
+  },
+  "meta": {
+    "designReviewDate": "2024-05-09"
+  }
+}

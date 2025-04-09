@@ -1,0 +1,271 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Typography examples Body 1 should render correctly 1`] = `
+<div>
+  <p
+    class="v-typography-body-1"
+  >
+    The quick brown fox jumps over the lazy dog.
+  </p>
+</div>
+`;
+
+exports[`Typography examples Body 2 bold should render correctly 1`] = `
+<div>
+  <p
+    class="v-typography-body-2-bold"
+  >
+    The quick brown fox jumps over the lazy dog.
+  </p>
+</div>
+`;
+
+exports[`Typography examples Body 2 medium should render correctly 1`] = `
+<div>
+  <p
+    class="v-typography-body-2-medium"
+  >
+    The quick brown fox jumps over the lazy dog.
+  </p>
+</div>
+`;
+
+exports[`Typography examples Body 2 should render correctly 1`] = `
+<div>
+  <p
+    class="v-typography-body-2"
+  >
+    The quick brown fox jumps over the lazy dog.
+  </p>
+</div>
+`;
+
+exports[`Typography examples Body 3 should render correctly 1`] = `
+<div>
+  <p
+    class="v-typography-body-3"
+  >
+    The quick brown fox jumps over the lazy dog.
+  </p>
+</div>
+`;
+
+exports[`Typography examples Button large should render correctly 1`] = `
+<div>
+  <p
+    class="v-typography-button-large"
+  >
+    The quick brown fox jumps over the lazy dog.
+  </p>
+</div>
+`;
+
+exports[`Typography examples Button medium should render correctly 1`] = `
+<div>
+  <p
+    class="v-typography-button-medium"
+  >
+    The quick brown fox jumps over the lazy dog.
+  </p>
+</div>
+`;
+
+exports[`Typography examples Button small should render correctly 1`] = `
+<div>
+  <p
+    class="v-typography-button-small"
+  >
+    The quick brown fox jumps over the lazy dog.
+  </p>
+</div>
+`;
+
+exports[`Typography examples Display 1 should render correctly 1`] = `
+<div>
+  <p
+    class="v-typography-display-1"
+  >
+    The quick brown fox jumps over the lazy dog.
+  </p>
+</div>
+`;
+
+exports[`Typography examples Display 2 should render correctly 1`] = `
+<div>
+  <p
+    class="v-typography-display-2"
+  >
+    The quick brown fox jumps over the lazy dog.
+  </p>
+</div>
+`;
+
+exports[`Typography examples Headline 1 should render correctly 1`] = `
+<div>
+  <p
+    class="v-typography-headline-1"
+  >
+    The quick brown fox jumps over the lazy dog.
+  </p>
+</div>
+`;
+
+exports[`Typography examples Headline 2 should render correctly 1`] = `
+<div>
+  <p
+    class="v-typography-headline-2"
+  >
+    The quick brown fox jumps over the lazy dog.
+  </p>
+</div>
+`;
+
+exports[`Typography examples Headline 3 should render correctly 1`] = `
+<div>
+  <p
+    class="v-typography-headline-3"
+  >
+    The quick brown fox jumps over the lazy dog.
+  </p>
+</div>
+`;
+
+exports[`Typography examples Headline 4 should render correctly 1`] = `
+<div>
+  <p
+    class="v-typography-headline-4"
+  >
+    The quick brown fox jumps over the lazy dog.
+  </p>
+</div>
+`;
+
+exports[`Typography examples Label active should render correctly 1`] = `
+<div>
+  <p
+    class="v-typography-label-active"
+  >
+    The quick brown fox jumps over the lazy dog.
+  </p>
+</div>
+`;
+
+exports[`Typography examples Label large active should render correctly 1`] = `
+<div>
+  <p
+    class="v-typography-label-large-active"
+  >
+    The quick brown fox jumps over the lazy dog.
+  </p>
+</div>
+`;
+
+exports[`Typography examples Label large should render correctly 1`] = `
+<div>
+  <p
+    class="v-typography-label-large"
+  >
+    The quick brown fox jumps over the lazy dog.
+  </p>
+</div>
+`;
+
+exports[`Typography examples Label should render correctly 1`] = `
+<div>
+  <p
+    class="v-typography-label"
+  >
+    The quick brown fox jumps over the lazy dog.
+  </p>
+</div>
+`;
+
+exports[`Typography examples Label small should render correctly 1`] = `
+<div>
+  <p
+    class="v-typography-label-small"
+  >
+    The quick brown fox jumps over the lazy dog.
+  </p>
+</div>
+`;
+
+exports[`Typography examples Overline should render correctly 1`] = `
+<div>
+  <p
+    class="v-typography-overline"
+  >
+    The quick brown fox jumps over the lazy dog.
+  </p>
+</div>
+`;
+
+exports[`Typography examples Subtitle 1 should render correctly 1`] = `
+<div>
+  <p
+    class="v-typography-subtitle-1"
+  >
+    The quick brown fox jumps over the lazy dog.
+  </p>
+</div>
+`;
+
+exports[`Typography examples Subtitle 2 should render correctly 1`] = `
+<div>
+  <p
+    class="v-typography-subtitle-2"
+  >
+    The quick brown fox jumps over the lazy dog.
+  </p>
+</div>
+`;
+
+exports[`Typography examples Subtitle 3 should render correctly 1`] = `
+<div>
+  <p
+    class="v-typography-subtitle-3"
+  >
+    The quick brown fox jumps over the lazy dog.
+  </p>
+</div>
+`;
+
+exports[`Typography examples Typography color active should render correctly 1`] = `
+<div>
+  <p
+    class="v-typography-color-active"
+  >
+    The quick brown fox jumps over the lazy dog.
+  </p>
+</div>
+`;
+
+exports[`Typography examples Typography color default should render correctly 1`] = `
+<div>
+  <p
+    class="v-typography-color-default"
+  >
+    The quick brown fox jumps over the lazy dog.
+  </p>
+</div>
+`;
+
+exports[`Typography examples Typography color on active should render correctly 1`] = `
+<div>
+  <p
+    class="v-typography-color-on-active"
+  >
+    The quick brown fox jumps over the lazy dog.
+  </p>
+</div>
+`;
+
+exports[`Typography examples Typography color subtle should render correctly 1`] = `
+<div>
+  <p
+    class="v-typography-color-subtle"
+  >
+    The quick brown fox jumps over the lazy dog.
+  </p>
+</div>
+`;

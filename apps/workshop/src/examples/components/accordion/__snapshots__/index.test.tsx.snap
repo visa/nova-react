@@ -1,0 +1,1966 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Accordion examples Accordion group with arrow key navigation should render correctly 1`] = `
+<div>
+  <div
+    class="v-accordion"
+    id="accordion-key-nav-group"
+  >
+    <button
+      aria-controls="accordion-key-nav-group-panel-0"
+      aria-expanded="false"
+      class="v-button v-button-large v-button-secondary v-accordion-heading"
+      id="accordion-key-nav-group-header-0"
+    >
+      <svg
+        aria-hidden="true"
+        class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-right v-icon-rtl v-accordion-toggle-icon v-accordion-toggle-icon-closed"
+        focusable="false"
+        height="16"
+        viewBox="0 0 16 16"
+        width="16"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          class="v-icon-primary"
+          clip-rule="evenodd"
+          d="M5.39309 1.00049L12 8.00049L5.39309 15.0005L4 13.5245L9.21383 8.00049L4 2.47646L5.39309 1.00049Z"
+          fill-rule="evenodd"
+        />
+      </svg>
+      Accordion title 1
+    </button>
+    <div
+      aria-hidden="true"
+      class="v-accordion-panel"
+      id="accordion-key-nav-group-panel-0"
+    >
+      <p>
+        This is required text that describes the accordion section in more detail.
+      </p>
+    </div>
+    <button
+      aria-controls="accordion-key-nav-group-panel-1"
+      aria-expanded="false"
+      class="v-button v-button-large v-button-secondary v-accordion-heading"
+      id="accordion-key-nav-group-header-1"
+    >
+      <svg
+        aria-hidden="true"
+        class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-right v-icon-rtl v-accordion-toggle-icon v-accordion-toggle-icon-closed"
+        focusable="false"
+        height="16"
+        viewBox="0 0 16 16"
+        width="16"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          class="v-icon-primary"
+          clip-rule="evenodd"
+          d="M5.39309 1.00049L12 8.00049L5.39309 15.0005L4 13.5245L9.21383 8.00049L4 2.47646L5.39309 1.00049Z"
+          fill-rule="evenodd"
+        />
+      </svg>
+      Accordion title 2
+    </button>
+    <div
+      aria-hidden="true"
+      class="v-accordion-panel"
+      id="accordion-key-nav-group-panel-1"
+    >
+      <p>
+        This is required text that describes the accordion section in more detail.
+      </p>
+    </div>
+    <button
+      aria-controls="accordion-key-nav-group-panel-2"
+      aria-expanded="false"
+      class="v-button v-button-large v-button-secondary v-accordion-heading"
+      id="accordion-key-nav-group-header-2"
+    >
+      <svg
+        aria-hidden="true"
+        class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-right v-icon-rtl v-accordion-toggle-icon v-accordion-toggle-icon-closed"
+        focusable="false"
+        height="16"
+        viewBox="0 0 16 16"
+        width="16"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          class="v-icon-primary"
+          clip-rule="evenodd"
+          d="M5.39309 1.00049L12 8.00049L5.39309 15.0005L4 13.5245L9.21383 8.00049L4 2.47646L5.39309 1.00049Z"
+          fill-rule="evenodd"
+        />
+      </svg>
+      Accordion title 3
+    </button>
+    <div
+      aria-hidden="true"
+      class="v-accordion-panel"
+      id="accordion-key-nav-group-panel-2"
+    >
+      <p>
+        This is required text that describes the accordion section in more detail.
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Accordion examples Accordion with badge should render correctly 1`] = `
+<div>
+  <details
+    class="v-accordion"
+  >
+    <summary
+      class="v-button v-button-large v-button-secondary v-accordion-heading v-align-items-center"
+    >
+      <svg
+        aria-hidden="true"
+        class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-right v-icon-rtl v-accordion-toggle-icon v-accordion-toggle-icon-closed"
+        focusable="false"
+        height="16"
+        style="align-self: center;"
+        viewBox="0 0 16 16"
+        width="16"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          class="v-icon-primary"
+          clip-rule="evenodd"
+          d="M5.39309 1.00049L12 8.00049L5.39309 15.0005L4 13.5245L9.21383 8.00049L4 2.47646L5.39309 1.00049Z"
+          fill-rule="evenodd"
+        />
+      </svg>
+      <svg
+        aria-hidden="true"
+        class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-down v-accordion-toggle-icon v-accordion-toggle-icon-open"
+        focusable="false"
+        height="16"
+        style="align-self: center;"
+        viewBox="0 0 16 16"
+        width="16"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          class="v-icon-primary"
+          clip-rule="evenodd"
+          d="M2.47597 4.00049L1 5.39358L8 12.0005L15 5.39358L13.524 4.00049L8 9.21431L2.47597 4.00049Z"
+          fill-rule="evenodd"
+        />
+      </svg>
+      Accordion title
+      <div
+        class="v-badge v-badge-stable v-ml-auto"
+      >
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-tiny v-icon-success"
+          focusable="false"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-secondary"
+            clip-rule="evenodd"
+            d="M14 8C14 11.3137 11.3137 14 8 14C4.68629 14 2 11.3137 2 8C2 4.68629 4.68629 2 8 2C8.74542 2 9.4591 2.13593 10.1176 2.38437L11.6319 0.870034C10.542 0.313733 9.30764 0 8 0C3.58172 0 0 3.58172 0 8C0 12.4183 3.58172 16 8 16C12.4183 16 16 12.4183 16 8C16 7.21837 15.8879 6.46293 15.6789 5.74886L13.9678 7.37472C13.9891 7.58024 14 7.78885 14 8Z"
+            fill-rule="evenodd"
+          />
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M15 3.46597L7.72838 10.9961L5 8.18244L6.42533 6.71257L7.72838 8.05635L13.5747 1.99609L15 3.46597Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+        Label
+      </div>
+    </summary>
+    <div
+      class="v-accordion-panel"
+    >
+      <p>
+        This is required text that describes the accordion section in more detail.
+      </p>
+    </div>
+  </details>
+</div>
+`;
+
+exports[`Accordion examples Accordion with icon should render correctly 1`] = `
+<div>
+  <details
+    class="v-accordion"
+  >
+    <summary
+      class="v-button v-button-large v-button-secondary v-accordion-heading"
+    >
+      <svg
+        aria-hidden="true"
+        class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-right v-icon-rtl v-accordion-toggle-icon v-accordion-toggle-icon-closed"
+        focusable="false"
+        height="16"
+        viewBox="0 0 16 16"
+        width="16"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          class="v-icon-primary"
+          clip-rule="evenodd"
+          d="M5.39309 1.00049L12 8.00049L5.39309 15.0005L4 13.5245L9.21383 8.00049L4 2.47646L5.39309 1.00049Z"
+          fill-rule="evenodd"
+        />
+      </svg>
+      <svg
+        aria-hidden="true"
+        class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-down v-accordion-toggle-icon v-accordion-toggle-icon-open"
+        focusable="false"
+        height="16"
+        viewBox="0 0 16 16"
+        width="16"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          class="v-icon-primary"
+          clip-rule="evenodd"
+          d="M2.47597 4.00049L1 5.39358L8 12.0005L15 5.39358L13.524 4.00049L8 9.21431L2.47597 4.00049Z"
+          fill-rule="evenodd"
+        />
+      </svg>
+      <svg
+        aria-hidden="true"
+        class="v-icon v-icon-visa v-icon-low v-icon-cloud"
+        focusable="false"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          class="v-icon-secondary"
+          d="M17 12.001H15C15 11.451 14.55 11.001 14 11.001V9.00098C15.65 9.00098 17 10.351 17 12.001Z"
+        />
+        <path
+          class="v-icon-primary"
+          d="M19 20.001H5C2.24 20.001 0 17.761 0 15.001C0 12.751 1.5 10.821 3.59 10.201C3.98 8.36098 5.58 7.00098 7.5 7.00098C7.74 7.00098 7.98 7.02098 8.21 7.06098C9.51 5.16098 11.66 4.00098 14 4.00098C17.66 4.00098 20.67 6.82098 20.97 10.401C22.79 11.181 24 12.981 24 15.001C24 17.761 21.76 20.001 19 20.001ZM7.5 9.00098C6.4 9.00098 5.5 9.90098 5.5 11.001V11.881L4.62 12.021C3.13 12.211 2 13.491 2 15.001C2 16.651 3.35 18.001 5 18.001H19C20.65 18.001 22 16.651 22 15.001C22 13.631 21.08 12.431 19.75 12.091L18.98 11.891L19 11.001C19 8.24098 16.76 6.00098 14 6.00098C12.13 6.00098 10.43 7.03098 9.56 8.70098L9.13 9.52098L8.28 9.16098C8.04 9.05098 7.77 9.00098 7.5 9.00098Z"
+        />
+      </svg>
+      Accordion title
+    </summary>
+    <div
+      class="v-accordion-panel"
+    >
+      <p>
+        This is required text that describes the accordion section in more detail.
+      </p>
+    </div>
+  </details>
+</div>
+`;
+
+exports[`Accordion examples Custom multi-select accordion group with accordion expanded by default should render correctly 1`] = `
+<div>
+  <div
+    class="v-accordion"
+    id="accordion-disclosure-group"
+  >
+    <button
+      aria-controls="accordion-disclosure-group-panel-0"
+      aria-expanded="true"
+      class="v-button v-button-large v-button-secondary v-accordion-heading"
+      id="accordion-disclosure-group-header-0"
+    >
+      <svg
+        aria-hidden="true"
+        class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-down v-accordion-toggle-icon v-accordion-toggle-icon-open"
+        focusable="false"
+        height="16"
+        viewBox="0 0 16 16"
+        width="16"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          class="v-icon-primary"
+          clip-rule="evenodd"
+          d="M2.47597 4.00049L1 5.39358L8 12.0005L15 5.39358L13.524 4.00049L8 9.21431L2.47597 4.00049Z"
+          fill-rule="evenodd"
+        />
+      </svg>
+      Accordion title 1
+    </button>
+    <div
+      aria-hidden="false"
+      class="v-accordion-panel"
+      id="accordion-disclosure-group-panel-0"
+    >
+      <p>
+        This is required text that describes the accordion section in more detail.
+      </p>
+    </div>
+    <button
+      aria-controls="accordion-disclosure-group-panel-1"
+      aria-expanded="true"
+      class="v-button v-button-large v-button-secondary v-accordion-heading"
+      id="accordion-disclosure-group-header-1"
+    >
+      <svg
+        aria-hidden="true"
+        class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-down v-accordion-toggle-icon v-accordion-toggle-icon-open"
+        focusable="false"
+        height="16"
+        viewBox="0 0 16 16"
+        width="16"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          class="v-icon-primary"
+          clip-rule="evenodd"
+          d="M2.47597 4.00049L1 5.39358L8 12.0005L15 5.39358L13.524 4.00049L8 9.21431L2.47597 4.00049Z"
+          fill-rule="evenodd"
+        />
+      </svg>
+      Accordion title 2
+    </button>
+    <div
+      aria-hidden="false"
+      class="v-accordion-panel"
+      id="accordion-disclosure-group-panel-1"
+    >
+      <p>
+        This is required text that describes the accordion section in more detail.
+      </p>
+    </div>
+    <button
+      aria-controls="accordion-disclosure-group-panel-2"
+      aria-expanded="false"
+      class="v-button v-button-large v-button-secondary v-accordion-heading"
+      id="accordion-disclosure-group-header-2"
+    >
+      <svg
+        aria-hidden="true"
+        class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-right v-icon-rtl v-accordion-toggle-icon v-accordion-toggle-icon-closed"
+        focusable="false"
+        height="16"
+        viewBox="0 0 16 16"
+        width="16"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          class="v-icon-primary"
+          clip-rule="evenodd"
+          d="M5.39309 1.00049L12 8.00049L5.39309 15.0005L4 13.5245L9.21383 8.00049L4 2.47646L5.39309 1.00049Z"
+          fill-rule="evenodd"
+        />
+      </svg>
+      Accordion title 3
+    </button>
+    <div
+      aria-hidden="true"
+      class="v-accordion-panel"
+      id="accordion-disclosure-group-panel-2"
+    >
+      <p>
+        This is required text that describes the accordion section in more detail.
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Accordion examples Custom single-select accordion group with accordion expanded by default should render correctly 1`] = `
+<div>
+  <div
+    class="v-accordion"
+    id="accordion-default-open-group"
+  >
+    <button
+      aria-controls="accordion-default-open-panel-0"
+      aria-expanded="true"
+      class="v-button v-button-large v-button-secondary v-accordion-heading"
+      id="accordion-default-open-header-0"
+    >
+      <svg
+        aria-hidden="true"
+        class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-down v-accordion-toggle-icon v-accordion-toggle-icon-open"
+        focusable="false"
+        height="16"
+        viewBox="0 0 16 16"
+        width="16"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          class="v-icon-primary"
+          clip-rule="evenodd"
+          d="M2.47597 4.00049L1 5.39358L8 12.0005L15 5.39358L13.524 4.00049L8 9.21431L2.47597 4.00049Z"
+          fill-rule="evenodd"
+        />
+      </svg>
+      Accordion title 1
+    </button>
+    <div
+      aria-hidden="false"
+      class="v-accordion-panel"
+      id="accordion-default-open-panel-0"
+    >
+      <p>
+        This is required text that describes the accordion section in more detail.
+      </p>
+    </div>
+    <button
+      aria-controls="accordion-default-open-panel-1"
+      aria-expanded="false"
+      class="v-button v-button-large v-button-secondary v-accordion-heading"
+      id="accordion-default-open-header-1"
+    >
+      <svg
+        aria-hidden="true"
+        class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-right v-icon-rtl v-accordion-toggle-icon v-accordion-toggle-icon-closed"
+        focusable="false"
+        height="16"
+        viewBox="0 0 16 16"
+        width="16"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          class="v-icon-primary"
+          clip-rule="evenodd"
+          d="M5.39309 1.00049L12 8.00049L5.39309 15.0005L4 13.5245L9.21383 8.00049L4 2.47646L5.39309 1.00049Z"
+          fill-rule="evenodd"
+        />
+      </svg>
+      Accordion title 2
+    </button>
+    <div
+      aria-hidden="true"
+      class="v-accordion-panel"
+      id="accordion-default-open-panel-1"
+    >
+      <p>
+        This is required text that describes the accordion section in more detail.
+      </p>
+    </div>
+    <button
+      aria-controls="accordion-default-open-panel-2"
+      aria-expanded="false"
+      class="v-button v-button-large v-button-secondary v-accordion-heading"
+      id="accordion-default-open-header-2"
+    >
+      <svg
+        aria-hidden="true"
+        class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-right v-icon-rtl v-accordion-toggle-icon v-accordion-toggle-icon-closed"
+        focusable="false"
+        height="16"
+        viewBox="0 0 16 16"
+        width="16"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          class="v-icon-primary"
+          clip-rule="evenodd"
+          d="M5.39309 1.00049L12 8.00049L5.39309 15.0005L4 13.5245L9.21383 8.00049L4 2.47646L5.39309 1.00049Z"
+          fill-rule="evenodd"
+        />
+      </svg>
+      Accordion title 3
+    </button>
+    <div
+      aria-hidden="true"
+      class="v-accordion-panel"
+      id="accordion-default-open-panel-2"
+    >
+      <p>
+        This is required text that describes the accordion section in more detail.
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Accordion examples Default accordion should render correctly 1`] = `
+<div>
+  <details
+    class="v-accordion"
+  >
+    <summary
+      class="v-button v-button-large v-button-secondary v-accordion-heading"
+    >
+      <svg
+        aria-hidden="true"
+        class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-right v-icon-rtl v-accordion-toggle-icon v-accordion-toggle-icon-closed"
+        focusable="false"
+        height="16"
+        viewBox="0 0 16 16"
+        width="16"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          class="v-icon-primary"
+          clip-rule="evenodd"
+          d="M5.39309 1.00049L12 8.00049L5.39309 15.0005L4 13.5245L9.21383 8.00049L4 2.47646L5.39309 1.00049Z"
+          fill-rule="evenodd"
+        />
+      </svg>
+      <svg
+        aria-hidden="true"
+        class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-down v-accordion-toggle-icon v-accordion-toggle-icon-open"
+        focusable="false"
+        height="16"
+        viewBox="0 0 16 16"
+        width="16"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          class="v-icon-primary"
+          clip-rule="evenodd"
+          d="M2.47597 4.00049L1 5.39358L8 12.0005L15 5.39358L13.524 4.00049L8 9.21431L2.47597 4.00049Z"
+          fill-rule="evenodd"
+        />
+      </svg>
+      Accordion title
+    </summary>
+    <div
+      class="v-accordion-panel"
+    >
+      <p>
+        This is required text that describes the accordion section in more detail.
+      </p>
+    </div>
+  </details>
+</div>
+`;
+
+exports[`Accordion examples Default multi-select accordion group should render correctly 1`] = `
+<div>
+  <div
+    class="v-flex v-flex-col v-gap-6"
+  >
+    <details
+      class="v-accordion"
+    >
+      <summary
+        class="v-button v-button-large v-button-secondary v-accordion-heading"
+      >
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-right v-icon-rtl v-accordion-toggle-icon v-accordion-toggle-icon-closed"
+          focusable="false"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M5.39309 1.00049L12 8.00049L5.39309 15.0005L4 13.5245L9.21383 8.00049L4 2.47646L5.39309 1.00049Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-down v-accordion-toggle-icon v-accordion-toggle-icon-open"
+          focusable="false"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M2.47597 4.00049L1 5.39358L8 12.0005L15 5.39358L13.524 4.00049L8 9.21431L2.47597 4.00049Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+        Accordion title 1
+      </summary>
+      <div
+        class="v-accordion-panel"
+      >
+        <p>
+          This is required text that describes the accordion section in more detail.
+        </p>
+      </div>
+    </details>
+    <details
+      class="v-accordion"
+    >
+      <summary
+        class="v-button v-button-large v-button-secondary v-accordion-heading"
+      >
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-right v-icon-rtl v-accordion-toggle-icon v-accordion-toggle-icon-closed"
+          focusable="false"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M5.39309 1.00049L12 8.00049L5.39309 15.0005L4 13.5245L9.21383 8.00049L4 2.47646L5.39309 1.00049Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-down v-accordion-toggle-icon v-accordion-toggle-icon-open"
+          focusable="false"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M2.47597 4.00049L1 5.39358L8 12.0005L15 5.39358L13.524 4.00049L8 9.21431L2.47597 4.00049Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+        Accordion title 2
+      </summary>
+      <div
+        class="v-accordion-panel"
+      >
+        <p>
+          This is required text that describes the accordion section in more detail.
+        </p>
+      </div>
+    </details>
+    <details
+      class="v-accordion"
+    >
+      <summary
+        class="v-button v-button-large v-button-secondary v-accordion-heading"
+      >
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-right v-icon-rtl v-accordion-toggle-icon v-accordion-toggle-icon-closed"
+          focusable="false"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M5.39309 1.00049L12 8.00049L5.39309 15.0005L4 13.5245L9.21383 8.00049L4 2.47646L5.39309 1.00049Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-down v-accordion-toggle-icon v-accordion-toggle-icon-open"
+          focusable="false"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M2.47597 4.00049L1 5.39358L8 12.0005L15 5.39358L13.524 4.00049L8 9.21431L2.47597 4.00049Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+        Accordion title 3
+      </summary>
+      <div
+        class="v-accordion-panel"
+      >
+        <p>
+          This is required text that describes the accordion section in more detail.
+        </p>
+      </div>
+    </details>
+  </div>
+</div>
+`;
+
+exports[`Accordion examples Default single-select accordion group should render correctly 1`] = `
+<div>
+  <div
+    class="v-flex v-flex-col v-gap-6"
+  >
+    <details
+      class="v-accordion"
+    >
+      <summary
+        class="v-button v-button-large v-button-secondary v-accordion-heading"
+      >
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-right v-icon-rtl v-accordion-toggle-icon v-accordion-toggle-icon-closed"
+          focusable="false"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M5.39309 1.00049L12 8.00049L5.39309 15.0005L4 13.5245L9.21383 8.00049L4 2.47646L5.39309 1.00049Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-down v-accordion-toggle-icon v-accordion-toggle-icon-open"
+          focusable="false"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M2.47597 4.00049L1 5.39358L8 12.0005L15 5.39358L13.524 4.00049L8 9.21431L2.47597 4.00049Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+        Accordion title 1
+      </summary>
+      <div
+        class="v-accordion-panel"
+      >
+        <span>
+          This is required text that describes the accordion section in more detail.
+        </span>
+      </div>
+    </details>
+    <details
+      class="v-accordion"
+    >
+      <summary
+        class="v-button v-button-large v-button-secondary v-accordion-heading"
+      >
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-right v-icon-rtl v-accordion-toggle-icon v-accordion-toggle-icon-closed"
+          focusable="false"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M5.39309 1.00049L12 8.00049L5.39309 15.0005L4 13.5245L9.21383 8.00049L4 2.47646L5.39309 1.00049Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-down v-accordion-toggle-icon v-accordion-toggle-icon-open"
+          focusable="false"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M2.47597 4.00049L1 5.39358L8 12.0005L15 5.39358L13.524 4.00049L8 9.21431L2.47597 4.00049Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+        Accordion title 2
+      </summary>
+      <div
+        class="v-accordion-panel"
+      >
+        <span>
+          This is required text that describes the accordion section in more detail.
+        </span>
+      </div>
+    </details>
+    <details
+      class="v-accordion"
+    >
+      <summary
+        class="v-button v-button-large v-button-secondary v-accordion-heading"
+      >
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-right v-icon-rtl v-accordion-toggle-icon v-accordion-toggle-icon-closed"
+          focusable="false"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M5.39309 1.00049L12 8.00049L5.39309 15.0005L4 13.5245L9.21383 8.00049L4 2.47646L5.39309 1.00049Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-down v-accordion-toggle-icon v-accordion-toggle-icon-open"
+          focusable="false"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M2.47597 4.00049L1 5.39358L8 12.0005L15 5.39358L13.524 4.00049L8 9.21431L2.47597 4.00049Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+        Accordion title 3
+      </summary>
+      <div
+        class="v-accordion-panel"
+      >
+        <span>
+          This is required text that describes the accordion section in more detail.
+        </span>
+      </div>
+    </details>
+  </div>
+</div>
+`;
+
+exports[`Accordion examples Disabled accordion should render correctly 1`] = `
+<div>
+  <div
+    class="v-accordion"
+    id="collapsed-disabled-accordion"
+  >
+    <button
+      aria-controls="collapsed-disabled-accordion-accordion-panel"
+      aria-expanded="false"
+      class="v-button v-button-large v-button-secondary v-accordion-heading"
+      disabled=""
+      id="collapsed-disabled-accordion-accordion-header"
+    >
+      <svg
+        aria-hidden="true"
+        class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-right v-icon-rtl v-accordion-toggle-icon v-accordion-toggle-icon-closed"
+        focusable="false"
+        height="16"
+        viewBox="0 0 16 16"
+        width="16"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          class="v-icon-primary"
+          clip-rule="evenodd"
+          d="M5.39309 1.00049L12 8.00049L5.39309 15.0005L4 13.5245L9.21383 8.00049L4 2.47646L5.39309 1.00049Z"
+          fill-rule="evenodd"
+        />
+      </svg>
+      Accordion title
+    </button>
+    <div
+      aria-hidden="true"
+      class="v-accordion-panel"
+      id="collapsed-disabled-accordion-accordion-panel"
+    >
+      <p>
+        This is required text that describes the accordion section in more detail.
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Accordion examples Disabled subtle accordion should render correctly 1`] = `
+<div>
+  <div
+    class="v-accordion"
+  >
+    <button
+      aria-controls="disabled-subtle-accordion-accordion-panel"
+      aria-expanded="false"
+      class="v-button v-button-large v-button-tertiary v-accordion-heading v-gap-2"
+      disabled=""
+      id="disabled-subtle-accordion-accordion-header"
+    >
+      <svg
+        aria-hidden="true"
+        class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-right v-icon-rtl v-accordion-toggle-icon v-accordion-toggle-icon-closed"
+        focusable="false"
+        height="16"
+        viewBox="0 0 16 16"
+        width="16"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          class="v-icon-primary"
+          clip-rule="evenodd"
+          d="M5.39309 1.00049L12 8.00049L5.39309 15.0005L4 13.5245L9.21383 8.00049L4 2.47646L5.39309 1.00049Z"
+          fill-rule="evenodd"
+        />
+      </svg>
+      <p
+        class="v-typography-body-2-medium"
+      >
+        Accordion title
+      </p>
+    </button>
+    <div
+      aria-hidden="true"
+      class="v-accordion-panel v-px-32"
+      id="disabled-subtle-accordion-accordion-panel"
+      style="--v-accordion-panel-background-color: transparent; --v-accordion-panel-border-size: 0px;"
+    >
+      <p>
+        This is required text that describes the accordion section in more detail.
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Accordion examples Multi-select accordion group with accordion expanded by default should render correctly 1`] = `
+<div>
+  <div
+    class="v-flex v-flex-col v-gap-6"
+  >
+    <details
+      class="v-accordion"
+      open=""
+    >
+      <summary
+        class="v-button v-button-large v-button-secondary v-accordion-heading"
+      >
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-right v-icon-rtl v-accordion-toggle-icon v-accordion-toggle-icon-closed"
+          focusable="false"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M5.39309 1.00049L12 8.00049L5.39309 15.0005L4 13.5245L9.21383 8.00049L4 2.47646L5.39309 1.00049Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-down v-accordion-toggle-icon v-accordion-toggle-icon-open"
+          focusable="false"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M2.47597 4.00049L1 5.39358L8 12.0005L15 5.39358L13.524 4.00049L8 9.21431L2.47597 4.00049Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+        Accordion title 1
+      </summary>
+      <div
+        class="v-accordion-panel"
+      >
+        <p>
+          This is required text that describes the accordion section in more detail.
+        </p>
+      </div>
+    </details>
+    <details
+      class="v-accordion"
+    >
+      <summary
+        class="v-button v-button-large v-button-secondary v-accordion-heading"
+      >
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-right v-icon-rtl v-accordion-toggle-icon v-accordion-toggle-icon-closed"
+          focusable="false"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M5.39309 1.00049L12 8.00049L5.39309 15.0005L4 13.5245L9.21383 8.00049L4 2.47646L5.39309 1.00049Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-down v-accordion-toggle-icon v-accordion-toggle-icon-open"
+          focusable="false"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M2.47597 4.00049L1 5.39358L8 12.0005L15 5.39358L13.524 4.00049L8 9.21431L2.47597 4.00049Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+        Accordion title 2
+      </summary>
+      <div
+        class="v-accordion-panel"
+      >
+        <p>
+          This is required text that describes the accordion section in more detail.
+        </p>
+      </div>
+    </details>
+    <details
+      class="v-accordion"
+    >
+      <summary
+        class="v-button v-button-large v-button-secondary v-accordion-heading"
+      >
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-right v-icon-rtl v-accordion-toggle-icon v-accordion-toggle-icon-closed"
+          focusable="false"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M5.39309 1.00049L12 8.00049L5.39309 15.0005L4 13.5245L9.21383 8.00049L4 2.47646L5.39309 1.00049Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-down v-accordion-toggle-icon v-accordion-toggle-icon-open"
+          focusable="false"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M2.47597 4.00049L1 5.39358L8 12.0005L15 5.39358L13.524 4.00049L8 9.21431L2.47597 4.00049Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+        Accordion title 3
+      </summary>
+      <div
+        class="v-accordion-panel"
+      >
+        <p>
+          This is required text that describes the accordion section in more detail.
+        </p>
+      </div>
+    </details>
+  </div>
+</div>
+`;
+
+exports[`Accordion examples Multi-select accordion group with disabled accordion should render correctly 1`] = `
+<div>
+  <div
+    class="v-flex v-flex-col v-gap-6"
+  >
+    <div
+      class="v-accordion"
+      id="multi-select-accordion-group-with-disabled-panel-1"
+    >
+      <button
+        aria-controls="multi-select-accordion-group-with-disabled-panel-1-accordion-panel"
+        aria-expanded="false"
+        class="v-button v-button-large v-button-secondary v-accordion-heading"
+        disabled=""
+        id="multi-select-accordion-group-with-disabled-panel-1-accordion-header"
+      >
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-right v-icon-rtl v-accordion-toggle-icon v-accordion-toggle-icon-closed"
+          focusable="false"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M5.39309 1.00049L12 8.00049L5.39309 15.0005L4 13.5245L9.21383 8.00049L4 2.47646L5.39309 1.00049Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+        Accordion title 1
+      </button>
+      <div
+        aria-hidden="true"
+        class="v-accordion-panel"
+        id="multi-select-accordion-group-with-disabled-panel-1-accordion-panel"
+      >
+        <p>
+          This is required text that describes the accordion section in more detail.
+        </p>
+      </div>
+    </div>
+    <div
+      class="v-accordion"
+      id="multi-select-accordion-group-with-disabled-panel-2"
+    >
+      <button
+        aria-controls="multi-select-accordion-group-with-disabled-panel-2-accordion-panel"
+        aria-expanded="false"
+        class="v-button v-button-large v-button-secondary v-accordion-heading"
+        id="multi-select-accordion-group-with-disabled-panel-2-accordion-header"
+      >
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-right v-icon-rtl v-accordion-toggle-icon v-accordion-toggle-icon-closed"
+          focusable="false"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M5.39309 1.00049L12 8.00049L5.39309 15.0005L4 13.5245L9.21383 8.00049L4 2.47646L5.39309 1.00049Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+        Accordion title 2
+      </button>
+      <div
+        aria-hidden="true"
+        class="v-accordion-panel"
+        id="multi-select-accordion-group-with-disabled-panel-2-accordion-panel"
+      >
+        <p>
+          This is required text that describes the accordion section in more detail.
+        </p>
+      </div>
+    </div>
+    <div
+      class="v-accordion"
+      id="multi-select-accordion-group-with-disabled-panel-3"
+    >
+      <button
+        aria-controls="multi-select-accordion-group-with-disabled-panel-3-accordion-panel"
+        aria-expanded="false"
+        class="v-button v-button-large v-button-secondary v-accordion-heading"
+        id="multi-select-accordion-group-with-disabled-panel-3-accordion-header"
+      >
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-right v-icon-rtl v-accordion-toggle-icon v-accordion-toggle-icon-closed"
+          focusable="false"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M5.39309 1.00049L12 8.00049L5.39309 15.0005L4 13.5245L9.21383 8.00049L4 2.47646L5.39309 1.00049Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+        Accordion title 3
+      </button>
+      <div
+        aria-hidden="true"
+        class="v-accordion-panel"
+        id="multi-select-accordion-group-with-disabled-panel-3-accordion-panel"
+      >
+        <p>
+          This is required text that describes the accordion section in more detail.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Accordion examples Native single-select accordion group should render correctly 1`] = `
+<div>
+  <div
+    class="v-flex v-flex-col v-gap-6"
+  >
+    <details
+      class="v-accordion"
+      name="native-single-select-accordion-group"
+    >
+      <summary
+        class="v-button v-button-large v-button-secondary v-accordion-heading"
+      >
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-right v-icon-rtl v-accordion-toggle-icon v-accordion-toggle-icon-closed"
+          focusable="false"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M5.39309 1.00049L12 8.00049L5.39309 15.0005L4 13.5245L9.21383 8.00049L4 2.47646L5.39309 1.00049Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-down v-accordion-toggle-icon v-accordion-toggle-icon-open"
+          focusable="false"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M2.47597 4.00049L1 5.39358L8 12.0005L15 5.39358L13.524 4.00049L8 9.21431L2.47597 4.00049Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+        Accordion title 1
+      </summary>
+      <div
+        class="v-accordion-panel"
+      >
+        <span>
+          This is required text that describes the accordion section in more detail.
+        </span>
+      </div>
+    </details>
+    <details
+      class="v-accordion"
+      name="native-single-select-accordion-group"
+    >
+      <summary
+        class="v-button v-button-large v-button-secondary v-accordion-heading"
+      >
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-right v-icon-rtl v-accordion-toggle-icon v-accordion-toggle-icon-closed"
+          focusable="false"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M5.39309 1.00049L12 8.00049L5.39309 15.0005L4 13.5245L9.21383 8.00049L4 2.47646L5.39309 1.00049Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-down v-accordion-toggle-icon v-accordion-toggle-icon-open"
+          focusable="false"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M2.47597 4.00049L1 5.39358L8 12.0005L15 5.39358L13.524 4.00049L8 9.21431L2.47597 4.00049Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+        Accordion title 2
+      </summary>
+      <div
+        class="v-accordion-panel"
+      >
+        <span>
+          This is required text that describes the accordion section in more detail.
+        </span>
+      </div>
+    </details>
+    <details
+      class="v-accordion"
+      name="native-single-select-accordion-group"
+    >
+      <summary
+        class="v-button v-button-large v-button-secondary v-accordion-heading"
+      >
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-right v-icon-rtl v-accordion-toggle-icon v-accordion-toggle-icon-closed"
+          focusable="false"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M5.39309 1.00049L12 8.00049L5.39309 15.0005L4 13.5245L9.21383 8.00049L4 2.47646L5.39309 1.00049Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-down v-accordion-toggle-icon v-accordion-toggle-icon-open"
+          focusable="false"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M2.47597 4.00049L1 5.39358L8 12.0005L15 5.39358L13.524 4.00049L8 9.21431L2.47597 4.00049Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+        Accordion title 3
+      </summary>
+      <div
+        class="v-accordion-panel"
+      >
+        <span>
+          This is required text that describes the accordion section in more detail.
+        </span>
+      </div>
+    </details>
+  </div>
+</div>
+`;
+
+exports[`Accordion examples Single-select accordion group with accordion expanded by default should render correctly 1`] = `
+<div>
+  <div
+    class="v-flex v-flex-col v-gap-6"
+  >
+    <details
+      class="v-accordion"
+      open=""
+    >
+      <summary
+        class="v-button v-button-large v-button-secondary v-accordion-heading"
+      >
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-right v-icon-rtl v-accordion-toggle-icon v-accordion-toggle-icon-closed"
+          focusable="false"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M5.39309 1.00049L12 8.00049L5.39309 15.0005L4 13.5245L9.21383 8.00049L4 2.47646L5.39309 1.00049Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-down v-accordion-toggle-icon v-accordion-toggle-icon-open"
+          focusable="false"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M2.47597 4.00049L1 5.39358L8 12.0005L15 5.39358L13.524 4.00049L8 9.21431L2.47597 4.00049Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+        Accordion title 1
+      </summary>
+      <div
+        class="v-accordion-panel"
+      >
+        <span>
+          This is required text that describes the accordion section in more detail.
+        </span>
+      </div>
+    </details>
+    <details
+      class="v-accordion"
+    >
+      <summary
+        class="v-button v-button-large v-button-secondary v-accordion-heading"
+      >
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-right v-icon-rtl v-accordion-toggle-icon v-accordion-toggle-icon-closed"
+          focusable="false"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M5.39309 1.00049L12 8.00049L5.39309 15.0005L4 13.5245L9.21383 8.00049L4 2.47646L5.39309 1.00049Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-down v-accordion-toggle-icon v-accordion-toggle-icon-open"
+          focusable="false"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M2.47597 4.00049L1 5.39358L8 12.0005L15 5.39358L13.524 4.00049L8 9.21431L2.47597 4.00049Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+        Accordion title 2
+      </summary>
+      <div
+        class="v-accordion-panel"
+      >
+        <span>
+          This is required text that describes the accordion section in more detail.
+        </span>
+      </div>
+    </details>
+    <details
+      class="v-accordion"
+    >
+      <summary
+        class="v-button v-button-large v-button-secondary v-accordion-heading"
+      >
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-right v-icon-rtl v-accordion-toggle-icon v-accordion-toggle-icon-closed"
+          focusable="false"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M5.39309 1.00049L12 8.00049L5.39309 15.0005L4 13.5245L9.21383 8.00049L4 2.47646L5.39309 1.00049Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-down v-accordion-toggle-icon v-accordion-toggle-icon-open"
+          focusable="false"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M2.47597 4.00049L1 5.39358L8 12.0005L15 5.39358L13.524 4.00049L8 9.21431L2.47597 4.00049Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+        Accordion title 3
+      </summary>
+      <div
+        class="v-accordion-panel"
+      >
+        <span>
+          This is required text that describes the accordion section in more detail.
+        </span>
+      </div>
+    </details>
+  </div>
+</div>
+`;
+
+exports[`Accordion examples Subtle accordion should render correctly 1`] = `
+<div>
+  <details
+    class="v-accordion"
+  >
+    <summary
+      class="v-button v-button-tertiary v-accordion-heading v-gap-2 v-typography-body-2-medium"
+      style="--v-accordion-foreground-initial: var(--palette-default-active); --v-button-default-background: transparent;"
+    >
+      <svg
+        aria-hidden="true"
+        class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-right v-icon-rtl v-accordion-toggle-icon v-accordion-toggle-icon-closed"
+        focusable="false"
+        height="16"
+        viewBox="0 0 16 16"
+        width="16"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          class="v-icon-primary"
+          clip-rule="evenodd"
+          d="M5.39309 1.00049L12 8.00049L5.39309 15.0005L4 13.5245L9.21383 8.00049L4 2.47646L5.39309 1.00049Z"
+          fill-rule="evenodd"
+        />
+      </svg>
+      <svg
+        aria-hidden="true"
+        class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-down v-accordion-toggle-icon v-accordion-toggle-icon-open"
+        focusable="false"
+        height="16"
+        viewBox="0 0 16 16"
+        width="16"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          class="v-icon-primary"
+          clip-rule="evenodd"
+          d="M2.47597 4.00049L1 5.39358L8 12.0005L15 5.39358L13.524 4.00049L8 9.21431L2.47597 4.00049Z"
+          fill-rule="evenodd"
+        />
+      </svg>
+      Accordion title
+    </summary>
+    <div
+      class="v-accordion-panel v-px-32"
+      style="--v-accordion-panel-background-color: transparent; --v-accordion-panel-border-size: 0px;"
+    >
+      <p>
+        This is required text that describes the accordion section in more detail.
+      </p>
+    </div>
+  </details>
+</div>
+`;
+
+exports[`Accordion examples Subtle accordion with icon should render correctly 1`] = `
+<div>
+  <details
+    class="v-accordion"
+  >
+    <summary
+      class="v-button v-button-tertiary v-accordion-heading v-gap-2 v-typography-body-2-medium"
+      style="--v-accordion-foreground-initial: var(--palette-default-active); --v-button-default-background: transparent;"
+    >
+      <svg
+        aria-hidden="true"
+        class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-right v-icon-rtl v-accordion-toggle-icon v-accordion-toggle-icon-closed"
+        focusable="false"
+        height="16"
+        viewBox="0 0 16 16"
+        width="16"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          class="v-icon-primary"
+          clip-rule="evenodd"
+          d="M5.39309 1.00049L12 8.00049L5.39309 15.0005L4 13.5245L9.21383 8.00049L4 2.47646L5.39309 1.00049Z"
+          fill-rule="evenodd"
+        />
+      </svg>
+      <svg
+        aria-hidden="true"
+        class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-down v-accordion-toggle-icon v-accordion-toggle-icon-open"
+        focusable="false"
+        height="16"
+        viewBox="0 0 16 16"
+        width="16"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          class="v-icon-primary"
+          clip-rule="evenodd"
+          d="M2.47597 4.00049L1 5.39358L8 12.0005L15 5.39358L13.524 4.00049L8 9.21431L2.47597 4.00049Z"
+          fill-rule="evenodd"
+        />
+      </svg>
+      <svg
+        aria-hidden="true"
+        class="v-icon v-icon-visa v-icon-low v-icon-cloud"
+        focusable="false"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          class="v-icon-secondary"
+          d="M17 12.001H15C15 11.451 14.55 11.001 14 11.001V9.00098C15.65 9.00098 17 10.351 17 12.001Z"
+        />
+        <path
+          class="v-icon-primary"
+          d="M19 20.001H5C2.24 20.001 0 17.761 0 15.001C0 12.751 1.5 10.821 3.59 10.201C3.98 8.36098 5.58 7.00098 7.5 7.00098C7.74 7.00098 7.98 7.02098 8.21 7.06098C9.51 5.16098 11.66 4.00098 14 4.00098C17.66 4.00098 20.67 6.82098 20.97 10.401C22.79 11.181 24 12.981 24 15.001C24 17.761 21.76 20.001 19 20.001ZM7.5 9.00098C6.4 9.00098 5.5 9.90098 5.5 11.001V11.881L4.62 12.021C3.13 12.211 2 13.491 2 15.001C2 16.651 3.35 18.001 5 18.001H19C20.65 18.001 22 16.651 22 15.001C22 13.631 21.08 12.431 19.75 12.091L18.98 11.891L19 11.001C19 8.24098 16.76 6.00098 14 6.00098C12.13 6.00098 10.43 7.03098 9.56 8.70098L9.13 9.52098L8.28 9.16098C8.04 9.05098 7.77 9.00098 7.5 9.00098Z"
+        />
+      </svg>
+      Accordion title
+    </summary>
+    <div
+      class="v-accordion-panel v-px-32"
+      style="--v-accordion-panel-background-color: transparent; --v-accordion-panel-border-size: 0px;"
+    >
+      <p>
+        This is required text that describes the accordion section in more detail.
+      </p>
+    </div>
+  </details>
+</div>
+`;
+
+exports[`Accordion examples Subtle multi-select accordion group should render correctly 1`] = `
+<div>
+  <div
+    class="v-flex v-flex-col v-gap-6"
+  >
+    <details
+      class="v-accordion"
+    >
+      <summary
+        class="v-button v-button-tertiary v-accordion-heading v-gap-2 v-typography-body-2-medium"
+        style="--v-accordion-foreground-initial: var(--palette-default-active); --v-button-default-background: transparent;"
+      >
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-right v-icon-rtl v-accordion-toggle-icon v-accordion-toggle-icon-closed"
+          focusable="false"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M5.39309 1.00049L12 8.00049L5.39309 15.0005L4 13.5245L9.21383 8.00049L4 2.47646L5.39309 1.00049Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-down v-accordion-toggle-icon v-accordion-toggle-icon-open"
+          focusable="false"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M2.47597 4.00049L1 5.39358L8 12.0005L15 5.39358L13.524 4.00049L8 9.21431L2.47597 4.00049Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+        Accordion title 1
+      </summary>
+      <div
+        class="v-accordion-panel v-px-32"
+        style="--v-accordion-panel-background-color: transparent; --v-accordion-panel-border-size: 0px;"
+      >
+        <p>
+          This is required text that describes the accordion section in more detail.
+        </p>
+      </div>
+    </details>
+    <details
+      class="v-accordion"
+    >
+      <summary
+        class="v-button v-button-tertiary v-accordion-heading v-gap-2 v-typography-body-2-medium"
+        style="--v-accordion-foreground-initial: var(--palette-default-active); --v-button-default-background: transparent;"
+      >
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-right v-icon-rtl v-accordion-toggle-icon v-accordion-toggle-icon-closed"
+          focusable="false"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M5.39309 1.00049L12 8.00049L5.39309 15.0005L4 13.5245L9.21383 8.00049L4 2.47646L5.39309 1.00049Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-down v-accordion-toggle-icon v-accordion-toggle-icon-open"
+          focusable="false"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M2.47597 4.00049L1 5.39358L8 12.0005L15 5.39358L13.524 4.00049L8 9.21431L2.47597 4.00049Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+        Accordion title 2
+      </summary>
+      <div
+        class="v-accordion-panel v-px-32"
+        style="--v-accordion-panel-background-color: transparent; --v-accordion-panel-border-size: 0px;"
+      >
+        <p>
+          This is required text that describes the accordion section in more detail.
+        </p>
+      </div>
+    </details>
+    <details
+      class="v-accordion"
+    >
+      <summary
+        class="v-button v-button-tertiary v-accordion-heading v-gap-2 v-typography-body-2-medium"
+        style="--v-accordion-foreground-initial: var(--palette-default-active); --v-button-default-background: transparent;"
+      >
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-right v-icon-rtl v-accordion-toggle-icon v-accordion-toggle-icon-closed"
+          focusable="false"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M5.39309 1.00049L12 8.00049L5.39309 15.0005L4 13.5245L9.21383 8.00049L4 2.47646L5.39309 1.00049Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-down v-accordion-toggle-icon v-accordion-toggle-icon-open"
+          focusable="false"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M2.47597 4.00049L1 5.39358L8 12.0005L15 5.39358L13.524 4.00049L8 9.21431L2.47597 4.00049Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+        Accordion title 3
+      </summary>
+      <div
+        class="v-accordion-panel v-px-32"
+        style="--v-accordion-panel-background-color: transparent; --v-accordion-panel-border-size: 0px;"
+      >
+        <p>
+          This is required text that describes the accordion section in more detail.
+        </p>
+      </div>
+    </details>
+  </div>
+</div>
+`;
+
+exports[`Accordion examples Subtle single-select accordion group should render correctly 1`] = `
+<div>
+  <div
+    class="v-flex v-flex-col v-gap-6"
+  >
+    <details
+      class="v-accordion"
+    >
+      <summary
+        class="v-button v-button-tertiary v-accordion-heading v-gap-2 v-typography-body-2-medium"
+        style="--v-accordion-foreground-initial: var(--palette-default-active); --v-button-default-background: transparent;"
+      >
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-right v-icon-rtl v-accordion-toggle-icon v-accordion-toggle-icon-closed"
+          focusable="false"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M5.39309 1.00049L12 8.00049L5.39309 15.0005L4 13.5245L9.21383 8.00049L4 2.47646L5.39309 1.00049Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-down v-accordion-toggle-icon v-accordion-toggle-icon-open"
+          focusable="false"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M2.47597 4.00049L1 5.39358L8 12.0005L15 5.39358L13.524 4.00049L8 9.21431L2.47597 4.00049Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+        Accordion title 1
+      </summary>
+      <div
+        class="v-accordion-panel v-px-32"
+        style="--v-accordion-panel-background-color: transparent; --v-accordion-panel-border-size: 0px;"
+      >
+        <p>
+          This is required text that describes the accordion section in more detail.
+        </p>
+      </div>
+    </details>
+    <details
+      class="v-accordion"
+    >
+      <summary
+        class="v-button v-button-tertiary v-accordion-heading v-gap-2 v-typography-body-2-medium"
+        style="--v-accordion-foreground-initial: var(--palette-default-active); --v-button-default-background: transparent;"
+      >
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-right v-icon-rtl v-accordion-toggle-icon v-accordion-toggle-icon-closed"
+          focusable="false"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M5.39309 1.00049L12 8.00049L5.39309 15.0005L4 13.5245L9.21383 8.00049L4 2.47646L5.39309 1.00049Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-down v-accordion-toggle-icon v-accordion-toggle-icon-open"
+          focusable="false"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M2.47597 4.00049L1 5.39358L8 12.0005L15 5.39358L13.524 4.00049L8 9.21431L2.47597 4.00049Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+        Accordion title 2
+      </summary>
+      <div
+        class="v-accordion-panel v-px-32"
+        style="--v-accordion-panel-background-color: transparent; --v-accordion-panel-border-size: 0px;"
+      >
+        <p>
+          This is required text that describes the accordion section in more detail.
+        </p>
+      </div>
+    </details>
+    <details
+      class="v-accordion"
+    >
+      <summary
+        class="v-button v-button-tertiary v-accordion-heading v-gap-2 v-typography-body-2-medium"
+        style="--v-accordion-foreground-initial: var(--palette-default-active); --v-button-default-background: transparent;"
+      >
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-right v-icon-rtl v-accordion-toggle-icon v-accordion-toggle-icon-closed"
+          focusable="false"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M5.39309 1.00049L12 8.00049L5.39309 15.0005L4 13.5245L9.21383 8.00049L4 2.47646L5.39309 1.00049Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-down v-accordion-toggle-icon v-accordion-toggle-icon-open"
+          focusable="false"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M2.47597 4.00049L1 5.39358L8 12.0005L15 5.39358L13.524 4.00049L8 9.21431L2.47597 4.00049Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+        Accordion title 3
+      </summary>
+      <div
+        class="v-accordion-panel v-px-32"
+        style="--v-accordion-panel-background-color: transparent; --v-accordion-panel-border-size: 0px;"
+      >
+        <p>
+          This is required text that describes the accordion section in more detail.
+        </p>
+      </div>
+    </details>
+  </div>
+</div>
+`;

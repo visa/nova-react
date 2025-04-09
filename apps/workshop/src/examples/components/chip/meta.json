@@ -1,0 +1,134 @@
+{
+  "checked-disabled-selection-chip": {
+    "file": "checked-disabled-selection-chip.tsx",
+    "id": "checked-disabled-selection-chip",
+    "title": "Disabled selected selection chip",
+    "testAvg": 100
+  },
+  "compact-removable-avatar-chip": {
+    "file": "compact-removable-avatar-chip.tsx",
+    "id": "compact-removable-avatar-chip",
+    "title": "Compact removable chip with avatar",
+    "testAvg": 100
+  },
+  "compact-removable-chip": {
+    "file": "compact-removable-chip.tsx",
+    "id": "compact-removable-chip",
+    "tags": {
+      "docs": true
+    },
+    "title": "Compact removable chip",
+    "testAvg": 100
+  },
+  "compact-removable-icon-chip": {
+    "file": "compact-removable-icon-chip.tsx",
+    "id": "compact-removable-icon-chip",
+    "title": "Compact removable chip with icon",
+    "testAvg": 100
+  },
+  "default-removable-chip": {
+    "file": "default-removable-chip.tsx",
+    "id": "default-removable-chip",
+    "tags": {
+      "docs": true
+    },
+    "title": "Default removable chip",
+    "testAvg": 100
+  },
+  "default-selection-chip": {
+    "file": "default-selection-chip.tsx",
+    "id": "default-selection-chip",
+    "tags": {
+      "docs": true
+    },
+    "title": "Default selection chip",
+    "testAvg": 100
+  },
+  "disabled-removable-chip": {
+    "file": "disabled-removable-chip.tsx",
+    "id": "disabled-removable-chip",
+    "tags": {
+      "docs": true
+    },
+    "title": "Disabled removable chip",
+    "testAvg": 100
+  },
+  "disabled-selection-chip": {
+    "file": "disabled-selection-chip.tsx",
+    "id": "disabled-selection-chip",
+    "tags": {
+      "docs": true
+    },
+    "title": "Disabled selection chip",
+    "testAvg": 100
+  },
+  "multi-line-selection-chip": {
+    "file": "multi-line-selection-chip.tsx",
+    "id": "multi-line-selection-chip",
+    "tags": {
+      "docs": true
+    },
+    "title": "Multi-line selection chip",
+    "testAvg": 100
+  },
+  "removable-avatar-chip": {
+    "file": "removable-avatar-chip.tsx",
+    "id": "removable-avatar-chip",
+    "tags": {
+      "docs": true
+    },
+    "title": "Removable chip with avatar",
+    "testAvg": 100
+  },
+  "removable-group-chip": {
+    "file": "removable-group-chip.tsx",
+    "id": "removable-group-chip",
+    "tags": {
+      "docs": true
+    },
+    "title": "Removable chip group",
+    "testAvg": 100
+  },
+  "compact-removable-group-chip": {
+    "file": "compact-removable-group-chip.tsx",
+    "id": "compact-removable-group-chip",
+    "tags": {
+      "docs": true
+    },
+    "title": "Compact removable chip group",
+    "testAvg": 100
+  },
+  "removable-icon-chip": {
+    "file": "removable-icon-chip.tsx",
+    "id": "removable-icon-chip",
+    "tags": {
+      "docs": true
+    },
+    "title": "Removable chip with icon",
+    "testAvg": 100
+  },
+  "static-chip": {
+    "file": "static-chip.tsx",
+    "id": "static-chip",
+    "tags": {
+      "docs": true
+    },
+    "title": "Static chip",
+    "testAvg": 100
+  },
+  "selected-selection-chip": {
+    "file": "selected-selection-chip.tsx",
+    "id": "selected-selection-chip",
+    "tags": {
+      "docs": true
+    },
+    "title": "Selected selection chip",
+    "testAvg": 100
+  },
+  "selection-group-chip": {
+    "file": "selection-group-chip.tsx",
+    "id": "selection-group-chip",
+    "title": "Selection chip group",
+    "testAvg": 100
+  }
+}

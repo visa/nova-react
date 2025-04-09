@@ -1,0 +1,8 @@
+{
+  "use-button-debounce-example": {
+    "file": "use-button-debounce-example.tsx",
+    "id": "use-button-debounce-example",
+    "testAvg": 100,
+    "title": "Behavior and usage"
+  }
+}

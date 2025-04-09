@@ -1,0 +1,249 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Avatar examples Avatar as button should render correctly 1`] = `
+<div>
+  <button
+    aria-describedby="avatar-as-a-button-notifications-count"
+    aria-label="Notifications"
+    class="v-avatar v-button v-button-large v-button-tertiary"
+  >
+    <svg
+      aria-hidden="true"
+      class="v-icon v-icon-visa v-icon-low v-icon-account"
+      focusable="false"
+      height="24"
+      viewBox="0 0 24 24"
+      width="24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        class="v-icon-secondary"
+        clip-rule="evenodd"
+        d="M12 14C7.58172 14 4 17.5817 4 22V24H2V22C2 16.4772 6.47715 12 12 12C17.5228 12 22 16.4772 22 22V24H20V22C20 17.5817 16.4183 14 12 14Z"
+        fill-rule="evenodd"
+      />
+      <path
+        class="v-icon-primary"
+        clip-rule="evenodd"
+        d="M12 8C13.6569 8 15 6.65685 15 5C15 3.34315 13.6569 2 12 2C10.3431 2 9 3.34315 9 5C9 6.65685 10.3431 8 12 8ZM12 10C14.7614 10 17 7.76142 17 5C17 2.23858 14.7614 0 12 0C9.23858 0 7 2.23858 7 5C7 7.76142 9.23858 10 12 10Z"
+        fill-rule="evenodd"
+      />
+    </svg>
+    <sup
+      class="v-badge v-badge-number v-typography-label-active"
+      id="avatar-as-a-button-notifications-count"
+    >
+      3
+    </sup>
+  </button>
+</div>
+`;
+
+exports[`Avatar examples Large ficticious brand avatar should render correctly 1`] = `
+<div>
+  <span
+    aria-label="Brand"
+    class="v-avatar fictitious-brand"
+    role="img"
+    style="--v-avatar-background: #6ef2fb; --v-avatar-foreground: var(--palette-default-text); --typography-body-2-font-weight: 800;"
+  >
+    B
+  </span>
+</div>
+`;
+
+exports[`Avatar examples Large icon avatar should render correctly 1`] = `
+<div>
+  <span
+    aria-label="Alex Miller"
+    class="v-avatar"
+    role="img"
+  >
+    <svg
+      aria-hidden="true"
+      class="v-icon v-icon-visa v-icon-low v-icon-account"
+      focusable="false"
+      height="24"
+      viewBox="0 0 24 24"
+      width="24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        class="v-icon-secondary"
+        clip-rule="evenodd"
+        d="M12 14C7.58172 14 4 17.5817 4 22V24H2V22C2 16.4772 6.47715 12 12 12C17.5228 12 22 16.4772 22 22V24H20V22C20 17.5817 16.4183 14 12 14Z"
+        fill-rule="evenodd"
+      />
+      <path
+        class="v-icon-primary"
+        clip-rule="evenodd"
+        d="M12 8C13.6569 8 15 6.65685 15 5C15 3.34315 13.6569 2 12 2C10.3431 2 9 3.34315 9 5C9 6.65685 10.3431 8 12 8ZM12 10C14.7614 10 17 7.76142 17 5C17 2.23858 14.7614 0 12 0C9.23858 0 7 2.23858 7 5C7 7.76142 9.23858 10 12 10Z"
+        fill-rule="evenodd"
+      />
+    </svg>
+  </span>
+</div>
+`;
+
+exports[`Avatar examples Large image avatar should render correctly 1`] = `
+<div>
+  <img
+    alt="Alex Miller"
+    class="v-avatar"
+    src="https://www.url.com/alex-miller-stock.png"
+  />
+</div>
+`;
+
+exports[`Avatar examples Large initials avatar should render correctly 1`] = `
+<div>
+  <span
+    aria-label="Alex Miller"
+    class="v-avatar"
+    role="img"
+  >
+    AM
+  </span>
+</div>
+`;
+
+exports[`Avatar examples Small horizontal icon avatar should render correctly 1`] = `
+<div>
+  <div
+    style="block-size: 175px;"
+  >
+    <div
+      class="v-tab"
+    >
+      <button
+        aria-expanded="false"
+        aria-label="Alex Miller"
+        class="v-avatar v-button v-button-large v-button-tertiary"
+      >
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-low v-icon-account"
+          focusable="false"
+          height="24"
+          viewBox="0 0 24 24"
+          width="24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-secondary"
+            clip-rule="evenodd"
+            d="M12 14C7.58172 14 4 17.5817 4 22V24H2V22C2 16.4772 6.47715 12 12 12C17.5228 12 22 16.4772 22 22V24H20V22C20 17.5817 16.4183 14 12 14Z"
+            fill-rule="evenodd"
+          />
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M12 8C13.6569 8 15 6.65685 15 5C15 3.34315 13.6569 2 12 2C10.3431 2 9 3.34315 9 5C9 6.65685 10.3431 8 12 8ZM12 10C14.7614 10 17 7.76142 17 5C17 2.23858 14.7614 0 12 0C9.23858 0 7 2.23858 7 5C7 7.76142 9.23858 10 12 10Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-low v-icon-chevron-down v-tab-suffix"
+          focusable="false"
+          height="24"
+          viewBox="0 0 24 24"
+          width="24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M21.6712 6.00049L12 16.5306L2.3288 6.00049L1 7.4473L11.3356 18.7008C11.7025 19.1004 12.2975 19.1004 12.6644 18.7008L23 7.4473L21.6712 6.00049Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Avatar examples Small image avatar should render correctly 1`] = `
+<div>
+  <img
+    alt="Alex Miller"
+    class="v-avatar v-avatar-small"
+    src="https://www.url.com/alex-miller-stock.png"
+  />
+</div>
+`;
+
+exports[`Avatar examples Small initials avatar should render correctly 1`] = `
+<div>
+  <span
+    aria-label="Alex Miller"
+    class="v-avatar v-avatar-small"
+    role="img"
+  >
+    AM
+  </span>
+</div>
+`;
+
+exports[`Avatar examples Small vertical icon avatar should render correctly 1`] = `
+<div>
+  <div
+    aria-label="Vertical nav with active page"
+    class="v-nav v-nav-vertical"
+  >
+    <div
+      class="v-tabs v-tabs-vertical"
+    >
+      <div
+        class="v-tab"
+      >
+        <button
+          aria-expanded="false"
+          aria-label="Alex Miller"
+          class="v-button v-button-large v-button-tertiary"
+        >
+          <svg
+            aria-hidden="true"
+            class="v-icon v-icon-visa v-icon-tiny v-icon-account"
+            focusable="false"
+            height="16"
+            viewBox="0 0 16 16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="v-icon-secondary"
+              clip-rule="evenodd"
+              d="M8 11C5.23858 11 3 13.2386 3 16H1C1 12.134 4.13401 9 8 9C11.866 9 15 12.134 15 16H13C13 13.2386 10.7614 11 8 11Z"
+              fill-rule="evenodd"
+            />
+            <path
+              class="v-icon-primary"
+              clip-rule="evenodd"
+              d="M8 2C6.89543 2 6 2.89543 6 4C6 5.10457 6.89543 6 8 6C9.10457 6 10 5.10457 10 4C10 2.89543 9.10457 2 8 2ZM4 4C4 1.79086 5.79086 0 8 0C10.2091 0 12 1.79086 12 4C12 6.20914 10.2091 8 8 8C5.79086 8 4 6.20914 4 4Z"
+              fill-rule="evenodd"
+            />
+          </svg>
+          <svg
+            aria-hidden="true"
+            class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-down v-tab-suffix"
+            focusable="false"
+            height="16"
+            viewBox="0 0 16 16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="v-icon-primary"
+              clip-rule="evenodd"
+              d="M2.47597 4.00049L1 5.39358L8 12.0005L15 5.39358L13.524 4.00049L8 9.21431L2.47597 4.00049Z"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,364 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input examples Date selector with disabled dates should render correctly 1`] = `
+<div>
+  <div
+    class="v-flex v-flex-col v-flex-wrap v-gap-4"
+  >
+    <label
+      class="v-label"
+      for="min-max-date"
+    >
+      Label (required)
+    </label>
+    <div
+      class="v-surface v-input-container"
+    >
+      <input
+        class="v-input"
+        id="min-max-date"
+        max="1999-06-29"
+        min="1999-01-27"
+        required=""
+        type="date"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Input examples Date selector with error should render correctly 1`] = `
+<div>
+  <div
+    class="v-flex v-flex-col v-gap-4"
+  >
+    <label
+      class="v-label"
+      for="date-selector-with-error"
+    >
+      Label (required)
+    </label>
+    <div
+      class="v-surface v-input-container"
+    >
+      <input
+        aria-invalid="false"
+        class="v-input"
+        id="date-selector-with-error"
+        required=""
+        type="date"
+      />
+    </div>
+  </div>
+  <div
+    class="v-flex v-gap-12 v-mt-16"
+  >
+    <button
+      class="v-button"
+      id="date-selector-with-error-submit-button"
+    >
+      Submit
+    </button>
+    <button
+      class="v-button v-button-secondary"
+      id="date-selector-with-error-reset-button"
+    >
+      Reset
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Input examples Default date range selector should render correctly 1`] = `
+<div>
+  <div
+    class="v-flex v-flex-wrap v-gap-12"
+  >
+    <div
+      class="v-flex v-flex-col v-flex-grow v-gap-4"
+    >
+      <label
+        class="v-label"
+        for="default-date-range-selector-start-date"
+      >
+        Start Date Label (required)
+      </label>
+      <div
+        class="v-surface v-input-container"
+      >
+        <input
+          class="v-input"
+          id="default-date-range-selector-start-date"
+          required=""
+          type="date"
+        />
+      </div>
+    </div>
+    <div
+      class="v-flex v-flex-col v-flex-grow v-gap-4"
+    >
+      <label
+        class="v-label"
+        for="default-date-range-selector-end-date"
+      >
+        End Date Label (required)
+      </label>
+      <div
+        class="v-surface v-input-container"
+      >
+        <input
+          class="v-input"
+          id="default-date-range-selector-end-date"
+          required=""
+          type="date"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Input examples Default date selector should render correctly 1`] = `
+<div>
+  <div
+    class="v-flex v-flex-col v-gap-4"
+  >
+    <label
+      class="v-label"
+      for="default-date-selector"
+    >
+      Label (required)
+    </label>
+    <div
+      class="v-surface v-input-container"
+    >
+      <input
+        class="v-input"
+        id="default-date-selector"
+        required=""
+        type="date"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Input examples Default time selector should render correctly 1`] = `
+<div>
+  <div
+    class="v-flex v-flex-col v-flex-grow v-gap-4"
+  >
+    <label
+      class="v-label"
+      for="default-time-selector-time"
+    >
+      Label (required)
+    </label>
+    <div
+      class="v-surface v-input-container"
+    >
+      <input
+        class="v-input"
+        id="default-time-selector-time"
+        required=""
+        type="time"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Input examples Disabled date selector should render correctly 1`] = `
+<div>
+  <div
+    class="v-flex v-flex-col v-gap-4"
+  >
+    <label
+      class="v-label"
+      for="disabled-date-selector"
+    >
+      Label (required)
+    </label>
+    <div
+      class="v-surface v-input-container"
+    >
+      <input
+        class="v-input"
+        disabled=""
+        id="disabled-date-selector"
+        required=""
+        type="date"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Input examples Disabled time selector should render correctly 1`] = `
+<div>
+  <div
+    class="v-flex v-flex-col v-flex-grow v-gap-4"
+  >
+    <label
+      class="v-label"
+      for="disabled-time-selector-time"
+    >
+      Label (required)
+    </label>
+    <div
+      class="v-surface v-input-container"
+    >
+      <input
+        class="v-input"
+        disabled=""
+        id="disabled-time-selector-time"
+        required=""
+        type="time"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Input examples Read-only date selector should render correctly 1`] = `
+<div>
+  <div
+    class="v-flex v-flex-col v-gap-4"
+  >
+    <label
+      class="v-label"
+      for="read-only-date-selector"
+    >
+      Label (required)
+    </label>
+    <div
+      class="v-surface v-input-container"
+    >
+      <input
+        class="v-input"
+        id="read-only-date-selector"
+        readonly=""
+        required=""
+        type="date"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Input examples Read-only time selector should render correctly 1`] = `
+<div>
+  <div
+    class="v-flex v-flex-col v-flex-grow v-gap-4"
+  >
+    <label
+      class="v-label"
+      for="read-only-time-selector-time"
+    >
+      Label (required)
+    </label>
+    <div
+      class="v-surface v-input-container"
+    >
+      <input
+        class="v-input"
+        id="read-only-time-selector-time"
+        readonly=""
+        required=""
+        type="time"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Input examples Stacked date range selector should render correctly 1`] = `
+<div>
+  <div
+    class="v-flex v-flex-col v-gap-12"
+  >
+    <div
+      class="v-flex v-flex-col v-flex-grow v-gap-4"
+    >
+      <label
+        class="v-label"
+        for="stacked-date-range-selector-start-date"
+      >
+        Start Date Label (required)
+      </label>
+      <div
+        class="v-surface v-input-container"
+      >
+        <input
+          class="v-input"
+          id="stacked-date-range-selector-start-date"
+          required=""
+          type="date"
+        />
+      </div>
+    </div>
+    <div
+      class="v-flex v-flex-col v-flex-grow v-gap-4"
+    >
+      <label
+        class="v-label"
+        for="stacked-date-range-selector-end-date"
+      >
+        End Date Label (required)
+      </label>
+      <div
+        class="v-surface v-input-container"
+      >
+        <input
+          class="v-input"
+          id="stacked-date-range-selector-end-date"
+          required=""
+          type="date"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Input examples Time selector with error should render correctly 1`] = `
+<div>
+  <div
+    class="v-flex v-flex-col v-flex-grow v-gap-4"
+  >
+    <label
+      class="v-label"
+      for="time-selector-with-error-time"
+    >
+      Label (required)
+    </label>
+    <div
+      class="v-surface v-input-container"
+    >
+      <input
+        aria-invalid="false"
+        class="v-input"
+        id="time-selector-with-error-time"
+        required=""
+        type="time"
+      />
+    </div>
+  </div>
+  <div
+    class="v-flex v-gap-12 v-mt-16"
+  >
+    <button
+      class="v-button"
+      id="time-selector-with-error-submit-button"
+    >
+      Submit
+    </button>
+    <button
+      class="v-button v-button-secondary"
+      id="time-selector-with-error-reset-button"
+    >
+      Reset
+    </button>
+  </div>
+</div>
+`;

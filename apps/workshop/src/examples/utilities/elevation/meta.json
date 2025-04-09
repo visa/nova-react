@@ -1,0 +1,8 @@
+{
+  "all-elevation": {
+    "file": "all-elevation.tsx",
+    "id": "all-elevation",
+    "title": "All elevations",
+    "testAvg": 100
+  }
+}

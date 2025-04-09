@@ -1,0 +1,3362 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Wizard examples Default single-page wizard should render correctly 1`] = `
+<div>
+  <nav
+    aria-label="Single page wizard"
+  >
+    <div
+      class="v-wizard v-flex v-flex-col v-gap-16"
+    >
+      <div
+        aria-current="step"
+        class="v-accordion v-wizard-step"
+      >
+        <button
+          aria-controls="single-page-wizard-panel-0"
+          aria-expanded="true"
+          class="v-button v-button-large v-button-secondary v-accordion-heading v-flex v-justify-content-between"
+          id="single-page-wizard-0"
+        >
+          <div
+            class="v-align-items-center v-flex v-gap-6"
+          >
+            <span
+              aria-current="step"
+              aria-label="Step 1 of 5"
+              class="v-badge v-badge-active v-badge-icon v-badge-subtle"
+              style="--v-badge-disabled-background: var(--v-badge-subtle-icon-color);"
+            >
+              1
+            </span>
+            <p
+              class="v-typography-color-active"
+            >
+              Step 1 label
+            </p>
+          </div>
+          <svg
+            aria-hidden="true"
+            class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-down v-accordion-toggle-icon v-accordion-toggle-icon-open"
+            focusable="false"
+            height="16"
+            viewBox="0 0 16 16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="v-icon-primary"
+              clip-rule="evenodd"
+              d="M2.47597 4.00049L1 5.39358L8 12.0005L15 5.39358L13.524 4.00049L8 9.21431L2.47597 4.00049Z"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </button>
+        <div
+          aria-hidden="false"
+          class="v-accordion-panel v-px-0 v-py-0"
+          id="single-page-wizard-panel-0"
+        >
+          <div
+            class="v-flex v-flex-col v-justify-content-between v-py-12"
+          >
+            <div
+              class="v-flex v-flex-col v-gap-4 v-px-40 v-py-12"
+            >
+              <label
+                class="v-label"
+                for="single-page-wizard-step-1-input"
+              >
+                Label (required)
+              </label>
+              <div
+                class="v-surface v-input-container"
+              >
+                <input
+                  aria-describedby="single-page-wizard-step-1-input-message"
+                  aria-invalid="false"
+                  aria-required="true"
+                  class="v-input"
+                  id="single-page-wizard-step-1-input"
+                  type="text"
+                  value=""
+                />
+              </div>
+            </div>
+            <hr
+              aria-hidden="true"
+              class="v-divider v-divider-decorative v-my-12"
+            />
+            <div
+              class="v-px-40 v-py-12"
+            >
+              <div
+                class="v-col-gap-24 v-flex v-flex-wrap v-justify-content-between v-row-gap-16"
+              >
+                <div
+                  class="v-col-gap-24 v-flex v-flex-wrap v-justify-content-start v-row-gap-16"
+                >
+                  <button
+                    class="v-button v-button-secondary"
+                  >
+                    Save
+                  </button>
+                  <button
+                    class="v-button v-button-tertiary"
+                  >
+                    Exit
+                  </button>
+                </div>
+                <div
+                  class="v-col-gap-24 v-flex v-flex-grow v-flex-wrap v-justify-content-end v-row-gap-16"
+                >
+                  <button
+                    class="v-button v-button-secondary v-hide"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="v-icon v-icon-visa v-icon-tiny v-icon-arrow-back"
+                      focusable="false"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      width="16"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect
+                        height="1"
+                        transform="translate(7 7.00024)"
+                        width="1"
+                      />
+                      <path
+                        class="v-icon-primary"
+                        d="M3.91838 7.00159L9.21132 1.70865L7.7971 0.294434L0.0899963 8.00154L7.7971 15.7086L9.21132 14.2944L3.91847 9.00159H16.0042V7.00159H3.91838Z"
+                      />
+                      <defs>
+                        <clippath>
+                          <rect
+                            height="16"
+                            width="16"
+                          />
+                        </clippath>
+                      </defs>
+                    </svg>
+                    Back
+                  </button>
+                  <button
+                    class="v-button"
+                  >
+                    Next
+                    <svg
+                      aria-hidden="true"
+                      class="v-icon v-icon-visa v-icon-tiny v-icon-arrow-forward"
+                      focusable="false"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      width="16"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect
+                        height="1"
+                        transform="translate(7 7.00024)"
+                        width="1"
+                      />
+                      <path
+                        class="v-icon-primary"
+                        clip-rule="evenodd"
+                        d="M12.0858 6.99715L6.79289 1.70425L8.20711 0.290039L15.2071 7.29004L15.9142 7.99715L15.2071 8.70425L8.20711 15.7043L6.79289 14.29L12.0858 8.99715H0V6.99715H12.0858Z"
+                        fill-rule="evenodd"
+                      />
+                      <defs>
+                        <clippath>
+                          <rect
+                            height="16"
+                            width="16"
+                          />
+                        </clippath>
+                      </defs>
+                    </svg>
+                  </button>
+                  <button
+                    class="v-button v-hide"
+                  >
+                    Submit
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="v-accordion v-wizard-step"
+      >
+        <button
+          aria-controls="single-page-wizard-panel-1"
+          aria-expanded="false"
+          class="v-button v-button-large v-button-secondary v-accordion-heading v-flex v-justify-content-between"
+          disabled=""
+          id="single-page-wizard-1"
+        >
+          <div
+            class="v-align-items-center v-flex v-gap-6"
+          >
+            <span
+              aria-label="Step 2 of 5"
+              class="v-badge v-badge-icon v-badge-subtle v-badge-clear"
+              style="--v-badge-disabled-background: var(--v-badge-subtle-icon-color);"
+            >
+              2
+            </span>
+            <p
+              class="v-typography-color-subtle"
+            >
+              Step 2 label
+            </p>
+          </div>
+          <svg
+            aria-hidden="true"
+            class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-right v-icon-rtl v-accordion-toggle-icon v-accordion-toggle-icon-closed"
+            focusable="false"
+            height="16"
+            viewBox="0 0 16 16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="v-icon-primary"
+              clip-rule="evenodd"
+              d="M5.39309 1.00049L12 8.00049L5.39309 15.0005L4 13.5245L9.21383 8.00049L4 2.47646L5.39309 1.00049Z"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </button>
+        <div
+          aria-hidden="true"
+          class="v-accordion-panel v-px-0 v-py-0"
+          id="single-page-wizard-panel-1"
+        >
+          <div
+            class="v-flex v-flex-col v-justify-content-between v-py-12"
+          >
+            <div
+              class="v-flex v-flex-col v-gap-4 v-px-40 v-py-12"
+            >
+              <label
+                class="v-label"
+                for="single-page-wizard-step-2-input"
+              >
+                Label (required)
+              </label>
+              <div
+                class="v-surface v-input-container"
+              >
+                <input
+                  aria-describedby="single-page-wizard-step-2-input-message"
+                  aria-invalid="false"
+                  aria-required="true"
+                  class="v-input"
+                  id="single-page-wizard-step-2-input"
+                  type="text"
+                  value=""
+                />
+              </div>
+            </div>
+            <hr
+              aria-hidden="true"
+              class="v-divider v-divider-decorative v-my-12"
+            />
+            <div
+              class="v-px-40 v-py-12"
+            >
+              <div
+                class="v-col-gap-24 v-flex v-flex-wrap v-justify-content-between v-row-gap-16"
+              >
+                <div
+                  class="v-col-gap-24 v-flex v-flex-wrap v-justify-content-start v-row-gap-16"
+                >
+                  <button
+                    class="v-button v-button-secondary"
+                  >
+                    Save
+                  </button>
+                  <button
+                    class="v-button v-button-tertiary"
+                  >
+                    Exit
+                  </button>
+                </div>
+                <div
+                  class="v-col-gap-24 v-flex v-flex-grow v-flex-wrap v-justify-content-end v-row-gap-16"
+                >
+                  <button
+                    class="v-button v-button-secondary v-hide"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="v-icon v-icon-visa v-icon-tiny v-icon-arrow-back"
+                      focusable="false"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      width="16"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect
+                        height="1"
+                        transform="translate(7 7.00024)"
+                        width="1"
+                      />
+                      <path
+                        class="v-icon-primary"
+                        d="M3.91838 7.00159L9.21132 1.70865L7.7971 0.294434L0.0899963 8.00154L7.7971 15.7086L9.21132 14.2944L3.91847 9.00159H16.0042V7.00159H3.91838Z"
+                      />
+                      <defs>
+                        <clippath>
+                          <rect
+                            height="16"
+                            width="16"
+                          />
+                        </clippath>
+                      </defs>
+                    </svg>
+                    Back
+                  </button>
+                  <button
+                    class="v-button"
+                  >
+                    Next
+                    <svg
+                      aria-hidden="true"
+                      class="v-icon v-icon-visa v-icon-tiny v-icon-arrow-forward"
+                      focusable="false"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      width="16"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect
+                        height="1"
+                        transform="translate(7 7.00024)"
+                        width="1"
+                      />
+                      <path
+                        class="v-icon-primary"
+                        clip-rule="evenodd"
+                        d="M12.0858 6.99715L6.79289 1.70425L8.20711 0.290039L15.2071 7.29004L15.9142 7.99715L15.2071 8.70425L8.20711 15.7043L6.79289 14.29L12.0858 8.99715H0V6.99715H12.0858Z"
+                        fill-rule="evenodd"
+                      />
+                      <defs>
+                        <clippath>
+                          <rect
+                            height="16"
+                            width="16"
+                          />
+                        </clippath>
+                      </defs>
+                    </svg>
+                  </button>
+                  <button
+                    class="v-button v-hide"
+                  >
+                    Submit
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="v-accordion v-wizard-step"
+      >
+        <button
+          aria-controls="single-page-wizard-panel-2"
+          aria-expanded="false"
+          class="v-button v-button-large v-button-secondary v-accordion-heading v-flex v-justify-content-between"
+          disabled=""
+          id="single-page-wizard-2"
+        >
+          <div
+            class="v-align-items-center v-flex v-gap-6"
+          >
+            <span
+              aria-label="Step 3 of 5"
+              class="v-badge v-badge-icon v-badge-subtle v-badge-clear"
+              style="--v-badge-disabled-background: var(--v-badge-subtle-icon-color);"
+            >
+              3
+            </span>
+            <p
+              class="v-typography-color-subtle"
+            >
+              Step 3 label
+            </p>
+          </div>
+          <svg
+            aria-hidden="true"
+            class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-right v-icon-rtl v-accordion-toggle-icon v-accordion-toggle-icon-closed"
+            focusable="false"
+            height="16"
+            viewBox="0 0 16 16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="v-icon-primary"
+              clip-rule="evenodd"
+              d="M5.39309 1.00049L12 8.00049L5.39309 15.0005L4 13.5245L9.21383 8.00049L4 2.47646L5.39309 1.00049Z"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </button>
+        <div
+          aria-hidden="true"
+          class="v-accordion-panel v-px-0 v-py-0"
+          id="single-page-wizard-panel-2"
+        >
+          <div
+            class="v-flex v-flex-col v-justify-content-between v-py-12"
+          >
+            <div
+              class="v-flex v-flex-col v-gap-4 v-px-40 v-py-12"
+            >
+              <label
+                class="v-label"
+                for="single-page-wizard-step-3-input"
+              >
+                Label (required)
+              </label>
+              <div
+                class="v-surface v-input-container"
+              >
+                <input
+                  aria-describedby="single-page-wizard-step-3-input-message"
+                  aria-invalid="false"
+                  aria-required="true"
+                  class="v-input"
+                  id="single-page-wizard-step-3-input"
+                  type="text"
+                  value=""
+                />
+              </div>
+            </div>
+            <hr
+              aria-hidden="true"
+              class="v-divider v-divider-decorative v-my-12"
+            />
+            <div
+              class="v-px-40 v-py-12"
+            >
+              <div
+                class="v-col-gap-24 v-flex v-flex-wrap v-justify-content-between v-row-gap-16"
+              >
+                <div
+                  class="v-col-gap-24 v-flex v-flex-wrap v-justify-content-start v-row-gap-16"
+                >
+                  <button
+                    class="v-button v-button-secondary"
+                  >
+                    Save
+                  </button>
+                  <button
+                    class="v-button v-button-tertiary"
+                  >
+                    Exit
+                  </button>
+                </div>
+                <div
+                  class="v-col-gap-24 v-flex v-flex-grow v-flex-wrap v-justify-content-end v-row-gap-16"
+                >
+                  <button
+                    class="v-button v-button-secondary v-hide"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="v-icon v-icon-visa v-icon-tiny v-icon-arrow-back"
+                      focusable="false"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      width="16"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect
+                        height="1"
+                        transform="translate(7 7.00024)"
+                        width="1"
+                      />
+                      <path
+                        class="v-icon-primary"
+                        d="M3.91838 7.00159L9.21132 1.70865L7.7971 0.294434L0.0899963 8.00154L7.7971 15.7086L9.21132 14.2944L3.91847 9.00159H16.0042V7.00159H3.91838Z"
+                      />
+                      <defs>
+                        <clippath>
+                          <rect
+                            height="16"
+                            width="16"
+                          />
+                        </clippath>
+                      </defs>
+                    </svg>
+                    Back
+                  </button>
+                  <button
+                    class="v-button"
+                  >
+                    Next
+                    <svg
+                      aria-hidden="true"
+                      class="v-icon v-icon-visa v-icon-tiny v-icon-arrow-forward"
+                      focusable="false"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      width="16"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect
+                        height="1"
+                        transform="translate(7 7.00024)"
+                        width="1"
+                      />
+                      <path
+                        class="v-icon-primary"
+                        clip-rule="evenodd"
+                        d="M12.0858 6.99715L6.79289 1.70425L8.20711 0.290039L15.2071 7.29004L15.9142 7.99715L15.2071 8.70425L8.20711 15.7043L6.79289 14.29L12.0858 8.99715H0V6.99715H12.0858Z"
+                        fill-rule="evenodd"
+                      />
+                      <defs>
+                        <clippath>
+                          <rect
+                            height="16"
+                            width="16"
+                          />
+                        </clippath>
+                      </defs>
+                    </svg>
+                  </button>
+                  <button
+                    class="v-button v-hide"
+                  >
+                    Submit
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="v-accordion v-wizard-step"
+      >
+        <button
+          aria-controls="single-page-wizard-panel-3"
+          aria-expanded="false"
+          class="v-button v-button-large v-button-secondary v-accordion-heading v-flex v-justify-content-between"
+          disabled=""
+          id="single-page-wizard-3"
+        >
+          <div
+            class="v-align-items-center v-flex v-gap-6"
+          >
+            <span
+              aria-label="Step 4 of 5"
+              class="v-badge v-badge-icon v-badge-subtle v-badge-clear"
+              style="--v-badge-disabled-background: var(--v-badge-subtle-icon-color);"
+            >
+              4
+            </span>
+            <p
+              class="v-typography-color-subtle"
+            >
+              Step 4 label
+            </p>
+          </div>
+          <svg
+            aria-hidden="true"
+            class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-right v-icon-rtl v-accordion-toggle-icon v-accordion-toggle-icon-closed"
+            focusable="false"
+            height="16"
+            viewBox="0 0 16 16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="v-icon-primary"
+              clip-rule="evenodd"
+              d="M5.39309 1.00049L12 8.00049L5.39309 15.0005L4 13.5245L9.21383 8.00049L4 2.47646L5.39309 1.00049Z"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </button>
+        <div
+          aria-hidden="true"
+          class="v-accordion-panel v-px-0 v-py-0"
+          id="single-page-wizard-panel-3"
+        >
+          <div
+            class="v-flex v-flex-col v-justify-content-between v-py-12"
+          >
+            <div
+              class="v-flex v-flex-col v-gap-4 v-px-40 v-py-12"
+            >
+              <label
+                class="v-label"
+                for="single-page-wizard-step-4-input"
+              >
+                Label (required)
+              </label>
+              <div
+                class="v-surface v-input-container"
+              >
+                <input
+                  aria-describedby="single-page-wizard-step-4-input-message"
+                  aria-invalid="false"
+                  aria-required="true"
+                  class="v-input"
+                  id="single-page-wizard-step-4-input"
+                  type="text"
+                  value=""
+                />
+              </div>
+            </div>
+            <hr
+              aria-hidden="true"
+              class="v-divider v-divider-decorative v-my-12"
+            />
+            <div
+              class="v-px-40 v-py-12"
+            >
+              <div
+                class="v-col-gap-24 v-flex v-flex-wrap v-justify-content-between v-row-gap-16"
+              >
+                <div
+                  class="v-col-gap-24 v-flex v-flex-wrap v-justify-content-start v-row-gap-16"
+                >
+                  <button
+                    class="v-button v-button-secondary"
+                  >
+                    Save
+                  </button>
+                  <button
+                    class="v-button v-button-tertiary"
+                  >
+                    Exit
+                  </button>
+                </div>
+                <div
+                  class="v-col-gap-24 v-flex v-flex-grow v-flex-wrap v-justify-content-end v-row-gap-16"
+                >
+                  <button
+                    class="v-button v-button-secondary v-hide"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="v-icon v-icon-visa v-icon-tiny v-icon-arrow-back"
+                      focusable="false"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      width="16"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect
+                        height="1"
+                        transform="translate(7 7.00024)"
+                        width="1"
+                      />
+                      <path
+                        class="v-icon-primary"
+                        d="M3.91838 7.00159L9.21132 1.70865L7.7971 0.294434L0.0899963 8.00154L7.7971 15.7086L9.21132 14.2944L3.91847 9.00159H16.0042V7.00159H3.91838Z"
+                      />
+                      <defs>
+                        <clippath>
+                          <rect
+                            height="16"
+                            width="16"
+                          />
+                        </clippath>
+                      </defs>
+                    </svg>
+                    Back
+                  </button>
+                  <button
+                    class="v-button"
+                  >
+                    Next
+                    <svg
+                      aria-hidden="true"
+                      class="v-icon v-icon-visa v-icon-tiny v-icon-arrow-forward"
+                      focusable="false"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      width="16"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect
+                        height="1"
+                        transform="translate(7 7.00024)"
+                        width="1"
+                      />
+                      <path
+                        class="v-icon-primary"
+                        clip-rule="evenodd"
+                        d="M12.0858 6.99715L6.79289 1.70425L8.20711 0.290039L15.2071 7.29004L15.9142 7.99715L15.2071 8.70425L8.20711 15.7043L6.79289 14.29L12.0858 8.99715H0V6.99715H12.0858Z"
+                        fill-rule="evenodd"
+                      />
+                      <defs>
+                        <clippath>
+                          <rect
+                            height="16"
+                            width="16"
+                          />
+                        </clippath>
+                      </defs>
+                    </svg>
+                  </button>
+                  <button
+                    class="v-button v-hide"
+                  >
+                    Submit
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="v-accordion v-wizard-step"
+      >
+        <button
+          aria-controls="single-page-wizard-panel-4"
+          aria-expanded="false"
+          class="v-button v-button-large v-button-secondary v-accordion-heading v-flex v-justify-content-between"
+          disabled=""
+          id="single-page-wizard-4"
+        >
+          <div
+            class="v-align-items-center v-flex v-gap-6"
+          >
+            <span
+              aria-label="Step 5 of 5"
+              class="v-badge v-badge-icon v-badge-subtle v-badge-clear"
+              style="--v-badge-disabled-background: var(--v-badge-subtle-icon-color);"
+            >
+              5
+            </span>
+            <p
+              class="v-typography-color-subtle"
+            >
+              Step 5 label
+            </p>
+          </div>
+          <svg
+            aria-hidden="true"
+            class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-right v-icon-rtl v-accordion-toggle-icon v-accordion-toggle-icon-closed"
+            focusable="false"
+            height="16"
+            viewBox="0 0 16 16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="v-icon-primary"
+              clip-rule="evenodd"
+              d="M5.39309 1.00049L12 8.00049L5.39309 15.0005L4 13.5245L9.21383 8.00049L4 2.47646L5.39309 1.00049Z"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </button>
+        <div
+          aria-hidden="true"
+          class="v-accordion-panel v-px-0 v-py-0"
+          id="single-page-wizard-panel-4"
+        >
+          <div
+            class="v-flex v-flex-col v-justify-content-between v-py-12"
+          >
+            <div
+              class="v-surface v-px-40"
+            >
+              <div
+                class="v-flex-grow"
+              >
+                <h2
+                  class="v-typography-headline-2"
+                >
+                  Summary
+                </h2>
+                <ol>
+                  <li
+                    class="v-py-20"
+                    style="border-block-end: 1px solid rgba(0,0,0,0.10);"
+                  >
+                    <div
+                      class="v-flex v-justify-content-between"
+                    >
+                      <h3
+                        class="v-typography-color-subtle v-typography-body-2-bold"
+                      >
+                        1. Step 1 label
+                      </h3>
+                      <button
+                        aria-label="Edit step 1"
+                        class="v-button v-button-small v-button-tertiary v-button-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="v-icon v-icon-visa v-icon-tiny v-icon-edit v-icon-rtl"
+                          focusable="false"
+                          height="16"
+                          viewBox="0 0 16 16"
+                          width="16"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            class="v-icon-primary"
+                            clip-rule="evenodd"
+                            d="M12.7071 0.292893C12.3166 -0.0976311 11.6834 -0.0976311 11.2929 0.292893L0 11.5858V16H4.41421L15.7071 4.70711C16.0976 4.31658 16.0976 3.68342 15.7071 3.29289L12.7071 0.292893ZM2 14V12.4142L8.99996 5.41425L10.5857 7.00004L3.58579 14H2ZM12 5.58582L13.5858 4L12 2.41421L10.4142 4.00004L12 5.58582Z"
+                            fill-rule="evenodd"
+                          />
+                          <defs>
+                            <clippath>
+                              <rect
+                                height="16"
+                                width="16"
+                              />
+                            </clippath>
+                          </defs>
+                        </svg>
+                      </button>
+                    </div>
+                    <p>
+                      Label: 
+                    </p>
+                  </li>
+                  <li
+                    class="v-py-20"
+                    style="border-block-end: 1px solid rgba(0,0,0,0.10);"
+                  >
+                    <div
+                      class="v-flex v-justify-content-between"
+                    >
+                      <h3
+                        class="v-typography-color-subtle v-typography-body-2-bold"
+                      >
+                        2. Step 2 label
+                      </h3>
+                      <button
+                        aria-label="Edit step 2"
+                        class="v-button v-button-small v-button-tertiary v-button-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="v-icon v-icon-visa v-icon-tiny v-icon-edit v-icon-rtl"
+                          focusable="false"
+                          height="16"
+                          viewBox="0 0 16 16"
+                          width="16"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            class="v-icon-primary"
+                            clip-rule="evenodd"
+                            d="M12.7071 0.292893C12.3166 -0.0976311 11.6834 -0.0976311 11.2929 0.292893L0 11.5858V16H4.41421L15.7071 4.70711C16.0976 4.31658 16.0976 3.68342 15.7071 3.29289L12.7071 0.292893ZM2 14V12.4142L8.99996 5.41425L10.5857 7.00004L3.58579 14H2ZM12 5.58582L13.5858 4L12 2.41421L10.4142 4.00004L12 5.58582Z"
+                            fill-rule="evenodd"
+                          />
+                          <defs>
+                            <clippath>
+                              <rect
+                                height="16"
+                                width="16"
+                              />
+                            </clippath>
+                          </defs>
+                        </svg>
+                      </button>
+                    </div>
+                    <p>
+                      Label: 
+                    </p>
+                  </li>
+                  <li
+                    class="v-py-20"
+                    style="border-block-end: 1px solid rgba(0,0,0,0.10);"
+                  >
+                    <div
+                      class="v-flex v-justify-content-between"
+                    >
+                      <h3
+                        class="v-typography-color-subtle v-typography-body-2-bold"
+                      >
+                        3. Step 3 label
+                      </h3>
+                      <button
+                        aria-label="Edit step 3"
+                        class="v-button v-button-small v-button-tertiary v-button-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="v-icon v-icon-visa v-icon-tiny v-icon-edit v-icon-rtl"
+                          focusable="false"
+                          height="16"
+                          viewBox="0 0 16 16"
+                          width="16"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            class="v-icon-primary"
+                            clip-rule="evenodd"
+                            d="M12.7071 0.292893C12.3166 -0.0976311 11.6834 -0.0976311 11.2929 0.292893L0 11.5858V16H4.41421L15.7071 4.70711C16.0976 4.31658 16.0976 3.68342 15.7071 3.29289L12.7071 0.292893ZM2 14V12.4142L8.99996 5.41425L10.5857 7.00004L3.58579 14H2ZM12 5.58582L13.5858 4L12 2.41421L10.4142 4.00004L12 5.58582Z"
+                            fill-rule="evenodd"
+                          />
+                          <defs>
+                            <clippath>
+                              <rect
+                                height="16"
+                                width="16"
+                              />
+                            </clippath>
+                          </defs>
+                        </svg>
+                      </button>
+                    </div>
+                    <p>
+                      Label: 
+                    </p>
+                  </li>
+                  <li
+                    class="v-py-20"
+                    style="border-block-end: none;"
+                  >
+                    <div
+                      class="v-flex v-justify-content-between"
+                    >
+                      <h3
+                        class="v-typography-color-subtle v-typography-body-2-bold"
+                      >
+                        4. Step 4 label
+                      </h3>
+                      <button
+                        aria-label="Edit step 4"
+                        class="v-button v-button-small v-button-tertiary v-button-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="v-icon v-icon-visa v-icon-tiny v-icon-edit v-icon-rtl"
+                          focusable="false"
+                          height="16"
+                          viewBox="0 0 16 16"
+                          width="16"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            class="v-icon-primary"
+                            clip-rule="evenodd"
+                            d="M12.7071 0.292893C12.3166 -0.0976311 11.6834 -0.0976311 11.2929 0.292893L0 11.5858V16H4.41421L15.7071 4.70711C16.0976 4.31658 16.0976 3.68342 15.7071 3.29289L12.7071 0.292893ZM2 14V12.4142L8.99996 5.41425L10.5857 7.00004L3.58579 14H2ZM12 5.58582L13.5858 4L12 2.41421L10.4142 4.00004L12 5.58582Z"
+                            fill-rule="evenodd"
+                          />
+                          <defs>
+                            <clippath>
+                              <rect
+                                height="16"
+                                width="16"
+                              />
+                            </clippath>
+                          </defs>
+                        </svg>
+                      </button>
+                    </div>
+                    <p>
+                      Label: 
+                    </p>
+                  </li>
+                </ol>
+              </div>
+            </div>
+            <hr
+              aria-hidden="true"
+              class="v-divider v-divider-decorative v-my-12"
+            />
+            <div
+              class="v-px-40 v-py-12"
+            >
+              <div
+                class="v-col-gap-24 v-flex v-flex-wrap v-justify-content-between v-row-gap-16"
+              >
+                <div
+                  class="v-col-gap-24 v-flex v-flex-wrap v-justify-content-start v-row-gap-16"
+                >
+                  <button
+                    class="v-button v-button-secondary"
+                  >
+                    Save
+                  </button>
+                  <button
+                    class="v-button v-button-tertiary"
+                  >
+                    Exit
+                  </button>
+                </div>
+                <div
+                  class="v-col-gap-24 v-flex v-flex-grow v-flex-wrap v-justify-content-end v-row-gap-16"
+                >
+                  <button
+                    class="v-button v-button-secondary v-hide"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="v-icon v-icon-visa v-icon-tiny v-icon-arrow-back"
+                      focusable="false"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      width="16"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect
+                        height="1"
+                        transform="translate(7 7.00024)"
+                        width="1"
+                      />
+                      <path
+                        class="v-icon-primary"
+                        d="M3.91838 7.00159L9.21132 1.70865L7.7971 0.294434L0.0899963 8.00154L7.7971 15.7086L9.21132 14.2944L3.91847 9.00159H16.0042V7.00159H3.91838Z"
+                      />
+                      <defs>
+                        <clippath>
+                          <rect
+                            height="16"
+                            width="16"
+                          />
+                        </clippath>
+                      </defs>
+                    </svg>
+                    Back
+                  </button>
+                  <button
+                    class="v-button"
+                  >
+                    Next
+                    <svg
+                      aria-hidden="true"
+                      class="v-icon v-icon-visa v-icon-tiny v-icon-arrow-forward"
+                      focusable="false"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      width="16"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect
+                        height="1"
+                        transform="translate(7 7.00024)"
+                        width="1"
+                      />
+                      <path
+                        class="v-icon-primary"
+                        clip-rule="evenodd"
+                        d="M12.0858 6.99715L6.79289 1.70425L8.20711 0.290039L15.2071 7.29004L15.9142 7.99715L15.2071 8.70425L8.20711 15.7043L6.79289 14.29L12.0858 8.99715H0V6.99715H12.0858Z"
+                        fill-rule="evenodd"
+                      />
+                      <defs>
+                        <clippath>
+                          <rect
+                            height="16"
+                            width="16"
+                          />
+                        </clippath>
+                      </defs>
+                    </svg>
+                  </button>
+                  <button
+                    class="v-button v-hide"
+                  >
+                    Submit
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <dialog
+      aria-describedby="single-page-wizard-exit-warning-dialog-description"
+      aria-labelledby="single-page-wizard-exit-warning-dialog-title"
+      class="v-message v-message-warning v-dialog"
+      id="single-page-wizard-exit-warning-dialog"
+      style="max-width: 300px;"
+    >
+      <div
+        class="v-message-content v-pb-2 v-pr-2"
+      >
+        <h2
+          class="v-dialog-header v-align-items-center v-flex v-gap-6 v-justify-content-start"
+          id="single-page-wizard-exit-warning-dialog-title"
+        >
+          <svg
+            aria-hidden="false"
+            aria-label="Warning"
+            class="v-icon v-icon-visa v-icon-low v-icon-warning v-message-icon"
+            focusable="false"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="v-icon-secondary"
+              d="M24 23H0V20.64L11.41 0H13.72L24 20.66V23ZM2.08 21H21.93L12.53 2.1L2.08 21Z"
+            />
+            <path
+              class="v-icon-primary"
+              clip-rule="evenodd"
+              d="M11.5 8H13.5V15H11.5V8ZM11.5 17H13.5V19H11.5V17Z"
+              fill-rule="evenodd"
+            />
+          </svg>
+          Exit form?
+        </h2>
+        <p
+          id="single-page-wizard-exit-warning-dialog-description"
+        >
+          Your progress has been automatically saved. You can continue where you left off when you return.
+        </p>
+        <div
+          class="v-flex v-flex-wrap v-gap-8 v-pt-16"
+        >
+          <button
+            class="v-button"
+            style="width: 100%;"
+          >
+            Exit
+          </button>
+        </div>
+      </div>
+      <button
+        aria-label="Close"
+        class="v-button v-button-small v-button-tertiary v-button-icon v-button-subtle -v-mt-20 -v-ml-12 -v-mr-18"
+      >
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-tiny v-icon-close"
+          focusable="false"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-primary"
+            d="M8.00001 9.4149L13.9498 15.3646L15.364 13.9504L9.41423 8.00069L15.364 2.05094L13.9498 0.636723L8.00001 6.58647L2.05026 0.636719L0.636047 2.05093L6.5858 8.00069L0.636054 13.9504L2.05027 15.3646L8.00001 9.4149Z"
+          />
+          <defs>
+            <clippath>
+              <rect
+                height="16"
+                transform="translate(0 0.000488281)"
+                width="16"
+              />
+            </clippath>
+          </defs>
+        </svg>
+      </button>
+    </dialog>
+  </nav>
+</div>
+`;
+
+exports[`Wizard examples Horizontal multi-page wizard should render correctly 1`] = `
+<div>
+  <div
+    class="v-flex v-flex-col v-gap-12"
+  >
+    <nav
+      aria-label="Horizontal multi-page wizard"
+    >
+      <ol
+        class="v-wizard"
+      >
+        <li
+          aria-current="step"
+          class="v-wizard-step"
+        >
+          <span
+            class="v-screen-reader"
+          >
+            Step 1 of 5
+          </span>
+          <button
+            class="v-button v-button-tertiary v-typography-label-large-active v-typography-color-default"
+            id="horizontal-multi-page-wizard-step-1-button"
+          >
+            <span
+              aria-current="step"
+              class="v-badge v-badge-active v-badge-icon v-badge-subtle"
+            >
+              1
+            </span>
+            <p>
+              Step 1 label
+            </p>
+            <svg
+              aria-hidden="true"
+              class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-right v-typography-color-subtle"
+              focusable="false"
+              height="16"
+              viewBox="0 0 16 16"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                class="v-icon-primary"
+                clip-rule="evenodd"
+                d="M5.39309 1.00049L12 8.00049L5.39309 15.0005L4 13.5245L9.21383 8.00049L4 2.47646L5.39309 1.00049Z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </button>
+        </li>
+        <li
+          class="v-wizard-step"
+        >
+          <span
+            class="v-screen-reader"
+          >
+            Step 2 of 5
+          </span>
+          <span
+            class="v-badge v-badge-icon v-badge-subtle v-badge-clear"
+          >
+            2
+          </span>
+          <p
+            class="v-typography-body-2"
+          >
+            Step 2 label
+          </p>
+          <svg
+            aria-hidden="true"
+            class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-right v-typography-color-subtle"
+            focusable="false"
+            height="16"
+            viewBox="0 0 16 16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="v-icon-primary"
+              clip-rule="evenodd"
+              d="M5.39309 1.00049L12 8.00049L5.39309 15.0005L4 13.5245L9.21383 8.00049L4 2.47646L5.39309 1.00049Z"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </li>
+        <li
+          class="v-wizard-step"
+        >
+          <span
+            class="v-screen-reader"
+          >
+            Step 3 of 5
+          </span>
+          <span
+            class="v-badge v-badge-icon v-badge-subtle v-badge-clear"
+          >
+            3
+          </span>
+          <p
+            class="v-typography-body-2"
+          >
+            Step 3 label
+          </p>
+          <svg
+            aria-hidden="true"
+            class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-right v-typography-color-subtle"
+            focusable="false"
+            height="16"
+            viewBox="0 0 16 16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="v-icon-primary"
+              clip-rule="evenodd"
+              d="M5.39309 1.00049L12 8.00049L5.39309 15.0005L4 13.5245L9.21383 8.00049L4 2.47646L5.39309 1.00049Z"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </li>
+        <li
+          class="v-wizard-step"
+        >
+          <span
+            class="v-screen-reader"
+          >
+            Step 4 of 5
+          </span>
+          <span
+            class="v-badge v-badge-icon v-badge-subtle v-badge-clear"
+          >
+            4
+          </span>
+          <p
+            class="v-typography-body-2"
+          >
+            Step 4 label
+          </p>
+          <svg
+            aria-hidden="true"
+            class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-right v-typography-color-subtle"
+            focusable="false"
+            height="16"
+            viewBox="0 0 16 16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="v-icon-primary"
+              clip-rule="evenodd"
+              d="M5.39309 1.00049L12 8.00049L5.39309 15.0005L4 13.5245L9.21383 8.00049L4 2.47646L5.39309 1.00049Z"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </li>
+        <li
+          class="v-wizard-step"
+        >
+          <span
+            class="v-screen-reader"
+          >
+            Step 5 of 5
+          </span>
+          <span
+            class="v-badge v-badge-icon v-badge-subtle v-badge-clear"
+          >
+            5
+          </span>
+          <p
+            class="v-typography-body-2"
+          >
+            Step 5 label
+          </p>
+        </li>
+      </ol>
+    </nav>
+    <div
+      class="v-flex v-flex-col v-gap-12"
+    >
+      <div
+        class="v-flex v-flex-col v-gap-4"
+      >
+        <label
+          class="v-label"
+          for="horizontal-multi-page-wizard-step-1-input"
+        >
+          Label (required)
+        </label>
+        <div
+          class="v-surface v-input-container"
+        >
+          <input
+            aria-describedby="horizontal-multi-page-wizard-step-1-input-message"
+            aria-invalid="false"
+            aria-required="true"
+            class="v-input"
+            id="horizontal-multi-page-wizard-step-1-input"
+            type="text"
+            value=""
+          />
+        </div>
+        <div
+          class="v-py-12"
+        >
+          <div
+            class="v-col-gap-24 v-flex v-flex-wrap v-justify-content-between v-row-gap-16"
+          >
+            <div
+              class="v-col-gap-24 v-flex v-flex-wrap v-justify-content-start v-row-gap-16"
+            >
+              <button
+                class="v-button v-button-secondary"
+              >
+                Save
+              </button>
+              <button
+                class="v-button v-button-tertiary"
+              >
+                Exit
+              </button>
+            </div>
+            <div
+              class="v-col-gap-24 v-flex v-flex-wrap v-justify-content-end v-row-gap-16"
+            >
+              <button
+                class="v-button v-button-secondary v-hide"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="v-icon v-icon-visa v-icon-tiny v-icon-arrow-back"
+                  focusable="false"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  width="16"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <rect
+                    height="1"
+                    transform="translate(7 7.00024)"
+                    width="1"
+                  />
+                  <path
+                    class="v-icon-primary"
+                    d="M3.91838 7.00159L9.21132 1.70865L7.7971 0.294434L0.0899963 8.00154L7.7971 15.7086L9.21132 14.2944L3.91847 9.00159H16.0042V7.00159H3.91838Z"
+                  />
+                  <defs>
+                    <clippath>
+                      <rect
+                        height="16"
+                        width="16"
+                      />
+                    </clippath>
+                  </defs>
+                </svg>
+                Back
+              </button>
+              <button
+                class="v-button"
+              >
+                Next
+                <svg
+                  aria-hidden="true"
+                  class="v-icon v-icon-visa v-icon-tiny v-icon-arrow-forward"
+                  focusable="false"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  width="16"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <rect
+                    height="1"
+                    transform="translate(7 7.00024)"
+                    width="1"
+                  />
+                  <path
+                    class="v-icon-primary"
+                    clip-rule="evenodd"
+                    d="M12.0858 6.99715L6.79289 1.70425L8.20711 0.290039L15.2071 7.29004L15.9142 7.99715L15.2071 8.70425L8.20711 15.7043L6.79289 14.29L12.0858 8.99715H0V6.99715H12.0858Z"
+                    fill-rule="evenodd"
+                  />
+                  <defs>
+                    <clippath>
+                      <rect
+                        height="16"
+                        width="16"
+                      />
+                    </clippath>
+                  </defs>
+                </svg>
+              </button>
+              <button
+                class="v-button v-hide"
+              >
+                Submit
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="v-flex v-flex-col v-gap-4 v-hide"
+      >
+        <label
+          class="v-label"
+          for="horizontal-multi-page-wizard-step-2-input"
+        >
+          Label (required)
+        </label>
+        <div
+          class="v-surface v-input-container"
+        >
+          <input
+            aria-describedby="horizontal-multi-page-wizard-step-2-input-message"
+            aria-invalid="false"
+            aria-required="true"
+            class="v-input"
+            id="horizontal-multi-page-wizard-step-2-input"
+            type="text"
+            value=""
+          />
+        </div>
+        <div
+          class="v-py-12"
+        >
+          <div
+            class="v-col-gap-24 v-flex v-flex-wrap v-justify-content-between v-row-gap-16"
+          >
+            <div
+              class="v-col-gap-24 v-flex v-flex-wrap v-justify-content-start v-row-gap-16"
+            >
+              <button
+                class="v-button v-button-secondary"
+              >
+                Save
+              </button>
+              <button
+                class="v-button v-button-tertiary"
+              >
+                Exit
+              </button>
+            </div>
+            <div
+              class="v-col-gap-24 v-flex v-flex-wrap v-justify-content-end v-row-gap-16"
+            >
+              <button
+                class="v-button v-button-secondary v-hide"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="v-icon v-icon-visa v-icon-tiny v-icon-arrow-back"
+                  focusable="false"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  width="16"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <rect
+                    height="1"
+                    transform="translate(7 7.00024)"
+                    width="1"
+                  />
+                  <path
+                    class="v-icon-primary"
+                    d="M3.91838 7.00159L9.21132 1.70865L7.7971 0.294434L0.0899963 8.00154L7.7971 15.7086L9.21132 14.2944L3.91847 9.00159H16.0042V7.00159H3.91838Z"
+                  />
+                  <defs>
+                    <clippath>
+                      <rect
+                        height="16"
+                        width="16"
+                      />
+                    </clippath>
+                  </defs>
+                </svg>
+                Back
+              </button>
+              <button
+                class="v-button"
+              >
+                Next
+                <svg
+                  aria-hidden="true"
+                  class="v-icon v-icon-visa v-icon-tiny v-icon-arrow-forward"
+                  focusable="false"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  width="16"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <rect
+                    height="1"
+                    transform="translate(7 7.00024)"
+                    width="1"
+                  />
+                  <path
+                    class="v-icon-primary"
+                    clip-rule="evenodd"
+                    d="M12.0858 6.99715L6.79289 1.70425L8.20711 0.290039L15.2071 7.29004L15.9142 7.99715L15.2071 8.70425L8.20711 15.7043L6.79289 14.29L12.0858 8.99715H0V6.99715H12.0858Z"
+                    fill-rule="evenodd"
+                  />
+                  <defs>
+                    <clippath>
+                      <rect
+                        height="16"
+                        width="16"
+                      />
+                    </clippath>
+                  </defs>
+                </svg>
+              </button>
+              <button
+                class="v-button v-hide"
+              >
+                Submit
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="v-flex v-flex-col v-gap-4 v-hide"
+      >
+        <label
+          class="v-label"
+          for="horizontal-multi-page-wizard-step-3-input"
+        >
+          Label (required)
+        </label>
+        <div
+          class="v-surface v-input-container"
+        >
+          <input
+            aria-describedby="horizontal-multi-page-wizard-step-3-input-message"
+            aria-invalid="false"
+            aria-required="true"
+            class="v-input"
+            id="horizontal-multi-page-wizard-step-3-input"
+            type="text"
+            value=""
+          />
+        </div>
+        <div
+          class="v-py-12"
+        >
+          <div
+            class="v-col-gap-24 v-flex v-flex-wrap v-justify-content-between v-row-gap-16"
+          >
+            <div
+              class="v-col-gap-24 v-flex v-flex-wrap v-justify-content-start v-row-gap-16"
+            >
+              <button
+                class="v-button v-button-secondary"
+              >
+                Save
+              </button>
+              <button
+                class="v-button v-button-tertiary"
+              >
+                Exit
+              </button>
+            </div>
+            <div
+              class="v-col-gap-24 v-flex v-flex-wrap v-justify-content-end v-row-gap-16"
+            >
+              <button
+                class="v-button v-button-secondary v-hide"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="v-icon v-icon-visa v-icon-tiny v-icon-arrow-back"
+                  focusable="false"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  width="16"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <rect
+                    height="1"
+                    transform="translate(7 7.00024)"
+                    width="1"
+                  />
+                  <path
+                    class="v-icon-primary"
+                    d="M3.91838 7.00159L9.21132 1.70865L7.7971 0.294434L0.0899963 8.00154L7.7971 15.7086L9.21132 14.2944L3.91847 9.00159H16.0042V7.00159H3.91838Z"
+                  />
+                  <defs>
+                    <clippath>
+                      <rect
+                        height="16"
+                        width="16"
+                      />
+                    </clippath>
+                  </defs>
+                </svg>
+                Back
+              </button>
+              <button
+                class="v-button"
+              >
+                Next
+                <svg
+                  aria-hidden="true"
+                  class="v-icon v-icon-visa v-icon-tiny v-icon-arrow-forward"
+                  focusable="false"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  width="16"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <rect
+                    height="1"
+                    transform="translate(7 7.00024)"
+                    width="1"
+                  />
+                  <path
+                    class="v-icon-primary"
+                    clip-rule="evenodd"
+                    d="M12.0858 6.99715L6.79289 1.70425L8.20711 0.290039L15.2071 7.29004L15.9142 7.99715L15.2071 8.70425L8.20711 15.7043L6.79289 14.29L12.0858 8.99715H0V6.99715H12.0858Z"
+                    fill-rule="evenodd"
+                  />
+                  <defs>
+                    <clippath>
+                      <rect
+                        height="16"
+                        width="16"
+                      />
+                    </clippath>
+                  </defs>
+                </svg>
+              </button>
+              <button
+                class="v-button v-hide"
+              >
+                Submit
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="v-flex v-flex-col v-gap-4 v-hide"
+      >
+        <label
+          class="v-label"
+          for="horizontal-multi-page-wizard-step-4-input"
+        >
+          Label (required)
+        </label>
+        <div
+          class="v-surface v-input-container"
+        >
+          <input
+            aria-describedby="horizontal-multi-page-wizard-step-4-input-message"
+            aria-invalid="false"
+            aria-required="true"
+            class="v-input"
+            id="horizontal-multi-page-wizard-step-4-input"
+            type="text"
+            value=""
+          />
+        </div>
+        <div
+          class="v-py-12"
+        >
+          <div
+            class="v-col-gap-24 v-flex v-flex-wrap v-justify-content-between v-row-gap-16"
+          >
+            <div
+              class="v-col-gap-24 v-flex v-flex-wrap v-justify-content-start v-row-gap-16"
+            >
+              <button
+                class="v-button v-button-secondary"
+              >
+                Save
+              </button>
+              <button
+                class="v-button v-button-tertiary"
+              >
+                Exit
+              </button>
+            </div>
+            <div
+              class="v-col-gap-24 v-flex v-flex-wrap v-justify-content-end v-row-gap-16"
+            >
+              <button
+                class="v-button v-button-secondary v-hide"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="v-icon v-icon-visa v-icon-tiny v-icon-arrow-back"
+                  focusable="false"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  width="16"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <rect
+                    height="1"
+                    transform="translate(7 7.00024)"
+                    width="1"
+                  />
+                  <path
+                    class="v-icon-primary"
+                    d="M3.91838 7.00159L9.21132 1.70865L7.7971 0.294434L0.0899963 8.00154L7.7971 15.7086L9.21132 14.2944L3.91847 9.00159H16.0042V7.00159H3.91838Z"
+                  />
+                  <defs>
+                    <clippath>
+                      <rect
+                        height="16"
+                        width="16"
+                      />
+                    </clippath>
+                  </defs>
+                </svg>
+                Back
+              </button>
+              <button
+                class="v-button"
+              >
+                Next
+                <svg
+                  aria-hidden="true"
+                  class="v-icon v-icon-visa v-icon-tiny v-icon-arrow-forward"
+                  focusable="false"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  width="16"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <rect
+                    height="1"
+                    transform="translate(7 7.00024)"
+                    width="1"
+                  />
+                  <path
+                    class="v-icon-primary"
+                    clip-rule="evenodd"
+                    d="M12.0858 6.99715L6.79289 1.70425L8.20711 0.290039L15.2071 7.29004L15.9142 7.99715L15.2071 8.70425L8.20711 15.7043L6.79289 14.29L12.0858 8.99715H0V6.99715H12.0858Z"
+                    fill-rule="evenodd"
+                  />
+                  <defs>
+                    <clippath>
+                      <rect
+                        height="16"
+                        width="16"
+                      />
+                    </clippath>
+                  </defs>
+                </svg>
+              </button>
+              <button
+                class="v-button v-hide"
+              >
+                Submit
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <dialog
+      aria-describedby="horizontal-multi-page-wizard-exit-warning-dialog-description"
+      aria-labelledby="horizontal-multi-page-wizard-exit-warning-dialog-title"
+      class="v-message v-message-warning v-dialog"
+      id="horizontal-multi-page-wizard-exit-warning-dialog"
+      style="max-width: 300px;"
+    >
+      <div
+        class="v-message-content v-pb-2 v-pr-2"
+      >
+        <h2
+          class="v-dialog-header v-align-items-center v-flex v-gap-6 v-justify-content-start"
+          id="horizontal-multi-page-wizard-exit-warning-dialog-title"
+        >
+          <svg
+            aria-hidden="false"
+            aria-label="Warning"
+            class="v-icon v-icon-visa v-icon-low v-icon-warning v-message-icon"
+            focusable="false"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="v-icon-secondary"
+              d="M24 23H0V20.64L11.41 0H13.72L24 20.66V23ZM2.08 21H21.93L12.53 2.1L2.08 21Z"
+            />
+            <path
+              class="v-icon-primary"
+              clip-rule="evenodd"
+              d="M11.5 8H13.5V15H11.5V8ZM11.5 17H13.5V19H11.5V17Z"
+              fill-rule="evenodd"
+            />
+          </svg>
+          Exit form?
+        </h2>
+        <p
+          id="horizontal-multi-page-wizard-exit-warning-dialog-description"
+        >
+          Your progress has been automatically saved. You can continue where you left off when you return.
+        </p>
+        <div
+          class="v-flex v-flex-wrap v-gap-8 v-pt-16"
+        >
+          <button
+            class="v-button"
+            style="width: 100%;"
+          >
+            Exit
+          </button>
+        </div>
+      </div>
+      <button
+        aria-label="Close"
+        class="v-button v-button-small v-button-tertiary v-button-icon v-button-subtle -v-mt-20 -v-ml-12 -v-mr-18"
+      >
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-tiny v-icon-close"
+          focusable="false"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-primary"
+            d="M8.00001 9.4149L13.9498 15.3646L15.364 13.9504L9.41423 8.00069L15.364 2.05094L13.9498 0.636723L8.00001 6.58647L2.05026 0.636719L0.636047 2.05093L6.5858 8.00069L0.636054 13.9504L2.05027 15.3646L8.00001 9.4149Z"
+          />
+          <defs>
+            <clippath>
+              <rect
+                height="16"
+                transform="translate(0 0.000488281)"
+                width="16"
+              />
+            </clippath>
+          </defs>
+        </svg>
+      </button>
+    </dialog>
+  </div>
+</div>
+`;
+
+exports[`Wizard examples Responsive horizontal wizard should render correctly 1`] = `
+<div>
+  <div
+    class="v-flex v-flex-col v-gap-48"
+  >
+    <div
+      class="v-flex v-flex-col v-gap-16"
+    >
+      <nav
+        aria-label="Responsive horizontal wizard-desktop"
+        class="v-mobile-container-hide"
+      >
+        <ol
+          class="v-wizard"
+        >
+          <li
+            aria-current="step"
+            class="v-wizard-step"
+          >
+            <span
+              class="v-screen-reader"
+            >
+              Step 1 of 5
+            </span>
+            <button
+              class="v-button v-button-tertiary v-typography-label-large-active v-typography-color-default"
+              id="responsive-horizontal-wizard-step-1-button"
+            >
+              <span
+                aria-current="step"
+                class="v-badge v-badge-active v-badge-icon v-badge-subtle"
+              >
+                1
+              </span>
+              <p>
+                Step 1 label
+              </p>
+              <svg
+                aria-hidden="true"
+                class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-right v-typography-color-subtle"
+                focusable="false"
+                height="16"
+                viewBox="0 0 16 16"
+                width="16"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  class="v-icon-primary"
+                  clip-rule="evenodd"
+                  d="M5.39309 1.00049L12 8.00049L5.39309 15.0005L4 13.5245L9.21383 8.00049L4 2.47646L5.39309 1.00049Z"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </button>
+          </li>
+          <li
+            class="v-wizard-step"
+          >
+            <span
+              class="v-screen-reader"
+            >
+              Step 2 of 5
+            </span>
+            <span
+              class="v-badge v-badge-icon v-badge-subtle v-badge-clear"
+            >
+              2
+            </span>
+            <p
+              class="v-typography-body-2"
+            >
+              Step 2 label
+            </p>
+            <svg
+              aria-hidden="true"
+              class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-right v-typography-color-subtle"
+              focusable="false"
+              height="16"
+              viewBox="0 0 16 16"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                class="v-icon-primary"
+                clip-rule="evenodd"
+                d="M5.39309 1.00049L12 8.00049L5.39309 15.0005L4 13.5245L9.21383 8.00049L4 2.47646L5.39309 1.00049Z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </li>
+          <li
+            class="v-wizard-step"
+          >
+            <span
+              class="v-screen-reader"
+            >
+              Step 3 of 5
+            </span>
+            <span
+              class="v-badge v-badge-icon v-badge-subtle v-badge-clear"
+            >
+              3
+            </span>
+            <p
+              class="v-typography-body-2"
+            >
+              Step 3 label
+            </p>
+            <svg
+              aria-hidden="true"
+              class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-right v-typography-color-subtle"
+              focusable="false"
+              height="16"
+              viewBox="0 0 16 16"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                class="v-icon-primary"
+                clip-rule="evenodd"
+                d="M5.39309 1.00049L12 8.00049L5.39309 15.0005L4 13.5245L9.21383 8.00049L4 2.47646L5.39309 1.00049Z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </li>
+          <li
+            class="v-wizard-step"
+          >
+            <span
+              class="v-screen-reader"
+            >
+              Step 4 of 5
+            </span>
+            <span
+              class="v-badge v-badge-icon v-badge-subtle v-badge-clear"
+            >
+              4
+            </span>
+            <p
+              class="v-typography-body-2"
+            >
+              Step 4 label
+            </p>
+            <svg
+              aria-hidden="true"
+              class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-right v-typography-color-subtle"
+              focusable="false"
+              height="16"
+              viewBox="0 0 16 16"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                class="v-icon-primary"
+                clip-rule="evenodd"
+                d="M5.39309 1.00049L12 8.00049L5.39309 15.0005L4 13.5245L9.21383 8.00049L4 2.47646L5.39309 1.00049Z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </li>
+          <li
+            class="v-wizard-step"
+          >
+            <span
+              class="v-screen-reader"
+            >
+              Step 5 of 5
+            </span>
+            <span
+              class="v-badge v-badge-icon v-badge-subtle v-badge-clear"
+            >
+              5
+            </span>
+            <p
+              class="v-typography-body-2"
+            >
+              Step 5 label
+            </p>
+          </li>
+        </ol>
+      </nav>
+      <nav
+        aria-label="Responsive horizontal wizard-mobile"
+        class="v-desktop-container-hide"
+      >
+        <ol
+          class="v-wizard v-wizard-compact v-justify-content-center"
+          style="--v-wizard-compact-gap: clamp(var(--size-scalable-12), 6vw, var(--size-scalable-72));"
+        >
+          <li
+            aria-current="step"
+            class="v-wizard-step"
+          >
+            <span
+              class="v-screen-reader"
+            >
+              Step 1 of 5
+            </span>
+            <span
+              aria-current="step"
+              class="v-badge v-badge-active v-badge-icon v-badge-subtle"
+            >
+              1
+            </span>
+          </li>
+          <li
+            class="v-wizard-step"
+          >
+            <span
+              class="v-screen-reader"
+            >
+              Step 2 of 5
+            </span>
+            <span
+              class="v-badge v-badge-icon v-badge-subtle v-badge-clear"
+            >
+              2
+            </span>
+          </li>
+          <li
+            class="v-wizard-step"
+          >
+            <span
+              class="v-screen-reader"
+            >
+              Step 3 of 5
+            </span>
+            <span
+              class="v-badge v-badge-icon v-badge-subtle v-badge-clear"
+            >
+              3
+            </span>
+          </li>
+          <li
+            class="v-wizard-step"
+          >
+            <span
+              class="v-screen-reader"
+            >
+              Step 4 of 5
+            </span>
+            <span
+              class="v-badge v-badge-icon v-badge-subtle v-badge-clear"
+            >
+              4
+            </span>
+          </li>
+          <li
+            class="v-wizard-step"
+          >
+            <span
+              class="v-screen-reader"
+            >
+              Step 5 of 5
+            </span>
+            <span
+              class="v-badge v-badge-icon v-badge-subtle v-badge-clear"
+            >
+              5
+            </span>
+          </li>
+        </ol>
+      </nav>
+      <div
+        class="v-flex v-flex-col v-gap-24"
+      >
+        <div
+          class="v-flex v-flex-col v-gap-4"
+        >
+          <label
+            class="v-label"
+            for="responsive-horizontal-wizard-step-1-input"
+          >
+            Label (required)
+          </label>
+          <div
+            class="v-surface v-input-container"
+          >
+            <input
+              aria-describedby="responsive-horizontal-wizard-step-1-input-message"
+              aria-invalid="false"
+              aria-required="true"
+              class="v-input"
+              id="responsive-horizontal-wizard-step-1-input"
+              type="text"
+              value=""
+            />
+          </div>
+        </div>
+        <div
+          class="v-xs-container-hide"
+        >
+          <div
+            class="v-flex v-flex-wrap v-gap-24 v-justify-content-between"
+          >
+            <div>
+              <button
+                class="v-button v-button-secondary"
+              >
+                Save
+              </button>
+            </div>
+            <div
+              class="v-flex v-flex-wrap v-gap-24 v-justify-content-end"
+            >
+              <button
+                class="v-button v-button-secondary v-hide"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="v-icon v-icon-visa v-icon-tiny v-icon-arrow-back"
+                  focusable="false"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  width="16"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <rect
+                    height="1"
+                    transform="translate(7 7.00024)"
+                    width="1"
+                  />
+                  <path
+                    class="v-icon-primary"
+                    d="M3.91838 7.00159L9.21132 1.70865L7.7971 0.294434L0.0899963 8.00154L7.7971 15.7086L9.21132 14.2944L3.91847 9.00159H16.0042V7.00159H3.91838Z"
+                  />
+                  <defs>
+                    <clippath>
+                      <rect
+                        height="16"
+                        width="16"
+                      />
+                    </clippath>
+                  </defs>
+                </svg>
+                Back
+              </button>
+              <button
+                class="v-button"
+              >
+                Next
+                <svg
+                  aria-hidden="true"
+                  class="v-icon v-icon-visa v-icon-tiny v-icon-arrow-forward"
+                  focusable="false"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  width="16"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <rect
+                    height="1"
+                    transform="translate(7 7.00024)"
+                    width="1"
+                  />
+                  <path
+                    class="v-icon-primary"
+                    clip-rule="evenodd"
+                    d="M12.0858 6.99715L6.79289 1.70425L8.20711 0.290039L15.2071 7.29004L15.9142 7.99715L15.2071 8.70425L8.20711 15.7043L6.79289 14.29L12.0858 8.99715H0V6.99715H12.0858Z"
+                    fill-rule="evenodd"
+                  />
+                  <defs>
+                    <clippath>
+                      <rect
+                        height="16"
+                        width="16"
+                      />
+                    </clippath>
+                  </defs>
+                </svg>
+              </button>
+              <button
+                class="v-button v-hide"
+              >
+                Submit
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="v-sm-container-hide v-flex v-flex-col v-gap-16 v-desktop-container-hide"
+        >
+          <button
+            class="v-button v-button-secondary"
+          >
+            Save
+          </button>
+          <button
+            class="v-button v-button-secondary"
+          >
+            <svg
+              aria-hidden="true"
+              class="v-icon v-icon-visa v-icon-tiny v-icon-arrow-back"
+              focusable="false"
+              height="16"
+              viewBox="0 0 16 16"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect
+                height="1"
+                transform="translate(7 7.00024)"
+                width="1"
+              />
+              <path
+                class="v-icon-primary"
+                d="M3.91838 7.00159L9.21132 1.70865L7.7971 0.294434L0.0899963 8.00154L7.7971 15.7086L9.21132 14.2944L3.91847 9.00159H16.0042V7.00159H3.91838Z"
+              />
+              <defs>
+                <clippath>
+                  <rect
+                    height="16"
+                    width="16"
+                  />
+                </clippath>
+              </defs>
+            </svg>
+            Back
+          </button>
+          <button
+            class="v-button"
+          >
+            Next
+            <svg
+              aria-hidden="true"
+              class="v-icon v-icon-visa v-icon-tiny v-icon-arrow-forward"
+              focusable="false"
+              height="16"
+              viewBox="0 0 16 16"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect
+                height="1"
+                transform="translate(7 7.00024)"
+                width="1"
+              />
+              <path
+                class="v-icon-primary"
+                clip-rule="evenodd"
+                d="M12.0858 6.99715L6.79289 1.70425L8.20711 0.290039L15.2071 7.29004L15.9142 7.99715L15.2071 8.70425L8.20711 15.7043L6.79289 14.29L12.0858 8.99715H0V6.99715H12.0858Z"
+                fill-rule="evenodd"
+              />
+              <defs>
+                <clippath>
+                  <rect
+                    height="16"
+                    width="16"
+                  />
+                </clippath>
+              </defs>
+            </svg>
+          </button>
+          <button
+            class="v-button v-hide"
+          >
+            Submit
+          </button>
+        </div>
+      </div>
+      <div
+        class="v-flex v-flex-col v-gap-24 v-hide"
+      >
+        <div
+          class="v-flex v-flex-col v-gap-4 v-hide"
+        >
+          <label
+            class="v-label"
+            for="responsive-horizontal-wizard-step-2-input"
+          >
+            Label (required)
+          </label>
+          <div
+            class="v-surface v-input-container"
+          >
+            <input
+              aria-describedby="responsive-horizontal-wizard-step-2-input-message"
+              aria-invalid="false"
+              aria-required="true"
+              class="v-input"
+              id="responsive-horizontal-wizard-step-2-input"
+              type="text"
+              value=""
+            />
+          </div>
+        </div>
+        <div
+          class="v-xs-container-hide"
+        >
+          <div
+            class="v-flex v-flex-wrap v-gap-24 v-justify-content-between"
+          >
+            <div>
+              <button
+                class="v-button v-button-secondary"
+              >
+                Save
+              </button>
+            </div>
+            <div
+              class="v-flex v-flex-wrap v-gap-24 v-justify-content-end"
+            >
+              <button
+                class="v-button v-button-secondary v-hide"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="v-icon v-icon-visa v-icon-tiny v-icon-arrow-back"
+                  focusable="false"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  width="16"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <rect
+                    height="1"
+                    transform="translate(7 7.00024)"
+                    width="1"
+                  />
+                  <path
+                    class="v-icon-primary"
+                    d="M3.91838 7.00159L9.21132 1.70865L7.7971 0.294434L0.0899963 8.00154L7.7971 15.7086L9.21132 14.2944L3.91847 9.00159H16.0042V7.00159H3.91838Z"
+                  />
+                  <defs>
+                    <clippath>
+                      <rect
+                        height="16"
+                        width="16"
+                      />
+                    </clippath>
+                  </defs>
+                </svg>
+                Back
+              </button>
+              <button
+                class="v-button"
+              >
+                Next
+                <svg
+                  aria-hidden="true"
+                  class="v-icon v-icon-visa v-icon-tiny v-icon-arrow-forward"
+                  focusable="false"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  width="16"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <rect
+                    height="1"
+                    transform="translate(7 7.00024)"
+                    width="1"
+                  />
+                  <path
+                    class="v-icon-primary"
+                    clip-rule="evenodd"
+                    d="M12.0858 6.99715L6.79289 1.70425L8.20711 0.290039L15.2071 7.29004L15.9142 7.99715L15.2071 8.70425L8.20711 15.7043L6.79289 14.29L12.0858 8.99715H0V6.99715H12.0858Z"
+                    fill-rule="evenodd"
+                  />
+                  <defs>
+                    <clippath>
+                      <rect
+                        height="16"
+                        width="16"
+                      />
+                    </clippath>
+                  </defs>
+                </svg>
+              </button>
+              <button
+                class="v-button v-hide"
+              >
+                Submit
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="v-sm-container-hide v-flex v-flex-col v-gap-16 v-desktop-container-hide"
+        >
+          <button
+            class="v-button v-button-secondary"
+          >
+            Save
+          </button>
+          <button
+            class="v-button v-button-secondary"
+          >
+            <svg
+              aria-hidden="true"
+              class="v-icon v-icon-visa v-icon-tiny v-icon-arrow-back"
+              focusable="false"
+              height="16"
+              viewBox="0 0 16 16"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect
+                height="1"
+                transform="translate(7 7.00024)"
+                width="1"
+              />
+              <path
+                class="v-icon-primary"
+                d="M3.91838 7.00159L9.21132 1.70865L7.7971 0.294434L0.0899963 8.00154L7.7971 15.7086L9.21132 14.2944L3.91847 9.00159H16.0042V7.00159H3.91838Z"
+              />
+              <defs>
+                <clippath>
+                  <rect
+                    height="16"
+                    width="16"
+                  />
+                </clippath>
+              </defs>
+            </svg>
+            Back
+          </button>
+          <button
+            class="v-button"
+          >
+            Next
+            <svg
+              aria-hidden="true"
+              class="v-icon v-icon-visa v-icon-tiny v-icon-arrow-forward"
+              focusable="false"
+              height="16"
+              viewBox="0 0 16 16"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect
+                height="1"
+                transform="translate(7 7.00024)"
+                width="1"
+              />
+              <path
+                class="v-icon-primary"
+                clip-rule="evenodd"
+                d="M12.0858 6.99715L6.79289 1.70425L8.20711 0.290039L15.2071 7.29004L15.9142 7.99715L15.2071 8.70425L8.20711 15.7043L6.79289 14.29L12.0858 8.99715H0V6.99715H12.0858Z"
+                fill-rule="evenodd"
+              />
+              <defs>
+                <clippath>
+                  <rect
+                    height="16"
+                    width="16"
+                  />
+                </clippath>
+              </defs>
+            </svg>
+          </button>
+          <button
+            class="v-button v-hide"
+          >
+            Submit
+          </button>
+        </div>
+      </div>
+      <div
+        class="v-flex v-flex-col v-gap-24 v-hide"
+      >
+        <div
+          class="v-flex v-flex-col v-gap-4 v-hide"
+        >
+          <label
+            class="v-label"
+            for="responsive-horizontal-wizard-step-3-input"
+          >
+            Label (required)
+          </label>
+          <div
+            class="v-surface v-input-container"
+          >
+            <input
+              aria-describedby="responsive-horizontal-wizard-step-3-input-message"
+              aria-invalid="false"
+              aria-required="true"
+              class="v-input"
+              id="responsive-horizontal-wizard-step-3-input"
+              type="text"
+              value=""
+            />
+          </div>
+        </div>
+        <div
+          class="v-xs-container-hide"
+        >
+          <div
+            class="v-flex v-flex-wrap v-gap-24 v-justify-content-between"
+          >
+            <div>
+              <button
+                class="v-button v-button-secondary"
+              >
+                Save
+              </button>
+            </div>
+            <div
+              class="v-flex v-flex-wrap v-gap-24 v-justify-content-end"
+            >
+              <button
+                class="v-button v-button-secondary v-hide"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="v-icon v-icon-visa v-icon-tiny v-icon-arrow-back"
+                  focusable="false"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  width="16"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <rect
+                    height="1"
+                    transform="translate(7 7.00024)"
+                    width="1"
+                  />
+                  <path
+                    class="v-icon-primary"
+                    d="M3.91838 7.00159L9.21132 1.70865L7.7971 0.294434L0.0899963 8.00154L7.7971 15.7086L9.21132 14.2944L3.91847 9.00159H16.0042V7.00159H3.91838Z"
+                  />
+                  <defs>
+                    <clippath>
+                      <rect
+                        height="16"
+                        width="16"
+                      />
+                    </clippath>
+                  </defs>
+                </svg>
+                Back
+              </button>
+              <button
+                class="v-button"
+              >
+                Next
+                <svg
+                  aria-hidden="true"
+                  class="v-icon v-icon-visa v-icon-tiny v-icon-arrow-forward"
+                  focusable="false"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  width="16"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <rect
+                    height="1"
+                    transform="translate(7 7.00024)"
+                    width="1"
+                  />
+                  <path
+                    class="v-icon-primary"
+                    clip-rule="evenodd"
+                    d="M12.0858 6.99715L6.79289 1.70425L8.20711 0.290039L15.2071 7.29004L15.9142 7.99715L15.2071 8.70425L8.20711 15.7043L6.79289 14.29L12.0858 8.99715H0V6.99715H12.0858Z"
+                    fill-rule="evenodd"
+                  />
+                  <defs>
+                    <clippath>
+                      <rect
+                        height="16"
+                        width="16"
+                      />
+                    </clippath>
+                  </defs>
+                </svg>
+              </button>
+              <button
+                class="v-button v-hide"
+              >
+                Submit
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="v-sm-container-hide v-flex v-flex-col v-gap-16 v-desktop-container-hide"
+        >
+          <button
+            class="v-button v-button-secondary"
+          >
+            Save
+          </button>
+          <button
+            class="v-button v-button-secondary"
+          >
+            <svg
+              aria-hidden="true"
+              class="v-icon v-icon-visa v-icon-tiny v-icon-arrow-back"
+              focusable="false"
+              height="16"
+              viewBox="0 0 16 16"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect
+                height="1"
+                transform="translate(7 7.00024)"
+                width="1"
+              />
+              <path
+                class="v-icon-primary"
+                d="M3.91838 7.00159L9.21132 1.70865L7.7971 0.294434L0.0899963 8.00154L7.7971 15.7086L9.21132 14.2944L3.91847 9.00159H16.0042V7.00159H3.91838Z"
+              />
+              <defs>
+                <clippath>
+                  <rect
+                    height="16"
+                    width="16"
+                  />
+                </clippath>
+              </defs>
+            </svg>
+            Back
+          </button>
+          <button
+            class="v-button"
+          >
+            Next
+            <svg
+              aria-hidden="true"
+              class="v-icon v-icon-visa v-icon-tiny v-icon-arrow-forward"
+              focusable="false"
+              height="16"
+              viewBox="0 0 16 16"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect
+                height="1"
+                transform="translate(7 7.00024)"
+                width="1"
+              />
+              <path
+                class="v-icon-primary"
+                clip-rule="evenodd"
+                d="M12.0858 6.99715L6.79289 1.70425L8.20711 0.290039L15.2071 7.29004L15.9142 7.99715L15.2071 8.70425L8.20711 15.7043L6.79289 14.29L12.0858 8.99715H0V6.99715H12.0858Z"
+                fill-rule="evenodd"
+              />
+              <defs>
+                <clippath>
+                  <rect
+                    height="16"
+                    width="16"
+                  />
+                </clippath>
+              </defs>
+            </svg>
+          </button>
+          <button
+            class="v-button v-hide"
+          >
+            Submit
+          </button>
+        </div>
+      </div>
+      <div
+        class="v-flex v-flex-col v-gap-24 v-hide"
+      >
+        <div
+          class="v-flex v-flex-col v-gap-4 v-hide"
+        >
+          <label
+            class="v-label"
+            for="responsive-horizontal-wizard-step-4-input"
+          >
+            Label (required)
+          </label>
+          <div
+            class="v-surface v-input-container"
+          >
+            <input
+              aria-describedby="responsive-horizontal-wizard-step-4-input-message"
+              aria-invalid="false"
+              aria-required="true"
+              class="v-input"
+              id="responsive-horizontal-wizard-step-4-input"
+              type="text"
+              value=""
+            />
+          </div>
+        </div>
+        <div
+          class="v-xs-container-hide"
+        >
+          <div
+            class="v-flex v-flex-wrap v-gap-24 v-justify-content-between"
+          >
+            <div>
+              <button
+                class="v-button v-button-secondary"
+              >
+                Save
+              </button>
+            </div>
+            <div
+              class="v-flex v-flex-wrap v-gap-24 v-justify-content-end"
+            >
+              <button
+                class="v-button v-button-secondary v-hide"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="v-icon v-icon-visa v-icon-tiny v-icon-arrow-back"
+                  focusable="false"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  width="16"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <rect
+                    height="1"
+                    transform="translate(7 7.00024)"
+                    width="1"
+                  />
+                  <path
+                    class="v-icon-primary"
+                    d="M3.91838 7.00159L9.21132 1.70865L7.7971 0.294434L0.0899963 8.00154L7.7971 15.7086L9.21132 14.2944L3.91847 9.00159H16.0042V7.00159H3.91838Z"
+                  />
+                  <defs>
+                    <clippath>
+                      <rect
+                        height="16"
+                        width="16"
+                      />
+                    </clippath>
+                  </defs>
+                </svg>
+                Back
+              </button>
+              <button
+                class="v-button"
+              >
+                Next
+                <svg
+                  aria-hidden="true"
+                  class="v-icon v-icon-visa v-icon-tiny v-icon-arrow-forward"
+                  focusable="false"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  width="16"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <rect
+                    height="1"
+                    transform="translate(7 7.00024)"
+                    width="1"
+                  />
+                  <path
+                    class="v-icon-primary"
+                    clip-rule="evenodd"
+                    d="M12.0858 6.99715L6.79289 1.70425L8.20711 0.290039L15.2071 7.29004L15.9142 7.99715L15.2071 8.70425L8.20711 15.7043L6.79289 14.29L12.0858 8.99715H0V6.99715H12.0858Z"
+                    fill-rule="evenodd"
+                  />
+                  <defs>
+                    <clippath>
+                      <rect
+                        height="16"
+                        width="16"
+                      />
+                    </clippath>
+                  </defs>
+                </svg>
+              </button>
+              <button
+                class="v-button v-hide"
+              >
+                Submit
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="v-sm-container-hide v-flex v-flex-col v-gap-16 v-desktop-container-hide"
+        >
+          <button
+            class="v-button v-button-secondary"
+          >
+            Save
+          </button>
+          <button
+            class="v-button v-button-secondary"
+          >
+            <svg
+              aria-hidden="true"
+              class="v-icon v-icon-visa v-icon-tiny v-icon-arrow-back"
+              focusable="false"
+              height="16"
+              viewBox="0 0 16 16"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect
+                height="1"
+                transform="translate(7 7.00024)"
+                width="1"
+              />
+              <path
+                class="v-icon-primary"
+                d="M3.91838 7.00159L9.21132 1.70865L7.7971 0.294434L0.0899963 8.00154L7.7971 15.7086L9.21132 14.2944L3.91847 9.00159H16.0042V7.00159H3.91838Z"
+              />
+              <defs>
+                <clippath>
+                  <rect
+                    height="16"
+                    width="16"
+                  />
+                </clippath>
+              </defs>
+            </svg>
+            Back
+          </button>
+          <button
+            class="v-button"
+          >
+            Next
+            <svg
+              aria-hidden="true"
+              class="v-icon v-icon-visa v-icon-tiny v-icon-arrow-forward"
+              focusable="false"
+              height="16"
+              viewBox="0 0 16 16"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect
+                height="1"
+                transform="translate(7 7.00024)"
+                width="1"
+              />
+              <path
+                class="v-icon-primary"
+                clip-rule="evenodd"
+                d="M12.0858 6.99715L6.79289 1.70425L8.20711 0.290039L15.2071 7.29004L15.9142 7.99715L15.2071 8.70425L8.20711 15.7043L6.79289 14.29L12.0858 8.99715H0V6.99715H12.0858Z"
+                fill-rule="evenodd"
+              />
+              <defs>
+                <clippath>
+                  <rect
+                    height="16"
+                    width="16"
+                  />
+                </clippath>
+              </defs>
+            </svg>
+          </button>
+          <button
+            class="v-button v-hide"
+          >
+            Submit
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Wizard examples Vertical multi-page wizard should render correctly 1`] = `
+<div>
+  <div
+    class="v-flex v-flex-wrap v-gap-12"
+  >
+    <nav
+      aria-label="Vertical multi-page wizard"
+    >
+      <ol
+        class="v-wizard v-wizard-vertical"
+      >
+        <li
+          aria-current="step"
+          class="v-wizard-step"
+        >
+          <span
+            class="v-screen-reader"
+          >
+            Step 1 of 5
+          </span>
+          <button
+            class="v-button v-button-tertiary v-typography-label-large-active v-typography-color-default"
+            id="vertical-multi-page-wizard-step-1-button"
+          >
+            <span
+              aria-current="step"
+              class="v-badge v-badge-active v-badge-icon v-badge-subtle"
+            >
+              1
+            </span>
+            <p>
+              Step 1 label
+            </p>
+          </button>
+        </li>
+        <li
+          class="v-wizard-step"
+        >
+          <span
+            class="v-screen-reader"
+          >
+            Step 2 of 5
+          </span>
+          <span
+            class="v-badge v-badge-icon v-badge-subtle v-badge-clear"
+          >
+            2
+          </span>
+          <p
+            class="v-typography-body-2"
+          >
+            Step 2 label
+          </p>
+        </li>
+        <li
+          class="v-wizard-step"
+        >
+          <span
+            class="v-screen-reader"
+          >
+            Step 3 of 5
+          </span>
+          <span
+            class="v-badge v-badge-icon v-badge-subtle v-badge-clear"
+          >
+            3
+          </span>
+          <p
+            class="v-typography-body-2"
+          >
+            Step 3 label
+          </p>
+        </li>
+        <li
+          class="v-wizard-step"
+        >
+          <span
+            class="v-screen-reader"
+          >
+            Step 4 of 5
+          </span>
+          <span
+            class="v-badge v-badge-icon v-badge-subtle v-badge-clear"
+          >
+            4
+          </span>
+          <p
+            class="v-typography-body-2"
+          >
+            Step 4 label
+          </p>
+        </li>
+        <li
+          class="v-wizard-step"
+        >
+          <span
+            class="v-screen-reader"
+          >
+            Step 5 of 5
+          </span>
+          <span
+            class="v-badge v-badge-icon v-badge-subtle v-badge-clear"
+          >
+            5
+          </span>
+          <p
+            class="v-typography-body-2"
+          >
+            Step 5 label
+          </p>
+        </li>
+      </ol>
+    </nav>
+    <div
+      class="v-flex v-flex-col v-flex-grow v-gap-12"
+    >
+      <div
+        class="v-flex v-flex-col v-flex-grow v-gap-12 v-justify-content-between"
+      >
+        <div
+          class="v-flex v-flex-col v-gap-4"
+        >
+          <label
+            class="v-label"
+            for="vertical-multi-page-wizard-step-1-input"
+          >
+            Label (required)
+          </label>
+          <div
+            class="v-surface v-input-container"
+          >
+            <input
+              aria-describedby="vertical-multi-page-wizard-step-1-input-message"
+              aria-invalid="false"
+              aria-required="true"
+              class="v-input"
+              id="vertical-multi-page-wizard-step-1-input"
+              type="text"
+              value=""
+            />
+          </div>
+        </div>
+        <div
+          class="v-flex v-flex-col v-gap-4 v-hide"
+        >
+          <label
+            class="v-label"
+            for="vertical-multi-page-wizard-step-2-input"
+          >
+            Label (required)
+          </label>
+          <div
+            class="v-surface v-input-container"
+          >
+            <input
+              aria-describedby="vertical-multi-page-wizard-step-2-input-message"
+              aria-invalid="false"
+              aria-required="true"
+              class="v-input"
+              id="vertical-multi-page-wizard-step-2-input"
+              type="text"
+              value=""
+            />
+          </div>
+        </div>
+        <div
+          class="v-flex v-flex-col v-gap-4 v-hide"
+        >
+          <label
+            class="v-label"
+            for="vertical-multi-page-wizard-step-3-input"
+          >
+            Label (required)
+          </label>
+          <div
+            class="v-surface v-input-container"
+          >
+            <input
+              aria-describedby="vertical-multi-page-wizard-step-3-input-message"
+              aria-invalid="false"
+              aria-required="true"
+              class="v-input"
+              id="vertical-multi-page-wizard-step-3-input"
+              type="text"
+              value=""
+            />
+          </div>
+        </div>
+        <div
+          class="v-flex v-flex-col v-gap-4 v-hide"
+        >
+          <label
+            class="v-label"
+            for="vertical-multi-page-wizard-step-4-input"
+          >
+            Label (required)
+          </label>
+          <div
+            class="v-surface v-input-container"
+          >
+            <input
+              aria-describedby="vertical-multi-page-wizard-step-4-input-message"
+              aria-invalid="false"
+              aria-required="true"
+              class="v-input"
+              id="vertical-multi-page-wizard-step-4-input"
+              type="text"
+              value=""
+            />
+          </div>
+        </div>
+        <div
+          class="v-py-12"
+        >
+          <div
+            class="v-col-gap-24 v-flex v-flex-wrap v-justify-content-between v-row-gap-16"
+          >
+            <div
+              class="v-col-gap-24 v-flex v-flex-wrap v-justify-content-start v-row-gap-16"
+            >
+              <button
+                class="v-button v-button-secondary"
+              >
+                Save
+              </button>
+              <button
+                class="v-button v-button-tertiary"
+              >
+                Exit
+              </button>
+            </div>
+            <div
+              class="v-col-gap-24 v-flex v-flex-grow v-flex-wrap v-justify-content-end v-row-gap-16"
+            >
+              <button
+                class="v-button v-button-secondary v-hide"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="v-icon v-icon-visa v-icon-tiny v-icon-arrow-back"
+                  focusable="false"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  width="16"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <rect
+                    height="1"
+                    transform="translate(7 7.00024)"
+                    width="1"
+                  />
+                  <path
+                    class="v-icon-primary"
+                    d="M3.91838 7.00159L9.21132 1.70865L7.7971 0.294434L0.0899963 8.00154L7.7971 15.7086L9.21132 14.2944L3.91847 9.00159H16.0042V7.00159H3.91838Z"
+                  />
+                  <defs>
+                    <clippath>
+                      <rect
+                        height="16"
+                        width="16"
+                      />
+                    </clippath>
+                  </defs>
+                </svg>
+                Back
+              </button>
+              <button
+                class="v-button"
+              >
+                Next
+                <svg
+                  aria-hidden="true"
+                  class="v-icon v-icon-visa v-icon-tiny v-icon-arrow-forward"
+                  focusable="false"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  width="16"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <rect
+                    height="1"
+                    transform="translate(7 7.00024)"
+                    width="1"
+                  />
+                  <path
+                    class="v-icon-primary"
+                    clip-rule="evenodd"
+                    d="M12.0858 6.99715L6.79289 1.70425L8.20711 0.290039L15.2071 7.29004L15.9142 7.99715L15.2071 8.70425L8.20711 15.7043L6.79289 14.29L12.0858 8.99715H0V6.99715H12.0858Z"
+                    fill-rule="evenodd"
+                  />
+                  <defs>
+                    <clippath>
+                      <rect
+                        height="16"
+                        width="16"
+                      />
+                    </clippath>
+                  </defs>
+                </svg>
+              </button>
+              <button
+                class="v-button v-hide"
+              >
+                Submit
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <dialog
+      aria-describedby="vertical-multi-page-wizard-exit-warning-dialog-description"
+      aria-labelledby="vertical-multi-page-wizard-exit-warning-dialog-title"
+      class="v-message v-message-warning v-dialog"
+      id="vertical-multi-page-wizard-exit-warning-dialog"
+      style="max-width: 300px;"
+    >
+      <div
+        class="v-message-content v-pb-2 v-pr-2"
+      >
+        <h2
+          class="v-dialog-header v-align-items-center v-flex v-gap-6 v-justify-content-start"
+          id="vertical-multi-page-wizard-exit-warning-dialog-title"
+        >
+          <svg
+            aria-hidden="false"
+            aria-label="Warning"
+            class="v-icon v-icon-visa v-icon-low v-icon-warning v-message-icon"
+            focusable="false"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="v-icon-secondary"
+              d="M24 23H0V20.64L11.41 0H13.72L24 20.66V23ZM2.08 21H21.93L12.53 2.1L2.08 21Z"
+            />
+            <path
+              class="v-icon-primary"
+              clip-rule="evenodd"
+              d="M11.5 8H13.5V15H11.5V8ZM11.5 17H13.5V19H11.5V17Z"
+              fill-rule="evenodd"
+            />
+          </svg>
+          Exit form?
+        </h2>
+        <p
+          id="vertical-multi-page-wizard-exit-warning-dialog-description"
+        >
+          Your progress has been automatically saved. You can continue where you left off when you return.
+        </p>
+        <div
+          class="v-flex v-flex-wrap v-gap-8 v-pt-16"
+        >
+          <button
+            class="v-button"
+            style="width: 100%;"
+          >
+            Exit
+          </button>
+        </div>
+      </div>
+      <button
+        aria-label="Close"
+        class="v-button v-button-small v-button-tertiary v-button-icon v-button-subtle -v-mt-20 -v-ml-12 -v-mr-18"
+      >
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-tiny v-icon-close"
+          focusable="false"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-primary"
+            d="M8.00001 9.4149L13.9498 15.3646L15.364 13.9504L9.41423 8.00069L15.364 2.05094L13.9498 0.636723L8.00001 6.58647L2.05026 0.636719L0.636047 2.05093L6.5858 8.00069L0.636054 13.9504L2.05027 15.3646L8.00001 9.4149Z"
+          />
+          <defs>
+            <clippath>
+              <rect
+                height="16"
+                transform="translate(0 0.000488281)"
+                width="16"
+              />
+            </clippath>
+          </defs>
+        </svg>
+      </button>
+    </dialog>
+  </div>
+</div>
+`;

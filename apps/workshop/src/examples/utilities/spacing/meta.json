@@ -1,0 +1,128 @@
+{
+  "gap-column-spacing": {
+    "file": "gap-column-spacing.tsx",
+    "id": "gap-column-spacing",
+    "title": "Column gap",
+    "testAvg": 100
+  },
+  "gap-inherit-spacing": {
+    "file": "gap-inherit-spacing.tsx",
+    "id": "gap-inherit-spacing",
+    "title": "Gap inherit",
+    "testAvg": 100
+  },
+  "gap-normal-spacing": {
+    "file": "gap-normal-spacing.tsx",
+    "id": "gap-normal-spacing",
+    "title": "Gap normal",
+    "testAvg": 100
+  },
+  "gap-row-spacing": {
+    "file": "gap-row-spacing.tsx",
+    "id": "gap-row-spacing",
+    "title": "Row gap",
+    "testAvg": 100
+  },
+  "gap-spacing": {
+    "file": "gap-spacing.tsx",
+    "title": "Default gap",
+    "id": "gap-spacing",
+    "testAvg": 100
+  },
+  "margin-bottom-spacing": {
+    "file": "margin-bottom-spacing.tsx",
+    "id": "margin-bottom-spacing",
+    "title": "Margin bottom",
+    "testAvg": 100
+  },
+  "margin-horizontal-spacing": {
+    "file": "margin-horizontal-spacing.tsx",
+    "title": "Margin horizontal",
+    "id": "margin-horizontal-spacing",
+    "testAvg": 100
+  },
+  "margin-inherit-spacing": {
+    "file": "margin-inherit-spacing.tsx",
+    "title": "Margin inherit",
+    "id": "margin-inherit-spacing",
+    "testAvg": 100
+  },
+  "margin-left-spacing": {
+    "file": "margin-left-spacing.tsx",
+    "id": "margin-left-spacing",
+    "title": "Margin left",
+    "testAvg": 100
+  },
+  "margin-right-spacing": {
+    "file": "margin-right-spacing.tsx",
+    "id": "margin-right-spacing",
+    "title": "Margin right",
+    "testAvg": 100
+  },
+  "default-margin": {
+    "file": "default-margin.tsx",
+    "title": "Default margin",
+    "id": "default-margin",
+    "testAvg": 100
+  },
+  "margin-top-spacing": {
+    "file": "margin-top-spacing.tsx",
+    "id": "margin-top-spacing",
+    "title": "Margin top",
+    "testAvg": 100
+  },
+  "margin-vertical-spacing": {
+    "file": "margin-vertical-spacing.tsx",
+    "title": "Margin vertical",
+    "id": "margin-vertical-spacing",
+    "testAvg": 100
+  },
+  "padding-bottom-spacing": {
+    "file": "padding-bottom-spacing.tsx",
+    "id": "padding-bottom-spacing",
+    "title": "Padding bottom",
+    "testAvg": 100
+  },
+  "padding-horizontal-spacing": {
+    "file": "padding-horizontal-spacing.tsx",
+    "title": "Padding horizontal",
+    "id": "padding-horizontal-spacing",
+    "testAvg": 100
+  },
+  "padding-inherit-spacing": {
+    "title": "Padding inherit",
+    "file": "padding-inherit-spacing.tsx",
+    "id": "padding-inherit-spacing",
+    "testAvg": 100
+  },
+  "padding-left-spacing": {
+    "file": "padding-left-spacing.tsx",
+    "id": "padding-left-spacing",
+    "title": "Padding left",
+    "testAvg": 100
+  },
+  "padding-right-spacing": {
+    "file": "padding-right-spacing.tsx",
+    "title": "Padding right",
+    "id": "padding-right-spacing",
+    "testAvg": 100
+  },
+  "default-padding": {
+    "file": "default-padding.tsx",
+    "id": "default-padding",
+    "title": "Padding",
+    "testAvg": 100
+  },
+  "padding-top-spacing": {
+    "file": "padding-top-spacing.tsx",
+    "id": "padding-top-spacing",
+    "title": "Padding top",
+    "testAvg": 100
+  },
+  "padding-vertical-spacing": {
+    "title": "Padding vertical",
+    "file": "padding-vertical-spacing.tsx",
+    "id": "padding-vertical-spacing",
+    "testAvg": 100
+  }
+}

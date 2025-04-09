@@ -1,0 +1,8 @@
+{
+  "use-focus-trap-example": {
+    "file": "use-focus-trap-example.tsx",
+    "id": "use-focus-trap-example",
+    "title": "Behavior and usage",
+    "testAvg": 100
+  }
+}

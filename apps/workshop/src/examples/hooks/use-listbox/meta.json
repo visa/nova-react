@@ -1,0 +1,8 @@
+{
+  "use-listbox-example": {
+    "file": "use-listbox-example.tsx",
+    "id": "use-listbox-example",
+    "title": "Behavior and usage",
+    "testAvg": 100
+  }
+}

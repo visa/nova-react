@@ -1,0 +1,3099 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Horizontal navigation examples Alternate horizontal navigation should render correctly 1`] = `
+<div>
+  <div>
+    <a
+      class="v-link v-alternate v-skip-link"
+      href="#content"
+    >
+      Skip to content
+    </a>
+    <header
+      class="v-nav v-alternate v-nav-horizontal v-justify-content-between"
+      id="alternate-horizontal-nav"
+    >
+      <button
+        aria-controls="alternate-horizontal-nav-mobile-menu"
+        aria-describedby="alternate-horizontal-nav-mobile-menu-notifications-badge"
+        aria-expanded="false"
+        aria-label="open menu"
+        class="v-button v-button-large v-button-tertiary v-button-icon v-dropdown v-desktop-container-hide"
+        id="alternate-horizontal-nav-mobile-menu-button"
+      >
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-low v-icon-menu"
+          focusable="false"
+          height="24"
+          viewBox="0 0 24 24"
+          width="24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M23 3H1V1H23V3ZM23 23H1V21H23V23ZM1 13H23V11H1V13Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+        <sup
+          aria-label="3 notifications"
+          class="v-badge v-badge-number v-typography-label-active"
+          id="alternate-horizontal-nav-mobile-menu-notifications-badge"
+        >
+          3
+        </sup>
+      </button>
+      <a
+        aria-label="Visa Application Name Home"
+        class="v-link v-link-no-underline v-flex v-gap-16"
+        href="./horizontal-navigation"
+        id="alternate-horizontal-nav-home-link"
+        style="background-color: transparent;"
+      >
+        <svg
+          aria-hidden="true"
+          class="v-logo"
+          height="23"
+          viewBox="0 0 71 23"
+          width="71"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M50.6986 15.3377C50.7123 11.8369 47.8134 10.3152 45.4937 9.09755C43.9358 8.27981 42.6393 7.59921 42.6617 6.54843C42.6781 5.75329 43.4371 4.90557 45.0931 4.692C47.0325 4.5045 48.9864 4.8451 50.7479 5.67771L51.7566 0.985714C50.0419 0.341244 48.2261 0.00745647 46.3943 0C40.7429 0 36.7376 3.013 36.7014 7.33043C36.6653 10.5143 39.5501 12.3017 41.7286 13.363C43.9629 14.4473 44.7153 15.1439 44.7054 16.1164C44.7054 17.6049 42.9213 18.2587 41.2751 18.285C38.4794 18.3296 36.8224 17.5564 35.5085 16.9434L35.3839 16.8853L34.3357 21.7416C35.6763 22.3593 38.1504 22.8949 40.7166 22.9211C46.7393 22.9211 50.6821 19.9443 50.7019 15.3377H50.6986ZM26.9429 0.404143L17.6541 22.5729H11.592L7.02157 4.88257C6.74229 3.79171 6.50243 3.39414 5.658 2.93414C4.27143 2.18829 2.00429 1.48514 0 1.04814L0.138 0.391H9.89329C11.2059 0.396383 12.3201 1.35458 12.5219 2.65157L14.9369 15.4823L20.9234 0.404143H26.9429ZM70.9714 22.5663H65.6683L64.975 19.2641H57.6183L56.4223 22.5729H50.4029L59.0016 2.03057C59.409 1.04254 60.3741 0.399575 61.4429 0.404143H66.3419L70.9714 22.5663ZM59.2677 14.72L62.2873 6.394L64.0254 14.72H59.2677ZM30.3994 22.5729L35.1571 0.404143H29.4071L24.6626 22.5729H30.3994Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+        <div
+          class="v-nav-app-name"
+        >
+          <p
+            class="v-typography-headline-3 v-xs-container-hide"
+          >
+            Application Name
+          </p>
+        </div>
+      </a>
+      <nav
+        aria-label="Label for alternate horizontal example"
+        class="v-mobile-container-hide v-flex v-flex-grow v-justify-content-end v-ml-auto"
+      >
+        <ul
+          class="v-tabs v-tabs-horizontal v-gap-4"
+        >
+          <li
+            class="v-tab"
+          >
+            <a
+              class="v-button v-button-large v-button-tertiary"
+              href="./horizontal-navigation"
+            >
+              L1 label 1
+            </a>
+          </li>
+          <li
+            class="v-tab"
+          >
+            <a
+              class="v-button v-button-large v-button-tertiary"
+              href="./horizontal-navigation"
+            >
+              L1 label 2
+            </a>
+          </li>
+          <li
+            class="v-tab"
+          >
+            <button
+              aria-expanded="false"
+              class="v-button v-button-large v-button-tertiary v-dropdown"
+              id="alternate-horizontal-nav-label-dropdown-button"
+            >
+              L1 label 3
+              <svg
+                aria-hidden="true"
+                class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-down v-tab-suffix"
+                focusable="false"
+                height="16"
+                viewBox="0 0 16 16"
+                width="16"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  class="v-icon-primary"
+                  clip-rule="evenodd"
+                  d="M2.47597 4.00049L1 5.39358L8 12.0005L15 5.39358L13.524 4.00049L8 9.21431L2.47597 4.00049Z"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </button>
+          </li>
+        </ul>
+      </nav>
+      <div
+        class="v-flex v-gap-8 v-ml-8"
+      >
+        <button
+          aria-label="search site"
+          class="v-button v-button-large v-button-tertiary v-button-icon"
+        >
+          <svg
+            aria-hidden="true"
+            class="v-icon v-icon-visa v-icon-low v-icon-search"
+            focusable="false"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="v-icon-secondary"
+              clip-rule="evenodd"
+              d="M9 7V5C11.2056 5 13 6.79443 13 9H11C11 7.89697 10.103 7 9 7ZM16.5181 15L24 22.4819L22.4819 24L15 16.5181C15.5551 16.0636 16.0636 15.5551 16.5181 15Z"
+              fill-rule="evenodd"
+            />
+            <path
+              class="v-icon-primary"
+              d="M9 1C4.58887 1 1 4.58887 1 9C1 13.4111 4.58887 17 9 17C13.4111 17 17 13.4111 17 9C17 4.58887 13.4111 1 9 1ZM9 15C5.69141 15 3 12.3086 3 9C3 5.69141 5.69141 3 9 3C12.3086 3 15 5.69141 15 9C15 12.3086 12.3086 15 9 15Z"
+            />
+          </svg>
+        </button>
+        <button
+          aria-describedby="alternate-horizontal-nav-notifications-badge"
+          aria-label="notifications"
+          class="v-button v-button-large v-button-tertiary v-button-icon v-mobile-container-hide"
+        >
+          <svg
+            aria-hidden="true"
+            class="v-icon v-icon-visa v-icon-low v-icon-notifications"
+            focusable="false"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="v-icon-secondary"
+              clip-rule="evenodd"
+              d="M12 0C8.13401 0 5 3.13401 5 7V14H7V7C7 4.23858 9.23858 2 12 2C14.7614 2 17 4.2386 17 7.00003V11C17 12.9259 17.8249 14.2261 18.9157 15.0115C19.5873 15.4951 20.3332 15.7664 21 15.8979V16H1V18H22C22.5523 18 23 17.5523 23 17V15C23 14.4477 22.5523 14 22 14C21.4934 14 20.7111 13.8398 20.0843 13.3885C19.5085 12.9739 19 12.2741 19 11V7.00003C19 3.13404 15.866 0 12 0ZM12 6C12.5523 6 13 6.44772 13 7V11H15V7C15 5.34315 13.6569 4 12 4V6Z"
+              fill-rule="evenodd"
+            />
+            <path
+              class="v-icon-primary"
+              clip-rule="evenodd"
+              d="M9 20V21C9 22.6569 10.3431 24 12 24C13.6569 24 15 22.6569 15 21V20H13V21C13 21.5523 12.5523 22 12 22C11.4477 22 11 21.5523 11 21V20H9Z"
+              fill-rule="evenodd"
+            />
+          </svg>
+          <sup
+            class="v-badge v-badge-number v-typography-label-active"
+            id="alternate-horizontal-nav-notifications-badge"
+          >
+            3
+          </sup>
+        </button>
+        <div
+          class="v-tab v-mobile-container-hide"
+        >
+          <button
+            aria-expanded="false"
+            aria-label="Alex Miller"
+            class="v-avatar v-button v-button-large v-button-tertiary v-dropdown"
+          >
+            <svg
+              aria-hidden="true"
+              class="v-icon v-icon-visa v-icon-low v-icon-account"
+              focusable="false"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                class="v-icon-secondary"
+                clip-rule="evenodd"
+                d="M12 14C7.58172 14 4 17.5817 4 22V24H2V22C2 16.4772 6.47715 12 12 12C17.5228 12 22 16.4772 22 22V24H20V22C20 17.5817 16.4183 14 12 14Z"
+                fill-rule="evenodd"
+              />
+              <path
+                class="v-icon-primary"
+                clip-rule="evenodd"
+                d="M12 8C13.6569 8 15 6.65685 15 5C15 3.34315 13.6569 2 12 2C10.3431 2 9 3.34315 9 5C9 6.65685 10.3431 8 12 8ZM12 10C14.7614 10 17 7.76142 17 5C17 2.23858 14.7614 0 12 0C9.23858 0 7 2.23858 7 5C7 7.76142 9.23858 10 12 10Z"
+                fill-rule="evenodd"
+              />
+            </svg>
+            <svg
+              aria-hidden="true"
+              class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-down v-tab-suffix"
+              focusable="false"
+              height="16"
+              viewBox="0 0 16 16"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                class="v-icon-primary"
+                clip-rule="evenodd"
+                d="M2.47597 4.00049L1 5.39358L8 12.0005L15 5.39358L13.524 4.00049L8 9.21431L2.47597 4.00049Z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </header>
+    <nav
+      aria-hidden="true"
+      aria-label="Label for alternate horizontal example"
+      class="v-nav v-alternate v-nav-vertical v-desktop-container-hide v-hide"
+      id="alternate-horizontal-nav-mobile-menu"
+    >
+      <ul
+        class="v-tabs v-tabs-vertical"
+      >
+        <li
+          class="v-tab"
+        >
+          <a
+            class="v-button v-button-large v-button-tertiary"
+            href="./horizontal-navigation"
+          >
+            L1 label 1
+          </a>
+        </li>
+        <li
+          class="v-tab"
+        >
+          <a
+            class="v-button v-button-large v-button-tertiary"
+            href="./horizontal-navigation"
+          >
+            L1 label 2
+          </a>
+        </li>
+        <li
+          class="v-tab"
+        >
+          <button
+            aria-controls="undefined"
+            aria-expanded="false"
+            class="v-button v-button-large v-button-tertiary"
+            id="alternate-horizontal-nav-mobile-menu-label-dropdown-button"
+          >
+            L1 Label 3
+            <svg
+              aria-hidden="true"
+              class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-down v-tab-suffix"
+              focusable="false"
+              height="16"
+              viewBox="0 0 16 16"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                class="v-icon-primary"
+                clip-rule="evenodd"
+                d="M2.47597 4.00049L1 5.39358L8 12.0005L15 5.39358L13.524 4.00049L8 9.21431L2.47597 4.00049Z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </button>
+        </li>
+        <li
+          class="v-tab"
+        >
+          <button
+            class="v-button v-button-large v-button-tertiary"
+            style="word-break: break-word; block-size: max-content;"
+          >
+            Notifications
+            <sup
+              class="v-badge v-badge-number v-typography-label-active"
+              style="position: relative;"
+            >
+              3
+            </sup>
+          </button>
+        </li>
+        <hr
+          aria-hidden="true"
+          class="v-divider v-divider-decorative"
+        />
+        <div
+          class="v-tab"
+        >
+          <button
+            aria-controls="alternate-horizontal-nav-account-sub-menu"
+            aria-expanded="false"
+            aria-label="Alex Miller"
+            class="v-button v-button-large v-button-tertiary"
+          >
+            <svg
+              aria-hidden="true"
+              class="v-icon v-icon-visa v-icon-low v-icon-account"
+              focusable="false"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                class="v-icon-secondary"
+                clip-rule="evenodd"
+                d="M12 14C7.58172 14 4 17.5817 4 22V24H2V22C2 16.4772 6.47715 12 12 12C17.5228 12 22 16.4772 22 22V24H20V22C20 17.5817 16.4183 14 12 14Z"
+                fill-rule="evenodd"
+              />
+              <path
+                class="v-icon-primary"
+                clip-rule="evenodd"
+                d="M12 8C13.6569 8 15 6.65685 15 5C15 3.34315 13.6569 2 12 2C10.3431 2 9 3.34315 9 5C9 6.65685 10.3431 8 12 8ZM12 10C14.7614 10 17 7.76142 17 5C17 2.23858 14.7614 0 12 0C9.23858 0 7 2.23858 7 5C7 7.76142 9.23858 10 12 10Z"
+                fill-rule="evenodd"
+              />
+            </svg>
+            Alex Miller
+            <svg
+              aria-hidden="true"
+              class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-down v-tab-suffix"
+              focusable="false"
+              height="16"
+              viewBox="0 0 16 16"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                class="v-icon-primary"
+                clip-rule="evenodd"
+                d="M2.47597 4.00049L1 5.39358L8 12.0005L15 5.39358L13.524 4.00049L8 9.21431L2.47597 4.00049Z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </button>
+        </div>
+      </ul>
+    </nav>
+  </div>
+</div>
+`;
+
+exports[`Horizontal navigation examples Alternate horizontal navigation with active element should render correctly 1`] = `
+<div>
+  <div>
+    <a
+      class="v-link v-alternate v-skip-link"
+      href="#content"
+    >
+      Skip to content
+    </a>
+    <header
+      class="v-nav v-alternate v-nav-horizontal v-justify-content-between"
+      id="alternate-active-element-horizontal-nav"
+    >
+      <button
+        aria-controls="alternate-active-element-horizontal-nav-mobile-menu"
+        aria-describedby="alternate-active-element-horizontal-nav-mobile-menu-notifications-badge"
+        aria-expanded="false"
+        aria-label="open menu"
+        class="v-button v-button-large v-button-tertiary v-button-icon v-dropdown v-desktop-container-hide"
+        id="alternate-active-element-horizontal-nav-mobile-menu-button"
+      >
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-low v-icon-menu"
+          focusable="false"
+          height="24"
+          viewBox="0 0 24 24"
+          width="24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M23 3H1V1H23V3ZM23 23H1V21H23V23ZM1 13H23V11H1V13Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+        <sup
+          aria-label="3 notifications"
+          class="v-badge v-badge-number v-typography-label-active"
+          id="alternate-active-element-horizontal-nav-mobile-menu-notifications-badge"
+        >
+          3
+        </sup>
+      </button>
+      <a
+        aria-label="Visa Application Name Home"
+        class="v-link v-link-no-underline v-flex v-gap-16"
+        href="./horizontal-navigation"
+        id="alternate-active-element-horizontal-nav-home-link"
+        style="background-color: transparent;"
+      >
+        <svg
+          aria-hidden="true"
+          class="v-logo"
+          height="23"
+          viewBox="0 0 71 23"
+          width="71"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M50.6986 15.3377C50.7123 11.8369 47.8134 10.3152 45.4937 9.09755C43.9358 8.27981 42.6393 7.59921 42.6617 6.54843C42.6781 5.75329 43.4371 4.90557 45.0931 4.692C47.0325 4.5045 48.9864 4.8451 50.7479 5.67771L51.7566 0.985714C50.0419 0.341244 48.2261 0.00745647 46.3943 0C40.7429 0 36.7376 3.013 36.7014 7.33043C36.6653 10.5143 39.5501 12.3017 41.7286 13.363C43.9629 14.4473 44.7153 15.1439 44.7054 16.1164C44.7054 17.6049 42.9213 18.2587 41.2751 18.285C38.4794 18.3296 36.8224 17.5564 35.5085 16.9434L35.3839 16.8853L34.3357 21.7416C35.6763 22.3593 38.1504 22.8949 40.7166 22.9211C46.7393 22.9211 50.6821 19.9443 50.7019 15.3377H50.6986ZM26.9429 0.404143L17.6541 22.5729H11.592L7.02157 4.88257C6.74229 3.79171 6.50243 3.39414 5.658 2.93414C4.27143 2.18829 2.00429 1.48514 0 1.04814L0.138 0.391H9.89329C11.2059 0.396383 12.3201 1.35458 12.5219 2.65157L14.9369 15.4823L20.9234 0.404143H26.9429ZM70.9714 22.5663H65.6683L64.975 19.2641H57.6183L56.4223 22.5729H50.4029L59.0016 2.03057C59.409 1.04254 60.3741 0.399575 61.4429 0.404143H66.3419L70.9714 22.5663ZM59.2677 14.72L62.2873 6.394L64.0254 14.72H59.2677ZM30.3994 22.5729L35.1571 0.404143H29.4071L24.6626 22.5729H30.3994Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+        <div
+          class="v-nav-app-name"
+        >
+          <p
+            class="v-typography-headline-3 v-xs-container-hide"
+          >
+            Application Name
+          </p>
+        </div>
+      </a>
+      <nav
+        aria-label="Label for alternate horizontal example with active element"
+        class="v-mobile-container-hide v-flex v-flex-grow v-justify-content-end v-ml-auto"
+      >
+        <ul
+          class="v-tabs v-tabs-horizontal v-gap-4"
+        >
+          <li
+            class="v-tab"
+          >
+            <a
+              aria-current="page"
+              class="v-button v-button-large v-button-tertiary"
+              href="./horizontal-navigation"
+            >
+              L1 label 1
+            </a>
+          </li>
+          <li
+            class="v-tab"
+          >
+            <a
+              class="v-button v-button-large v-button-tertiary"
+              href="./horizontal-navigation"
+            >
+              L1 label 2
+            </a>
+          </li>
+          <li
+            class="v-tab"
+          >
+            <button
+              aria-expanded="false"
+              class="v-button v-button-large v-button-tertiary v-dropdown"
+              id="alternate-active-element-horizontal-nav-label-dropdown-button"
+            >
+              L1 label 3
+              <svg
+                aria-hidden="true"
+                class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-down v-tab-suffix"
+                focusable="false"
+                height="16"
+                viewBox="0 0 16 16"
+                width="16"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  class="v-icon-primary"
+                  clip-rule="evenodd"
+                  d="M2.47597 4.00049L1 5.39358L8 12.0005L15 5.39358L13.524 4.00049L8 9.21431L2.47597 4.00049Z"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </button>
+          </li>
+        </ul>
+      </nav>
+      <div
+        class="v-flex v-gap-8 v-ml-8"
+      >
+        <button
+          aria-label="search site"
+          class="v-button v-button-large v-button-tertiary v-button-icon"
+        >
+          <svg
+            aria-hidden="true"
+            class="v-icon v-icon-visa v-icon-low v-icon-search"
+            focusable="false"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="v-icon-secondary"
+              clip-rule="evenodd"
+              d="M9 7V5C11.2056 5 13 6.79443 13 9H11C11 7.89697 10.103 7 9 7ZM16.5181 15L24 22.4819L22.4819 24L15 16.5181C15.5551 16.0636 16.0636 15.5551 16.5181 15Z"
+              fill-rule="evenodd"
+            />
+            <path
+              class="v-icon-primary"
+              d="M9 1C4.58887 1 1 4.58887 1 9C1 13.4111 4.58887 17 9 17C13.4111 17 17 13.4111 17 9C17 4.58887 13.4111 1 9 1ZM9 15C5.69141 15 3 12.3086 3 9C3 5.69141 5.69141 3 9 3C12.3086 3 15 5.69141 15 9C15 12.3086 12.3086 15 9 15Z"
+            />
+          </svg>
+        </button>
+        <button
+          aria-describedby="alternate-active-element-horizontal-nav-notifications-badge"
+          aria-label="notifications"
+          class="v-button v-button-large v-button-tertiary v-button-icon v-mobile-container-hide"
+        >
+          <svg
+            aria-hidden="true"
+            class="v-icon v-icon-visa v-icon-low v-icon-notifications"
+            focusable="false"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="v-icon-secondary"
+              clip-rule="evenodd"
+              d="M12 0C8.13401 0 5 3.13401 5 7V14H7V7C7 4.23858 9.23858 2 12 2C14.7614 2 17 4.2386 17 7.00003V11C17 12.9259 17.8249 14.2261 18.9157 15.0115C19.5873 15.4951 20.3332 15.7664 21 15.8979V16H1V18H22C22.5523 18 23 17.5523 23 17V15C23 14.4477 22.5523 14 22 14C21.4934 14 20.7111 13.8398 20.0843 13.3885C19.5085 12.9739 19 12.2741 19 11V7.00003C19 3.13404 15.866 0 12 0ZM12 6C12.5523 6 13 6.44772 13 7V11H15V7C15 5.34315 13.6569 4 12 4V6Z"
+              fill-rule="evenodd"
+            />
+            <path
+              class="v-icon-primary"
+              clip-rule="evenodd"
+              d="M9 20V21C9 22.6569 10.3431 24 12 24C13.6569 24 15 22.6569 15 21V20H13V21C13 21.5523 12.5523 22 12 22C11.4477 22 11 21.5523 11 21V20H9Z"
+              fill-rule="evenodd"
+            />
+          </svg>
+          <sup
+            class="v-badge v-badge-number v-typography-label-active"
+            id="alternate-active-element-horizontal-nav-notifications-badge"
+          >
+            3
+          </sup>
+        </button>
+        <div
+          class="v-tab v-mobile-container-hide"
+        >
+          <button
+            aria-expanded="false"
+            aria-label="Alex Miller"
+            class="v-avatar v-button v-button-large v-button-tertiary v-dropdown"
+          >
+            <svg
+              aria-hidden="true"
+              class="v-icon v-icon-visa v-icon-low v-icon-account"
+              focusable="false"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                class="v-icon-secondary"
+                clip-rule="evenodd"
+                d="M12 14C7.58172 14 4 17.5817 4 22V24H2V22C2 16.4772 6.47715 12 12 12C17.5228 12 22 16.4772 22 22V24H20V22C20 17.5817 16.4183 14 12 14Z"
+                fill-rule="evenodd"
+              />
+              <path
+                class="v-icon-primary"
+                clip-rule="evenodd"
+                d="M12 8C13.6569 8 15 6.65685 15 5C15 3.34315 13.6569 2 12 2C10.3431 2 9 3.34315 9 5C9 6.65685 10.3431 8 12 8ZM12 10C14.7614 10 17 7.76142 17 5C17 2.23858 14.7614 0 12 0C9.23858 0 7 2.23858 7 5C7 7.76142 9.23858 10 12 10Z"
+                fill-rule="evenodd"
+              />
+            </svg>
+            <svg
+              aria-hidden="true"
+              class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-down v-tab-suffix"
+              focusable="false"
+              height="16"
+              viewBox="0 0 16 16"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                class="v-icon-primary"
+                clip-rule="evenodd"
+                d="M2.47597 4.00049L1 5.39358L8 12.0005L15 5.39358L13.524 4.00049L8 9.21431L2.47597 4.00049Z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </header>
+    <nav
+      aria-hidden="true"
+      aria-label="Label for alternate horizontal example with active element"
+      class="v-nav v-alternate v-nav-vertical v-desktop-container-hide v-hide"
+      id="alternate-active-element-horizontal-nav-mobile-menu"
+    >
+      <ul
+        class="v-tabs v-tabs-vertical"
+      >
+        <li
+          class="v-tab"
+        >
+          <a
+            class="v-button v-button-large v-button-tertiary"
+            href="./horizontal-navigation"
+          >
+            L1 label 1
+          </a>
+        </li>
+        <li
+          class="v-tab"
+        >
+          <a
+            class="v-button v-button-large v-button-tertiary"
+            href="./horizontal-navigation"
+          >
+            L1 label 2
+          </a>
+        </li>
+        <li
+          class="v-tab"
+        >
+          <button
+            aria-controls="alternate-active-element-horizontal-nav-account-sub-menu"
+            aria-expanded="false"
+            class="v-button v-button-large v-button-tertiary"
+            id="alternate-active-element-horizontal-nav-mobile-menu-label-dropdown-button"
+          >
+            L1 Label 3
+            <svg
+              aria-hidden="true"
+              class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-down v-tab-suffix"
+              focusable="false"
+              height="16"
+              viewBox="0 0 16 16"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                class="v-icon-primary"
+                clip-rule="evenodd"
+                d="M2.47597 4.00049L1 5.39358L8 12.0005L15 5.39358L13.524 4.00049L8 9.21431L2.47597 4.00049Z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </button>
+        </li>
+        <li
+          class="v-tab"
+        >
+          <a
+            class="v-button v-button-large v-button-tertiary"
+            href="./horizontal-navigation"
+          >
+            L1 label 3
+          </a>
+        </li>
+        <li
+          class="v-tab"
+        >
+          <button
+            class="v-button v-button-large v-button-tertiary"
+            style="word-break: break-word; block-size: max-content;"
+          >
+            Notifications
+            <sup
+              class="v-badge v-badge-number v-typography-label-active"
+              style="position: relative;"
+            >
+              3
+            </sup>
+          </button>
+        </li>
+        <hr
+          aria-hidden="true"
+          class="v-divider v-divider-decorative"
+        />
+        <div
+          class="v-tab"
+        >
+          <button
+            aria-controls="alternate-active-element-horizontal-nav-account-sub-menu"
+            aria-expanded="false"
+            aria-label="Alex Miller"
+            class="v-button v-button-large v-button-tertiary"
+          >
+            <svg
+              aria-hidden="true"
+              class="v-icon v-icon-visa v-icon-low v-icon-account"
+              focusable="false"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                class="v-icon-secondary"
+                clip-rule="evenodd"
+                d="M12 14C7.58172 14 4 17.5817 4 22V24H2V22C2 16.4772 6.47715 12 12 12C17.5228 12 22 16.4772 22 22V24H20V22C20 17.5817 16.4183 14 12 14Z"
+                fill-rule="evenodd"
+              />
+              <path
+                class="v-icon-primary"
+                clip-rule="evenodd"
+                d="M12 8C13.6569 8 15 6.65685 15 5C15 3.34315 13.6569 2 12 2C10.3431 2 9 3.34315 9 5C9 6.65685 10.3431 8 12 8ZM12 10C14.7614 10 17 7.76142 17 5C17 2.23858 14.7614 0 12 0C9.23858 0 7 2.23858 7 5C7 7.76142 9.23858 10 12 10Z"
+                fill-rule="evenodd"
+              />
+            </svg>
+            Alex Miller
+            <svg
+              aria-hidden="true"
+              class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-down v-tab-suffix"
+              focusable="false"
+              height="16"
+              viewBox="0 0 16 16"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                class="v-icon-primary"
+                clip-rule="evenodd"
+                d="M2.47597 4.00049L1 5.39358L8 12.0005L15 5.39358L13.524 4.00049L8 9.21431L2.47597 4.00049Z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </button>
+        </div>
+      </ul>
+    </nav>
+  </div>
+</div>
+`;
+
+exports[`Horizontal navigation examples Alternate horizontal navigation with icons should render correctly 1`] = `
+<div>
+  <div>
+    <a
+      class="v-link v-alternate v-skip-link"
+      href="#content"
+    >
+      Skip to content
+    </a>
+    <header
+      class="v-nav v-alternate v-nav-horizontal v-justify-content-between"
+      id="alternate-horizontal-nav-with-icons"
+    >
+      <button
+        aria-controls="alternate-horizontal-nav-with-icons-mobile-menu"
+        aria-describedby="alternate-horizontal-nav-with-icons-mobile-menu-notifications-badge"
+        aria-expanded="false"
+        aria-label="open menu"
+        class="v-button v-button-large v-button-tertiary v-button-icon v-dropdown v-desktop-container-hide"
+        id="alternate-horizontal-nav-with-icons-mobile-menu-button"
+      >
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-low v-icon-menu"
+          focusable="false"
+          height="24"
+          viewBox="0 0 24 24"
+          width="24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M23 3H1V1H23V3ZM23 23H1V21H23V23ZM1 13H23V11H1V13Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+        <sup
+          aria-label="3 notifications"
+          class="v-badge v-badge-number v-typography-label-active"
+          id="alternate-horizontal-nav-with-icons-mobile-menu-notifications-badge"
+        >
+          3
+        </sup>
+      </button>
+      <a
+        aria-label="Visa Application Name Home"
+        class="v-link v-link-no-underline v-flex v-gap-16"
+        href="./horizontal-navigation"
+        id="alternate-horizontal-nav-with-icons-home-link"
+        style="background-color: transparent;"
+      >
+        <svg
+          aria-hidden="true"
+          class="v-logo"
+          height="23"
+          viewBox="0 0 71 23"
+          width="71"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M50.6986 15.3377C50.7123 11.8369 47.8134 10.3152 45.4937 9.09755C43.9358 8.27981 42.6393 7.59921 42.6617 6.54843C42.6781 5.75329 43.4371 4.90557 45.0931 4.692C47.0325 4.5045 48.9864 4.8451 50.7479 5.67771L51.7566 0.985714C50.0419 0.341244 48.2261 0.00745647 46.3943 0C40.7429 0 36.7376 3.013 36.7014 7.33043C36.6653 10.5143 39.5501 12.3017 41.7286 13.363C43.9629 14.4473 44.7153 15.1439 44.7054 16.1164C44.7054 17.6049 42.9213 18.2587 41.2751 18.285C38.4794 18.3296 36.8224 17.5564 35.5085 16.9434L35.3839 16.8853L34.3357 21.7416C35.6763 22.3593 38.1504 22.8949 40.7166 22.9211C46.7393 22.9211 50.6821 19.9443 50.7019 15.3377H50.6986ZM26.9429 0.404143L17.6541 22.5729H11.592L7.02157 4.88257C6.74229 3.79171 6.50243 3.39414 5.658 2.93414C4.27143 2.18829 2.00429 1.48514 0 1.04814L0.138 0.391H9.89329C11.2059 0.396383 12.3201 1.35458 12.5219 2.65157L14.9369 15.4823L20.9234 0.404143H26.9429ZM70.9714 22.5663H65.6683L64.975 19.2641H57.6183L56.4223 22.5729H50.4029L59.0016 2.03057C59.409 1.04254 60.3741 0.399575 61.4429 0.404143H66.3419L70.9714 22.5663ZM59.2677 14.72L62.2873 6.394L64.0254 14.72H59.2677ZM30.3994 22.5729L35.1571 0.404143H29.4071L24.6626 22.5729H30.3994Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+        <div
+          class="v-nav-app-name"
+        >
+          <p
+            class="v-typography-headline-3 v-xs-container-hide"
+          >
+            Application Name
+          </p>
+        </div>
+      </a>
+      <nav
+        aria-label="Label for alternate horizontal example with icons"
+        class="v-mobile-container-hide v-flex v-flex-grow v-justify-content-end v-ml-auto"
+      >
+        <ul
+          class="v-tabs v-tabs-horizontal v-gap-4"
+        >
+          <li
+            class="v-tab"
+          >
+            <a
+              class="v-button v-button-large v-button-tertiary"
+              href="./horizontal-navigation"
+            >
+              <svg
+                aria-hidden="true"
+                class="v-icon v-icon-visa v-icon-tiny v-icon-statistics"
+                focusable="false"
+                height="16"
+                viewBox="0 0 16 16"
+                width="16"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  class="v-icon-secondary"
+                  clip-rule="evenodd"
+                  d="M7 0H8C12.4183 0 16 3.58172 16 8V9H7V0ZM9 2.08296V7H13.917C13.4955 4.4875 11.5125 2.50448 9 2.08296Z"
+                  fill-rule="evenodd"
+                />
+                <path
+                  class="v-icon-primary"
+                  clip-rule="evenodd"
+                  d="M5 0.578125C4.65376 0.718269 4.3195 0.881945 3.99927 1.06719C1.61068 2.44891 0 5.03393 0 7.99632C0 12.4146 3.58172 15.9963 8 15.9963C10.9624 15.9963 13.5474 14.3856 14.9291 11.997C15.1144 11.6768 15.278 11.3426 15.4182 10.9963H13.1975C12.1585 12.7919 10.2193 13.9963 8 13.9963C4.68629 13.9963 2 11.31 2 7.99632C2 5.77703 3.20439 3.83786 5 2.79882V0.578125Z"
+                  fill-rule="evenodd"
+                />
+              </svg>
+              L1 label 1
+            </a>
+          </li>
+          <li
+            class="v-tab"
+          >
+            <a
+              class="v-button v-button-large v-button-tertiary"
+              href="./horizontal-navigation"
+            >
+              <svg
+                aria-hidden="true"
+                class="v-icon v-icon-visa v-icon-tiny v-icon-settings"
+                focusable="false"
+                height="16"
+                viewBox="0 0 16 16"
+                width="16"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  class="v-icon-secondary"
+                  d="M7 6.99609H9V8.99609H7V6.99609Z"
+                />
+                <path
+                  class="v-icon-primary"
+                  clip-rule="evenodd"
+                  d="M0 8C0 7.63803 0.02404 7.28167 0.0706105 6.93244L2.0783 6.44497C2.75428 6.28084 3.07507 5.50638 2.71314 4.91233L1.63846 3.14845C2.07228 2.58047 2.58045 2.07231 3.14842 1.63848L4.91231 2.71316C5.50636 3.0751 6.28082 2.7543 6.44495 2.07832L6.93242 0.0706128C7.28166 0.0240408 7.63802 0 8 0C8.36198 0 8.71834 0.0240405 9.06757 0.070612L9.55504 2.07832C9.71917 2.7543 10.4936 3.0751 11.0877 2.71316L12.8516 1.63848C13.4196 2.0723 13.9277 2.58047 14.3615 3.14844L13.2869 4.91233C12.9249 5.50638 13.2457 6.28084 13.9217 6.44497L15.9294 6.93244C15.976 7.28167 16 7.63803 16 8C16 8.36199 15.976 8.71836 15.9294 9.0676L13.9217 9.55507C13.2457 9.7192 12.9249 10.4937 13.2869 11.0877L14.3615 12.8516C13.9277 13.4196 13.4195 13.9277 12.8515 14.3615L11.0877 13.2869C10.4936 12.9249 9.71917 13.2457 9.55504 13.9217L9.06758 15.9294C8.71834 15.976 8.36198 16 8 16C7.63802 16 7.28165 15.976 6.93241 15.9294L6.44495 13.9217C6.28082 13.2457 5.50636 12.9249 4.9123 13.2869L3.14845 14.3615C2.58047 13.9277 2.0723 13.4195 1.63848 12.8516L2.71314 11.0877C3.07507 10.4937 2.75428 9.7192 2.07829 9.55507L0.0706159 9.0676C0.0240418 8.71836 0 8.36199 0 8ZM11 8.00004C11 9.65689 9.65685 11 7.99999 11C6.34314 11 4.99999 9.65689 4.99999 8.00004C4.99999 6.34318 6.34314 5.00004 7.99999 5.00004C9.65685 5.00004 11 6.34318 11 8.00004Z"
+                  fill-rule="evenodd"
+                />
+              </svg>
+              L1 label 2
+            </a>
+          </li>
+          <li
+            class="v-tab"
+          >
+            <button
+              aria-expanded="false"
+              class="v-button v-button-large v-button-tertiary v-dropdown"
+              id="alternate-horizontal-nav-with-icons-label-dropdown-button"
+            >
+              <svg
+                aria-hidden="true"
+                class="v-icon v-icon-visa v-icon-tiny v-icon-security"
+                focusable="false"
+                height="16"
+                viewBox="0 0 16 16"
+                width="16"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  class="v-icon-secondary"
+                  clip-rule="evenodd"
+                  d="M6.88793 5.81987C6.33951 6.09204 5.71415 6.2011 5.08826 6.11717C5.04154 6.1109 5 6.14724 5 6.19438V6.4515C5 6.54476 5.00202 6.63775 5.00602 6.73041C5.02639 7.20176 5.09818 7.66467 5.21748 8.11198C5.21974 8.12042 5.222 8.12886 5.22429 8.13729C5.63652 9.65795 6.59852 10.9963 7.9564 11.8704C7.98295 11.8875 8.01705 11.8875 8.0436 11.8704C9.40148 10.9963 10.3635 9.65795 10.7757 8.13729C10.778 8.12886 10.7803 8.12042 10.7825 8.11198C10.9018 7.66467 10.9736 7.20176 10.994 6.73041C10.998 6.63775 11 6.54476 11 6.4515V6.19438C11 6.14724 10.9585 6.1109 10.9117 6.11717C10.2858 6.2011 9.66049 6.09204 9.11207 5.81987C8.72745 5.62898 8.38067 5.35787 8.0981 5.01684L8 4.89844L7.9019 5.01684C7.61933 5.35787 7.27255 5.62898 6.88793 5.81987ZM7.22448 7.84629C7.39459 8.36078 7.65752 8.84022 8 9.26029C8.34248 8.84022 8.60541 8.36078 8.77552 7.84629C8.50796 7.75064 8.24851 7.63277 8 7.49381C7.7515 7.63277 7.49204 7.75064 7.22448 7.84629Z"
+                  fill-rule="evenodd"
+                />
+                <path
+                  class="v-icon-primary"
+                  clip-rule="evenodd"
+                  d="M6.24443 1.44922L7.22998 0.259766H8.77002L9.75557 1.44922C10.4155 2.2457 11.4392 2.64603 12.4644 2.50855L15 2.16853V6.67112C15 9.73164 13.4447 12.5824 10.8712 14.2389L8.54125 15.7386H7.45875L5.12879 14.2389C2.55531 12.5824 1 9.73164 1 6.67112V2.16853L3.53563 2.50855C4.56081 2.64603 5.58449 2.2457 6.24443 1.44922ZM8 2.46514L7.78447 2.72526C6.68458 4.05271 4.97844 4.71994 3.26981 4.49081L3 4.45463V6.67112C3 9.05152 4.20968 11.2688 6.21128 12.5572L8 13.7085L9.78872 12.5572C11.7903 11.2688 13 9.05152 13 6.67112V4.45463L12.7302 4.49081C11.0216 4.71994 9.31542 4.05271 8.21553 2.72526L8 2.46514Z"
+                  fill-rule="evenodd"
+                />
+                <defs>
+                  <clippath>
+                    <rect
+                      height="15.9989"
+                      width="16"
+                    />
+                  </clippath>
+                </defs>
+              </svg>
+              L1 label 3
+              <svg
+                aria-hidden="true"
+                class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-down v-tab-suffix"
+                focusable="false"
+                height="16"
+                viewBox="0 0 16 16"
+                width="16"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  class="v-icon-primary"
+                  clip-rule="evenodd"
+                  d="M2.47597 4.00049L1 5.39358L8 12.0005L15 5.39358L13.524 4.00049L8 9.21431L2.47597 4.00049Z"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </button>
+          </li>
+        </ul>
+      </nav>
+      <div
+        class="v-flex v-gap-8 v-ml-8"
+      >
+        <button
+          aria-label="search site"
+          class="v-button v-button-large v-button-tertiary v-button-icon"
+        >
+          <svg
+            aria-hidden="true"
+            class="v-icon v-icon-visa v-icon-low v-icon-search"
+            focusable="false"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="v-icon-secondary"
+              clip-rule="evenodd"
+              d="M9 7V5C11.2056 5 13 6.79443 13 9H11C11 7.89697 10.103 7 9 7ZM16.5181 15L24 22.4819L22.4819 24L15 16.5181C15.5551 16.0636 16.0636 15.5551 16.5181 15Z"
+              fill-rule="evenodd"
+            />
+            <path
+              class="v-icon-primary"
+              d="M9 1C4.58887 1 1 4.58887 1 9C1 13.4111 4.58887 17 9 17C13.4111 17 17 13.4111 17 9C17 4.58887 13.4111 1 9 1ZM9 15C5.69141 15 3 12.3086 3 9C3 5.69141 5.69141 3 9 3C12.3086 3 15 5.69141 15 9C15 12.3086 12.3086 15 9 15Z"
+            />
+          </svg>
+        </button>
+        <button
+          aria-describedby="alternate-horizontal-nav-with-icons-notifications-badge"
+          aria-label="notifications"
+          class="v-button v-button-large v-button-tertiary v-button-icon v-mobile-container-hide"
+        >
+          <svg
+            aria-hidden="true"
+            class="v-icon v-icon-visa v-icon-low v-icon-notifications"
+            focusable="false"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="v-icon-secondary"
+              clip-rule="evenodd"
+              d="M12 0C8.13401 0 5 3.13401 5 7V14H7V7C7 4.23858 9.23858 2 12 2C14.7614 2 17 4.2386 17 7.00003V11C17 12.9259 17.8249 14.2261 18.9157 15.0115C19.5873 15.4951 20.3332 15.7664 21 15.8979V16H1V18H22C22.5523 18 23 17.5523 23 17V15C23 14.4477 22.5523 14 22 14C21.4934 14 20.7111 13.8398 20.0843 13.3885C19.5085 12.9739 19 12.2741 19 11V7.00003C19 3.13404 15.866 0 12 0ZM12 6C12.5523 6 13 6.44772 13 7V11H15V7C15 5.34315 13.6569 4 12 4V6Z"
+              fill-rule="evenodd"
+            />
+            <path
+              class="v-icon-primary"
+              clip-rule="evenodd"
+              d="M9 20V21C9 22.6569 10.3431 24 12 24C13.6569 24 15 22.6569 15 21V20H13V21C13 21.5523 12.5523 22 12 22C11.4477 22 11 21.5523 11 21V20H9Z"
+              fill-rule="evenodd"
+            />
+          </svg>
+          <sup
+            class="v-badge v-badge-number v-typography-label-active"
+            id="alternate-horizontal-nav-with-icons-notifications-badge"
+          >
+            3
+          </sup>
+        </button>
+        <div
+          class="v-tab v-mobile-container-hide"
+        >
+          <button
+            aria-expanded="false"
+            aria-label="Alex Miller"
+            class="v-avatar v-button v-button-large v-button-tertiary v-dropdown"
+          >
+            <svg
+              aria-hidden="true"
+              class="v-icon v-icon-visa v-icon-low v-icon-account"
+              focusable="false"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                class="v-icon-secondary"
+                clip-rule="evenodd"
+                d="M12 14C7.58172 14 4 17.5817 4 22V24H2V22C2 16.4772 6.47715 12 12 12C17.5228 12 22 16.4772 22 22V24H20V22C20 17.5817 16.4183 14 12 14Z"
+                fill-rule="evenodd"
+              />
+              <path
+                class="v-icon-primary"
+                clip-rule="evenodd"
+                d="M12 8C13.6569 8 15 6.65685 15 5C15 3.34315 13.6569 2 12 2C10.3431 2 9 3.34315 9 5C9 6.65685 10.3431 8 12 8ZM12 10C14.7614 10 17 7.76142 17 5C17 2.23858 14.7614 0 12 0C9.23858 0 7 2.23858 7 5C7 7.76142 9.23858 10 12 10Z"
+                fill-rule="evenodd"
+              />
+            </svg>
+            <svg
+              aria-hidden="true"
+              class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-down v-tab-suffix"
+              focusable="false"
+              height="16"
+              viewBox="0 0 16 16"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                class="v-icon-primary"
+                clip-rule="evenodd"
+                d="M2.47597 4.00049L1 5.39358L8 12.0005L15 5.39358L13.524 4.00049L8 9.21431L2.47597 4.00049Z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </header>
+    <nav
+      aria-hidden="true"
+      aria-label="Label for alternate horizontal example with icons"
+      class="v-nav v-alternate v-nav-vertical v-desktop-container-hide v-hide"
+      id="alternate-horizontal-nav-with-icons-mobile-menu"
+    >
+      <ul
+        class="v-tabs v-tabs-vertical"
+      >
+        <li
+          class="v-tab"
+        >
+          <a
+            class="v-button v-button-large v-button-tertiary"
+            href="./horizontal-navigation"
+          >
+            L1 label 1
+          </a>
+        </li>
+        <li
+          class="v-tab"
+        >
+          <a
+            class="v-button v-button-large v-button-tertiary"
+            href="./horizontal-navigation"
+          >
+            L1 label 2
+          </a>
+        </li>
+        <li
+          class="v-tab"
+        >
+          <button
+            aria-controls="undefined"
+            aria-expanded="false"
+            class="v-button v-button-large v-button-tertiary"
+            id="alternate-horizontal-nav-with-icons-mobile-menu-label-dropdown-button"
+          >
+            L1 Label 3
+            <svg
+              aria-hidden="true"
+              class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-down v-tab-suffix"
+              focusable="false"
+              height="16"
+              viewBox="0 0 16 16"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                class="v-icon-primary"
+                clip-rule="evenodd"
+                d="M2.47597 4.00049L1 5.39358L8 12.0005L15 5.39358L13.524 4.00049L8 9.21431L2.47597 4.00049Z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </button>
+        </li>
+        <li
+          class="v-tab"
+        >
+          <button
+            class="v-button v-button-large v-button-tertiary"
+            style="word-break: break-word; block-size: max-content;"
+          >
+            Notifications
+            <sup
+              class="v-badge v-badge-number v-typography-label-active"
+              style="position: relative;"
+            >
+              3
+            </sup>
+          </button>
+        </li>
+        <hr
+          aria-hidden="true"
+          class="v-divider v-divider-decorative"
+        />
+        <div
+          class="v-tab"
+        >
+          <button
+            aria-controls="alternate-horizontal-nav-with-icons-account-sub-menu"
+            aria-expanded="false"
+            aria-label="Alex Miller"
+            class="v-button v-button-large v-button-tertiary"
+          >
+            <svg
+              aria-hidden="true"
+              class="v-icon v-icon-visa v-icon-low v-icon-account"
+              focusable="false"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                class="v-icon-secondary"
+                clip-rule="evenodd"
+                d="M12 14C7.58172 14 4 17.5817 4 22V24H2V22C2 16.4772 6.47715 12 12 12C17.5228 12 22 16.4772 22 22V24H20V22C20 17.5817 16.4183 14 12 14Z"
+                fill-rule="evenodd"
+              />
+              <path
+                class="v-icon-primary"
+                clip-rule="evenodd"
+                d="M12 8C13.6569 8 15 6.65685 15 5C15 3.34315 13.6569 2 12 2C10.3431 2 9 3.34315 9 5C9 6.65685 10.3431 8 12 8ZM12 10C14.7614 10 17 7.76142 17 5C17 2.23858 14.7614 0 12 0C9.23858 0 7 2.23858 7 5C7 7.76142 9.23858 10 12 10Z"
+                fill-rule="evenodd"
+              />
+            </svg>
+            Alex Miller
+            <svg
+              aria-hidden="true"
+              class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-down v-tab-suffix"
+              focusable="false"
+              height="16"
+              viewBox="0 0 16 16"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                class="v-icon-primary"
+                clip-rule="evenodd"
+                d="M2.47597 4.00049L1 5.39358L8 12.0005L15 5.39358L13.524 4.00049L8 9.21431L2.47597 4.00049Z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </button>
+        </div>
+      </ul>
+    </nav>
+  </div>
+</div>
+`;
+
+exports[`Horizontal navigation examples Default horizontal navigation should render correctly 1`] = `
+<div>
+  <div>
+    <a
+      class="v-link v-skip-link"
+      href="#content"
+    >
+      Skip to content
+    </a>
+    <header
+      class="v-nav v-nav-horizontal v-justify-content-between"
+      id="default-horizontal-nav"
+    >
+      <button
+        aria-controls="default-horizontal-nav-mobile-menu"
+        aria-describedby="default-horizontal-nav-mobile-menu-notifications-badge"
+        aria-expanded="false"
+        aria-label="open menu"
+        class="v-button v-button-large v-button-tertiary v-button-icon v-dropdown v-desktop-container-hide"
+        id="default-horizontal-nav-mobile-menu-button"
+      >
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-low v-icon-menu"
+          focusable="false"
+          height="24"
+          viewBox="0 0 24 24"
+          width="24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M23 3H1V1H23V3ZM23 23H1V21H23V23ZM1 13H23V11H1V13Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+        <sup
+          aria-label="3 notifications"
+          class="v-badge v-badge-number v-typography-label-active"
+          id="default-horizontal-nav-mobile-menu-notifications-badge"
+        >
+          3
+        </sup>
+      </button>
+      <a
+        aria-label="Visa Application Name Home"
+        class="v-link v-link-no-underline v-flex v-gap-16"
+        href="./horizontal-navigation"
+        id="default-horizontal-nav-home-link"
+        style="background-color: transparent;"
+      >
+        <svg
+          aria-hidden="true"
+          class="v-logo"
+          height="23"
+          viewBox="0 0 71 23"
+          width="71"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M50.6986 15.3377C50.7123 11.8369 47.8134 10.3152 45.4937 9.09755C43.9358 8.27981 42.6393 7.59921 42.6617 6.54843C42.6781 5.75329 43.4371 4.90557 45.0931 4.692C47.0325 4.5045 48.9864 4.8451 50.7479 5.67771L51.7566 0.985714C50.0419 0.341244 48.2261 0.00745647 46.3943 0C40.7429 0 36.7376 3.013 36.7014 7.33043C36.6653 10.5143 39.5501 12.3017 41.7286 13.363C43.9629 14.4473 44.7153 15.1439 44.7054 16.1164C44.7054 17.6049 42.9213 18.2587 41.2751 18.285C38.4794 18.3296 36.8224 17.5564 35.5085 16.9434L35.3839 16.8853L34.3357 21.7416C35.6763 22.3593 38.1504 22.8949 40.7166 22.9211C46.7393 22.9211 50.6821 19.9443 50.7019 15.3377H50.6986ZM26.9429 0.404143L17.6541 22.5729H11.592L7.02157 4.88257C6.74229 3.79171 6.50243 3.39414 5.658 2.93414C4.27143 2.18829 2.00429 1.48514 0 1.04814L0.138 0.391H9.89329C11.2059 0.396383 12.3201 1.35458 12.5219 2.65157L14.9369 15.4823L20.9234 0.404143H26.9429ZM70.9714 22.5663H65.6683L64.975 19.2641H57.6183L56.4223 22.5729H50.4029L59.0016 2.03057C59.409 1.04254 60.3741 0.399575 61.4429 0.404143H66.3419L70.9714 22.5663ZM59.2677 14.72L62.2873 6.394L64.0254 14.72H59.2677ZM30.3994 22.5729L35.1571 0.404143H29.4071L24.6626 22.5729H30.3994Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+        <div
+          class="v-nav-app-name"
+        >
+          <p
+            class="v-typography-headline-3 v-xs-container-hide"
+          >
+            Application Name
+          </p>
+        </div>
+      </a>
+      <nav
+        aria-label="Label for horizontal default example"
+        class="v-mobile-container-hide v-flex v-flex-grow v-justify-content-end v-ml-auto"
+      >
+        <ul
+          class="v-tabs v-tabs-horizontal v-gap-4"
+        >
+          <li
+            class="v-tab"
+          >
+            <a
+              class="v-button v-button-large v-button-tertiary"
+              href="./horizontal-navigation"
+            >
+              L1 label 1
+            </a>
+          </li>
+          <li
+            class="v-tab"
+          >
+            <a
+              class="v-button v-button-large v-button-tertiary"
+              href="./horizontal-navigation"
+            >
+              L1 label 2
+            </a>
+          </li>
+          <li
+            class="v-tab"
+          >
+            <button
+              aria-expanded="false"
+              class="v-button v-button-large v-button-tertiary v-dropdown"
+              id="default-horizontal-nav-label-dropdown-button"
+            >
+              L1 label 3
+              <svg
+                aria-hidden="true"
+                class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-down v-tab-suffix"
+                focusable="false"
+                height="16"
+                viewBox="0 0 16 16"
+                width="16"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  class="v-icon-primary"
+                  clip-rule="evenodd"
+                  d="M2.47597 4.00049L1 5.39358L8 12.0005L15 5.39358L13.524 4.00049L8 9.21431L2.47597 4.00049Z"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </button>
+          </li>
+        </ul>
+      </nav>
+      <div
+        class="v-flex v-gap-8 v-ml-8"
+      >
+        <button
+          aria-label="search site"
+          class="v-button v-button-large v-button-tertiary v-button-icon"
+        >
+          <svg
+            aria-hidden="true"
+            class="v-icon v-icon-visa v-icon-low v-icon-search"
+            focusable="false"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="v-icon-secondary"
+              clip-rule="evenodd"
+              d="M9 7V5C11.2056 5 13 6.79443 13 9H11C11 7.89697 10.103 7 9 7ZM16.5181 15L24 22.4819L22.4819 24L15 16.5181C15.5551 16.0636 16.0636 15.5551 16.5181 15Z"
+              fill-rule="evenodd"
+            />
+            <path
+              class="v-icon-primary"
+              d="M9 1C4.58887 1 1 4.58887 1 9C1 13.4111 4.58887 17 9 17C13.4111 17 17 13.4111 17 9C17 4.58887 13.4111 1 9 1ZM9 15C5.69141 15 3 12.3086 3 9C3 5.69141 5.69141 3 9 3C12.3086 3 15 5.69141 15 9C15 12.3086 12.3086 15 9 15Z"
+            />
+          </svg>
+        </button>
+        <button
+          aria-describedby="default-horizontal-nav-notifications-badge"
+          aria-label="notifications"
+          class="v-button v-button-large v-button-tertiary v-button-icon v-mobile-container-hide"
+        >
+          <svg
+            aria-hidden="true"
+            class="v-icon v-icon-visa v-icon-low v-icon-notifications"
+            focusable="false"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="v-icon-secondary"
+              clip-rule="evenodd"
+              d="M12 0C8.13401 0 5 3.13401 5 7V14H7V7C7 4.23858 9.23858 2 12 2C14.7614 2 17 4.2386 17 7.00003V11C17 12.9259 17.8249 14.2261 18.9157 15.0115C19.5873 15.4951 20.3332 15.7664 21 15.8979V16H1V18H22C22.5523 18 23 17.5523 23 17V15C23 14.4477 22.5523 14 22 14C21.4934 14 20.7111 13.8398 20.0843 13.3885C19.5085 12.9739 19 12.2741 19 11V7.00003C19 3.13404 15.866 0 12 0ZM12 6C12.5523 6 13 6.44772 13 7V11H15V7C15 5.34315 13.6569 4 12 4V6Z"
+              fill-rule="evenodd"
+            />
+            <path
+              class="v-icon-primary"
+              clip-rule="evenodd"
+              d="M9 20V21C9 22.6569 10.3431 24 12 24C13.6569 24 15 22.6569 15 21V20H13V21C13 21.5523 12.5523 22 12 22C11.4477 22 11 21.5523 11 21V20H9Z"
+              fill-rule="evenodd"
+            />
+          </svg>
+          <sup
+            class="v-badge v-badge-number v-typography-label-active"
+            id="default-horizontal-nav-notifications-badge"
+          >
+            3
+          </sup>
+        </button>
+        <div
+          class="v-tab v-mobile-container-hide"
+        >
+          <button
+            aria-expanded="false"
+            aria-label="Alex Miller"
+            class="v-avatar v-button v-button-large v-button-tertiary v-dropdown"
+          >
+            <svg
+              aria-hidden="true"
+              class="v-icon v-icon-visa v-icon-low v-icon-account"
+              focusable="false"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                class="v-icon-secondary"
+                clip-rule="evenodd"
+                d="M12 14C7.58172 14 4 17.5817 4 22V24H2V22C2 16.4772 6.47715 12 12 12C17.5228 12 22 16.4772 22 22V24H20V22C20 17.5817 16.4183 14 12 14Z"
+                fill-rule="evenodd"
+              />
+              <path
+                class="v-icon-primary"
+                clip-rule="evenodd"
+                d="M12 8C13.6569 8 15 6.65685 15 5C15 3.34315 13.6569 2 12 2C10.3431 2 9 3.34315 9 5C9 6.65685 10.3431 8 12 8ZM12 10C14.7614 10 17 7.76142 17 5C17 2.23858 14.7614 0 12 0C9.23858 0 7 2.23858 7 5C7 7.76142 9.23858 10 12 10Z"
+                fill-rule="evenodd"
+              />
+            </svg>
+            <svg
+              aria-hidden="true"
+              class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-down v-tab-suffix"
+              focusable="false"
+              height="16"
+              viewBox="0 0 16 16"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                class="v-icon-primary"
+                clip-rule="evenodd"
+                d="M2.47597 4.00049L1 5.39358L8 12.0005L15 5.39358L13.524 4.00049L8 9.21431L2.47597 4.00049Z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </header>
+    <nav
+      aria-hidden="true"
+      aria-label="Label for horizontal default example"
+      class="v-nav v-nav-vertical v-desktop-container-hide v-hide"
+      id="default-horizontal-nav-mobile-menu"
+    >
+      <ul
+        class="v-tabs v-tabs-vertical"
+      >
+        <li
+          class="v-tab"
+        >
+          <a
+            class="v-button v-button-large v-button-tertiary"
+            href="./horizontal-navigation"
+          >
+            L1 label 1
+          </a>
+        </li>
+        <li
+          class="v-tab"
+        >
+          <a
+            class="v-button v-button-large v-button-tertiary"
+            href="./horizontal-navigation"
+          >
+            L1 label 2
+          </a>
+        </li>
+        <li
+          class="v-tab"
+        >
+          <button
+            aria-controls="undefined"
+            aria-expanded="false"
+            class="v-button v-button-large v-button-tertiary"
+            id="default-horizontal-nav-mobile-menu-label-dropdown-button"
+          >
+            L1 Label 3
+            <svg
+              aria-hidden="true"
+              class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-down v-tab-suffix"
+              focusable="false"
+              height="16"
+              viewBox="0 0 16 16"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                class="v-icon-primary"
+                clip-rule="evenodd"
+                d="M2.47597 4.00049L1 5.39358L8 12.0005L15 5.39358L13.524 4.00049L8 9.21431L2.47597 4.00049Z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </button>
+        </li>
+        <li
+          class="v-tab"
+        >
+          <button
+            class="v-button v-button-large v-button-tertiary"
+            style="word-break: break-word; block-size: max-content;"
+          >
+            Notifications
+            <sup
+              class="v-badge v-badge-number v-typography-label-active"
+              style="position: relative;"
+            >
+              3
+            </sup>
+          </button>
+        </li>
+        <hr
+          aria-hidden="true"
+          class="v-divider v-divider-decorative"
+        />
+        <div
+          class="v-tab"
+        >
+          <button
+            aria-controls="default-horizontal-nav-account-sub-menu"
+            aria-expanded="false"
+            aria-label="Alex Miller"
+            class="v-button v-button-large v-button-tertiary"
+          >
+            <svg
+              aria-hidden="true"
+              class="v-icon v-icon-visa v-icon-low v-icon-account"
+              focusable="false"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                class="v-icon-secondary"
+                clip-rule="evenodd"
+                d="M12 14C7.58172 14 4 17.5817 4 22V24H2V22C2 16.4772 6.47715 12 12 12C17.5228 12 22 16.4772 22 22V24H20V22C20 17.5817 16.4183 14 12 14Z"
+                fill-rule="evenodd"
+              />
+              <path
+                class="v-icon-primary"
+                clip-rule="evenodd"
+                d="M12 8C13.6569 8 15 6.65685 15 5C15 3.34315 13.6569 2 12 2C10.3431 2 9 3.34315 9 5C9 6.65685 10.3431 8 12 8ZM12 10C14.7614 10 17 7.76142 17 5C17 2.23858 14.7614 0 12 0C9.23858 0 7 2.23858 7 5C7 7.76142 9.23858 10 12 10Z"
+                fill-rule="evenodd"
+              />
+            </svg>
+            Alex Miller
+            <svg
+              aria-hidden="true"
+              class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-down v-tab-suffix"
+              focusable="false"
+              height="16"
+              viewBox="0 0 16 16"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                class="v-icon-primary"
+                clip-rule="evenodd"
+                d="M2.47597 4.00049L1 5.39358L8 12.0005L15 5.39358L13.524 4.00049L8 9.21431L2.47597 4.00049Z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </button>
+        </div>
+      </ul>
+    </nav>
+  </div>
+</div>
+`;
+
+exports[`Horizontal navigation examples Default horizontal navigation with persistent search should render correctly 1`] = `
+<div>
+  <div>
+    <a
+      class="v-link v-skip-link"
+      href="#content"
+    >
+      Skip to content
+    </a>
+    <header
+      class="v-nav v-nav-horizontal v-justify-content-between"
+      id="search-persistent-horizontal-nav"
+    >
+      <button
+        aria-controls="search-persistent-horizontal-nav-mobile-menu"
+        aria-describedby="search-persistent-horizontal-nav-mobile-menu-notifications-badge"
+        aria-expanded="false"
+        aria-label="open menu"
+        class="v-button v-button-large v-button-tertiary v-button-icon v-dropdown v-desktop-container-hide"
+        id="search-persistent-horizontal-nav-mobile-menu-button"
+      >
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-low v-icon-menu"
+          focusable="false"
+          height="24"
+          viewBox="0 0 24 24"
+          width="24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M23 3H1V1H23V3ZM23 23H1V21H23V23ZM1 13H23V11H1V13Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+        <sup
+          aria-label="3 notifications"
+          class="v-badge v-badge-number v-typography-label-active"
+          id="search-persistent-horizontal-nav-mobile-menu-notifications-badge"
+        >
+          3
+        </sup>
+      </button>
+      <a
+        aria-label="Visa Application Name Home"
+        class="v-link v-link-no-underline v-flex v-gap-16"
+        href="./horizontal-navigation"
+        id="search-persistent-horizontal-nav-home-link"
+        style="background-color: transparent;"
+      >
+        <svg
+          aria-hidden="true"
+          class="v-logo"
+          height="23"
+          viewBox="0 0 71 23"
+          width="71"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M50.6986 15.3377C50.7123 11.8369 47.8134 10.3152 45.4937 9.09755C43.9358 8.27981 42.6393 7.59921 42.6617 6.54843C42.6781 5.75329 43.4371 4.90557 45.0931 4.692C47.0325 4.5045 48.9864 4.8451 50.7479 5.67771L51.7566 0.985714C50.0419 0.341244 48.2261 0.00745647 46.3943 0C40.7429 0 36.7376 3.013 36.7014 7.33043C36.6653 10.5143 39.5501 12.3017 41.7286 13.363C43.9629 14.4473 44.7153 15.1439 44.7054 16.1164C44.7054 17.6049 42.9213 18.2587 41.2751 18.285C38.4794 18.3296 36.8224 17.5564 35.5085 16.9434L35.3839 16.8853L34.3357 21.7416C35.6763 22.3593 38.1504 22.8949 40.7166 22.9211C46.7393 22.9211 50.6821 19.9443 50.7019 15.3377H50.6986ZM26.9429 0.404143L17.6541 22.5729H11.592L7.02157 4.88257C6.74229 3.79171 6.50243 3.39414 5.658 2.93414C4.27143 2.18829 2.00429 1.48514 0 1.04814L0.138 0.391H9.89329C11.2059 0.396383 12.3201 1.35458 12.5219 2.65157L14.9369 15.4823L20.9234 0.404143H26.9429ZM70.9714 22.5663H65.6683L64.975 19.2641H57.6183L56.4223 22.5729H50.4029L59.0016 2.03057C59.409 1.04254 60.3741 0.399575 61.4429 0.404143H66.3419L70.9714 22.5663ZM59.2677 14.72L62.2873 6.394L64.0254 14.72H59.2677ZM30.3994 22.5729L35.1571 0.404143H29.4071L24.6626 22.5729H30.3994Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+        <div
+          class="v-nav-app-name"
+        >
+          <p
+            class="v-typography-headline-3 v-xs-container-hide"
+          >
+            Application Name
+          </p>
+        </div>
+      </a>
+      <nav
+        aria-label="Label for horizontal example with persistent search"
+        class="v-mobile-container-hide v-flex v-flex-grow v-justify-content-end v-ml-auto"
+      >
+        <ul
+          class="v-tabs v-tabs-horizontal v-gap-4"
+        >
+          <li
+            class="v-tab"
+          >
+            <a
+              class="v-button v-button-large v-button-tertiary"
+              href="./horizontal-navigation"
+            >
+              L1 label 1
+            </a>
+          </li>
+          <li
+            class="v-tab"
+          >
+            <a
+              class="v-button v-button-large v-button-tertiary"
+              href="./horizontal-navigation"
+            >
+              L1 label 2
+            </a>
+          </li>
+          <li
+            class="v-tab"
+          >
+            <button
+              aria-expanded="false"
+              class="v-button v-button-large v-button-tertiary v-dropdown"
+              id="search-persistent-horizontal-nav-label-dropdown-button"
+            >
+              L1 label 3
+              <svg
+                aria-hidden="true"
+                class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-down v-tab-suffix"
+                focusable="false"
+                height="16"
+                viewBox="0 0 16 16"
+                width="16"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  class="v-icon-primary"
+                  clip-rule="evenodd"
+                  d="M2.47597 4.00049L1 5.39358L8 12.0005L15 5.39358L13.524 4.00049L8 9.21431L2.47597 4.00049Z"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </button>
+          </li>
+        </ul>
+      </nav>
+      <div
+        class="v-flex v-gap-8 v-ml-8"
+      >
+        <div
+          class="v-surface v-input-container v-mobile-container-hide v-flex-row"
+        >
+          <svg
+            aria-hidden="true"
+            class="v-icon v-icon-visa v-icon-low v-icon-search"
+            focusable="false"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="v-icon-secondary"
+              clip-rule="evenodd"
+              d="M9 7V5C11.2056 5 13 6.79443 13 9H11C11 7.89697 10.103 7 9 7ZM16.5181 15L24 22.4819L22.4819 24L15 16.5181C15.5551 16.0636 16.0636 15.5551 16.5181 15Z"
+              fill-rule="evenodd"
+            />
+            <path
+              class="v-icon-primary"
+              d="M9 1C4.58887 1 1 4.58887 1 9C1 13.4111 4.58887 17 9 17C13.4111 17 17 13.4111 17 9C17 4.58887 13.4111 1 9 1ZM9 15C5.69141 15 3 12.3086 3 9C3 5.69141 5.69141 3 9 3C12.3086 3 15 5.69141 15 9C15 12.3086 12.3086 15 9 15Z"
+            />
+          </svg>
+          <input
+            aria-label="Search"
+            class="v-input"
+            id="search-persistent-horizontal-nav-search-field"
+            name="search-persistent-horizontal-nav-search-field"
+            placeholder="Search"
+            required=""
+            type="search"
+          />
+        </div>
+        <button
+          aria-label="search site"
+          class="v-button v-button-large v-button-tertiary v-button-icon v-desktop-container-hide v-flex-row"
+        >
+          <svg
+            aria-hidden="true"
+            class="v-icon v-icon-visa v-icon-low v-icon-search"
+            focusable="false"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="v-icon-secondary"
+              clip-rule="evenodd"
+              d="M9 7V5C11.2056 5 13 6.79443 13 9H11C11 7.89697 10.103 7 9 7ZM16.5181 15L24 22.4819L22.4819 24L15 16.5181C15.5551 16.0636 16.0636 15.5551 16.5181 15Z"
+              fill-rule="evenodd"
+            />
+            <path
+              class="v-icon-primary"
+              d="M9 1C4.58887 1 1 4.58887 1 9C1 13.4111 4.58887 17 9 17C13.4111 17 17 13.4111 17 9C17 4.58887 13.4111 1 9 1ZM9 15C5.69141 15 3 12.3086 3 9C3 5.69141 5.69141 3 9 3C12.3086 3 15 5.69141 15 9C15 12.3086 12.3086 15 9 15Z"
+            />
+          </svg>
+        </button>
+        <button
+          aria-describedby="search-persistent-horizontal-nav-notifications-badge"
+          aria-label="notifications"
+          class="v-button v-button-large v-button-tertiary v-button-icon v-mobile-container-hide"
+        >
+          <svg
+            aria-hidden="true"
+            class="v-icon v-icon-visa v-icon-low v-icon-notifications"
+            focusable="false"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="v-icon-secondary"
+              clip-rule="evenodd"
+              d="M12 0C8.13401 0 5 3.13401 5 7V14H7V7C7 4.23858 9.23858 2 12 2C14.7614 2 17 4.2386 17 7.00003V11C17 12.9259 17.8249 14.2261 18.9157 15.0115C19.5873 15.4951 20.3332 15.7664 21 15.8979V16H1V18H22C22.5523 18 23 17.5523 23 17V15C23 14.4477 22.5523 14 22 14C21.4934 14 20.7111 13.8398 20.0843 13.3885C19.5085 12.9739 19 12.2741 19 11V7.00003C19 3.13404 15.866 0 12 0ZM12 6C12.5523 6 13 6.44772 13 7V11H15V7C15 5.34315 13.6569 4 12 4V6Z"
+              fill-rule="evenodd"
+            />
+            <path
+              class="v-icon-primary"
+              clip-rule="evenodd"
+              d="M9 20V21C9 22.6569 10.3431 24 12 24C13.6569 24 15 22.6569 15 21V20H13V21C13 21.5523 12.5523 22 12 22C11.4477 22 11 21.5523 11 21V20H9Z"
+              fill-rule="evenodd"
+            />
+          </svg>
+          <sup
+            class="v-badge v-badge-number v-typography-label-active"
+            id="search-persistent-horizontal-nav-notifications-badge"
+          >
+            3
+          </sup>
+        </button>
+        <div
+          class="v-tab v-mobile-container-hide v-pb-0"
+        >
+          <button
+            aria-expanded="false"
+            aria-label="Alex Miller"
+            class="v-avatar v-button v-button-large v-button-tertiary v-dropdown"
+          >
+            <svg
+              aria-hidden="true"
+              class="v-icon v-icon-visa v-icon-low v-icon-account"
+              focusable="false"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                class="v-icon-secondary"
+                clip-rule="evenodd"
+                d="M12 14C7.58172 14 4 17.5817 4 22V24H2V22C2 16.4772 6.47715 12 12 12C17.5228 12 22 16.4772 22 22V24H20V22C20 17.5817 16.4183 14 12 14Z"
+                fill-rule="evenodd"
+              />
+              <path
+                class="v-icon-primary"
+                clip-rule="evenodd"
+                d="M12 8C13.6569 8 15 6.65685 15 5C15 3.34315 13.6569 2 12 2C10.3431 2 9 3.34315 9 5C9 6.65685 10.3431 8 12 8ZM12 10C14.7614 10 17 7.76142 17 5C17 2.23858 14.7614 0 12 0C9.23858 0 7 2.23858 7 5C7 7.76142 9.23858 10 12 10Z"
+                fill-rule="evenodd"
+              />
+            </svg>
+            <svg
+              aria-hidden="true"
+              class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-down v-tab-suffix"
+              focusable="false"
+              height="16"
+              viewBox="0 0 16 16"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                class="v-icon-primary"
+                clip-rule="evenodd"
+                d="M2.47597 4.00049L1 5.39358L8 12.0005L15 5.39358L13.524 4.00049L8 9.21431L2.47597 4.00049Z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </header>
+    <nav
+      aria-hidden="true"
+      aria-label="Label for horizontal example with persistent search"
+      class="v-nav v-nav-vertical v-desktop-container-hide v-hide"
+      id="search-persistent-horizontal-nav-mobile-menu"
+    >
+      <ul
+        class="v-tabs v-tabs-vertical"
+      >
+        <li
+          class="v-tab"
+        >
+          <a
+            class="v-button v-button-large v-button-tertiary"
+            href="./horizontal-navigation"
+          >
+            L1 label 1
+          </a>
+        </li>
+        <li
+          class="v-tab"
+        >
+          <a
+            class="v-button v-button-large v-button-tertiary"
+            href="./horizontal-navigation"
+          >
+            L1 label 2
+          </a>
+        </li>
+        <li
+          class="v-tab"
+        >
+          <button
+            aria-controls="undefined"
+            aria-expanded="false"
+            class="v-button v-button-large v-button-tertiary"
+            id="search-persistent-horizontal-nav-mobile-menu-label-dropdown-button"
+          >
+            L1 Label 3
+            <svg
+              aria-hidden="true"
+              class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-down v-tab-suffix"
+              focusable="false"
+              height="16"
+              viewBox="0 0 16 16"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                class="v-icon-primary"
+                clip-rule="evenodd"
+                d="M2.47597 4.00049L1 5.39358L8 12.0005L15 5.39358L13.524 4.00049L8 9.21431L2.47597 4.00049Z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </button>
+        </li>
+        <li
+          class="v-tab"
+        >
+          <button
+            class="v-button v-button-large v-button-tertiary"
+            style="word-break: break-word; block-size: max-content;"
+          >
+            Notifications
+            <sup
+              class="v-badge v-badge-number v-typography-label-active"
+              style="position: relative;"
+            >
+              3
+            </sup>
+          </button>
+        </li>
+        <hr
+          aria-hidden="true"
+          class="v-divider v-divider-decorative"
+        />
+        <div
+          class="v-tab"
+        >
+          <button
+            aria-controls="search-persistent-horizontal-nav-account-sub-menu"
+            aria-expanded="false"
+            aria-label="Alex Miller"
+            class="v-button v-button-large v-button-tertiary"
+          >
+            <svg
+              aria-hidden="true"
+              class="v-icon v-icon-visa v-icon-low v-icon-account"
+              focusable="false"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                class="v-icon-secondary"
+                clip-rule="evenodd"
+                d="M12 14C7.58172 14 4 17.5817 4 22V24H2V22C2 16.4772 6.47715 12 12 12C17.5228 12 22 16.4772 22 22V24H20V22C20 17.5817 16.4183 14 12 14Z"
+                fill-rule="evenodd"
+              />
+              <path
+                class="v-icon-primary"
+                clip-rule="evenodd"
+                d="M12 8C13.6569 8 15 6.65685 15 5C15 3.34315 13.6569 2 12 2C10.3431 2 9 3.34315 9 5C9 6.65685 10.3431 8 12 8ZM12 10C14.7614 10 17 7.76142 17 5C17 2.23858 14.7614 0 12 0C9.23858 0 7 2.23858 7 5C7 7.76142 9.23858 10 12 10Z"
+                fill-rule="evenodd"
+              />
+            </svg>
+            Alex Miller
+            <svg
+              aria-hidden="true"
+              class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-down v-tab-suffix"
+              focusable="false"
+              height="16"
+              viewBox="0 0 16 16"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                class="v-icon-primary"
+                clip-rule="evenodd"
+                d="M2.47597 4.00049L1 5.39358L8 12.0005L15 5.39358L13.524 4.00049L8 9.21431L2.47597 4.00049Z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </button>
+        </div>
+      </ul>
+    </nav>
+  </div>
+</div>
+`;
+
+exports[`Horizontal navigation examples Horizontal navigation with active element should render correctly 1`] = `
+<div>
+  <div>
+    <a
+      class="v-link v-skip-link"
+      href="#content"
+    >
+      Skip to content
+    </a>
+    <header
+      class="v-nav v-nav-horizontal v-justify-content-between"
+      id="active-element-horizontal-nav"
+    >
+      <button
+        aria-controls="active-element-horizontal-nav-mobile-menu"
+        aria-describedby="active-element-horizontal-nav-mobile-menu-notifications-badge"
+        aria-expanded="false"
+        aria-label="open menu"
+        class="v-button v-button-large v-button-tertiary v-button-icon v-dropdown v-desktop-container-hide"
+        id="active-element-horizontal-nav-mobile-menu-button"
+      >
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-low v-icon-menu"
+          focusable="false"
+          height="24"
+          viewBox="0 0 24 24"
+          width="24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M23 3H1V1H23V3ZM23 23H1V21H23V23ZM1 13H23V11H1V13Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+        <sup
+          aria-label="3 notifications"
+          class="v-badge v-badge-number v-typography-label-active"
+          id="active-element-horizontal-nav-mobile-menu-notifications-badge"
+        >
+          3
+        </sup>
+      </button>
+      <a
+        aria-label="Visa Application Name Home"
+        class="v-link v-link-no-underline v-flex v-gap-16"
+        href="./horizontal-navigation"
+        id="active-element-horizontal-nav-home-link"
+        style="background-color: transparent;"
+      >
+        <svg
+          aria-hidden="true"
+          class="v-logo"
+          height="23"
+          viewBox="0 0 71 23"
+          width="71"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M50.6986 15.3377C50.7123 11.8369 47.8134 10.3152 45.4937 9.09755C43.9358 8.27981 42.6393 7.59921 42.6617 6.54843C42.6781 5.75329 43.4371 4.90557 45.0931 4.692C47.0325 4.5045 48.9864 4.8451 50.7479 5.67771L51.7566 0.985714C50.0419 0.341244 48.2261 0.00745647 46.3943 0C40.7429 0 36.7376 3.013 36.7014 7.33043C36.6653 10.5143 39.5501 12.3017 41.7286 13.363C43.9629 14.4473 44.7153 15.1439 44.7054 16.1164C44.7054 17.6049 42.9213 18.2587 41.2751 18.285C38.4794 18.3296 36.8224 17.5564 35.5085 16.9434L35.3839 16.8853L34.3357 21.7416C35.6763 22.3593 38.1504 22.8949 40.7166 22.9211C46.7393 22.9211 50.6821 19.9443 50.7019 15.3377H50.6986ZM26.9429 0.404143L17.6541 22.5729H11.592L7.02157 4.88257C6.74229 3.79171 6.50243 3.39414 5.658 2.93414C4.27143 2.18829 2.00429 1.48514 0 1.04814L0.138 0.391H9.89329C11.2059 0.396383 12.3201 1.35458 12.5219 2.65157L14.9369 15.4823L20.9234 0.404143H26.9429ZM70.9714 22.5663H65.6683L64.975 19.2641H57.6183L56.4223 22.5729H50.4029L59.0016 2.03057C59.409 1.04254 60.3741 0.399575 61.4429 0.404143H66.3419L70.9714 22.5663ZM59.2677 14.72L62.2873 6.394L64.0254 14.72H59.2677ZM30.3994 22.5729L35.1571 0.404143H29.4071L24.6626 22.5729H30.3994Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+        <div
+          class="v-nav-app-name"
+        >
+          <p
+            class="v-typography-headline-3 v-xs-container-hide"
+          >
+            Application Name
+          </p>
+        </div>
+      </a>
+      <nav
+        aria-label="Label for horizontal example with active element"
+        class="v-mobile-container-hide v-flex v-flex-grow v-justify-content-end v-ml-auto"
+      >
+        <ul
+          class="v-tabs v-tabs-horizontal v-gap-4"
+        >
+          <li
+            class="v-tab"
+          >
+            <a
+              aria-current="page"
+              class="v-button v-button-large v-button-tertiary"
+              href="./horizontal-navigation"
+            >
+              L1 label 1
+            </a>
+          </li>
+          <li
+            class="v-tab"
+          >
+            <a
+              class="v-button v-button-large v-button-tertiary"
+              href="./horizontal-navigation"
+            >
+              L1 label 2
+            </a>
+          </li>
+          <li
+            class="v-tab"
+          >
+            <button
+              aria-expanded="false"
+              class="v-button v-button-large v-button-tertiary v-dropdown"
+              id="active-element-horizontal-nav-label-dropdown-button"
+            >
+              L1 label 3
+              <svg
+                aria-hidden="true"
+                class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-down v-tab-suffix"
+                focusable="false"
+                height="16"
+                viewBox="0 0 16 16"
+                width="16"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  class="v-icon-primary"
+                  clip-rule="evenodd"
+                  d="M2.47597 4.00049L1 5.39358L8 12.0005L15 5.39358L13.524 4.00049L8 9.21431L2.47597 4.00049Z"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </button>
+          </li>
+        </ul>
+      </nav>
+      <div
+        class="v-flex v-gap-8 v-ml-8"
+      >
+        <button
+          aria-label="search site"
+          class="v-button v-button-large v-button-tertiary v-button-icon"
+        >
+          <svg
+            aria-hidden="true"
+            class="v-icon v-icon-visa v-icon-low v-icon-search"
+            focusable="false"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="v-icon-secondary"
+              clip-rule="evenodd"
+              d="M9 7V5C11.2056 5 13 6.79443 13 9H11C11 7.89697 10.103 7 9 7ZM16.5181 15L24 22.4819L22.4819 24L15 16.5181C15.5551 16.0636 16.0636 15.5551 16.5181 15Z"
+              fill-rule="evenodd"
+            />
+            <path
+              class="v-icon-primary"
+              d="M9 1C4.58887 1 1 4.58887 1 9C1 13.4111 4.58887 17 9 17C13.4111 17 17 13.4111 17 9C17 4.58887 13.4111 1 9 1ZM9 15C5.69141 15 3 12.3086 3 9C3 5.69141 5.69141 3 9 3C12.3086 3 15 5.69141 15 9C15 12.3086 12.3086 15 9 15Z"
+            />
+          </svg>
+        </button>
+        <button
+          aria-describedby="active-element-horizontal-nav-notifications-badge"
+          aria-label="notifications"
+          class="v-button v-button-large v-button-tertiary v-button-icon v-mobile-container-hide"
+        >
+          <svg
+            aria-hidden="true"
+            class="v-icon v-icon-visa v-icon-low v-icon-notifications"
+            focusable="false"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="v-icon-secondary"
+              clip-rule="evenodd"
+              d="M12 0C8.13401 0 5 3.13401 5 7V14H7V7C7 4.23858 9.23858 2 12 2C14.7614 2 17 4.2386 17 7.00003V11C17 12.9259 17.8249 14.2261 18.9157 15.0115C19.5873 15.4951 20.3332 15.7664 21 15.8979V16H1V18H22C22.5523 18 23 17.5523 23 17V15C23 14.4477 22.5523 14 22 14C21.4934 14 20.7111 13.8398 20.0843 13.3885C19.5085 12.9739 19 12.2741 19 11V7.00003C19 3.13404 15.866 0 12 0ZM12 6C12.5523 6 13 6.44772 13 7V11H15V7C15 5.34315 13.6569 4 12 4V6Z"
+              fill-rule="evenodd"
+            />
+            <path
+              class="v-icon-primary"
+              clip-rule="evenodd"
+              d="M9 20V21C9 22.6569 10.3431 24 12 24C13.6569 24 15 22.6569 15 21V20H13V21C13 21.5523 12.5523 22 12 22C11.4477 22 11 21.5523 11 21V20H9Z"
+              fill-rule="evenodd"
+            />
+          </svg>
+          <sup
+            class="v-badge v-badge-number v-typography-label-active"
+            id="active-element-horizontal-nav-notifications-badge"
+          >
+            3
+          </sup>
+        </button>
+        <div
+          class="v-tab v-mobile-container-hide"
+        >
+          <button
+            aria-expanded="false"
+            aria-label="Alex Miller"
+            class="v-avatar v-button v-button-large v-button-tertiary v-dropdown"
+          >
+            <svg
+              aria-hidden="true"
+              class="v-icon v-icon-visa v-icon-low v-icon-account"
+              focusable="false"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                class="v-icon-secondary"
+                clip-rule="evenodd"
+                d="M12 14C7.58172 14 4 17.5817 4 22V24H2V22C2 16.4772 6.47715 12 12 12C17.5228 12 22 16.4772 22 22V24H20V22C20 17.5817 16.4183 14 12 14Z"
+                fill-rule="evenodd"
+              />
+              <path
+                class="v-icon-primary"
+                clip-rule="evenodd"
+                d="M12 8C13.6569 8 15 6.65685 15 5C15 3.34315 13.6569 2 12 2C10.3431 2 9 3.34315 9 5C9 6.65685 10.3431 8 12 8ZM12 10C14.7614 10 17 7.76142 17 5C17 2.23858 14.7614 0 12 0C9.23858 0 7 2.23858 7 5C7 7.76142 9.23858 10 12 10Z"
+                fill-rule="evenodd"
+              />
+            </svg>
+            <svg
+              aria-hidden="true"
+              class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-down v-tab-suffix"
+              focusable="false"
+              height="16"
+              viewBox="0 0 16 16"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                class="v-icon-primary"
+                clip-rule="evenodd"
+                d="M2.47597 4.00049L1 5.39358L8 12.0005L15 5.39358L13.524 4.00049L8 9.21431L2.47597 4.00049Z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </header>
+    <nav
+      aria-hidden="true"
+      aria-label="Label for horizontal example with active element"
+      class="v-nav v-nav-vertical v-desktop-container-hide v-hide"
+      id="active-element-horizontal-nav-mobile-menu"
+    >
+      <ul
+        class="v-tabs v-tabs-vertical"
+      >
+        <li
+          class="v-tab"
+        >
+          <a
+            class="v-button v-button-large v-button-tertiary"
+            href="./horizontal-navigation"
+          >
+            L1 label 1
+          </a>
+        </li>
+        <li
+          class="v-tab"
+        >
+          <a
+            class="v-button v-button-large v-button-tertiary"
+            href="./horizontal-navigation"
+          >
+            L1 label 2
+          </a>
+        </li>
+        <div
+          class="v-tab"
+        >
+          <button
+            aria-controls="undefined"
+            aria-expanded="false"
+            class="v-button v-button-large v-button-tertiary"
+            id="active-element-horizontal-nav-mobile-menu-label-dropdown-button"
+          >
+            L1 Label 3
+            <svg
+              aria-hidden="true"
+              class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-down v-tab-suffix"
+              focusable="false"
+              height="16"
+              viewBox="0 0 16 16"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                class="v-icon-primary"
+                clip-rule="evenodd"
+                d="M2.47597 4.00049L1 5.39358L8 12.0005L15 5.39358L13.524 4.00049L8 9.21431L2.47597 4.00049Z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </button>
+        </div>
+        <li
+          class="v-tab"
+        >
+          <button
+            class="v-button v-button-large v-button-tertiary"
+            style="word-break: break-word; block-size: max-content;"
+          >
+            Notifications
+            <sup
+              class="v-badge v-badge-number v-typography-label-active"
+              style="position: relative;"
+            >
+              3
+            </sup>
+          </button>
+        </li>
+        <hr
+          aria-hidden="true"
+          class="v-divider v-divider-decorative"
+        />
+        <div
+          class="v-tab"
+        >
+          <button
+            aria-controls="active-element-horizontal-nav-account-sub-menu"
+            aria-expanded="false"
+            aria-label="Alex Miller"
+            class="v-button v-button-large v-button-tertiary"
+          >
+            <svg
+              aria-hidden="true"
+              class="v-icon v-icon-visa v-icon-low v-icon-account"
+              focusable="false"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                class="v-icon-secondary"
+                clip-rule="evenodd"
+                d="M12 14C7.58172 14 4 17.5817 4 22V24H2V22C2 16.4772 6.47715 12 12 12C17.5228 12 22 16.4772 22 22V24H20V22C20 17.5817 16.4183 14 12 14Z"
+                fill-rule="evenodd"
+              />
+              <path
+                class="v-icon-primary"
+                clip-rule="evenodd"
+                d="M12 8C13.6569 8 15 6.65685 15 5C15 3.34315 13.6569 2 12 2C10.3431 2 9 3.34315 9 5C9 6.65685 10.3431 8 12 8ZM12 10C14.7614 10 17 7.76142 17 5C17 2.23858 14.7614 0 12 0C9.23858 0 7 2.23858 7 5C7 7.76142 9.23858 10 12 10Z"
+                fill-rule="evenodd"
+              />
+            </svg>
+            Alex Miller
+            <svg
+              aria-hidden="true"
+              class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-down v-tab-suffix"
+              focusable="false"
+              height="16"
+              viewBox="0 0 16 16"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                class="v-icon-primary"
+                clip-rule="evenodd"
+                d="M2.47597 4.00049L1 5.39358L8 12.0005L15 5.39358L13.524 4.00049L8 9.21431L2.47597 4.00049Z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </button>
+        </div>
+      </ul>
+    </nav>
+  </div>
+</div>
+`;
+
+exports[`Horizontal navigation examples Stacked horizontal navigation should render correctly 1`] = `
+<div>
+  <div>
+    <a
+      class="v-link v-skip-link"
+      href="#content"
+    >
+      Skip to content
+    </a>
+    <header
+      class="v-nav v-nav-horizontal v-justify-content-between"
+      id="stacked-horizontal-nav"
+    >
+      <button
+        aria-controls="stacked-horizontal-nav-mobile-menu"
+        aria-describedby="stacked-horizontal-nav-mobile-menu-notifications-badge"
+        aria-expanded="false"
+        aria-label="open menu"
+        class="v-button v-button-large v-button-tertiary v-button-icon v-dropdown v-desktop-container-hide"
+        id="stacked-horizontal-nav-mobile-menu-button"
+      >
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-low v-icon-menu"
+          focusable="false"
+          height="24"
+          viewBox="0 0 24 24"
+          width="24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M23 3H1V1H23V3ZM23 23H1V21H23V23ZM1 13H23V11H1V13Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+        <div
+          aria-label="3 notifications"
+          class="v-badge v-badge-number v-typography-label-active"
+          id="stacked-horizontal-nav-mobile-menu-notifications-badge"
+        >
+          3
+        </div>
+      </button>
+      <a
+        aria-label="Visa Application Name Home"
+        class="v-link v-link-no-underline v-flex v-gap-16"
+        href="./horizontal-navigation"
+        id="stacked-horizontal-nav-home-link"
+        style="background-color: transparent;"
+      >
+        <svg
+          aria-hidden="true"
+          class="v-logo"
+          height="23"
+          viewBox="0 0 71 23"
+          width="71"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M50.6986 15.3377C50.7123 11.8369 47.8134 10.3152 45.4937 9.09755C43.9358 8.27981 42.6393 7.59921 42.6617 6.54843C42.6781 5.75329 43.4371 4.90557 45.0931 4.692C47.0325 4.5045 48.9864 4.8451 50.7479 5.67771L51.7566 0.985714C50.0419 0.341244 48.2261 0.00745647 46.3943 0C40.7429 0 36.7376 3.013 36.7014 7.33043C36.6653 10.5143 39.5501 12.3017 41.7286 13.363C43.9629 14.4473 44.7153 15.1439 44.7054 16.1164C44.7054 17.6049 42.9213 18.2587 41.2751 18.285C38.4794 18.3296 36.8224 17.5564 35.5085 16.9434L35.3839 16.8853L34.3357 21.7416C35.6763 22.3593 38.1504 22.8949 40.7166 22.9211C46.7393 22.9211 50.6821 19.9443 50.7019 15.3377H50.6986ZM26.9429 0.404143L17.6541 22.5729H11.592L7.02157 4.88257C6.74229 3.79171 6.50243 3.39414 5.658 2.93414C4.27143 2.18829 2.00429 1.48514 0 1.04814L0.138 0.391H9.89329C11.2059 0.396383 12.3201 1.35458 12.5219 2.65157L14.9369 15.4823L20.9234 0.404143H26.9429ZM70.9714 22.5663H65.6683L64.975 19.2641H57.6183L56.4223 22.5729H50.4029L59.0016 2.03057C59.409 1.04254 60.3741 0.399575 61.4429 0.404143H66.3419L70.9714 22.5663ZM59.2677 14.72L62.2873 6.394L64.0254 14.72H59.2677ZM30.3994 22.5729L35.1571 0.404143H29.4071L24.6626 22.5729H30.3994Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+        <div
+          class="v-nav-app-name"
+        >
+          <p
+            class="v-typography-headline-3 v-xs-container-hide"
+          >
+            Application Name
+          </p>
+        </div>
+      </a>
+      <div
+        class="v-flex v-gap-8 v-ml-8"
+      >
+        <button
+          aria-label="search site"
+          class="v-button v-button-large v-button-tertiary v-button-icon"
+        >
+          <svg
+            aria-hidden="true"
+            class="v-icon v-icon-visa v-icon-low v-icon-search"
+            focusable="false"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="v-icon-secondary"
+              clip-rule="evenodd"
+              d="M9 7V5C11.2056 5 13 6.79443 13 9H11C11 7.89697 10.103 7 9 7ZM16.5181 15L24 22.4819L22.4819 24L15 16.5181C15.5551 16.0636 16.0636 15.5551 16.5181 15Z"
+              fill-rule="evenodd"
+            />
+            <path
+              class="v-icon-primary"
+              d="M9 1C4.58887 1 1 4.58887 1 9C1 13.4111 4.58887 17 9 17C13.4111 17 17 13.4111 17 9C17 4.58887 13.4111 1 9 1ZM9 15C5.69141 15 3 12.3086 3 9C3 5.69141 5.69141 3 9 3C12.3086 3 15 5.69141 15 9C15 12.3086 12.3086 15 9 15Z"
+            />
+          </svg>
+        </button>
+        <button
+          aria-describedby="stacked-horizontal-nav-notifications-badge"
+          aria-label="notifications"
+          class="v-button v-button-large v-button-tertiary v-button-icon v-mobile-container-hide"
+        >
+          <svg
+            aria-hidden="true"
+            class="v-icon v-icon-visa v-icon-low v-icon-notifications"
+            focusable="false"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="v-icon-secondary"
+              clip-rule="evenodd"
+              d="M12 0C8.13401 0 5 3.13401 5 7V14H7V7C7 4.23858 9.23858 2 12 2C14.7614 2 17 4.2386 17 7.00003V11C17 12.9259 17.8249 14.2261 18.9157 15.0115C19.5873 15.4951 20.3332 15.7664 21 15.8979V16H1V18H22C22.5523 18 23 17.5523 23 17V15C23 14.4477 22.5523 14 22 14C21.4934 14 20.7111 13.8398 20.0843 13.3885C19.5085 12.9739 19 12.2741 19 11V7.00003C19 3.13404 15.866 0 12 0ZM12 6C12.5523 6 13 6.44772 13 7V11H15V7C15 5.34315 13.6569 4 12 4V6Z"
+              fill-rule="evenodd"
+            />
+            <path
+              class="v-icon-primary"
+              clip-rule="evenodd"
+              d="M9 20V21C9 22.6569 10.3431 24 12 24C13.6569 24 15 22.6569 15 21V20H13V21C13 21.5523 12.5523 22 12 22C11.4477 22 11 21.5523 11 21V20H9Z"
+              fill-rule="evenodd"
+            />
+          </svg>
+          <div
+            class="v-badge v-badge-number v-typography-label-active"
+            id="stacked-horizontal-nav-notifications-badge"
+          >
+            3
+          </div>
+        </button>
+        <div
+          class="v-tab v-mobile-container-hide"
+        >
+          <button
+            aria-expanded="false"
+            aria-label="Alex Miller"
+            class="v-avatar v-button v-button-large v-button-tertiary v-dropdown"
+          >
+            <svg
+              aria-hidden="true"
+              class="v-icon v-icon-visa v-icon-low v-icon-account"
+              focusable="false"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                class="v-icon-secondary"
+                clip-rule="evenodd"
+                d="M12 14C7.58172 14 4 17.5817 4 22V24H2V22C2 16.4772 6.47715 12 12 12C17.5228 12 22 16.4772 22 22V24H20V22C20 17.5817 16.4183 14 12 14Z"
+                fill-rule="evenodd"
+              />
+              <path
+                class="v-icon-primary"
+                clip-rule="evenodd"
+                d="M12 8C13.6569 8 15 6.65685 15 5C15 3.34315 13.6569 2 12 2C10.3431 2 9 3.34315 9 5C9 6.65685 10.3431 8 12 8ZM12 10C14.7614 10 17 7.76142 17 5C17 2.23858 14.7614 0 12 0C9.23858 0 7 2.23858 7 5C7 7.76142 9.23858 10 12 10Z"
+                fill-rule="evenodd"
+              />
+            </svg>
+            <svg
+              aria-hidden="true"
+              class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-down v-tab-suffix"
+              focusable="false"
+              height="16"
+              viewBox="0 0 16 16"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                class="v-icon-primary"
+                clip-rule="evenodd"
+                d="M2.47597 4.00049L1 5.39358L8 12.0005L15 5.39358L13.524 4.00049L8 9.21431L2.47597 4.00049Z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </header>
+    <nav
+      aria-label="Label for horizontal example with stacked menu"
+      class="v-nav v-ml-auto v-mobile-container-hide"
+      style="--v-surface-background: var(--palette-default-surface-2); --v-tabs-active-line-padding: var(--size-responsive-10);"
+    >
+      <ul
+        class="v-tabs v-tabs-horizontal v-gap-8"
+      >
+        <li
+          class="v-tab"
+        >
+          <a
+            class="v-button v-button-large v-button-tertiary"
+            href="./horizontal-navigation"
+          >
+            L1 label 1
+          </a>
+        </li>
+        <li
+          class="v-tab"
+        >
+          <a
+            class="v-button v-button-large v-button-tertiary"
+            href="./horizontal-navigation"
+          >
+            L1 label 2
+          </a>
+        </li>
+        <li
+          class="v-tab"
+        >
+          <a
+            class="v-button v-button-large v-button-tertiary"
+            href="./horizontal-navigation"
+          >
+            L1 label 3
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <nav
+      aria-hidden="true"
+      aria-label="Label for horizontal example with stacked menu"
+      class="v-nav v-nav-vertical v-desktop-container-hide v-hide"
+      id="stacked-horizontal-nav-mobile-menu"
+    >
+      <ul
+        class="v-tabs v-tabs-vertical"
+      >
+        <li
+          class="v-tab"
+        >
+          <a
+            class="v-button v-button-large v-button-tertiary"
+            href="./horizontal-navigation"
+          >
+            L1 label 1
+          </a>
+        </li>
+        <li
+          class="v-tab"
+        >
+          <a
+            class="v-button v-button-large v-button-tertiary"
+            href="./horizontal-navigation"
+          >
+            L1 label 2
+          </a>
+        </li>
+        <li
+          class="v-tab"
+        >
+          <a
+            class="v-button v-button-large v-button-tertiary"
+            href="./horizontal-navigation"
+          >
+            L1 label 3
+          </a>
+        </li>
+        <li
+          class="v-tab"
+        >
+          <button
+            class="v-button v-button-large v-button-tertiary"
+            style="word-break: break-word; block-size: max-content;"
+          >
+            Notifications
+            <div
+              class="v-badge v-badge-number v-typography-label-active"
+              style="position: relative;"
+            >
+              3
+            </div>
+          </button>
+        </li>
+        <hr
+          aria-hidden="true"
+          class="v-divider v-divider-decorative"
+        />
+        <div
+          class="v-tab"
+        >
+          <button
+            aria-controls="stacked-horizontal-nav-account-sub-menu"
+            aria-expanded="false"
+            aria-label="Alex Miller"
+            class="v-button v-button-large v-button-tertiary"
+          >
+            <svg
+              aria-hidden="true"
+              class="v-icon v-icon-visa v-icon-low v-icon-account"
+              focusable="false"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                class="v-icon-secondary"
+                clip-rule="evenodd"
+                d="M12 14C7.58172 14 4 17.5817 4 22V24H2V22C2 16.4772 6.47715 12 12 12C17.5228 12 22 16.4772 22 22V24H20V22C20 17.5817 16.4183 14 12 14Z"
+                fill-rule="evenodd"
+              />
+              <path
+                class="v-icon-primary"
+                clip-rule="evenodd"
+                d="M12 8C13.6569 8 15 6.65685 15 5C15 3.34315 13.6569 2 12 2C10.3431 2 9 3.34315 9 5C9 6.65685 10.3431 8 12 8ZM12 10C14.7614 10 17 7.76142 17 5C17 2.23858 14.7614 0 12 0C9.23858 0 7 2.23858 7 5C7 7.76142 9.23858 10 12 10Z"
+                fill-rule="evenodd"
+              />
+            </svg>
+            Alex Miller
+            <svg
+              aria-hidden="true"
+              class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-down v-tab-suffix"
+              focusable="false"
+              height="16"
+              viewBox="0 0 16 16"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                class="v-icon-primary"
+                clip-rule="evenodd"
+                d="M2.47597 4.00049L1 5.39358L8 12.0005L15 5.39358L13.524 4.00049L8 9.21431L2.47597 4.00049Z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </button>
+        </div>
+      </ul>
+    </nav>
+  </div>
+</div>
+`;
+
+exports[`Horizontal navigation examples Stacked horizontal navigation with persistent search should render correctly 1`] = `
+<div>
+  <div>
+    <a
+      class="v-link v-skip-link"
+      href="#content"
+    >
+      Skip to content
+    </a>
+    <header
+      class="v-nav v-nav-horizontal v-justify-content-between"
+      id="stacked-search-persistent-horizontal-nav"
+    >
+      <button
+        aria-controls="stacked-search-persistent-horizontal-nav-mobile-menu"
+        aria-describedby="stacked-search-persistent-horizontal-nav-mobile-menu-notifications-badge"
+        aria-expanded="false"
+        aria-label="open menu"
+        class="v-button v-button-large v-button-tertiary v-button-icon v-dropdown v-desktop-container-hide"
+        id="stacked-search-persistent-horizontal-nav-mobile-menu-button"
+      >
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-low v-icon-menu"
+          focusable="false"
+          height="24"
+          viewBox="0 0 24 24"
+          width="24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M23 3H1V1H23V3ZM23 23H1V21H23V23ZM1 13H23V11H1V13Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+        <div
+          aria-label="3 notifications"
+          class="v-badge v-badge-number v-typography-label-active"
+          id="stacked-search-persistent-horizontal-nav-mobile-menu-notifications-badge"
+        >
+          3
+        </div>
+      </button>
+      <a
+        aria-label="Visa Application Name Home"
+        class="v-link v-link-no-underline v-flex v-gap-16"
+        href="./horizontal-navigation"
+        id="stacked-search-persistent-horizontal-nav-home-link"
+        style="background-color: transparent;"
+      >
+        <svg
+          aria-hidden="true"
+          class="v-logo"
+          height="23"
+          viewBox="0 0 71 23"
+          width="71"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M50.6986 15.3377C50.7123 11.8369 47.8134 10.3152 45.4937 9.09755C43.9358 8.27981 42.6393 7.59921 42.6617 6.54843C42.6781 5.75329 43.4371 4.90557 45.0931 4.692C47.0325 4.5045 48.9864 4.8451 50.7479 5.67771L51.7566 0.985714C50.0419 0.341244 48.2261 0.00745647 46.3943 0C40.7429 0 36.7376 3.013 36.7014 7.33043C36.6653 10.5143 39.5501 12.3017 41.7286 13.363C43.9629 14.4473 44.7153 15.1439 44.7054 16.1164C44.7054 17.6049 42.9213 18.2587 41.2751 18.285C38.4794 18.3296 36.8224 17.5564 35.5085 16.9434L35.3839 16.8853L34.3357 21.7416C35.6763 22.3593 38.1504 22.8949 40.7166 22.9211C46.7393 22.9211 50.6821 19.9443 50.7019 15.3377H50.6986ZM26.9429 0.404143L17.6541 22.5729H11.592L7.02157 4.88257C6.74229 3.79171 6.50243 3.39414 5.658 2.93414C4.27143 2.18829 2.00429 1.48514 0 1.04814L0.138 0.391H9.89329C11.2059 0.396383 12.3201 1.35458 12.5219 2.65157L14.9369 15.4823L20.9234 0.404143H26.9429ZM70.9714 22.5663H65.6683L64.975 19.2641H57.6183L56.4223 22.5729H50.4029L59.0016 2.03057C59.409 1.04254 60.3741 0.399575 61.4429 0.404143H66.3419L70.9714 22.5663ZM59.2677 14.72L62.2873 6.394L64.0254 14.72H59.2677ZM30.3994 22.5729L35.1571 0.404143H29.4071L24.6626 22.5729H30.3994Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+        <div
+          class="v-nav-app-name"
+        >
+          <p
+            class="v-typography-headline-3 v-xs-container-hide"
+          >
+            Application Name
+          </p>
+        </div>
+      </a>
+      <div
+        class="v-flex v-gap-8 v-ml-8"
+      >
+        <div
+          class="v-surface v-input-container v-xs-container-hide v-flex-row"
+        >
+          <svg
+            aria-hidden="true"
+            class="v-icon v-icon-visa v-icon-low v-icon-search"
+            focusable="false"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="v-icon-secondary"
+              clip-rule="evenodd"
+              d="M9 7V5C11.2056 5 13 6.79443 13 9H11C11 7.89697 10.103 7 9 7ZM16.5181 15L24 22.4819L22.4819 24L15 16.5181C15.5551 16.0636 16.0636 15.5551 16.5181 15Z"
+              fill-rule="evenodd"
+            />
+            <path
+              class="v-icon-primary"
+              d="M9 1C4.58887 1 1 4.58887 1 9C1 13.4111 4.58887 17 9 17C13.4111 17 17 13.4111 17 9C17 4.58887 13.4111 1 9 1ZM9 15C5.69141 15 3 12.3086 3 9C3 5.69141 5.69141 3 9 3C12.3086 3 15 5.69141 15 9C15 12.3086 12.3086 15 9 15Z"
+            />
+          </svg>
+          <input
+            aria-label="Search"
+            class="v-input"
+            id="stacked-search-persistent-horizontal-nav-search-field"
+            name="stacked-search-persistent-horizontal-nav-search-field"
+            placeholder="Search"
+            required=""
+            type="search"
+          />
+        </div>
+        <button
+          aria-label="search site"
+          class="v-button v-button-large v-button-tertiary v-button-icon v-desktop-container-hide v-flex-row"
+        >
+          <svg
+            aria-hidden="true"
+            class="v-icon v-icon-visa v-icon-low v-icon-search"
+            focusable="false"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="v-icon-secondary"
+              clip-rule="evenodd"
+              d="M9 7V5C11.2056 5 13 6.79443 13 9H11C11 7.89697 10.103 7 9 7ZM16.5181 15L24 22.4819L22.4819 24L15 16.5181C15.5551 16.0636 16.0636 15.5551 16.5181 15Z"
+              fill-rule="evenodd"
+            />
+            <path
+              class="v-icon-primary"
+              d="M9 1C4.58887 1 1 4.58887 1 9C1 13.4111 4.58887 17 9 17C13.4111 17 17 13.4111 17 9C17 4.58887 13.4111 1 9 1ZM9 15C5.69141 15 3 12.3086 3 9C3 5.69141 5.69141 3 9 3C12.3086 3 15 5.69141 15 9C15 12.3086 12.3086 15 9 15Z"
+            />
+          </svg>
+        </button>
+        <button
+          aria-describedby="stacked-search-persistent-horizontal-nav-notifications-badge"
+          aria-label="notifications"
+          class="v-button v-button-large v-button-tertiary v-button-icon v-mobile-container-hide"
+        >
+          <svg
+            aria-hidden="true"
+            class="v-icon v-icon-visa v-icon-low v-icon-notifications"
+            focusable="false"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="v-icon-secondary"
+              clip-rule="evenodd"
+              d="M12 0C8.13401 0 5 3.13401 5 7V14H7V7C7 4.23858 9.23858 2 12 2C14.7614 2 17 4.2386 17 7.00003V11C17 12.9259 17.8249 14.2261 18.9157 15.0115C19.5873 15.4951 20.3332 15.7664 21 15.8979V16H1V18H22C22.5523 18 23 17.5523 23 17V15C23 14.4477 22.5523 14 22 14C21.4934 14 20.7111 13.8398 20.0843 13.3885C19.5085 12.9739 19 12.2741 19 11V7.00003C19 3.13404 15.866 0 12 0ZM12 6C12.5523 6 13 6.44772 13 7V11H15V7C15 5.34315 13.6569 4 12 4V6Z"
+              fill-rule="evenodd"
+            />
+            <path
+              class="v-icon-primary"
+              clip-rule="evenodd"
+              d="M9 20V21C9 22.6569 10.3431 24 12 24C13.6569 24 15 22.6569 15 21V20H13V21C13 21.5523 12.5523 22 12 22C11.4477 22 11 21.5523 11 21V20H9Z"
+              fill-rule="evenodd"
+            />
+          </svg>
+          <div
+            class="v-badge v-badge-number v-typography-label-active"
+            id="stacked-search-persistent-horizontal-nav-notifications-badge"
+          >
+            3
+          </div>
+        </button>
+        <div
+          class="v-tab v-mobile-container-hide v-pb-0"
+        >
+          <button
+            aria-expanded="false"
+            aria-label="Alex Miller"
+            class="v-avatar v-button v-button-large v-button-tertiary v-dropdown"
+          >
+            <svg
+              aria-hidden="true"
+              class="v-icon v-icon-visa v-icon-low v-icon-account"
+              focusable="false"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                class="v-icon-secondary"
+                clip-rule="evenodd"
+                d="M12 14C7.58172 14 4 17.5817 4 22V24H2V22C2 16.4772 6.47715 12 12 12C17.5228 12 22 16.4772 22 22V24H20V22C20 17.5817 16.4183 14 12 14Z"
+                fill-rule="evenodd"
+              />
+              <path
+                class="v-icon-primary"
+                clip-rule="evenodd"
+                d="M12 8C13.6569 8 15 6.65685 15 5C15 3.34315 13.6569 2 12 2C10.3431 2 9 3.34315 9 5C9 6.65685 10.3431 8 12 8ZM12 10C14.7614 10 17 7.76142 17 5C17 2.23858 14.7614 0 12 0C9.23858 0 7 2.23858 7 5C7 7.76142 9.23858 10 12 10Z"
+                fill-rule="evenodd"
+              />
+            </svg>
+            <svg
+              aria-hidden="true"
+              class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-down v-tab-suffix"
+              focusable="false"
+              height="16"
+              viewBox="0 0 16 16"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                class="v-icon-primary"
+                clip-rule="evenodd"
+                d="M2.47597 4.00049L1 5.39358L8 12.0005L15 5.39358L13.524 4.00049L8 9.21431L2.47597 4.00049Z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </header>
+    <nav
+      aria-label="Label for horizontal example with stacked menu and persistent search"
+      class="v-nav v-ml-auto v-mobile-container-hide"
+      style="--v-surface-background: var(--palette-default-surface-2); --v-tabs-active-line-padding: var(--size-responsive-10);"
+    >
+      <ul
+        class="v-tabs v-tabs-horizontal v-gap-8"
+      >
+        <li
+          class="v-tab"
+        >
+          <a
+            class="v-button v-button-large v-button-tertiary"
+            href="./horizontal-navigation"
+          >
+            L1 label 1
+          </a>
+        </li>
+        <li
+          class="v-tab"
+        >
+          <a
+            class="v-button v-button-large v-button-tertiary"
+            href="./horizontal-navigation"
+          >
+            L1 label 2
+          </a>
+        </li>
+        <li
+          class="v-tab"
+        >
+          <a
+            class="v-button v-button-large v-button-tertiary"
+            href="./horizontal-navigation"
+          >
+            L1 label 3
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <nav
+      aria-hidden="true"
+      aria-label="Label for horizontal example with stacked menu and persistent search"
+      class="v-nav v-nav-vertical v-desktop-container-hide v-hide"
+      id="stacked-search-persistent-horizontal-nav-mobile-menu"
+    >
+      <ul
+        class="v-tabs v-tabs-vertical"
+      >
+        <li
+          class="v-tab"
+        >
+          <a
+            class="v-button v-button-large v-button-tertiary"
+            href="./horizontal-navigation"
+          >
+            L1 label 1
+          </a>
+        </li>
+        <li
+          class="v-tab"
+        >
+          <a
+            class="v-button v-button-large v-button-tertiary"
+            href="./horizontal-navigation"
+          >
+            L1 label 2
+          </a>
+        </li>
+        <li
+          class="v-tab"
+        >
+          <a
+            class="v-button v-button-large v-button-tertiary"
+            href="./horizontal-navigation"
+          >
+            L1 label 3
+          </a>
+        </li>
+        <li
+          class="v-tab"
+        >
+          <button
+            class="v-button v-button-large v-button-tertiary"
+            style="word-break: break-word; block-size: max-content;"
+          >
+            Notifications
+            <div
+              class="v-badge v-badge-number v-typography-label-active"
+              style="position: relative;"
+            >
+              3
+            </div>
+          </button>
+        </li>
+        <hr
+          aria-hidden="true"
+          class="v-divider v-divider-decorative"
+        />
+        <div
+          class="v-tab"
+        >
+          <button
+            aria-controls="stacked-search-persistent-horizontal-nav-account-sub-menu"
+            aria-expanded="false"
+            aria-label="Alex Miller"
+            class="v-button v-button-large v-button-tertiary"
+          >
+            <svg
+              aria-hidden="true"
+              class="v-icon v-icon-visa v-icon-low v-icon-account"
+              focusable="false"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                class="v-icon-secondary"
+                clip-rule="evenodd"
+                d="M12 14C7.58172 14 4 17.5817 4 22V24H2V22C2 16.4772 6.47715 12 12 12C17.5228 12 22 16.4772 22 22V24H20V22C20 17.5817 16.4183 14 12 14Z"
+                fill-rule="evenodd"
+              />
+              <path
+                class="v-icon-primary"
+                clip-rule="evenodd"
+                d="M12 8C13.6569 8 15 6.65685 15 5C15 3.34315 13.6569 2 12 2C10.3431 2 9 3.34315 9 5C9 6.65685 10.3431 8 12 8ZM12 10C14.7614 10 17 7.76142 17 5C17 2.23858 14.7614 0 12 0C9.23858 0 7 2.23858 7 5C7 7.76142 9.23858 10 12 10Z"
+                fill-rule="evenodd"
+              />
+            </svg>
+            Alex Miller
+            <svg
+              aria-hidden="true"
+              class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-down v-tab-suffix"
+              focusable="false"
+              height="16"
+              viewBox="0 0 16 16"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                class="v-icon-primary"
+                clip-rule="evenodd"
+                d="M2.47597 4.00049L1 5.39358L8 12.0005L15 5.39358L13.524 4.00049L8 9.21431L2.47597 4.00049Z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </button>
+        </div>
+      </ul>
+    </nav>
+  </div>
+</div>
+`;

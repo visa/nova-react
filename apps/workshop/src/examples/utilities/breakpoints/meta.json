@@ -1,0 +1,21 @@
+{
+  "container-hide-breakpoints": {
+    "file": "container-hide-breakpoints.tsx",
+    "id": "container-hide-breakpoints",
+    "title": "Hide with breakpoint-matching container query",
+    "description": "In order for container queries to work, the container element must have a display value other than inline (e.g., block, flex, grid). Note that Angular elements (non-native HTML elements such as <app-root>) render display: inline by default, so you may need to change that in some cases.",
+    "testAvg": 100
+  },
+  "hide-breakpoints": {
+    "file": "hide-breakpoints.tsx",
+    "id": "hide-breakpoints",
+    "title": "Hide",
+    "testAvg": 96
+  },
+  "media-hide-breakpoints": {
+    "file": "media-hide-breakpoints.tsx",
+    "title": "Hide with breakpoint-matching media query",
+    "id": "media-hide-breakpoints",
+    "testAvg": 100
+  }
+}

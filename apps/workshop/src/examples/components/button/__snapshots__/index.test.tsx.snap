@@ -1,0 +1,1475 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button examples Alternate UI icon button should render correctly 1`] = `
+<div>
+  <button
+    aria-label="action"
+    class="v-button v-alternate v-button-tertiary v-button-icon"
+  >
+    <svg
+      aria-hidden="true"
+      class="v-icon v-icon-visa v-icon-tiny v-icon-notifications"
+      focusable="false"
+      height="16"
+      viewBox="0 0 16 16"
+      width="16"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        class="v-icon-primary"
+        clip-rule="evenodd"
+        d="M2 6C2 2.68629 4.68629 0 8 0C11.3137 0 14 2.68629 14 6V10H15V12H14H11V13C11 14.6569 9.65685 16 8 16C6.34315 16 5 14.6569 5 13V12H3H1V10H3H5H11H12V6C12 3.79086 10.2091 2 8 2C5.79086 2 4 3.79086 4 6V8H2V6ZM7 12V13C7 13.5523 7.44772 14 8 14C8.55228 14 9 13.5523 9 13V12H7Z"
+        fill-rule="evenodd"
+      />
+    </svg>
+  </button>
+</div>
+`;
+
+exports[`Button examples Alternate primary icon button should render correctly 1`] = `
+<div>
+  <button
+    aria-label="action"
+    class="v-button v-alternate v-button-icon"
+  >
+    <svg
+      aria-hidden="true"
+      class="v-icon v-icon-visa v-icon-tiny v-icon-add"
+      focusable="false"
+      height="16"
+      viewBox="0 0 16 16"
+      width="16"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <rect
+        height="1"
+        transform="translate(7 7.00024)"
+        width="1"
+      />
+      <path
+        class="v-icon-primary"
+        clip-rule="evenodd"
+        d="M9 7V0H7V7H0V9H7V16H9V9H16V7H9Z"
+        fill-rule="evenodd"
+      />
+      <defs>
+        <clippath>
+          <rect
+            height="16"
+            width="16"
+          />
+        </clippath>
+      </defs>
+    </svg>
+  </button>
+</div>
+`;
+
+exports[`Button examples Alternate primary text button should render correctly 1`] = `
+<div>
+  <button
+    class="v-button v-alternate"
+  >
+    Primary action
+  </button>
+</div>
+`;
+
+exports[`Button examples Alternate secondary icon button should render correctly 1`] = `
+<div>
+  <button
+    aria-label="action"
+    class="v-button v-alternate v-button-secondary v-button-icon"
+  >
+    <svg
+      aria-hidden="true"
+      class="v-icon v-icon-visa v-icon-tiny v-icon-connect v-icon-rtl"
+      focusable="false"
+      height="16"
+      viewBox="0 0 16 16"
+      width="16"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        class="v-icon-secondary"
+        clip-rule="evenodd"
+        d="M7.69974 11.3646C8.1485 10.8713 8.49993 10.2878 8.72368 9.64453L10.1935 10.6059C10.696 10.2263 11.3217 10.0012 12 10.0012C13.6568 10.0012 15 11.3444 15 13.0012C15 14.6581 13.6568 16.0012 12 16.0012C10.3431 16.0012 8.99998 14.6581 8.99998 13.0012C8.99998 12.7502 9.03082 12.5063 9.08892 12.2732L7.69974 11.3646ZM13 13.0012C13 13.5535 12.5523 14.0012 12 14.0012C11.4477 14.0012 11 13.5535 11 13.0012C11 12.4489 11.4477 12.0012 12 12.0012C12.5523 12.0012 13 12.4489 13 13.0012Z"
+        fill-rule="evenodd"
+      />
+      <path
+        class="v-icon-primary"
+        clip-rule="evenodd"
+        d="M12 4.00098C12.5523 4.00098 13 3.55326 13 3.00098C13 2.44869 12.5523 2.00098 12 2.00098C11.4477 2.00098 11 2.44869 11 3.00098C11 3.55326 11.4477 4.00098 12 4.00098ZM12 6.00098C13.6569 6.00098 15 4.65783 15 3.00098C15 1.34412 13.6569 0.000976562 12 0.000976562C10.3431 0.000976562 9 1.34412 9 3.00098C9 3.25205 9.03084 3.49591 9.08894 3.72899L5.98997 5.75594C5.46043 5.28621 4.76353 5.00098 4 5.00098C2.34315 5.00098 1 6.34412 1 8.00098C1 9.65783 2.34315 11.001 4 11.001C5.65685 11.001 7 9.65783 7 8.00098C7 7.83417 6.98639 7.67055 6.96021 7.51115L10.1935 5.39633C10.696 5.77589 11.3217 6.00098 12 6.00098ZM4 9.00098C4.55228 9.00098 5 8.55326 5 8.00098C5 7.44869 4.55228 7.00098 4 7.00098C3.44772 7.00098 3 7.44869 3 8.00098C3 8.55326 3.44772 9.00098 4 9.00098Z"
+        fill-rule="evenodd"
+      />
+      <defs>
+        <clippath>
+          <rect
+            height="16"
+            transform="translate(0 0.000976562)"
+            width="16"
+          />
+        </clippath>
+      </defs>
+    </svg>
+  </button>
+</div>
+`;
+
+exports[`Button examples Alternate secondary text button should render correctly 1`] = `
+<div>
+  <button
+    class="v-button v-alternate v-button-secondary"
+  >
+    Secondary action
+  </button>
+</div>
+`;
+
+exports[`Button examples Alternate stacked icon button should render correctly 1`] = `
+<div>
+  <button
+    class="v-button v-alternate v-button-tertiary v-button-stacked"
+  >
+    <svg
+      aria-hidden="true"
+      class="v-icon v-icon-visa v-icon-low v-icon-glossary"
+      focusable="false"
+      height="24"
+      viewBox="0 0 24 24"
+      width="24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        class="v-icon-secondary"
+        clip-rule="evenodd"
+        d="M5 6H9V8H5V6ZM5 10H9V12H5V10ZM9 14H5V16H9V14ZM15 6H19V8H15V6ZM19 10H15V12H19V10ZM15 14H19V16H15V14Z"
+        fill-rule="evenodd"
+      />
+      <path
+        class="v-icon-primary"
+        clip-rule="evenodd"
+        d="M11.3 23H12.71L14.41 21.2672H21C22.1 21.2672 23 20.3551 23 19.2404V3.02672C23 1.91202 22.1 1 21 1H3C1.9 1 1 1.91202 1 3.02672V19.2404C1 20.3551 1.9 21.2672 3 21.2672H9.59L11.3 23ZM3 19.2404V3.02672H11V19.8383C10.63 19.4532 10.12 19.2404 9.59 19.2404H3ZM14.41 19.2404C13.89 19.2404 13.37 19.4634 13 19.8383V3.02672H21V19.2404H14.41Z"
+        fill-rule="evenodd"
+      />
+    </svg>
+    Action
+  </button>
+</div>
+`;
+
+exports[`Button examples Alternate tertiary text button should render correctly 1`] = `
+<div>
+  <button
+    class="v-button v-alternate v-button-tertiary"
+  >
+    Tertiary action
+  </button>
+</div>
+`;
+
+exports[`Button examples Button coded as a link should render correctly 1`] = `
+<div>
+  <a
+    class="v-button"
+    href="./button"
+  >
+    Primary action
+    <svg
+      aria-hidden="true"
+      class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-right v-icon-rtl"
+      focusable="false"
+      height="16"
+      viewBox="0 0 16 16"
+      width="16"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        class="v-icon-primary"
+        clip-rule="evenodd"
+        d="M5.39309 1.00049L12 8.00049L5.39309 15.0005L4 13.5245L9.21383 8.00049L4 2.47646L5.39309 1.00049Z"
+        fill-rule="evenodd"
+      />
+    </svg>
+  </a>
+</div>
+`;
+
+exports[`Button examples Default primary icon button should render correctly 1`] = `
+<div>
+  <button
+    aria-label="action"
+    class="v-button v-button-icon"
+  >
+    <svg
+      aria-hidden="true"
+      class="v-icon v-icon-visa v-icon-tiny v-icon-add"
+      focusable="false"
+      height="16"
+      viewBox="0 0 16 16"
+      width="16"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <rect
+        height="1"
+        transform="translate(7 7.00024)"
+        width="1"
+      />
+      <path
+        class="v-icon-primary"
+        clip-rule="evenodd"
+        d="M9 7V0H7V7H0V9H7V16H9V9H16V7H9Z"
+        fill-rule="evenodd"
+      />
+      <defs>
+        <clippath>
+          <rect
+            height="16"
+            width="16"
+          />
+        </clippath>
+      </defs>
+    </svg>
+  </button>
+</div>
+`;
+
+exports[`Button examples Default primary text button should render correctly 1`] = `
+<div>
+  <button
+    class="v-button"
+  >
+    Primary action
+  </button>
+</div>
+`;
+
+exports[`Button examples Default secondary icon button should render correctly 1`] = `
+<div>
+  <button
+    aria-label="action"
+    class="v-button v-button-secondary v-button-icon"
+  >
+    <svg
+      aria-hidden="true"
+      class="v-icon v-icon-visa v-icon-tiny v-icon-connect v-icon-rtl"
+      focusable="false"
+      height="16"
+      viewBox="0 0 16 16"
+      width="16"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        class="v-icon-secondary"
+        clip-rule="evenodd"
+        d="M7.69974 11.3646C8.1485 10.8713 8.49993 10.2878 8.72368 9.64453L10.1935 10.6059C10.696 10.2263 11.3217 10.0012 12 10.0012C13.6568 10.0012 15 11.3444 15 13.0012C15 14.6581 13.6568 16.0012 12 16.0012C10.3431 16.0012 8.99998 14.6581 8.99998 13.0012C8.99998 12.7502 9.03082 12.5063 9.08892 12.2732L7.69974 11.3646ZM13 13.0012C13 13.5535 12.5523 14.0012 12 14.0012C11.4477 14.0012 11 13.5535 11 13.0012C11 12.4489 11.4477 12.0012 12 12.0012C12.5523 12.0012 13 12.4489 13 13.0012Z"
+        fill-rule="evenodd"
+      />
+      <path
+        class="v-icon-primary"
+        clip-rule="evenodd"
+        d="M12 4.00098C12.5523 4.00098 13 3.55326 13 3.00098C13 2.44869 12.5523 2.00098 12 2.00098C11.4477 2.00098 11 2.44869 11 3.00098C11 3.55326 11.4477 4.00098 12 4.00098ZM12 6.00098C13.6569 6.00098 15 4.65783 15 3.00098C15 1.34412 13.6569 0.000976562 12 0.000976562C10.3431 0.000976562 9 1.34412 9 3.00098C9 3.25205 9.03084 3.49591 9.08894 3.72899L5.98997 5.75594C5.46043 5.28621 4.76353 5.00098 4 5.00098C2.34315 5.00098 1 6.34412 1 8.00098C1 9.65783 2.34315 11.001 4 11.001C5.65685 11.001 7 9.65783 7 8.00098C7 7.83417 6.98639 7.67055 6.96021 7.51115L10.1935 5.39633C10.696 5.77589 11.3217 6.00098 12 6.00098ZM4 9.00098C4.55228 9.00098 5 8.55326 5 8.00098C5 7.44869 4.55228 7.00098 4 7.00098C3.44772 7.00098 3 7.44869 3 8.00098C3 8.55326 3.44772 9.00098 4 9.00098Z"
+        fill-rule="evenodd"
+      />
+      <defs>
+        <clippath>
+          <rect
+            height="16"
+            transform="translate(0 0.000976562)"
+            width="16"
+          />
+        </clippath>
+      </defs>
+    </svg>
+  </button>
+</div>
+`;
+
+exports[`Button examples Default secondary text button should render correctly 1`] = `
+<div>
+  <button
+    class="v-button v-button-secondary"
+  >
+    Secondary action
+  </button>
+</div>
+`;
+
+exports[`Button examples Default stacked icon button should render correctly 1`] = `
+<div>
+  <button
+    class="v-button v-button-tertiary v-button-stacked"
+  >
+    <svg
+      aria-hidden="true"
+      class="v-icon v-icon-visa v-icon-low v-icon-glossary"
+      focusable="false"
+      height="24"
+      viewBox="0 0 24 24"
+      width="24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        class="v-icon-secondary"
+        clip-rule="evenodd"
+        d="M5 6H9V8H5V6ZM5 10H9V12H5V10ZM9 14H5V16H9V14ZM15 6H19V8H15V6ZM19 10H15V12H19V10ZM15 14H19V16H15V14Z"
+        fill-rule="evenodd"
+      />
+      <path
+        class="v-icon-primary"
+        clip-rule="evenodd"
+        d="M11.3 23H12.71L14.41 21.2672H21C22.1 21.2672 23 20.3551 23 19.2404V3.02672C23 1.91202 22.1 1 21 1H3C1.9 1 1 1.91202 1 3.02672V19.2404C1 20.3551 1.9 21.2672 3 21.2672H9.59L11.3 23ZM3 19.2404V3.02672H11V19.8383C10.63 19.4532 10.12 19.2404 9.59 19.2404H3ZM14.41 19.2404C13.89 19.2404 13.37 19.4634 13 19.8383V3.02672H21V19.2404H14.41Z"
+        fill-rule="evenodd"
+      />
+    </svg>
+    Action
+  </button>
+</div>
+`;
+
+exports[`Button examples Default tertiary text button should render correctly 1`] = `
+<div>
+  <button
+    class="v-button v-button-tertiary"
+  >
+    Tertiary action
+  </button>
+</div>
+`;
+
+exports[`Button examples Disabled primary icon button should render correctly 1`] = `
+<div>
+  <div
+    class="v-flex v-flex-row"
+  >
+    <div
+      class="v-align-items-center v-flex v-flex-col v-gap-2"
+    >
+      <button
+        aria-labelledby="disabled-icon-button-label"
+        class="v-button v-button-icon"
+        disabled=""
+      >
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-tiny v-icon-add"
+          focusable="false"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <rect
+            height="1"
+            transform="translate(7 7.00024)"
+            width="1"
+          />
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M9 7V0H7V7H0V9H7V16H9V9H16V7H9Z"
+            fill-rule="evenodd"
+          />
+          <defs>
+            <clippath>
+              <rect
+                height="16"
+                width="16"
+              />
+            </clippath>
+          </defs>
+        </svg>
+      </button>
+      <span
+        class="v-typography-label-small"
+        id="disabled-icon-button-label"
+      >
+        Action
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Button examples Disabled primary text button should render correctly 1`] = `
+<div>
+  <button
+    class="v-button"
+    disabled=""
+  >
+    <svg
+      aria-hidden="true"
+      class="v-icon v-icon-visa v-icon-tiny v-icon-file-upload"
+      focusable="false"
+      height="16"
+      viewBox="0 0 16 16"
+      width="16"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        class="v-icon-secondary"
+        d="M0 10H2V14H14V10H16V16H0V10Z"
+      />
+      <path
+        class="v-icon-primary"
+        clip-rule="evenodd"
+        d="M9.00062 3.86585L11.0762 5.97354L12.5012 4.57022L8.71313 0.72353L8.00062 0L7.28811 0.72353L3.5 4.57022L4.92502 5.97354L7.00062 3.86585V12.0036H9.00062V3.86585Z"
+        fill-rule="evenodd"
+      />
+    </svg>
+    Primary action
+  </button>
+</div>
+`;
+
+exports[`Button examples Disabled secondary icon button should render correctly 1`] = `
+<div>
+  <div
+    class="v-flex v-flex-row"
+  >
+    <div
+      class="v-align-items-center v-flex v-flex-col"
+    >
+      <button
+        aria-labelledby="disabled-secondary-icon-button-label"
+        class="v-button v-button-secondary v-button-icon"
+        disabled=""
+      >
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-tiny v-icon-connect v-icon-rtl"
+          focusable="false"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-secondary"
+            clip-rule="evenodd"
+            d="M7.69974 11.3646C8.1485 10.8713 8.49993 10.2878 8.72368 9.64453L10.1935 10.6059C10.696 10.2263 11.3217 10.0012 12 10.0012C13.6568 10.0012 15 11.3444 15 13.0012C15 14.6581 13.6568 16.0012 12 16.0012C10.3431 16.0012 8.99998 14.6581 8.99998 13.0012C8.99998 12.7502 9.03082 12.5063 9.08892 12.2732L7.69974 11.3646ZM13 13.0012C13 13.5535 12.5523 14.0012 12 14.0012C11.4477 14.0012 11 13.5535 11 13.0012C11 12.4489 11.4477 12.0012 12 12.0012C12.5523 12.0012 13 12.4489 13 13.0012Z"
+            fill-rule="evenodd"
+          />
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M12 4.00098C12.5523 4.00098 13 3.55326 13 3.00098C13 2.44869 12.5523 2.00098 12 2.00098C11.4477 2.00098 11 2.44869 11 3.00098C11 3.55326 11.4477 4.00098 12 4.00098ZM12 6.00098C13.6569 6.00098 15 4.65783 15 3.00098C15 1.34412 13.6569 0.000976562 12 0.000976562C10.3431 0.000976562 9 1.34412 9 3.00098C9 3.25205 9.03084 3.49591 9.08894 3.72899L5.98997 5.75594C5.46043 5.28621 4.76353 5.00098 4 5.00098C2.34315 5.00098 1 6.34412 1 8.00098C1 9.65783 2.34315 11.001 4 11.001C5.65685 11.001 7 9.65783 7 8.00098C7 7.83417 6.98639 7.67055 6.96021 7.51115L10.1935 5.39633C10.696 5.77589 11.3217 6.00098 12 6.00098ZM4 9.00098C4.55228 9.00098 5 8.55326 5 8.00098C5 7.44869 4.55228 7.00098 4 7.00098C3.44772 7.00098 3 7.44869 3 8.00098C3 8.55326 3.44772 9.00098 4 9.00098Z"
+            fill-rule="evenodd"
+          />
+          <defs>
+            <clippath>
+              <rect
+                height="16"
+                transform="translate(0 0.000976562)"
+                width="16"
+              />
+            </clippath>
+          </defs>
+        </svg>
+      </button>
+      <span
+        class="v-typography-label-small"
+        id="disabled-secondary-icon-button-label"
+      >
+        Action
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Button examples Disabled secondary text button should render correctly 1`] = `
+<div>
+  <button
+    class="v-button v-button-secondary"
+    disabled=""
+  >
+    <svg
+      aria-hidden="true"
+      class="v-icon v-icon-visa v-icon-tiny v-icon-save"
+      focusable="false"
+      height="16"
+      viewBox="0 0 16 16"
+      width="16"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        class="v-icon-primary"
+        clip-rule="evenodd"
+        d="M0 2H8V0H0V2ZM14 14V6H2V14H3V16H0V4H16V16H13V14H14Z"
+        fill-rule="evenodd"
+      />
+      <path
+        class="v-icon-secondary"
+        d="M8 16L4.5 12.2579L5.83962 10.8217L7.0566 12.1365V8H8.9434V12.1365L10.1604 10.8217L11.5 12.2579L8 16Z"
+      />
+      <defs>
+        <clippath>
+          <rect
+            height="16"
+            width="16"
+          />
+        </clippath>
+      </defs>
+    </svg>
+    Secondary action
+  </button>
+</div>
+`;
+
+exports[`Button examples Disabled tertiary text button should render correctly 1`] = `
+<div>
+  <button
+    class="v-button v-button-tertiary"
+    disabled=""
+  >
+    <svg
+      aria-hidden="true"
+      class="v-icon v-icon-visa v-icon-tiny v-icon-history"
+      focusable="false"
+      height="16"
+      viewBox="0 0 16 16"
+      width="16"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        class="v-icon-secondary"
+        clip-rule="evenodd"
+        d="M7 4H9V7.19575L10.47 6.277L11.53 7.973L7 10.8042V4Z"
+        fill-rule="evenodd"
+      />
+      <path
+        class="v-icon-primary"
+        clip-rule="evenodd"
+        d="M2 8C2 4.68629 4.68629 2 8 2C11.3137 2 14 4.68629 14 8C14 11.3137 11.3137 14 8 14V16C12.4183 16 16 12.4183 16 8C16 3.58172 12.4183 0 8 0C3.58172 0 0 3.58172 0 8C0 10.3904 1.0484 12.5348 2.70861 14H1V16H6V11H4V12.4724C2.77174 11.3731 2 9.77615 2 8Z"
+        fill-rule="evenodd"
+      />
+      <defs>
+        <clippath>
+          <rect
+            height="16"
+            width="16"
+          />
+        </clippath>
+      </defs>
+    </svg>
+    Tertiary action
+  </button>
+</div>
+`;
+
+exports[`Button examples Large UI icon button should render correctly 1`] = `
+<div>
+  <button
+    aria-label="action"
+    class="v-button v-button-large v-button-tertiary v-button-icon"
+  >
+    <svg
+      aria-hidden="true"
+      class="v-icon v-icon-visa v-icon-low v-icon-notifications"
+      focusable="false"
+      height="24"
+      viewBox="0 0 24 24"
+      width="24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        class="v-icon-secondary"
+        clip-rule="evenodd"
+        d="M12 0C8.13401 0 5 3.13401 5 7V14H7V7C7 4.23858 9.23858 2 12 2C14.7614 2 17 4.2386 17 7.00003V11C17 12.9259 17.8249 14.2261 18.9157 15.0115C19.5873 15.4951 20.3332 15.7664 21 15.8979V16H1V18H22C22.5523 18 23 17.5523 23 17V15C23 14.4477 22.5523 14 22 14C21.4934 14 20.7111 13.8398 20.0843 13.3885C19.5085 12.9739 19 12.2741 19 11V7.00003C19 3.13404 15.866 0 12 0ZM12 6C12.5523 6 13 6.44772 13 7V11H15V7C15 5.34315 13.6569 4 12 4V6Z"
+        fill-rule="evenodd"
+      />
+      <path
+        class="v-icon-primary"
+        clip-rule="evenodd"
+        d="M9 20V21C9 22.6569 10.3431 24 12 24C13.6569 24 15 22.6569 15 21V20H13V21C13 21.5523 12.5523 22 12 22C11.4477 22 11 21.5523 11 21V20H9Z"
+        fill-rule="evenodd"
+      />
+    </svg>
+  </button>
+</div>
+`;
+
+exports[`Button examples Large primary icon button should render correctly 1`] = `
+<div>
+  <button
+    aria-label="action"
+    class="v-button v-button-large v-button-icon v-icon-two-color"
+  >
+    <svg
+      aria-hidden="true"
+      class="v-icon v-icon-visa v-icon-low v-icon-add"
+      focusable="false"
+      height="24"
+      viewBox="0 0 24 24"
+      width="24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <rect
+        height="1"
+        transform="translate(12 12)"
+        width="1"
+      />
+      <path
+        class="v-icon-primary"
+        clip-rule="evenodd"
+        d="M13 11V0H11V11H0V13H11V24H13V13H24V11H13Z"
+        fill-rule="evenodd"
+      />
+      <defs>
+        <clippath>
+          <rect
+            height="24"
+            width="24"
+          />
+        </clippath>
+      </defs>
+    </svg>
+  </button>
+</div>
+`;
+
+exports[`Button examples Large primary text button should render correctly 1`] = `
+<div>
+  <button
+    class="v-button v-button-large v-icon-two-color"
+  >
+    <svg
+      aria-hidden="true"
+      class="v-icon v-icon-visa v-icon-tiny v-icon-file-upload"
+      focusable="false"
+      height="16"
+      viewBox="0 0 16 16"
+      width="16"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        class="v-icon-secondary"
+        d="M0 10H2V14H14V10H16V16H0V10Z"
+      />
+      <path
+        class="v-icon-primary"
+        clip-rule="evenodd"
+        d="M9.00062 3.86585L11.0762 5.97354L12.5012 4.57022L8.71313 0.72353L8.00062 0L7.28811 0.72353L3.5 4.57022L4.92502 5.97354L7.00062 3.86585V12.0036H9.00062V3.86585Z"
+        fill-rule="evenodd"
+      />
+    </svg>
+    Primary action
+  </button>
+</div>
+`;
+
+exports[`Button examples Large secondary icon button should render correctly 1`] = `
+<div>
+  <button
+    aria-label="action"
+    class="v-button v-button-large v-button-secondary v-button-icon"
+  >
+    <svg
+      aria-hidden="true"
+      class="v-icon v-icon-visa v-icon-low v-icon-connect v-icon-rtl"
+      focusable="false"
+      height="24"
+      viewBox="0 0 24 24"
+      width="24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        class="v-icon-secondary"
+        clip-rule="evenodd"
+        d="M12 16.501C12 17.3294 11.3284 18.001 10.5 18.001C9.67157 18.001 9 17.3294 9 16.501C9 15.6725 9.67157 15.001 10.5 15.001C11.3284 15.001 12 15.6725 12 16.501ZM17 24.001C19.2091 24.001 21 22.2101 21 20.001C21 17.7918 19.2091 16.001 17 16.001C14.7909 16.001 13 17.7918 13 20.001C13 22.2101 14.7909 24.001 17 24.001ZM17 22.001C18.1046 22.001 19 21.1055 19 20.001C19 18.8964 18.1046 18.001 17 18.001C15.8954 18.001 15 18.8964 15 20.001C15 21.1055 15.8954 22.001 17 22.001Z"
+        fill-rule="evenodd"
+      />
+      <path
+        class="v-icon-primary"
+        clip-rule="evenodd"
+        d="M17 8.00098C19.2091 8.00098 21 6.21012 21 4.00098C21 1.79184 19.2091 0.000976562 17 0.000976562C14.7909 0.000976562 13 1.79184 13 4.00098C13 4.46238 13.0781 4.90553 13.2219 5.31793L7.66788 9.02058C6.96006 8.38655 6.02506 8.00098 5 8.00098C2.79086 8.00098 1 9.79184 1 12.001C1 14.2101 2.79086 16.001 5 16.001C7.20914 16.001 9 14.2101 9 12.001C9 11.5396 8.92189 11.0965 8.77816 10.6841L14.3322 6.98142C15.04 7.61542 15.975 8.00098 17 8.00098ZM17 6.00098C18.1046 6.00098 19 5.10555 19 4.00098C19 2.89641 18.1046 2.00098 17 2.00098C15.8954 2.00098 15 2.89641 15 4.00098C15 5.10555 15.8954 6.00098 17 6.00098ZM5 14.001C6.10457 14.001 7 13.1055 7 12.001C7 10.8964 6.10457 10.001 5 10.001C3.89543 10.001 3 10.8964 3 12.001C3 13.1055 3.89543 14.001 5 14.001Z"
+        fill-rule="evenodd"
+      />
+    </svg>
+  </button>
+</div>
+`;
+
+exports[`Button examples Large secondary text button should render correctly 1`] = `
+<div>
+  <button
+    class="v-button v-button-large v-button-secondary"
+  >
+    <svg
+      aria-hidden="true"
+      class="v-icon v-icon-visa v-icon-tiny v-icon-save"
+      focusable="false"
+      height="16"
+      viewBox="0 0 16 16"
+      width="16"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        class="v-icon-primary"
+        clip-rule="evenodd"
+        d="M0 2H8V0H0V2ZM14 14V6H2V14H3V16H0V4H16V16H13V14H14Z"
+        fill-rule="evenodd"
+      />
+      <path
+        class="v-icon-secondary"
+        d="M8 16L4.5 12.2579L5.83962 10.8217L7.0566 12.1365V8H8.9434V12.1365L10.1604 10.8217L11.5 12.2579L8 16Z"
+      />
+      <defs>
+        <clippath>
+          <rect
+            height="16"
+            width="16"
+          />
+        </clippath>
+      </defs>
+    </svg>
+    Secondary action
+  </button>
+</div>
+`;
+
+exports[`Button examples Large tertiary text button should render correctly 1`] = `
+<div>
+  <button
+    class="v-button v-button-large v-button-tertiary"
+  >
+    <svg
+      aria-hidden="true"
+      class="v-icon v-icon-visa v-icon-tiny v-icon-history"
+      focusable="false"
+      height="16"
+      viewBox="0 0 16 16"
+      width="16"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        class="v-icon-secondary"
+        clip-rule="evenodd"
+        d="M7 4H9V7.19575L10.47 6.277L11.53 7.973L7 10.8042V4Z"
+        fill-rule="evenodd"
+      />
+      <path
+        class="v-icon-primary"
+        clip-rule="evenodd"
+        d="M2 8C2 4.68629 4.68629 2 8 2C11.3137 2 14 4.68629 14 8C14 11.3137 11.3137 14 8 14V16C12.4183 16 16 12.4183 16 8C16 3.58172 12.4183 0 8 0C3.58172 0 0 3.58172 0 8C0 10.3904 1.0484 12.5348 2.70861 14H1V16H6V11H4V12.4724C2.77174 11.3731 2 9.77615 2 8Z"
+        fill-rule="evenodd"
+      />
+      <defs>
+        <clippath>
+          <rect
+            height="16"
+            width="16"
+          />
+        </clippath>
+      </defs>
+    </svg>
+    Tertiary action
+  </button>
+</div>
+`;
+
+exports[`Button examples Medium UI icon button should render correctly 1`] = `
+<div>
+  <button
+    aria-label="action"
+    class="v-button v-button-tertiary v-button-icon"
+  >
+    <svg
+      aria-hidden="true"
+      class="v-icon v-icon-visa v-icon-tiny v-icon-notifications"
+      focusable="false"
+      height="16"
+      viewBox="0 0 16 16"
+      width="16"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        class="v-icon-primary"
+        clip-rule="evenodd"
+        d="M2 6C2 2.68629 4.68629 0 8 0C11.3137 0 14 2.68629 14 6V10H15V12H14H11V13C11 14.6569 9.65685 16 8 16C6.34315 16 5 14.6569 5 13V12H3H1V10H3H5H11H12V6C12 3.79086 10.2091 2 8 2C5.79086 2 4 3.79086 4 6V8H2V6ZM7 12V13C7 13.5523 7.44772 14 8 14C8.55228 14 9 13.5523 9 13V12H7Z"
+        fill-rule="evenodd"
+      />
+    </svg>
+  </button>
+</div>
+`;
+
+exports[`Button examples Primary destructive text button should render correctly 1`] = `
+<div>
+  <button
+    class="v-button v-button-destructive"
+  >
+    <svg
+      aria-hidden="true"
+      class="v-icon v-icon-visa v-icon-tiny v-icon-delete"
+      focusable="false"
+      height="16"
+      viewBox="0 0 16 16"
+      width="16"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        class="v-icon-secondary"
+        clip-rule="evenodd"
+        d="M9 2.00049H16V4.00049H14V16.0005H2V6.00049H4V14.0005H12V4.00049H0V2.00049H7L7 0.000488281H9V2.00049Z"
+        fill-rule="evenodd"
+      />
+      <path
+        class="v-icon-primary"
+        clip-rule="evenodd"
+        d="M8.00001 10.4148L6.20712 12.2077L4.79291 10.7935L6.5858 9.00056L4.79291 7.20767L6.20712 5.79346L8.00001 7.58635L9.79291 5.79346L11.2071 7.20767L9.41423 9.00056L11.2071 10.7935L9.79291 12.2077L8.00001 10.4148Z"
+        fill-rule="evenodd"
+      />
+      <defs>
+        <clippath>
+          <rect
+            height="16"
+            transform="translate(0 0.000488281)"
+            width="16"
+          />
+        </clippath>
+      </defs>
+    </svg>
+    Destructive action
+  </button>
+</div>
+`;
+
+exports[`Button examples Primary icon button with label should render correctly 1`] = `
+<div>
+  <div
+    class="v-flex v-flex-row"
+  >
+    <div
+      class="v-align-items-center v-flex v-flex-col v-gap-2"
+    >
+      <button
+        aria-labelledby="icon-button-label"
+        class="v-button v-button-icon"
+      >
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-tiny v-icon-add"
+          focusable="false"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <rect
+            height="1"
+            transform="translate(7 7.00024)"
+            width="1"
+          />
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M9 7V0H7V7H0V9H7V16H9V9H16V7H9Z"
+            fill-rule="evenodd"
+          />
+          <defs>
+            <clippath>
+              <rect
+                height="16"
+                width="16"
+              />
+            </clippath>
+          </defs>
+        </svg>
+      </button>
+      <span
+        class="v-typography-label-small"
+        id="icon-button-label"
+      >
+        Action
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Button examples Primary text button with leading icon should render correctly 1`] = `
+<div>
+  <button
+    class="v-button v-icon-two-color"
+  >
+    <svg
+      aria-hidden="true"
+      class="v-icon v-icon-visa v-icon-tiny v-icon-file-upload"
+      focusable="false"
+      height="16"
+      viewBox="0 0 16 16"
+      width="16"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        class="v-icon-secondary"
+        d="M0 10H2V14H14V10H16V16H0V10Z"
+      />
+      <path
+        class="v-icon-primary"
+        clip-rule="evenodd"
+        d="M9.00062 3.86585L11.0762 5.97354L12.5012 4.57022L8.71313 0.72353L8.00062 0L7.28811 0.72353L3.5 4.57022L4.92502 5.97354L7.00062 3.86585V12.0036H9.00062V3.86585Z"
+        fill-rule="evenodd"
+      />
+    </svg>
+    Primary action
+  </button>
+</div>
+`;
+
+exports[`Button examples Primary text button with trailing icon should render correctly 1`] = `
+<div>
+  <button
+    class="v-button v-icon-two-color"
+  >
+    Primary action
+    <svg
+      aria-hidden="true"
+      class="v-icon v-icon-visa v-icon-tiny v-icon-file-upload"
+      focusable="false"
+      height="16"
+      viewBox="0 0 16 16"
+      width="16"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        class="v-icon-secondary"
+        d="M0 10H2V14H14V10H16V16H0V10Z"
+      />
+      <path
+        class="v-icon-primary"
+        clip-rule="evenodd"
+        d="M9.00062 3.86585L11.0762 5.97354L12.5012 4.57022L8.71313 0.72353L8.00062 0L7.28811 0.72353L3.5 4.57022L4.92502 5.97354L7.00062 3.86585V12.0036H9.00062V3.86585Z"
+        fill-rule="evenodd"
+      />
+    </svg>
+  </button>
+</div>
+`;
+
+exports[`Button examples Secondary destructive text button should render correctly 1`] = `
+<div>
+  <button
+    class="v-button v-button-secondary v-button-destructive"
+  >
+    <svg
+      aria-hidden="true"
+      class="v-icon v-icon-visa v-icon-tiny v-icon-delete"
+      focusable="false"
+      height="16"
+      viewBox="0 0 16 16"
+      width="16"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        class="v-icon-secondary"
+        clip-rule="evenodd"
+        d="M9 2.00049H16V4.00049H14V16.0005H2V6.00049H4V14.0005H12V4.00049H0V2.00049H7L7 0.000488281H9V2.00049Z"
+        fill-rule="evenodd"
+      />
+      <path
+        class="v-icon-primary"
+        clip-rule="evenodd"
+        d="M8.00001 10.4148L6.20712 12.2077L4.79291 10.7935L6.5858 9.00056L4.79291 7.20767L6.20712 5.79346L8.00001 7.58635L9.79291 5.79346L11.2071 7.20767L9.41423 9.00056L11.2071 10.7935L9.79291 12.2077L8.00001 10.4148Z"
+        fill-rule="evenodd"
+      />
+      <defs>
+        <clippath>
+          <rect
+            height="16"
+            transform="translate(0 0.000488281)"
+            width="16"
+          />
+        </clippath>
+      </defs>
+    </svg>
+    Destructive action
+  </button>
+</div>
+`;
+
+exports[`Button examples Secondary icon button with label should render correctly 1`] = `
+<div>
+  <div
+    class="v-flex v-flex-row"
+  >
+    <div
+      class="v-align-items-center v-flex v-flex-col v-gap-2"
+    >
+      <button
+        aria-labelledby="secondary-icon-button-label"
+        class="v-button v-button-secondary v-button-icon"
+      >
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-tiny v-icon-connect v-icon-rtl"
+          focusable="false"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-secondary"
+            clip-rule="evenodd"
+            d="M7.69974 11.3646C8.1485 10.8713 8.49993 10.2878 8.72368 9.64453L10.1935 10.6059C10.696 10.2263 11.3217 10.0012 12 10.0012C13.6568 10.0012 15 11.3444 15 13.0012C15 14.6581 13.6568 16.0012 12 16.0012C10.3431 16.0012 8.99998 14.6581 8.99998 13.0012C8.99998 12.7502 9.03082 12.5063 9.08892 12.2732L7.69974 11.3646ZM13 13.0012C13 13.5535 12.5523 14.0012 12 14.0012C11.4477 14.0012 11 13.5535 11 13.0012C11 12.4489 11.4477 12.0012 12 12.0012C12.5523 12.0012 13 12.4489 13 13.0012Z"
+            fill-rule="evenodd"
+          />
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M12 4.00098C12.5523 4.00098 13 3.55326 13 3.00098C13 2.44869 12.5523 2.00098 12 2.00098C11.4477 2.00098 11 2.44869 11 3.00098C11 3.55326 11.4477 4.00098 12 4.00098ZM12 6.00098C13.6569 6.00098 15 4.65783 15 3.00098C15 1.34412 13.6569 0.000976562 12 0.000976562C10.3431 0.000976562 9 1.34412 9 3.00098C9 3.25205 9.03084 3.49591 9.08894 3.72899L5.98997 5.75594C5.46043 5.28621 4.76353 5.00098 4 5.00098C2.34315 5.00098 1 6.34412 1 8.00098C1 9.65783 2.34315 11.001 4 11.001C5.65685 11.001 7 9.65783 7 8.00098C7 7.83417 6.98639 7.67055 6.96021 7.51115L10.1935 5.39633C10.696 5.77589 11.3217 6.00098 12 6.00098ZM4 9.00098C4.55228 9.00098 5 8.55326 5 8.00098C5 7.44869 4.55228 7.00098 4 7.00098C3.44772 7.00098 3 7.44869 3 8.00098C3 8.55326 3.44772 9.00098 4 9.00098Z"
+            fill-rule="evenodd"
+          />
+          <defs>
+            <clippath>
+              <rect
+                height="16"
+                transform="translate(0 0.000976562)"
+                width="16"
+              />
+            </clippath>
+          </defs>
+        </svg>
+      </button>
+      <span
+        class="v-typography-label-small"
+        id="secondary-icon-button-label"
+      >
+        Action
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Button examples Secondary text button with leading icon should render correctly 1`] = `
+<div>
+  <button
+    class="v-button v-button-secondary"
+  >
+    <svg
+      aria-hidden="true"
+      class="v-icon v-icon-visa v-icon-tiny v-icon-save"
+      focusable="false"
+      height="16"
+      viewBox="0 0 16 16"
+      width="16"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        class="v-icon-primary"
+        clip-rule="evenodd"
+        d="M0 2H8V0H0V2ZM14 14V6H2V14H3V16H0V4H16V16H13V14H14Z"
+        fill-rule="evenodd"
+      />
+      <path
+        class="v-icon-secondary"
+        d="M8 16L4.5 12.2579L5.83962 10.8217L7.0566 12.1365V8H8.9434V12.1365L10.1604 10.8217L11.5 12.2579L8 16Z"
+      />
+      <defs>
+        <clippath>
+          <rect
+            height="16"
+            width="16"
+          />
+        </clippath>
+      </defs>
+    </svg>
+    Secondary action
+  </button>
+</div>
+`;
+
+exports[`Button examples Secondary text button with trailing icon should render correctly 1`] = `
+<div>
+  <button
+    class="v-button v-button-secondary"
+  >
+    Secondary action
+    <svg
+      aria-hidden="true"
+      class="v-icon v-icon-visa v-icon-tiny v-icon-save"
+      focusable="false"
+      height="16"
+      viewBox="0 0 16 16"
+      width="16"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        class="v-icon-primary"
+        clip-rule="evenodd"
+        d="M0 2H8V0H0V2ZM14 14V6H2V14H3V16H0V4H16V16H13V14H14Z"
+        fill-rule="evenodd"
+      />
+      <path
+        class="v-icon-secondary"
+        d="M8 16L4.5 12.2579L5.83962 10.8217L7.0566 12.1365V8H8.9434V12.1365L10.1604 10.8217L11.5 12.2579L8 16Z"
+      />
+      <defs>
+        <clippath>
+          <rect
+            height="16"
+            width="16"
+          />
+        </clippath>
+      </defs>
+    </svg>
+  </button>
+</div>
+`;
+
+exports[`Button examples Small UI icon button should render correctly 1`] = `
+<div>
+  <button
+    aria-label="action"
+    class="v-button v-button-small v-button-tertiary v-button-icon"
+  >
+    <svg
+      aria-hidden="true"
+      class="v-icon v-icon-visa v-icon-tiny v-icon-notifications"
+      focusable="false"
+      height="16"
+      viewBox="0 0 16 16"
+      width="16"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        class="v-icon-primary"
+        clip-rule="evenodd"
+        d="M2 6C2 2.68629 4.68629 0 8 0C11.3137 0 14 2.68629 14 6V10H15V12H14H11V13C11 14.6569 9.65685 16 8 16C6.34315 16 5 14.6569 5 13V12H3H1V10H3H5H11H12V6C12 3.79086 10.2091 2 8 2C5.79086 2 4 3.79086 4 6V8H2V6ZM7 12V13C7 13.5523 7.44772 14 8 14C8.55228 14 9 13.5523 9 13V12H7Z"
+        fill-rule="evenodd"
+      />
+    </svg>
+  </button>
+</div>
+`;
+
+exports[`Button examples Small primary icon button should render correctly 1`] = `
+<div>
+  <button
+    aria-label="action"
+    class="v-button v-button-small v-button-icon v-icon-two-color"
+  >
+    <svg
+      aria-hidden="true"
+      class="v-icon v-icon-visa v-icon-tiny v-icon-add"
+      focusable="false"
+      height="16"
+      viewBox="0 0 16 16"
+      width="16"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <rect
+        height="1"
+        transform="translate(7 7.00024)"
+        width="1"
+      />
+      <path
+        class="v-icon-primary"
+        clip-rule="evenodd"
+        d="M9 7V0H7V7H0V9H7V16H9V9H16V7H9Z"
+        fill-rule="evenodd"
+      />
+      <defs>
+        <clippath>
+          <rect
+            height="16"
+            width="16"
+          />
+        </clippath>
+      </defs>
+    </svg>
+  </button>
+</div>
+`;
+
+exports[`Button examples Small primary text button should render correctly 1`] = `
+<div>
+  <button
+    class="v-button v-button-small v-icon-two-color"
+  >
+    <svg
+      aria-hidden="true"
+      class="v-icon v-icon-visa v-icon-tiny v-icon-file-upload"
+      focusable="false"
+      height="16"
+      viewBox="0 0 16 16"
+      width="16"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        class="v-icon-secondary"
+        d="M0 10H2V14H14V10H16V16H0V10Z"
+      />
+      <path
+        class="v-icon-primary"
+        clip-rule="evenodd"
+        d="M9.00062 3.86585L11.0762 5.97354L12.5012 4.57022L8.71313 0.72353L8.00062 0L7.28811 0.72353L3.5 4.57022L4.92502 5.97354L7.00062 3.86585V12.0036H9.00062V3.86585Z"
+        fill-rule="evenodd"
+      />
+    </svg>
+    Primary action
+  </button>
+</div>
+`;
+
+exports[`Button examples Small secondary text button should render correctly 1`] = `
+<div>
+  <button
+    class="v-button v-button-small v-button-secondary"
+  >
+    <svg
+      aria-hidden="true"
+      class="v-icon v-icon-visa v-icon-tiny v-icon-save"
+      focusable="false"
+      height="16"
+      viewBox="0 0 16 16"
+      width="16"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        class="v-icon-primary"
+        clip-rule="evenodd"
+        d="M0 2H8V0H0V2ZM14 14V6H2V14H3V16H0V4H16V16H13V14H14Z"
+        fill-rule="evenodd"
+      />
+      <path
+        class="v-icon-secondary"
+        d="M8 16L4.5 12.2579L5.83962 10.8217L7.0566 12.1365V8H8.9434V12.1365L10.1604 10.8217L11.5 12.2579L8 16Z"
+      />
+      <defs>
+        <clippath>
+          <rect
+            height="16"
+            width="16"
+          />
+        </clippath>
+      </defs>
+    </svg>
+    Secondary action
+  </button>
+</div>
+`;
+
+exports[`Button examples Small tertiary text button should render correctly 1`] = `
+<div>
+  <button
+    class="v-button v-button-small v-button-tertiary"
+  >
+    <svg
+      aria-hidden="true"
+      class="v-icon v-icon-visa v-icon-tiny v-icon-history"
+      focusable="false"
+      height="16"
+      viewBox="0 0 16 16"
+      width="16"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        class="v-icon-secondary"
+        clip-rule="evenodd"
+        d="M7 4H9V7.19575L10.47 6.277L11.53 7.973L7 10.8042V4Z"
+        fill-rule="evenodd"
+      />
+      <path
+        class="v-icon-primary"
+        clip-rule="evenodd"
+        d="M2 8C2 4.68629 4.68629 2 8 2C11.3137 2 14 4.68629 14 8C14 11.3137 11.3137 14 8 14V16C12.4183 16 16 12.4183 16 8C16 3.58172 12.4183 0 8 0C3.58172 0 0 3.58172 0 8C0 10.3904 1.0484 12.5348 2.70861 14H1V16H6V11H4V12.4724C2.77174 11.3731 2 9.77615 2 8Z"
+        fill-rule="evenodd"
+      />
+      <defs>
+        <clippath>
+          <rect
+            height="16"
+            width="16"
+          />
+        </clippath>
+      </defs>
+    </svg>
+    Tertiary action
+  </button>
+</div>
+`;
+
+exports[`Button examples Subtle UI icon button should render correctly 1`] = `
+<div>
+  <button
+    aria-label="action"
+    class="v-button v-button-tertiary v-button-icon v-button-subtle"
+  >
+    <svg
+      aria-hidden="true"
+      class="v-icon v-icon-visa v-icon-tiny v-icon-notifications"
+      focusable="false"
+      height="16"
+      viewBox="0 0 16 16"
+      width="16"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        class="v-icon-primary"
+        clip-rule="evenodd"
+        d="M2 6C2 2.68629 4.68629 0 8 0C11.3137 0 14 2.68629 14 6V10H15V12H14H11V13C11 14.6569 9.65685 16 8 16C6.34315 16 5 14.6569 5 13V12H3H1V10H3H5H11H12V6C12 3.79086 10.2091 2 8 2C5.79086 2 4 3.79086 4 6V8H2V6ZM7 12V13C7 13.5523 7.44772 14 8 14C8.55228 14 9 13.5523 9 13V12H7Z"
+        fill-rule="evenodd"
+      />
+    </svg>
+  </button>
+</div>
+`;
+
+exports[`Button examples Tertiary destructive text button should render correctly 1`] = `
+<div>
+  <button
+    class="v-button v-button-tertiary v-button-destructive"
+  >
+    <svg
+      aria-hidden="true"
+      class="v-icon v-icon-visa v-icon-tiny v-icon-delete"
+      focusable="false"
+      height="16"
+      viewBox="0 0 16 16"
+      width="16"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        class="v-icon-secondary"
+        clip-rule="evenodd"
+        d="M9 2.00049H16V4.00049H14V16.0005H2V6.00049H4V14.0005H12V4.00049H0V2.00049H7L7 0.000488281H9V2.00049Z"
+        fill-rule="evenodd"
+      />
+      <path
+        class="v-icon-primary"
+        clip-rule="evenodd"
+        d="M8.00001 10.4148L6.20712 12.2077L4.79291 10.7935L6.5858 9.00056L4.79291 7.20767L6.20712 5.79346L8.00001 7.58635L9.79291 5.79346L11.2071 7.20767L9.41423 9.00056L11.2071 10.7935L9.79291 12.2077L8.00001 10.4148Z"
+        fill-rule="evenodd"
+      />
+      <defs>
+        <clippath>
+          <rect
+            height="16"
+            transform="translate(0 0.000488281)"
+            width="16"
+          />
+        </clippath>
+      </defs>
+    </svg>
+    Destructive action
+  </button>
+</div>
+`;
+
+exports[`Button examples Tertiary text button with leading icon should render correctly 1`] = `
+<div>
+  <button
+    class="v-button v-button-tertiary"
+  >
+    <svg
+      aria-hidden="true"
+      class="v-icon v-icon-visa v-icon-tiny v-icon-history"
+      focusable="false"
+      height="16"
+      viewBox="0 0 16 16"
+      width="16"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        class="v-icon-secondary"
+        clip-rule="evenodd"
+        d="M7 4H9V7.19575L10.47 6.277L11.53 7.973L7 10.8042V4Z"
+        fill-rule="evenodd"
+      />
+      <path
+        class="v-icon-primary"
+        clip-rule="evenodd"
+        d="M2 8C2 4.68629 4.68629 2 8 2C11.3137 2 14 4.68629 14 8C14 11.3137 11.3137 14 8 14V16C12.4183 16 16 12.4183 16 8C16 3.58172 12.4183 0 8 0C3.58172 0 0 3.58172 0 8C0 10.3904 1.0484 12.5348 2.70861 14H1V16H6V11H4V12.4724C2.77174 11.3731 2 9.77615 2 8Z"
+        fill-rule="evenodd"
+      />
+      <defs>
+        <clippath>
+          <rect
+            height="16"
+            width="16"
+          />
+        </clippath>
+      </defs>
+    </svg>
+    Tertiary action
+  </button>
+</div>
+`;
+
+exports[`Button examples Tertiary text button with trailing icon should render correctly 1`] = `
+<div>
+  <button
+    class="v-button v-button-tertiary"
+  >
+    Tertiary action
+    <svg
+      aria-hidden="true"
+      class="v-icon v-icon-visa v-icon-tiny v-icon-history"
+      focusable="false"
+      height="16"
+      viewBox="0 0 16 16"
+      width="16"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        class="v-icon-secondary"
+        clip-rule="evenodd"
+        d="M7 4H9V7.19575L10.47 6.277L11.53 7.973L7 10.8042V4Z"
+        fill-rule="evenodd"
+      />
+      <path
+        class="v-icon-primary"
+        clip-rule="evenodd"
+        d="M2 8C2 4.68629 4.68629 2 8 2C11.3137 2 14 4.68629 14 8C14 11.3137 11.3137 14 8 14V16C12.4183 16 16 12.4183 16 8C16 3.58172 12.4183 0 8 0C3.58172 0 0 3.58172 0 8C0 10.3904 1.0484 12.5348 2.70861 14H1V16H6V11H4V12.4724C2.77174 11.3731 2 9.77615 2 8Z"
+        fill-rule="evenodd"
+      />
+      <defs>
+        <clippath>
+          <rect
+            height="16"
+            width="16"
+          />
+        </clippath>
+      </defs>
+    </svg>
+  </button>
+</div>
+`;
+
+exports[`Button examples UI icon button with badge should render correctly 1`] = `
+<div>
+  <button
+    aria-describedby="with-badge-number-ui-icon-button-badge"
+    class="v-button v-button-large v-button-tertiary v-button-icon"
+  >
+    <svg
+      aria-hidden="true"
+      class="v-icon v-icon-visa v-icon-tiny v-icon-notifications"
+      focusable="false"
+      height="16"
+      viewBox="0 0 16 16"
+      width="16"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        class="v-icon-primary"
+        clip-rule="evenodd"
+        d="M2 6C2 2.68629 4.68629 0 8 0C11.3137 0 14 2.68629 14 6V10H15V12H14H11V13C11 14.6569 9.65685 16 8 16C6.34315 16 5 14.6569 5 13V12H3H1V10H3H5H11H12V6C12 3.79086 10.2091 2 8 2C5.79086 2 4 3.79086 4 6V8H2V6ZM7 12V13C7 13.5523 7.44772 14 8 14C8.55228 14 9 13.5523 9 13V12H7Z"
+        fill-rule="evenodd"
+      />
+    </svg>
+    <sup
+      aria-label="9 unread notifications"
+      class="v-badge v-badge-number v-typography-label-active"
+      id="with-badge-number-ui-icon-button-badge"
+    >
+      9
+    </sup>
+  </button>
+</div>
+`;

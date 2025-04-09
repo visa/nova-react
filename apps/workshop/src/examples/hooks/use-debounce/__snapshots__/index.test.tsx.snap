@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`useDebounce example Behavior and usage should render correctly 1`] = `
+<div>
+  <div
+    class="v-flex v-flex-col v-gap-12"
+  >
+    <span
+      class="v-typography-body-2-bold"
+    >
+      Rapidly click the button in sequence, then wait for one second:
+    </span>
+    <div
+      class="v-flex v-flex-row v-gap-12"
+    >
+      <button
+        class="v-button"
+      >
+        Submit debounced
+      </button>
+      <button
+        class="v-button v-button-secondary"
+      >
+        Reset
+      </button>
+    </div>
+    <p
+      aria-atomic="true"
+      aria-live="assertive"
+      style="line-height: 16px;"
+    >
+      <svg
+        aria-hidden="true"
+        class="v-icon v-icon-visa v-icon-tiny v-icon-information"
+        focusable="false"
+        height="16"
+        style="--v-icon-primary: var(--palette-default-text-subtle); --v-icon-secondary: var(--palette-default-text-subtle); margin-inline-end: 3px; vertical-align: bottom;"
+        viewBox="0 0 16 16"
+        width="16"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          class="v-icon-primary"
+          clip-rule="evenodd"
+          d="M8 16C12.4183 16 16 12.4183 16 8C16 3.58172 12.4183 0 8 0C3.58172 0 0 3.58172 0 8C0 12.4183 3.58172 16 8 16ZM7 5V3H9V5H7ZM6 9H7V10V11H6V13H7H9H10V11H9V10V8V7H6V9Z"
+          fill-rule="evenodd"
+        />
+        <defs>
+          <clippath>
+            <rect
+              height="16"
+              width="16"
+            />
+          </clippath>
+        </defs>
+      </svg>
+      Waiting for button click
+    </p>
+  </div>
+</div>
+`;

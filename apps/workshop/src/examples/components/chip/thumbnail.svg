@@ -1,0 +1,17 @@
+<svg width="300" height="140" viewBox="0 0 300 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect width="300" height="140" fill="var(--palette-default-surface-2, #F0F0F0)" />
+    <rect x="29.5" y="55.5" width="91" height="29" rx="14.5" fill="var(--palette-default-active, #1434CB)" />
+    <rect x="44" y="68" width="40" height="4" rx="2" fill="var(--palette-default-surface-1, white)" />
+    <path
+        d="M105.744 65.4386L95.0371 76.1457L90.33 71.4386L91.7442 70.0244L95.0371 73.3173L104.33 64.0244L105.744 65.4386Z"
+        fill="var(--palette-default-surface-1, white)" />
+    <rect x="29.5" y="55.5" width="91" height="29" rx="14.5" stroke="var(--palette-default-active, #1434CB)" />
+    <rect x="126" y="55" width="70" height="30" rx="15" fill="var(--palette-default-surface-1, white)" />
+    <rect x="141" y="68" width="40" height="4" rx="2" fill="var(--palette-default-text, black)" fill-opacity="0.5" />
+    <rect x="126.5" y="55.5" width="69" height="29" rx="14.5" stroke="var(--palette-default-text, black)"
+        stroke-opacity="0.1" />
+    <rect x="201" y="55" width="70" height="30" rx="15" fill="var(--palette-default-surface-1, white)" />
+    <rect x="216" y="68" width="40" height="4" rx="2" fill="var(--palette-default-text, black)" fill-opacity="0.5" />
+    <rect x="201.5" y="55.5" width="69" height="29" rx="14.5" stroke="var(--palette-default-text, black)"
+        stroke-opacity="0.1" />
+</svg>

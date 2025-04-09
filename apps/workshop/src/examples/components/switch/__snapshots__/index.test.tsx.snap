@@ -1,0 +1,107 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Switch examples Default switch should render correctly 1`] = `
+<div>
+  <div
+    class="v-flex v-flex-wrap v-gap-10 v-justify-content-between v-m-8"
+    style="max-inline-size: 288px;"
+  >
+    <label
+      class="v-label v-switch-label"
+      for="default-switch-example-switch"
+    >
+      Label
+    </label>
+    <input
+      class="v-switch"
+      id="default-switch-example-switch"
+      name="default-switch"
+      role="switch"
+      type="checkbox"
+    />
+  </div>
+</div>
+`;
+
+exports[`Switch examples Disabled selected switch should render correctly 1`] = `
+<div>
+  <div
+    class="v-flex v-flex-wrap v-gap-10 v-justify-content-between v-m-8"
+    style="max-inline-size: 288px;"
+  >
+    <label
+      class="v-label v-switch-label"
+      for="disabled-switch-on-example-switch"
+    >
+      Label
+    </label>
+    <input
+      checked=""
+      class="v-switch"
+      disabled=""
+      id="disabled-switch-on-example-switch"
+      name="disabled-switch-on"
+      role="switch"
+      type="checkbox"
+    />
+  </div>
+</div>
+`;
+
+exports[`Switch examples Disabled switch should render correctly 1`] = `
+<div>
+  <div
+    class="v-flex v-flex-wrap v-gap-10 v-justify-content-between v-m-8"
+    style="max-inline-size: 288px;"
+  >
+    <label
+      class="v-label v-switch-label"
+      for="disabled-switch-example-switch"
+    >
+      Label
+    </label>
+    <input
+      class="v-switch"
+      disabled=""
+      id="disabled-switch-example-switch"
+      name="disabled-off-switch"
+      role="switch"
+      type="checkbox"
+    />
+  </div>
+</div>
+`;
+
+exports[`Switch examples Switch with description should render correctly 1`] = `
+<div>
+  <div
+    class="v-align-items-center v-flex v-flex-row v-flex-wrap v-gap-10 v-justify-content-between v-m-8"
+    style="max-inline-size: 288px;"
+  >
+    <div
+      class="v-flex v-flex-col v-flex-grow v-gap-2 v-justify-content-between"
+    >
+      <label
+        class="v-label v-switch-label"
+        for="optional-message-switch-example-switch"
+      >
+        Label
+      </label>
+      <span
+        class="v-input-message"
+        id="optional-message-switch-example-message"
+      >
+        This is optional text that can be used to describe the label in more detail.
+      </span>
+    </div>
+    <input
+      aria-describedby="optional-message-switch-example-message"
+      class="v-switch"
+      id="optional-message-switch-example-switch"
+      name="switch-with-message"
+      role="switch"
+      type="checkbox"
+    />
+  </div>
+</div>
+`;

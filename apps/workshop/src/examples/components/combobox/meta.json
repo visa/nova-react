@@ -1,0 +1,110 @@
+{
+  "autocomplete-with-automatic-selection-combobox": {
+    "file": "autocomplete-with-automatic-selection-combobox.tsx",
+    "id": "autocomplete-with-automatic-selection-combobox",
+    "tags": {
+      "docs": true
+    },
+    "title": "Combobox with filterable menu and automatic selection",
+    "testAvg": 100
+  },
+  "autocomplete-with-manual-selection-combobox": {
+    "file": "autocomplete-with-manual-selection-combobox.tsx",
+    "id": "autocomplete-with-manual-selection-combobox",
+    "tags": {
+      "docs": true
+    },
+    "title": "Combobox with filterable menu and manual selection",
+    "testAvg": 100
+  },
+  "clear-button-combobox": {
+    "file": "clear-button-combobox.tsx",
+    "id": "clear-button-combobox",
+    "tags": {
+      "docs": true
+    },
+    "title": "Combobox with clear button",
+    "testAvg": 100
+  },
+  "error-combobox": {
+    "file": "error-combobox.tsx",
+    "id": "error-combobox",
+    "tags": {
+      "docs": true
+    },
+    "title": "Combobox with error",
+    "testAvg": 100
+  },
+  "no-autocomplete-combobox": {
+    "file": "no-autocomplete-combobox.tsx",
+    "id": "no-autocomplete-combobox",
+    "tags": {
+      "docs": true
+    },
+    "title": "Default combobox",
+    "testAvg": 100
+  },
+  "disabled-combobox": {
+    "file": "disabled-combobox.tsx",
+    "id": "disabled-combobox",
+    "tags": {
+      "docs": true
+    },
+    "title": "Disabled combobox",
+    "testAvg": 100
+  },
+  "inline-message-combobox": {
+    "file": "inline-message-combobox.tsx",
+    "id": "inline-message-combobox",
+    "tags": {
+      "docs": true
+    },
+    "title": "Combobox with inline message",
+    "testAvg": 100
+  },
+  "item-disabled-combobox": {
+    "file": "item-disabled-combobox.tsx",
+    "id": "item-disabled-combobox",
+    "tags": {
+      "docs": true
+    },
+    "title": "Combobox with disabled option",
+    "testAvg": 100
+  },
+  "leading-icon-combobox": {
+    "file": "leading-icon-combobox.tsx",
+    "id": "leading-icon-combobox",
+    "tags": {
+      "docs": true
+    },
+    "title": "Combobox with leading icon",
+    "testAvg": 100
+  },
+  "no-icon-combobox": {
+    "file": "no-icon-combobox.tsx",
+    "id": "no-icon-combobox",
+    "tags": {
+      "docs": true
+    },
+    "title": "Combobox without dropdown chevron",
+    "testAvg": 100
+  },
+  "pre-selected-combobox": {
+    "file": "pre-selected-combobox.tsx",
+    "id": "pre-selected-combobox",
+    "tags": {
+      "docs": true
+    },
+    "title": "Combobox with selected option",
+    "testAvg": 100
+  },
+  "read-only-combobox": {
+    "file": "read-only-combobox.tsx",
+    "id": "read-only-combobox",
+    "tags": {
+      "docs": true
+    },
+    "title": "Read-only combobox",
+    "testAvg": 100
+  }
+}

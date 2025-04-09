@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input examples Default color selector should render correctly 1`] = `
+<div>
+  <div
+    class="v-align-items-center v-flex v-gap-6"
+  >
+    <input
+      class="v-input v-flex-grow-0"
+      id="color-input"
+      style="flex-basis: 5%;"
+      type="color"
+    />
+    <label
+      class="v-label"
+      for="color-input"
+    >
+      Label
+    </label>
+    <div
+      class="v-align-items-center v-flex v-flex-col v-gap-2"
+    >
+      <button
+        aria-label="Color selector accessibility information"
+        aria-labelledby="color-input-label"
+        class="v-button v-button-tertiary v-button-icon"
+      >
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-tiny v-icon-accessibility v-icon-rtl"
+          focusable="false"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-secondary"
+            clip-rule="evenodd"
+            d="M3.75736 3.75736C1.41421 6.1005 1.41421 9.89949 3.75736 12.2426L2.34315 13.6569C-0.781049 10.5327 -0.781049 5.46734 2.34315 2.34315C5.46734 -0.781049 10.5327 -0.781049 13.6569 2.34315C16.781 5.46734 16.781 10.5327 13.6569 13.6569L12.2426 12.2426C14.5858 9.8995 14.5858 6.1005 12.2426 3.75736C9.89949 1.41421 6.1005 1.41421 3.75736 3.75736Z"
+            fill-rule="evenodd"
+          />
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M8 8C9.10457 8 10 7.10457 10 6C10 4.89543 9.10457 4 8 4C6.89543 4 6 4.89543 6 6C6 7.10457 6.89543 8 8 8ZM8 8H12V10H9V10.9628L10.8844 14.5332L9.11562 15.4668L8 13.353L6.88438 15.4668L5.11562 14.5332L7 10.9628V10H4V8H8Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </button>
+    </div>
+  </div>
+</div>
+`;

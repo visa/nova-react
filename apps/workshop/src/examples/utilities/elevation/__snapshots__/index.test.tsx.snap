@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Elevation examples All elevations should render correctly 1`] = `
+<div>
+  <div
+    class="v-flex v-flex-wrap v-gap-12"
+  >
+    <div
+      class="v-elevation-none"
+      style="align-items: center; display: flex; block-size: 100px; inline-size: 100px; justify-content: center;"
+    >
+      None
+    </div>
+    <div
+      class="v-elevation-inset"
+      style="align-items: center; display: flex; block-size: 100px; inline-size: 100px; justify-content: center;"
+    >
+      Inset
+    </div>
+    <div
+      class="v-elevation-xsmall"
+      style="align-items: center; display: flex; block-size: 100px; inline-size: 100px; justify-content: center;"
+    >
+      XSmall
+    </div>
+    <div
+      class="v-elevation-small"
+      style="align-items: center; display: flex; block-size: 100px; inline-size: 100px; justify-content: center;"
+    >
+      Small
+    </div>
+    <div
+      class="v-elevation-medium"
+      style="align-items: center; display: flex; block-size: 100px; inline-size: 100px; justify-content: center;"
+    >
+      Medium
+    </div>
+    <div
+      class="v-elevation-large"
+      style="align-items: center; display: flex; block-size: 100px; inline-size: 100px; justify-content: center;"
+    >
+      Large
+    </div>
+    <div
+      class="v-elevation-xlarge"
+      style="align-items: center; display: flex; block-size: 100px; inline-size: 100px; justify-content: center;"
+    >
+      XLarge
+    </div>
+    <div
+      class="v-elevation-xxlarge"
+      style="align-items: center; display: flex; block-size: 100px; inline-size: 100px; justify-content: center;"
+    >
+      XXLarge
+    </div>
+  </div>
+</div>
+`;

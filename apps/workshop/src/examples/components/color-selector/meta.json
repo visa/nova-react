@@ -1,0 +1,11 @@
+{
+  "color-input": {
+    "file": "color-input.tsx",
+    "id": "color-input",
+    "title": "Default color selector",
+    "testAvg": 100
+  },
+  "meta": {
+    "designReviewDate": "2024-05-23"
+  }
+}

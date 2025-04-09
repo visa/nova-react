@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Breakpoints examples Screen reader-only table caption should render correctly 1`] = `
+<div>
+  <div
+    class="v-table-wrapper"
+  >
+    <table
+      class="v-table v-table-border v-table-key-value"
+    >
+      <caption
+        class="v-screen-reader"
+      >
+        Table with lined key-value pairs.
+      </caption>
+      <tbody>
+        <tr>
+          <th
+            class="v-td"
+            scope="row"
+          >
+            Key 1
+          </th>
+          <td
+            class="v-td"
+          >
+            Value 1
+          </td>
+        </tr>
+        <tr>
+          <th
+            class="v-td"
+            scope="row"
+          >
+            Key 2
+          </th>
+          <td
+            class="v-td"
+          >
+            Value 2
+          </td>
+        </tr>
+        <tr>
+          <th
+            class="v-td"
+            scope="row"
+          >
+            Key 3
+          </th>
+          <td
+            class="v-td"
+          >
+            Value 3
+          </td>
+        </tr>
+        <tr>
+          <th
+            class="v-td"
+            scope="row"
+          >
+            Key 4
+          </th>
+          <td
+            class="v-td"
+          >
+            Value 4
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+`;
+
+exports[`Breakpoints examples Screen reader-only text should render correctly 1`] = `
+<div>
+  <span
+    class="v-screen-reader"
+  >
+    This text is not shown on the screen, but it's accessible to a screen reader.
+  </span>
+</div>
+`;

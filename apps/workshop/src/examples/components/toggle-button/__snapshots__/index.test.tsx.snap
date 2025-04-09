@@ -1,0 +1,773 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Toggle examples Disabled and active toggles should render correctly 1`] = `
+<div>
+  <fieldset
+    class="v-toggle-container"
+  >
+    <button
+      aria-pressed="true"
+      class="v-toggle v-gap-6"
+    >
+      <svg
+        aria-hidden="true"
+        class="v-icon v-icon-visa v-icon-tiny v-icon-map-location"
+        focusable="false"
+        height="16"
+        viewBox="0 0 16 16"
+        width="16"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          class="v-icon-secondary"
+          d="M10 6C10 7.10457 9.10457 8 8 8C6.89543 8 6 7.10457 6 6C6 4.89543 6.89543 4 8 4C9.10457 4 10 4.89543 10 6Z"
+        />
+        <path
+          class="v-icon-primary"
+          clip-rule="evenodd"
+          d="M7.51886 2C5.57545 2 4 3.57545 4 5.51886C4 6.29936 4.21934 7.06414 4.633 7.726L8 13.1132L11.367 7.726C11.7807 7.06414 12 6.29936 12 5.51886C12 3.57545 10.4246 2 8.48114 2H7.51886ZM2 5.51886C2 2.47088 4.47088 0 7.51886 0H8.48114C11.5291 0 14 2.47088 14 5.51886C14 6.6742 13.6753 7.80628 13.063 8.786L8 16.8868L2.937 8.786C2.32468 7.80628 2 6.6742 2 5.51886Z"
+          fill-rule="evenodd"
+        />
+        <defs>
+          <clippath>
+            <rect
+              height="16"
+              width="16"
+            />
+          </clippath>
+        </defs>
+      </svg>
+      Label 1
+    </button>
+    <button
+      aria-pressed="false"
+      class="v-toggle v-gap-6"
+    >
+      <svg
+        aria-hidden="true"
+        class="v-icon v-icon-visa v-icon-tiny v-icon-view-list"
+        focusable="false"
+        height="16"
+        viewBox="0 0 16 16"
+        width="16"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          class="v-icon-primary"
+          clip-rule="evenodd"
+          d="M4 2.99219H2V4.99219H4V2.99219ZM0 0.992188V6.99219H6V0.992188H0ZM8 4.99219H16V2.99219H8V4.99219ZM8 12.9922H16V10.9922H8V12.9922ZM2 10.9922H4V12.9922H2V10.9922ZM0 14.9922V8.99219H6V14.9922H0Z"
+          fill-rule="evenodd"
+        />
+      </svg>
+      Label 2
+    </button>
+    <button
+      aria-pressed="false"
+      class="v-toggle v-gap-6"
+      disabled=""
+    >
+      <svg
+        aria-hidden="true"
+        class="v-icon v-icon-visa v-icon-tiny v-icon-view-grid"
+        focusable="false"
+        height="16"
+        viewBox="0 0 16 16"
+        width="16"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          class="v-icon-primary"
+          clip-rule="evenodd"
+          d="M3 2.99219H5V4.99219H3V2.99219ZM1 6.99219V0.992188H7V6.99219H1ZM3 10.9922H5V12.9922H3V10.9922ZM1 14.9922V8.99219H7V14.9922H1ZM13 2.99219H11V4.99219H13V2.99219ZM9 0.992188V6.99219H15V0.992188H9ZM11 10.9922H13V12.9922H11V10.9922ZM9 14.9922V8.99219H15V14.9922H9Z"
+          fill-rule="evenodd"
+        />
+      </svg>
+      Label 3
+    </button>
+  </fieldset>
+</div>
+`;
+
+exports[`Toggle examples Disabled toggles should render correctly 1`] = `
+<div>
+  <fieldset
+    class="v-toggle-container"
+  >
+    <button
+      class="v-toggle v-gap-6"
+      disabled=""
+    >
+      <svg
+        aria-hidden="true"
+        class="v-icon v-icon-visa v-icon-tiny v-icon-map-location"
+        focusable="false"
+        height="16"
+        viewBox="0 0 16 16"
+        width="16"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          class="v-icon-secondary"
+          d="M10 6C10 7.10457 9.10457 8 8 8C6.89543 8 6 7.10457 6 6C6 4.89543 6.89543 4 8 4C9.10457 4 10 4.89543 10 6Z"
+        />
+        <path
+          class="v-icon-primary"
+          clip-rule="evenodd"
+          d="M7.51886 2C5.57545 2 4 3.57545 4 5.51886C4 6.29936 4.21934 7.06414 4.633 7.726L8 13.1132L11.367 7.726C11.7807 7.06414 12 6.29936 12 5.51886C12 3.57545 10.4246 2 8.48114 2H7.51886ZM2 5.51886C2 2.47088 4.47088 0 7.51886 0H8.48114C11.5291 0 14 2.47088 14 5.51886C14 6.6742 13.6753 7.80628 13.063 8.786L8 16.8868L2.937 8.786C2.32468 7.80628 2 6.6742 2 5.51886Z"
+          fill-rule="evenodd"
+        />
+        <defs>
+          <clippath>
+            <rect
+              height="16"
+              width="16"
+            />
+          </clippath>
+        </defs>
+      </svg>
+      Label 1
+    </button>
+    <button
+      class="v-toggle v-gap-6"
+      disabled=""
+    >
+      <svg
+        aria-hidden="true"
+        class="v-icon v-icon-visa v-icon-tiny v-icon-view-list"
+        focusable="false"
+        height="16"
+        viewBox="0 0 16 16"
+        width="16"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          class="v-icon-primary"
+          clip-rule="evenodd"
+          d="M4 2.99219H2V4.99219H4V2.99219ZM0 0.992188V6.99219H6V0.992188H0ZM8 4.99219H16V2.99219H8V4.99219ZM8 12.9922H16V10.9922H8V12.9922ZM2 10.9922H4V12.9922H2V10.9922ZM0 14.9922V8.99219H6V14.9922H0Z"
+          fill-rule="evenodd"
+        />
+      </svg>
+      Label 2
+    </button>
+    <button
+      class="v-toggle v-gap-6"
+      disabled=""
+    >
+      <svg
+        aria-hidden="true"
+        class="v-icon v-icon-visa v-icon-tiny v-icon-view-grid"
+        focusable="false"
+        height="16"
+        viewBox="0 0 16 16"
+        width="16"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          class="v-icon-primary"
+          clip-rule="evenodd"
+          d="M3 2.99219H5V4.99219H3V2.99219ZM1 6.99219V0.992188H7V6.99219H1ZM3 10.9922H5V12.9922H3V10.9922ZM1 14.9922V8.99219H7V14.9922H1ZM13 2.99219H11V4.99219H13V2.99219ZM9 0.992188V6.99219H15V0.992188H9ZM11 10.9922H13V12.9922H11V10.9922ZM9 14.9922V8.99219H15V14.9922H9Z"
+          fill-rule="evenodd"
+        />
+      </svg>
+      Label 3
+    </button>
+  </fieldset>
+</div>
+`;
+
+exports[`Toggle examples Multi-select toggles should render correctly 1`] = `
+<div>
+  <fieldset
+    class="v-toggle-container"
+  >
+    <button
+      aria-label="Label 1"
+      aria-pressed="true"
+      class="v-toggle v-gap-6"
+    >
+      <svg
+        aria-hidden="true"
+        class="v-icon v-icon-visa v-icon-low v-icon-map-location"
+        focusable="false"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          class="v-icon-secondary"
+          d="M12 12C10.07 12 8.5 10.43 8.5 8.5C8.5 6.57 10.07 5 12 5C13.93 5 15.5 6.57 15.5 8.5C15.5 10.43 13.93 12 12 12ZM12 7C11.17 7 10.5 7.67 10.5 8.5C10.5 9.33 11.17 10 12 10C12.83 10 13.5 9.33 13.5 8.5C13.5 7.67 12.83 7 12 7Z"
+        />
+        <path
+          class="v-icon-primary"
+          d="M12.86 22.51H11.15L5.15001 12.51C2.99001 8.92 4.16001 4.24 7.75001 2.08C8.93001 1.37 10.28 1 11.66 1H12.34C16.53 1 19.94 4.41 19.94 8.6C19.94 9.98 19.56 11.33 18.86 12.51L12.86 22.51ZM11.66 3C10.64 3 9.65001 3.28 8.78001 3.8C6.13001 5.39 5.27001 8.84 6.86001 11.49L12 20.06L17.14 11.49C17.66 10.62 17.94 9.62 17.94 8.61C17.94 5.52 15.43 3.01 12.34 3.01H11.66V3Z"
+        />
+      </svg>
+    </button>
+    <button
+      aria-label="Label 2"
+      aria-pressed="false"
+      class="v-toggle v-gap-6"
+    >
+      <svg
+        aria-hidden="true"
+        class="v-icon v-icon-visa v-icon-low v-icon-view-list"
+        focusable="false"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          class="v-icon-secondary"
+          clip-rule="evenodd"
+          d="M4 20H11V13H4V20ZM9 18H6V15H9V18ZM13 17.5H20V15.5H13V17.5ZM4 11H11V4H4V11ZM9 9H6V6H9V9ZM13 8.5H20V6.5H13V8.5Z"
+          fill-rule="evenodd"
+        />
+        <path
+          class="v-icon-primary"
+          clip-rule="evenodd"
+          d="M0 21C0 22.65 1.35 24 3 24H21C22.65 24 24 22.65 24 21V3C24 1.35 22.65 0 21 0H3C1.35 0 0 1.35 0 3V21ZM2 3C2 2.45 2.45 2 3 2H21C21.55 2 22 2.45 22 3V21C22 21.55 21.55 22 21 22H3C2.45 22 2 21.55 2 21V3Z"
+          fill-rule="evenodd"
+        />
+        <defs>
+          <clippath>
+            <rect
+              height="24"
+              width="24"
+            />
+          </clippath>
+        </defs>
+      </svg>
+    </button>
+    <button
+      aria-label="Label 3"
+      aria-pressed="true"
+      class="v-toggle v-gap-6"
+    >
+      <svg
+        aria-hidden="true"
+        class="v-icon v-icon-visa v-icon-low v-icon-view-grid"
+        focusable="false"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          class="v-icon-secondary"
+          clip-rule="evenodd"
+          d="M4 11H11V4H4V11ZM9 9H6V6H9V9ZM13 11H20V4H13V11ZM18 9H15V6H18V9ZM20 20H13V13H20V20ZM15 18H18V15H15V18ZM4 20H11V13H4V20ZM9 18H6V15H9V18Z"
+          fill-rule="evenodd"
+        />
+        <path
+          class="v-icon-primary"
+          d="M21 24H3C1.35 24 0 22.65 0 21V3C0 1.35 1.35 0 3 0H21C22.65 0 24 1.35 24 3V21C24 22.65 22.65 24 21 24ZM3 2C2.45 2 2 2.45 2 3V21C2 21.55 2.45 22 3 22H21C21.55 22 22 21.55 22 21V3C22 2.45 21.55 2 21 2H3Z"
+        />
+        <defs>
+          <clippath>
+            <rect
+              height="24"
+              width="24"
+            />
+          </clippath>
+        </defs>
+      </svg>
+    </button>
+  </fieldset>
+</div>
+`;
+
+exports[`Toggle examples Multi-select toggles using checkboxes should render correctly 1`] = `
+<div>
+  <fieldset
+    class="v-toggle-container"
+  >
+    <label
+      aria-label="Label 1"
+      class="v-toggle v-gap-6"
+      for="multi-select-checkbox-toggle-option-0"
+    >
+      <input
+        checked=""
+        class="v-checkbox"
+        id="multi-select-checkbox-toggle-option-0"
+        name="multi-select-checkbox-toggle-options"
+        type="checkbox"
+      />
+       
+      <svg
+        aria-hidden="true"
+        class="v-icon v-icon-visa v-icon-low v-icon-map-location"
+        focusable="false"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          class="v-icon-secondary"
+          d="M12 12C10.07 12 8.5 10.43 8.5 8.5C8.5 6.57 10.07 5 12 5C13.93 5 15.5 6.57 15.5 8.5C15.5 10.43 13.93 12 12 12ZM12 7C11.17 7 10.5 7.67 10.5 8.5C10.5 9.33 11.17 10 12 10C12.83 10 13.5 9.33 13.5 8.5C13.5 7.67 12.83 7 12 7Z"
+        />
+        <path
+          class="v-icon-primary"
+          d="M12.86 22.51H11.15L5.15001 12.51C2.99001 8.92 4.16001 4.24 7.75001 2.08C8.93001 1.37 10.28 1 11.66 1H12.34C16.53 1 19.94 4.41 19.94 8.6C19.94 9.98 19.56 11.33 18.86 12.51L12.86 22.51ZM11.66 3C10.64 3 9.65001 3.28 8.78001 3.8C6.13001 5.39 5.27001 8.84 6.86001 11.49L12 20.06L17.14 11.49C17.66 10.62 17.94 9.62 17.94 8.61C17.94 5.52 15.43 3.01 12.34 3.01H11.66V3Z"
+        />
+      </svg>
+    </label>
+    <label
+      aria-label="Label 2"
+      class="v-toggle v-gap-6"
+      for="multi-select-checkbox-toggle-option-1"
+    >
+      <input
+        class="v-checkbox"
+        id="multi-select-checkbox-toggle-option-1"
+        name="multi-select-checkbox-toggle-options"
+        type="checkbox"
+      />
+       
+      <svg
+        aria-hidden="true"
+        class="v-icon v-icon-visa v-icon-low v-icon-view-list"
+        focusable="false"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          class="v-icon-secondary"
+          clip-rule="evenodd"
+          d="M4 20H11V13H4V20ZM9 18H6V15H9V18ZM13 17.5H20V15.5H13V17.5ZM4 11H11V4H4V11ZM9 9H6V6H9V9ZM13 8.5H20V6.5H13V8.5Z"
+          fill-rule="evenodd"
+        />
+        <path
+          class="v-icon-primary"
+          clip-rule="evenodd"
+          d="M0 21C0 22.65 1.35 24 3 24H21C22.65 24 24 22.65 24 21V3C24 1.35 22.65 0 21 0H3C1.35 0 0 1.35 0 3V21ZM2 3C2 2.45 2.45 2 3 2H21C21.55 2 22 2.45 22 3V21C22 21.55 21.55 22 21 22H3C2.45 22 2 21.55 2 21V3Z"
+          fill-rule="evenodd"
+        />
+        <defs>
+          <clippath>
+            <rect
+              height="24"
+              width="24"
+            />
+          </clippath>
+        </defs>
+      </svg>
+    </label>
+    <label
+      aria-label="Label 3"
+      class="v-toggle v-gap-6"
+      for="multi-select-checkbox-toggle-option-2"
+    >
+      <input
+        checked=""
+        class="v-checkbox"
+        id="multi-select-checkbox-toggle-option-2"
+        name="multi-select-checkbox-toggle-options"
+        type="checkbox"
+      />
+       
+      <svg
+        aria-hidden="true"
+        class="v-icon v-icon-visa v-icon-low v-icon-view-grid"
+        focusable="false"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          class="v-icon-secondary"
+          clip-rule="evenodd"
+          d="M4 11H11V4H4V11ZM9 9H6V6H9V9ZM13 11H20V4H13V11ZM18 9H15V6H18V9ZM20 20H13V13H20V20ZM15 18H18V15H15V18ZM4 20H11V13H4V20ZM9 18H6V15H9V18Z"
+          fill-rule="evenodd"
+        />
+        <path
+          class="v-icon-primary"
+          d="M21 24H3C1.35 24 0 22.65 0 21V3C0 1.35 1.35 0 3 0H21C22.65 0 24 1.35 24 3V21C24 22.65 22.65 24 21 24ZM3 2C2.45 2 2 2.45 2 3V21C2 21.55 2.45 22 3 22H21C21.55 22 22 21.55 22 21V3C22 2.45 21.55 2 21 2H3Z"
+        />
+        <defs>
+          <clippath>
+            <rect
+              height="24"
+              width="24"
+            />
+          </clippath>
+        </defs>
+      </svg>
+    </label>
+  </fieldset>
+</div>
+`;
+
+exports[`Toggle examples Single-select toggles should render correctly 1`] = `
+<div>
+  <fieldset
+    class="v-toggle-container"
+  >
+    <button
+      aria-pressed="true"
+      class="v-toggle v-gap-6"
+    >
+      Label 1
+    </button>
+    <button
+      aria-pressed="false"
+      class="v-toggle v-gap-6"
+    >
+      Label 2
+    </button>
+    <button
+      aria-pressed="false"
+      class="v-toggle v-gap-6"
+    >
+      Label 3
+    </button>
+  </fieldset>
+</div>
+`;
+
+exports[`Toggle examples Single-select toggles using radio buttons should render correctly 1`] = `
+<div>
+  <fieldset
+    class="v-toggle-container"
+  >
+    <label
+      class="v-toggle v-gap-6"
+      for="single-select-radio-toggles-label-1"
+    >
+      <input
+        checked=""
+        class="v-radio"
+        id="single-select-radio-toggles-label-1"
+        name="single-select-radio-toggles-options"
+        type="radio"
+      />
+      Label 1
+    </label>
+    <label
+      class="v-toggle v-gap-6"
+      for="single-select-radio-toggles-label-2"
+    >
+      <input
+        class="v-radio"
+        id="single-select-radio-toggles-label-2"
+        name="single-select-radio-toggles-options"
+        type="radio"
+      />
+      Label 2
+    </label>
+    <label
+      class="v-toggle v-gap-6"
+      for="single-select-radio-toggles-label-3"
+    >
+      <input
+        class="v-radio"
+        id="single-select-radio-toggles-label-3"
+        name="single-select-radio-toggles-options"
+        type="radio"
+      />
+      Label 3
+    </label>
+  </fieldset>
+</div>
+`;
+
+exports[`Toggle examples Single-select toggles with icon only should render correctly 1`] = `
+<div>
+  <fieldset
+    class="v-toggle-container"
+  >
+    <button
+      aria-label="Label 1"
+      aria-pressed="true"
+      class="v-toggle v-gap-6"
+    >
+      <svg
+        aria-hidden="true"
+        class="v-icon v-icon-visa v-icon-tiny v-icon-map-location"
+        focusable="false"
+        height="16"
+        viewBox="0 0 16 16"
+        width="16"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          class="v-icon-secondary"
+          d="M10 6C10 7.10457 9.10457 8 8 8C6.89543 8 6 7.10457 6 6C6 4.89543 6.89543 4 8 4C9.10457 4 10 4.89543 10 6Z"
+        />
+        <path
+          class="v-icon-primary"
+          clip-rule="evenodd"
+          d="M7.51886 2C5.57545 2 4 3.57545 4 5.51886C4 6.29936 4.21934 7.06414 4.633 7.726L8 13.1132L11.367 7.726C11.7807 7.06414 12 6.29936 12 5.51886C12 3.57545 10.4246 2 8.48114 2H7.51886ZM2 5.51886C2 2.47088 4.47088 0 7.51886 0H8.48114C11.5291 0 14 2.47088 14 5.51886C14 6.6742 13.6753 7.80628 13.063 8.786L8 16.8868L2.937 8.786C2.32468 7.80628 2 6.6742 2 5.51886Z"
+          fill-rule="evenodd"
+        />
+        <defs>
+          <clippath>
+            <rect
+              height="16"
+              width="16"
+            />
+          </clippath>
+        </defs>
+      </svg>
+    </button>
+    <button
+      aria-label="Label 2"
+      aria-pressed="false"
+      class="v-toggle v-gap-6"
+    >
+      <svg
+        aria-hidden="true"
+        class="v-icon v-icon-visa v-icon-tiny v-icon-view-list"
+        focusable="false"
+        height="16"
+        viewBox="0 0 16 16"
+        width="16"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          class="v-icon-primary"
+          clip-rule="evenodd"
+          d="M4 2.99219H2V4.99219H4V2.99219ZM0 0.992188V6.99219H6V0.992188H0ZM8 4.99219H16V2.99219H8V4.99219ZM8 12.9922H16V10.9922H8V12.9922ZM2 10.9922H4V12.9922H2V10.9922ZM0 14.9922V8.99219H6V14.9922H0Z"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </button>
+    <button
+      aria-label="Label 3"
+      aria-pressed="false"
+      class="v-toggle v-gap-6"
+    >
+      <svg
+        aria-hidden="true"
+        class="v-icon v-icon-visa v-icon-tiny v-icon-view-grid"
+        focusable="false"
+        height="16"
+        viewBox="0 0 16 16"
+        width="16"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          class="v-icon-primary"
+          clip-rule="evenodd"
+          d="M3 2.99219H5V4.99219H3V2.99219ZM1 6.99219V0.992188H7V6.99219H1ZM3 10.9922H5V12.9922H3V10.9922ZM1 14.9922V8.99219H7V14.9922H1ZM13 2.99219H11V4.99219H13V2.99219ZM9 0.992188V6.99219H15V0.992188H9ZM11 10.9922H13V12.9922H11V10.9922ZM9 14.9922V8.99219H15V14.9922H9Z"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </button>
+  </fieldset>
+</div>
+`;
+
+exports[`Toggle examples Single-select toggles with leading icon should render correctly 1`] = `
+<div>
+  <fieldset
+    class="v-toggle-container"
+  >
+    <button
+      aria-pressed="true"
+      class="v-toggle v-gap-6"
+    >
+      <svg
+        aria-hidden="true"
+        class="v-icon v-icon-visa v-icon-tiny v-icon-map-location"
+        focusable="false"
+        height="16"
+        viewBox="0 0 16 16"
+        width="16"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          class="v-icon-secondary"
+          d="M10 6C10 7.10457 9.10457 8 8 8C6.89543 8 6 7.10457 6 6C6 4.89543 6.89543 4 8 4C9.10457 4 10 4.89543 10 6Z"
+        />
+        <path
+          class="v-icon-primary"
+          clip-rule="evenodd"
+          d="M7.51886 2C5.57545 2 4 3.57545 4 5.51886C4 6.29936 4.21934 7.06414 4.633 7.726L8 13.1132L11.367 7.726C11.7807 7.06414 12 6.29936 12 5.51886C12 3.57545 10.4246 2 8.48114 2H7.51886ZM2 5.51886C2 2.47088 4.47088 0 7.51886 0H8.48114C11.5291 0 14 2.47088 14 5.51886C14 6.6742 13.6753 7.80628 13.063 8.786L8 16.8868L2.937 8.786C2.32468 7.80628 2 6.6742 2 5.51886Z"
+          fill-rule="evenodd"
+        />
+        <defs>
+          <clippath>
+            <rect
+              height="16"
+              width="16"
+            />
+          </clippath>
+        </defs>
+      </svg>
+      Label 1
+    </button>
+    <button
+      aria-pressed="false"
+      class="v-toggle v-gap-6"
+    >
+      <svg
+        aria-hidden="true"
+        class="v-icon v-icon-visa v-icon-tiny v-icon-view-list"
+        focusable="false"
+        height="16"
+        viewBox="0 0 16 16"
+        width="16"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          class="v-icon-primary"
+          clip-rule="evenodd"
+          d="M4 2.99219H2V4.99219H4V2.99219ZM0 0.992188V6.99219H6V0.992188H0ZM8 4.99219H16V2.99219H8V4.99219ZM8 12.9922H16V10.9922H8V12.9922ZM2 10.9922H4V12.9922H2V10.9922ZM0 14.9922V8.99219H6V14.9922H0Z"
+          fill-rule="evenodd"
+        />
+      </svg>
+      Label 2
+    </button>
+    <button
+      aria-pressed="false"
+      class="v-toggle v-gap-6"
+    >
+      <svg
+        aria-hidden="true"
+        class="v-icon v-icon-visa v-icon-tiny v-icon-view-grid"
+        focusable="false"
+        height="16"
+        viewBox="0 0 16 16"
+        width="16"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          class="v-icon-primary"
+          clip-rule="evenodd"
+          d="M3 2.99219H5V4.99219H3V2.99219ZM1 6.99219V0.992188H7V6.99219H1ZM3 10.9922H5V12.9922H3V10.9922ZM1 14.9922V8.99219H7V14.9922H1ZM13 2.99219H11V4.99219H13V2.99219ZM9 0.992188V6.99219H15V0.992188H9ZM11 10.9922H13V12.9922H11V10.9922ZM9 14.9922V8.99219H15V14.9922H9Z"
+          fill-rule="evenodd"
+        />
+      </svg>
+      Label 3
+    </button>
+  </fieldset>
+</div>
+`;
+
+exports[`Toggle examples Single-select toggles with trailing icon should render correctly 1`] = `
+<div>
+  <fieldset
+    class="v-toggle-container"
+  >
+    <button
+      aria-pressed="true"
+      class="v-toggle v-gap-6"
+    >
+      Label 1
+      <svg
+        aria-hidden="true"
+        class="v-icon v-icon-visa v-icon-tiny v-icon-map-location"
+        focusable="false"
+        height="16"
+        viewBox="0 0 16 16"
+        width="16"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          class="v-icon-secondary"
+          d="M10 6C10 7.10457 9.10457 8 8 8C6.89543 8 6 7.10457 6 6C6 4.89543 6.89543 4 8 4C9.10457 4 10 4.89543 10 6Z"
+        />
+        <path
+          class="v-icon-primary"
+          clip-rule="evenodd"
+          d="M7.51886 2C5.57545 2 4 3.57545 4 5.51886C4 6.29936 4.21934 7.06414 4.633 7.726L8 13.1132L11.367 7.726C11.7807 7.06414 12 6.29936 12 5.51886C12 3.57545 10.4246 2 8.48114 2H7.51886ZM2 5.51886C2 2.47088 4.47088 0 7.51886 0H8.48114C11.5291 0 14 2.47088 14 5.51886C14 6.6742 13.6753 7.80628 13.063 8.786L8 16.8868L2.937 8.786C2.32468 7.80628 2 6.6742 2 5.51886Z"
+          fill-rule="evenodd"
+        />
+        <defs>
+          <clippath>
+            <rect
+              height="16"
+              width="16"
+            />
+          </clippath>
+        </defs>
+      </svg>
+    </button>
+    <button
+      aria-pressed="false"
+      class="v-toggle v-gap-6"
+    >
+      Label 2
+      <svg
+        aria-hidden="true"
+        class="v-icon v-icon-visa v-icon-tiny v-icon-view-list"
+        focusable="false"
+        height="16"
+        viewBox="0 0 16 16"
+        width="16"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          class="v-icon-primary"
+          clip-rule="evenodd"
+          d="M4 2.99219H2V4.99219H4V2.99219ZM0 0.992188V6.99219H6V0.992188H0ZM8 4.99219H16V2.99219H8V4.99219ZM8 12.9922H16V10.9922H8V12.9922ZM2 10.9922H4V12.9922H2V10.9922ZM0 14.9922V8.99219H6V14.9922H0Z"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </button>
+    <button
+      aria-pressed="false"
+      class="v-toggle v-gap-6"
+    >
+      Label 3
+      <svg
+        aria-hidden="true"
+        class="v-icon v-icon-visa v-icon-tiny v-icon-view-grid"
+        focusable="false"
+        height="16"
+        viewBox="0 0 16 16"
+        width="16"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          class="v-icon-primary"
+          clip-rule="evenodd"
+          d="M3 2.99219H5V4.99219H3V2.99219ZM1 6.99219V0.992188H7V6.99219H1ZM3 10.9922H5V12.9922H3V10.9922ZM1 14.9922V8.99219H7V14.9922H1ZM13 2.99219H11V4.99219H13V2.99219ZM9 0.992188V6.99219H15V0.992188H9ZM11 10.9922H13V12.9922H11V10.9922ZM9 14.9922V8.99219H15V14.9922H9Z"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </button>
+  </fieldset>
+</div>
+`;
+
+exports[`Toggle examples Standalone multi-select toggle should render correctly 1`] = `
+<div>
+  <fieldset
+    class="v-toggle-container"
+  >
+    <button
+      aria-label="Label 1"
+      aria-pressed="false"
+      class="v-toggle v-gap-6"
+      id="standalone-multi-select-toggle"
+    >
+      <svg
+        aria-hidden="true"
+        class="v-icon v-icon-visa v-icon-low v-icon-map-location"
+        focusable="false"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          class="v-icon-secondary"
+          d="M12 12C10.07 12 8.5 10.43 8.5 8.5C8.5 6.57 10.07 5 12 5C13.93 5 15.5 6.57 15.5 8.5C15.5 10.43 13.93 12 12 12ZM12 7C11.17 7 10.5 7.67 10.5 8.5C10.5 9.33 11.17 10 12 10C12.83 10 13.5 9.33 13.5 8.5C13.5 7.67 12.83 7 12 7Z"
+        />
+        <path
+          class="v-icon-primary"
+          d="M12.86 22.51H11.15L5.15001 12.51C2.99001 8.92 4.16001 4.24 7.75001 2.08C8.93001 1.37 10.28 1 11.66 1H12.34C16.53 1 19.94 4.41 19.94 8.6C19.94 9.98 19.56 11.33 18.86 12.51L12.86 22.51ZM11.66 3C10.64 3 9.65001 3.28 8.78001 3.8C6.13001 5.39 5.27001 8.84 6.86001 11.49L12 20.06L17.14 11.49C17.66 10.62 17.94 9.62 17.94 8.61C17.94 5.52 15.43 3.01 12.34 3.01H11.66V3Z"
+        />
+      </svg>
+    </button>
+  </fieldset>
+</div>
+`;

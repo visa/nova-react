@@ -1,0 +1,133 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dropdown menu examples Default icon button dropdown menu should render correctly 1`] = `
+<div>
+  <div
+    style="block-size: 250px;"
+  >
+    <button
+      aria-controls="dropdown-menu-icon"
+      aria-expanded="false"
+      aria-label="see more options"
+      class="v-button v-button-icon v-dropdown"
+      id="dropdown-menu-icon-button"
+    >
+      <svg
+        aria-hidden="true"
+        class="v-icon v-icon-visa v-icon-high v-icon-option-horizontal"
+        focusable="false"
+        height="48"
+        viewBox="0 0 48 48"
+        width="48"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          class="v-icon-primary"
+          clip-rule="evenodd"
+          d="M11 24C11 25.6569 9.65685 27 8 27C6.34315 27 5 25.6569 5 24C5 22.3431 6.34315 21 8 21C9.65685 21 11 22.3431 11 24ZM43 24C43 25.6569 41.6569 27 40 27C38.3431 27 37 25.6569 37 24C37 22.3431 38.3431 21 40 21C41.6569 21 43 22.3431 43 24ZM24 27C25.6569 27 27 25.6569 27 24C27 22.3431 25.6569 21 24 21C22.3431 21 21 22.3431 21 24C21 25.6569 22.3431 27 24 27Z"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Dropdown menu examples Default text button dropdown menu should render correctly 1`] = `
+<div>
+  <div
+    style="block-size: 250px;"
+  >
+    <button
+      aria-controls="dropdown-menu-default"
+      aria-expanded="false"
+      class="v-button v-dropdown"
+      id="dropdown-menu-default-button"
+    >
+      Action
+      <svg
+        aria-hidden="true"
+        class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-down"
+        focusable="false"
+        height="16"
+        viewBox="0 0 16 16"
+        width="16"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          class="v-icon-primary"
+          clip-rule="evenodd"
+          d="M2.47597 4.00049L1 5.39358L8 12.0005L15 5.39358L13.524 4.00049L8 9.21431L2.47597 4.00049Z"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Dropdown menu examples Dropdown menu with leading icons and destructive action should render correctly 1`] = `
+<div>
+  <div
+    style="block-size: 250px;"
+  >
+    <button
+      aria-controls="dropdown-menu-with-leading-icons"
+      aria-expanded="false"
+      class="v-button v-dropdown"
+      id="dropdown-menu-with-leading-icons-button"
+    >
+      Action
+      <svg
+        aria-hidden="true"
+        class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-down"
+        focusable="false"
+        height="16"
+        viewBox="0 0 16 16"
+        width="16"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          class="v-icon-primary"
+          clip-rule="evenodd"
+          d="M2.47597 4.00049L1 5.39358L8 12.0005L15 5.39358L13.524 4.00049L8 9.21431L2.47597 4.00049Z"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Dropdown menu examples Dropdown menu with tabs should render correctly 1`] = `
+<div>
+  <div
+    style="block-size: 250px;"
+  >
+    <button
+      aria-controls="dropdown-menu-with-tabs"
+      aria-expanded="false"
+      aria-label="see more options"
+      class="v-button v-button-icon v-dropdown"
+      id="dropdown-menu-with-tabs-button"
+    >
+      <svg
+        aria-hidden="true"
+        class="v-icon v-icon-visa v-icon-high v-icon-option-horizontal"
+        focusable="false"
+        height="48"
+        viewBox="0 0 48 48"
+        width="48"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          class="v-icon-primary"
+          clip-rule="evenodd"
+          d="M11 24C11 25.6569 9.65685 27 8 27C6.34315 27 5 25.6569 5 24C5 22.3431 6.34315 21 8 21C9.65685 21 11 22.3431 11 24ZM43 24C43 25.6569 41.6569 27 40 27C38.3431 27 37 25.6569 37 24C37 22.3431 38.3431 21 40 21C41.6569 21 43 22.3431 43 24ZM24 27C25.6569 27 27 25.6569 27 24C27 22.3431 25.6569 21 24 21C22.3431 21 21 22.3431 21 24C21 25.6569 22.3431 27 24 27Z"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </button>
+  </div>
+</div>
+`;

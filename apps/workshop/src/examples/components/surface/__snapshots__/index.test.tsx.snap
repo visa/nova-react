@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Surface examples Alternate should render correctly 1`] = `
+<div>
+  <div
+    class="v-surface v-alternate"
+  >
+    Example
+  </div>
+</div>
+`;
+
+exports[`Surface examples Default should render correctly 1`] = `
+<div>
+  <div
+    class="v-surface"
+  >
+    Example
+  </div>
+</div>
+`;

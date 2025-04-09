@@ -1,0 +1,62 @@
+{
+  "default-vertical-navigation": {
+    "file": "default-vertical-navigation.tsx",
+    "title": "Default vertical navigation",
+    "id": "default-vertical-navigation",
+    "testAvg": 100
+  },
+  "alternate-vertical-navigation": {
+    "title": "Alternate vertical navigation",
+    "file": "alternate-vertical-navigation.tsx",
+    "id": "alternate-vertical-navigation",
+    "testAvg": 100
+  },
+  "alternate-vertical-navigation-with-active-element": {
+    "title": "Alternate vertical navigation with active element",
+    "file": "alternate-vertical-navigation-with-active-element.tsx",
+    "id": "alternate-vertical-navigation-with-active-element",
+    "testAvg": 100
+  },
+  "alternate-vertical-navigation-with-icons": {
+    "title": "Alternate vertical navigation with icons",
+    "file": "alternate-vertical-navigation-with-icons.tsx",
+    "id": "alternate-vertical-navigation-with-icons",
+    "testAvg": 100
+  },
+  "vertical-navigation-without-logo-or-application-name": {
+    "file": "vertical-navigation-without-logo-or-application-name.tsx",
+    "id": "vertical-navigation-without-logo-or-application-name",
+    "title": "Vertical navigation without logo or application name",
+    "testAvg": 100
+  },
+  "vertical-navigation-with-active-element": {
+    "file": "vertical-navigation-with-active-element.tsx",
+    "title": "Vertical navigation with active element",
+    "id": "vertical-navigation-with-active-element",
+    "testAvg": 100
+  },
+  "vertical-navigation-with-icons": {
+    "file": "vertical-navigation-with-icons.tsx",
+    "title": "Vertical navigation with icons",
+    "id": "vertical-navigation-with-icons",
+    "testAvg": 100
+  },
+  "vertical-navigation-with-nested-elements": {
+    "file": "vertical-navigation-with-nested-elements.tsx",
+    "title": "Vertical navigation with nested elements",
+    "id": "vertical-navigation-with-nested-elements",
+    "testAvg": 100
+  },
+  "vertical-navigation-with-section-titles": {
+    "file": "vertical-navigation-with-section-titles.tsx",
+    "title": "Vertical navigation with section titles",
+    "id": "vertical-navigation-with-section-titles",
+    "testAvg": 100
+  },
+  "vertical-navigation-with-nested-elements-and-section-titles": {
+    "file": "vertical-navigation-with-nested-elements-and-section-titles.tsx",
+    "title": "Vertical navigation with nested elements and section titles",
+    "id": "vertical-navigation-with-nested-elements-and-section-titles",
+    "testAvg": 100
+  }
+}

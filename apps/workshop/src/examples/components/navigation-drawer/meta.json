@@ -1,0 +1,56 @@
+{
+  "alternate-navigation-drawer": {
+    "file": "alternate-navigation-drawer.tsx",
+    "id": "alternate-navigation-drawer",
+    "title": "Alternate navigation drawer",
+    "testAvg": 100
+  },
+  "alternate-navigation-drawer-with-active-element": {
+    "file": "alternate-navigation-drawer-with-active-element.tsx",
+    "id": "alternate-navigation-drawer-with-active-element",
+    "title": "Alternate navigation drawer with active element",
+    "testAvg": 100
+  },
+  "alternate-navigation-drawer-with-icons": {
+    "file": "alternate-navigation-drawer-with-icons.tsx",
+    "id": "alternate-navigation-drawer-with-icons",
+    "title": "Alternate navigation drawer with icons",
+    "testAvg": 100
+  },
+  "default-navigation-drawer": {
+    "file": "default-navigation-drawer.tsx",
+    "id": "default-navigation-drawer",
+    "title": "Default navigation drawer",
+    "testAvg": 100
+  },
+  "navigation-drawer-with-active-element": {
+    "file": "navigation-drawer-with-active-element.tsx",
+    "id": "navigation-drawer-with-active-element",
+    "title": "Navigation drawer with active element",
+    "testAvg": 100
+  },
+  "navigation-drawer-with-icons": {
+    "file": "navigation-drawer-with-icons.tsx",
+    "id": "navigation-drawer-with-icons",
+    "title": "Navigation drawer with icons",
+    "testAvg": 100
+  },
+  "navigation-drawer-with-nested-elements": {
+    "file": "navigation-drawer-with-nested-elements.tsx",
+    "id": "navigation-drawer-with-nested-elements",
+    "title": "Navigation drawer with nested elements",
+    "testAvg": 100
+  },
+  "navigation-drawer-with-section-titles": {
+    "file": "navigation-drawer-with-section-titles.tsx",
+    "id": "navigation-drawer-with-section-titles",
+    "title": "Navigation drawer with section titles",
+    "testAvg": 100
+  },
+  "navigation-drawer-with-nested-elements-and-section-titles": {
+    "file": "navigation-drawer-with-nested-elements-and-section-titles.tsx",
+    "id": "navigation-drawer-with-nested-elements-and-section-titles",
+    "title": "Navigation drawer with nested elements and section titles",
+    "testAvg": 100
+  }
+}

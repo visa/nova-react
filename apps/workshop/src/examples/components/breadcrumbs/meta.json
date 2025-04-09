@@ -1,0 +1,26 @@
+{
+  "custom-separator-breadcrumbs": {
+    "file": "custom-separator-breadcrumbs.tsx",
+    "id": "custom-separator-breadcrumbs",
+    "title": "Breadcrumbs with custom separator",
+    "testAvg": 100
+  },
+  "default-breadcrumbs": {
+    "file": "default-breadcrumbs.tsx",
+    "id": "default-breadcrumbs",
+    "title": "Breadcrumbs with default separator",
+    "testAvg": 100
+  },
+  "inline-separator-breadcrumbs": {
+    "file": "inline-separator-breadcrumbs.tsx",
+    "id": "inline-separator-breadcrumbs",
+    "title": "Breadcrumbs with inline separator",
+    "testAvg": 100
+  },
+  "inline-svg-separator-breadcrumbs": {
+    "file": "inline-svg-separator-breadcrumbs.tsx",
+    "id": "inline-svg-separator-breadcrumbs",
+    "title": "Breadcrumbs with SVG separator",
+    "testAvg": 100
+  }
+}

@@ -1,0 +1,23 @@
+<svg width="304" height="140" viewBox="0 0 304 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect width="304" height="140" fill="var(--palette-default-surface-2, #F0F0F0)" />
+    <mask id="path-1-inside-1_4033_15113" fill="var(--palette-default-surface-1, white)">
+        <path
+            d="M54.1064 34.3192C54.1064 30.2769 57.3833 27 61.4255 27H242.574C246.617 27 249.894 30.2769 249.894 34.3191V109.34H54.1064V34.3192Z" />
+    </mask>
+    <path
+        d="M54.1064 34.3192C54.1064 30.2769 57.3833 27 61.4255 27H242.574C246.617 27 249.894 30.2769 249.894 34.3191V109.34H54.1064V34.3192Z"
+        fill="var(--palette-default-surface-1, white)" />
+    <path
+        d="M53.1915 34.3191C53.1915 29.7716 56.878 26.0851 61.4255 26.0851H242.574C247.122 26.0851 250.809 29.7716 250.809 34.3191H248.979C248.979 30.7822 246.111 27.9149 242.574 27.9149H61.4255C57.8886 27.9149 55.0213 30.7822 55.0213 34.3191H53.1915ZM249.894 109.34H54.1064H249.894ZM53.1915 109.34V34.3191C53.1915 29.7716 56.878 26.0851 61.4255 26.0851V27.9149C57.8886 27.9149 55.0213 30.7822 55.0213 34.3191V109.34H53.1915ZM242.574 26.0851C247.122 26.0851 250.809 29.7716 250.809 34.3191V109.34H248.979V34.3191C248.979 30.7822 246.111 27.9149 242.574 27.9149V26.0851Z"
+        fill="var(--palette-default-text, black)" fill-opacity="0.1" mask="url(#path-1-inside-1_4033_15113)" />
+    <rect x="74.2341" y="60.7656" width="144.553" height="3" rx="1.5" fill="var(--palette-default-text, black)"
+        fill-opacity="0.2" />
+    <rect x="74.2341" y="68.7441" width="84.1702" height="3" rx="1.5" fill="var(--palette-default-text, black)"
+        fill-opacity="0.2" />
+    <rect x="74.6384" y="87" width="38" height="3" rx="1.5" fill="var(--palette-default-active, #1434CB)" />
+    <rect x="74.2341" y="43.4678" width="66.8624" height="6" rx="3" fill="var(--palette-default-text, black)"
+        fill-opacity="0.2" />
+    <path
+        d="M54.1064 109.341H249.894C249.894 111.362 248.255 113 246.234 113H57.766C55.7448 113 54.1064 111.362 54.1064 109.341Z"
+        fill="var(--palette-default-active, #1434CB)" />
+</svg>

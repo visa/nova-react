@@ -1,0 +1,92 @@
+{
+  "alternate-horizontal-tabs": {
+    "file": "alternate-horizontal-tabs.tsx",
+    "id": "alternate-horizontal-tabs",
+    "title": "Alternate horizontal tablist",
+    "testAvg": 100
+  },
+  "alternate-stacked-tabs": {
+    "file": "alternate-stacked-tabs.tsx",
+    "id": "alternate-stacked-tabs",
+    "title": "Alternate stacked tablist",
+    "testAvg": 100
+  },
+  "alternate-vertical-tabs": {
+    "file": "alternate-vertical-tabs.tsx",
+    "id": "alternate-vertical-tabs",
+    "title": "Alternate vertical tablist",
+    "testAvg": 100
+  },
+  "auto-horizontal-tabs": {
+    "file": "auto-horizontal-tabs.tsx",
+    "id": "auto-horizontal-tabs",
+    "title": "Tablist with automatic activation",
+    "testAvg": 100
+  },
+  "default-horizontal-tabs": {
+    "file": "default-horizontal-tabs.tsx",
+    "id": "default-horizontal-tabs",
+    "title": "Default horizontal tab",
+    "testAvg": 100
+  },
+  "default-stacked-tabs": {
+    "file": "default-stacked-tabs.tsx",
+    "id": "default-stacked-tabs",
+    "title": "Default stacked tablist",
+    "testAvg": 100
+  },
+  "default-vertical-tabs": {
+    "file": "default-vertical-tabs.tsx",
+    "id": "default-vertical-tabs",
+    "title": "Default vertical tablist",
+    "testAvg": 100
+  },
+  "disabled-horizontal-tabs": {
+    "file": "disabled-horizontal-tabs.tsx",
+    "title": "Horizontal tablist with disabled tab",
+    "id": "disabled-horizontal-tabs",
+    "testAvg": 100
+  },
+  "disabled-stacked-tabs": {
+    "file": "disabled-stacked-tabs.tsx",
+    "id": "disabled-stacked-tabs",
+    "title": "Stacked tablist with disabled tab",
+    "testAvg": 100
+  },
+  "disabled-vertical-tabs": {
+    "file": "disabled-vertical-tabs.tsx",
+    "id": "disabled-vertical-tabs",
+    "title": "Vertical tablist with disabled tab",
+    "testAvg": 100
+  },
+  "horizontal-tab-with-menu": {
+    "file": "horizontal-tab-with-menu.tsx",
+    "id": "horizontal-tab-with-menu",
+    "title": "Horizontal tab with menu",
+    "testAvg": 100
+  },
+  "icon-horizontal-tabs": {
+    "file": "icon-horizontal-tabs.tsx",
+    "id": "icon-horizontal-tabs",
+    "title": "Horizontal tab with icon",
+    "testAvg": 100
+  },
+  "icon-vertical-tabs": {
+    "file": "icon-vertical-tabs.tsx",
+    "id": "icon-vertical-tabs",
+    "title": "Vertical tablist with icon",
+    "testAvg": 100
+  },
+  "stacked-tabs-with-notifications": {
+    "file": "stacked-tabs-with-notifications.tsx",
+    "id": "stacked-tabs-with-notifications",
+    "title": "Stacked tabs with notifications",
+    "testAvg": 100
+  },
+  "vertical-tab-with-menu": {
+    "file": "vertical-tab-with-menu.tsx",
+    "id": "vertical-tab-with-menu",
+    "title": "Vertical tab with menu",
+    "testAvg": 100
+  }
+}

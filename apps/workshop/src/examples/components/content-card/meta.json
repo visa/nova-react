@@ -1,0 +1,56 @@
+{
+  "category-content-card": {
+    "file": "category-content-card.tsx",
+    "id": "category-content-card",
+    "title": "Content card with category",
+    "testAvg": 100
+  },
+  "clickable-content-card": {
+    "file": "clickable-content-card.tsx",
+    "id": "clickable-content-card",
+    "title": "Clickable content card",
+    "testAvg": 100
+  },
+  "clickable-disabled-content-card": {
+    "file": "clickable-disabled-content-card.tsx",
+    "id": "clickable-disabled-content-card",
+    "title": "Disabled clickable content card",
+    "testAvg": 100
+  },
+  "compact-content-card": {
+    "file": "compact-content-card.tsx",
+    "id": "compact-content-card",
+    "title": "Compact content card",
+    "testAvg": 100
+  },
+  "default-content-card": {
+    "file": "default-content-card.tsx",
+    "id": "default-content-card",
+    "title": "Default content card",
+    "testAvg": 100
+  },
+  "icon-content-card": {
+    "file": "icon-content-card.tsx",
+    "id": "icon-content-card",
+    "title": "Content card with icon",
+    "testAvg": 100
+  },
+  "image-header-content-card": {
+    "file": "image-header-content-card.tsx",
+    "id": "image-header-content-card",
+    "title": "Content card with image",
+    "testAvg": 100
+  },
+  "compact-dashboard-content-card": {
+    "id": "compact-dashboard-content-card",
+    "file": "compact-dashboard-content-card.tsx",
+    "title": "Compact dashboard content card",
+    "testAvg": 100
+  },
+  "with-buttons-content-card": {
+    "file": "with-buttons-content-card.tsx",
+    "id": "with-buttons-content-card",
+    "title": "Content card with UI buttons",
+    "testAvg": 100
+  }
+}

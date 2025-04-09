@@ -1,0 +1,607 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Content card examples Clickable content card should render correctly 1`] = `
+<div>
+  <button
+    class="v-content-card v-content-card-clickable"
+  >
+    <span
+      class="v-content-card-body v-align-items-start v-flex v-flex-col v-gap-4"
+    >
+      <span
+        class="v-typography-headline-4 v-content-card-title"
+      >
+        Headline
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-right v-icon-rtl v-icon-move"
+          focusable="false"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M5.39309 1.00049L12 8.00049L5.39309 15.0005L4 13.5245L9.21383 8.00049L4 2.47646L5.39309 1.00049Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </span>
+      <span
+        class="v-typography-subtitle-3 v-content-card-subtitle"
+      >
+        Subtitle
+      </span>
+      <span
+        class="v-pt-4"
+      >
+        This is optional text that describes the headline in more detail.
+      </span>
+    </span>
+  </button>
+</div>
+`;
+
+exports[`Content card examples Compact content card should render correctly 1`] = `
+<div>
+  <div
+    class="v-content-card v-content-card-border-block-end"
+  >
+    <div
+      class="v-content-card-body v-flex v-flex-col v-gap-10"
+    >
+      <h3
+        class="v-typography-headline-4 v-content-card-title"
+      >
+        Headline
+      </h3>
+      <h4
+        class="v-typography-body-2 v-content-card-subtitle v-pt-4"
+      >
+        This is optional text that describes the headline and subtitle in more detail.
+      </h4>
+      <div
+        class="v-pt-12"
+      >
+        <a
+          class="v-link v-link-no-underline"
+          href="./content-card"
+        >
+          Destination label 
+          <svg
+            aria-hidden="true"
+            class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-right v-icon-rtl"
+            focusable="false"
+            height="16"
+            viewBox="0 0 16 16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="v-icon-primary"
+              clip-rule="evenodd"
+              d="M5.39309 1.00049L12 8.00049L5.39309 15.0005L4 13.5245L9.21383 8.00049L4 2.47646L5.39309 1.00049Z"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Content card examples Compact dashboard content card should render correctly 1`] = `
+<div>
+  <div
+    class="v-content-card"
+  >
+    <div
+      class="v-content-card-body v-flex v-flex-col v-gap-4"
+    >
+      <div
+        class="v-align-items-center v-flex v-flex-row v-justify-content-between"
+      >
+        <h3
+          class="v-typography-headline-4 v-content-card-title"
+        >
+          Headline
+        </h3>
+      </div>
+      <p
+        class="v-pt-4"
+      >
+        This is optional text that describes the headline and subtitle in more detail.
+      </p>
+      <div
+        class="v-align-items-center v-flex v-flex-wrap v-gap-16 v-pt-12"
+      >
+        <p
+          class="v-typography-display-2"
+        >
+          0,000
+        </p>
+        <div
+          class="v-align-content-end v-align-items-center v-flex v-flex-col v-gap-4 v-mt-8"
+        >
+          <svg
+            aria-hidden="false"
+            aria-labelledby="compact-dashboard-content-card-trend-title compact-dashboard-content-card-trend-label"
+            class="v-icon v-icon-visa v-icon-tiny v-icon-arrow-up"
+            focusable="false"
+            height="16"
+            viewBox="0 0 16 16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <title
+              id="compact-dashboard-content-card-trend-title"
+            >
+              Increasing value
+            </title>
+            <rect
+              height="1"
+              transform="translate(7 7.00049)"
+              width="1"
+            />
+            <path
+              class="v-icon-primary"
+              clip-rule="evenodd"
+              d="M15.7042 7.79744L7.99712 0.090332L0.290009 7.79744L1.70422 9.21165L6.99712 3.91876V16.0045H8.99712V3.91876L14.29 9.21165L15.7042 7.79744Z"
+              fill-rule="evenodd"
+            />
+            <defs>
+              <clippath>
+                <rect
+                  height="16"
+                  transform="translate(0 0.000366211)"
+                  width="16"
+                />
+              </clippath>
+            </defs>
+          </svg>
+          <p
+            aria-hidden="true"
+            id="compact-dashboard-content-card-trend-label"
+          >
+            Label
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Content card examples Content card with UI buttons should render correctly 1`] = `
+<div>
+  <div
+    class="v-content-card"
+  >
+    <div
+      class="v-content-card-body v-flex v-flex-col v-gap-4"
+    >
+      <div
+        class="v-align-items-center v-flex v-flex-row v-justify-content-between"
+      >
+        <h3
+          class="v-typography-headline-4 v-content-card-title"
+        >
+          Headline
+        </h3>
+        <button
+          aria-label="Export [Headline]"
+          class="v-button v-button-small v-button-tertiary v-button-icon"
+        >
+          <svg
+            aria-hidden="true"
+            class="v-icon v-icon-visa v-icon-tiny v-icon-file-upload"
+            focusable="false"
+            height="16"
+            viewBox="0 0 16 16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="v-icon-secondary"
+              d="M0 10H2V14H14V10H16V16H0V10Z"
+            />
+            <path
+              class="v-icon-primary"
+              clip-rule="evenodd"
+              d="M9.00062 3.86585L11.0762 5.97354L12.5012 4.57022L8.71313 0.72353L8.00062 0L7.28811 0.72353L3.5 4.57022L4.92502 5.97354L7.00062 3.86585V12.0036H9.00062V3.86585Z"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </button>
+      </div>
+      <h4
+        class="v-typography-subtitle-3 v-content-card-subtitle"
+      >
+        Subtitle
+      </h4>
+      <p
+        class="v-pt-4"
+      >
+        This is optional text that describes the headline and subtitle in more detail.
+      </p>
+      <div
+        class="v-align-items-center v-flex v-flex-wrap v-gap-16 v-pt-12"
+      >
+        <button
+          class="v-button"
+        >
+          Primary action
+        </button>
+        <a
+          class="v-link v-link-no-underline"
+          href="./content-card"
+        >
+          Destination label 
+          <svg
+            aria-hidden="true"
+            class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-right v-icon-rtl"
+            focusable="false"
+            height="16"
+            viewBox="0 0 16 16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="v-icon-primary"
+              clip-rule="evenodd"
+              d="M5.39309 1.00049L12 8.00049L5.39309 15.0005L4 13.5245L9.21383 8.00049L4 2.47646L5.39309 1.00049Z"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Content card examples Content card with category should render correctly 1`] = `
+<div>
+  <div
+    class="v-content-card"
+  >
+    <div
+      class="v-content-card-body v-flex v-flex-col v-gap-4"
+    >
+      <div
+        class="v-align-items-center v-flex v-gap-6 v-pb-8"
+      >
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-low v-icon-account"
+          focusable="false"
+          height="24"
+          viewBox="0 0 24 24"
+          width="24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-secondary"
+            clip-rule="evenodd"
+            d="M12 14C7.58172 14 4 17.5817 4 22V24H2V22C2 16.4772 6.47715 12 12 12C17.5228 12 22 16.4772 22 22V24H20V22C20 17.5817 16.4183 14 12 14Z"
+            fill-rule="evenodd"
+          />
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M12 8C13.6569 8 15 6.65685 15 5C15 3.34315 13.6569 2 12 2C10.3431 2 9 3.34315 9 5C9 6.65685 10.3431 8 12 8ZM12 10C14.7614 10 17 7.76142 17 5C17 2.23858 14.7614 0 12 0C9.23858 0 7 2.23858 7 5C7 7.76142 9.23858 10 12 10Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+        <h3
+          class="v-typography-overline"
+        >
+          Category
+        </h3>
+      </div>
+      <h4
+        class="v-typography-headline-4 v-content-card-title"
+      >
+        Headline
+      </h4>
+      <h5
+        class="v-typography-subtitle-3 v-content-card-subtitle"
+      >
+        Subtitle
+      </h5>
+      <p
+        class="v-pt-4"
+      >
+        This is optional text that describes the headline and subtitle in more detail.
+      </p>
+      <div
+        class="v-align-items-center v-flex v-gap-16 v-pt-12"
+      >
+        <button
+          class="v-button"
+        >
+          Primary action
+        </button>
+        <a
+          class="v-link v-link-no-underline"
+          href="./content-card"
+        >
+          Destination label 
+          <svg
+            aria-hidden="true"
+            class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-right v-icon-rtl"
+            focusable="false"
+            height="16"
+            viewBox="0 0 16 16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="v-icon-primary"
+              clip-rule="evenodd"
+              d="M5.39309 1.00049L12 8.00049L5.39309 15.0005L4 13.5245L9.21383 8.00049L4 2.47646L5.39309 1.00049Z"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Content card examples Content card with icon should render correctly 1`] = `
+<div>
+  <div
+    class="v-content-card"
+  >
+    <div
+      class="v-content-card-body v-flex v-flex-col v-gap-4"
+    >
+      <svg
+        aria-hidden="true"
+        class="v-icon v-icon-visa v-icon-high v-icon-security-lock v-pb-12"
+        focusable="false"
+        height="48"
+        viewBox="0 0 48 48"
+        width="48"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          class="v-icon-secondary"
+          clip-rule="evenodd"
+          d="M25.1711 33.0061L26.0399 32.1997C26.6331 31.6492 27 30.869 27 30C27 28.3431 25.6569 27 24 27C22.3431 27 21 28.3431 21 30C21 30.869 21.3669 31.6492 21.9601 32.1997L22.8289 33.0061L21.5678 38H26.4322L25.1711 33.0061ZM29 40H19L20.5996 33.6657C19.6157 32.7526 19 31.4482 19 30C19 27.2386 21.2386 25 24 25C26.7614 25 29 27.2386 29 30C29 31.4482 28.3843 32.7526 27.4004 33.6657L29 40Z"
+          fill-rule="evenodd"
+        />
+        <path
+          class="v-icon-primary"
+          clip-rule="evenodd"
+          d="M14 12C14 6.47715 18.4772 2 24 2C29.5228 2 34 6.47715 34 12V16H32V12C32 7.58172 28.4183 4 24 4C19.5817 4 16 7.58172 16 12V16H14V12ZM30 18H32H34H36H40V46H8V43H13V41H8V38H13V36H8V33H13V31H8V28H13V26H8V23H13V21H8V18H12H14H16H18H30ZM30 12V16H18V12C18 8.68629 20.6863 6 24 6C27.3137 6 30 8.68629 30 12ZM12 16V12C12 5.37258 17.3726 0 24 0C30.6274 0 36 5.37258 36 12V16H42V48H6V16H12Z"
+          fill-rule="evenodd"
+        />
+      </svg>
+      <h3
+        class="v-typography-headline-4 v-content-card-title"
+      >
+        Headline
+      </h3>
+      <hr
+        class="v-divider"
+      />
+      <p
+        class="v-pt-4"
+      >
+        This is optional text that describes the headline and subtitle in more detail.
+      </p>
+      <div
+        class="v-pt-12"
+      >
+        <a
+          class="v-link v-link-no-underline"
+          href="./content-card"
+        >
+          Destination label 
+          <svg
+            aria-hidden="true"
+            class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-right v-icon-rtl"
+            focusable="false"
+            height="16"
+            viewBox="0 0 16 16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="v-icon-primary"
+              clip-rule="evenodd"
+              d="M5.39309 1.00049L12 8.00049L5.39309 15.0005L4 13.5245L9.21383 8.00049L4 2.47646L5.39309 1.00049Z"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Content card examples Content card with image should render correctly 1`] = `
+<div>
+  <div
+    class="v-content-card"
+    style="inline-size: 50vw;"
+  >
+    <img
+      alt=""
+      class="v-content-card-image"
+      src="https://www.url.com/content-card-image.png"
+      style="block-size: auto; inline-size: 100%; object-fit: contain; overflow: hidden;"
+    />
+    <div
+      class="v-content-card-body v-flex v-flex-col v-gap-4"
+    >
+      <h3
+        class="v-typography-headline-4 v-content-card-title"
+      >
+        Headline
+      </h3>
+      <h4
+        class="v-typography-subtitle-3 v-content-card-subtitle"
+      >
+        Subtitle
+      </h4>
+      <p
+        class="v-pt-4"
+      >
+        This is optional text that describes the headline and subtitle in more detail.
+      </p>
+      <div
+        class="v-align-items-center v-flex v-flex-wrap v-gap-16 v-pt-12"
+      >
+        <button
+          class="v-button"
+        >
+          Primary action
+        </button>
+        <a
+          class="v-link v-link-no-underline"
+          href="./content-card"
+        >
+          Destination label 
+          <svg
+            aria-hidden="true"
+            class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-right v-icon-rtl"
+            focusable="false"
+            height="16"
+            viewBox="0 0 16 16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="v-icon-primary"
+              clip-rule="evenodd"
+              d="M5.39309 1.00049L12 8.00049L5.39309 15.0005L4 13.5245L9.21383 8.00049L4 2.47646L5.39309 1.00049Z"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Content card examples Default content card should render correctly 1`] = `
+<div>
+  <div
+    class="v-content-card"
+  >
+    <div
+      class="v-content-card-body v-flex v-flex-col v-gap-4"
+    >
+      <h3
+        class="v-typography-headline-4 v-content-card-title"
+      >
+        Headline
+      </h3>
+      <h4
+        class="v-typography-subtitle-3 v-content-card-subtitle"
+      >
+        Subtitle
+      </h4>
+      <p
+        class="v-pt-4"
+      >
+        This is optional text that describes the headline and subtitle in more detail.
+      </p>
+      <div
+        class="v-align-items-center v-flex v-flex-wrap v-gap-16 v-pt-12"
+      >
+        <button
+          class="v-button"
+        >
+          Primary action
+        </button>
+        <a
+          class="v-link v-link-no-underline"
+          href="./content-card"
+        >
+          Destination label 
+          <svg
+            aria-hidden="true"
+            class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-right v-icon-rtl"
+            focusable="false"
+            height="16"
+            viewBox="0 0 16 16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="v-icon-primary"
+              clip-rule="evenodd"
+              d="M5.39309 1.00049L12 8.00049L5.39309 15.0005L4 13.5245L9.21383 8.00049L4 2.47646L5.39309 1.00049Z"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Content card examples Disabled clickable content card should render correctly 1`] = `
+<div>
+  <button
+    aria-disabled="true"
+    class="v-content-card v-content-card-clickable"
+    disabled=""
+  >
+    <div
+      class="v-content-card-body v-flex v-flex-col v-gap-4"
+    >
+      <div
+        class="v-align-items-center v-flex v-gap-12"
+      >
+        <span
+          class="v-typography-headline-4 v-content-card-title"
+        >
+          Headline
+        </span>
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-tiny v-icon-security-lock"
+          focusable="false"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-secondary"
+            d="M7 8.99609H9V11.9961H7V8.99609Z"
+          />
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M8 0C5.79086 0 4 1.79086 4 4V5H1V16H15V5H12V4C12 1.79086 10.2091 0 8 0ZM10 5V4C10 2.89543 9.10457 2 8 2C6.89543 2 6 2.89543 6 4V5H10ZM4 7H3V14H13V7H12H4Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+      <span
+        class="v-typography-subtitle-3 v-content-card-subtitle"
+      >
+        Subtitle
+      </span>
+      <span
+        class="v-pt-4"
+      >
+        This is optional text that describes the headline in more detail.
+      </span>
+    </div>
+  </button>
+</div>
+`;

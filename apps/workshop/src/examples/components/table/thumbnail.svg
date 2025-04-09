@@ -1,0 +1,41 @@
+<svg width="304" height="140" viewBox="0 0 304 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g clip-path="url(#clip0_4033_10183)">
+        <rect width="304" height="140" fill="var(--palette-default-surface-2, #F0F0F0)" />
+        <g clip-path="url(#clip1_4033_10183)">
+            <rect x="49" y="34" width="207" height="171" rx="4" fill="var(--palette-default-surface-1, white)" />
+            <rect x="49" y="91" width="207" height="25" fill="var(--palette-default-surface-2, #F0F0F0)" />
+            <rect x="49" y="91" width="207" height="18" fill="var(--palette-default-surface-2, #F0F0F0)" />
+            <rect x="70" y="49" width="36" height="3" rx="1.5" fill="var(--palette-default-active, #1434CB)" />
+            <rect x="132" y="49" width="35" height="3" rx="1.5" fill="var(--palette-default-active, #1434CB)" />
+            <rect x="193" y="49" width="36" height="3" rx="1.5" fill="var(--palette-default-active, #1434CB)" />
+            <rect x="70" y="78" width="36" height="3" rx="1.5" fill="var(--palette-default-text, black)"
+                fill-opacity="0.2" />
+            <rect x="132" y="78" width="35" height="3" rx="1.5" fill="var(--palette-default-text, black)"
+                fill-opacity="0.2" />
+            <rect x="193" y="78" width="36" height="3" rx="1.5" fill="var(--palette-default-text, black)"
+                fill-opacity="0.2" />
+            <rect x="70" y="103" width="36" height="3" rx="1.5" fill="var(--palette-default-text, black)"
+                fill-opacity="0.2" />
+            <rect x="132" y="103" width="35" height="3" rx="1.5" fill="var(--palette-default-text, black)"
+                fill-opacity="0.2" />
+            <rect x="193" y="103" width="36" height="3" rx="1.5" fill="var(--palette-default-text, black)"
+                fill-opacity="0.2" />
+            <rect x="70" y="128" width="36" height="3" rx="1.5" fill="var(--palette-default-text, black)"
+                fill-opacity="0.2" />
+            <rect x="132" y="128" width="35" height="3" rx="1.5" fill="var(--palette-default-text, black)"
+                fill-opacity="0.2" />
+            <rect x="193" y="128" width="36" height="3" rx="1.5" fill="var(--palette-default-text, black)"
+                fill-opacity="0.2" />
+            <line x1="49" y1="65.5" x2="256" y2="65.5" stroke="var(--palette-default-active, #1434CB)" />
+        </g>
+        <rect x="48.5" y="33.5" width="208" height="172" rx="4.5" stroke="var(--palette-default-surface-2, #F0F0F0)" />
+    </g>
+    <defs>
+        <clipPath id="clip0_4033_10183">
+            <rect width="304" height="140" fill="var(--palette-default-surface-1, white)" />
+        </clipPath>
+        <clipPath id="clip1_4033_10183">
+            <rect x="49" y="34" width="207" height="171" rx="4" fill="var(--palette-default-surface-1, white)" />
+        </clipPath>
+    </defs>
+</svg>

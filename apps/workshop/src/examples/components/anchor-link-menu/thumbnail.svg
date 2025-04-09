@@ -1,0 +1,32 @@
+<svg width="304" height="140" viewBox="0 0 304 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g clip-path="url(#clip0_4033_14792)">
+        <rect width="304" height="140" fill="var(--palette-default-surface-2, #F0F0F0)" />
+        <g clip-path="url(#clip1_4033_14792)">
+            <rect x="49.4136" y="22.4136" width="205.991" height="181.173"
+                fill="var(--palette-default-surface-1, white)" stroke="var(--palette-default-surface-2, #F0F0F0)"
+                stroke-width="0.827273" />
+            <rect x="49" y="23" width="207" height="19" fill="var(--palette-default-surface-2, #F0F0F0)" />
+            <line x1="182.75" y1="128" x2="182.75" y2="49" stroke="var(--palette-default-text, black)"
+                stroke-opacity="0.1" stroke-width="0.5" />
+            <rect x="192.067" y="52.6504" width="34" height="3" rx="1.5" fill="var(--palette-default-text, black)"
+                fill-opacity="0.2" />
+            <rect x="192.067" y="63.6504" width="33" height="3" rx="1.5"
+                fill="var(--palette-default-active, #1434CB)" />
+            <line x1="183.333" y1="59.9834" x2="183.333" y2="69.9834" stroke="var(--palette-default-active, #1434CB)"
+                stroke-width="2" />
+            <rect x="192.067" y="74.6504" width="34" height="3" rx="1.5" fill="var(--palette-default-text, black)"
+                fill-opacity="0.2" />
+            <rect x="192.067" y="85.6504" width="34" height="3" rx="1.5" fill="var(--palette-default-text, black)"
+                fill-opacity="0.2" />
+        </g>
+    </g>
+    <defs>
+        <clipPath id="clip0_4033_14792">
+            <rect width="304" height="140" fill="var(--palette-default-surface-1, white)" />
+        </clipPath>
+        <clipPath id="clip1_4033_14792">
+            <rect width="206.818" height="182" fill="var(--palette-default-surface-1, white)"
+                transform="translate(49 22)" />
+        </clipPath>
+    </defs>
+</svg>

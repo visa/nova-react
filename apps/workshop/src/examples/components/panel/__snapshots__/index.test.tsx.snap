@@ -1,0 +1,752 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Panel examples Default responsive panel should render correctly 1`] = `
+<div>
+  <div
+    class="v-flex"
+  >
+    <div
+      class="v-panel v-ml-auto"
+      style="min-inline-size: initial;"
+    >
+      <div
+        class="v-surface v-panel-content"
+      >
+        <div
+          class="v-panel-header v-flex v-flex-row v-gap-4 v-justify-content-between"
+        >
+          <h2
+            class="v-typography-headline-3"
+          >
+            Panel title
+          </h2>
+          <button
+            aria-label="Close panel"
+            class="v-button v-button-small v-button-tertiary v-button-icon v-button-subtle -v-mt-3 -v-mr-8"
+          >
+            <svg
+              aria-hidden="true"
+              class="v-icon v-icon-visa v-icon-tiny v-icon-close"
+              focusable="false"
+              height="16"
+              viewBox="0 0 16 16"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                class="v-icon-primary"
+                d="M8.00001 9.4149L13.9498 15.3646L15.364 13.9504L9.41423 8.00069L15.364 2.05094L13.9498 0.636723L8.00001 6.58647L2.05026 0.636719L0.636047 2.05093L6.5858 8.00069L0.636054 13.9504L2.05027 15.3646L8.00001 9.4149Z"
+              />
+              <defs>
+                <clippath>
+                  <rect
+                    height="16"
+                    transform="translate(0 0.000488281)"
+                    width="16"
+                  />
+                </clippath>
+              </defs>
+            </svg>
+          </button>
+        </div>
+        <div
+          class="v-panel-body"
+        >
+          <h3
+            class="v-typography-subtitle-2"
+          >
+            Panel subtitle
+          </h3>
+          <p>
+            This is required text that can be used to describe the panel title and subtitle in more detail.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Panel examples Modal expandable panel should render correctly 1`] = `
+<div>
+  <div
+    class="v-flex"
+  >
+    <button
+      aria-expanded="false"
+      aria-label="Open panel"
+      class="v-button v-button-large v-button-icon v-icon-two-color v-panel-toggle v-ml-auto"
+    >
+      <svg
+        aria-hidden="true"
+        class="v-icon v-icon-visa v-icon-tiny v-icon-media-rewind v-icon-rtl"
+        focusable="false"
+        height="16"
+        viewBox="0 0 16 16"
+        width="16"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          class="v-icon-secondary"
+          clip-rule="evenodd"
+          d="M13.6069 1L7 8L13.6069 15L15 13.524L9.78617 8L15 2.47597L13.6069 1Z"
+          fill-rule="evenodd"
+        />
+        <path
+          class="v-icon-primary"
+          clip-rule="evenodd"
+          d="M7.60691 1L1 8L7.60691 15L9 13.524L3.78617 8L9 2.47597L7.60691 1Z"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </button>
+    <dialog
+      class="v-panel v-panel-expandable v-ml-auto"
+      style="height: 400px;"
+    >
+      <button
+        aria-expanded="true"
+        aria-label="Close panel"
+        class="v-button v-button-large v-button-icon v-icon-two-color v-panel-toggle"
+      >
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-tiny v-icon-media-fast-forward v-icon-rtl"
+          focusable="false"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-secondary"
+            clip-rule="evenodd"
+            d="M8.39309 1L15 8L8.39309 15L7 13.524L12.2138 8L7 2.47597L8.39309 1Z"
+            fill-rule="evenodd"
+          />
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M2.39309 1L9 8L2.39309 15L1 13.524L6.21383 8L1 2.47597L2.39309 1Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </button>
+      <div
+        class="v-surface v-panel-content"
+      >
+        <div
+          class="v-panel-header"
+        >
+          <h2
+            class="v-typography-headline-3"
+          >
+            Panel title
+          </h2>
+        </div>
+        <div
+          class="v-panel-body"
+        >
+          <h3
+            class="v-typography-subtitle-2"
+          >
+            Panel subtitle
+          </h3>
+          <p>
+            This is required text that can be used to describe the panel title and subtitle in more detail.
+          </p>
+        </div>
+      </div>
+    </dialog>
+  </div>
+</div>
+`;
+
+exports[`Panel examples Modal expandable panel with secondary button should render correctly 1`] = `
+<div>
+  <div
+    class="v-flex"
+  >
+    <button
+      aria-expanded="false"
+      aria-label="Open panel"
+      class="v-button v-button-large v-button-secondary v-button-icon v-panel-toggle v-ml-auto"
+    >
+      <svg
+        aria-hidden="true"
+        class="v-icon v-icon-visa v-icon-tiny v-icon-media-rewind v-icon-rtl"
+        focusable="false"
+        height="16"
+        viewBox="0 0 16 16"
+        width="16"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          class="v-icon-secondary"
+          clip-rule="evenodd"
+          d="M13.6069 1L7 8L13.6069 15L15 13.524L9.78617 8L15 2.47597L13.6069 1Z"
+          fill-rule="evenodd"
+        />
+        <path
+          class="v-icon-primary"
+          clip-rule="evenodd"
+          d="M7.60691 1L1 8L7.60691 15L9 13.524L3.78617 8L9 2.47597L7.60691 1Z"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </button>
+    <dialog
+      class="v-panel v-panel-expandable v-ml-auto"
+      style="height: 400px;"
+    >
+      <button
+        aria-expanded="true"
+        aria-label="Close panel"
+        class="v-button v-button-large v-button-secondary v-button-icon v-panel-toggle"
+      >
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-tiny v-icon-media-fast-forward v-icon-rtl"
+          focusable="false"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-secondary"
+            clip-rule="evenodd"
+            d="M8.39309 1L15 8L8.39309 15L7 13.524L12.2138 8L7 2.47597L8.39309 1Z"
+            fill-rule="evenodd"
+          />
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M2.39309 1L9 8L2.39309 15L1 13.524L6.21383 8L1 2.47597L2.39309 1Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </button>
+      <div
+        class="v-surface v-panel-content"
+      >
+        <div
+          class="v-panel-header"
+        >
+          <h2
+            class="v-typography-headline-3"
+          >
+            Panel title
+          </h2>
+        </div>
+        <div
+          class="v-panel-body"
+        >
+          <h3
+            class="v-typography-subtitle-2"
+          >
+            Panel subtitle
+          </h3>
+          <p>
+            This is required text that can be used to describe the panel title and subtitle in more detail.
+          </p>
+        </div>
+      </div>
+    </dialog>
+  </div>
+</div>
+`;
+
+exports[`Panel examples Modal expandable panel with skrim should render correctly 1`] = `
+<div>
+  <div
+    class="v-flex"
+  >
+    <button
+      aria-expanded="false"
+      aria-label="Open panel"
+      class="v-button v-button-large v-button-icon v-icon-two-color v-panel-toggle v-ml-auto"
+    >
+      <svg
+        aria-hidden="true"
+        class="v-icon v-icon-visa v-icon-tiny v-icon-media-rewind v-icon-rtl"
+        focusable="false"
+        height="16"
+        viewBox="0 0 16 16"
+        width="16"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          class="v-icon-secondary"
+          clip-rule="evenodd"
+          d="M13.6069 1L7 8L13.6069 15L15 13.524L9.78617 8L15 2.47597L13.6069 1Z"
+          fill-rule="evenodd"
+        />
+        <path
+          class="v-icon-primary"
+          clip-rule="evenodd"
+          d="M7.60691 1L1 8L7.60691 15L9 13.524L3.78617 8L9 2.47597L7.60691 1Z"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </button>
+    <dialog
+      class="v-panel v-panel-expandable v-panel-skrim v-ml-auto"
+      style="height: 400px;"
+    >
+      <button
+        aria-expanded="true"
+        aria-label="Close panel"
+        class="v-button v-button-large v-button-icon v-icon-two-color v-panel-toggle"
+      >
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-tiny v-icon-media-fast-forward v-icon-rtl"
+          focusable="false"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-secondary"
+            clip-rule="evenodd"
+            d="M8.39309 1L15 8L8.39309 15L7 13.524L12.2138 8L7 2.47597L8.39309 1Z"
+            fill-rule="evenodd"
+          />
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M2.39309 1L9 8L2.39309 15L1 13.524L6.21383 8L1 2.47597L2.39309 1Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </button>
+      <div
+        class="v-surface v-panel-content"
+      >
+        <div
+          class="v-panel-header"
+        >
+          <h2
+            class="v-typography-headline-3"
+          >
+            Panel title
+          </h2>
+        </div>
+        <div
+          class="v-panel-body"
+        >
+          <h3
+            class="v-typography-subtitle-2"
+          >
+            Panel subtitle
+          </h3>
+          <p>
+            This is required text that can be used to describe the panel title and subtitle in more detail.
+          </p>
+        </div>
+      </div>
+    </dialog>
+  </div>
+</div>
+`;
+
+exports[`Panel examples Modal panel should render correctly 1`] = `
+<div>
+  <button
+    class="v-button"
+  >
+    Open modal panel
+  </button>
+  <dialog
+    aria-describedby="modal-panel-default-description"
+    aria-labelledby="modal-panel-default-title"
+    aria-modal="true"
+    class="v-panel"
+    id="modal-panel-default"
+  >
+    <div
+      class="v-surface v-panel-content"
+    >
+      <div
+        class="v-panel-header v-flex v-flex-row v-gap-4 v-justify-content-between"
+      >
+        <h2
+          class="v-typography-headline-3"
+          id="modal-panel-default-title"
+        >
+          Panel title
+        </h2>
+        <button
+          aria-label="Close panel"
+          class="v-button v-button-small v-button-tertiary v-button-icon v-button-subtle -v-mt-3 -v-mr-8"
+        >
+          <svg
+            aria-hidden="true"
+            class="v-icon v-icon-visa v-icon-tiny v-icon-close"
+            focusable="false"
+            height="16"
+            viewBox="0 0 16 16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="v-icon-primary"
+              d="M8.00001 9.4149L13.9498 15.3646L15.364 13.9504L9.41423 8.00069L15.364 2.05094L13.9498 0.636723L8.00001 6.58647L2.05026 0.636719L0.636047 2.05093L6.5858 8.00069L0.636054 13.9504L2.05027 15.3646L8.00001 9.4149Z"
+            />
+            <defs>
+              <clippath>
+                <rect
+                  height="16"
+                  transform="translate(0 0.000488281)"
+                  width="16"
+                />
+              </clippath>
+            </defs>
+          </svg>
+        </button>
+      </div>
+      <div
+        class="v-panel-body"
+      >
+        <h3
+          class="v-typography-subtitle-2"
+          id="modal-panel-default-description"
+        >
+          Panel subtitle
+        </h3>
+        <p>
+          This is required text that can be used to describe the panel title and subtitle in more detail.
+        </p>
+      </div>
+    </div>
+  </dialog>
+</div>
+`;
+
+exports[`Panel examples Responsive expanded panel should render correctly 1`] = `
+<div>
+  <div
+    class="v-flex"
+    style="min-block-size: 200px;"
+  >
+    <button
+      aria-expanded="true"
+      aria-label="Close panel"
+      class="v-button v-button-large v-button-icon v-icon-two-color v-panel-toggle v-ml-auto"
+    >
+      <svg
+        aria-hidden="true"
+        class="v-icon v-icon-visa v-icon-tiny v-icon-media-fast-forward v-icon-rtl"
+        focusable="false"
+        height="16"
+        viewBox="0 0 16 16"
+        width="16"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          class="v-icon-secondary"
+          clip-rule="evenodd"
+          d="M8.39309 1L15 8L8.39309 15L7 13.524L12.2138 8L7 2.47597L8.39309 1Z"
+          fill-rule="evenodd"
+        />
+        <path
+          class="v-icon-primary"
+          clip-rule="evenodd"
+          d="M2.39309 1L9 8L2.39309 15L1 13.524L6.21383 8L1 2.47597L2.39309 1Z"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </button>
+    <div
+      class="v-panel v-panel-expandable"
+      style="min-inline-size: initial;"
+    >
+      <div
+        class="v-surface v-panel-content"
+      >
+        <div
+          class="v-panel-header"
+        >
+          <h2
+            class="v-typography-headline-3"
+          >
+            Panel title
+          </h2>
+        </div>
+        <div
+          class="v-panel-body"
+        >
+          <h3
+            class="v-typography-subtitle-2"
+          >
+            Panel subtitle
+          </h3>
+          <p>
+            This is required text that can be used to describe the panel title and subtitle in more detail.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Panel examples Tabbed modal expandable panel should render correctly 1`] = `
+<div>
+  <div
+    class="v-flex"
+  >
+    <button
+      aria-expanded="false"
+      aria-label="Open panel"
+      class="v-button v-button-large v-button-icon v-icon-two-color v-panel-toggle v-ml-auto"
+    >
+      <svg
+        aria-hidden="true"
+        class="v-icon v-icon-visa v-icon-tiny v-icon-media-rewind v-icon-rtl"
+        focusable="false"
+        height="16"
+        viewBox="0 0 16 16"
+        width="16"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          class="v-icon-secondary"
+          clip-rule="evenodd"
+          d="M13.6069 1L7 8L13.6069 15L15 13.524L9.78617 8L15 2.47597L13.6069 1Z"
+          fill-rule="evenodd"
+        />
+        <path
+          class="v-icon-primary"
+          clip-rule="evenodd"
+          d="M7.60691 1L1 8L7.60691 15L9 13.524L3.78617 8L9 2.47597L7.60691 1Z"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </button>
+    <dialog
+      class="v-panel v-panel-expandable v-ml-auto"
+      style="height: 400px;"
+    >
+      <button
+        aria-expanded="true"
+        aria-label="Close panel"
+        class="v-button v-button-large v-button-icon v-icon-two-color v-panel-toggle"
+      >
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-tiny v-icon-media-fast-forward v-icon-rtl"
+          focusable="false"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-secondary"
+            clip-rule="evenodd"
+            d="M8.39309 1L15 8L8.39309 15L7 13.524L12.2138 8L7 2.47597L8.39309 1Z"
+            fill-rule="evenodd"
+          />
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M2.39309 1L9 8L2.39309 15L1 13.524L6.21383 8L1 2.47597L2.39309 1Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </button>
+      <div
+        class="v-surface v-panel-content"
+      >
+        <ul
+          class="v-tabs v-tabs-horizontal v-panel-tabs"
+          role="tablist"
+        >
+          <li
+            class="v-tab"
+            role="none"
+          >
+            <button
+              aria-label="FAQ"
+              aria-selected="true"
+              class="v-button v-button-large v-button-tertiary"
+              role="tab"
+            >
+              FAQ
+            </button>
+          </li>
+          <li
+            class="v-tab"
+            role="none"
+          >
+            <button
+              aria-label="Chat"
+              aria-selected="false"
+              class="v-button v-button-large v-button-tertiary"
+              role="tab"
+            >
+              Chat
+            </button>
+          </li>
+          <li
+            class="v-tab"
+            role="none"
+          >
+            <button
+              aria-label="Contact"
+              aria-selected="false"
+              class="v-button v-button-large v-button-tertiary"
+              role="tab"
+            >
+              Contact
+            </button>
+          </li>
+        </ul>
+        <hr
+          aria-hidden="true"
+          class="v-divider v-divider-decorative"
+        />
+        <div
+          class="v-panel-header"
+        >
+          <h2
+            class="v-typography-headline-3"
+          >
+            Panel title
+          </h2>
+        </div>
+        <div
+          class="v-panel-body"
+        >
+          <h3
+            class="v-typography-subtitle-2"
+          >
+            Panel subtitle
+          </h3>
+          <p>
+            This is required text that can be used to describe the panel title and subtitle in more detail.
+          </p>
+        </div>
+      </div>
+    </dialog>
+  </div>
+</div>
+`;
+
+exports[`Panel examples Tabbed responsive expanded panel should render correctly 1`] = `
+<div>
+  <div
+    class="v-flex"
+    style="min-block-size: 200px;"
+  >
+    <button
+      aria-expanded="true"
+      aria-label="Close panel"
+      class="v-button v-button-large v-button-icon v-icon-two-color v-panel-toggle v-ml-auto"
+    >
+      <svg
+        aria-hidden="true"
+        class="v-icon v-icon-visa v-icon-tiny v-icon-media-fast-forward v-icon-rtl"
+        focusable="false"
+        height="16"
+        viewBox="0 0 16 16"
+        width="16"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          class="v-icon-secondary"
+          clip-rule="evenodd"
+          d="M8.39309 1L15 8L8.39309 15L7 13.524L12.2138 8L7 2.47597L8.39309 1Z"
+          fill-rule="evenodd"
+        />
+        <path
+          class="v-icon-primary"
+          clip-rule="evenodd"
+          d="M2.39309 1L9 8L2.39309 15L1 13.524L6.21383 8L1 2.47597L2.39309 1Z"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </button>
+    <div
+      class="v-panel v-panel-expandable"
+    >
+      <div
+        class="v-surface v-panel-content"
+      >
+        <ul
+          class="v-tabs v-tabs-horizontal v-panel-tabs"
+          role="tablist"
+        >
+          <li
+            class="v-tab"
+            role="none"
+          >
+            <button
+              aria-label="FAQ"
+              aria-selected="true"
+              class="v-button v-button-large v-button-tertiary"
+              role="tab"
+            >
+              FAQ
+            </button>
+          </li>
+          <li
+            class="v-tab"
+            role="none"
+          >
+            <button
+              aria-label="Chat"
+              aria-selected="false"
+              class="v-button v-button-large v-button-tertiary"
+              role="tab"
+            >
+              Chat
+            </button>
+          </li>
+          <li
+            class="v-tab"
+            role="none"
+          >
+            <button
+              aria-label="Contact"
+              aria-selected="false"
+              class="v-button v-button-large v-button-tertiary"
+              role="tab"
+            >
+              Contact
+            </button>
+          </li>
+        </ul>
+        <hr
+          aria-hidden="true"
+          class="v-divider v-divider-decorative"
+        />
+        <div
+          class="v-panel-header"
+        >
+          <h2
+            class="v-typography-headline-3"
+          >
+            Panel title
+          </h2>
+        </div>
+        <div
+          class="v-panel-body"
+        >
+          <h3
+            class="v-typography-subtitle-2"
+          >
+            Panel subtitle
+          </h3>
+          <p>
+            This is required text that can be used to describe the panel title and subtitle in more detail.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

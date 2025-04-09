@@ -1,0 +1,2151 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Listbox examples default-multi-listbox should render correctly 1`] = `
+<div>
+  <fieldset>
+    <legend
+      class="v-label"
+      id="default-multi-select-listbox-legend"
+    >
+      Label (required)
+    </legend>
+    <div
+      class="v-listbox-container"
+    >
+      <div
+        class="v-listbox v-listbox-scroll"
+        id="default-multi-select-listbox"
+      >
+        <label
+          class="v-listbox-item"
+          for="default-multi-select-listbox-option-0"
+        >
+          <input
+            class="v-checkbox v-flex-shrink-0"
+            id="default-multi-select-listbox-option-0"
+            name="default-multi-select-listbox-option-0"
+            type="checkbox"
+          />
+          <span
+            class="v-label"
+          >
+            Item A
+          </span>
+        </label>
+        <label
+          class="v-listbox-item"
+          for="default-multi-select-listbox-option-1"
+        >
+          <input
+            class="v-checkbox v-flex-shrink-0"
+            id="default-multi-select-listbox-option-1"
+            name="default-multi-select-listbox-option-1"
+            type="checkbox"
+          />
+          <span
+            class="v-label"
+          >
+            Item B
+          </span>
+        </label>
+        <label
+          class="v-listbox-item"
+          for="default-multi-select-listbox-option-2"
+        >
+          <input
+            class="v-checkbox v-flex-shrink-0"
+            id="default-multi-select-listbox-option-2"
+            name="default-multi-select-listbox-option-2"
+            type="checkbox"
+          />
+          <span
+            class="v-label"
+          >
+            Item C
+          </span>
+        </label>
+        <label
+          class="v-listbox-item"
+          for="default-multi-select-listbox-option-3"
+        >
+          <input
+            class="v-checkbox v-flex-shrink-0"
+            id="default-multi-select-listbox-option-3"
+            name="default-multi-select-listbox-option-3"
+            type="checkbox"
+          />
+          <span
+            class="v-label"
+          >
+            Item D
+          </span>
+        </label>
+        <label
+          class="v-listbox-item"
+          for="default-multi-select-listbox-option-4"
+        >
+          <input
+            class="v-checkbox v-flex-shrink-0"
+            id="default-multi-select-listbox-option-4"
+            name="default-multi-select-listbox-option-4"
+            type="checkbox"
+          />
+          <span
+            class="v-label"
+          >
+            Item E
+          </span>
+        </label>
+        <label
+          class="v-listbox-item"
+          for="default-multi-select-listbox-option-5"
+        >
+          <input
+            class="v-checkbox v-flex-shrink-0"
+            id="default-multi-select-listbox-option-5"
+            name="default-multi-select-listbox-option-5"
+            type="checkbox"
+          />
+          <span
+            class="v-label"
+          >
+            Item F
+          </span>
+        </label>
+        <label
+          class="v-listbox-item"
+          for="default-multi-select-listbox-option-6"
+        >
+          <input
+            class="v-checkbox v-flex-shrink-0"
+            id="default-multi-select-listbox-option-6"
+            name="default-multi-select-listbox-option-6"
+            type="checkbox"
+          />
+          <span
+            class="v-label"
+          >
+            Item G
+          </span>
+        </label>
+      </div>
+    </div>
+  </fieldset>
+</div>
+`;
+
+exports[`Listbox examples default-single-listbox should render correctly 1`] = `
+<div>
+  <fieldset>
+    <legend
+      class="v-label"
+      id="default-single-select-listbox-legend"
+    >
+      Label (required)
+    </legend>
+    <div
+      class="v-listbox-container"
+    >
+      <div
+        class="v-listbox v-listbox-scroll"
+        id="default-single-select-listbox"
+      >
+        <label
+          class="v-listbox-item"
+          for="default-single-select-listbox-option-0"
+        >
+          <input
+            class="v-radio v-flex-shrink-0"
+            id="default-single-select-listbox-option-0"
+            name="default-single-select-listbox-options"
+            type="radio"
+          />
+          <span
+            class="v-label"
+          >
+            Item A
+          </span>
+        </label>
+        <label
+          class="v-listbox-item"
+          for="default-single-select-listbox-option-1"
+        >
+          <input
+            class="v-radio v-flex-shrink-0"
+            id="default-single-select-listbox-option-1"
+            name="default-single-select-listbox-options"
+            type="radio"
+          />
+          <span
+            class="v-label"
+          >
+            Item B
+          </span>
+        </label>
+        <label
+          class="v-listbox-item"
+          for="default-single-select-listbox-option-2"
+        >
+          <input
+            class="v-radio v-flex-shrink-0"
+            id="default-single-select-listbox-option-2"
+            name="default-single-select-listbox-options"
+            type="radio"
+          />
+          <span
+            class="v-label"
+          >
+            Item C
+          </span>
+        </label>
+        <label
+          class="v-listbox-item"
+          for="default-single-select-listbox-option-3"
+        >
+          <input
+            class="v-radio v-flex-shrink-0"
+            id="default-single-select-listbox-option-3"
+            name="default-single-select-listbox-options"
+            type="radio"
+          />
+          <span
+            class="v-label"
+          >
+            Item D
+          </span>
+        </label>
+        <label
+          class="v-listbox-item"
+          for="default-single-select-listbox-option-4"
+        >
+          <input
+            class="v-radio v-flex-shrink-0"
+            id="default-single-select-listbox-option-4"
+            name="default-single-select-listbox-options"
+            type="radio"
+          />
+          <span
+            class="v-label"
+          >
+            Item E
+          </span>
+        </label>
+        <label
+          class="v-listbox-item"
+          for="default-single-select-listbox-option-5"
+        >
+          <input
+            class="v-radio v-flex-shrink-0"
+            id="default-single-select-listbox-option-5"
+            name="default-single-select-listbox-options"
+            type="radio"
+          />
+          <span
+            class="v-label"
+          >
+            Item F
+          </span>
+        </label>
+        <label
+          class="v-listbox-item"
+          for="default-single-select-listbox-option-6"
+        >
+          <input
+            class="v-radio v-flex-shrink-0"
+            id="default-single-select-listbox-option-6"
+            name="default-single-select-listbox-options"
+            type="radio"
+          />
+          <span
+            class="v-label"
+          >
+            Item G
+          </span>
+        </label>
+      </div>
+    </div>
+  </fieldset>
+</div>
+`;
+
+exports[`Listbox examples disabled-multi-listbox should render correctly 1`] = `
+<div>
+  <fieldset>
+    <legend
+      class="v-label"
+      id="disabled-multi-select-listbox-legend"
+    >
+      Label (required)
+    </legend>
+    <div
+      class="v-listbox-container v-listbox-disabled"
+    >
+      <div
+        class="v-listbox v-listbox-scroll"
+        id="disabled-multi-select-listbox"
+      >
+        <label
+          class="v-listbox-item"
+          for="disabled-multi-select-listbox-option-0"
+        >
+          <input
+            class="v-checkbox v-flex-shrink-0"
+            disabled=""
+            id="disabled-multi-select-listbox-option-0"
+            name="disabled-multi-select-listbox-option-0"
+            type="checkbox"
+          />
+          <span
+            class="v-label"
+          >
+            Item A
+          </span>
+        </label>
+        <label
+          class="v-listbox-item"
+          for="disabled-multi-select-listbox-option-1"
+        >
+          <input
+            class="v-checkbox v-flex-shrink-0"
+            disabled=""
+            id="disabled-multi-select-listbox-option-1"
+            name="disabled-multi-select-listbox-option-1"
+            type="checkbox"
+          />
+          <span
+            class="v-label"
+          >
+            Item B
+          </span>
+        </label>
+        <label
+          class="v-listbox-item"
+          for="disabled-multi-select-listbox-option-2"
+        >
+          <input
+            class="v-checkbox v-flex-shrink-0"
+            disabled=""
+            id="disabled-multi-select-listbox-option-2"
+            name="disabled-multi-select-listbox-option-2"
+            type="checkbox"
+          />
+          <span
+            class="v-label"
+          >
+            Item C
+          </span>
+        </label>
+        <label
+          class="v-listbox-item"
+          for="disabled-multi-select-listbox-option-3"
+        >
+          <input
+            class="v-checkbox v-flex-shrink-0"
+            disabled=""
+            id="disabled-multi-select-listbox-option-3"
+            name="disabled-multi-select-listbox-option-3"
+            type="checkbox"
+          />
+          <span
+            class="v-label"
+          >
+            Item D
+          </span>
+        </label>
+        <label
+          class="v-listbox-item"
+          for="disabled-multi-select-listbox-option-4"
+        >
+          <input
+            class="v-checkbox v-flex-shrink-0"
+            disabled=""
+            id="disabled-multi-select-listbox-option-4"
+            name="disabled-multi-select-listbox-option-4"
+            type="checkbox"
+          />
+          <span
+            class="v-label"
+          >
+            Item E
+          </span>
+        </label>
+        <label
+          class="v-listbox-item"
+          for="disabled-multi-select-listbox-option-5"
+        >
+          <input
+            class="v-checkbox v-flex-shrink-0"
+            disabled=""
+            id="disabled-multi-select-listbox-option-5"
+            name="disabled-multi-select-listbox-option-5"
+            type="checkbox"
+          />
+          <span
+            class="v-label"
+          >
+            Item F
+          </span>
+        </label>
+        <label
+          class="v-listbox-item"
+          for="disabled-multi-select-listbox-option-6"
+        >
+          <input
+            class="v-checkbox v-flex-shrink-0"
+            disabled=""
+            id="disabled-multi-select-listbox-option-6"
+            name="disabled-multi-select-listbox-option-6"
+            type="checkbox"
+          />
+          <span
+            class="v-label"
+          >
+            Item G
+          </span>
+        </label>
+      </div>
+    </div>
+  </fieldset>
+</div>
+`;
+
+exports[`Listbox examples disabled-single-listbox should render correctly 1`] = `
+<div>
+  <fieldset>
+    <legend
+      class="v-label"
+      id="disabled-single-select-listbox-legend"
+    >
+      Label (required)
+    </legend>
+    <div
+      class="v-listbox-container v-listbox-disabled"
+    >
+      <div
+        class="v-listbox v-listbox-scroll"
+        id="disabled-single-select-listbox"
+      >
+        <label
+          class="v-listbox-item"
+          for="disabled-single-select-listbox-option-0"
+        >
+          <input
+            class="v-radio v-flex-shrink-0"
+            disabled=""
+            id="disabled-single-select-listbox-option-0"
+            name="disabled-single-select-listbox-options"
+            type="radio"
+          />
+          <span
+            class="v-label"
+          >
+            Item A
+          </span>
+        </label>
+        <label
+          class="v-listbox-item"
+          for="disabled-single-select-listbox-option-1"
+        >
+          <input
+            class="v-radio v-flex-shrink-0"
+            disabled=""
+            id="disabled-single-select-listbox-option-1"
+            name="disabled-single-select-listbox-options"
+            type="radio"
+          />
+          <span
+            class="v-label"
+          >
+            Item B
+          </span>
+        </label>
+        <label
+          class="v-listbox-item"
+          for="disabled-single-select-listbox-option-2"
+        >
+          <input
+            class="v-radio v-flex-shrink-0"
+            disabled=""
+            id="disabled-single-select-listbox-option-2"
+            name="disabled-single-select-listbox-options"
+            type="radio"
+          />
+          <span
+            class="v-label"
+          >
+            Item C
+          </span>
+        </label>
+        <label
+          class="v-listbox-item"
+          for="disabled-single-select-listbox-option-3"
+        >
+          <input
+            class="v-radio v-flex-shrink-0"
+            disabled=""
+            id="disabled-single-select-listbox-option-3"
+            name="disabled-single-select-listbox-options"
+            type="radio"
+          />
+          <span
+            class="v-label"
+          >
+            Item D
+          </span>
+        </label>
+        <label
+          class="v-listbox-item"
+          for="disabled-single-select-listbox-option-4"
+        >
+          <input
+            class="v-radio v-flex-shrink-0"
+            disabled=""
+            id="disabled-single-select-listbox-option-4"
+            name="disabled-single-select-listbox-options"
+            type="radio"
+          />
+          <span
+            class="v-label"
+          >
+            Item E
+          </span>
+        </label>
+        <label
+          class="v-listbox-item"
+          for="disabled-single-select-listbox-option-5"
+        >
+          <input
+            class="v-radio v-flex-shrink-0"
+            disabled=""
+            id="disabled-single-select-listbox-option-5"
+            name="disabled-single-select-listbox-options"
+            type="radio"
+          />
+          <span
+            class="v-label"
+          >
+            Item F
+          </span>
+        </label>
+        <label
+          class="v-listbox-item"
+          for="disabled-single-select-listbox-option-6"
+        >
+          <input
+            class="v-radio v-flex-shrink-0"
+            disabled=""
+            id="disabled-single-select-listbox-option-6"
+            name="disabled-single-select-listbox-options"
+            type="radio"
+          />
+          <span
+            class="v-label"
+          >
+            Item G
+          </span>
+        </label>
+      </div>
+    </div>
+  </fieldset>
+</div>
+`;
+
+exports[`Listbox examples error-multi-listbox should render correctly 1`] = `
+<div>
+  <form>
+    <fieldset
+      aria-invalid="false"
+    >
+      <legend
+        class="v-label"
+        id="error-multi-select-listbox-legend"
+      >
+        Label (required)
+      </legend>
+      <div
+        class="v-listbox-container"
+      >
+        <div
+          class="v-listbox v-listbox-scroll"
+          id="error-multi-select-listbox"
+        >
+          <label
+            class="v-listbox-item"
+            for="error-multi-select-listbox-option-0"
+          >
+            <input
+              class="v-checkbox v-flex-shrink-0"
+              id="error-multi-select-listbox-option-0"
+              name="error-multi-select-listbox-options"
+              type="checkbox"
+            />
+            <span
+              class="v-label"
+            >
+              Item A
+            </span>
+          </label>
+          <label
+            class="v-listbox-item"
+            for="error-multi-select-listbox-option-1"
+          >
+            <input
+              class="v-checkbox v-flex-shrink-0"
+              id="error-multi-select-listbox-option-1"
+              name="error-multi-select-listbox-options"
+              type="checkbox"
+            />
+            <span
+              class="v-label"
+            >
+              Item B
+            </span>
+          </label>
+          <label
+            class="v-listbox-item"
+            for="error-multi-select-listbox-option-2"
+          >
+            <input
+              class="v-checkbox v-flex-shrink-0"
+              id="error-multi-select-listbox-option-2"
+              name="error-multi-select-listbox-options"
+              type="checkbox"
+            />
+            <span
+              class="v-label"
+            >
+              Item C
+            </span>
+          </label>
+          <label
+            class="v-listbox-item"
+            for="error-multi-select-listbox-option-3"
+          >
+            <input
+              class="v-checkbox v-flex-shrink-0"
+              id="error-multi-select-listbox-option-3"
+              name="error-multi-select-listbox-options"
+              type="checkbox"
+            />
+            <span
+              class="v-label"
+            >
+              Item D
+            </span>
+          </label>
+          <label
+            class="v-listbox-item"
+            for="error-multi-select-listbox-option-4"
+          >
+            <input
+              class="v-checkbox v-flex-shrink-0"
+              id="error-multi-select-listbox-option-4"
+              name="error-multi-select-listbox-options"
+              type="checkbox"
+            />
+            <span
+              class="v-label"
+            >
+              Item E
+            </span>
+          </label>
+          <label
+            class="v-listbox-item"
+            for="error-multi-select-listbox-option-5"
+          >
+            <input
+              class="v-checkbox v-flex-shrink-0"
+              id="error-multi-select-listbox-option-5"
+              name="error-multi-select-listbox-options"
+              type="checkbox"
+            />
+            <span
+              class="v-label"
+            >
+              Item F
+            </span>
+          </label>
+          <label
+            class="v-listbox-item"
+            for="error-multi-select-listbox-option-6"
+          >
+            <input
+              class="v-checkbox v-flex-shrink-0"
+              id="error-multi-select-listbox-option-6"
+              name="error-multi-select-listbox-options"
+              type="checkbox"
+            />
+            <span
+              class="v-label"
+            >
+              Item G
+            </span>
+          </label>
+        </div>
+      </div>
+    </fieldset>
+    <div
+      class="v-flex v-flex-row v-gap-8"
+    >
+      <button
+        class="v-button v-mt-8"
+        type="submit"
+      >
+        Submit
+      </button>
+      <button
+        class="v-button v-button-secondary v-mt-8"
+        type="reset"
+      >
+        Reset
+      </button>
+    </div>
+  </form>
+</div>
+`;
+
+exports[`Listbox examples error-single-listbox should render correctly 1`] = `
+<div>
+  <form>
+    <fieldset
+      aria-invalid="false"
+    >
+      <legend
+        class="v-label"
+        id="error-single-select-listbox-legend"
+      >
+        Label (required)
+      </legend>
+      <div
+        class="v-listbox-container"
+      >
+        <div
+          class="v-listbox v-listbox-scroll"
+          id="error-single-select-listbox"
+        >
+          <label
+            class="v-listbox-item"
+            for="error-single-select-listbox-option-0"
+          >
+            <input
+              class="v-radio v-flex-shrink-0"
+              id="error-single-select-listbox-option-0"
+              name="error-single-select-listbox-options"
+              type="radio"
+            />
+            <span
+              class="v-label"
+            >
+              Item A
+            </span>
+          </label>
+          <label
+            class="v-listbox-item"
+            for="error-single-select-listbox-option-1"
+          >
+            <input
+              class="v-radio v-flex-shrink-0"
+              id="error-single-select-listbox-option-1"
+              name="error-single-select-listbox-options"
+              type="radio"
+            />
+            <span
+              class="v-label"
+            >
+              Item B
+            </span>
+          </label>
+          <label
+            class="v-listbox-item"
+            for="error-single-select-listbox-option-2"
+          >
+            <input
+              class="v-radio v-flex-shrink-0"
+              id="error-single-select-listbox-option-2"
+              name="error-single-select-listbox-options"
+              type="radio"
+            />
+            <span
+              class="v-label"
+            >
+              Item C
+            </span>
+          </label>
+          <label
+            class="v-listbox-item"
+            for="error-single-select-listbox-option-3"
+          >
+            <input
+              class="v-radio v-flex-shrink-0"
+              id="error-single-select-listbox-option-3"
+              name="error-single-select-listbox-options"
+              type="radio"
+            />
+            <span
+              class="v-label"
+            >
+              Item D
+            </span>
+          </label>
+          <label
+            class="v-listbox-item"
+            for="error-single-select-listbox-option-4"
+          >
+            <input
+              class="v-radio v-flex-shrink-0"
+              id="error-single-select-listbox-option-4"
+              name="error-single-select-listbox-options"
+              type="radio"
+            />
+            <span
+              class="v-label"
+            >
+              Item E
+            </span>
+          </label>
+          <label
+            class="v-listbox-item"
+            for="error-single-select-listbox-option-5"
+          >
+            <input
+              class="v-radio v-flex-shrink-0"
+              id="error-single-select-listbox-option-5"
+              name="error-single-select-listbox-options"
+              type="radio"
+            />
+            <span
+              class="v-label"
+            >
+              Item F
+            </span>
+          </label>
+          <label
+            class="v-listbox-item"
+            for="error-single-select-listbox-option-6"
+          >
+            <input
+              class="v-radio v-flex-shrink-0"
+              id="error-single-select-listbox-option-6"
+              name="error-single-select-listbox-options"
+              type="radio"
+            />
+            <span
+              class="v-label"
+            >
+              Item G
+            </span>
+          </label>
+        </div>
+      </div>
+    </fieldset>
+    <div
+      class="v-flex v-flex-row v-gap-8"
+    >
+      <button
+        class="v-button v-mt-8"
+        type="submit"
+      >
+        Submit
+      </button>
+      <button
+        class="v-button v-button-secondary v-mt-8"
+        type="reset"
+      >
+        Reset
+      </button>
+    </div>
+  </form>
+</div>
+`;
+
+exports[`Listbox examples inline-multi-listbox should render correctly 1`] = `
+<div>
+  <fieldset>
+    <legend
+      class="v-label"
+      id="inline-multi-select-listbox-legend"
+    >
+      Label (required)
+    </legend>
+    <div
+      class="v-listbox-container"
+    >
+      <div
+        class="v-listbox v-listbox-scroll"
+        id="inline-multi-select-listbox"
+      >
+        <label
+          class="v-listbox-item"
+          for="inline-multi-select-listbox-option-0"
+        >
+          <input
+            class="v-checkbox v-flex-shrink-0"
+            id="inline-multi-select-listbox-option-0"
+            name="inline-multi-select-listbox-option-0"
+            type="checkbox"
+          />
+          <span
+            class="v-label"
+          >
+            Item A
+          </span>
+        </label>
+        <label
+          class="v-listbox-item"
+          for="inline-multi-select-listbox-option-1"
+        >
+          <input
+            class="v-checkbox v-flex-shrink-0"
+            id="inline-multi-select-listbox-option-1"
+            name="inline-multi-select-listbox-option-1"
+            type="checkbox"
+          />
+          <span
+            class="v-label"
+          >
+            Item B
+          </span>
+        </label>
+        <label
+          class="v-listbox-item"
+          for="inline-multi-select-listbox-option-2"
+        >
+          <input
+            class="v-checkbox v-flex-shrink-0"
+            id="inline-multi-select-listbox-option-2"
+            name="inline-multi-select-listbox-option-2"
+            type="checkbox"
+          />
+          <span
+            class="v-label"
+          >
+            Item C
+          </span>
+        </label>
+        <label
+          class="v-listbox-item"
+          for="inline-multi-select-listbox-option-3"
+        >
+          <input
+            class="v-checkbox v-flex-shrink-0"
+            id="inline-multi-select-listbox-option-3"
+            name="inline-multi-select-listbox-option-3"
+            type="checkbox"
+          />
+          <span
+            class="v-label"
+          >
+            Item D
+          </span>
+        </label>
+        <label
+          class="v-listbox-item"
+          for="inline-multi-select-listbox-option-4"
+        >
+          <input
+            class="v-checkbox v-flex-shrink-0"
+            id="inline-multi-select-listbox-option-4"
+            name="inline-multi-select-listbox-option-4"
+            type="checkbox"
+          />
+          <span
+            class="v-label"
+          >
+            Item E
+          </span>
+        </label>
+        <label
+          class="v-listbox-item"
+          for="inline-multi-select-listbox-option-5"
+        >
+          <input
+            class="v-checkbox v-flex-shrink-0"
+            id="inline-multi-select-listbox-option-5"
+            name="inline-multi-select-listbox-option-5"
+            type="checkbox"
+          />
+          <span
+            class="v-label"
+          >
+            Item F
+          </span>
+        </label>
+        <label
+          class="v-listbox-item"
+          for="inline-multi-select-listbox-option-6"
+        >
+          <input
+            class="v-checkbox v-flex-shrink-0"
+            id="inline-multi-select-listbox-option-6"
+            name="inline-multi-select-listbox-option-6"
+            type="checkbox"
+          />
+          <span
+            class="v-label"
+          >
+            Item G
+          </span>
+        </label>
+      </div>
+    </div>
+    <span
+      class="v-input-message"
+      id="inline-multi-select-listbox-message"
+    >
+      This is optional text that describes the label in more detail.
+    </span>
+  </fieldset>
+</div>
+`;
+
+exports[`Listbox examples inline-single-listbox should render correctly 1`] = `
+<div>
+  <fieldset>
+    <legend
+      class="v-label"
+      id="inline-single-select-listbox-legend"
+    >
+      Label (required)
+    </legend>
+    <div
+      class="v-listbox-container"
+    >
+      <div
+        class="v-listbox v-listbox-scroll"
+        id="inline-single-select-listbox"
+      >
+        <label
+          class="v-listbox-item"
+          for="inline-single-select-listbox-option-0"
+        >
+          <input
+            class="v-radio v-flex-shrink-0"
+            id="inline-single-select-listbox-option-0"
+            name="inline-single-select-listbox-options"
+            type="radio"
+          />
+          <span
+            class="v-label"
+          >
+            Item A
+          </span>
+        </label>
+        <label
+          class="v-listbox-item"
+          for="inline-single-select-listbox-option-1"
+        >
+          <input
+            class="v-radio v-flex-shrink-0"
+            id="inline-single-select-listbox-option-1"
+            name="inline-single-select-listbox-options"
+            type="radio"
+          />
+          <span
+            class="v-label"
+          >
+            Item B
+          </span>
+        </label>
+        <label
+          class="v-listbox-item"
+          for="inline-single-select-listbox-option-2"
+        >
+          <input
+            class="v-radio v-flex-shrink-0"
+            id="inline-single-select-listbox-option-2"
+            name="inline-single-select-listbox-options"
+            type="radio"
+          />
+          <span
+            class="v-label"
+          >
+            Item C
+          </span>
+        </label>
+        <label
+          class="v-listbox-item"
+          for="inline-single-select-listbox-option-3"
+        >
+          <input
+            class="v-radio v-flex-shrink-0"
+            id="inline-single-select-listbox-option-3"
+            name="inline-single-select-listbox-options"
+            type="radio"
+          />
+          <span
+            class="v-label"
+          >
+            Item D
+          </span>
+        </label>
+        <label
+          class="v-listbox-item"
+          for="inline-single-select-listbox-option-4"
+        >
+          <input
+            class="v-radio v-flex-shrink-0"
+            id="inline-single-select-listbox-option-4"
+            name="inline-single-select-listbox-options"
+            type="radio"
+          />
+          <span
+            class="v-label"
+          >
+            Item E
+          </span>
+        </label>
+        <label
+          class="v-listbox-item"
+          for="inline-single-select-listbox-option-5"
+        >
+          <input
+            class="v-radio v-flex-shrink-0"
+            id="inline-single-select-listbox-option-5"
+            name="inline-single-select-listbox-options"
+            type="radio"
+          />
+          <span
+            class="v-label"
+          >
+            Item F
+          </span>
+        </label>
+        <label
+          class="v-listbox-item"
+          for="inline-single-select-listbox-option-6"
+        >
+          <input
+            class="v-radio v-flex-shrink-0"
+            id="inline-single-select-listbox-option-6"
+            name="inline-single-select-listbox-options"
+            type="radio"
+          />
+          <span
+            class="v-label"
+          >
+            Item G
+          </span>
+        </label>
+      </div>
+    </div>
+    <span
+      class="v-input-message"
+      id="inline-single-select-listbox-message"
+    >
+      This is optional text that describes the label in more detail.
+    </span>
+  </fieldset>
+</div>
+`;
+
+exports[`Listbox examples item-disabled-multi-listbox should render correctly 1`] = `
+<div>
+  <fieldset>
+    <legend
+      class="v-label"
+      id="item-disabled-multi-select-listbox-legend"
+    >
+      Label (required)
+    </legend>
+    <div
+      class="v-listbox-container"
+    >
+      <div
+        class="v-listbox v-listbox-scroll"
+        id="item-disabled-multi-select-listbox"
+      >
+        <label
+          class="v-listbox-item"
+          for="item-disabled-multi-select-listbox-option-0"
+        >
+          <input
+            class="v-checkbox v-flex-shrink-0"
+            id="item-disabled-multi-select-listbox-option-0"
+            name="item-disabled-multi-select-listbox-option-0"
+            type="checkbox"
+          />
+          <span
+            class="v-label"
+          >
+            Item A
+          </span>
+        </label>
+        <label
+          class="v-listbox-item"
+          for="item-disabled-multi-select-listbox-option-1"
+        >
+          <input
+            class="v-checkbox v-flex-shrink-0"
+            disabled=""
+            id="item-disabled-multi-select-listbox-option-1"
+            name="item-disabled-multi-select-listbox-option-1"
+            type="checkbox"
+          />
+          <span
+            class="v-label"
+          >
+            Item B
+          </span>
+        </label>
+        <label
+          class="v-listbox-item"
+          for="item-disabled-multi-select-listbox-option-2"
+        >
+          <input
+            class="v-checkbox v-flex-shrink-0"
+            id="item-disabled-multi-select-listbox-option-2"
+            name="item-disabled-multi-select-listbox-option-2"
+            type="checkbox"
+          />
+          <span
+            class="v-label"
+          >
+            Item C
+          </span>
+        </label>
+        <label
+          class="v-listbox-item"
+          for="item-disabled-multi-select-listbox-option-3"
+        >
+          <input
+            class="v-checkbox v-flex-shrink-0"
+            id="item-disabled-multi-select-listbox-option-3"
+            name="item-disabled-multi-select-listbox-option-3"
+            type="checkbox"
+          />
+          <span
+            class="v-label"
+          >
+            Item D
+          </span>
+        </label>
+        <label
+          class="v-listbox-item"
+          for="item-disabled-multi-select-listbox-option-4"
+        >
+          <input
+            class="v-checkbox v-flex-shrink-0"
+            id="item-disabled-multi-select-listbox-option-4"
+            name="item-disabled-multi-select-listbox-option-4"
+            type="checkbox"
+          />
+          <span
+            class="v-label"
+          >
+            Item E
+          </span>
+        </label>
+        <label
+          class="v-listbox-item"
+          for="item-disabled-multi-select-listbox-option-5"
+        >
+          <input
+            class="v-checkbox v-flex-shrink-0"
+            id="item-disabled-multi-select-listbox-option-5"
+            name="item-disabled-multi-select-listbox-option-5"
+            type="checkbox"
+          />
+          <span
+            class="v-label"
+          >
+            Item F
+          </span>
+        </label>
+        <label
+          class="v-listbox-item"
+          for="item-disabled-multi-select-listbox-option-6"
+        >
+          <input
+            class="v-checkbox v-flex-shrink-0"
+            id="item-disabled-multi-select-listbox-option-6"
+            name="item-disabled-multi-select-listbox-option-6"
+            type="checkbox"
+          />
+          <span
+            class="v-label"
+          >
+            Item G
+          </span>
+        </label>
+      </div>
+    </div>
+  </fieldset>
+</div>
+`;
+
+exports[`Listbox examples item-disabled-single-listbox should render correctly 1`] = `
+<div>
+  <fieldset>
+    <legend
+      class="v-label"
+      id="item-disabled-single-select-listbox-legend"
+    >
+      Label (required)
+    </legend>
+    <div
+      class="v-listbox-container"
+    >
+      <div
+        class="v-listbox v-listbox-scroll"
+        id="item-disabled-single-select-listbox"
+      >
+        <label
+          class="v-listbox-item"
+          for="item-disabled-single-select-listbox-option-0"
+        >
+          <input
+            class="v-radio v-flex-shrink-0"
+            id="item-disabled-single-select-listbox-option-0"
+            name="item-disabled-single-select-listbox-options"
+            type="radio"
+          />
+          <span
+            class="v-label"
+          >
+            Item A
+          </span>
+        </label>
+        <label
+          class="v-listbox-item"
+          for="item-disabled-single-select-listbox-option-1"
+        >
+          <input
+            class="v-radio v-flex-shrink-0"
+            disabled=""
+            id="item-disabled-single-select-listbox-option-1"
+            name="item-disabled-single-select-listbox-options"
+            type="radio"
+          />
+          <span
+            class="v-label"
+          >
+            Item B
+          </span>
+        </label>
+        <label
+          class="v-listbox-item"
+          for="item-disabled-single-select-listbox-option-2"
+        >
+          <input
+            class="v-radio v-flex-shrink-0"
+            id="item-disabled-single-select-listbox-option-2"
+            name="item-disabled-single-select-listbox-options"
+            type="radio"
+          />
+          <span
+            class="v-label"
+          >
+            Item C
+          </span>
+        </label>
+        <label
+          class="v-listbox-item"
+          for="item-disabled-single-select-listbox-option-3"
+        >
+          <input
+            class="v-radio v-flex-shrink-0"
+            id="item-disabled-single-select-listbox-option-3"
+            name="item-disabled-single-select-listbox-options"
+            type="radio"
+          />
+          <span
+            class="v-label"
+          >
+            Item D
+          </span>
+        </label>
+        <label
+          class="v-listbox-item"
+          for="item-disabled-single-select-listbox-option-4"
+        >
+          <input
+            class="v-radio v-flex-shrink-0"
+            id="item-disabled-single-select-listbox-option-4"
+            name="item-disabled-single-select-listbox-options"
+            type="radio"
+          />
+          <span
+            class="v-label"
+          >
+            Item E
+          </span>
+        </label>
+        <label
+          class="v-listbox-item"
+          for="item-disabled-single-select-listbox-option-5"
+        >
+          <input
+            class="v-radio v-flex-shrink-0"
+            id="item-disabled-single-select-listbox-option-5"
+            name="item-disabled-single-select-listbox-options"
+            type="radio"
+          />
+          <span
+            class="v-label"
+          >
+            Item F
+          </span>
+        </label>
+        <label
+          class="v-listbox-item"
+          for="item-disabled-single-select-listbox-option-6"
+        >
+          <input
+            class="v-radio v-flex-shrink-0"
+            id="item-disabled-single-select-listbox-option-6"
+            name="item-disabled-single-select-listbox-options"
+            type="radio"
+          />
+          <span
+            class="v-label"
+          >
+            Item G
+          </span>
+        </label>
+      </div>
+    </div>
+  </fieldset>
+</div>
+`;
+
+exports[`Listbox examples option-multi-listbox should render correctly 1`] = `
+<div>
+  <fieldset>
+    <legend
+      class="v-label"
+      id="option-multi-select-listbox-legend"
+    >
+      Label (required)
+    </legend>
+    <div
+      class="v-listbox-container"
+    >
+      <ul
+        aria-labelledby="option-multi-select-listbox-legend"
+        class="v-listbox v-listbox-scroll"
+        id="option-multi-select-listbox"
+        role="listbox"
+      >
+        <li
+          aria-selected="true"
+          class="v-listbox-item"
+          role="option"
+          tabindex="0"
+        >
+          <span
+            class="v-checkbox v-flex-shrink-0"
+          />
+          Item A
+        </li>
+        <li
+          aria-disabled="true"
+          aria-selected="false"
+          class="v-listbox-item"
+          role="option"
+          tabindex="-1"
+        >
+          <span
+            class="v-checkbox v-flex-shrink-0"
+          />
+          Item B
+        </li>
+        <li
+          aria-selected="false"
+          class="v-listbox-item"
+          role="option"
+          tabindex="-1"
+        >
+          <span
+            class="v-checkbox v-flex-shrink-0"
+          />
+          Item C
+        </li>
+        <li
+          aria-selected="true"
+          class="v-listbox-item"
+          role="option"
+          tabindex="-1"
+        >
+          <span
+            class="v-checkbox v-flex-shrink-0"
+          />
+          Item D
+        </li>
+        <li
+          aria-selected="false"
+          class="v-listbox-item"
+          role="option"
+          tabindex="-1"
+        >
+          <span
+            class="v-checkbox v-flex-shrink-0"
+          />
+          Item E
+        </li>
+        <li
+          aria-selected="false"
+          class="v-listbox-item"
+          role="option"
+          tabindex="-1"
+        >
+          <span
+            class="v-checkbox v-flex-shrink-0"
+          />
+          Item F
+        </li>
+        <li
+          aria-selected="false"
+          class="v-listbox-item"
+          role="option"
+          tabindex="-1"
+        >
+          <span
+            class="v-checkbox v-flex-shrink-0"
+          />
+          Item G
+        </li>
+      </ul>
+    </div>
+  </fieldset>
+</div>
+`;
+
+exports[`Listbox examples option-single-listbox should render correctly 1`] = `
+<div>
+  <fieldset>
+    <legend
+      class="v-label"
+      id="option-single-select-listbox-legend"
+    >
+      Label (required)
+    </legend>
+    <div
+      class="v-listbox-container"
+    >
+      <ul
+        aria-labelledby="option-single-select-listbox-legend"
+        class="v-listbox v-listbox-scroll"
+        id="option-single-select-listbox"
+        role="listbox"
+      >
+        <li
+          aria-selected="true"
+          class="v-listbox-item"
+          role="option"
+          tabindex="0"
+        >
+          <span
+            class="v-radio v-flex-shrink-0 "
+          />
+          Item A
+        </li>
+        <li
+          aria-disabled="true"
+          aria-selected="false"
+          class="v-listbox-item"
+          role="option"
+          tabindex="-1"
+        >
+          <span
+            class="v-radio v-flex-shrink-0 "
+          />
+          Item B
+        </li>
+        <li
+          aria-selected="false"
+          class="v-listbox-item"
+          role="option"
+          tabindex="-1"
+        >
+          <span
+            class="v-radio v-flex-shrink-0 "
+          />
+          Item C
+        </li>
+        <li
+          aria-selected="false"
+          class="v-listbox-item"
+          role="option"
+          tabindex="-1"
+        >
+          <span
+            class="v-radio v-flex-shrink-0 "
+          />
+          Item D
+        </li>
+        <li
+          aria-selected="false"
+          class="v-listbox-item"
+          role="option"
+          tabindex="-1"
+        >
+          <span
+            class="v-radio v-flex-shrink-0 "
+          />
+          Item E
+        </li>
+        <li
+          aria-selected="false"
+          class="v-listbox-item"
+          role="option"
+          tabindex="-1"
+        >
+          <span
+            class="v-radio v-flex-shrink-0 "
+          />
+          Item F
+        </li>
+        <li
+          aria-selected="false"
+          class="v-listbox-item"
+          role="option"
+          tabindex="-1"
+        >
+          <span
+            class="v-radio v-flex-shrink-0 "
+          />
+          Item G
+        </li>
+      </ul>
+    </div>
+  </fieldset>
+</div>
+`;
+
+exports[`Listbox examples resize-multi-listbox should render correctly 1`] = `
+<div>
+  <fieldset>
+    <legend
+      class="v-label"
+      id="resize-multi-select-listbox-legend"
+    >
+      Label (required)
+    </legend>
+    <div
+      class="v-listbox-container"
+    >
+      <div
+        class="v-listbox"
+        id="resize-multi-select-listbox"
+      >
+        <label
+          class="v-listbox-item"
+          for="resize-multi-select-listbox-option-0"
+        >
+          <input
+            class="v-checkbox v-flex-shrink-0"
+            id="resize-multi-select-listbox-option-0"
+            name="resize-multi-select-listbox-option-0"
+            type="checkbox"
+          />
+          <span
+            class="v-label"
+          >
+            Item A
+          </span>
+        </label>
+        <label
+          class="v-listbox-item"
+          for="resize-multi-select-listbox-option-1"
+        >
+          <input
+            class="v-checkbox v-flex-shrink-0"
+            id="resize-multi-select-listbox-option-1"
+            name="resize-multi-select-listbox-option-1"
+            type="checkbox"
+          />
+          <span
+            class="v-label"
+          >
+            Item B
+          </span>
+        </label>
+        <label
+          class="v-listbox-item"
+          for="resize-multi-select-listbox-option-2"
+        >
+          <input
+            class="v-checkbox v-flex-shrink-0"
+            id="resize-multi-select-listbox-option-2"
+            name="resize-multi-select-listbox-option-2"
+            type="checkbox"
+          />
+          <span
+            class="v-label"
+          >
+            Item C
+          </span>
+        </label>
+        <label
+          class="v-listbox-item"
+          for="resize-multi-select-listbox-option-3"
+        >
+          <input
+            class="v-checkbox v-flex-shrink-0"
+            id="resize-multi-select-listbox-option-3"
+            name="resize-multi-select-listbox-option-3"
+            type="checkbox"
+          />
+          <span
+            class="v-label"
+          >
+            Item D
+          </span>
+        </label>
+        <label
+          class="v-listbox-item"
+          for="resize-multi-select-listbox-option-4"
+        >
+          <input
+            class="v-checkbox v-flex-shrink-0"
+            id="resize-multi-select-listbox-option-4"
+            name="resize-multi-select-listbox-option-4"
+            type="checkbox"
+          />
+          <span
+            class="v-label"
+          >
+            Item E
+          </span>
+        </label>
+        <label
+          class="v-listbox-item"
+          for="resize-multi-select-listbox-option-5"
+        >
+          <input
+            class="v-checkbox v-flex-shrink-0"
+            id="resize-multi-select-listbox-option-5"
+            name="resize-multi-select-listbox-option-5"
+            type="checkbox"
+          />
+          <span
+            class="v-label"
+          >
+            Item F
+          </span>
+        </label>
+        <label
+          class="v-listbox-item"
+          for="resize-multi-select-listbox-option-6"
+        >
+          <input
+            class="v-checkbox v-flex-shrink-0"
+            id="resize-multi-select-listbox-option-6"
+            name="resize-multi-select-listbox-option-6"
+            type="checkbox"
+          />
+          <span
+            class="v-label"
+          >
+            Item G
+          </span>
+        </label>
+      </div>
+    </div>
+  </fieldset>
+</div>
+`;
+
+exports[`Listbox examples resize-single-listbox should render correctly 1`] = `
+<div>
+  <fieldset>
+    <legend
+      class="v-label"
+      id="resize-single-select-listbox-legend"
+    >
+      Label (required)
+    </legend>
+    <div
+      class="v-listbox-container"
+    >
+      <div
+        class="v-listbox"
+        id="resize-single-select-listbox"
+      >
+        <label
+          class="v-listbox-item"
+          for="resize-single-select-listbox-option-0"
+        >
+          <input
+            class="v-radio v-flex-shrink-0"
+            id="resize-single-select-listbox-option-0"
+            name="resize-single-select-listbox-option-0"
+            type="radio"
+          />
+          <span
+            class="v-label"
+          >
+            Item A
+          </span>
+        </label>
+        <label
+          class="v-listbox-item"
+          for="resize-single-select-listbox-option-1"
+        >
+          <input
+            class="v-radio v-flex-shrink-0"
+            id="resize-single-select-listbox-option-1"
+            name="resize-single-select-listbox-option-1"
+            type="radio"
+          />
+          <span
+            class="v-label"
+          >
+            Item B
+          </span>
+        </label>
+        <label
+          class="v-listbox-item"
+          for="resize-single-select-listbox-option-2"
+        >
+          <input
+            class="v-radio v-flex-shrink-0"
+            id="resize-single-select-listbox-option-2"
+            name="resize-single-select-listbox-option-2"
+            type="radio"
+          />
+          <span
+            class="v-label"
+          >
+            Item C
+          </span>
+        </label>
+        <label
+          class="v-listbox-item"
+          for="resize-single-select-listbox-option-3"
+        >
+          <input
+            class="v-radio v-flex-shrink-0"
+            id="resize-single-select-listbox-option-3"
+            name="resize-single-select-listbox-option-3"
+            type="radio"
+          />
+          <span
+            class="v-label"
+          >
+            Item D
+          </span>
+        </label>
+        <label
+          class="v-listbox-item"
+          for="resize-single-select-listbox-option-4"
+        >
+          <input
+            class="v-radio v-flex-shrink-0"
+            id="resize-single-select-listbox-option-4"
+            name="resize-single-select-listbox-option-4"
+            type="radio"
+          />
+          <span
+            class="v-label"
+          >
+            Item E
+          </span>
+        </label>
+        <label
+          class="v-listbox-item"
+          for="resize-single-select-listbox-option-5"
+        >
+          <input
+            class="v-radio v-flex-shrink-0"
+            id="resize-single-select-listbox-option-5"
+            name="resize-single-select-listbox-option-5"
+            type="radio"
+          />
+          <span
+            class="v-label"
+          >
+            Item F
+          </span>
+        </label>
+        <label
+          class="v-listbox-item"
+          for="resize-single-select-listbox-option-6"
+        >
+          <input
+            class="v-radio v-flex-shrink-0"
+            id="resize-single-select-listbox-option-6"
+            name="resize-single-select-listbox-option-6"
+            type="radio"
+          />
+          <span
+            class="v-label"
+          >
+            Item G
+          </span>
+        </label>
+      </div>
+    </div>
+  </fieldset>
+</div>
+`;
+
+exports[`Listbox examples selected-multi-listbox should render correctly 1`] = `
+<div>
+  <fieldset>
+    <legend
+      class="v-label"
+      id="selected-multi-select-listbox-legend"
+    >
+      Label (required)
+    </legend>
+    <div
+      class="v-listbox-container"
+    >
+      <div
+        class="v-listbox v-listbox-scroll"
+        id="selected-multi-select-listbox"
+      >
+        <label
+          class="v-listbox-item"
+          for="selected-multi-select-listbox-option-0"
+        >
+          <input
+            class="v-checkbox v-flex-shrink-0"
+            id="selected-multi-select-listbox-option-0"
+            name="selected-multi-select-listbox-option-0"
+            type="checkbox"
+          />
+          <span
+            class="v-label"
+          >
+            Item A
+          </span>
+        </label>
+        <label
+          class="v-listbox-item"
+          for="selected-multi-select-listbox-option-1"
+        >
+          <input
+            checked=""
+            class="v-checkbox v-flex-shrink-0"
+            id="selected-multi-select-listbox-option-1"
+            name="selected-multi-select-listbox-option-1"
+            type="checkbox"
+          />
+          <span
+            class="v-label"
+          >
+            Item B
+          </span>
+        </label>
+        <label
+          class="v-listbox-item"
+          for="selected-multi-select-listbox-option-2"
+        >
+          <input
+            class="v-checkbox v-flex-shrink-0"
+            id="selected-multi-select-listbox-option-2"
+            name="selected-multi-select-listbox-option-2"
+            type="checkbox"
+          />
+          <span
+            class="v-label"
+          >
+            Item C
+          </span>
+        </label>
+        <label
+          class="v-listbox-item"
+          for="selected-multi-select-listbox-option-3"
+        >
+          <input
+            class="v-checkbox v-flex-shrink-0"
+            id="selected-multi-select-listbox-option-3"
+            name="selected-multi-select-listbox-option-3"
+            type="checkbox"
+          />
+          <span
+            class="v-label"
+          >
+            Item D
+          </span>
+        </label>
+        <label
+          class="v-listbox-item"
+          for="selected-multi-select-listbox-option-4"
+        >
+          <input
+            class="v-checkbox v-flex-shrink-0"
+            id="selected-multi-select-listbox-option-4"
+            name="selected-multi-select-listbox-option-4"
+            type="checkbox"
+          />
+          <span
+            class="v-label"
+          >
+            Item E
+          </span>
+        </label>
+        <label
+          class="v-listbox-item"
+          for="selected-multi-select-listbox-option-5"
+        >
+          <input
+            class="v-checkbox v-flex-shrink-0"
+            id="selected-multi-select-listbox-option-5"
+            name="selected-multi-select-listbox-option-5"
+            type="checkbox"
+          />
+          <span
+            class="v-label"
+          >
+            Item F
+          </span>
+        </label>
+        <label
+          class="v-listbox-item"
+          for="selected-multi-select-listbox-option-6"
+        >
+          <input
+            class="v-checkbox v-flex-shrink-0"
+            id="selected-multi-select-listbox-option-6"
+            name="selected-multi-select-listbox-option-6"
+            type="checkbox"
+          />
+          <span
+            class="v-label"
+          >
+            Item G
+          </span>
+        </label>
+      </div>
+    </div>
+  </fieldset>
+</div>
+`;
+
+exports[`Listbox examples selected-single-listbox should render correctly 1`] = `
+<div>
+  <fieldset>
+    <legend
+      class="v-label"
+      id="selected-single-select-listbox-legend"
+    >
+      Label (required)
+    </legend>
+    <div
+      class="v-listbox-container"
+    >
+      <div
+        class="v-listbox v-listbox-scroll"
+        id="selected-single-select-listbox"
+      >
+        <label
+          class="v-listbox-item"
+          for="selected-single-select-listbox-option-0"
+        >
+          <input
+            class="v-radio v-flex-shrink-0"
+            id="selected-single-select-listbox-option-0"
+            name="selected-single-select-listbox-option-0"
+            type="radio"
+          />
+          <span
+            class="v-label"
+          >
+            Item A
+          </span>
+        </label>
+        <label
+          class="v-listbox-item"
+          for="selected-single-select-listbox-option-1"
+        >
+          <input
+            checked=""
+            class="v-radio v-flex-shrink-0"
+            id="selected-single-select-listbox-option-1"
+            name="selected-single-select-listbox-option-1"
+            type="radio"
+          />
+          <span
+            class="v-label"
+          >
+            Item B
+          </span>
+        </label>
+        <label
+          class="v-listbox-item"
+          for="selected-single-select-listbox-option-2"
+        >
+          <input
+            class="v-radio v-flex-shrink-0"
+            id="selected-single-select-listbox-option-2"
+            name="selected-single-select-listbox-option-2"
+            type="radio"
+          />
+          <span
+            class="v-label"
+          >
+            Item C
+          </span>
+        </label>
+        <label
+          class="v-listbox-item"
+          for="selected-single-select-listbox-option-3"
+        >
+          <input
+            class="v-radio v-flex-shrink-0"
+            id="selected-single-select-listbox-option-3"
+            name="selected-single-select-listbox-option-3"
+            type="radio"
+          />
+          <span
+            class="v-label"
+          >
+            Item D
+          </span>
+        </label>
+        <label
+          class="v-listbox-item"
+          for="selected-single-select-listbox-option-4"
+        >
+          <input
+            class="v-radio v-flex-shrink-0"
+            id="selected-single-select-listbox-option-4"
+            name="selected-single-select-listbox-option-4"
+            type="radio"
+          />
+          <span
+            class="v-label"
+          >
+            Item E
+          </span>
+        </label>
+        <label
+          class="v-listbox-item"
+          for="selected-single-select-listbox-option-5"
+        >
+          <input
+            class="v-radio v-flex-shrink-0"
+            id="selected-single-select-listbox-option-5"
+            name="selected-single-select-listbox-option-5"
+            type="radio"
+          />
+          <span
+            class="v-label"
+          >
+            Item F
+          </span>
+        </label>
+        <label
+          class="v-listbox-item"
+          for="selected-single-select-listbox-option-6"
+        >
+          <input
+            class="v-radio v-flex-shrink-0"
+            id="selected-single-select-listbox-option-6"
+            name="selected-single-select-listbox-option-6"
+            type="radio"
+          />
+          <span
+            class="v-label"
+          >
+            Item G
+          </span>
+        </label>
+      </div>
+    </div>
+  </fieldset>
+</div>
+`;

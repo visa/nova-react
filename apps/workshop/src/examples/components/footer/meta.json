@@ -1,0 +1,20 @@
+{
+  "default-footer": {
+    "file": "default-footer.tsx",
+    "id": "default-footer",
+    "tags": {
+      "docs": true
+    },
+    "title": "Default footer",
+    "testAvg": 100
+  },
+  "navigational-footer": {
+    "file": "navigational-footer.tsx",
+    "id": "navigational-footer",
+    "tags": {
+      "docs": true
+    },
+    "title": "Navigational footer",
+    "testAvg": 100
+  }
+}

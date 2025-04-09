@@ -1,0 +1,2378 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Multiselect examples Default multiselect should render correctly 1`] = `
+<div>
+  <div
+    class="v-combobox"
+  >
+    <div
+      class="v-dropdown v-flex v-flex-col v-gap-4"
+    >
+      <label
+        class="v-label"
+        for="downshift-:r0:-input"
+        id="downshift-:r0:-label"
+      >
+        Label (required)
+      </label>
+      <div
+        class="v-surface v-input-container v-pl-3 v-pr-6 v-py-3"
+      >
+        <div
+          class="v-flex v-flex-grow v-flex-shrink v-flex-wrap v-gap-2"
+        >
+          <input
+            aria-activedescendant=""
+            aria-autocomplete="list"
+            aria-controls="downshift-:r0:-menu"
+            aria-expanded="false"
+            aria-labelledby="downshift-:r0:-label"
+            autocomplete="off"
+            class="v-input v-flex-shrink"
+            id="downshift-:r0:-input"
+            name="default-multiselect"
+            role="combobox"
+            style="flex-basis: 50px;"
+            value=""
+          />
+        </div>
+        <button
+          aria-controls="downshift-:r0:-menu"
+          aria-expanded="false"
+          aria-haspopup="listbox"
+          aria-label="default-multiselect-toggle-button"
+          class="v-button v-button-small v-button-tertiary v-button-icon"
+          id="downshift-:r0:-toggle-button"
+          tabindex="-1"
+        >
+          <svg
+            aria-hidden="true"
+            class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-down"
+            focusable="false"
+            height="16"
+            viewBox="0 0 16 16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="v-icon-primary"
+              clip-rule="evenodd"
+              d="M2.47597 4.00049L1 5.39358L8 12.0005L15 5.39358L13.524 4.00049L8 9.21431L2.47597 4.00049Z"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div
+      class="v-listbox-container"
+    >
+      <ul
+        aria-labelledby="downshift-:r0:-label"
+        class="v-listbox v-flex"
+        id="downshift-:r0:-menu"
+        role="listbox"
+      >
+        <li
+          aria-disabled="false"
+          aria-selected="false"
+          class="v-listbox-item"
+          id="downshift-:r0:-item-0"
+          role="option"
+        >
+          <span
+            class="v-checkbox"
+          />
+          Option A
+        </li>
+        <li
+          aria-disabled="false"
+          aria-selected="false"
+          class="v-listbox-item"
+          id="downshift-:r0:-item-1"
+          role="option"
+        >
+          <span
+            class="v-checkbox"
+          />
+          Option B
+        </li>
+        <li
+          aria-disabled="false"
+          aria-selected="false"
+          class="v-listbox-item"
+          id="downshift-:r0:-item-2"
+          role="option"
+        >
+          <span
+            class="v-checkbox"
+          />
+          Option C
+        </li>
+        <li
+          aria-disabled="false"
+          aria-selected="false"
+          class="v-listbox-item"
+          id="downshift-:r0:-item-3"
+          role="option"
+        >
+          <span
+            class="v-checkbox"
+          />
+          Option D
+        </li>
+        <li
+          aria-disabled="false"
+          aria-selected="false"
+          class="v-listbox-item"
+          id="downshift-:r0:-item-4"
+          role="option"
+        >
+          <span
+            class="v-checkbox"
+          />
+          Option E
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Multiselect examples Disabled multiselect should render correctly 1`] = `
+<div>
+  <div
+    class="v-combobox"
+  >
+    <div
+      class="v-dropdown v-flex v-flex-col v-gap-4"
+    >
+      <label
+        class="v-label"
+        for="downshift-:r4:-input"
+        id="downshift-:r4:-label"
+      >
+        Label (required)
+      </label>
+      <div
+        class="v-surface v-input-container v-pl-3 v-pr-6 v-py-3"
+      >
+        <div
+          class="v-flex v-flex-grow v-flex-shrink v-flex-wrap v-gap-2"
+        >
+          <input
+            aria-activedescendant=""
+            aria-autocomplete="list"
+            aria-controls="downshift-:r4:-menu"
+            aria-expanded="false"
+            aria-labelledby="downshift-:r4:-label"
+            autocomplete="off"
+            class="v-input v-flex-shrink"
+            disabled=""
+            id="downshift-:r4:-input"
+            name="disabled-multiselect"
+            role="combobox"
+            style="flex-basis: 50px;"
+            value=""
+          />
+        </div>
+        <button
+          aria-controls="downshift-:r4:-menu"
+          aria-expanded="false"
+          aria-haspopup="listbox"
+          aria-label="disabled-multiselect-toggle-button"
+          class="v-button v-button-small v-button-tertiary v-button-icon"
+          disabled=""
+          id="downshift-:r4:-toggle-button"
+          tabindex="-1"
+        >
+          <svg
+            aria-hidden="true"
+            class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-down"
+            focusable="false"
+            height="16"
+            viewBox="0 0 16 16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="v-icon-primary"
+              clip-rule="evenodd"
+              d="M2.47597 4.00049L1 5.39358L8 12.0005L15 5.39358L13.524 4.00049L8 9.21431L2.47597 4.00049Z"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div
+      class="v-listbox-container"
+    >
+      <ul
+        aria-labelledby="downshift-:r4:-label"
+        class="v-listbox v-flex"
+        id="downshift-:r4:-menu"
+        role="listbox"
+      >
+        <li
+          aria-disabled="false"
+          aria-selected="false"
+          class="v-listbox-item"
+          id="downshift-:r4:-item-0"
+          role="option"
+        >
+          <span
+            class="v-checkbox"
+          />
+          Option A
+        </li>
+        <li
+          aria-disabled="false"
+          aria-selected="false"
+          class="v-listbox-item"
+          id="downshift-:r4:-item-1"
+          role="option"
+        >
+          <span
+            class="v-checkbox"
+          />
+          Option B
+        </li>
+        <li
+          aria-disabled="false"
+          aria-selected="false"
+          class="v-listbox-item"
+          id="downshift-:r4:-item-2"
+          role="option"
+        >
+          <span
+            class="v-checkbox"
+          />
+          Option C
+        </li>
+        <li
+          aria-disabled="false"
+          aria-selected="false"
+          class="v-listbox-item"
+          id="downshift-:r4:-item-3"
+          role="option"
+        >
+          <span
+            class="v-checkbox"
+          />
+          Option D
+        </li>
+        <li
+          aria-disabled="false"
+          aria-selected="false"
+          class="v-listbox-item"
+          id="downshift-:r4:-item-4"
+          role="option"
+        >
+          <span
+            class="v-checkbox"
+          />
+          Option E
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div
+    class="v-mt-10 v-input-container"
+  >
+    <input
+      checked=""
+      class="v-checkbox"
+      id="disabled-multiselect-checkbox-mark-as-disabled"
+      type="checkbox"
+    />
+    <label
+      class="v-label"
+      for="disabled-multiselect-checkbox-mark-as-disabled"
+    >
+      Mark input as disabled
+    </label>
+  </div>
+</div>
+`;
+
+exports[`Multiselect examples Multiselect with disabled option should render correctly 1`] = `
+<div>
+  <div
+    class="v-combobox"
+  >
+    <div
+      class="v-dropdown v-flex v-flex-col v-gap-4"
+    >
+      <label
+        class="v-label"
+        for="downshift-:r3:-input"
+        id="downshift-:r3:-label"
+      >
+        Label (required)
+      </label>
+      <div
+        class="v-surface v-input-container v-pl-3 v-pr-6 v-py-3"
+      >
+        <div
+          class="v-flex v-flex-grow v-flex-shrink v-flex-wrap v-gap-2"
+        >
+          <input
+            aria-activedescendant=""
+            aria-autocomplete="list"
+            aria-controls="downshift-:r3:-menu"
+            aria-expanded="false"
+            aria-labelledby="downshift-:r3:-label"
+            autocomplete="off"
+            class="v-input v-flex-shrink"
+            id="downshift-:r3:-input"
+            name="multiselect-with-disabled-option"
+            role="combobox"
+            style="flex-basis: 50px;"
+            value=""
+          />
+        </div>
+        <button
+          aria-controls="downshift-:r3:-menu"
+          aria-expanded="false"
+          aria-haspopup="listbox"
+          aria-label="multiselect-with-disabled-option-toggle-button"
+          class="v-button v-button-small v-button-tertiary v-button-icon"
+          id="downshift-:r3:-toggle-button"
+          tabindex="-1"
+        >
+          <svg
+            aria-hidden="true"
+            class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-down"
+            focusable="false"
+            height="16"
+            viewBox="0 0 16 16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="v-icon-primary"
+              clip-rule="evenodd"
+              d="M2.47597 4.00049L1 5.39358L8 12.0005L15 5.39358L13.524 4.00049L8 9.21431L2.47597 4.00049Z"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div
+      class="v-listbox-container"
+    >
+      <ul
+        aria-labelledby="downshift-:r3:-label"
+        class="v-listbox v-flex"
+        id="downshift-:r3:-menu"
+        role="listbox"
+      >
+        <li
+          aria-selected="false"
+          class="v-listbox-item"
+          id="downshift-:r3:-item-0"
+          role="option"
+        >
+          <span
+            class="v-checkbox"
+          />
+          Option A
+        </li>
+        <li
+          aria-disabled="true"
+          aria-selected="false"
+          class="v-listbox-item"
+          id="downshift-:r3:-item-1"
+          role="option"
+        >
+          <span
+            class="v-checkbox"
+          />
+          Option B
+        </li>
+        <li
+          aria-selected="false"
+          class="v-listbox-item"
+          id="downshift-:r3:-item-2"
+          role="option"
+        >
+          <span
+            class="v-checkbox"
+          />
+          Option C
+        </li>
+        <li
+          aria-selected="false"
+          class="v-listbox-item"
+          id="downshift-:r3:-item-3"
+          role="option"
+        >
+          <span
+            class="v-checkbox"
+          />
+          Option D
+        </li>
+        <li
+          aria-selected="false"
+          class="v-listbox-item"
+          id="downshift-:r3:-item-4"
+          role="option"
+        >
+          <span
+            class="v-checkbox"
+          />
+          Option E
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Multiselect examples Multiselect with error should render correctly 1`] = `
+<div>
+  <div
+    class="v-combobox"
+  >
+    <div
+      class="v-dropdown v-flex v-flex-col v-gap-4"
+    >
+      <label
+        class="v-label"
+        for="downshift-:r2:-input"
+        id="downshift-:r2:-label"
+      >
+        Label (required)
+      </label>
+      <div
+        class="v-surface v-input-container v-pl-3 v-pr-6 v-py-3"
+      >
+        <div
+          class="v-flex v-flex-grow v-flex-shrink v-flex-wrap v-gap-2"
+        >
+          <input
+            aria-activedescendant=""
+            aria-autocomplete="list"
+            aria-controls="downshift-:r2:-menu"
+            aria-expanded="false"
+            aria-invalid="false"
+            aria-labelledby="downshift-:r2:-label"
+            autocomplete="off"
+            class="v-input v-flex-shrink"
+            id="downshift-:r2:-input"
+            name="multiselect-with-error"
+            role="combobox"
+            style="flex-basis: 50px;"
+            value=""
+          />
+        </div>
+        <button
+          aria-controls="downshift-:r2:-menu"
+          aria-expanded="false"
+          aria-haspopup="listbox"
+          aria-label="multiselect-with-error-toggle-button"
+          class="v-button v-button-small v-button-tertiary v-button-icon"
+          id="downshift-:r2:-toggle-button"
+          tabindex="-1"
+        >
+          <svg
+            aria-hidden="true"
+            class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-down"
+            focusable="false"
+            height="16"
+            viewBox="0 0 16 16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="v-icon-primary"
+              clip-rule="evenodd"
+              d="M2.47597 4.00049L1 5.39358L8 12.0005L15 5.39358L13.524 4.00049L8 9.21431L2.47597 4.00049Z"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div
+      class="v-listbox-container"
+    >
+      <ul
+        aria-labelledby="downshift-:r2:-label"
+        class="v-listbox v-flex"
+        id="downshift-:r2:-menu"
+        role="listbox"
+      >
+        <li
+          aria-disabled="false"
+          aria-selected="false"
+          class="v-listbox-item"
+          id="downshift-:r2:-item-0"
+          role="option"
+        >
+          <span
+            class="v-checkbox"
+          />
+          Option A
+        </li>
+        <li
+          aria-disabled="false"
+          aria-selected="false"
+          class="v-listbox-item"
+          id="downshift-:r2:-item-1"
+          role="option"
+        >
+          <span
+            class="v-checkbox"
+          />
+          Option B
+        </li>
+        <li
+          aria-disabled="false"
+          aria-selected="false"
+          class="v-listbox-item"
+          id="downshift-:r2:-item-2"
+          role="option"
+        >
+          <span
+            class="v-checkbox"
+          />
+          Option C
+        </li>
+        <li
+          aria-disabled="false"
+          aria-selected="false"
+          class="v-listbox-item"
+          id="downshift-:r2:-item-3"
+          role="option"
+        >
+          <span
+            class="v-checkbox"
+          />
+          Option D
+        </li>
+        <li
+          aria-disabled="false"
+          aria-selected="false"
+          class="v-listbox-item"
+          id="downshift-:r2:-item-4"
+          role="option"
+        >
+          <span
+            class="v-checkbox"
+          />
+          Option E
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div
+    class="v-flex v-gap-12 v-mt-16"
+  >
+    <button
+      class="v-button"
+      id="multiselect-with-error-submit-button"
+    >
+      Submit
+    </button>
+    <button
+      class="v-button v-button-secondary"
+      id="multiselect-with-error-reset-button"
+    >
+      Reset
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Multiselect examples Multiselect with filterable menu and automatic selection should render correctly 1`] = `
+<div>
+  <div
+    class="v-combobox"
+  >
+    <div
+      class="v-dropdown v-flex v-flex-col v-gap-4"
+    >
+      <label
+        class="v-label"
+        for="downshift-:rb:-input"
+        id="downshift-:rb:-label"
+      >
+        Label (required)
+      </label>
+      <div
+        class="v-surface v-input-container v-pl-3 v-pr-6 v-py-3"
+      >
+        <div
+          class="v-flex v-flex-grow v-flex-shrink v-flex-wrap v-gap-2"
+        >
+          <input
+            aria-activedescendant=""
+            aria-autocomplete="list"
+            aria-controls="downshift-:rb:-menu"
+            aria-expanded="false"
+            aria-labelledby="downshift-:rb:-label"
+            autocomplete="off"
+            class="v-input v-flex-shrink"
+            id="downshift-:rb:-input"
+            name="multiselect-with-filterable-menu-and-automatic-selection"
+            role="combobox"
+            style="flex-basis: 50px;"
+            value=""
+          />
+        </div>
+        <button
+          aria-controls="downshift-:rb:-menu"
+          aria-expanded="false"
+          aria-haspopup="listbox"
+          aria-label="multiselect-with-filterable-menu-and-automatic-selection-toggle-button"
+          class="v-button v-button-small v-button-tertiary v-button-icon"
+          id="downshift-:rb:-toggle-button"
+          tabindex="-1"
+        >
+          <svg
+            aria-hidden="true"
+            class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-down"
+            focusable="false"
+            height="16"
+            viewBox="0 0 16 16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="v-icon-primary"
+              clip-rule="evenodd"
+              d="M2.47597 4.00049L1 5.39358L8 12.0005L15 5.39358L13.524 4.00049L8 9.21431L2.47597 4.00049Z"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div
+      class="v-listbox-container"
+    >
+      <ul
+        aria-labelledby="downshift-:rb:-label"
+        class="v-listbox v-flex"
+        id="downshift-:rb:-menu"
+        role="listbox"
+      >
+        <li
+          aria-disabled="false"
+          aria-selected="false"
+          class="v-listbox-item v-listbox-item-highlighted"
+          id="downshift-:rb:-item-0"
+          role="option"
+        >
+          <span
+            class="v-checkbox"
+          />
+          Option A
+        </li>
+        <li
+          aria-disabled="false"
+          aria-selected="false"
+          class="v-listbox-item"
+          id="downshift-:rb:-item-1"
+          role="option"
+        >
+          <span
+            class="v-checkbox"
+          />
+          Option B
+        </li>
+        <li
+          aria-disabled="false"
+          aria-selected="false"
+          class="v-listbox-item"
+          id="downshift-:rb:-item-2"
+          role="option"
+        >
+          <span
+            class="v-checkbox"
+          />
+          Option C
+        </li>
+        <li
+          aria-disabled="false"
+          aria-selected="false"
+          class="v-listbox-item"
+          id="downshift-:rb:-item-3"
+          role="option"
+        >
+          <span
+            class="v-checkbox"
+          />
+          Option D
+        </li>
+        <li
+          aria-disabled="false"
+          aria-selected="false"
+          class="v-listbox-item"
+          id="downshift-:rb:-item-4"
+          role="option"
+        >
+          <span
+            class="v-checkbox"
+          />
+          Option E
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Multiselect examples Multiselect with filterable menu and manual selection should render correctly 1`] = `
+<div>
+  <div
+    class="v-combobox"
+  >
+    <div
+      class="v-dropdown v-flex v-flex-col v-gap-4"
+    >
+      <label
+        class="v-label"
+        for="downshift-:ra:-input"
+        id="downshift-:ra:-label"
+      >
+        Label (required)
+      </label>
+      <div
+        class="v-surface v-input-container v-pl-3 v-pr-6 v-py-3"
+      >
+        <div
+          class="v-flex v-flex-grow v-flex-shrink v-flex-wrap v-gap-2"
+        >
+          <input
+            aria-activedescendant=""
+            aria-autocomplete="list"
+            aria-controls="downshift-:ra:-menu"
+            aria-expanded="false"
+            aria-labelledby="downshift-:ra:-label"
+            autocomplete="off"
+            class="v-input v-flex-shrink"
+            id="downshift-:ra:-input"
+            name="multiselect-with-filterable-menu-and-manual-selection"
+            role="combobox"
+            style="flex-basis: 50px;"
+            value=""
+          />
+        </div>
+        <button
+          aria-controls="downshift-:ra:-menu"
+          aria-expanded="false"
+          aria-haspopup="listbox"
+          aria-label="multiselect-with-filterable-menu-and-manual-selection-toggle-button"
+          class="v-button v-button-small v-button-tertiary v-button-icon"
+          id="downshift-:ra:-toggle-button"
+          tabindex="-1"
+        >
+          <svg
+            aria-hidden="true"
+            class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-down"
+            focusable="false"
+            height="16"
+            viewBox="0 0 16 16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="v-icon-primary"
+              clip-rule="evenodd"
+              d="M2.47597 4.00049L1 5.39358L8 12.0005L15 5.39358L13.524 4.00049L8 9.21431L2.47597 4.00049Z"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div
+      class="v-listbox-container"
+    >
+      <ul
+        aria-labelledby="downshift-:ra:-label"
+        class="v-listbox v-flex"
+        id="downshift-:ra:-menu"
+        role="listbox"
+      >
+        <li
+          aria-disabled="false"
+          aria-selected="false"
+          class="v-listbox-item"
+          id="downshift-:ra:-item-0"
+          role="option"
+        >
+          <span
+            class="v-checkbox"
+          />
+          Option A
+        </li>
+        <li
+          aria-disabled="false"
+          aria-selected="false"
+          class="v-listbox-item"
+          id="downshift-:ra:-item-1"
+          role="option"
+        >
+          <span
+            class="v-checkbox"
+          />
+          Option B
+        </li>
+        <li
+          aria-disabled="false"
+          aria-selected="false"
+          class="v-listbox-item"
+          id="downshift-:ra:-item-2"
+          role="option"
+        >
+          <span
+            class="v-checkbox"
+          />
+          Option C
+        </li>
+        <li
+          aria-disabled="false"
+          aria-selected="false"
+          class="v-listbox-item"
+          id="downshift-:ra:-item-3"
+          role="option"
+        >
+          <span
+            class="v-checkbox"
+          />
+          Option D
+        </li>
+        <li
+          aria-disabled="false"
+          aria-selected="false"
+          class="v-listbox-item"
+          id="downshift-:ra:-item-4"
+          role="option"
+        >
+          <span
+            class="v-checkbox"
+          />
+          Option E
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Multiselect examples Multiselect with inline message should render correctly 1`] = `
+<div>
+  <div
+    class="v-combobox"
+  >
+    <div
+      class="v-dropdown v-flex v-flex-col v-gap-4"
+    >
+      <label
+        class="v-label"
+        for="downshift-:r1:-input"
+        id="downshift-:r1:-label"
+      >
+        Label (required)
+      </label>
+      <div
+        class="v-surface v-input-container v-pl-3 v-pr-6 v-py-3"
+      >
+        <div
+          class="v-flex v-flex-grow v-flex-shrink v-flex-wrap v-gap-2"
+        >
+          <input
+            aria-activedescendant=""
+            aria-autocomplete="list"
+            aria-controls="downshift-:r1:-menu"
+            aria-expanded="false"
+            aria-labelledby="downshift-:r1:-label"
+            autocomplete="off"
+            class="v-input v-flex-shrink"
+            id="downshift-:r1:-input"
+            name="multiselect-with-inline-message"
+            role="combobox"
+            style="flex-basis: 50px;"
+            value=""
+          />
+        </div>
+        <button
+          aria-controls="downshift-:r1:-menu"
+          aria-expanded="false"
+          aria-haspopup="listbox"
+          aria-label="multiselect-with-inline-message-toggle-button"
+          class="v-button v-button-small v-button-tertiary v-button-icon"
+          id="downshift-:r1:-toggle-button"
+          tabindex="-1"
+        >
+          <svg
+            aria-hidden="true"
+            class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-down"
+            focusable="false"
+            height="16"
+            viewBox="0 0 16 16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="v-icon-primary"
+              clip-rule="evenodd"
+              d="M2.47597 4.00049L1 5.39358L8 12.0005L15 5.39358L13.524 4.00049L8 9.21431L2.47597 4.00049Z"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </button>
+      </div>
+      <span
+        class="v-input-message"
+        id="multiselect-with-inline-message-message"
+      >
+        This is optional text that describes the label in more detail.
+      </span>
+    </div>
+    <div
+      class="v-listbox-container"
+    >
+      <ul
+        aria-labelledby="downshift-:r1:-label"
+        class="v-listbox v-flex"
+        id="downshift-:r1:-menu"
+        role="listbox"
+      >
+        <li
+          aria-disabled="false"
+          aria-selected="false"
+          class="v-listbox-item"
+          id="downshift-:r1:-item-0"
+          role="option"
+        >
+          <span
+            class="v-checkbox"
+          />
+          Option A
+        </li>
+        <li
+          aria-disabled="false"
+          aria-selected="false"
+          class="v-listbox-item"
+          id="downshift-:r1:-item-1"
+          role="option"
+        >
+          <span
+            class="v-checkbox"
+          />
+          Option B
+        </li>
+        <li
+          aria-disabled="false"
+          aria-selected="false"
+          class="v-listbox-item"
+          id="downshift-:r1:-item-2"
+          role="option"
+        >
+          <span
+            class="v-checkbox"
+          />
+          Option C
+        </li>
+        <li
+          aria-disabled="false"
+          aria-selected="false"
+          class="v-listbox-item"
+          id="downshift-:r1:-item-3"
+          role="option"
+        >
+          <span
+            class="v-checkbox"
+          />
+          Option D
+        </li>
+        <li
+          aria-disabled="false"
+          aria-selected="false"
+          class="v-listbox-item"
+          id="downshift-:r1:-item-4"
+          role="option"
+        >
+          <span
+            class="v-checkbox"
+          />
+          Option E
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Multiselect examples Multiselect with multiple selections and vertical scroll should render correctly 1`] = `
+<div>
+  <div
+    class="v-combobox"
+    style="max-inline-size: 290px;"
+  >
+    <div
+      class="v-dropdown v-flex v-flex-col v-gap-4"
+    >
+      <label
+        class="v-label"
+        for="downshift-:r7:-input"
+        id="downshift-:r7:-label"
+      >
+        Label (required)
+      </label>
+      <div
+        class="v-surface v-input-container v-pl-3 v-pr-6 v-py-3"
+      >
+        <div
+          class="v-flex v-flex-grow v-flex-shrink v-flex-wrap v-gap-2"
+          style="max-block-size: 140px; overflow-y: auto;"
+        >
+          <div
+            class="v-chip v-chip-compact v-flex v-flex-shrink-0"
+          >
+            <label
+              class="v-label"
+            >
+              Option A
+            </label>
+            <button
+              aria-label="Remove Option A"
+              class="v-button v-button-tertiary v-button-icon v-button-subtle"
+            >
+              <svg
+                aria-hidden="true"
+                class="v-icon v-icon-visa v-icon-tiny v-icon-clear-alt"
+                focusable="false"
+                height="16"
+                viewBox="0 0 16 16"
+                width="16"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  class="v-icon-primary"
+                  clip-rule="evenodd"
+                  d="M8 16.0005C12.4183 16.0005 16 12.4188 16 8.00049C16 3.58221 12.4183 0.000488281 8 0.000488281C3.58172 0.000488281 0 3.58221 0 8.00049C0 12.4188 3.58172 16.0005 8 16.0005ZM11.7071 10.2934L9.41424 8.00052L11.7071 5.70761L10.2929 4.2934L8.00003 6.5863L5.70712 4.2934L4.29291 5.70761L6.58582 8.00052L4.29294 10.2934L5.70715 11.7076L8.00003 9.41473L10.2929 11.7076L11.7071 10.2934Z"
+                  fill-rule="evenodd"
+                />
+                <defs>
+                  <clippath>
+                    <rect
+                      height="16"
+                      transform="translate(0 0.000488281)"
+                      width="16"
+                    />
+                  </clippath>
+                </defs>
+              </svg>
+            </button>
+          </div>
+          <div
+            class="v-chip v-chip-compact v-flex v-flex-shrink-0"
+          >
+            <label
+              class="v-label"
+            >
+              Option B
+            </label>
+            <button
+              aria-label="Remove Option B"
+              class="v-button v-button-tertiary v-button-icon v-button-subtle"
+            >
+              <svg
+                aria-hidden="true"
+                class="v-icon v-icon-visa v-icon-tiny v-icon-clear-alt"
+                focusable="false"
+                height="16"
+                viewBox="0 0 16 16"
+                width="16"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  class="v-icon-primary"
+                  clip-rule="evenodd"
+                  d="M8 16.0005C12.4183 16.0005 16 12.4188 16 8.00049C16 3.58221 12.4183 0.000488281 8 0.000488281C3.58172 0.000488281 0 3.58221 0 8.00049C0 12.4188 3.58172 16.0005 8 16.0005ZM11.7071 10.2934L9.41424 8.00052L11.7071 5.70761L10.2929 4.2934L8.00003 6.5863L5.70712 4.2934L4.29291 5.70761L6.58582 8.00052L4.29294 10.2934L5.70715 11.7076L8.00003 9.41473L10.2929 11.7076L11.7071 10.2934Z"
+                  fill-rule="evenodd"
+                />
+                <defs>
+                  <clippath>
+                    <rect
+                      height="16"
+                      transform="translate(0 0.000488281)"
+                      width="16"
+                    />
+                  </clippath>
+                </defs>
+              </svg>
+            </button>
+          </div>
+          <div
+            class="v-chip v-chip-compact v-flex v-flex-shrink-0"
+          >
+            <label
+              class="v-label"
+            >
+              Option C
+            </label>
+            <button
+              aria-label="Remove Option C"
+              class="v-button v-button-tertiary v-button-icon v-button-subtle"
+            >
+              <svg
+                aria-hidden="true"
+                class="v-icon v-icon-visa v-icon-tiny v-icon-clear-alt"
+                focusable="false"
+                height="16"
+                viewBox="0 0 16 16"
+                width="16"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  class="v-icon-primary"
+                  clip-rule="evenodd"
+                  d="M8 16.0005C12.4183 16.0005 16 12.4188 16 8.00049C16 3.58221 12.4183 0.000488281 8 0.000488281C3.58172 0.000488281 0 3.58221 0 8.00049C0 12.4188 3.58172 16.0005 8 16.0005ZM11.7071 10.2934L9.41424 8.00052L11.7071 5.70761L10.2929 4.2934L8.00003 6.5863L5.70712 4.2934L4.29291 5.70761L6.58582 8.00052L4.29294 10.2934L5.70715 11.7076L8.00003 9.41473L10.2929 11.7076L11.7071 10.2934Z"
+                  fill-rule="evenodd"
+                />
+                <defs>
+                  <clippath>
+                    <rect
+                      height="16"
+                      transform="translate(0 0.000488281)"
+                      width="16"
+                    />
+                  </clippath>
+                </defs>
+              </svg>
+            </button>
+          </div>
+          <div
+            class="v-chip v-chip-compact v-flex v-flex-shrink-0"
+          >
+            <label
+              class="v-label"
+            >
+              Option D
+            </label>
+            <button
+              aria-label="Remove Option D"
+              class="v-button v-button-tertiary v-button-icon v-button-subtle"
+            >
+              <svg
+                aria-hidden="true"
+                class="v-icon v-icon-visa v-icon-tiny v-icon-clear-alt"
+                focusable="false"
+                height="16"
+                viewBox="0 0 16 16"
+                width="16"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  class="v-icon-primary"
+                  clip-rule="evenodd"
+                  d="M8 16.0005C12.4183 16.0005 16 12.4188 16 8.00049C16 3.58221 12.4183 0.000488281 8 0.000488281C3.58172 0.000488281 0 3.58221 0 8.00049C0 12.4188 3.58172 16.0005 8 16.0005ZM11.7071 10.2934L9.41424 8.00052L11.7071 5.70761L10.2929 4.2934L8.00003 6.5863L5.70712 4.2934L4.29291 5.70761L6.58582 8.00052L4.29294 10.2934L5.70715 11.7076L8.00003 9.41473L10.2929 11.7076L11.7071 10.2934Z"
+                  fill-rule="evenodd"
+                />
+                <defs>
+                  <clippath>
+                    <rect
+                      height="16"
+                      transform="translate(0 0.000488281)"
+                      width="16"
+                    />
+                  </clippath>
+                </defs>
+              </svg>
+            </button>
+          </div>
+          <div
+            class="v-chip v-chip-compact v-flex v-flex-shrink-0"
+          >
+            <label
+              class="v-label"
+            >
+              Option E
+            </label>
+            <button
+              aria-label="Remove Option E"
+              class="v-button v-button-tertiary v-button-icon v-button-subtle"
+            >
+              <svg
+                aria-hidden="true"
+                class="v-icon v-icon-visa v-icon-tiny v-icon-clear-alt"
+                focusable="false"
+                height="16"
+                viewBox="0 0 16 16"
+                width="16"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  class="v-icon-primary"
+                  clip-rule="evenodd"
+                  d="M8 16.0005C12.4183 16.0005 16 12.4188 16 8.00049C16 3.58221 12.4183 0.000488281 8 0.000488281C3.58172 0.000488281 0 3.58221 0 8.00049C0 12.4188 3.58172 16.0005 8 16.0005ZM11.7071 10.2934L9.41424 8.00052L11.7071 5.70761L10.2929 4.2934L8.00003 6.5863L5.70712 4.2934L4.29291 5.70761L6.58582 8.00052L4.29294 10.2934L5.70715 11.7076L8.00003 9.41473L10.2929 11.7076L11.7071 10.2934Z"
+                  fill-rule="evenodd"
+                />
+                <defs>
+                  <clippath>
+                    <rect
+                      height="16"
+                      transform="translate(0 0.000488281)"
+                      width="16"
+                    />
+                  </clippath>
+                </defs>
+              </svg>
+            </button>
+          </div>
+          <div
+            class="v-chip v-chip-compact v-flex v-flex-shrink-0"
+          >
+            <label
+              class="v-label"
+            >
+              Option F
+            </label>
+            <button
+              aria-label="Remove Option F"
+              class="v-button v-button-tertiary v-button-icon v-button-subtle"
+            >
+              <svg
+                aria-hidden="true"
+                class="v-icon v-icon-visa v-icon-tiny v-icon-clear-alt"
+                focusable="false"
+                height="16"
+                viewBox="0 0 16 16"
+                width="16"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  class="v-icon-primary"
+                  clip-rule="evenodd"
+                  d="M8 16.0005C12.4183 16.0005 16 12.4188 16 8.00049C16 3.58221 12.4183 0.000488281 8 0.000488281C3.58172 0.000488281 0 3.58221 0 8.00049C0 12.4188 3.58172 16.0005 8 16.0005ZM11.7071 10.2934L9.41424 8.00052L11.7071 5.70761L10.2929 4.2934L8.00003 6.5863L5.70712 4.2934L4.29291 5.70761L6.58582 8.00052L4.29294 10.2934L5.70715 11.7076L8.00003 9.41473L10.2929 11.7076L11.7071 10.2934Z"
+                  fill-rule="evenodd"
+                />
+                <defs>
+                  <clippath>
+                    <rect
+                      height="16"
+                      transform="translate(0 0.000488281)"
+                      width="16"
+                    />
+                  </clippath>
+                </defs>
+              </svg>
+            </button>
+          </div>
+          <div
+            class="v-chip v-chip-compact v-flex v-flex-shrink-0"
+          >
+            <label
+              class="v-label"
+            >
+              Option G
+            </label>
+            <button
+              aria-label="Remove Option G"
+              class="v-button v-button-tertiary v-button-icon v-button-subtle"
+            >
+              <svg
+                aria-hidden="true"
+                class="v-icon v-icon-visa v-icon-tiny v-icon-clear-alt"
+                focusable="false"
+                height="16"
+                viewBox="0 0 16 16"
+                width="16"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  class="v-icon-primary"
+                  clip-rule="evenodd"
+                  d="M8 16.0005C12.4183 16.0005 16 12.4188 16 8.00049C16 3.58221 12.4183 0.000488281 8 0.000488281C3.58172 0.000488281 0 3.58221 0 8.00049C0 12.4188 3.58172 16.0005 8 16.0005ZM11.7071 10.2934L9.41424 8.00052L11.7071 5.70761L10.2929 4.2934L8.00003 6.5863L5.70712 4.2934L4.29291 5.70761L6.58582 8.00052L4.29294 10.2934L5.70715 11.7076L8.00003 9.41473L10.2929 11.7076L11.7071 10.2934Z"
+                  fill-rule="evenodd"
+                />
+                <defs>
+                  <clippath>
+                    <rect
+                      height="16"
+                      transform="translate(0 0.000488281)"
+                      width="16"
+                    />
+                  </clippath>
+                </defs>
+              </svg>
+            </button>
+          </div>
+          <div
+            class="v-chip v-chip-compact v-flex v-flex-shrink-0"
+          >
+            <label
+              class="v-label"
+            >
+              Option H
+            </label>
+            <button
+              aria-label="Remove Option H"
+              class="v-button v-button-tertiary v-button-icon v-button-subtle"
+            >
+              <svg
+                aria-hidden="true"
+                class="v-icon v-icon-visa v-icon-tiny v-icon-clear-alt"
+                focusable="false"
+                height="16"
+                viewBox="0 0 16 16"
+                width="16"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  class="v-icon-primary"
+                  clip-rule="evenodd"
+                  d="M8 16.0005C12.4183 16.0005 16 12.4188 16 8.00049C16 3.58221 12.4183 0.000488281 8 0.000488281C3.58172 0.000488281 0 3.58221 0 8.00049C0 12.4188 3.58172 16.0005 8 16.0005ZM11.7071 10.2934L9.41424 8.00052L11.7071 5.70761L10.2929 4.2934L8.00003 6.5863L5.70712 4.2934L4.29291 5.70761L6.58582 8.00052L4.29294 10.2934L5.70715 11.7076L8.00003 9.41473L10.2929 11.7076L11.7071 10.2934Z"
+                  fill-rule="evenodd"
+                />
+                <defs>
+                  <clippath>
+                    <rect
+                      height="16"
+                      transform="translate(0 0.000488281)"
+                      width="16"
+                    />
+                  </clippath>
+                </defs>
+              </svg>
+            </button>
+          </div>
+          <div
+            class="v-chip v-chip-compact v-flex v-flex-shrink-0"
+          >
+            <label
+              class="v-label"
+            >
+              Option I
+            </label>
+            <button
+              aria-label="Remove Option I"
+              class="v-button v-button-tertiary v-button-icon v-button-subtle"
+            >
+              <svg
+                aria-hidden="true"
+                class="v-icon v-icon-visa v-icon-tiny v-icon-clear-alt"
+                focusable="false"
+                height="16"
+                viewBox="0 0 16 16"
+                width="16"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  class="v-icon-primary"
+                  clip-rule="evenodd"
+                  d="M8 16.0005C12.4183 16.0005 16 12.4188 16 8.00049C16 3.58221 12.4183 0.000488281 8 0.000488281C3.58172 0.000488281 0 3.58221 0 8.00049C0 12.4188 3.58172 16.0005 8 16.0005ZM11.7071 10.2934L9.41424 8.00052L11.7071 5.70761L10.2929 4.2934L8.00003 6.5863L5.70712 4.2934L4.29291 5.70761L6.58582 8.00052L4.29294 10.2934L5.70715 11.7076L8.00003 9.41473L10.2929 11.7076L11.7071 10.2934Z"
+                  fill-rule="evenodd"
+                />
+                <defs>
+                  <clippath>
+                    <rect
+                      height="16"
+                      transform="translate(0 0.000488281)"
+                      width="16"
+                    />
+                  </clippath>
+                </defs>
+              </svg>
+            </button>
+          </div>
+          <div
+            class="v-chip v-chip-compact v-flex v-flex-shrink-0"
+          >
+            <label
+              class="v-label"
+            >
+              Option J
+            </label>
+            <button
+              aria-label="Remove Option J"
+              class="v-button v-button-tertiary v-button-icon v-button-subtle"
+            >
+              <svg
+                aria-hidden="true"
+                class="v-icon v-icon-visa v-icon-tiny v-icon-clear-alt"
+                focusable="false"
+                height="16"
+                viewBox="0 0 16 16"
+                width="16"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  class="v-icon-primary"
+                  clip-rule="evenodd"
+                  d="M8 16.0005C12.4183 16.0005 16 12.4188 16 8.00049C16 3.58221 12.4183 0.000488281 8 0.000488281C3.58172 0.000488281 0 3.58221 0 8.00049C0 12.4188 3.58172 16.0005 8 16.0005ZM11.7071 10.2934L9.41424 8.00052L11.7071 5.70761L10.2929 4.2934L8.00003 6.5863L5.70712 4.2934L4.29291 5.70761L6.58582 8.00052L4.29294 10.2934L5.70715 11.7076L8.00003 9.41473L10.2929 11.7076L11.7071 10.2934Z"
+                  fill-rule="evenodd"
+                />
+                <defs>
+                  <clippath>
+                    <rect
+                      height="16"
+                      transform="translate(0 0.000488281)"
+                      width="16"
+                    />
+                  </clippath>
+                </defs>
+              </svg>
+            </button>
+          </div>
+          <div
+            class="v-chip v-chip-compact v-flex v-flex-shrink-0"
+          >
+            <label
+              class="v-label"
+            >
+              Option K
+            </label>
+            <button
+              aria-label="Remove Option K"
+              class="v-button v-button-tertiary v-button-icon v-button-subtle"
+            >
+              <svg
+                aria-hidden="true"
+                class="v-icon v-icon-visa v-icon-tiny v-icon-clear-alt"
+                focusable="false"
+                height="16"
+                viewBox="0 0 16 16"
+                width="16"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  class="v-icon-primary"
+                  clip-rule="evenodd"
+                  d="M8 16.0005C12.4183 16.0005 16 12.4188 16 8.00049C16 3.58221 12.4183 0.000488281 8 0.000488281C3.58172 0.000488281 0 3.58221 0 8.00049C0 12.4188 3.58172 16.0005 8 16.0005ZM11.7071 10.2934L9.41424 8.00052L11.7071 5.70761L10.2929 4.2934L8.00003 6.5863L5.70712 4.2934L4.29291 5.70761L6.58582 8.00052L4.29294 10.2934L5.70715 11.7076L8.00003 9.41473L10.2929 11.7076L11.7071 10.2934Z"
+                  fill-rule="evenodd"
+                />
+                <defs>
+                  <clippath>
+                    <rect
+                      height="16"
+                      transform="translate(0 0.000488281)"
+                      width="16"
+                    />
+                  </clippath>
+                </defs>
+              </svg>
+            </button>
+          </div>
+          <div
+            class="v-chip v-chip-compact v-flex v-flex-shrink-0"
+          >
+            <label
+              class="v-label"
+            >
+              Option L
+            </label>
+            <button
+              aria-label="Remove Option L"
+              class="v-button v-button-tertiary v-button-icon v-button-subtle"
+            >
+              <svg
+                aria-hidden="true"
+                class="v-icon v-icon-visa v-icon-tiny v-icon-clear-alt"
+                focusable="false"
+                height="16"
+                viewBox="0 0 16 16"
+                width="16"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  class="v-icon-primary"
+                  clip-rule="evenodd"
+                  d="M8 16.0005C12.4183 16.0005 16 12.4188 16 8.00049C16 3.58221 12.4183 0.000488281 8 0.000488281C3.58172 0.000488281 0 3.58221 0 8.00049C0 12.4188 3.58172 16.0005 8 16.0005ZM11.7071 10.2934L9.41424 8.00052L11.7071 5.70761L10.2929 4.2934L8.00003 6.5863L5.70712 4.2934L4.29291 5.70761L6.58582 8.00052L4.29294 10.2934L5.70715 11.7076L8.00003 9.41473L10.2929 11.7076L11.7071 10.2934Z"
+                  fill-rule="evenodd"
+                />
+                <defs>
+                  <clippath>
+                    <rect
+                      height="16"
+                      transform="translate(0 0.000488281)"
+                      width="16"
+                    />
+                  </clippath>
+                </defs>
+              </svg>
+            </button>
+          </div>
+          <input
+            aria-activedescendant=""
+            aria-autocomplete="list"
+            aria-controls="downshift-:r7:-menu"
+            aria-expanded="false"
+            aria-labelledby="downshift-:r7:-label"
+            autocomplete="off"
+            class="v-input v-flex-shrink"
+            id="downshift-:r7:-input"
+            name="multiselect-with-multiple-selections-and-vertical-scroll"
+            role="combobox"
+            style="flex-basis: 50px;"
+            value=""
+          />
+        </div>
+        <button
+          aria-controls="downshift-:r7:-menu"
+          aria-expanded="false"
+          aria-haspopup="listbox"
+          aria-label="multiselect-with-multiple-selections-and-vertical-scroll-toggle-button"
+          class="v-button v-button-small v-button-tertiary v-button-icon"
+          id="downshift-:r7:-toggle-button"
+          tabindex="-1"
+        >
+          <svg
+            aria-hidden="true"
+            class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-down"
+            focusable="false"
+            height="16"
+            viewBox="0 0 16 16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="v-icon-primary"
+              clip-rule="evenodd"
+              d="M2.47597 4.00049L1 5.39358L8 12.0005L15 5.39358L13.524 4.00049L8 9.21431L2.47597 4.00049Z"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div
+      class="v-listbox-container"
+    >
+      <ul
+        aria-labelledby="downshift-:r7:-label"
+        class="v-listbox v-listbox-scroll v-flex"
+        id="downshift-:r7:-menu"
+        role="listbox"
+      >
+        <li
+          aria-disabled="false"
+          aria-selected="true"
+          class="v-listbox-item"
+          id="downshift-:r7:-item-0"
+          role="option"
+        >
+          <span
+            class="v-checkbox"
+          />
+          Option A
+        </li>
+        <li
+          aria-disabled="false"
+          aria-selected="true"
+          class="v-listbox-item"
+          id="downshift-:r7:-item-1"
+          role="option"
+        >
+          <span
+            class="v-checkbox"
+          />
+          Option B
+        </li>
+        <li
+          aria-disabled="false"
+          aria-selected="true"
+          class="v-listbox-item"
+          id="downshift-:r7:-item-2"
+          role="option"
+        >
+          <span
+            class="v-checkbox"
+          />
+          Option C
+        </li>
+        <li
+          aria-disabled="false"
+          aria-selected="true"
+          class="v-listbox-item"
+          id="downshift-:r7:-item-3"
+          role="option"
+        >
+          <span
+            class="v-checkbox"
+          />
+          Option D
+        </li>
+        <li
+          aria-disabled="false"
+          aria-selected="true"
+          class="v-listbox-item"
+          id="downshift-:r7:-item-4"
+          role="option"
+        >
+          <span
+            class="v-checkbox"
+          />
+          Option E
+        </li>
+        <li
+          aria-disabled="false"
+          aria-selected="true"
+          class="v-listbox-item"
+          id="downshift-:r7:-item-5"
+          role="option"
+        >
+          <span
+            class="v-checkbox"
+          />
+          Option F
+        </li>
+        <li
+          aria-disabled="false"
+          aria-selected="true"
+          class="v-listbox-item"
+          id="downshift-:r7:-item-6"
+          role="option"
+        >
+          <span
+            class="v-checkbox"
+          />
+          Option G
+        </li>
+        <li
+          aria-disabled="false"
+          aria-selected="true"
+          class="v-listbox-item"
+          id="downshift-:r7:-item-7"
+          role="option"
+        >
+          <span
+            class="v-checkbox"
+          />
+          Option H
+        </li>
+        <li
+          aria-disabled="false"
+          aria-selected="true"
+          class="v-listbox-item"
+          id="downshift-:r7:-item-8"
+          role="option"
+        >
+          <span
+            class="v-checkbox"
+          />
+          Option I
+        </li>
+        <li
+          aria-disabled="false"
+          aria-selected="true"
+          class="v-listbox-item"
+          id="downshift-:r7:-item-9"
+          role="option"
+        >
+          <span
+            class="v-checkbox"
+          />
+          Option J
+        </li>
+        <li
+          aria-disabled="false"
+          aria-selected="true"
+          class="v-listbox-item"
+          id="downshift-:r7:-item-10"
+          role="option"
+        >
+          <span
+            class="v-checkbox"
+          />
+          Option K
+        </li>
+        <li
+          aria-disabled="false"
+          aria-selected="true"
+          class="v-listbox-item"
+          id="downshift-:r7:-item-11"
+          role="option"
+        >
+          <span
+            class="v-checkbox"
+          />
+          Option L
+        </li>
+        <li
+          aria-disabled="false"
+          aria-selected="false"
+          class="v-listbox-item"
+          id="downshift-:r7:-item-12"
+          role="option"
+        >
+          <span
+            class="v-checkbox"
+          />
+          Option M
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Multiselect examples Multiselect with scrollbar should render correctly 1`] = `
+<div>
+  <div
+    class="v-combobox"
+  >
+    <div
+      class="v-dropdown v-flex v-flex-col v-gap-4"
+    >
+      <label
+        class="v-label"
+        for="downshift-:r9:-input"
+        id="downshift-:r9:-label"
+      >
+        Label (required)
+      </label>
+      <div
+        class="v-surface v-input-container v-pl-3 v-pr-6 v-py-3"
+      >
+        <div
+          class="v-flex v-flex-grow v-flex-shrink v-flex-wrap v-gap-2"
+        >
+          <input
+            aria-activedescendant=""
+            aria-autocomplete="list"
+            aria-controls="downshift-:r9:-menu"
+            aria-expanded="false"
+            aria-labelledby="downshift-:r9:-label"
+            autocomplete="off"
+            class="v-input v-flex-shrink"
+            id="downshift-:r9:-input"
+            name="multiselect-with-scrollbar"
+            role="combobox"
+            style="flex-basis: 50px;"
+            value=""
+          />
+        </div>
+        <button
+          aria-controls="downshift-:r9:-menu"
+          aria-expanded="false"
+          aria-haspopup="listbox"
+          aria-label="multiselect-with-scrollbar-toggle-button"
+          class="v-button v-button-small v-button-tertiary v-button-icon"
+          id="downshift-:r9:-toggle-button"
+          tabindex="-1"
+        >
+          <svg
+            aria-hidden="true"
+            class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-down"
+            focusable="false"
+            height="16"
+            viewBox="0 0 16 16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="v-icon-primary"
+              clip-rule="evenodd"
+              d="M2.47597 4.00049L1 5.39358L8 12.0005L15 5.39358L13.524 4.00049L8 9.21431L2.47597 4.00049Z"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div
+      class="v-listbox-container"
+    >
+      <ul
+        aria-labelledby="downshift-:r9:-label"
+        class="v-listbox v-listbox-scroll v-flex"
+        id="downshift-:r9:-menu"
+        role="listbox"
+      >
+        <li
+          aria-disabled="false"
+          aria-selected="false"
+          class="v-listbox-item"
+          id="downshift-:r9:-item-0"
+          role="option"
+        >
+          <span
+            class="v-checkbox"
+          />
+          Option A
+        </li>
+        <li
+          aria-disabled="false"
+          aria-selected="false"
+          class="v-listbox-item"
+          id="downshift-:r9:-item-1"
+          role="option"
+        >
+          <span
+            class="v-checkbox"
+          />
+          Option B
+        </li>
+        <li
+          aria-disabled="false"
+          aria-selected="false"
+          class="v-listbox-item"
+          id="downshift-:r9:-item-2"
+          role="option"
+        >
+          <span
+            class="v-checkbox"
+          />
+          Option C
+        </li>
+        <li
+          aria-disabled="false"
+          aria-selected="false"
+          class="v-listbox-item"
+          id="downshift-:r9:-item-3"
+          role="option"
+        >
+          <span
+            class="v-checkbox"
+          />
+          Option D
+        </li>
+        <li
+          aria-disabled="false"
+          aria-selected="false"
+          class="v-listbox-item"
+          id="downshift-:r9:-item-4"
+          role="option"
+        >
+          <span
+            class="v-checkbox"
+          />
+          Option E
+        </li>
+        <li
+          aria-disabled="false"
+          aria-selected="false"
+          class="v-listbox-item"
+          id="downshift-:r9:-item-5"
+          role="option"
+        >
+          <span
+            class="v-checkbox"
+          />
+          Option F
+        </li>
+        <li
+          aria-disabled="false"
+          aria-selected="false"
+          class="v-listbox-item"
+          id="downshift-:r9:-item-6"
+          role="option"
+        >
+          <span
+            class="v-checkbox"
+          />
+          Option G
+        </li>
+        <li
+          aria-disabled="false"
+          aria-selected="false"
+          class="v-listbox-item"
+          id="downshift-:r9:-item-7"
+          role="option"
+        >
+          <span
+            class="v-checkbox"
+          />
+          Option H
+        </li>
+        <li
+          aria-disabled="false"
+          aria-selected="false"
+          class="v-listbox-item"
+          id="downshift-:r9:-item-8"
+          role="option"
+        >
+          <span
+            class="v-checkbox"
+          />
+          Option I
+        </li>
+        <li
+          aria-disabled="false"
+          aria-selected="false"
+          class="v-listbox-item"
+          id="downshift-:r9:-item-9"
+          role="option"
+        >
+          <span
+            class="v-checkbox"
+          />
+          Option J
+        </li>
+        <li
+          aria-disabled="false"
+          aria-selected="false"
+          class="v-listbox-item"
+          id="downshift-:r9:-item-10"
+          role="option"
+        >
+          <span
+            class="v-checkbox"
+          />
+          Option K
+        </li>
+        <li
+          aria-disabled="false"
+          aria-selected="false"
+          class="v-listbox-item"
+          id="downshift-:r9:-item-11"
+          role="option"
+        >
+          <span
+            class="v-checkbox"
+          />
+          Option L
+        </li>
+        <li
+          aria-disabled="false"
+          aria-selected="false"
+          class="v-listbox-item"
+          id="downshift-:r9:-item-12"
+          role="option"
+        >
+          <span
+            class="v-checkbox"
+          />
+          Option M
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Multiselect examples Multiselect with select and unselect all buttons should render correctly 1`] = `
+<div>
+  <div
+    class="v-combobox"
+  >
+    <div
+      class="v-dropdown v-flex v-flex-col v-gap-4"
+    >
+      <label
+        class="v-label"
+        for="downshift-:r8:-input"
+        id="downshift-:r8:-label"
+      >
+        Label (required)
+      </label>
+      <div
+        class="v-surface v-input-container v-pl-3 v-pr-6 v-py-3"
+      >
+        <div
+          class="v-flex v-flex-grow v-flex-shrink v-flex-wrap v-gap-2"
+        >
+          <input
+            aria-activedescendant=""
+            aria-autocomplete="list"
+            aria-controls="downshift-:r8:-menu"
+            aria-expanded="false"
+            aria-labelledby="downshift-:r8:-label"
+            autocomplete="off"
+            class="v-input v-flex-shrink"
+            id="downshift-:r8:-input"
+            name="multiselect-with-select-and-unselect-all-buttons"
+            role="combobox"
+            style="flex-basis: 50px;"
+            value=""
+          />
+        </div>
+        <button
+          aria-controls="downshift-:r8:-menu"
+          aria-expanded="false"
+          aria-haspopup="listbox"
+          aria-label="multiselect-with-select-and-unselect-all-buttons-toggle-button"
+          class="v-button v-button-small v-button-tertiary v-button-icon"
+          id="downshift-:r8:-toggle-button"
+          tabindex="-1"
+        >
+          <svg
+            aria-hidden="true"
+            class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-down"
+            focusable="false"
+            height="16"
+            viewBox="0 0 16 16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="v-icon-primary"
+              clip-rule="evenodd"
+              d="M2.47597 4.00049L1 5.39358L8 12.0005L15 5.39358L13.524 4.00049L8 9.21431L2.47597 4.00049Z"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div
+      class="v-listbox-container"
+    >
+      <div
+        class="v-align-items-center v-flex v-justify-content-between v-px-8"
+      >
+        <button
+          class="v-button v-button-tertiary"
+        >
+          Select All
+        </button>
+        <button
+          class="v-button v-button-tertiary v-button-destructive"
+        >
+          Clear All
+        </button>
+      </div>
+      <hr
+        aria-hidden="true"
+        class="v-divider v-divider-decorative"
+      />
+      <ul
+        aria-labelledby="downshift-:r8:-label"
+        class="v-listbox v-flex"
+        id="downshift-:r8:-menu"
+        role="listbox"
+      >
+        <li
+          aria-disabled="false"
+          aria-selected="false"
+          class="v-listbox-item"
+          id="downshift-:r8:-item-0"
+          role="option"
+        >
+          <span
+            class="v-checkbox"
+          />
+          Option A
+        </li>
+        <li
+          aria-disabled="false"
+          aria-selected="false"
+          class="v-listbox-item"
+          id="downshift-:r8:-item-1"
+          role="option"
+        >
+          <span
+            class="v-checkbox"
+          />
+          Option B
+        </li>
+        <li
+          aria-disabled="false"
+          aria-selected="false"
+          class="v-listbox-item"
+          id="downshift-:r8:-item-2"
+          role="option"
+        >
+          <span
+            class="v-checkbox"
+          />
+          Option C
+        </li>
+        <li
+          aria-disabled="false"
+          aria-selected="false"
+          class="v-listbox-item"
+          id="downshift-:r8:-item-3"
+          role="option"
+        >
+          <span
+            class="v-checkbox"
+          />
+          Option D
+        </li>
+        <li
+          aria-disabled="false"
+          aria-selected="false"
+          class="v-listbox-item"
+          id="downshift-:r8:-item-4"
+          role="option"
+        >
+          <span
+            class="v-checkbox"
+          />
+          Option E
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Multiselect examples Multiselect without dropdown chevron should render correctly 1`] = `
+<div>
+  <div
+    class="v-combobox"
+  >
+    <div
+      class="v-dropdown v-flex v-flex-col v-gap-4"
+    >
+      <label
+        class="v-label"
+        for="downshift-:r6:-input"
+        id="downshift-:r6:-label"
+      >
+        Label (required)
+      </label>
+      <div
+        class="v-surface v-input-container v-pl-3 v-pr-6 v-py-3"
+      >
+        <div
+          class="v-flex v-flex-grow v-flex-shrink v-flex-wrap v-gap-2"
+        >
+          <input
+            aria-activedescendant=""
+            aria-autocomplete="list"
+            aria-controls="downshift-:r6:-menu"
+            aria-expanded="false"
+            aria-labelledby="downshift-:r6:-label"
+            autocomplete="off"
+            class="v-input v-flex-shrink"
+            id="downshift-:r6:-input"
+            name="multiselect-without-dropdown-chevron"
+            role="combobox"
+            style="flex-basis: 50px;"
+            value=""
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="v-listbox-container"
+    >
+      <ul
+        aria-labelledby="downshift-:r6:-label"
+        class="v-listbox v-flex"
+        id="downshift-:r6:-menu"
+        role="listbox"
+      >
+        <li
+          aria-disabled="false"
+          aria-selected="false"
+          class="v-listbox-item"
+          id="downshift-:r6:-item-0"
+          role="option"
+        >
+          <span
+            class="v-checkbox"
+          />
+          Option A
+        </li>
+        <li
+          aria-disabled="false"
+          aria-selected="false"
+          class="v-listbox-item"
+          id="downshift-:r6:-item-1"
+          role="option"
+        >
+          <span
+            class="v-checkbox"
+          />
+          Option B
+        </li>
+        <li
+          aria-disabled="false"
+          aria-selected="false"
+          class="v-listbox-item"
+          id="downshift-:r6:-item-2"
+          role="option"
+        >
+          <span
+            class="v-checkbox"
+          />
+          Option C
+        </li>
+        <li
+          aria-disabled="false"
+          aria-selected="false"
+          class="v-listbox-item"
+          id="downshift-:r6:-item-3"
+          role="option"
+        >
+          <span
+            class="v-checkbox"
+          />
+          Option D
+        </li>
+        <li
+          aria-disabled="false"
+          aria-selected="false"
+          class="v-listbox-item"
+          id="downshift-:r6:-item-4"
+          role="option"
+        >
+          <span
+            class="v-checkbox"
+          />
+          Option E
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Multiselect examples Read-only multiselect should render correctly 1`] = `
+<div>
+  <div
+    class="v-combobox"
+  >
+    <div
+      class="v-dropdown v-flex v-flex-col v-gap-4"
+    >
+      <label
+        class="v-label"
+        for="downshift-:r5:-input"
+        id="downshift-:r5:-label"
+      >
+        Label (required)
+      </label>
+      <div
+        class="v-surface v-input-container v-pl-3 v-pr-6 v-py-3"
+      >
+        <div
+          class="v-flex v-flex-grow v-flex-shrink v-flex-wrap v-gap-2"
+        >
+          <input
+            aria-activedescendant=""
+            aria-autocomplete="list"
+            aria-controls="downshift-:r5:-menu"
+            aria-expanded="false"
+            aria-labelledby="downshift-:r5:-label"
+            autocomplete="off"
+            class="v-input v-flex-shrink"
+            id="downshift-:r5:-input"
+            name="read-only-multiselect"
+            readonly=""
+            role="combobox"
+            style="flex-basis: 50px;"
+            value=""
+          />
+        </div>
+        <button
+          aria-controls="downshift-:r5:-menu"
+          aria-expanded="false"
+          aria-haspopup="listbox"
+          aria-label="read-only-multiselect-toggle-button"
+          class="v-button v-button-small v-button-tertiary v-button-icon"
+          disabled=""
+          id="downshift-:r5:-toggle-button"
+          tabindex="-1"
+        >
+          <svg
+            aria-hidden="true"
+            class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-down"
+            focusable="false"
+            height="16"
+            viewBox="0 0 16 16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="v-icon-primary"
+              clip-rule="evenodd"
+              d="M2.47597 4.00049L1 5.39358L8 12.0005L15 5.39358L13.524 4.00049L8 9.21431L2.47597 4.00049Z"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div
+      class="v-listbox-container"
+    >
+      <ul
+        aria-labelledby="downshift-:r5:-label"
+        class="v-listbox v-flex"
+        id="downshift-:r5:-menu"
+        role="listbox"
+      >
+        <li
+          aria-disabled="false"
+          aria-selected="false"
+          class="v-listbox-item"
+          id="downshift-:r5:-item-0"
+          role="option"
+        >
+          <span
+            class="v-checkbox"
+          />
+          Option A
+        </li>
+        <li
+          aria-disabled="false"
+          aria-selected="false"
+          class="v-listbox-item"
+          id="downshift-:r5:-item-1"
+          role="option"
+        >
+          <span
+            class="v-checkbox"
+          />
+          Option B
+        </li>
+        <li
+          aria-disabled="false"
+          aria-selected="false"
+          class="v-listbox-item"
+          id="downshift-:r5:-item-2"
+          role="option"
+        >
+          <span
+            class="v-checkbox"
+          />
+          Option C
+        </li>
+        <li
+          aria-disabled="false"
+          aria-selected="false"
+          class="v-listbox-item"
+          id="downshift-:r5:-item-3"
+          role="option"
+        >
+          <span
+            class="v-checkbox"
+          />
+          Option D
+        </li>
+        <li
+          aria-disabled="false"
+          aria-selected="false"
+          class="v-listbox-item"
+          id="downshift-:r5:-item-4"
+          role="option"
+        >
+          <span
+            class="v-checkbox"
+          />
+          Option E
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div
+    class="v-mt-10 v-input-container"
+  >
+    <input
+      checked=""
+      class="v-checkbox"
+      id="read-only-multiselect-checkbox-mark-as-read-only"
+      type="checkbox"
+    />
+    <label
+      class="v-label"
+      for="read-only-multiselect-checkbox-mark-as-read-only"
+    >
+      Mark input as read-only
+    </label>
+  </div>
+</div>
+`;

@@ -1,0 +1,8 @@
+{
+  "use-card-validation-example": {
+    "file": "use-card-validation-example.tsx",
+    "id": "use-card-validation-example",
+    "title": "Behavior and usage",
+    "testAvg": 100
+  }
+}

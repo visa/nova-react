@@ -1,0 +1,14 @@
+{
+  "alternate-surface": {
+    "file": "alternate-surface.tsx",
+    "id": "alternate-surface",
+    "title": "Alternate",
+    "testAvg": 100
+  },
+  "default-surface": {
+    "file": "default-surface.tsx",
+    "id": "default-surface",
+    "title": "Default",
+    "testAvg": 100
+  }
+}

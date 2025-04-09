@@ -1,0 +1,54 @@
+<svg width="304" height="140" viewBox="0 0 304 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g clip-path="url(#clip0_4033_14673)">
+        <rect width="304" height="140" fill="var(--palette-default-surface-2, #F0F0F0)" />
+        <rect x="64.5" y="12.6035" width="175" height="32.4483" rx="6.5"
+            fill="var(--palette-default-surface-1, white)" />
+        <rect x="101" y="27.1035" width="75" height="5" rx="2.5" fill="var(--palette-default-text, black)"
+            fill-opacity="0.2" />
+        <path fill-rule="evenodd" clip-rule="evenodd"
+            d="M83.5049 23.1738L89.0098 28.7245L83.5049 34.2752L82.3442 33.1049L86.6883 28.7245L82.3442 24.3442L83.5049 23.1738Z"
+            fill="var(--palette-default-active, #1434CB)" />
+        <rect x="64.5" y="12.6035" width="175" height="32.4483" rx="6.5"
+            stroke="var(--palette-default-surface-2, #F0F0F0)" />
+        <path
+            d="M239 78.5H239.5V78V52.5518C239.5 48.9619 236.59 46.0518 233 46.0518H71C67.4101 46.0518 64.5 48.9619 64.5 52.5518V78V78.5H65H239Z"
+            fill="var(--palette-default-surface-1, white)" />
+        <rect x="101" y="60.5518" width="75" height="5" rx="2.5" fill="var(--palette-default-text, black)"
+            fill-opacity="0.5" />
+        <path fill-rule="evenodd" clip-rule="evenodd"
+            d="M79.0612 60.0327L80.2219 58.8623L84.566 63.2426L88.9102 58.8623L90.0709 60.0327L84.566 65.5834L79.0612 60.0327Z"
+            fill="var(--palette-default-active, #1434CB)" />
+        <path
+            d="M239 78.5H239.5V78V52.5518C239.5 48.9619 236.59 46.0518 233 46.0518H71C67.4101 46.0518 64.5 48.9619 64.5 52.5518V78V78.5H65H239Z"
+            stroke="var(--palette-default-surface-2, #F0F0F0)" />
+        <mask id="path-7-outside-1_4033_14673" maskUnits="userSpaceOnUse" x="65" y="77" width="174" height="33"
+            fill="var(--palette-default-text, black)">
+            <rect fill="var(--palette-default-surface-1, white)" x="65" y="77" width="174" height="33" />
+            <path
+                d="M65 78H239V103.448C239 106.762 236.314 109.448 233 109.448H71C67.6863 109.448 65 106.762 65 103.448V78Z" />
+        </mask>
+        <path
+            d="M65 78H239V103.448C239 106.762 236.314 109.448 233 109.448H71C67.6863 109.448 65 106.762 65 103.448V78Z"
+            fill="var(--palette-default-surface-1, white)" />
+        <rect x="101" y="86.1035" width="111" height="5" rx="2.5" fill="var(--palette-default-text, black)"
+            fill-opacity="0.2" />
+        <rect x="101" y="96.1035" width="90" height="5" rx="2.5" fill="var(--palette-default-text, black)"
+            fill-opacity="0.2" />
+        <path d="M65 77H239V79H65V77ZM239 109.448H65H239ZM65 109.448V78V109.448ZM239 78V109.448V78Z"
+            fill="var(--palette-default-surface-2, #F0F0F0)" mask="url(#path-7-outside-1_4033_14673)" />
+        <rect x="64.5" y="112.948" width="175" height="32.4483" rx="6.5"
+            fill="var(--palette-default-surface-1, white)" />
+        <rect x="101" y="127.448" width="75" height="5" rx="2.5" fill="var(--palette-default-text, black)"
+            fill-opacity="0.2" />
+        <path fill-rule="evenodd" clip-rule="evenodd"
+            d="M83.5049 123.519L89.0098 129.069L83.5049 134.62L82.3442 133.45L86.6883 129.069L82.3442 124.689L83.5049 123.519Z"
+            fill="var(--palette-default-active, #1434CB)" />
+        <rect x="64.5" y="112.948" width="175" height="32.4483" rx="6.5"
+            stroke="var(--palette-default-surface-2, #F0F0F0)" />
+    </g>
+    <defs>
+        <clipPath id="clip0_4033_14673">
+            <rect width="304" height="140" fill="var(--palette-default-surface-1, white)" />
+        </clipPath>
+    </defs>
+</svg>

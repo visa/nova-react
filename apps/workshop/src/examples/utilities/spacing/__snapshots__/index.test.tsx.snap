@@ -1,0 +1,487 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Spacing examples Column gap should render correctly 1`] = `
+<div>
+  <div
+    class="v-flex"
+  >
+    <div
+      class="v-col-gap-20 v-flex"
+    >
+      <div
+        class="v-flex v-flex-col"
+      >
+        <div
+          class="v-surface v-flex-grow v-p-16"
+          style="box-shadow: var(--elevation-medium); inline-size: auto;"
+        >
+          Item 1
+        </div>
+        <div
+          class="v-surface v-flex-grow v-p-16"
+          style="box-shadow: var(--elevation-medium); inline-size: auto;"
+        >
+          Item 3
+        </div>
+      </div>
+      <div
+        class="v-flex v-flex-col"
+      >
+        <div
+          class="v-surface v-flex-grow v-p-16"
+          style="box-shadow: var(--elevation-medium); inline-size: auto;"
+        >
+          Item 2
+        </div>
+        <div
+          class="v-surface v-flex-grow v-p-16"
+          style="box-shadow: var(--elevation-medium); inline-size: auto;"
+        >
+          Item 4
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Spacing examples Default gap should render correctly 1`] = `
+<div>
+  <div
+    class="v-flex"
+  >
+    <div
+      class="v-col-gap-20 v-flex"
+    >
+      <div
+        class="v-surface v-flex-grow v-p-16"
+        style="box-shadow: var(--elevation-medium); inline-size: auto;"
+      >
+        Item 1
+      </div>
+      <div
+        class="v-surface v-flex-grow v-p-16"
+        style="box-shadow: var(--elevation-medium); inline-size: auto;"
+      >
+        Item 2
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Spacing examples Default margin should render correctly 1`] = `
+<div>
+  <div
+    class="v-flex"
+  >
+    <div
+      class="v-flex"
+    >
+      <div
+        class="v-surface v-m-20"
+      >
+        Content Area
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Spacing examples Gap inherit should render correctly 1`] = `
+<div>
+  <div
+    class="v-flex"
+  >
+    <ul
+      class="v-flex v-flex-col v-gap-8"
+    >
+      <li
+        class="v-align-items-center v-flex v-gap-inherit"
+      >
+        <span
+          aria-label="Alex Miller"
+          class="v-avatar v-avatar-small"
+        >
+          AM
+        </span>
+        Alex Miller
+      </li>
+      <li
+        class="v-align-items-center v-flex v-gap-inherit"
+      >
+        <span
+          aria-label="Rosetta Jones"
+          class="v-avatar v-avatar-small"
+        >
+          RJ
+        </span>
+        Rosetta Jones
+      </li>
+      <li
+        class="v-align-items-center v-flex v-gap-inherit"
+      >
+        <span
+          aria-label="Stacey Taylor"
+          class="v-avatar v-avatar-small"
+        >
+          ST
+        </span>
+        Stacey Taylor
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`Spacing examples Gap normal should render correctly 1`] = `
+<div>
+  <div
+    class="v-flex"
+  >
+    <div
+      class="v-flex v-gap-normal"
+    >
+      <div
+        class="v-surface v-flex-grow v-p-16"
+        style="box-shadow: var(--elevation-medium); inline-size: auto;"
+      >
+        Item 1
+      </div>
+      <div
+        class="v-surface v-flex-grow v-p-16"
+        style="box-shadow: var(--elevation-medium); inline-size: auto;"
+      >
+        Item 2
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Spacing examples Margin bottom should render correctly 1`] = `
+<div>
+  <div
+    class="v-flex"
+  >
+    <div
+      class="v-flex"
+    >
+      <div
+        class="v-surface v-mb-20 v-p-16"
+      >
+        Content Area
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Spacing examples Margin horizontal should render correctly 1`] = `
+<div>
+  <div
+    class="v-flex"
+  >
+    <div
+      class="v-flex"
+    >
+      <div
+        class="v-surface v-mx-20 v-p-16"
+      >
+        Content Area
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Spacing examples Margin inherit should render correctly 1`] = `
+<div>
+  <div
+    class="v-flex"
+  >
+    <div>
+      <div
+        class="v-mt-20"
+        style="text-align: center;"
+      >
+        <p>
+          Parent with top margin
+        </p>
+        <div
+          class="v-surface v-mt-inherit v-p-16"
+          style="border-inline: 0; border-block-end: 0;"
+        >
+          Child inherits top margin from parent
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Spacing examples Margin left should render correctly 1`] = `
+<div>
+  <div
+    class="v-flex"
+  >
+    <div
+      class="v-flex"
+    >
+      <div
+        class="v-surface v-ml-20 v-p-16"
+      >
+        Content Area
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Spacing examples Margin right should render correctly 1`] = `
+<div>
+  <div
+    class="v-flex"
+  >
+    <div
+      class="v-flex"
+    >
+      <div
+        class="v-surface v-mr-20 v-p-16"
+      >
+        Content Area
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Spacing examples Margin top should render correctly 1`] = `
+<div>
+  <div
+    class="v-flex"
+  >
+    <div
+      class="v-flex"
+    >
+      <div
+        class="v-surface v-mt-20 v-p-16"
+      >
+        Content Area
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Spacing examples Margin vertical should render correctly 1`] = `
+<div>
+  <div
+    class="v-flex"
+  >
+    <div
+      class="v-flex"
+    >
+      <div
+        class="v-surface v-my-20 v-p-16"
+      >
+        Content Area
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Spacing examples Padding bottom should render correctly 1`] = `
+<div>
+  <div
+    class="v-flex"
+  >
+    <div
+      class="v-pb-20"
+    >
+      <div
+        class="v-surface v-p-16 v-pb-20"
+      >
+        Content Area
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Spacing examples Padding horizontal should render correctly 1`] = `
+<div>
+  <div
+    class="v-flex"
+  >
+    <div
+      class="v-px-20"
+    >
+      <div
+        class="v-surface v-p-16 v-pb-20"
+      >
+        Content Area
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Spacing examples Padding inherit should render correctly 1`] = `
+<div>
+  <div
+    class="v-flex"
+  >
+    <div
+      class="v-pt-24"
+      style="text-align: center;"
+    >
+      <p>
+        Parent with top padding
+      </p>
+      <div
+        class="v-surface v-p-16 v-pt-inherit"
+        style="border-inline: 0; border-block-end: 0;"
+      >
+        Child inherits top margin from parent
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Spacing examples Padding left should render correctly 1`] = `
+<div>
+  <div
+    class="v-flex"
+  >
+    <div
+      class="v-pl-20"
+    >
+      <div
+        class="v-surface v-p-16 v-pb-20"
+      >
+        Content Area
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Spacing examples Padding right should render correctly 1`] = `
+<div>
+  <div
+    class="v-flex"
+  >
+    <div
+      class="v-pr-20"
+    >
+      <div
+        class="v-surface v-p-16 v-pb-20"
+      >
+        Content Area
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Spacing examples Padding should render correctly 1`] = `
+<div>
+  <div
+    class="v-flex"
+  >
+    <div
+      class="v-p-20"
+    >
+      <div
+        class="v-surface v-p-16 v-pb-20"
+      >
+        Content Area
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Spacing examples Padding top should render correctly 1`] = `
+<div>
+  <div
+    class="v-flex"
+  >
+    <div
+      class="v-pt-20"
+    >
+      <div
+        class="v-surface v-p-16 v-pb-20"
+      >
+        Content Area
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Spacing examples Padding vertical should render correctly 1`] = `
+<div>
+  <div
+    class="v-flex"
+  >
+    <div
+      class="v-py-20"
+    >
+      <div
+        class="v-surface v-p-16 v-pb-20"
+      >
+        Content Area
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Spacing examples Row gap should render correctly 1`] = `
+<div>
+  <div
+    class="v-flex"
+  >
+    <div
+      class="v-flex v-flex-col v-row-gap-20"
+    >
+      <div
+        class="v-flex"
+      >
+        <div
+          class="v-surface v-flex-grow v-p-16"
+          style="box-shadow: var(--elevation-medium); inline-size: auto;"
+        >
+          Item 1
+        </div>
+        <div
+          class="v-surface v-flex-grow v-p-16"
+          style="box-shadow: var(--elevation-medium); inline-size: auto;"
+        >
+          Item 2
+        </div>
+      </div>
+      <div
+        class="v-flex"
+      >
+        <div
+          class="v-surface v-flex-grow v-p-16"
+          style="box-shadow: var(--elevation-medium); inline-size: auto;"
+        >
+          Item 3
+        </div>
+        <div
+          class="v-surface v-flex-grow v-p-16"
+          style="box-shadow: var(--elevation-medium); inline-size: auto;"
+        >
+          Item 4
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

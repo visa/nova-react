@@ -1,0 +1,66 @@
+/**
+ *              Copyright (c) 2025 Visa, Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *         http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ **/
+.codeSnippet {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  font-family: 'Menlo', 'Courier New', Courier, monospace;
+  font-size: 14px;
+  justify-content: center;
+  min-block-size: 50px;
+  min-inline-size: fit-content;
+  padding: 8px 3rem 8px 12px;
+}
+.overflowContainer {
+  border-radius: var(--size-rounded-large);
+  border: 1px solid var(--palette-default-border);
+  inline-size: 100%;
+  overflow: auto;
+  z-index: 0;
+}
+.codeContainer {
+  position: relative;
+}
+.copyButtonContainer {
+  background-color: var(--palette-default-surface-1);
+  border-radius: var(--v-button-default-border-radius-icon);
+  position: absolute;
+  z-index: 1;
+  inset-block-start: 6px;
+  inset-inline-end: 6px;
+}
+.copyButton {
+  --v-button-default-inline-size: 2.3rem;
+  --v-button-default-justify-content: start;
+  transition: all 0.2s ease;
+
+  span {
+    inline-size: 0;
+    overflow: hidden;
+    transition: all 0.2s ease;
+  }
+  &.copied {
+    --v-button-default-inline-size: 7rem;
+    & > span {
+      inline-size: 7rem;
+    }
+  }
+}
+.codePanelSnippet {
+  border-radius: var(--size-rounded-none) var(--size-rounded-none) var(--size-rounded-medium) var(--size-rounded-medium);
+  border-width: 0px;
+}

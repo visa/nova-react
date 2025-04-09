@@ -1,0 +1,779 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input examples Address (US Region) should render correctly 1`] = `
+<div>
+  <div
+    class="v-flex v-flex-col v-gap-16"
+  >
+    <div
+      class="v-flex v-flex-row v-flex-wrap v-gap-16"
+    >
+      <div
+        class="v-flex v-flex-col v-flex-grow v-gap-6"
+      >
+        <label
+          class="v-label"
+          for="address-input-first-name"
+        >
+          First name
+        </label>
+        <div
+          class="v-surface v-input-container"
+        >
+          <input
+            class="v-input"
+            id="address-input-first-name"
+            required=""
+            type="text"
+          />
+        </div>
+      </div>
+      <div
+        class="v-flex v-flex-col v-flex-grow v-gap-6"
+      >
+        <label
+          class="v-label"
+          for="address-input-last-name"
+        >
+          Last name
+        </label>
+        <div
+          class="v-surface v-input-container"
+        >
+          <input
+            class="v-input"
+            id="address-input-last-name"
+            required=""
+            type="text"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="v-flex v-flex-col v-flex-grow v-gap-6"
+    >
+      <label
+        class="v-label"
+        for="address-input-address-1"
+      >
+        Address 1
+      </label>
+      <div
+        class="v-surface v-input-container"
+      >
+        <input
+          class="v-input"
+          id="address-input-address-1"
+          required=""
+          type="text"
+        />
+      </div>
+    </div>
+    <div
+      class="v-flex v-flex-col v-flex-grow v-gap-6"
+    >
+      <label
+        class="v-label"
+        for="address-input-address-2"
+      >
+        Address 2 (Optional)
+      </label>
+      <div
+        class="v-surface v-input-container"
+      >
+        <input
+          class="v-input"
+          id="address-input-address-2"
+          type="text"
+        />
+      </div>
+    </div>
+    <div
+      class="v-flex v-flex-row v-flex-wrap v-gap-16"
+    >
+      <div
+        class="v-flex v-flex-col v-flex-grow v-gap-6"
+      >
+        <label
+          class="v-label"
+          for="address-input-city"
+        >
+          City
+        </label>
+        <div
+          class="v-surface v-input-container"
+        >
+          <input
+            class="v-input"
+            id="address-input-city"
+            required=""
+            type="text"
+          />
+        </div>
+      </div>
+      <div
+        class="v-flex v-flex-col v-flex-grow-0 v-gap-6"
+      >
+        <label
+          class="v-label"
+          for="address-input-state"
+        >
+          State
+        </label>
+        <div
+          class="v-surface v-input-container"
+        >
+          <input
+            class="v-input"
+            id="address-input-state"
+            required=""
+            type="text"
+          />
+        </div>
+      </div>
+      <div
+        class="v-flex v-flex-col v-flex-grow-0 v-gap-6"
+      >
+        <label
+          class="v-label"
+          for="address-input-zip"
+        >
+          ZIP code
+        </label>
+        <div
+          class="v-surface v-input-container"
+        >
+          <input
+            class="v-input"
+            id="address-input-zip"
+            maxlength="6"
+            required=""
+            type="text"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Input examples CVV input should render correctly 1`] = `
+<div>
+  <form
+    class="v-flex v-flex-col v-gap-4"
+    novalidate=""
+  >
+    <label
+      class="v-label"
+      for="cvv-input"
+    >
+      Security code
+    </label>
+    <div
+      class="v-surface v-input-container"
+    >
+      <input
+        aria-describedby="cvv-input-message"
+        aria-invalid="false"
+        aria-required="true"
+        autocomplete="cc-csc"
+        class="v-input"
+        id="cvv-input"
+        maxlength="3"
+        name="cvv-input"
+        pattern="[0-9]{3}"
+        required=""
+        type="password"
+      />
+    </div>
+    <div
+      class="v-flex v-flex-row v-gap-8 v-mt-16"
+    >
+      <button
+        class="v-button"
+        type="submit"
+      >
+        Submit
+      </button>
+      <button
+        class="v-button v-button-secondary"
+        type="reset"
+      >
+        Reset
+      </button>
+    </div>
+  </form>
+</div>
+`;
+
+exports[`Input examples Default input should render correctly 1`] = `
+<div>
+  <div
+    class="v-flex v-flex-col v-gap-4"
+  >
+    <label
+      class="v-label"
+      for="input-default"
+    >
+      Label (required)
+    </label>
+    <div
+      class="v-surface v-input-container"
+    >
+      <input
+        aria-required="true"
+        class="v-input"
+        id="input-default"
+        type="text"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Input examples Disabled input should render correctly 1`] = `
+<div>
+  <div
+    class="v-flex v-flex-col v-gap-4"
+  >
+    <label
+      class="v-label"
+      for="disabled-input"
+    >
+      Label (required)
+    </label>
+    <div
+      class="v-surface v-input-container"
+    >
+      <input
+        aria-required="true"
+        class="v-input"
+        disabled=""
+        id="disabled-input"
+        type="text"
+      />
+    </div>
+  </div>
+  <div
+    class="v-align-items-center v-flex v-gap-2 v-mt-24"
+  >
+    <input
+      checked=""
+      class="v-checkbox"
+      id="disabled-input-checkbox"
+      type="checkbox"
+    />
+    <label
+      class="v-label"
+      for="disabled-input-checkbox"
+    >
+      Mark input as disabled
+    </label>
+  </div>
+</div>
+`;
+
+exports[`Input examples Input with error should render correctly 1`] = `
+<div>
+  <div
+    class="v-flex v-flex-col v-gap-4"
+  >
+    <label
+      class="v-label"
+      for="input-error"
+    >
+      Label (required)
+    </label>
+    <div
+      class="v-surface v-input-container"
+    >
+      <input
+        aria-describedby="input-error-message"
+        aria-invalid="false"
+        aria-required="true"
+        class="v-input"
+        id="input-error"
+        type="text"
+        value=""
+      />
+    </div>
+  </div>
+  <div
+    class="v-flex v-gap-12 v-mt-16"
+  >
+    <button
+      class="v-button"
+      id="input-error-submit-button"
+    >
+      Submit
+    </button>
+    <button
+      class="v-button v-button-secondary"
+      id="input-error-reset-button"
+    >
+      Reset
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Input examples Input with initial value should render correctly 1`] = `
+<div>
+  <div
+    class="v-flex v-flex-col v-gap-4"
+  >
+    <label
+      class="v-label"
+      for="input-initial-value"
+    >
+      Label (required)
+    </label>
+    <div
+      class="v-surface v-input-container"
+    >
+      <input
+        aria-required="true"
+        class="v-input"
+        id="input-initial-value"
+        type="text"
+        value="Initial value"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Input examples Input with inline label and message should render correctly 1`] = `
+<div>
+  <div
+    class="v-align-items-start v-flex v-flex-row v-gap-4"
+  >
+    <label
+      class="v-label"
+      for="input-custom-inline-label"
+      style="line-height: var(--v-input-container-block-size);"
+    >
+      Label (required)
+    </label>
+    <div
+      class="v-flex v-flex-col v-flex-grow v-gap-4"
+    >
+      <div
+        class="v-surface v-input-container"
+      >
+        <input
+          aria-describedby="input-custom-inline-label-message"
+          aria-required="true"
+          class="v-input"
+          id="input-custom-inline-label"
+          type="text"
+        />
+      </div>
+      <span
+        class="v-input-message"
+        id="input-custom-inline-label-message"
+      >
+        This is optional text that describes the label in more detail.
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Input examples Input with inline message should render correctly 1`] = `
+<div>
+  <div
+    class="v-flex v-flex-col v-gap-4"
+  >
+    <label
+      class="v-label"
+      for="input-inline-message"
+    >
+      Label (required)
+    </label>
+    <div
+      class="v-surface v-input-container"
+    >
+      <input
+        aria-describedby="input-inline-message-message"
+        aria-required="true"
+        class="v-input"
+        id="input-inline-message"
+        type="text"
+      />
+    </div>
+    <span
+      class="v-input-message"
+      id="input-inline-message-message"
+    >
+      This is optional text that describes the label in more detail.
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Input examples Input with leading icon should render correctly 1`] = `
+<div>
+  <div
+    class="v-flex v-flex-col v-gap-4"
+  >
+    <label
+      class="v-label"
+      for="input-leading-icon"
+    >
+      Label (required)
+    </label>
+    <div
+      class="v-surface v-input-container"
+    >
+      <div
+        class="v-flex v-flex-col"
+      >
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-low v-icon-account"
+          focusable="false"
+          height="24"
+          viewBox="0 0 24 24"
+          width="24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-secondary"
+            clip-rule="evenodd"
+            d="M12 14C7.58172 14 4 17.5817 4 22V24H2V22C2 16.4772 6.47715 12 12 12C17.5228 12 22 16.4772 22 22V24H20V22C20 17.5817 16.4183 14 12 14Z"
+            fill-rule="evenodd"
+          />
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M12 8C13.6569 8 15 6.65685 15 5C15 3.34315 13.6569 2 12 2C10.3431 2 9 3.34315 9 5C9 6.65685 10.3431 8 12 8ZM12 10C14.7614 10 17 7.76142 17 5C17 2.23858 14.7614 0 12 0C9.23858 0 7 2.23858 7 5C7 7.76142 9.23858 10 12 10Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+      <input
+        aria-required="true"
+        class="v-input"
+        id="input-leading-icon"
+        type="text"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Input examples Input with prefix should render correctly 1`] = `
+<div>
+  <div
+    class="v-flex v-flex-col v-gap-4"
+  >
+    <label
+      class="v-label"
+      for="input-prefix"
+    >
+      Label (required)
+    </label>
+    <div
+      class="v-surface v-input-container"
+    >
+      <span
+        class="v-typography-body-2-bold"
+        id="input-prefix-prefix"
+      >
+        $
+      </span>
+      <input
+        aria-describedby="input-prefix-prefix"
+        aria-required="true"
+        class="v-input"
+        id="input-prefix"
+        type="text"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Input examples Input with suffix should render correctly 1`] = `
+<div>
+  <div
+    class="v-flex v-flex-col v-gap-4"
+  >
+    <label
+      class="v-label"
+      for="input-suffix"
+    >
+      Label (required)
+    </label>
+    <div
+      class="v-surface v-input-container"
+    >
+      <input
+        aria-describedby="input-suffix-suffix"
+        aria-required="true"
+        class="v-input"
+        id="input-suffix"
+        type="text"
+      />
+      <span
+        class="v-typography-body-2-bold"
+        id="input-suffix-suffix"
+      >
+        %
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Input examples Native textarea with resize property should render correctly 1`] = `
+<div>
+  <div
+    class="v-flex v-flex-col v-gap-4"
+  >
+    <label
+      class="v-label"
+      for="native-text-area-resize"
+    >
+      Label (required)
+    </label>
+    <div
+      class="v-surface v-input-container v-flex-row"
+    >
+      <textarea
+        aria-required="true"
+        class="v-input"
+        id="native-text-area-resize"
+        name="native-text-area-resize"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Input examples Native textarea without resize property should render correctly 1`] = `
+<div>
+  <div
+    class="v-flex v-flex-col v-gap-4"
+  >
+    <label
+      class="v-label"
+      for="text-area-no-resize"
+    >
+      Label (required)
+    </label>
+    <div
+      class="v-surface v-input-container v-flex-row"
+    >
+      <textarea
+        aria-required="true"
+        class="v-input v-input-resize-none"
+        id="text-area-no-resize"
+        name="text-area-no-resize"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Input examples One-time passcode input should render correctly 1`] = `
+<div>
+  <div
+    class="v-flex v-flex-col v-gap-4"
+  >
+    <label
+      class="v-label"
+      for="input-otp"
+    >
+      Label
+    </label>
+    <div
+      class="v-surface v-input-container"
+      style="inline-size: 160px;"
+    >
+      <input
+        aria-required="true"
+        class="v-input v-input-otp"
+        id="input-otp"
+        type="text"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Input examples Read-only input should render correctly 1`] = `
+<div>
+  <div
+    class="v-flex v-flex-col v-gap-4"
+  >
+    <label
+      class="v-label"
+      for="input-readonly"
+    >
+      Label (required)
+    </label>
+    <div
+      class="v-surface v-input-container"
+    >
+      <input
+        aria-required="true"
+        class="v-input"
+        id="input-readonly"
+        readonly=""
+        type="text"
+        value="Read-only example text."
+      />
+    </div>
+  </div>
+  <div
+    class="v-align-items-center v-flex v-gap-2 v-mt-24"
+  >
+    <input
+      checked=""
+      class="v-checkbox"
+      id="input-readonly-checkbox"
+      type="checkbox"
+    />
+    <label
+      class="v-label"
+      for="input-readonly-checkbox"
+    >
+      Mark input as read-only
+    </label>
+  </div>
+</div>
+`;
+
+exports[`Input examples Textarea with fixed height and character counter should render correctly 1`] = `
+<div>
+  <form>
+    <div
+      class="v-flex v-flex-col v-gap-4"
+    >
+      <label
+        class="v-label"
+        for="text-count-textarea"
+      >
+        Label (required)
+      </label>
+      <div
+        class="v-surface v-input-container v-flex-row"
+      >
+        <textarea
+          aria-describedby="text-count-textarea-message"
+          aria-invalid="false"
+          aria-required="true"
+          class="v-input v-input-resize-none"
+          id="text-count-textarea"
+          name="text-count-textarea"
+          style="block-size: 130px;"
+        />
+      </div>
+      <span
+        aria-atomic="false"
+        aria-live="polite"
+        class="v-input-message v-flex v-flex-row"
+        id="text-count-textarea-message"
+      >
+        400 characters remaining
+      </span>
+    </div>
+    <div
+      class="v-flex v-flex-row v-gap-8 v-mt-16"
+    >
+      <button
+        class="v-button"
+        type="submit"
+      >
+        Submit
+      </button>
+      <button
+        class="v-button v-button-secondary"
+        type="reset"
+      >
+        Reset
+      </button>
+    </div>
+  </form>
+</div>
+`;
+
+exports[`Input examples Textarea with fixed height and resize property should render correctly 1`] = `
+<div>
+  <div
+    class="v-flex v-flex-col v-gap-4"
+  >
+    <label
+      class="v-label"
+      for="text-area-resize-height"
+    >
+      Label (required)
+    </label>
+    <div
+      class="v-surface v-input-container v-flex-row"
+    >
+      <textarea
+        aria-required="true"
+        class="v-input"
+        id="text-area-resize-height"
+        name="text-area-resize-height"
+        style="block-size: 130px;"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Input examples Textarea with fixed height should render correctly 1`] = `
+<div>
+  <div
+    class="v-flex v-flex-col v-gap-4"
+  >
+    <label
+      class="v-label"
+      for="text-area-fixed-height"
+    >
+      Label (required)
+    </label>
+    <div
+      class="v-surface v-input-container v-flex-row"
+    >
+      <textarea
+        aria-required="true"
+        class="v-input v-input-resize-none"
+        id="text-area-fixed-height"
+        name="text-area-fixed-height"
+        style="block-size: 130px;"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Input examples Textarea with native rows attribute should render correctly 1`] = `
+<div>
+  <div
+    class="v-flex v-flex-col v-gap-4"
+  >
+    <label
+      class="v-label"
+      for="text-area-native-row"
+    >
+      Label (required)
+    </label>
+    <div
+      class="v-surface v-input-container v-flex-row"
+    >
+      <textarea
+        aria-required="true"
+        class="v-input v-input-resize-none"
+        id="text-area-native-row"
+        name="text-area-native-row"
+        rows="3"
+      />
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,1754 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tabs examples Alternate horizontal tablist should render correctly 1`] = `
+<div>
+  <div
+    class="v-surface v-alternate"
+  >
+    <ul
+      class="v-tabs v-tabs-horizontal"
+      role="tablist"
+    >
+      <li
+        class="v-tab"
+        role="none"
+      >
+        <button
+          aria-controls="nova-alternate-horizontal-tabs-example-tab-0"
+          aria-selected="true"
+          class="v-button v-button-tertiary"
+          role="tab"
+          tabindex="0"
+        >
+          Label 1
+        </button>
+      </li>
+      <li
+        class="v-tab"
+        role="none"
+      >
+        <button
+          aria-controls="nova-alternate-horizontal-tabs-example-tab-1"
+          aria-selected="false"
+          class="v-button v-button-tertiary"
+          role="tab"
+          tabindex="-1"
+        >
+          Label 2
+        </button>
+      </li>
+      <li
+        class="v-tab"
+        role="none"
+      >
+        <button
+          aria-controls="nova-alternate-horizontal-tabs-example-tab-2"
+          aria-selected="false"
+          class="v-button v-button-tertiary"
+          role="tab"
+          tabindex="-1"
+        >
+          Label 3
+        </button>
+      </li>
+      <li
+        class="v-tab"
+        role="none"
+      >
+        <button
+          aria-controls="nova-alternate-horizontal-tabs-example-tab-3"
+          aria-selected="false"
+          class="v-button v-button-tertiary"
+          role="tab"
+          tabindex="-1"
+        >
+          Label 4
+        </button>
+      </li>
+    </ul>
+    <div
+      class="v-elevation-xxlarge v-flex v-flex-grow v-my-8"
+    >
+      <div
+        class="v-surface"
+        id="nova-alternate-horizontal-tabs-example-tab-0"
+        role="tabpanel"
+        style="min-block-size: 200px;"
+      >
+        <span>
+          This is the content area for label 1
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Tabs examples Alternate stacked tablist should render correctly 1`] = `
+<div>
+  <div
+    class="v-surface v-alternate"
+  >
+    <div>
+      <ul
+        class="v-tabs v-tabs-horizontal"
+        role="tablist"
+      >
+        <li
+          class="v-tab"
+          role="none"
+        >
+          <button
+            aria-controls="nova-alternate-stacked-tabs-example-tab-0"
+            aria-selected="true"
+            class="v-button v-button-tertiary v-button-stacked"
+            role="tab"
+            tabindex="0"
+          >
+            <svg
+              aria-hidden="true"
+              class="v-icon v-icon-visa v-icon-low v-icon-home"
+              focusable="false"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                class="v-icon-primary"
+                d="M24 24H0V22.0232H22V11.2299L12 3.51053L2 11.2299V20.0464H0V10.2613L12 1L24 10.2613V24Z"
+              />
+              <path
+                class="v-icon-secondary"
+                d="M16 20H9V11H16V20ZM11 18H14V13H11V18Z"
+              />
+            </svg>
+            Label 1
+          </button>
+        </li>
+        <li
+          class="v-tab"
+          role="none"
+        >
+          <button
+            aria-controls="nova-alternate-stacked-tabs-example-tab-1"
+            aria-selected="false"
+            class="v-button v-button-tertiary v-button-stacked"
+            role="tab"
+            tabindex="-1"
+          >
+            <svg
+              aria-hidden="true"
+              class="v-icon v-icon-visa v-icon-low v-icon-receipt"
+              focusable="false"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                class="v-icon-secondary"
+                clip-rule="evenodd"
+                d="M7 9H17V7H7V9ZM11 13H14V11H11V13ZM7 17H13V15H7V17ZM9 13H7V11H9V13Z"
+                fill-rule="evenodd"
+              />
+              <path
+                class="v-icon-primary"
+                clip-rule="evenodd"
+                d="M3 0L8 3L12 0L16 3L21 0V24L16 21L12 24L8 21L3 24V21.6678L6.97095 19.2852L6.97088 19.2851L8.12416 18.5931L12 21.5L15.8758 18.5931L19 20.4676V3.53238L15.8758 5.40688L12 2.5L8.12416 5.40688L5 3.53238V18.1355L3 19.3355V0Z"
+                fill-rule="evenodd"
+              />
+            </svg>
+            Label 2
+          </button>
+        </li>
+        <li
+          class="v-tab"
+          role="none"
+        >
+          <button
+            aria-controls="nova-alternate-stacked-tabs-example-tab-2"
+            aria-selected="false"
+            class="v-button v-button-tertiary v-button-stacked"
+            role="tab"
+            tabindex="-1"
+          >
+            <svg
+              aria-hidden="true"
+              class="v-icon v-icon-visa v-icon-low v-icon-statistics"
+              focusable="false"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                class="v-icon-secondary"
+                d="M23 12H12V1H12.9919C18.5068 1 23 5.49324 23 11.0081V12ZM13.9838 10.0162H20.9567C20.5104 6.38593 17.6141 3.48963 13.9838 3.04328V10.0162Z"
+              />
+              <path
+                class="v-icon-primary"
+                d="M11.0247 23C5.50067 23 1 18.5015 1 12.9802C1 10.2096 2.11275 7.51843 4.06006 5.59193C5.76892 3.89382 7.95468 2.99015 10.21 3.00008L10.1901 4.98617C8.48125 4.97624 6.79226 5.6813 5.46093 7.00205C3.89116 8.56113 2.98705 10.7359 2.98705 12.9802C2.98705 17.4092 6.59355 21.0139 11.0247 21.0139C13.2402 21.0139 15.4955 20.0705 17.0554 18.5015C18.337 17.2006 19.0325 15.5919 19.0126 13.9534L20.9997 13.9335C21.0195 16.0983 20.1254 18.2235 18.4662 19.9017C16.5387 21.8381 13.7569 23 11.0247 23Z"
+              />
+            </svg>
+            Label 3
+          </button>
+        </li>
+        <li
+          class="v-tab"
+          role="none"
+        >
+          <button
+            aria-controls="nova-alternate-stacked-tabs-example-tab-3"
+            aria-selected="false"
+            class="v-button v-button-tertiary v-button-stacked"
+            role="tab"
+            tabindex="-1"
+          >
+            <svg
+              aria-hidden="true"
+              class="v-icon v-icon-visa v-icon-low v-icon-email"
+              focusable="false"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                class="v-icon-primary"
+                clip-rule="evenodd"
+                d="M8.235e-05 7.91984L2.00008 9.19257V18H22.0001V6.82167L12.0001 14.1853L0.463207 5.84366C0.088112 5.60496 -0.0843435 5.14729 0.0399621 4.72041C0.164268 4.29354 0.555479 4 1.00008 4H24.0001V20H8.235e-05V7.91984ZM12.0001 11.8147L4.43414 6H19.566L12.0001 11.8147Z"
+                fill-rule="evenodd"
+              />
+              <defs>
+                <clippath>
+                  <rect
+                    height="24"
+                    width="24"
+                  />
+                </clippath>
+              </defs>
+            </svg>
+            Label 4
+          </button>
+        </li>
+      </ul>
+      <div
+        class="v-elevation-xxlarge v-flex v-flex-grow v-my-8"
+      >
+        <div
+          class="v-surface"
+          id="nova-alternate-stacked-tabs-example-tab-0"
+          role="tabpanel"
+          style="min-block-size: 200px;"
+        >
+          <span>
+            This is the content area for label 1
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Tabs examples Alternate vertical tablist should render correctly 1`] = `
+<div>
+  <div
+    class="v-surface v-alternate"
+  >
+    <div
+      class="v-flex v-flex-wrap v-gap-8"
+    >
+      <ul
+        class="v-tabs v-tabs-vertical"
+        role="tablist"
+        style="flex-basis: 30%;"
+      >
+        <li
+          class="v-tab"
+          role="none"
+        >
+          <button
+            aria-controls="nova-alternate-vertical-tabs-example-tab-0"
+            aria-selected="true"
+            class="v-button v-button-tertiary"
+            role="tab"
+            tabindex="0"
+          >
+            Label 1
+          </button>
+        </li>
+        <li
+          class="v-tab"
+          role="none"
+        >
+          <button
+            aria-controls="nova-alternate-vertical-tabs-example-tab-1"
+            aria-selected="false"
+            class="v-button v-button-tertiary"
+            role="tab"
+            tabindex="-1"
+          >
+            Label 2
+          </button>
+        </li>
+        <li
+          class="v-tab"
+          role="none"
+        >
+          <button
+            aria-controls="nova-alternate-vertical-tabs-example-tab-2"
+            aria-selected="false"
+            class="v-button v-button-tertiary"
+            role="tab"
+            tabindex="-1"
+          >
+            Label 3
+          </button>
+        </li>
+        <li
+          class="v-tab"
+          role="none"
+        >
+          <button
+            aria-controls="nova-alternate-vertical-tabs-example-tab-3"
+            aria-selected="false"
+            class="v-button v-button-tertiary"
+            role="tab"
+            tabindex="-1"
+          >
+            Label 4
+          </button>
+        </li>
+      </ul>
+      <div
+        class="v-elevation-xxlarge v-flex v-flex-grow"
+      >
+        <div
+          class="v-surface"
+          id="nova-alternate-vertical-tabs-example-tab-0"
+          role="tabpanel"
+          style="min-block-size: 200px;"
+        >
+          <span>
+            This is the content area for label 1
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Tabs examples Default horizontal tab should render correctly 1`] = `
+<div>
+  <div>
+    <ul
+      class="v-tabs v-tabs-horizontal"
+      role="tablist"
+    >
+      <li
+        class="v-tab"
+        role="none"
+      >
+        <button
+          aria-controls="nova-horizontal-tabs-example-tab-0"
+          aria-selected="true"
+          class="v-button v-button-tertiary"
+          role="tab"
+          tabindex="0"
+        >
+          Label 1
+        </button>
+      </li>
+      <li
+        class="v-tab"
+        role="none"
+      >
+        <button
+          aria-controls="nova-horizontal-tabs-example-tab-1"
+          aria-selected="false"
+          class="v-button v-button-tertiary"
+          role="tab"
+          tabindex="-1"
+        >
+          Label 2
+        </button>
+      </li>
+      <li
+        class="v-tab"
+        role="none"
+      >
+        <button
+          aria-controls="nova-horizontal-tabs-example-tab-2"
+          aria-selected="false"
+          class="v-button v-button-tertiary"
+          role="tab"
+          tabindex="-1"
+        >
+          Label 3
+        </button>
+      </li>
+      <li
+        class="v-tab"
+        role="none"
+      >
+        <button
+          aria-controls="nova-horizontal-tabs-example-tab-3"
+          aria-selected="false"
+          class="v-button v-button-tertiary"
+          role="tab"
+          tabindex="-1"
+        >
+          Label 4
+        </button>
+      </li>
+    </ul>
+    <div
+      class="v-elevation-inset v-flex v-flex-grow v-my-8"
+    >
+      <div
+        class="v-surface"
+        id="nova-horizontal-tabs-example-tab-0"
+        role="tabpanel"
+        style="min-block-size: 200px;"
+      >
+        <span>
+          This is the content area for label 1
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Tabs examples Default stacked tablist should render correctly 1`] = `
+<div>
+  <div>
+    <ul
+      class="v-tabs v-tabs-horizontal"
+      role="tablist"
+    >
+      <li
+        class="v-tab"
+        role="none"
+      >
+        <button
+          aria-controls="nova-stacked-tabs-example-tab-0"
+          aria-selected="true"
+          class="v-button v-button-tertiary v-button-stacked"
+          role="tab"
+          tabindex="0"
+        >
+          <svg
+            aria-hidden="true"
+            class="v-icon v-icon-visa v-icon-low v-icon-home"
+            focusable="false"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="v-icon-primary"
+              d="M24 24H0V22.0232H22V11.2299L12 3.51053L2 11.2299V20.0464H0V10.2613L12 1L24 10.2613V24Z"
+            />
+            <path
+              class="v-icon-secondary"
+              d="M16 20H9V11H16V20ZM11 18H14V13H11V18Z"
+            />
+          </svg>
+          Label 1
+        </button>
+      </li>
+      <li
+        class="v-tab"
+        role="none"
+      >
+        <button
+          aria-controls="nova-stacked-tabs-example-tab-1"
+          aria-selected="false"
+          class="v-button v-button-tertiary v-button-stacked"
+          role="tab"
+          tabindex="-1"
+        >
+          <svg
+            aria-hidden="true"
+            class="v-icon v-icon-visa v-icon-low v-icon-receipt"
+            focusable="false"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="v-icon-secondary"
+              clip-rule="evenodd"
+              d="M7 9H17V7H7V9ZM11 13H14V11H11V13ZM7 17H13V15H7V17ZM9 13H7V11H9V13Z"
+              fill-rule="evenodd"
+            />
+            <path
+              class="v-icon-primary"
+              clip-rule="evenodd"
+              d="M3 0L8 3L12 0L16 3L21 0V24L16 21L12 24L8 21L3 24V21.6678L6.97095 19.2852L6.97088 19.2851L8.12416 18.5931L12 21.5L15.8758 18.5931L19 20.4676V3.53238L15.8758 5.40688L12 2.5L8.12416 5.40688L5 3.53238V18.1355L3 19.3355V0Z"
+              fill-rule="evenodd"
+            />
+          </svg>
+          Label 2
+        </button>
+      </li>
+      <li
+        class="v-tab"
+        role="none"
+      >
+        <button
+          aria-controls="nova-stacked-tabs-example-tab-2"
+          aria-selected="false"
+          class="v-button v-button-tertiary v-button-stacked"
+          role="tab"
+          tabindex="-1"
+        >
+          <svg
+            aria-hidden="true"
+            class="v-icon v-icon-visa v-icon-low v-icon-statistics"
+            focusable="false"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="v-icon-secondary"
+              d="M23 12H12V1H12.9919C18.5068 1 23 5.49324 23 11.0081V12ZM13.9838 10.0162H20.9567C20.5104 6.38593 17.6141 3.48963 13.9838 3.04328V10.0162Z"
+            />
+            <path
+              class="v-icon-primary"
+              d="M11.0247 23C5.50067 23 1 18.5015 1 12.9802C1 10.2096 2.11275 7.51843 4.06006 5.59193C5.76892 3.89382 7.95468 2.99015 10.21 3.00008L10.1901 4.98617C8.48125 4.97624 6.79226 5.6813 5.46093 7.00205C3.89116 8.56113 2.98705 10.7359 2.98705 12.9802C2.98705 17.4092 6.59355 21.0139 11.0247 21.0139C13.2402 21.0139 15.4955 20.0705 17.0554 18.5015C18.337 17.2006 19.0325 15.5919 19.0126 13.9534L20.9997 13.9335C21.0195 16.0983 20.1254 18.2235 18.4662 19.9017C16.5387 21.8381 13.7569 23 11.0247 23Z"
+            />
+          </svg>
+          Label 3
+        </button>
+      </li>
+      <li
+        class="v-tab"
+        role="none"
+      >
+        <button
+          aria-controls="nova-stacked-tabs-example-tab-3"
+          aria-selected="false"
+          class="v-button v-button-tertiary v-button-stacked"
+          role="tab"
+          tabindex="-1"
+        >
+          <svg
+            aria-hidden="true"
+            class="v-icon v-icon-visa v-icon-low v-icon-email"
+            focusable="false"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="v-icon-primary"
+              clip-rule="evenodd"
+              d="M8.235e-05 7.91984L2.00008 9.19257V18H22.0001V6.82167L12.0001 14.1853L0.463207 5.84366C0.088112 5.60496 -0.0843435 5.14729 0.0399621 4.72041C0.164268 4.29354 0.555479 4 1.00008 4H24.0001V20H8.235e-05V7.91984ZM12.0001 11.8147L4.43414 6H19.566L12.0001 11.8147Z"
+              fill-rule="evenodd"
+            />
+            <defs>
+              <clippath>
+                <rect
+                  height="24"
+                  width="24"
+                />
+              </clippath>
+            </defs>
+          </svg>
+          Label 4
+        </button>
+      </li>
+    </ul>
+    <div
+      class="v-elevation-inset v-flex v-flex-grow v-my-8"
+    >
+      <div
+        class="v-surface"
+        id="nova-stacked-tabs-example-tab-0"
+        role="tabpanel"
+        style="min-block-size: 200px;"
+      >
+        <span>
+          This is the content area for label 1
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Tabs examples Default vertical tablist should render correctly 1`] = `
+<div>
+  <div
+    class="v-flex v-flex-wrap v-gap-8"
+  >
+    <ul
+      class="v-tabs v-tabs-vertical"
+      role="tablist"
+      style="flex-basis: 30%;"
+    >
+      <li
+        class="v-tab"
+        role="none"
+      >
+        <button
+          aria-controls="nova-vertical-tabs-example-tab-0"
+          aria-selected="true"
+          class="v-button v-button-tertiary"
+          role="tab"
+          tabindex="0"
+        >
+          Label 1
+        </button>
+      </li>
+      <li
+        class="v-tab"
+        role="none"
+      >
+        <button
+          aria-controls="nova-vertical-tabs-example-tab-1"
+          aria-selected="false"
+          class="v-button v-button-tertiary"
+          role="tab"
+          tabindex="-1"
+        >
+          Label 2
+        </button>
+      </li>
+      <li
+        class="v-tab"
+        role="none"
+      >
+        <button
+          aria-controls="nova-vertical-tabs-example-tab-2"
+          aria-selected="false"
+          class="v-button v-button-tertiary"
+          role="tab"
+          tabindex="-1"
+        >
+          Label 3
+        </button>
+      </li>
+      <li
+        class="v-tab"
+        role="none"
+      >
+        <button
+          aria-controls="nova-vertical-tabs-example-tab-3"
+          aria-selected="false"
+          class="v-button v-button-tertiary"
+          role="tab"
+          tabindex="-1"
+        >
+          Label 4
+        </button>
+      </li>
+    </ul>
+    <div
+      class="v-elevation-inset v-flex v-flex-grow"
+    >
+      <div
+        class="v-surface v-p-10"
+        id="nova-vertical-tabs-example-tab-0"
+        role="tabpanel"
+      >
+        <span>
+          This is the content area for label 1
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Tabs examples Horizontal tab with icon should render correctly 1`] = `
+<div>
+  <div>
+    <ul
+      class="v-tabs v-tabs-horizontal"
+      role="tablist"
+    >
+      <li
+        class="v-tab"
+        role="none"
+      >
+        <button
+          aria-controls="nova-icon-horizontal-tabs-example-tab-0"
+          aria-selected="true"
+          class="v-button v-button-tertiary"
+          role="tab"
+          tabindex="0"
+        >
+          <svg
+            aria-hidden="true"
+            class="v-icon v-icon-visa v-icon-tiny v-icon-statistics"
+            focusable="false"
+            height="16"
+            viewBox="0 0 16 16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="v-icon-secondary"
+              clip-rule="evenodd"
+              d="M7 0H8C12.4183 0 16 3.58172 16 8V9H7V0ZM9 2.08296V7H13.917C13.4955 4.4875 11.5125 2.50448 9 2.08296Z"
+              fill-rule="evenodd"
+            />
+            <path
+              class="v-icon-primary"
+              clip-rule="evenodd"
+              d="M5 0.578125C4.65376 0.718269 4.3195 0.881945 3.99927 1.06719C1.61068 2.44891 0 5.03393 0 7.99632C0 12.4146 3.58172 15.9963 8 15.9963C10.9624 15.9963 13.5474 14.3856 14.9291 11.997C15.1144 11.6768 15.278 11.3426 15.4182 10.9963H13.1975C12.1585 12.7919 10.2193 13.9963 8 13.9963C4.68629 13.9963 2 11.31 2 7.99632C2 5.77703 3.20439 3.83786 5 2.79882V0.578125Z"
+              fill-rule="evenodd"
+            />
+          </svg>
+          Label 1
+        </button>
+      </li>
+      <li
+        class="v-tab"
+        role="none"
+      >
+        <button
+          aria-controls="nova-icon-horizontal-tabs-example-tab-1"
+          aria-selected="false"
+          class="v-button v-button-tertiary"
+          role="tab"
+          tabindex="-1"
+        >
+          <svg
+            aria-hidden="true"
+            class="v-icon v-icon-visa v-icon-tiny v-icon-topic"
+            focusable="false"
+            height="16"
+            viewBox="0 0 16 16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="v-icon-secondary"
+              d="M10 6.99609C10 8.10066 9.10457 8.99609 8 8.99609C6.89543 8.99609 6 8.10066 6 6.99609C6 5.89152 6.89543 4.99609 8 4.99609C9.10457 4.99609 10 5.89152 10 6.99609Z"
+            />
+            <path
+              class="v-icon-primary"
+              clip-rule="evenodd"
+              d="M6 3H10C12.2091 3 14 4.79086 14 7C14 9.20914 12.2091 11 10 11H6C3.79086 11 2 9.20914 2 7C2 4.79086 3.79086 3 6 3ZM0 7C0 3.68629 2.68629 1 6 1H10C13.3137 1 16 3.68629 16 7C16 10.3137 13.3137 13 10 13H8L5 16V12.917C2.16229 12.441 0 9.973 0 7Z"
+              fill-rule="evenodd"
+            />
+          </svg>
+          Label 2
+        </button>
+      </li>
+      <li
+        class="v-tab"
+        role="none"
+      >
+        <button
+          aria-controls="nova-icon-horizontal-tabs-example-tab-2"
+          aria-selected="false"
+          class="v-button v-button-tertiary"
+          role="tab"
+          tabindex="-1"
+        >
+          <svg
+            aria-hidden="true"
+            class="v-icon v-icon-visa v-icon-tiny v-icon-email"
+            focusable="false"
+            height="16"
+            viewBox="0 0 16 16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="v-icon-primary"
+              clip-rule="evenodd"
+              d="M3.70328 4L8 7.6829L12.2967 4H3.70328ZM14 5.1742V12H2V8.42857L0 6.71429V14H16V2H0V3.5L1.68348 4.9029L7.02381 9.48032C7.58554 9.96181 8.41445 9.96181 8.97618 9.48033L14 5.1742Z"
+              fill-rule="evenodd"
+            />
+          </svg>
+          Label 3
+        </button>
+      </li>
+      <li
+        class="v-tab"
+        role="none"
+      >
+        <button
+          aria-controls="nova-icon-horizontal-tabs-example-tab-3"
+          aria-selected="false"
+          class="v-button v-button-tertiary"
+          role="tab"
+          tabindex="-1"
+        >
+          <svg
+            aria-hidden="true"
+            class="v-icon v-icon-visa v-icon-tiny v-icon-home"
+            focusable="false"
+            height="16"
+            viewBox="0 0 16 16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="v-icon-secondary"
+              clip-rule="evenodd"
+              d="M5 9C5 7.89543 5.89543 7 7 7H9C10.1046 7 11 7.89543 11 9V12H9V9H7V12H5V9Z"
+              fill-rule="evenodd"
+            />
+            <path
+              class="v-icon-primary"
+              clip-rule="evenodd"
+              d="M16 6.48577L8 0.771484L0 6.48577V12.0004H2V7.51501L8 3.22929L14 7.51501V14.0004H0V16.0004H16V6.48577Z"
+              fill-rule="evenodd"
+            />
+            <defs>
+              <clippath>
+                <rect
+                  height="16"
+                  width="16"
+                />
+              </clippath>
+            </defs>
+          </svg>
+          Label 4
+        </button>
+      </li>
+    </ul>
+    <div
+      class="v-elevation-inset v-flex v-flex-grow v-my-8"
+    >
+      <div
+        class="v-surface"
+        id="nova-icon-horizontal-tabs-example-tab-0"
+        role="tabpanel"
+        style="min-block-size: 200px;"
+      >
+        <span>
+          This is the content area for label 1
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Tabs examples Horizontal tab with menu should render correctly 1`] = `
+<div>
+  <div
+    class="v-tab"
+    style="block-size: 150px;"
+  >
+    <button
+      aria-controls="nova-horizontal-tabs-with-menu-example"
+      aria-expanded="false"
+      class="v-button v-button-large v-button-tertiary v-dropdown"
+      id="nova-horizontal-tabs-with-menu-example-button"
+    >
+      <svg
+        aria-hidden="true"
+        class="v-icon v-icon-visa v-icon-tiny v-icon-home"
+        focusable="false"
+        height="16"
+        viewBox="0 0 16 16"
+        width="16"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          class="v-icon-secondary"
+          clip-rule="evenodd"
+          d="M5 9C5 7.89543 5.89543 7 7 7H9C10.1046 7 11 7.89543 11 9V12H9V9H7V12H5V9Z"
+          fill-rule="evenodd"
+        />
+        <path
+          class="v-icon-primary"
+          clip-rule="evenodd"
+          d="M16 6.48577L8 0.771484L0 6.48577V12.0004H2V7.51501L8 3.22929L14 7.51501V14.0004H0V16.0004H16V6.48577Z"
+          fill-rule="evenodd"
+        />
+        <defs>
+          <clippath>
+            <rect
+              height="16"
+              width="16"
+            />
+          </clippath>
+        </defs>
+      </svg>
+       Label
+      <svg
+        aria-hidden="true"
+        class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-down v-tab-suffix"
+        focusable="false"
+        height="16"
+        viewBox="0 0 16 16"
+        width="16"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          class="v-icon-primary"
+          clip-rule="evenodd"
+          d="M2.47597 4.00049L1 5.39358L8 12.0005L15 5.39358L13.524 4.00049L8 9.21431L2.47597 4.00049Z"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Tabs examples Horizontal tablist with disabled tab should render correctly 1`] = `
+<div>
+  <div>
+    <ul
+      class="v-tabs v-tabs-horizontal"
+      role="tablist"
+    >
+      <li
+        class="v-tab"
+        role="none"
+      >
+        <button
+          aria-controls="nova-disabled-horizontal-tabs-example-tab-0"
+          aria-selected="true"
+          class="v-button v-button-tertiary"
+          role="tab"
+          tabindex="0"
+        >
+          Label 1
+        </button>
+      </li>
+      <li
+        class="v-tab"
+        role="none"
+      >
+        <button
+          aria-controls="nova-disabled-horizontal-tabs-example-tab-1"
+          aria-selected="false"
+          class="v-button v-button-tertiary"
+          role="tab"
+          tabindex="-1"
+        >
+          Label 2
+        </button>
+      </li>
+      <li
+        class="v-tab"
+        role="none"
+      >
+        <button
+          aria-controls="nova-disabled-horizontal-tabs-example-tab-2"
+          aria-selected="false"
+          class="v-button v-button-tertiary"
+          disabled=""
+          role="tab"
+          tabindex="-1"
+        >
+          Label 3
+        </button>
+      </li>
+      <li
+        class="v-tab"
+        role="none"
+      >
+        <button
+          aria-controls="nova-disabled-horizontal-tabs-example-tab-3"
+          aria-selected="false"
+          class="v-button v-button-tertiary"
+          role="tab"
+          tabindex="-1"
+        >
+          Label 4
+        </button>
+      </li>
+    </ul>
+    <div
+      class="v-elevation-inset v-flex v-flex-grow v-my-8"
+    >
+      <div
+        class="v-surface"
+        id="nova-disabled-horizontal-tabs-example-tab-0"
+        role="tabpanel"
+        style="min-block-size: 200px;"
+      >
+        <span>
+          This is the content area for label 1
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Tabs examples Stacked tablist with disabled tab should render correctly 1`] = `
+<div>
+  <div>
+    <ul
+      class="v-tabs v-tabs-horizontal"
+      role="tablist"
+    >
+      <li
+        class="v-tab"
+        role="none"
+      >
+        <button
+          aria-controls="nova-disabled-stacked-tabs-example-tab-0"
+          aria-selected="true"
+          class="v-button v-button-tertiary v-button-stacked"
+          role="tab"
+          tabindex="0"
+        >
+          <svg
+            aria-hidden="true"
+            class="v-icon v-icon-visa v-icon-low v-icon-home"
+            focusable="false"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="v-icon-primary"
+              d="M24 24H0V22.0232H22V11.2299L12 3.51053L2 11.2299V20.0464H0V10.2613L12 1L24 10.2613V24Z"
+            />
+            <path
+              class="v-icon-secondary"
+              d="M16 20H9V11H16V20ZM11 18H14V13H11V18Z"
+            />
+          </svg>
+          Label 1
+        </button>
+      </li>
+      <li
+        class="v-tab"
+        role="none"
+      >
+        <button
+          aria-controls="nova-disabled-stacked-tabs-example-tab-1"
+          aria-selected="false"
+          class="v-button v-button-tertiary v-button-stacked"
+          role="tab"
+          tabindex="-1"
+        >
+          <svg
+            aria-hidden="true"
+            class="v-icon v-icon-visa v-icon-low v-icon-receipt"
+            focusable="false"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="v-icon-secondary"
+              clip-rule="evenodd"
+              d="M7 9H17V7H7V9ZM11 13H14V11H11V13ZM7 17H13V15H7V17ZM9 13H7V11H9V13Z"
+              fill-rule="evenodd"
+            />
+            <path
+              class="v-icon-primary"
+              clip-rule="evenodd"
+              d="M3 0L8 3L12 0L16 3L21 0V24L16 21L12 24L8 21L3 24V21.6678L6.97095 19.2852L6.97088 19.2851L8.12416 18.5931L12 21.5L15.8758 18.5931L19 20.4676V3.53238L15.8758 5.40688L12 2.5L8.12416 5.40688L5 3.53238V18.1355L3 19.3355V0Z"
+              fill-rule="evenodd"
+            />
+          </svg>
+          Label 2
+        </button>
+      </li>
+      <li
+        class="v-tab"
+        role="none"
+      >
+        <button
+          aria-controls="nova-disabled-stacked-tabs-example-tab-2"
+          aria-selected="false"
+          class="v-button v-button-tertiary v-button-stacked"
+          disabled=""
+          role="tab"
+          tabindex="-1"
+        >
+          <svg
+            aria-hidden="true"
+            class="v-icon v-icon-visa v-icon-low v-icon-statistics"
+            focusable="false"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="v-icon-secondary"
+              d="M23 12H12V1H12.9919C18.5068 1 23 5.49324 23 11.0081V12ZM13.9838 10.0162H20.9567C20.5104 6.38593 17.6141 3.48963 13.9838 3.04328V10.0162Z"
+            />
+            <path
+              class="v-icon-primary"
+              d="M11.0247 23C5.50067 23 1 18.5015 1 12.9802C1 10.2096 2.11275 7.51843 4.06006 5.59193C5.76892 3.89382 7.95468 2.99015 10.21 3.00008L10.1901 4.98617C8.48125 4.97624 6.79226 5.6813 5.46093 7.00205C3.89116 8.56113 2.98705 10.7359 2.98705 12.9802C2.98705 17.4092 6.59355 21.0139 11.0247 21.0139C13.2402 21.0139 15.4955 20.0705 17.0554 18.5015C18.337 17.2006 19.0325 15.5919 19.0126 13.9534L20.9997 13.9335C21.0195 16.0983 20.1254 18.2235 18.4662 19.9017C16.5387 21.8381 13.7569 23 11.0247 23Z"
+            />
+          </svg>
+          Label 3
+        </button>
+      </li>
+      <li
+        class="v-tab"
+        role="none"
+      >
+        <button
+          aria-controls="nova-disabled-stacked-tabs-example-tab-3"
+          aria-selected="false"
+          class="v-button v-button-tertiary v-button-stacked"
+          role="tab"
+          tabindex="-1"
+        >
+          <svg
+            aria-hidden="true"
+            class="v-icon v-icon-visa v-icon-low v-icon-email"
+            focusable="false"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="v-icon-primary"
+              clip-rule="evenodd"
+              d="M8.235e-05 7.91984L2.00008 9.19257V18H22.0001V6.82167L12.0001 14.1853L0.463207 5.84366C0.088112 5.60496 -0.0843435 5.14729 0.0399621 4.72041C0.164268 4.29354 0.555479 4 1.00008 4H24.0001V20H8.235e-05V7.91984ZM12.0001 11.8147L4.43414 6H19.566L12.0001 11.8147Z"
+              fill-rule="evenodd"
+            />
+            <defs>
+              <clippath>
+                <rect
+                  height="24"
+                  width="24"
+                />
+              </clippath>
+            </defs>
+          </svg>
+          Label 4
+        </button>
+      </li>
+    </ul>
+    <div
+      class="v-elevation-inset v-flex v-flex-grow v-my-8"
+    >
+      <div
+        class="v-surface"
+        id="nova-disabled-stacked-tabs-example-tab-0"
+        role="tabpanel"
+        style="min-block-size: 200px;"
+      >
+        <span>
+          This is the content area for label 1
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Tabs examples Stacked tabs with notifications should render correctly 1`] = `
+<div>
+  <div>
+    <ul
+      class="v-tabs v-tabs-horizontal"
+      role="tablist"
+    >
+      <li
+        class="v-tab"
+        role="none"
+      >
+        <button
+          aria-controls="nova-notifications-stacked-tabs-example-tab-0"
+          aria-selected="true"
+          class="v-button v-button-tertiary v-button-stacked"
+          role="tab"
+          tabindex="0"
+        >
+          <svg
+            aria-hidden="true"
+            class="v-icon v-icon-visa v-icon-low v-icon-home"
+            focusable="false"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="v-icon-primary"
+              d="M24 24H0V22.0232H22V11.2299L12 3.51053L2 11.2299V20.0464H0V10.2613L12 1L24 10.2613V24Z"
+            />
+            <path
+              class="v-icon-secondary"
+              d="M16 20H9V11H16V20ZM11 18H14V13H11V18Z"
+            />
+          </svg>
+          Label 1
+          <sup
+            aria-label="1 unread notification"
+            class="v-badge v-badge-number v-typography-label-active"
+          >
+            1
+          </sup>
+        </button>
+      </li>
+      <li
+        class="v-tab"
+        role="none"
+      >
+        <button
+          aria-controls="nova-notifications-stacked-tabs-example-tab-1"
+          aria-selected="false"
+          class="v-button v-button-tertiary v-button-stacked"
+          role="tab"
+          tabindex="-1"
+        >
+          <svg
+            aria-hidden="true"
+            class="v-icon v-icon-visa v-icon-low v-icon-receipt"
+            focusable="false"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="v-icon-secondary"
+              clip-rule="evenodd"
+              d="M7 9H17V7H7V9ZM11 13H14V11H11V13ZM7 17H13V15H7V17ZM9 13H7V11H9V13Z"
+              fill-rule="evenodd"
+            />
+            <path
+              class="v-icon-primary"
+              clip-rule="evenodd"
+              d="M3 0L8 3L12 0L16 3L21 0V24L16 21L12 24L8 21L3 24V21.6678L6.97095 19.2852L6.97088 19.2851L8.12416 18.5931L12 21.5L15.8758 18.5931L19 20.4676V3.53238L15.8758 5.40688L12 2.5L8.12416 5.40688L5 3.53238V18.1355L3 19.3355V0Z"
+              fill-rule="evenodd"
+            />
+          </svg>
+          Label 2
+          <sup
+            aria-label="2 unread notifications"
+            class="v-badge v-badge-number v-typography-label-active"
+          >
+            2
+          </sup>
+        </button>
+      </li>
+      <li
+        class="v-tab"
+        role="none"
+      >
+        <button
+          aria-controls="nova-notifications-stacked-tabs-example-tab-2"
+          aria-selected="false"
+          class="v-button v-button-tertiary v-button-stacked"
+          role="tab"
+          tabindex="-1"
+        >
+          <svg
+            aria-hidden="true"
+            class="v-icon v-icon-visa v-icon-low v-icon-statistics"
+            focusable="false"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="v-icon-secondary"
+              d="M23 12H12V1H12.9919C18.5068 1 23 5.49324 23 11.0081V12ZM13.9838 10.0162H20.9567C20.5104 6.38593 17.6141 3.48963 13.9838 3.04328V10.0162Z"
+            />
+            <path
+              class="v-icon-primary"
+              d="M11.0247 23C5.50067 23 1 18.5015 1 12.9802C1 10.2096 2.11275 7.51843 4.06006 5.59193C5.76892 3.89382 7.95468 2.99015 10.21 3.00008L10.1901 4.98617C8.48125 4.97624 6.79226 5.6813 5.46093 7.00205C3.89116 8.56113 2.98705 10.7359 2.98705 12.9802C2.98705 17.4092 6.59355 21.0139 11.0247 21.0139C13.2402 21.0139 15.4955 20.0705 17.0554 18.5015C18.337 17.2006 19.0325 15.5919 19.0126 13.9534L20.9997 13.9335C21.0195 16.0983 20.1254 18.2235 18.4662 19.9017C16.5387 21.8381 13.7569 23 11.0247 23Z"
+            />
+          </svg>
+          Label 3
+          <sup
+            aria-label="3 unread notifications"
+            class="v-badge v-badge-number v-typography-label-active"
+          >
+            3
+          </sup>
+        </button>
+      </li>
+      <li
+        class="v-tab"
+        role="none"
+      >
+        <button
+          aria-controls="nova-notifications-stacked-tabs-example-tab-3"
+          aria-selected="false"
+          class="v-button v-button-tertiary v-button-stacked"
+          role="tab"
+          tabindex="-1"
+        >
+          <svg
+            aria-hidden="true"
+            class="v-icon v-icon-visa v-icon-low v-icon-email"
+            focusable="false"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="v-icon-primary"
+              clip-rule="evenodd"
+              d="M8.235e-05 7.91984L2.00008 9.19257V18H22.0001V6.82167L12.0001 14.1853L0.463207 5.84366C0.088112 5.60496 -0.0843435 5.14729 0.0399621 4.72041C0.164268 4.29354 0.555479 4 1.00008 4H24.0001V20H8.235e-05V7.91984ZM12.0001 11.8147L4.43414 6H19.566L12.0001 11.8147Z"
+              fill-rule="evenodd"
+            />
+            <defs>
+              <clippath>
+                <rect
+                  height="24"
+                  width="24"
+                />
+              </clippath>
+            </defs>
+          </svg>
+          Label 4
+          <sup
+            aria-label="4 unread notifications"
+            class="v-badge v-badge-number v-typography-label-active"
+          >
+            4
+          </sup>
+        </button>
+      </li>
+    </ul>
+    <div
+      class="v-elevation-inset v-flex v-flex-grow v-my-8"
+    >
+      <div
+        class="v-surface"
+        id="nova-notifications-stacked-tabs-example-tab-0"
+        role="tabpanel"
+        style="min-block-size: 200px;"
+      >
+        <span>
+          This is the content area for label 1
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Tabs examples Tablist with automatic activation should render correctly 1`] = `
+<div>
+  <div>
+    <ul
+      class="v-tabs v-tabs-horizontal"
+      role="tablist"
+    >
+      <li
+        class="v-tab"
+        role="none"
+      >
+        <button
+          aria-controls="nova-auto-horizontal-tabs-example-tab-0"
+          aria-selected="true"
+          class="v-button v-button-tertiary"
+          role="tab"
+          tabindex="0"
+        >
+          Label 1
+        </button>
+      </li>
+      <li
+        class="v-tab"
+        role="none"
+      >
+        <button
+          aria-controls="nova-auto-horizontal-tabs-example-tab-1"
+          aria-selected="false"
+          class="v-button v-button-tertiary"
+          role="tab"
+          tabindex="-1"
+        >
+          Label 2
+        </button>
+      </li>
+      <li
+        class="v-tab"
+        role="none"
+      >
+        <button
+          aria-controls="nova-auto-horizontal-tabs-example-tab-2"
+          aria-selected="false"
+          class="v-button v-button-tertiary"
+          role="tab"
+          tabindex="-1"
+        >
+          Label 3
+        </button>
+      </li>
+      <li
+        class="v-tab"
+        role="none"
+      >
+        <button
+          aria-controls="nova-auto-horizontal-tabs-example-tab-3"
+          aria-selected="false"
+          class="v-button v-button-tertiary"
+          role="tab"
+          tabindex="-1"
+        >
+          Label 4
+        </button>
+      </li>
+    </ul>
+    <div
+      class="v-elevation-inset v-flex v-flex-grow v-my-8"
+    >
+      <div
+        class="v-surface"
+        id="nova-auto-horizontal-tabs-example-tab-0"
+        role="tabpanel"
+        style="min-block-size: 200px;"
+      >
+        <span>
+          This is the content area for label 1
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Tabs examples Vertical tab with menu should render correctly 1`] = `
+<div>
+  <div
+    class="v-flex v-flex-wrap v-gap-8"
+  >
+    <div
+      class="v-tabs v-tabs-vertical"
+    >
+      <div
+        class="v-tab"
+      >
+        <button
+          aria-expanded="false"
+          class="v-button v-button-tertiary"
+        >
+          <svg
+            aria-hidden="true"
+            class="v-icon v-icon-visa v-icon-tiny v-icon-home"
+            focusable="false"
+            height="16"
+            viewBox="0 0 16 16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="v-icon-secondary"
+              clip-rule="evenodd"
+              d="M5 9C5 7.89543 5.89543 7 7 7H9C10.1046 7 11 7.89543 11 9V12H9V9H7V12H5V9Z"
+              fill-rule="evenodd"
+            />
+            <path
+              class="v-icon-primary"
+              clip-rule="evenodd"
+              d="M16 6.48577L8 0.771484L0 6.48577V12.0004H2V7.51501L8 3.22929L14 7.51501V14.0004H0V16.0004H16V6.48577Z"
+              fill-rule="evenodd"
+            />
+            <defs>
+              <clippath>
+                <rect
+                  height="16"
+                  width="16"
+                />
+              </clippath>
+            </defs>
+          </svg>
+           Label
+          <svg
+            aria-hidden="true"
+            class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-down v-tab-suffix"
+            focusable="false"
+            height="16"
+            viewBox="0 0 16 16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="v-icon-primary"
+              clip-rule="evenodd"
+              d="M2.47597 4.00049L1 5.39358L8 12.0005L15 5.39358L13.524 4.00049L8 9.21431L2.47597 4.00049Z"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Tabs examples Vertical tablist with disabled tab should render correctly 1`] = `
+<div>
+  <div
+    class="v-flex v-flex-wrap v-gap-8"
+  >
+    <ul
+      class="v-tabs v-tabs-vertical"
+      role="tablist"
+      style="flex-basis: 30%;"
+    >
+      <li
+        class="v-tab"
+        role="none"
+      >
+        <button
+          aria-controls="nova-disabled-vertical-tabs-example-tab-0"
+          aria-selected="true"
+          class="v-button v-button-tertiary"
+          role="tab"
+          tabindex="0"
+        >
+          Label 1
+        </button>
+      </li>
+      <li
+        class="v-tab"
+        role="none"
+      >
+        <button
+          aria-controls="nova-disabled-vertical-tabs-example-tab-1"
+          aria-selected="false"
+          class="v-button v-button-tertiary"
+          role="tab"
+          tabindex="-1"
+        >
+          Label 2
+        </button>
+      </li>
+      <li
+        class="v-tab"
+        role="none"
+      >
+        <button
+          aria-controls="nova-disabled-vertical-tabs-example-tab-2"
+          aria-selected="false"
+          class="v-button v-button-tertiary"
+          disabled=""
+          role="tab"
+          tabindex="-1"
+        >
+          Label 3
+        </button>
+      </li>
+      <li
+        class="v-tab"
+        role="none"
+      >
+        <button
+          aria-controls="nova-disabled-vertical-tabs-example-tab-3"
+          aria-selected="false"
+          class="v-button v-button-tertiary"
+          role="tab"
+          tabindex="-1"
+        >
+          Label 4
+        </button>
+      </li>
+    </ul>
+    <div
+      class="v-elevation-inset v-flex v-flex-grow"
+    >
+      <div
+        class="v-surface v-p-10"
+        id="nova-disabled-vertical-tabs-example-tab-0"
+        role="tabpanel"
+      >
+        <span>
+          This is the content area for label 1
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Tabs examples Vertical tablist with icon should render correctly 1`] = `
+<div>
+  <div
+    class="v-flex v-flex-wrap v-gap-8"
+  >
+    <ul
+      class="v-tabs v-tabs-vertical"
+      role="tablist"
+      style="flex-basis: 30%;"
+    >
+      <li
+        class="v-tab"
+        role="none"
+      >
+        <button
+          aria-controls="nova-icon-vertical-tabs-example-tab-0"
+          aria-selected="true"
+          class="v-button v-button-tertiary"
+          role="tab"
+          style="min-inline-size: max-content;"
+          tabindex="0"
+        >
+          <svg
+            aria-hidden="true"
+            class="v-icon v-icon-visa v-icon-tiny v-icon-statistics"
+            focusable="false"
+            height="16"
+            viewBox="0 0 16 16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="v-icon-secondary"
+              clip-rule="evenodd"
+              d="M7 0H8C12.4183 0 16 3.58172 16 8V9H7V0ZM9 2.08296V7H13.917C13.4955 4.4875 11.5125 2.50448 9 2.08296Z"
+              fill-rule="evenodd"
+            />
+            <path
+              class="v-icon-primary"
+              clip-rule="evenodd"
+              d="M5 0.578125C4.65376 0.718269 4.3195 0.881945 3.99927 1.06719C1.61068 2.44891 0 5.03393 0 7.99632C0 12.4146 3.58172 15.9963 8 15.9963C10.9624 15.9963 13.5474 14.3856 14.9291 11.997C15.1144 11.6768 15.278 11.3426 15.4182 10.9963H13.1975C12.1585 12.7919 10.2193 13.9963 8 13.9963C4.68629 13.9963 2 11.31 2 7.99632C2 5.77703 3.20439 3.83786 5 2.79882V0.578125Z"
+              fill-rule="evenodd"
+            />
+          </svg>
+          Label 1
+        </button>
+      </li>
+      <li
+        class="v-tab"
+        role="none"
+      >
+        <button
+          aria-controls="nova-icon-vertical-tabs-example-tab-1"
+          aria-selected="false"
+          class="v-button v-button-tertiary"
+          role="tab"
+          style="min-inline-size: max-content;"
+          tabindex="-1"
+        >
+          <svg
+            aria-hidden="true"
+            class="v-icon v-icon-visa v-icon-tiny v-icon-topic"
+            focusable="false"
+            height="16"
+            viewBox="0 0 16 16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="v-icon-secondary"
+              d="M10 6.99609C10 8.10066 9.10457 8.99609 8 8.99609C6.89543 8.99609 6 8.10066 6 6.99609C6 5.89152 6.89543 4.99609 8 4.99609C9.10457 4.99609 10 5.89152 10 6.99609Z"
+            />
+            <path
+              class="v-icon-primary"
+              clip-rule="evenodd"
+              d="M6 3H10C12.2091 3 14 4.79086 14 7C14 9.20914 12.2091 11 10 11H6C3.79086 11 2 9.20914 2 7C2 4.79086 3.79086 3 6 3ZM0 7C0 3.68629 2.68629 1 6 1H10C13.3137 1 16 3.68629 16 7C16 10.3137 13.3137 13 10 13H8L5 16V12.917C2.16229 12.441 0 9.973 0 7Z"
+              fill-rule="evenodd"
+            />
+          </svg>
+          Label 2
+        </button>
+      </li>
+      <li
+        class="v-tab"
+        role="none"
+      >
+        <button
+          aria-controls="nova-icon-vertical-tabs-example-tab-2"
+          aria-selected="false"
+          class="v-button v-button-tertiary"
+          role="tab"
+          style="min-inline-size: max-content;"
+          tabindex="-1"
+        >
+          <svg
+            aria-hidden="true"
+            class="v-icon v-icon-visa v-icon-tiny v-icon-email"
+            focusable="false"
+            height="16"
+            viewBox="0 0 16 16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="v-icon-primary"
+              clip-rule="evenodd"
+              d="M3.70328 4L8 7.6829L12.2967 4H3.70328ZM14 5.1742V12H2V8.42857L0 6.71429V14H16V2H0V3.5L1.68348 4.9029L7.02381 9.48032C7.58554 9.96181 8.41445 9.96181 8.97618 9.48033L14 5.1742Z"
+              fill-rule="evenodd"
+            />
+          </svg>
+          Label 3
+        </button>
+      </li>
+      <li
+        class="v-tab"
+        role="none"
+      >
+        <button
+          aria-controls="nova-icon-vertical-tabs-example-tab-3"
+          aria-selected="false"
+          class="v-button v-button-tertiary"
+          role="tab"
+          style="min-inline-size: max-content;"
+          tabindex="-1"
+        >
+          <svg
+            aria-hidden="true"
+            class="v-icon v-icon-visa v-icon-tiny v-icon-home"
+            focusable="false"
+            height="16"
+            viewBox="0 0 16 16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="v-icon-secondary"
+              clip-rule="evenodd"
+              d="M5 9C5 7.89543 5.89543 7 7 7H9C10.1046 7 11 7.89543 11 9V12H9V9H7V12H5V9Z"
+              fill-rule="evenodd"
+            />
+            <path
+              class="v-icon-primary"
+              clip-rule="evenodd"
+              d="M16 6.48577L8 0.771484L0 6.48577V12.0004H2V7.51501L8 3.22929L14 7.51501V14.0004H0V16.0004H16V6.48577Z"
+              fill-rule="evenodd"
+            />
+            <defs>
+              <clippath>
+                <rect
+                  height="16"
+                  width="16"
+                />
+              </clippath>
+            </defs>
+          </svg>
+          Label 4
+        </button>
+      </li>
+    </ul>
+    <div
+      class="v-elevation-inset v-flex v-flex-grow"
+    >
+      <div
+        class="v-surface v-p-10"
+        id="nova-icon-vertical-tabs-example-tab-0"
+        role="tabpanel"
+      >
+        <span>
+          This is the content area for label 1
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,653 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Progress examples Completed determinate circular progress indicator should render correctly 1`] = `
+<div>
+  <div
+    aria-labelledby="large-complete-circular-progress completed-circular-screen-reader-message"
+    aria-valuenow="100"
+    class="v-progress v-progress-circular"
+    role="progressbar"
+    style="animation-play-state: running; --v-progress-circular-size: 72px;"
+  >
+    <svg
+      class="v-progress-circular-track"
+    >
+      <circle
+        class="v-progress-circular-background"
+      />
+      <circle
+        class="v-progress-circular-bar"
+        style="stroke-dasharray: 213.62830044410595, 213.62830044410595; stroke-dashoffset: 0;"
+      />
+    </svg>
+    <div
+      class="v-typography-body-2-bold v-progress-label"
+      id="large-complete-circular-progress"
+    >
+      100
+      %
+    </div>
+  </div>
+  <span
+    class="v-sr"
+    id="completed-circular-screen-reader-message"
+    role="alert"
+  >
+    Loading complete.
+  </span>
+</div>
+`;
+
+exports[`Progress examples Completed linear progress indicator should render correctly 1`] = `
+<div>
+  <progress
+    aria-valuenow="100"
+    class="v-progress v-progress-bar v-progress-complete v-my-8"
+    id="complete-linear-progress"
+    max="100"
+    style="animation-play-state: running;"
+    value="100"
+  />
+  <label
+    class="v-progress-label"
+    for="complete-linear-progress"
+  >
+    <span
+      class="v-flex v-gap-4"
+      role="alert"
+    >
+      <svg
+        aria-hidden="true"
+        class="v-icon v-icon-visa v-icon-tiny v-icon-success"
+        focusable="false"
+        height="16"
+        viewBox="0 0 16 16"
+        width="16"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          class="v-icon-secondary"
+          clip-rule="evenodd"
+          d="M14 8C14 11.3137 11.3137 14 8 14C4.68629 14 2 11.3137 2 8C2 4.68629 4.68629 2 8 2C8.74542 2 9.4591 2.13593 10.1176 2.38437L11.6319 0.870034C10.542 0.313733 9.30764 0 8 0C3.58172 0 0 3.58172 0 8C0 12.4183 3.58172 16 8 16C12.4183 16 16 12.4183 16 8C16 7.21837 15.8879 6.46293 15.6789 5.74886L13.9678 7.37472C13.9891 7.58024 14 7.78885 14 8Z"
+          fill-rule="evenodd"
+        />
+        <path
+          class="v-icon-primary"
+          clip-rule="evenodd"
+          d="M15 3.46597L7.72838 10.9961L5 8.18244L6.42533 6.71257L7.72838 8.05635L13.5747 1.99609L15 3.46597Z"
+          fill-rule="evenodd"
+        />
+      </svg>
+      File is now uploaded.
+    </span>
+    <span>
+      100%
+    </span>
+  </label>
+</div>
+`;
+
+exports[`Progress examples Custom size determinate circular progress indicator should render correctly 1`] = `
+<div>
+  <div
+    aria-labelledby="circular-custom-size-determinate-progress"
+    aria-valuenow="0"
+    class="v-progress v-progress-circular"
+    role="progressbar"
+    style="animation-play-state: running; --v-progress-circular-size: 100px;"
+  >
+    <svg
+      class="v-progress-circular-track"
+    >
+      <circle
+        class="v-progress-circular-background"
+      />
+      <circle
+        class="v-progress-circular-bar"
+        style="stroke-dasharray: 0, 301.59289474462014; stroke-dashoffset: 0;"
+      />
+    </svg>
+    <label
+      class="v-progress-label"
+      id="circular-custom-size-determinate-progress"
+    >
+      <div
+        class="v-typography-body-2-bold v-progress-label"
+      >
+        0
+        %
+      </div>
+    </label>
+  </div>
+  <span
+    class="v-sr"
+    role="alert"
+  />
+  <div
+    class="v-flex v-gap-12 v-my-12"
+  >
+    <button
+      class="v-button"
+    >
+      Start
+    </button>
+    <button
+      class="v-button v-button-secondary"
+    >
+      Reset
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Progress examples Determinate linear progress indicator should render correctly 1`] = `
+<div>
+  <progress
+    class="v-progress v-progress-bar v-my-8"
+    id="determinate-linear-progress"
+    max="100"
+    style="animation-play-state: running;"
+    value="0"
+  />
+  <label
+    class="v-progress-label"
+    for="determinate-linear-progress"
+  >
+    <span>
+      Filename.jpg
+    </span>
+    <span>
+      0
+      %
+    </span>
+    <span
+      class="v-sr"
+      role="alert"
+    />
+  </label>
+  <div
+    class="v-flex v-gap-12 v-my-12"
+  >
+    <button
+      class="v-button"
+    >
+      Start
+    </button>
+    <button
+      class="v-button v-button-secondary"
+    >
+      Reset
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Progress examples Determinate linear progress indicator without visible label should render correctly 1`] = `
+<div>
+  <progress
+    class="v-progress v-progress-bar v-my-8"
+    id="no-label-determinate-linear-progress"
+    max="100"
+    style="animation-play-state: running;"
+    value="0"
+  />
+  <label
+    class="v-progress-label"
+    for="no-label-determinate-linear-progress"
+  >
+    <span>
+      0
+      %
+    </span>
+    <span
+      class="v-sr"
+      role="alert"
+    />
+  </label>
+  <div
+    class="v-flex v-gap-12 v-my-12"
+  >
+    <button
+      class="v-button"
+    >
+      Start
+    </button>
+    <button
+      class="v-button v-button-secondary"
+    >
+      Reset
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Progress examples Error determinate circular progress indicator should render correctly 1`] = `
+<div>
+  <span
+    class="v-input-message v-input-error"
+    role="alert"
+  >
+    <svg
+      aria-hidden="true"
+      class="v-icon v-icon-visa v-icon-tiny v-icon-error"
+      focusable="false"
+      height="16"
+      viewBox="0 0 16 16"
+      width="16"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        class="v-icon-secondary"
+        clip-rule="evenodd"
+        d="M8 14C11.3137 14 14 11.3137 14 8C14 4.68629 11.3137 2 8 2C4.68629 2 2 4.68629 2 8C2 11.3137 4.68629 14 8 14ZM8 16C12.4183 16 16 12.4183 16 8C16 3.58172 12.4183 0 8 0C3.58172 0 0 3.58172 0 8C0 12.4183 3.58172 16 8 16Z"
+        fill-rule="evenodd"
+      />
+      <path
+        class="v-icon-primary"
+        clip-rule="evenodd"
+        d="M9 4H7V8H9V4ZM8 10C7.44772 10 7 10.4477 7 11C7 11.5523 7.44772 12 8 12C8.55228 12 9 11.5523 9 11C9 10.4477 8.55228 10 8 10Z"
+        fill-rule="evenodd"
+      />
+      <defs>
+        <clippath>
+          <rect
+            height="16"
+            width="16"
+          />
+        </clippath>
+      </defs>
+    </svg>
+    This is required text that describes the error in more detail.
+  </span>
+</div>
+`;
+
+exports[`Progress examples Error linear progress indicator should render correctly 1`] = `
+<div>
+  <progress
+    class="v-progress v-progress-bar v-progress-error v-my-8"
+    id="error-determinate-linear-progress"
+    max="100"
+    style="animation-play-state: running;"
+    value="0"
+  />
+  <label
+    class="v-progress-label"
+    for="error-determinate-linear-progress"
+  >
+    <span
+      class="v-flex v-gap-4"
+      role="alert"
+    >
+      <svg
+        aria-hidden="true"
+        class="v-icon v-icon-visa v-icon-tiny v-icon-error"
+        focusable="false"
+        height="16"
+        viewBox="0 0 16 16"
+        width="16"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          class="v-icon-secondary"
+          clip-rule="evenodd"
+          d="M8 14C11.3137 14 14 11.3137 14 8C14 4.68629 11.3137 2 8 2C4.68629 2 2 4.68629 2 8C2 11.3137 4.68629 14 8 14ZM8 16C12.4183 16 16 12.4183 16 8C16 3.58172 12.4183 0 8 0C3.58172 0 0 3.58172 0 8C0 12.4183 3.58172 16 8 16Z"
+          fill-rule="evenodd"
+        />
+        <path
+          class="v-icon-primary"
+          clip-rule="evenodd"
+          d="M9 4H7V8H9V4ZM8 10C7.44772 10 7 10.4477 7 11C7 11.5523 7.44772 12 8 12C8.55228 12 9 11.5523 9 11C9 10.4477 8.55228 10 8 10Z"
+          fill-rule="evenodd"
+        />
+        <defs>
+          <clippath>
+            <rect
+              height="16"
+              width="16"
+            />
+          </clippath>
+        </defs>
+      </svg>
+      This is required text that describes the error in more detail.
+    </span>
+    <span>
+      0%
+    </span>
+  </label>
+</div>
+`;
+
+exports[`Progress examples Indeterminate linear progress indicator should render correctly 1`] = `
+<div>
+  <div
+    class="v-flex v-flex-col v-gap-12"
+  >
+    <div
+      class="v-flex v-gap-12 v-my-12"
+    >
+      <button
+        class="v-button"
+      >
+        Start
+      </button>
+      <button
+        class="v-button v-button-secondary"
+      >
+        Reset
+      </button>
+      <button
+        class="v-button v-button-secondary"
+      >
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-tiny v-icon-media-pause-alt"
+          focusable="false"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-secondary"
+            clip-rule="evenodd"
+            d="M14 8C14 11.3137 11.3137 14 8 14C4.68629 14 2 11.3137 2 8C2 4.68629 4.68629 2 8 2C11.3137 2 14 4.68629 14 8ZM16 8C16 12.4183 12.4183 16 8 16C3.58172 16 0 12.4183 0 8C0 3.58172 3.58172 0 8 0C12.4183 0 16 3.58172 16 8Z"
+            fill-rule="evenodd"
+          />
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M5 5L5 11H7L7 5H5ZM9 5V11H11L11 5H9Z"
+            fill-rule="evenodd"
+          />
+          <defs>
+            <clippath>
+              <rect
+                height="16"
+                width="16"
+              />
+            </clippath>
+          </defs>
+        </svg>
+        Pause
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Progress examples Indeterminate linear progress indicator without visible label should render correctly 1`] = `
+<div>
+  <div
+    class="v-flex v-flex-col v-gap-12"
+  >
+    <div
+      class="v-flex v-gap-12 v-my-12"
+    >
+      <button
+        class="v-button"
+      >
+        Start
+      </button>
+      <button
+        class="v-button v-button-secondary"
+      >
+        Reset
+      </button>
+      <button
+        class="v-button v-button-secondary"
+      >
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-tiny v-icon-media-pause-alt"
+          focusable="false"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-secondary"
+            clip-rule="evenodd"
+            d="M14 8C14 11.3137 11.3137 14 8 14C4.68629 14 2 11.3137 2 8C2 4.68629 4.68629 2 8 2C11.3137 2 14 4.68629 14 8ZM16 8C16 12.4183 12.4183 16 8 16C3.58172 16 0 12.4183 0 8C0 3.58172 3.58172 0 8 0C12.4183 0 16 3.58172 16 8Z"
+            fill-rule="evenodd"
+          />
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M5 5L5 11H7L7 5H5ZM9 5V11H11L11 5H9Z"
+            fill-rule="evenodd"
+          />
+          <defs>
+            <clippath>
+              <rect
+                height="16"
+                width="16"
+              />
+            </clippath>
+          </defs>
+        </svg>
+        Pause
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Progress examples Large determinate circular progress indicator should render correctly 1`] = `
+<div>
+  <div
+    aria-labelledby="large-determinate-circular-progress"
+    aria-valuenow="0"
+    class="v-progress v-progress-circular"
+    role="progressbar"
+    style="animation-play-state: running; --v-progress-circular-size: 72px;"
+  >
+    <svg
+      class="v-progress-circular-track"
+    >
+      <circle
+        class="v-progress-circular-background"
+      />
+      <circle
+        class="v-progress-circular-bar"
+        style="stroke-dasharray: 0, 213.62830044410595; stroke-dashoffset: 0;"
+      />
+    </svg>
+    <label
+      class="v-progress-label"
+      id="large-determinate-circular-progress"
+    >
+      <div
+        class="v-typography-body-2-bold v-progress-label"
+      >
+        0
+        %
+      </div>
+    </label>
+  </div>
+  <span
+    class="v-sr"
+    role="alert"
+  />
+  <div
+    class="v-flex v-gap-12 v-my-12"
+  >
+    <button
+      class="v-button"
+    >
+      Start
+    </button>
+    <button
+      class="v-button v-button-secondary"
+    >
+      Reset
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Progress examples Large indeterminate circular progress indicator should render correctly 1`] = `
+<div>
+  <div
+    class="v-flex v-flex-col v-gap-12"
+  >
+    <div
+      class="v-flex v-gap-12 v-my-12"
+    >
+      <button
+        class="v-button"
+      >
+        Start
+      </button>
+      <button
+        class="v-button v-button-secondary"
+      >
+        Reset
+      </button>
+      <button
+        class="v-button v-button-secondary"
+      >
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-tiny v-icon-media-pause-alt"
+          focusable="false"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-secondary"
+            clip-rule="evenodd"
+            d="M14 8C14 11.3137 11.3137 14 8 14C4.68629 14 2 11.3137 2 8C2 4.68629 4.68629 2 8 2C11.3137 2 14 4.68629 14 8ZM16 8C16 12.4183 12.4183 16 8 16C3.58172 16 0 12.4183 0 8C0 3.58172 3.58172 0 8 0C12.4183 0 16 3.58172 16 8Z"
+            fill-rule="evenodd"
+          />
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M5 5L5 11H7L7 5H5ZM9 5V11H11L11 5H9Z"
+            fill-rule="evenodd"
+          />
+          <defs>
+            <clippath>
+              <rect
+                height="16"
+                width="16"
+              />
+            </clippath>
+          </defs>
+        </svg>
+        Pause
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Progress examples Small determinate circular progress indicator should render correctly 1`] = `
+<div>
+  <div
+    aria-labelledby="small-determinate-circular-progress"
+    aria-valuenow="0"
+    class="v-progress v-progress-circular v-progress-circular-small"
+    role="progressbar"
+    style="animation-play-state: running; --v-progress-circular-size: 48px;"
+  >
+    <svg
+      class="v-progress-circular-track"
+    >
+      <circle
+        class="v-progress-circular-background"
+      />
+      <circle
+        class="v-progress-circular-bar"
+        style="stroke-dasharray: 0, 138.23007675795088; stroke-dashoffset: 0;"
+      />
+    </svg>
+    <div
+      class="v-typography-body-2-bold v-progress-label"
+      id="small-determinate-circular-progress"
+    >
+      0
+      %
+    </div>
+  </div>
+  <span
+    class="v-sr"
+    role="alert"
+  />
+  <div
+    class="v-flex v-gap-12 v-my-12"
+  >
+    <button
+      class="v-button"
+    >
+      Start
+    </button>
+    <button
+      class="v-button v-button-secondary"
+    >
+      Reset
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Progress examples Small indeterminate circular progress indicator should render correctly 1`] = `
+<div>
+  <div
+    class="v-flex v-flex-col v-gap-12"
+  >
+    <div
+      class="v-flex v-gap-12 v-my-12"
+    >
+      <button
+        class="v-button"
+      >
+        Start
+      </button>
+      <button
+        class="v-button v-button-secondary"
+      >
+        Reset
+      </button>
+      <button
+        class="v-button v-button-secondary"
+      >
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-tiny v-icon-media-pause-alt"
+          focusable="false"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-secondary"
+            clip-rule="evenodd"
+            d="M14 8C14 11.3137 11.3137 14 8 14C4.68629 14 2 11.3137 2 8C2 4.68629 4.68629 2 8 2C11.3137 2 14 4.68629 14 8ZM16 8C16 12.4183 12.4183 16 8 16C3.58172 16 0 12.4183 0 8C0 3.58172 3.58172 0 8 0C12.4183 0 16 3.58172 16 8Z"
+            fill-rule="evenodd"
+          />
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M5 5L5 11H7L7 5H5ZM9 5V11H11L11 5H9Z"
+            fill-rule="evenodd"
+          />
+          <defs>
+            <clippath>
+              <rect
+                height="16"
+                width="16"
+              />
+            </clippath>
+          </defs>
+        </svg>
+        Pause
+      </button>
+    </div>
+  </div>
+</div>
+`;

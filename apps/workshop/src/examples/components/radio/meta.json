@@ -1,0 +1,92 @@
+{
+  "disabled-panel-radio": {
+    "file": "disabled-panel-radio.tsx",
+    "id": "disabled-panel-radio",
+    "title": "Disabled radio button panel",
+    "testAvg": 100
+  },
+  "disabled-radio": {
+    "file": "disabled-radio.tsx",
+    "id": "disabled-radio",
+    "title": "Disabled radio button",
+    "testAvg": 100
+  },
+  "error-group-panel-radio": {
+    "file": "error-group-panel-radio.tsx",
+    "id": "error-group-panel-radio",
+    "title": "Radio button panel group with error",
+    "testAvg": 100
+  },
+  "error-radio": {
+    "file": "error-radio.tsx",
+    "id": "error-radio",
+    "title": "Radio button with error",
+    "testAvg": 100
+  },
+  "group-panel-radio": {
+    "file": "group-panel-radio.tsx",
+    "id": "group-panel-radio",
+    "title": "Radio button panel group",
+    "testAvg": 100
+  },
+  "group-radio": {
+    "file": "group-radio.tsx",
+    "id": "group-radio",
+    "title": "Radio button group",
+    "testAvg": 100
+  },
+  "with-description-panel-radio": {
+    "file": "with-description-panel-radio.tsx",
+    "id": "with-description-panel-radio",
+    "title": "Radio button panel",
+    "testAvg": 100
+  },
+  "with-description-radio": {
+    "file": "with-description-radio.tsx",
+    "id": "with-description-radio",
+    "title": "Radio button with description",
+    "testAvg": 100
+  },
+  "with-label-radio": {
+    "file": "with-label-radio.tsx",
+    "id": "with-label-radio",
+    "title": "Radio button with label",
+    "testAvg": 100
+  },
+  "without-description-panel-radio": {
+    "file": "without-description-panel-radio.tsx",
+    "id": "without-description-panel-radio",
+    "title": "Radio button panel without description",
+    "testAvg": 100
+  },
+  "without-visible-label-radio": {
+    "file": "without-visible-label-radio.tsx",
+    "id": "without-visible-label-radio",
+    "title": "Radio button without visible label",
+    "testAvg": 100
+  },
+  "disabled-selected-radio": {
+    "file": "disabled-selected-radio.tsx",
+    "id": "disabled-selected-radio",
+    "title": "Disabled and selected radio button",
+    "testAvg": 100
+  },
+  "error-group-radio": {
+    "file": "error-group-radio.tsx",
+    "id": "error-group-radio",
+    "title": "Radio button group with error",
+    "testAvg": 100
+  },
+  "horizontal-group-radio": {
+    "file": "horizontal-group-radio.tsx",
+    "id": "horizontal-group-radio",
+    "title": "Horizontal radio button group",
+    "testAvg": 100
+  },
+  "selected-radio": {
+    "file": "selected-radio.tsx",
+    "id": "selected-radio",
+    "title": "Selected radio button",
+    "testAvg": 100
+  }
+}

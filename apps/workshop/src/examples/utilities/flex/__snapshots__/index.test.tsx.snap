@@ -1,0 +1,740 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Flex examples Flex align content around should render correctly 1`] = `
+<div>
+  <div
+    class="v-surface v-align-content-around v-flex v-flex-row v-flex-wrap v-gap-4"
+    style="block-size: 80px; --v-surface-border-size: 2px;"
+  >
+    <span>
+      first
+    </span>
+    <span>
+      second
+    </span>
+    <span>
+      third
+    </span>
+    <span>
+      fourth
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Flex examples Flex align content center should render correctly 1`] = `
+<div>
+  <div
+    class="v-surface v-align-content-center v-flex v-flex-row v-flex-wrap v-gap-4"
+    style="block-size: 80px; --v-surface-border-size: 2px;"
+  >
+    <span>
+      first
+    </span>
+    <span>
+      second
+    </span>
+    <span>
+      third
+    </span>
+    <span>
+      fourth
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Flex examples Flex align content end should render correctly 1`] = `
+<div>
+  <div
+    class="v-surface v-align-content-end v-flex v-flex-row v-flex-wrap v-gap-4"
+    style="block-size: 80px; --v-surface-border-size: 2px;"
+  >
+    <span>
+      first
+    </span>
+    <span>
+      second
+    </span>
+    <span>
+      third
+    </span>
+    <span>
+      fourth
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Flex examples Flex align content evenly should render correctly 1`] = `
+<div>
+  <div
+    class="v-surface v-align-content-evenly v-flex v-flex-row v-flex-wrap v-gap-4"
+    style="block-size: 80px; --v-surface-border-size: 2px;"
+  >
+    <span>
+      first
+    </span>
+    <span>
+      second
+    </span>
+    <span>
+      third
+    </span>
+    <span>
+      fourth
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Flex examples Flex align content space between should render correctly 1`] = `
+<div>
+  <div
+    class="v-surface v-align-content-between v-flex v-flex-row v-gap-4"
+    style="block-size: 80px; --v-surface-border-size: 2px;"
+  >
+    <span>
+      first
+    </span>
+    <span>
+      second
+    </span>
+    <span>
+      third
+    </span>
+    <span>
+      fourth
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Flex examples Flex align content start should render correctly 1`] = `
+<div>
+  <div
+    class="v-surface v-align-content-start v-flex v-flex-row v-flex-wrap v-gap-4"
+    style="block-size: 80px; --v-surface-border-size: 2px;"
+  >
+    <span>
+      first
+    </span>
+    <span>
+      second
+    </span>
+    <span>
+      third
+    </span>
+    <span>
+      fourth
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Flex examples Flex align items baseline should render correctly 1`] = `
+<div>
+  <div
+    class="v-surface v-align-items-baseline v-flex v-flex-row v-flex-wrap v-gap-4"
+    style="block-size: 80px; --v-surface-border-size: 2px;"
+  >
+    <span>
+      first
+    </span>
+    <span>
+      second
+    </span>
+    <span>
+      third
+    </span>
+    <span>
+      fourth
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Flex examples Flex align items center should render correctly 1`] = `
+<div>
+  <div
+    class="v-surface v-align-items-center v-flex v-flex-row v-flex-wrap v-gap-4"
+    style="block-size: 80px; --v-surface-border-size: 2px;"
+  >
+    <span>
+      first
+    </span>
+    <span>
+      second
+    </span>
+    <span>
+      third
+    </span>
+    <span>
+      fourth
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Flex examples Flex align items end should render correctly 1`] = `
+<div>
+  <div
+    class="v-surface v-align-items-end v-flex v-flex-row v-flex-wrap v-gap-4"
+    style="block-size: 80px; --v-surface-border-size: 2px;"
+  >
+    <span>
+      first
+    </span>
+    <span>
+      second
+    </span>
+    <span>
+      third
+    </span>
+    <span>
+      fourth
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Flex examples Flex align items start should render correctly 1`] = `
+<div>
+  <div
+    class="v-surface v-align-items-start v-flex v-flex-row v-flex-wrap v-gap-4"
+    style="block-size: 80px; --v-surface-border-size: 2px;"
+  >
+    <span>
+      first
+    </span>
+    <span>
+      second
+    </span>
+    <span>
+      third
+    </span>
+    <span>
+      fourth
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Flex examples Flex align items stretch should render correctly 1`] = `
+<div>
+  <div
+    class="v-surface v-align-items-stretch v-flex v-flex-row v-flex-wrap v-gap-4"
+    style="block-size: 80px; --v-surface-border-size: 2px;"
+  >
+    <span>
+      first
+    </span>
+    <span>
+      second
+    </span>
+    <span>
+      third
+    </span>
+    <span>
+      fourth
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Flex examples Flex align self auto should render correctly 1`] = `
+<div>
+  <div
+    class="v-surface v-flex v-flex-row v-gap-4"
+    style="block-size: 80px; --v-surface-border-size: 2px;"
+  >
+    <div
+      class="v-surface v-alternate v-align-self-auto v-flex"
+    >
+      self
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Flex examples Flex align self center should render correctly 1`] = `
+<div>
+  <div
+    class="v-surface v-flex v-flex-row v-gap-4"
+    style="block-size: 80px; --v-surface-border-size: 2px;"
+  >
+    <div
+      class="v-surface v-alternate v-align-self-center v-flex"
+    >
+      self
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Flex examples Flex align self end should render correctly 1`] = `
+<div>
+  <div
+    class="v-surface v-flex v-flex-row v-gap-4"
+    style="block-size: 80px; --v-surface-border-size: 2px;"
+  >
+    <div
+      class="v-surface v-alternate v-align-self-end v-flex"
+    >
+      self
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Flex examples Flex align self start should render correctly 1`] = `
+<div>
+  <div
+    class="v-surface v-flex v-flex-row v-gap-4"
+    style="block-size: 80px; --v-surface-border-size: 2px;"
+  >
+    <div
+      class="v-surface v-alternate v-align-self-start v-flex"
+    >
+      self
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Flex examples Flex align self stretch should render correctly 1`] = `
+<div>
+  <div
+    class="v-surface v-flex v-flex-row v-gap-4"
+    style="block-size: 80px; --v-surface-border-size: 2px;"
+  >
+    <div
+      class="v-surface v-alternate v-align-self-stretch v-flex"
+    >
+      self
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Flex examples Flex column reverse should render correctly 1`] = `
+<div>
+  <div
+    class="v-flex v-flex-col-reverse v-gap-4"
+  >
+    <span>
+      first
+    </span>
+    <span>
+      second
+    </span>
+    <span>
+      third
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Flex examples Flex column should render correctly 1`] = `
+<div>
+  <div
+    class="v-flex v-flex-col v-gap-4"
+  >
+    <span>
+      first
+    </span>
+    <span>
+      second
+    </span>
+    <span>
+      third
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Flex examples Flex default should render correctly 1`] = `
+<div>
+  <div
+    class="v-flex v-gap-4"
+  >
+    This is a flex container
+  </div>
+</div>
+`;
+
+exports[`Flex examples Flex grow 0 should render correctly 1`] = `
+<div>
+  <div
+    class="v-surface v-flex v-flex-row v-flex-wrap v-gap-4"
+    style="--v-surface-border-size: 2px;"
+  >
+    <span
+      class="v-flex-grow-0"
+    >
+      first
+    </span>
+    <span
+      class="v-flex-grow"
+    >
+      second
+    </span>
+    <span
+      class="v-flex-grow"
+    >
+      third
+    </span>
+    <span
+      class="v-flex-grow"
+    >
+      fourth
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Flex examples Flex grow should render correctly 1`] = `
+<div>
+  <div
+    class="v-surface v-flex v-flex-row v-flex-wrap v-gap-4"
+    style="--v-surface-border-size: 2px;"
+  >
+    <span
+      class="v-flex-grow"
+    >
+      first
+    </span>
+    <span>
+      second
+    </span>
+    <span>
+      third
+    </span>
+    <span>
+      fourth
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Flex examples Flex justify content around should render correctly 1`] = `
+<div>
+  <div
+    class="v-surface v-flex v-flex-row v-flex-wrap v-gap-4 v-justify-content-around"
+    style="--v-surface-border-size: 2px;"
+  >
+    <span>
+      first
+    </span>
+    <span>
+      second
+    </span>
+    <span>
+      third
+    </span>
+    <span>
+      fourth
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Flex examples Flex justify content center should render correctly 1`] = `
+<div>
+  <div
+    class="v-surface v-flex v-flex-row v-flex-wrap v-gap-4 v-justify-content-center"
+    style="--v-surface-border-size: 2px;"
+  >
+    <span>
+      first
+    </span>
+    <span>
+      second
+    </span>
+    <span>
+      third
+    </span>
+    <span>
+      fourth
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Flex examples Flex justify content end should render correctly 1`] = `
+<div>
+  <div
+    class="v-surface v-flex v-flex-row v-flex-wrap v-gap-4 v-justify-content-end"
+    style="--v-surface-border-size: 2px;"
+  >
+    <span>
+      first
+    </span>
+    <span>
+      second
+    </span>
+    <span>
+      third
+    </span>
+    <span>
+      fourth
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Flex examples Flex justify content evenly should render correctly 1`] = `
+<div>
+  <div
+    class="v-surface v-flex v-flex-row v-flex-wrap v-gap-4 v-justify-content-evenly"
+    style="--v-surface-border-size: 2px;"
+  >
+    <span>
+      first
+    </span>
+    <span>
+      second
+    </span>
+    <span>
+      third
+    </span>
+    <span>
+      fourth
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Flex examples Flex justify content space between should render correctly 1`] = `
+<div>
+  <div
+    class="v-surface v-flex v-flex-row v-flex-wrap v-gap-4 v-justify-content-between"
+    style="--v-surface-border-size: 2px;"
+  >
+    <span>
+      first
+    </span>
+    <span>
+      second
+    </span>
+    <span>
+      third
+    </span>
+    <span>
+      fourth
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Flex examples Flex justify content start should render correctly 1`] = `
+<div>
+  <div
+    class="v-surface v-flex v-flex-row v-flex-wrap v-gap-4 v-justify-content-start"
+    style="--v-surface-border-size: 2px;"
+  >
+    <span>
+      first
+    </span>
+    <span>
+      second
+    </span>
+    <span>
+      third
+    </span>
+    <span>
+      fourth
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Flex examples Flex no wrap should render correctly 1`] = `
+<div>
+  <div
+    class="v-surface v-flex v-flex-nowrap v-flex-row v-gap-4"
+    style="--v-surface-border-size: 2px; --v-surface-inline-size: 150px;"
+  >
+    <span>
+      first
+    </span>
+    <span>
+      second
+    </span>
+    <span>
+      third
+    </span>
+    <span>
+      fourth
+    </span>
+    <span>
+      fifth
+    </span>
+    <span>
+      sixth
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Flex examples Flex row reverse should render correctly 1`] = `
+<div>
+  <div
+    class="v-flex v-flex-row-reverse v-gap-4"
+  >
+    <span>
+      first
+    </span>
+    <span>
+      second
+    </span>
+    <span>
+      third
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Flex examples Flex row should render correctly 1`] = `
+<div>
+  <div
+    class="v-flex v-flex-row v-gap-4"
+  >
+    <span>
+      first
+    </span>
+    <span>
+      second
+    </span>
+    <span>
+      third
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Flex examples Flex shrink 0 should render correctly 1`] = `
+<div>
+  <div
+    class="v-surface v-flex v-flex-row v-flex-wrap v-gap-4"
+    style="--v-surface-border-size: 2px;"
+  >
+    <span
+      class="v-flex-shrink-0"
+    >
+      first
+    </span>
+    <span
+      class="v-flex-shrink"
+    >
+      second
+    </span>
+    <span
+      class="v-flex-shrink"
+    >
+      third
+    </span>
+    <span
+      class="v-flex-shrink"
+    >
+      fourth
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Flex examples Flex shrink should render correctly 1`] = `
+<div>
+  <div
+    class="v-surface v-flex v-flex-row v-flex-wrap v-gap-4"
+    style="--v-surface-border-size: 2px;"
+  >
+    <span
+      class="v-flex-shrink"
+    >
+      first
+    </span>
+    <span
+      class="v-flex-grow"
+    >
+      second
+    </span>
+    <span
+      class="v-flex-grow"
+    >
+      third
+    </span>
+    <span
+      class="v-flex-grow"
+    >
+      fourth
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Flex examples Flex wrap reverse should render correctly 1`] = `
+<div>
+  <div
+    class="v-surface v-flex v-flex-row v-flex-wrap-reverse v-gap-4"
+    style="--v-surface-border-size: 2px; --v-surface-inline-size: 150px;"
+  >
+    <span>
+      first
+    </span>
+    <span>
+      second
+    </span>
+    <span>
+      third
+    </span>
+    <span>
+      fourth
+    </span>
+    <span>
+      fifth
+    </span>
+    <span>
+      sixth
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Flex examples Flex wrap should render correctly 1`] = `
+<div>
+  <div
+    class="v-surface v-flex v-flex-wrap v-gap-4"
+    style="--v-surface-border-size: 2px; --v-surface-inline-size: 150px;"
+  >
+    <span>
+      first
+    </span>
+    <span>
+      second
+    </span>
+    <span>
+      third
+    </span>
+    <span>
+      fourth
+    </span>
+    <span>
+      fifth
+    </span>
+    <span>
+      sixth
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Flex examples Inline flex should render correctly 1`] = `
+<div>
+  <div
+    class="v-flex-inline v-gap-4"
+  >
+    This is an inline flex container
+  </div>
+</div>
+`;

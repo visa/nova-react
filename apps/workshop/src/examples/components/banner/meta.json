@@ -1,0 +1,218 @@
+{
+  "button-error-banner": {
+    "file": "button-error-banner.tsx",
+    "id": "button-error-banner",
+    "tags": {
+      "docs": true
+    },
+    "title": "Error banner with button",
+    "testAvg": 100
+  },
+  "button-information-banner": {
+    "file": "button-information-banner.tsx",
+    "id": "button-information-banner",
+    "tags": {
+      "docs": true
+    },
+    "title": "Informational banner with button",
+    "testAvg": 100
+  },
+  "button-success-banner": {
+    "file": "button-success-banner.tsx",
+    "id": "button-success-banner",
+    "tags": {
+      "docs": true
+    },
+    "title": "Success banner with button",
+    "testAvg": 100
+  },
+  "button-warning-banner": {
+    "file": "button-warning-banner.tsx",
+    "id": "button-warning-banner",
+    "tags": {
+      "docs": true
+    },
+    "title": "Warning banner with button",
+    "testAvg": 100
+  },
+  "default-error-banner": {
+    "file": "default-error-banner.tsx",
+    "id": "default-error-banner",
+    "tags": {
+      "docs": true
+    },
+    "title": "Default error banner",
+    "testAvg": 100
+  },
+  "default-information-banner": {
+    "file": "default-information-banner.tsx",
+    "id": "default-information-banner",
+    "tags": {
+      "docs": true
+    },
+    "title": "Default informational banner",
+    "testAvg": 100
+  },
+  "default-success-banner": {
+    "file": "default-success-banner.tsx",
+    "id": "default-success-banner",
+    "tags": {
+      "docs": true
+    },
+    "title": "Default success banner",
+    "testAvg": 100
+  },
+  "default-warning-banner": {
+    "file": "default-warning-banner.tsx",
+    "id": "default-warning-banner",
+    "tags": {
+      "docs": true
+    },
+    "title": "Default warning banner",
+    "testAvg": 100
+  },
+  "empty-error-banner": {
+    "file": "empty-error-banner.tsx",
+    "id": "empty-error-banner",
+    "tags": {
+      "docs": true
+    },
+    "title": "Empty error banner",
+    "testAvg": 100
+  },
+  "empty-information-banner": {
+    "file": "empty-information-banner.tsx",
+    "id": "empty-information-banner",
+    "tags": {
+      "docs": true
+    },
+    "title": "Empty informational banner",
+    "testAvg": 100
+  },
+  "empty-success-banner": {
+    "file": "empty-success-banner.tsx",
+    "id": "empty-success-banner",
+    "tags": {
+      "docs": true
+    },
+    "title": "Empty success banner",
+    "testAvg": 100
+  },
+  "empty-warning-banner": {
+    "file": "empty-warning-banner.tsx",
+    "id": "empty-warning-banner",
+    "tags": {
+      "docs": true
+    },
+    "title": "Empty warning banner",
+    "testAvg": 100
+  },
+  "link-error-banner": {
+    "file": "link-error-banner.tsx",
+    "id": "link-error-banner",
+    "tags": {
+      "docs": true
+    },
+    "title": "Error banner with link",
+    "testAvg": 100
+  },
+  "link-information-banner": {
+    "file": "link-information-banner.tsx",
+    "id": "link-information-banner",
+    "tags": {
+      "docs": true
+    },
+    "title": "Informational banner with link",
+    "testAvg": 100
+  },
+  "link-success-banner": {
+    "file": "link-success-banner.tsx",
+    "id": "link-success-banner",
+    "tags": {
+      "docs": true
+    },
+    "title": "Success banner with link",
+    "testAvg": 100
+  },
+  "link-warning-banner": {
+    "file": "link-warning-banner.tsx",
+    "id": "link-warning-banner",
+    "tags": {
+      "docs": true
+    },
+    "title": "Warning banner with link",
+    "testAvg": 100
+  },
+  "persistent-error-banner": {
+    "file": "persistent-error-banner.tsx",
+    "id": "persistent-error-banner",
+    "tags": {
+      "docs": true
+    },
+    "title": "Error banner without close icon button",
+    "testAvg": 100
+  },
+  "persistent-information-banner": {
+    "file": "persistent-information-banner.tsx",
+    "id": "persistent-information-banner",
+    "tags": {
+      "docs": true
+    },
+    "title": "Informational banner without close icon button",
+    "testAvg": 100
+  },
+  "persistent-success-banner": {
+    "file": "persistent-success-banner.tsx",
+    "id": "persistent-success-banner",
+    "tags": {
+      "docs": true
+    },
+    "title": "Success banner without close icon button",
+    "testAvg": 100
+  },
+  "persistent-warning-banner": {
+    "file": "persistent-warning-banner.tsx",
+    "id": "persistent-warning-banner",
+    "tags": {
+      "docs": true
+    },
+    "title": "Warning banner without close icon button",
+    "testAvg": 100
+  },
+  "title-error-banner": {
+    "file": "title-error-banner.tsx",
+    "id": "title-error-banner",
+    "tags": {
+      "docs": true
+    },
+    "title": "Error banner with title",
+    "testAvg": 100
+  },
+  "title-information-banner": {
+    "file": "title-information-banner.tsx",
+    "id": "title-information-banner",
+    "tags": {
+      "docs": true
+    },
+    "title": "Informational banner with title",
+    "testAvg": 100
+  },
+  "title-success-banner": {
+    "file": "title-success-banner.tsx",
+    "id": "title-success-banner",
+    "tags": {
+      "docs": true
+    },
+    "title": "Success banner with title",
+    "testAvg": 100
+  },
+  "title-warning-banner": {
+    "file": "title-warning-banner.tsx",
+    "id": "title-warning-banner",
+    "tags": {
+      "docs": true
+    },
+    "title": "Warning banner with title",
+    "testAvg": 100
+  }
+}

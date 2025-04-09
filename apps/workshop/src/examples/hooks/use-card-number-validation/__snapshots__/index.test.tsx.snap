@@ -1,0 +1,160 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`usePagination example Behavior and usage should render correctly 1`] = `
+<div>
+  <div
+    class="v-flex v-flex-col v-gap-16"
+  >
+    <div
+      class="v-flex v-flex-col v-gap-4"
+    >
+      <label
+        class="v-label"
+        for="use-card-validation-example-card-number-input"
+      >
+        Visa card number
+      </label>
+      <div
+        class="v-surface v-input-container"
+      >
+        <input
+          aria-required="true"
+          autocomplete="cc-number"
+          class="v-input"
+          id="use-card-validation-example-card-number-input"
+          required=""
+          type="text"
+          value="40000000 hello world 00000000 000000"
+        />
+      </div>
+    </div>
+    <code>
+      binValid: 
+      true
+    </code>
+    <code>
+      brand: 
+      VISA
+    </code>
+    <code>
+      brandValid: 
+      true
+    </code>
+    <code>
+      cardNumberInputValue: 
+      40000000 hello world 00000000 000000
+    </code>
+    <code>
+      cardNumberValidator.brand: 
+      VISA
+    </code>
+    <code>
+      cardNumberValidator.maxLength: 
+      19
+    </code>
+    <code>
+      cleanCardNumber: 
+      4000000000000000000
+    </code>
+    <code>
+      formattedCardNumber: 
+      4000 0000 0000 0000 000
+    </code>
+    <code>
+      lastDigitValid: 
+      false
+    </code>
+    <code>
+      lengthValid: 
+      true
+    </code>
+    <code>
+      valid: 
+      false
+    </code>
+    <hr
+      class="v-divider"
+    />
+    <span
+      class="v-typography-body-2-bold"
+    >
+      Demo options:
+    </span>
+    <fieldset
+      class="v-flex v-flex-col v-gap-6"
+    >
+      <label
+        class="v-label"
+        for="use-card-validation-example-input-value-key-select"
+      >
+        Visa card number input value
+      </label>
+      <div
+        class="v-surface v-input-container"
+      >
+        <select
+          class="v-input"
+          id="use-card-validation-example-input-value-key-select"
+          name="select-default-example"
+        >
+          <option
+            value="cardNumberInputValue"
+          >
+            cardNumberInputValue
+          </option>
+          <option
+            value="cleanCardNumber"
+          >
+            cleanCardNumber
+          </option>
+          <option
+            value="formattedCardNumber"
+          >
+            formattedCardNumber
+          </option>
+        </select>
+        <div
+          class="v-input-control"
+        >
+          <svg
+            aria-hidden="true"
+            class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-down"
+            focusable="false"
+            height="16"
+            viewBox="0 0 16 16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="v-icon-primary"
+              clip-rule="evenodd"
+              d="M2.47597 4.00049L1 5.39358L8 12.0005L15 5.39358L13.524 4.00049L8 9.21431L2.47597 4.00049Z"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </div>
+      </div>
+    </fieldset>
+    <div
+      class="v-flex v-flex-wrap v-gap-10 v-justify-content-between v-m-8"
+    >
+      <label
+        class="v-label v-switch-label"
+        for="use-card-validation-example-trim-value-switch"
+      >
+        <code>
+          trimToMaxLength
+        </code>
+      </label>
+      <input
+        checked=""
+        class="v-switch"
+        id="use-card-validation-example-trim-value-switch"
+        name="use-card-validation-example-trim-value-switch"
+        role="switch"
+        type="checkbox"
+      />
+    </div>
+  </div>
+</div>
+`;

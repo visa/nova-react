@@ -1,0 +1,112 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`useTabs example Auto-select tabs on arrow key press should render correctly 1`] = `
+<div>
+  <ul
+    class="v-tabs v-tabs-horizontal"
+    role="tablist"
+  >
+    <li
+      class="v-tab"
+      role="none"
+    >
+      <button
+        aria-selected="true"
+        class="v-button v-button-large v-button-tertiary"
+        role="tab"
+        tabindex="0"
+      >
+        Tab 1
+      </button>
+    </li>
+    <li
+      class="v-tab"
+      role="none"
+    >
+      <button
+        aria-selected="false"
+        class="v-button v-button-large v-button-tertiary"
+        role="tab"
+        tabindex="-1"
+      >
+        Tab 2
+      </button>
+    </li>
+    <li
+      class="v-tab"
+      role="none"
+    >
+      <button
+        aria-selected="false"
+        class="v-button v-button-large v-button-tertiary"
+        role="tab"
+        tabindex="-1"
+      >
+        Tab 3
+      </button>
+    </li>
+    <li
+      class="v-tab"
+      role="none"
+    >
+      <button
+        aria-selected="false"
+        class="v-button v-button-large v-button-tertiary"
+        role="tab"
+        tabindex="-1"
+      >
+        Tab 4
+      </button>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`useTabs example Behavior and usage should render correctly 1`] = `
+<div>
+  <ul
+    class="v-tabs v-tabs-horizontal"
+    role="tablist"
+  >
+    <li
+      class="v-tab"
+      role="none"
+    >
+      <button
+        aria-selected="false"
+        class="v-button v-button-large v-button-tertiary"
+        role="tab"
+        tabindex="0"
+      >
+        Tab 1
+      </button>
+    </li>
+    <li
+      class="v-tab"
+      role="none"
+    >
+      <button
+        aria-selected="false"
+        class="v-button v-button-large v-button-tertiary"
+        role="tab"
+        tabindex="-1"
+      >
+        Tab 2
+      </button>
+    </li>
+    <li
+      class="v-tab"
+      role="none"
+    >
+      <button
+        aria-selected="false"
+        class="v-button v-button-large v-button-tertiary"
+        role="tab"
+        tabindex="-1"
+      >
+        Tab 3
+      </button>
+    </li>
+  </ul>
+</div>
+`;

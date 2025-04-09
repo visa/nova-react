@@ -1,0 +1,8 @@
+{
+  "use-pagination-example": {
+    "file": "use-pagination-example.tsx",
+    "id": "use-pagination-example",
+    "title": "Behavior and usage",
+    "testAvg": 100
+  }
+}

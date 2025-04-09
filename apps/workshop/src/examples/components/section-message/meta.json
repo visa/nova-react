@@ -1,0 +1,254 @@
+{
+  "button-error-section-message": {
+    "file": "button-error-section-message.tsx",
+    "id": "button-error-section-message",
+    "tags": {
+      "docs": true
+    },
+    "title": "Error section message with button",
+    "testAvg": 100
+  },
+  "button-information-section-message": {
+    "file": "button-information-section-message.tsx",
+    "id": "button-information-section-message",
+    "tags": {
+      "docs": true
+    },
+    "title": "Informational section message with button",
+    "testAvg": 100
+  },
+  "button-success-section-message": {
+    "file": "button-success-section-message.tsx",
+    "id": "button-success-section-message",
+    "tags": {
+      "docs": true
+    },
+    "title": "Success section message with button",
+    "testAvg": 100
+  },
+  "button-warning-section-message": {
+    "file": "button-warning-section-message.tsx",
+    "id": "button-warning-section-message",
+    "tags": {
+      "docs": true
+    },
+    "title": "Warning section message with button",
+    "testAvg": 100
+  },
+  "default-error-section-message": {
+    "file": "default-error-section-message.tsx",
+    "id": "default-error-section-message",
+    "tags": {
+      "docs": true
+    },
+    "title": "Default error section message",
+    "testAvg": 100
+  },
+  "default-information-section-message": {
+    "file": "default-information-section-message.tsx",
+    "id": "default-information-section-message",
+    "tags": {
+      "docs": true
+    },
+    "title": "Default informational section message",
+    "testAvg": 100
+  },
+  "default-success-section-message": {
+    "file": "default-success-section-message.tsx",
+    "id": "default-success-section-message",
+    "tags": {
+      "docs": true
+    },
+    "title": "Default success section message",
+    "testAvg": 100
+  },
+  "default-warning-section-message": {
+    "file": "default-warning-section-message.tsx",
+    "id": "default-warning-section-message",
+    "tags": {
+      "docs": true
+    },
+    "title": "Default warning section message",
+    "testAvg": 100
+  },
+  "empty-error-section-message": {
+    "file": "empty-error-section-message.tsx",
+    "id": "empty-error-section-message",
+    "tags": {
+      "docs": true
+    },
+    "title": "Empty error section message",
+    "testAvg": 100
+  },
+  "empty-information-section-message": {
+    "file": "empty-information-section-message.tsx",
+    "id": "empty-information-section-message",
+    "tags": {
+      "docs": true
+    },
+    "title": "Empty informational section message",
+    "testAvg": 100
+  },
+  "empty-success-section-message": {
+    "file": "empty-success-section-message.tsx",
+    "id": "empty-success-section-message",
+    "tags": {
+      "docs": true
+    },
+    "title": "Empty success section message",
+    "testAvg": 100
+  },
+  "empty-warning-section-message": {
+    "file": "empty-warning-section-message.tsx",
+    "id": "empty-warning-section-message",
+    "tags": {
+      "docs": true
+    },
+    "title": "Empty warning section message",
+    "testAvg": 100
+  },
+  "link-error-section-message": {
+    "file": "link-error-section-message.tsx",
+    "id": "link-error-section-message",
+    "tags": {
+      "docs": true
+    },
+    "title": "Error section message with link",
+    "testAvg": 100
+  },
+  "link-information-section-message": {
+    "file": "link-information-section-message.tsx",
+    "tags": {
+      "docs": true
+    },
+    "title": "Informational section message with link",
+    "id": "link-information-section-message",
+    "testAvg": 100
+  },
+  "link-success-section-message": {
+    "file": "link-success-section-message.tsx",
+    "id": "link-success-section-message",
+    "tags": {
+      "docs": true
+    },
+    "title": "Success section message with link",
+    "testAvg": 100
+  },
+  "link-warning-section-message": {
+    "file": "link-warning-section-message.tsx",
+    "id": "link-warning-section-message",
+    "tags": {
+      "docs": true
+    },
+    "title": "Warning section message with link",
+    "testAvg": 100
+  },
+  "persistent-error-section-message": {
+    "file": "persistent-error-section-message.tsx",
+    "id": "persistent-error-section-message",
+    "tags": {
+      "docs": true
+    },
+    "title": "Error section message without close icon button",
+    "testAvg": 100
+  },
+  "persistent-information-section-message": {
+    "file": "persistent-information-section-message.tsx",
+    "id": "persistent-information-section-message",
+    "tags": {
+      "docs": true
+    },
+    "title": "Informational section message without close icon button",
+    "testAvg": 100
+  },
+  "persistent-success-section-message": {
+    "file": "persistent-success-section-message.tsx",
+    "id": "persistent-success-section-message",
+    "tags": {
+      "docs": true
+    },
+    "title": "Success section message without close icon button",
+    "testAvg": 100
+  },
+  "persistent-warning-section-message": {
+    "file": "persistent-warning-section-message.tsx",
+    "id": "persistent-warning-section-message",
+    "tags": {
+      "docs": true
+    },
+    "title": "Warning section message without close icon button",
+    "testAvg": 100
+  },
+  "title-error-section-message": {
+    "file": "title-error-section-message.tsx",
+    "id": "title-error-section-message",
+    "tags": {
+      "docs": true
+    },
+    "title": "Error section message with title",
+    "testAvg": 100
+  },
+  "title-information-section-message": {
+    "file": "title-information-section-message.tsx",
+    "id": "title-information-section-message",
+    "tags": {
+      "docs": true
+    },
+    "title": "Informational section message with title",
+    "testAvg": 100
+  },
+  "title-success-section-message": {
+    "file": "title-success-section-message.tsx",
+    "id": "title-success-section-message",
+    "tags": {
+      "docs": true
+    },
+    "title": "Success section message with title",
+    "testAvg": 100
+  },
+  "title-warning-section-message": {
+    "file": "title-warning-section-message.tsx",
+    "id": "title-warning-section-message",
+    "tags": {
+      "docs": true
+    },
+    "title": "Warning section message with title",
+    "testAvg": 100
+  },
+  "button-subtle-section-message": {
+    "title": "Subtle section message with button",
+    "file": "button-subtle-section-message.tsx",
+    "id": "button-subtle-section-message",
+    "testAvg": 100
+  },
+  "default-subtle-section-message": {
+    "title": "Default subtle section message",
+    "file": "default-subtle-section-message.tsx",
+    "id": "default-subtle-section-message",
+    "testAvg": 100
+  },
+  "empty-subtle-section-message": {
+    "title": "Empty subtle section message",
+    "file": "empty-subtle-section-message.tsx",
+    "id": "empty-subtle-section-message",
+    "testAvg": 100
+  },
+  "link-subtle-section-message": {
+    "title": "Subtle section message with link",
+    "file": "link-subtle-section-message.tsx",
+    "id": "link-subtle-section-message",
+    "testAvg": 100
+  },
+  "persistent-subtle-section-message": {
+    "title": "Subtle section message without close icon button",
+    "file": "persistent-subtle-section-message.tsx",
+    "id": "persistent-subtle-section-message",
+    "testAvg": 100
+  },
+  "title-subtle-section-message": {
+    "title": "Subtle section message with title",
+    "file": "title-subtle-section-message.tsx",
+    "id": "title-subtle-section-message",
+    "testAvg": 100
+  }
+}

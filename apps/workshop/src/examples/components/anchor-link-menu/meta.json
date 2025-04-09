@@ -1,0 +1,29 @@
+{
+  "default-anchor-link-menu": {
+    "file": "default-anchor-link-menu.tsx",
+    "id": "default-anchor-link-menu",
+    "title": "Default anchor link menu",
+    "testAvg": 100
+  },
+  "nested-anchor-link-menu": {
+    "file": "nested-anchor-link-menu.tsx",
+    "id": "nested-anchor-link-menu",
+    "title": "Anchor link menu with nested items",
+    "testAvg": 100
+  },
+  "direction-rtl-anchor-link-menu": {
+    "file": "direction-rtl-anchor-link-menu.tsx",
+    "id": "direction-rtl-anchor-link-menu",
+    "title": "Right to left anchor link menu",
+    "testAvg": 100
+  },
+  "no-title-anchor-link-menu": {
+    "file": "no-title-anchor-link-menu.tsx",
+    "id": "no-title-anchor-link-menu",
+    "title": "Anchor link menu without section title",
+    "testAvg": 100
+  },
+  "meta": {
+    "designReviewDate": "2024-05-10"
+  }
+}

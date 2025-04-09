@@ -1,0 +1,14 @@
+{
+  "auto-select-tabs": {
+    "file": "auto-select-tabs.tsx",
+    "id": "auto-select-tabs",
+    "title": "Auto-select tabs on arrow key press",
+    "testAvg": 100
+  },
+  "use-tabs-example": {
+    "file": "use-tabs-example.tsx",
+    "id": "use-tabs-example",
+    "title": "Behavior and usage",
+    "testAvg": 100
+  }
+}

@@ -1,0 +1,179 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`useWizard example Behavior and usage should render correctly 1`] = `
+<div>
+  <div
+    class="v-flex v-flex-col v-gap-12"
+  >
+    <ol
+      class="v-wizard"
+    >
+      <li
+        class="v-wizard-step"
+      >
+        <button
+          class="v-button v-button-tertiary v-typography-label-large-active v-typography-color-default v-gap-8"
+        >
+          <span
+            class="v-badge v-badge-active v-badge-icon v-badge-subtle"
+          >
+            1
+          </span>
+          Step label 1
+          <svg
+            aria-hidden="true"
+            class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-right v-typography-color-subtle"
+            focusable="false"
+            height="16"
+            viewBox="0 0 16 16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="v-icon-primary"
+              clip-rule="evenodd"
+              d="M5.39309 1.00049L12 8.00049L5.39309 15.0005L4 13.5245L9.21383 8.00049L4 2.47646L5.39309 1.00049Z"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </button>
+      </li>
+      <li
+        class="v-wizard-step"
+      >
+        <span
+          class="v-badge v-badge-icon v-badge-subtle v-badge-clear"
+        >
+          2
+        </span>
+        Step label 2
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-right v-typography-color-subtle"
+          focusable="false"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M5.39309 1.00049L12 8.00049L5.39309 15.0005L4 13.5245L9.21383 8.00049L4 2.47646L5.39309 1.00049Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </li>
+      <li
+        class="v-wizard-step"
+      >
+        <span
+          class="v-badge v-badge-icon v-badge-subtle v-badge-clear"
+        >
+          3
+        </span>
+        Step label 3
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-right v-typography-color-subtle"
+          focusable="false"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M5.39309 1.00049L12 8.00049L5.39309 15.0005L4 13.5245L9.21383 8.00049L4 2.47646L5.39309 1.00049Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </li>
+      <li
+        class="v-wizard-step"
+      >
+        <span
+          class="v-badge v-badge-icon v-badge-subtle v-badge-clear"
+        >
+          4
+        </span>
+        Step label 4
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-right v-typography-color-subtle"
+          focusable="false"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M5.39309 1.00049L12 8.00049L5.39309 15.0005L4 13.5245L9.21383 8.00049L4 2.47646L5.39309 1.00049Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </li>
+      <li
+        class="v-wizard-step"
+      >
+        <span
+          class="v-badge v-badge-icon v-badge-subtle v-badge-clear"
+        >
+          5
+        </span>
+        Step label 5
+      </li>
+    </ol>
+    <div
+      class="v-flex v-flex-wrap v-gap-24 v-justify-content-between"
+    >
+      <button
+        class="v-button"
+      >
+        Previous step
+      </button>
+      <div
+        class="v-flex v-flex-wrap v-gap-12"
+      >
+        <button
+          class="v-button v-button-secondary"
+        >
+          Set step successful
+        </button>
+        <button
+          class="v-button v-button-secondary"
+        >
+          Set step error
+        </button>
+        <button
+          class="v-button v-button-secondary"
+        >
+          Reset current step
+        </button>
+      </div>
+      <button
+        class="v-button"
+      >
+        Next step
+      </button>
+    </div>
+    <div
+      class="v-flex v-flex-wrap v-gap-16 v-justify-content-center"
+    >
+      <button
+        class="v-button v-button-destructive"
+      >
+        Reset wizard
+      </button>
+      <button
+        class="v-button v-button-secondary v-button-destructive"
+      >
+        Reset to step 2
+      </button>
+    </div>
+  </div>
+</div>
+`;

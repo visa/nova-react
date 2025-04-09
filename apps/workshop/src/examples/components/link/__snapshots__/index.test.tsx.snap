@@ -1,0 +1,301 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Link examples Alternate link with trailing icon should render correctly 1`] = `
+<div>
+  <a
+    class="v-link v-alternate v-link-no-underline"
+    href="./link"
+  >
+    Destination label
+    <svg
+      aria-hidden="true"
+      class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-right"
+      focusable="false"
+      height="16"
+      viewBox="0 0 16 16"
+      width="16"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        class="v-icon-primary"
+        clip-rule="evenodd"
+        d="M5.39309 1.00049L12 8.00049L5.39309 15.0005L4 13.5245L9.21383 8.00049L4 2.47646L5.39309 1.00049Z"
+        fill-rule="evenodd"
+      />
+    </svg>
+  </a>
+</div>
+`;
+
+exports[`Link examples Default link should render correctly 1`] = `
+<div>
+  <a
+    class="v-link"
+    href="./link"
+  >
+    Destination label
+  </a>
+</div>
+`;
+
+exports[`Link examples Disabled link should render correctly 1`] = `
+<div>
+  <a
+    aria-disabled="true"
+    class="v-link"
+    role="link"
+  >
+    Destination label
+  </a>
+</div>
+`;
+
+exports[`Link examples Inline link should render correctly 1`] = `
+<div>
+  <p>
+    This is a sentence with an inline 
+    <a
+      class="v-link"
+      href="./link"
+    >
+      destination label
+    </a>
+    .
+  </p>
+</div>
+`;
+
+exports[`Link examples Inline link with trailing icon should render correctly 1`] = `
+<div>
+  <p>
+    This is a sentence with an inline
+     
+    <a
+      aria-label="destination label (opens in a new tab)"
+      class="v-link v-link-no-underline"
+      href="./link"
+    >
+      destination label
+      <svg
+        aria-hidden="true"
+        class="v-icon v-icon-visa v-icon-tiny v-icon-maximize"
+        focusable="false"
+        height="16"
+        viewBox="0 0 16 16"
+        width="16"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          class="v-icon-secondary"
+          d="M14 6H16L16 0H10V2L12.5393 2L6 8.54302L7.45688 9.99991L14 3.46442V6Z"
+        />
+        <path
+          class="v-icon-primary"
+          clip-rule="evenodd"
+          d="M0 1H8V3H2V14H13V8H15V16H0V1Z"
+          fill-rule="evenodd"
+        />
+        <defs>
+          <clippath>
+            <rect
+              height="16"
+              width="16"
+            />
+          </clippath>
+        </defs>
+      </svg>
+    </a>
+  </p>
+</div>
+`;
+
+exports[`Link examples Link coded as a button should render correctly 1`] = `
+<div>
+  <button
+    class="v-link v-link-no-underline"
+  >
+    Print
+    <svg
+      aria-hidden="true"
+      class="v-icon v-icon-visa v-icon-tiny v-icon-device-printer"
+      focusable="false"
+      height="16"
+      viewBox="0 0 16 16"
+      width="16"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        class="v-icon-secondary"
+        clip-rule="evenodd"
+        d="M10 10H6V14H10V10ZM4 8V16H12V8H4Z"
+        fill-rule="evenodd"
+      />
+      <path
+        class="v-icon-primary"
+        clip-rule="evenodd"
+        d="M4 2H12V4H4V2ZM2 4.18359V0H14V4.18359H16V12.1836H14V6.18359H2V12.1836H0V4.18359H2Z"
+        fill-rule="evenodd"
+      />
+      <defs>
+        <clippath>
+          <rect
+            height="16"
+            width="16"
+          />
+        </clippath>
+      </defs>
+    </svg>
+  </button>
+</div>
+`;
+
+exports[`Link examples Link that opens in a new tab should render correctly 1`] = `
+<div>
+  <a
+    aria-label="Destination label (opens in a new tab)"
+    class="v-link v-link-no-underline"
+    href="./link"
+    rel="noopener noreferrer"
+    target="_blank"
+  >
+    Destination label
+    <svg
+      aria-hidden="true"
+      class="v-icon v-icon-visa v-icon-tiny v-icon-maximize"
+      focusable="false"
+      height="16"
+      viewBox="0 0 16 16"
+      width="16"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        class="v-icon-secondary"
+        d="M14 6H16L16 0H10V2L12.5393 2L6 8.54302L7.45688 9.99991L14 3.46442V6Z"
+      />
+      <path
+        class="v-icon-primary"
+        clip-rule="evenodd"
+        d="M0 1H8V3H2V14H13V8H15V16H0V1Z"
+        fill-rule="evenodd"
+      />
+      <defs>
+        <clippath>
+          <rect
+            height="16"
+            width="16"
+          />
+        </clippath>
+      </defs>
+    </svg>
+  </a>
+</div>
+`;
+
+exports[`Link examples Link uses React Router DOM should render correctly 1`] = `
+<div>
+  This 
+  <a
+    class="v-link"
+    href="/"
+  >
+    link
+  </a>
+   goes to this current page.
+</div>
+`;
+
+exports[`Link examples Link with custom typography should render correctly 1`] = `
+<div>
+  <a
+    class="v-link v-link-no-underline"
+    href="./link"
+  >
+    <p
+      class="v-typography-headline-3"
+    >
+      Destination label (headline 3) 
+      <svg
+        aria-hidden="true"
+        class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-right"
+        focusable="false"
+        height="16"
+        viewBox="0 0 16 16"
+        width="16"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          class="v-icon-primary"
+          clip-rule="evenodd"
+          d="M5.39309 1.00049L12 8.00049L5.39309 15.0005L4 13.5245L9.21383 8.00049L4 2.47646L5.39309 1.00049Z"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </p>
+  </a>
+</div>
+`;
+
+exports[`Link examples Link with leading icon should render correctly 1`] = `
+<div>
+  <a
+    class="v-link v-link-no-underline"
+    href="./link"
+  >
+    <svg
+      aria-hidden="true"
+      class="v-icon v-icon-visa v-icon-tiny v-icon-arrow-back"
+      focusable="false"
+      height="16"
+      viewBox="0 0 16 16"
+      width="16"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <rect
+        height="1"
+        transform="translate(7 7.00024)"
+        width="1"
+      />
+      <path
+        class="v-icon-primary"
+        d="M3.91838 7.00159L9.21132 1.70865L7.7971 0.294434L0.0899963 8.00154L7.7971 15.7086L9.21132 14.2944L3.91847 9.00159H16.0042V7.00159H3.91838Z"
+      />
+      <defs>
+        <clippath>
+          <rect
+            height="16"
+            width="16"
+          />
+        </clippath>
+      </defs>
+    </svg>
+    Destination label
+  </a>
+</div>
+`;
+
+exports[`Link examples Link with trailing icon should render correctly 1`] = `
+<div>
+  <a
+    class="v-link v-link-no-underline"
+    href="./link"
+  >
+    Destination label
+    <svg
+      aria-hidden="true"
+      class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-right"
+      focusable="false"
+      height="16"
+      viewBox="0 0 16 16"
+      width="16"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        class="v-icon-primary"
+        clip-rule="evenodd"
+        d="M5.39309 1.00049L12 8.00049L5.39309 15.0005L4 13.5245L9.21383 8.00049L4 2.47646L5.39309 1.00049Z"
+        fill-rule="evenodd"
+      />
+    </svg>
+  </a>
+</div>
+`;

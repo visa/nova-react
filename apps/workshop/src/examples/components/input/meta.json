@@ -1,0 +1,200 @@
+{
+  "action-button-input": {
+    "file": "action-button-input.tsx",
+    "id": "action-button-input",
+    "tags": {
+      "docs": true
+    },
+    "title": "Input with action button",
+    "testAvg": 100
+  },
+  "clear-button-input": {
+    "file": "clear-button-input.tsx",
+    "id": "clear-button-input",
+    "tags": {
+      "docs": true
+    },
+    "title": "Input with clear text button",
+    "testAvg": 100
+  },
+  "custom-form-input": {
+    "file": "custom-form-input.tsx",
+    "id": "custom-form-input",
+    "tags": {
+      "custom": true
+    },
+    "title": "Input with form control",
+    "testAvg": 100
+  },
+  "custom-inline-label-input": {
+    "file": "custom-inline-label-input.tsx",
+    "id": "custom-inline-label-input",
+    "tags": {
+      "custom": true
+    },
+    "title": "Input with inline label and message",
+    "testAvg": 100
+  },
+  "default-input": {
+    "file": "default-input.tsx",
+    "id": "default-input",
+    "tags": {
+      "docs": true
+    },
+    "title": "Default input",
+    "testAvg": 100
+  },
+  "disabled-input": {
+    "file": "disabled-input.tsx",
+    "id": "disabled-input",
+    "tags": {
+      "docs": true
+    },
+    "title": "Disabled input",
+    "testAvg": 100
+  },
+  "error-input": {
+    "file": "error-input.tsx",
+    "id": "error-input",
+    "tags": {
+      "docs": true
+    },
+    "title": "Input with error",
+    "testAvg": 100
+  },
+  "fixed-height-textarea": {
+    "file": "fixed-height-textarea.tsx",
+    "id": "fixed-height-textarea",
+    "tags": {
+      "docs": true
+    },
+    "title": "Textarea with fixed height",
+    "testAvg": 100
+  },
+  "initial-value-input": {
+    "file": "initial-value-input.tsx",
+    "id": "initial-value-input",
+    "tags": {
+      "docs": true
+    },
+    "title": "Input with initial value",
+    "testAvg": 100
+  },
+  "inline-message-input": {
+    "file": "inline-message-input.tsx",
+    "id": "inline-message-input",
+    "tags": {
+      "docs": true
+    },
+    "title": "Input with inline message",
+    "testAvg": 100
+  },
+  "leading-icon-input": {
+    "file": "leading-icon-input.tsx",
+    "id": "leading-icon-input",
+    "tags": {
+      "docs": true
+    },
+    "title": "Input with leading icon",
+    "testAvg": 100
+  },
+  "mask-button-input": {
+    "file": "mask-button-input.tsx",
+    "id": "mask-button-input",
+    "tags": {
+      "docs": true
+    },
+    "title": "Input with masked field",
+    "testAvg": 100
+  },
+  "native-no-resize-textarea": {
+    "file": "native-no-resize-textarea.tsx",
+    "id": "native-no-resize-textarea",
+    "title": "Native textarea without resize property",
+    "testAvg": 100
+  },
+  "native-resize-textarea": {
+    "file": "native-resize-textarea.tsx",
+    "id": "native-resize-textarea",
+    "title": "Native textarea with resize property",
+    "testAvg": 100
+  },
+  "native-row-textarea": {
+    "file": "native-row-textarea.tsx",
+    "id": "native-row-textarea",
+    "title": "Textarea with native rows attribute",
+    "testAvg": 100
+  },
+  "one-time-passcode-input": {
+    "file": "one-time-passcode-input.tsx",
+    "id": "one-time-passcode-input",
+    "tags": {
+      "docs": true
+    },
+    "title": "One-time passcode input",
+    "testAvg": 100
+  },
+  "prefix-input": {
+    "file": "prefix-input.tsx",
+    "id": "prefix-input",
+    "tags": {
+      "docs": true
+    },
+    "title": "Input with prefix",
+    "testAvg": 100
+  },
+  "read-only-input": {
+    "file": "read-only-input.tsx",
+    "id": "read-only-input",
+    "tags": {
+      "docs": true
+    },
+    "title": "Read-only input",
+    "testAvg": 100
+  },
+  "resize-textarea": {
+    "file": "resize-textarea.tsx",
+    "id": "resize-textarea",
+    "tags": {
+      "docs": true
+    },
+    "title": "Textarea with fixed height and resize property",
+    "testAvg": 100
+  },
+  "suffix-input": {
+    "file": "suffix-input.tsx",
+    "id": "suffix-input",
+    "tags": {
+      "docs": true
+    },
+    "title": "Input with suffix",
+    "testAvg": 100
+  },
+  "text-count-textarea": {
+    "file": "text-count-textarea.tsx",
+    "id": "text-count-textarea",
+    "tags": {
+      "docs": true
+    },
+    "title": "Textarea with fixed height and character counter",
+    "testAvg": 100
+  },
+  "address-input": {
+    "file": "address-input.tsx",
+    "id": "address-input",
+    "title": "Address (US Region)",
+    "testAvg": 100
+  },
+  "cvv-input": {
+    "file": "cvv-input.tsx",
+    "id": "cvv-input",
+    "tags": {
+      "custom": true
+    },
+    "title": "CVV input",
+    "testAvg": 100
+  },
+  "meta": {
+    "designReviewDate": "2024-05-23"
+  }
+}

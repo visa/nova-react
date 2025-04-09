@@ -1,0 +1,62 @@
+{
+  "default-toggles": {
+    "file": "default-toggles.tsx",
+    "id": "default-toggles",
+    "title": "Single-select toggles",
+    "testAvg": 100
+  },
+  "disabled-toggles": {
+    "file": "disabled-toggles.tsx",
+    "title": "Disabled toggles",
+    "id": "disabled-toggles",
+    "testAvg": 100
+  },
+  "disabled-and-active-toggles": {
+    "file": "disabled-and-active-toggles.tsx",
+    "title": "Disabled and active toggles",
+    "id": "disabled-and-active-toggles",
+    "testAvg": 100
+  },
+  "icon-only-toggles": {
+    "file": "icon-only-toggles.tsx",
+    "id": "icon-only-toggles",
+    "title": "Single-select toggles with icon only",
+    "testAvg": 100
+  },
+  "leading-icon-toggles": {
+    "file": "leading-icon-toggles.tsx",
+    "id": "leading-icon-toggles",
+    "title": "Single-select toggles with leading icon",
+    "testAvg": 100
+  },
+  "multi-select-toggles": {
+    "file": "multi-select-toggles.tsx",
+    "id": "multi-select-toggles",
+    "title": "Multi-select toggles",
+    "testAvg": 100
+  },
+  "multi-select-checkbox-toggles": {
+    "file": "multi-select-checkbox-toggles.tsx",
+    "id": "multi-select-checkbox-toggles",
+    "title": "Multi-select toggles using checkboxes",
+    "testAvg": 100
+  },
+  "single-select-radio-toggles": {
+    "file": "single-select-radio-toggles.tsx",
+    "id": "single-select-radio-toggles",
+    "title": "Single-select toggles using radio buttons",
+    "testAvg": 100
+  },
+  "standalone-multi-select-toggle": {
+    "file": "standalone-multi-select-toggle.tsx",
+    "id": "standalone-multi-select-toggle",
+    "title": "Standalone multi-select toggle",
+    "testAvg": 100
+  },
+  "trailing-icon-toggles": {
+    "file": "trailing-icon-toggles.tsx",
+    "id": "trailing-icon-toggles",
+    "title": "Single-select toggles with trailing icon",
+    "testAvg": 100
+  }
+}

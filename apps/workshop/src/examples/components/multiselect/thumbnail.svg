@@ -1,0 +1,23 @@
+<svg width="300" height="140" viewBox="0 0 300 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect width="300" height="140" fill="var(--palette-default-surface-2, #F0F0F0)" />
+    <rect x="50.9139" y="59.5914" width="198.172" height="30.9148" rx="4.75613" fill="var(--palette-default-surface-1, white)" />
+    <rect x="50.5175" y="59.195" width="198.965" height="31.7075" rx="5.15247" stroke="var(--palette-default-text, black)" stroke-opacity="0.1"
+        stroke-width="0.792688" />
+    <g clip-path="url(#clip0_1_1952)">
+        <path fill-rule="evenodd" clip-rule="evenodd"
+            d="M228.061 72.2744L226.891 73.3787L232.44 78.6159L237.988 73.3787L236.818 72.2744L232.44 76.4074L228.061 72.2744Z"
+            fill="var(--palette-default-active, #1434CB)" />
+    </g>
+    <rect x="51.7067" y="48.4938" width="82" height="5" rx="2.37806" fill="var(--palette-default-text, black)" fill-opacity="0.5" />
+    <rect x="54" y="62.5" width="54" height="25" rx="4" fill="var(--palette-default-surface-1, white)" />
+    <rect x="54.5" y="63" width="53" height="24" rx="3.5" stroke="var(--palette-default-text, black)" stroke-opacity="0.1" />
+    <rect x="62" y="73" width="38" height="4" rx="2" fill="#D9D9D9" />
+    <rect x="112" y="62.5" width="54" height="25" rx="4" fill="var(--palette-default-surface-1, white)" />
+    <rect x="112.5" y="63" width="53" height="24" rx="3.5" stroke="var(--palette-default-text, black)" stroke-opacity="0.1" />
+    <rect x="120" y="73" width="38" height="4" rx="2" fill="#D9D9D9" />
+    <defs>
+        <clipPath id="clip0_1_1952">
+            <rect width="12.683" height="12.683" fill="var(--palette-default-surface-1, white)" transform="translate(226.098 69.1037)" />
+        </clipPath>
+    </defs>
+</svg>

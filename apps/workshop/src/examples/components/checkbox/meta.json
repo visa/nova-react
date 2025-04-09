@@ -1,0 +1,149 @@
+{
+  "checked-checkbox": {
+    "file": "checked-checkbox.tsx",
+    "id": "checked-checkbox",
+    "title": "Checked checkbox",
+    "testAvg": 100
+  },
+  "default-checkbox": {
+    "file": "default-checkbox.tsx",
+    "id": "default-checkbox",
+    "tags": {
+      "docs": true
+    },
+    "title": "Checkbox with label",
+    "testAvg": 100
+  },
+  "disabled-checked-checkbox": {
+    "file": "disabled-checked-checkbox.tsx",
+    "id": "disabled-checked-checkbox",
+    "tags": {
+      "docs": true
+    },
+    "title": "Disabled checked checkbox",
+    "testAvg": 100
+  },
+  "disabled-panel-checkbox": {
+    "file": "disabled-panel-checkbox.tsx",
+    "id": "disabled-panel-checkbox",
+    "tags": {
+      "docs": true
+    },
+    "title": "Disabled checkbox panel",
+    "testAvg": 100
+  },
+  "disabled-unchecked-checkbox": {
+    "file": "disabled-unchecked-checkbox.tsx",
+    "id": "disabled-unchecked-checkbox",
+    "tags": {
+      "docs": true
+    },
+    "title": "Disabled checkbox",
+    "testAvg": 100
+  },
+  "error-group-panel-checkbox": {
+    "file": "error-group-panel-checkbox.tsx",
+    "id": "error-group-panel-checkbox",
+    "tags": {
+      "docs": true
+    },
+    "title": "Checkbox panel group with error",
+    "testAvg": 100
+  },
+  "error-indeterminate-group-checkbox": {
+    "file": "error-indeterminate-group-checkbox.tsx",
+    "id": "error-indeterminate-group-checkbox",
+    "tags": {
+      "docs": true
+    },
+    "title": "Error indeterminate checkbox group",
+    "testAvg": 100
+  },
+  "group-checkbox": {
+    "file": "group-checkbox.tsx",
+    "id": "group-checkbox",
+    "tags": {
+      "docs": true
+    },
+    "title": "Checkbox group",
+    "testAvg": 100
+  },
+  "group-horizontal-checkbox": {
+    "file": "group-horizontal-checkbox.tsx",
+    "id": "group-horizontal-checkbox",
+    "title": "Horizontal checkbox group",
+    "testAvg": 100
+  },
+  "group-panel-checkbox": {
+    "file": "group-panel-checkbox.tsx",
+    "id": "group-panel-checkbox",
+    "tags": {
+      "docs": true
+    },
+    "title": "Checkbox panel group",
+    "testAvg": 100
+  },
+  "group-with-validation-checkbox": {
+    "file": "group-with-validation-checkbox.tsx",
+    "id": "group-with-validation-checkbox",
+    "tags": {
+      "docs": true
+    },
+    "title": "Checkbox group with error",
+    "testAvg": 100
+  },
+  "indeterminate-group-checkbox": {
+    "file": "indeterminate-group-checkbox.tsx",
+    "id": "indeterminate-group-checkbox",
+    "tags": {
+      "docs": true
+    },
+    "title": "Indeterminate checkbox group",
+    "testAvg": 100
+  },
+  "inline-message-checkbox": {
+    "file": "inline-message-checkbox.tsx",
+    "id": "inline-message-checkbox",
+    "tags": {
+      "docs": true
+    },
+    "title": "Checkbox with description",
+    "testAvg": 100
+  },
+  "standalone-checkbox": {
+    "file": "standalone-checkbox.tsx",
+    "id": "standalone-checkbox",
+    "tags": {
+      "docs": true
+    },
+    "title": "Checkbox without visible label",
+    "testAvg": 100
+  },
+  "validation-checkbox": {
+    "file": "validation-checkbox.tsx",
+    "id": "validation-checkbox",
+    "tags": {
+      "docs": true
+    },
+    "title": "Checkbox with error",
+    "testAvg": 100
+  },
+  "with-description-panel-checkbox": {
+    "file": "with-description-panel-checkbox.tsx",
+    "id": "with-description-panel-checkbox",
+    "tags": {
+      "docs": true
+    },
+    "title": "Checkbox panel",
+    "testAvg": 100
+  },
+  "without-description-panel-checkbox": {
+    "file": "without-description-panel-checkbox.tsx",
+    "id": "without-description-panel-checkbox",
+    "tags": {
+      "docs": true
+    },
+    "title": "Checkbox panel without description",
+    "testAvg": 100
+  }
+}

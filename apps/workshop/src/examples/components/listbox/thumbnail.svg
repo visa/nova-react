@@ -1,0 +1,60 @@
+<svg width="273" height="140" viewBox="0 0 273 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g clip-path="url(#clip0_2887_84878)">
+        <rect width="272.818" height="140" fill="var(--palette-default-surface-2, #F0F0F0)" />
+        <g clip-path="url(#clip1_2887_84878)">
+            <rect x="33" y="21.5" width="206.818" height="182" rx="4" fill="var(--palette-default-surface-1, white)" />
+            <g clip-path="url(#clip2_2887_84878)">
+                <rect x="33" y="61.5" width="207" height="0.827273" fill="var(--palette-default-surface-2, #F0F0F0)" />
+                <rect x="87" y="38.5" width="45" height="8" rx="4" fill="var(--palette-default-text, black)"
+                    fill-opacity="0.2" />
+                <rect x="175" y="31.5" width="45" height="8" rx="4" fill="var(--palette-default-text, black)"
+                    fill-opacity="0.2" />
+                <rect x="175" y="45.5" width="45" height="4" rx="2" fill="var(--palette-default-text, black)"
+                    fill-opacity="0.2" />
+                <circle cx="65" cy="42.5" r="11" fill="var(--palette-default-text, black)" fill-opacity="0.5" />
+            </g>
+            <g clip-path="url(#clip3_2887_84878)">
+                <rect x="33" y="102.5" width="207" height="0.827273" fill="var(--palette-default-surface-2, #F0F0F0)" />
+                <rect x="87" y="79.5" width="45" height="8" rx="4" fill="var(--palette-default-text, black)"
+                    fill-opacity="0.2" />
+                <rect x="175" y="72.5" width="45" height="8" rx="4" fill="var(--palette-default-text, black)"
+                    fill-opacity="0.2" />
+                <rect x="175" y="86.5" width="45" height="4" rx="2" fill="var(--palette-default-text, black)"
+                    fill-opacity="0.2" />
+                <circle cx="65" cy="83.5" r="11" fill="var(--palette-default-text, black)" fill-opacity="0.5" />
+            </g>
+            <g clip-path="url(#clip4_2887_84878)">
+                <rect x="87" y="120.5" width="45" height="8" rx="4" fill="var(--palette-default-text, black)"
+                    fill-opacity="0.2" />
+                <rect x="175" y="113.5" width="45" height="8" rx="4" fill="var(--palette-default-text, black)"
+                    fill-opacity="0.2" />
+                <rect x="175" y="127.5" width="45" height="4" rx="2" fill="var(--palette-default-text, black)"
+                    fill-opacity="0.2" />
+                <circle cx="65" cy="124.5" r="11" fill="var(--palette-default-text, black)" fill-opacity="0.5" />
+            </g>
+        </g>
+        <rect x="33.5" y="22" width="205.818" height="181" rx="3.5" stroke="var(--palette-default-text, black)"
+            stroke-opacity="0.1" />
+    </g>
+    <defs>
+        <clipPath id="clip0_2887_84878">
+            <rect width="272.818" height="140" fill="var(--palette-default-surface-1, white)" />
+        </clipPath>
+        <clipPath id="clip1_2887_84878">
+            <rect x="33" y="21.5" width="206.818" height="182" rx="4" fill="var(--palette-default-surface-1, white)" />
+        </clipPath>
+        <clipPath id="clip2_2887_84878">
+            <path d="M33 25.5C33 23.2909 34.7909 21.5 37 21.5H236C238.209 21.5 240 23.2909 240 25.5V62.5H33V25.5Z"
+                fill="var(--palette-default-surface-1, white)" />
+        </clipPath>
+        <clipPath id="clip3_2887_84878">
+            <path d="M33 66.5C33 64.2909 34.7909 62.5 37 62.5H236C238.209 62.5 240 64.2909 240 66.5V103.5H33V66.5Z"
+                fill="var(--palette-default-surface-1, white)" />
+        </clipPath>
+        <clipPath id="clip4_2887_84878">
+            <path
+                d="M33 107.5C33 105.291 34.7909 103.5 37 103.5H236C238.209 103.5 240 105.291 240 107.5V144.5H33V107.5Z"
+                fill="var(--palette-default-surface-1, white)" />
+        </clipPath>
+    </defs>
+</svg>

@@ -1,0 +1,256 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Anchor link menu examples Anchor link menu with nested items should render correctly 1`] = `
+<div>
+  <aside
+    aria-labelledby="nested-anchor-link-menu-header"
+    class="v-anchor-link-menu"
+  >
+    <section>
+      <div
+        class="v-anchor-link-menu-header"
+      >
+        <h2
+          class="v-typography-overline"
+          id="nested-anchor-link-menu-header"
+        >
+          Section title
+        </h2>
+      </div>
+      <ul>
+        <li>
+          <a
+            aria-current="true"
+            class="v-link"
+            href="./anchor-link-menu"
+          >
+            L1 label 1
+          </a>
+        </li>
+        <li>
+          <a
+            class="v-link"
+            href="./anchor-link-menu"
+          >
+            L1 label 2
+          </a>
+          <ul>
+            <li>
+              <a
+                class="v-link"
+                href="./anchor-link-menu"
+              >
+                L2 label 1
+              </a>
+            </li>
+            <li>
+              <a
+                class="v-link"
+                href="./anchor-link-menu"
+              >
+                L2 label 2
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a
+            class="v-link"
+            href="./anchor-link-menu"
+          >
+            L1 label 3
+          </a>
+        </li>
+      </ul>
+    </section>
+  </aside>
+</div>
+`;
+
+exports[`Anchor link menu examples Anchor link menu without section title should render correctly 1`] = `
+<div>
+  <aside
+    aria-label="Section title"
+    class="v-anchor-link-menu"
+  >
+    <section>
+      <ul>
+        <li>
+          <a
+            aria-current="true"
+            class="v-link"
+            href="./anchor-link-menu"
+          >
+            L1 label 1
+          </a>
+        </li>
+        <li>
+          <a
+            class="v-link"
+            href="./anchor-link-menu"
+          >
+            L1 label 2
+          </a>
+        </li>
+        <li>
+          <a
+            class="v-link"
+            href="./anchor-link-menu"
+          >
+            L1 label 3
+          </a>
+        </li>
+        <li>
+          <a
+            class="v-link"
+            href="./anchor-link-menu"
+          >
+            L1 label 4
+          </a>
+        </li>
+        <li>
+          <a
+            class="v-link"
+            href="./anchor-link-menu"
+          >
+            L1 label 5
+          </a>
+        </li>
+      </ul>
+    </section>
+  </aside>
+</div>
+`;
+
+exports[`Anchor link menu examples Default anchor link menu should render correctly 1`] = `
+<div>
+  <aside
+    aria-labelledby="default-anchor-link-menu-header"
+    class="v-anchor-link-menu"
+  >
+    <section>
+      <div
+        class="v-anchor-link-menu-header"
+      >
+        <h2
+          class="v-typography-overline"
+          id="default-anchor-link-menu-header"
+        >
+          Section title
+        </h2>
+      </div>
+      <ul>
+        <li>
+          <a
+            aria-current="true"
+            class="v-link"
+            href="./anchor-link-menu"
+          >
+            L1 label 1
+          </a>
+        </li>
+        <li>
+          <a
+            class="v-link"
+            href="./anchor-link-menu"
+          >
+            L1 label 2
+          </a>
+        </li>
+        <li>
+          <a
+            class="v-link"
+            href="./anchor-link-menu"
+          >
+            L1 label 3
+          </a>
+        </li>
+        <li>
+          <a
+            class="v-link"
+            href="./anchor-link-menu"
+          >
+            L1 label 4
+          </a>
+        </li>
+        <li>
+          <a
+            class="v-link"
+            href="./anchor-link-menu"
+          >
+            L1 label 5
+          </a>
+        </li>
+      </ul>
+    </section>
+  </aside>
+</div>
+`;
+
+exports[`Anchor link menu examples Right to left anchor link menu should render correctly 1`] = `
+<div>
+  <aside
+    aria-labelledby="rtl-anchor-link-menu-header"
+    class="v-anchor-link-menu"
+    dir="rtl"
+  >
+    <section>
+      <div
+        class="v-anchor-link-menu-header"
+      >
+        <h2
+          class="v-typography-overline"
+          id="rtl-anchor-link-menu-header"
+        >
+          Section title
+        </h2>
+      </div>
+      <ul>
+        <li>
+          <a
+            aria-current="true"
+            class="v-link"
+            href="./anchor-link-menu"
+          >
+            L1 label 1
+          </a>
+        </li>
+        <li>
+          <a
+            class="v-link"
+            href="./anchor-link-menu"
+          >
+            L1 label 2
+          </a>
+          <ul>
+            <li>
+              <a
+                class="v-link"
+                href="./anchor-link-menu"
+              >
+                L2 label 1
+              </a>
+            </li>
+            <li>
+              <a
+                class="v-link"
+                href="./anchor-link-menu"
+              >
+                L2 label 2
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a
+            class="v-link"
+            href="./anchor-link-menu"
+          >
+            L1 label 3
+          </a>
+        </li>
+      </ul>
+    </section>
+  </aside>
+</div>
+`;

@@ -1,0 +1,141 @@
+{
+  "default-multiselect": {
+    "file": "default-multiselect.tsx",
+    "id": "default-multiselect",
+    "tags": {
+      "docs": true
+    },
+    "title": "Default multiselect",
+    "testAvg": 99
+  },
+  "multiselect-with-inline-message": {
+    "file": "multiselect-with-inline-message.tsx",
+    "id": "multiselect-with-inline-message",
+    "tags": {
+      "docs": true
+    },
+    "title": "Multiselect with inline message",
+    "testAvg": 99
+  },
+  "multiselect-with-error": {
+    "file": "multiselect-with-error.tsx",
+    "id": "multiselect-with-error",
+    "tags": {
+      "docs": true
+    },
+    "title": "Multiselect with error",
+    "testAvg": 99
+  },
+  "multiselect-with-disabled-option": {
+    "file": "multiselect-with-disabled-option.tsx",
+    "id": "multiselect-with-disabled-option",
+    "tags": {
+      "docs": true
+    },
+    "title": "Multiselect with disabled option",
+    "testAvg": 99
+  },
+  "disabled-multiselect": {
+    "file": "disabled-multiselect.tsx",
+    "id": "disabled-multiselect",
+    "tags": {
+      "docs": true
+    },
+    "title": "Disabled multiselect",
+    "testAvg": 99
+  },
+  "read-only-multiselect": {
+    "file": "read-only-multiselect.tsx",
+    "id": "read-only-multiselect",
+    "tags": {
+      "docs": true
+    },
+    "title": "Read-only multiselect",
+    "testAvg": 94
+  },
+  "multiselect-without-dropdown-chevron": {
+    "file": "multiselect-without-dropdown-chevron.tsx",
+    "id": "multiselect-without-dropdown-chevron",
+    "tags": {
+      "docs": true
+    },
+    "title": "Multiselect without dropdown chevron",
+    "testAvg": 99
+  },
+  "multiselect-with-multiple-selections": {
+    "file": "multiselect-with-multiple-selections.tsx",
+    "id": "multiselect-with-multiple-selections",
+    "tags": {
+      "docs": true
+    },
+    "title": "Multiselect with multiple selections",
+    "testAvg": 31
+  },
+  "multiselect-with-multiple-selections-and-vertical-scroll": {
+    "file": "multiselect-with-multiple-selections-and-vertical-scroll.tsx",
+    "id": "multiselect-with-multiple-selections-and-vertical-scroll",
+    "tags": {
+      "docs": true
+    },
+    "title": "Multiselect with multiple selections and vertical scroll",
+    "testAvg": 99
+  },
+  "multiselect-with-select-and-unselect-all-buttons": {
+    "file": "multiselect-with-select-and-unselect-all-buttons.tsx",
+    "id": "multiselect-with-select-and-unselect-all-buttons",
+    "tags": {
+      "docs": true
+    },
+    "title": "Multiselect with select and unselect all buttons",
+    "testAvg": 96
+  },
+  "multiselect-with-scrollbar": {
+    "file": "multiselect-with-scrollbar.tsx",
+    "id": "multiselect-with-scrollbar",
+    "tags": {
+      "docs": true
+    },
+    "title": "Multiselect with scrollbar",
+    "testAvg": 99
+  },
+  "multiselect-with-filterable-menu-and-manual-selection": {
+    "file": "multiselect-with-filterable-menu-and-manual-selection.tsx",
+    "id": "multiselect-with-filterable-menu-and-manual-selection",
+    "tags": {
+      "docs": true
+    },
+    "title": "Multiselect with filterable menu and manual selection",
+    "testAvg": 99
+  },
+  "multiselect-with-filterable-menu-and-automatic-selection": {
+    "file": "multiselect-with-filterable-menu-and-automatic-selection.tsx",
+    "id": "multiselect-with-filterable-menu-and-automatic-selection",
+    "tags": {
+      "docs": true
+    },
+    "title": "Multiselect with filterable menu and automatic selection",
+    "testAvg": 99
+  },
+  "select-only-multiselect": {
+    "file": "select-only-multiselect.tsx",
+    "id": "select-only-multiselect",
+    "tags": {
+      "custom": true
+    },
+    "title": "Select-only multiselect",
+    "testAvg": 100
+  },
+  "select-clear-all-multiselect": {
+    "file": "select-clear-all-multiselect.tsx",
+    "id": "select-clear-all-multiselect",
+    "tags": {
+      "docs": true
+    },
+    "title": "Multiselect with select/clear all menu",
+    "testAvg": 100
+  },
+  "filterable": {
+    "file": "filterable.tsx",
+    "id": "filterable"
+  }
+}

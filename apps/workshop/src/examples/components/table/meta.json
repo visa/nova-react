@@ -1,0 +1,68 @@
+{
+  "group-headers-empty-cell-table": {
+    "file": "group-headers-empty-cell-table.tsx",
+    "id": "group-headers-empty-cell-table",
+    "title": "Table with group headers with empty cell",
+    "testAvg": 100
+  },
+  "group-headers-table": {
+    "file": "group-headers-table.tsx",
+    "id": "group-headers-table",
+    "title": "Table with group headers",
+    "testAvg": 100
+  },
+  "key-value-banded-table": {
+    "file": "key-value-banded-table.tsx",
+    "id": "key-value-banded-table",
+    "title": "Key value table with banded rows",
+    "testAvg": 100
+  },
+  "key-value-lined-table": {
+    "file": "key-value-lined-table.tsx",
+    "id": "key-value-lined-table",
+    "title": "Key value table with lined rows",
+    "testAvg": 100
+  },
+  "large-padding-banded-table": {
+    "file": "large-padding-banded-table.tsx",
+    "id": "large-padding-banded-table",
+    "title": "Large padding table with banded rows",
+    "testAvg": 100
+  },
+  "lined-rows-table": {
+    "file": "lined-rows-table.tsx",
+    "id": "lined-rows-table",
+    "title": "Table with lined rows",
+    "testAvg": 100
+  },
+  "medium-padding-banded-table": {
+    "file": "medium-padding-banded-table.tsx",
+    "id": "medium-padding-banded-table",
+    "title": "Medium padding table with banded rows",
+    "testAvg": 100
+  },
+  "outer-border-column-row-table": {
+    "file": "outer-border-column-row-table.tsx",
+    "id": "outer-border-column-row-table",
+    "title": "Table with outer border, column, and row dividers",
+    "testAvg": 100
+  },
+  "outer-border-subtle-header-table": {
+    "file": "outer-border-subtle-header-table.tsx",
+    "id": "outer-border-subtle-header-table",
+    "title": "Table with outer border and subtle headers",
+    "testAvg": 100
+  },
+  "scroll-table": {
+    "file": "scroll-table.tsx",
+    "id": "scroll-table",
+    "title": "Table with scrollbars and banded rows",
+    "testAvg": 100
+  },
+  "small-padding-banded-table": {
+    "file": "small-padding-banded-table.tsx",
+    "id": "small-padding-banded-table",
+    "title": "Small padding table with banded rows",
+    "testAvg": 100
+  }
+}

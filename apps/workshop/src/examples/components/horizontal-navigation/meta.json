@@ -1,0 +1,105 @@
+{
+  "alternate-horizontal-with-icons": {
+    "file": "alternate-horizontal-with-icons.tsx",
+    "id": "alternate-horizontal-with-icons",
+    "tags": {
+      "docs": true
+    },
+    "title": "Alternate horizontal navigation with icons",
+    "testAvg": 100
+  },
+  "default-horizontal-nav": {
+    "file": "default-horizontal-nav.tsx",
+    "id": "default-horizontal-nav",
+    "tags": {
+      "docs": true
+    },
+    "title": "Default horizontal navigation",
+    "testAvg": 100
+  },
+  "horizontal-advanced-with-floating-ui-nav": {
+    "file": "horizontal-advanced-with-floating-ui-nav.tsx",
+    "id": "horizontal-advanced-with-floating-ui-nav",
+    "tags": {
+      "custom": true
+    },
+    "title": "Horizontal Nav with Logo & Links with Floating UI",
+    "testAvg": 100
+  },
+  "horizontal-with-icons": {
+    "file": "horizontal-with-icons.tsx",
+    "id": "horizontal-with-icons",
+    "tags": {
+      "custom": true
+    },
+    "title": "Horizontal navigation with icons",
+    "testAvg": 100
+  },
+  "horizontal-with-links-nav": {
+    "file": "horizontal-with-links-nav.tsx",
+    "id": "horizontal-with-links-nav",
+    "tags": {
+      "docs": true
+    },
+    "title": "Horizontal with links",
+    "testAvg": 100,
+    "changeReason": "docs(horizontal-nav): split them into it's own page VDS-6226",
+    "commit": "12ede4b62c1b595a26f5fd505129cd224e54bfac",
+    "dateCreated": "2024-06-12 13:44:35 -0400",
+    "dateModified": "Wed Jun 12 13:44:35 2024 -0400"
+  },
+  "active-element-horizontal-nav": {
+    "file": "active-element-horizontal-nav.tsx",
+    "id": "active-element-horizontal-nav",
+    "tags": {
+      "docs": true
+    },
+    "title": "Horizontal navigation with active element",
+    "testAvg": 100
+  },
+  "alternate-active-element-horizontal-nav": {
+    "file": "alternate-active-element-horizontal-nav.tsx",
+    "id": "alternate-active-element-horizontal-nav",
+    "tags": {
+      "docs": true
+    },
+    "title": "Alternate horizontal navigation with active element",
+    "testAvg": 100
+  },
+  "alternate-horizontal-nav": {
+    "file": "alternate-horizontal-nav.tsx",
+    "id": "alternate-horizontal-nav",
+    "tags": {
+      "docs": true
+    },
+    "title": "Alternate horizontal navigation",
+    "testAvg": 100
+  },
+  "stacked-horizontal-nav": {
+    "file": "stacked-horizontal-nav.tsx",
+    "id": "stacked-horizontal-nav",
+    "tags": {
+      "docs": true
+    },
+    "title": "Stacked horizontal navigation",
+    "testAvg": 100
+  },
+  "search-persistent-horizontal-nav": {
+    "file": "search-persistent-horizontal-nav.tsx",
+    "id": "search-persistent-horizontal-nav",
+    "tags": {
+      "docs": true
+    },
+    "title": "Default horizontal navigation with persistent search",
+    "testAvg": 90
+  },
+  "stacked-search-persistent-horizontal-nav": {
+    "file": "stacked-search-persistent-horizontal-nav.tsx",
+    "id": "stacked-search-persistent-horizontal-nav",
+    "tags": {
+      "docs": true
+    },
+    "title": "Stacked horizontal navigation with persistent search",
+    "testAvg": 86
+  }
+}
