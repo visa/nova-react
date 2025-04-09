@@ -1,0 +1,74 @@
+{
+  "commitUrlFormat": "Learn more at: https://design.visa.com/developing/react/changelog",
+  "compareUrlFormat": "Learn more at: https://design.visa.com/developing/react/changelog",
+  "header": "",
+  "issueUrlFormat": "Learn more at: https://design.visa.com/developing/react/changelog",
+  "bumpFiles": [
+    {
+      "filename": "package.json",
+      "type": "json"
+    },
+    {
+      "filename": "libs/nova-react/package.json",
+      "type": "json"
+    },
+    {
+      "filename": "libs/nova-react/dist/package.json",
+      "type": "json"
+    },
+    {
+      "filename": "apps/workshop/package.json",
+      "type": "json"
+    }
+  ],
+  "packageFiles": [
+    {
+      "filename": "package.json",
+      "type": "json"
+    }
+  ],
+  "releaseCommitMessageFormat": "chore(release): v{{currentTag}}",
+  "types": [
+    {
+      "section": "Build",
+      "type": "build"
+    },
+    {
+      "hidden": true,
+      "type": "chore"
+    },
+    {
+      "section": "Documentation",
+      "type": "docs"
+    },
+    {
+      "section": "Features",
+      "type": "feat"
+    },
+    {
+      "section": "Bug Fixes",
+      "type": "fix"
+    },
+    {
+      "section": "Performance",
+      "type": "perf"
+    },
+    {
+      "hidden": true,
+      "type": "refactor"
+    },
+    {
+      "hidden": true,
+      "type": "style"
+    },
+    {
+      "hidden": true,
+      "type": "test"
+    },
+    {
+      "hidden": true,
+      "type": "ci"
+    }
+  ],
+  "userUrlFormat": "Learn more at: https://design.visa.com/developing/react/changelog"
+}
