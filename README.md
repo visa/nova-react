@@ -27,7 +27,7 @@
 - [Maintainers](#maintainers)
 - [Thanks](#thanks)
 - [Contributing](#contributing)
-- [License](#license) 
+- [License](#license)
 
 ## <a name="about"></a>About Nova React
 
@@ -202,4 +202,4 @@ SEE CONTRIBUTING.md
 
 ## <a name="license"></a>License
 
-SEE LICENSE IN LICENSE
+SEE LICENSE IN LICENSE.
