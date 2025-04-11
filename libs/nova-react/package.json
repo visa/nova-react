@@ -1,6 +1,6 @@
 {
   "name": "@visa/nova-react",
-  "version": "2.5.3",
+  "version": "2.5.4",
   "description": "Visa Product Design System Nova React library",
   "author": "Visa Product Design System",
   "main": "./index.js",

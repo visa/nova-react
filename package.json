@@ -1,6 +1,6 @@
 {
   "name": "@visa/nova-react-project",
-  "version": "2.5.3",
+  "version": "2.5.4",
   "description": "VISA Product Design System Nova React Library",
   "scripts": {
     "build": "pnpm -r build",

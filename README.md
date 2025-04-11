@@ -15,7 +15,7 @@
  *
  -->
 
-# Visa Product Design System - Nova React 
+# Visa Product Design System - Nova React
 
 - [About](#about)
 - [Security](#security)
@@ -31,7 +31,7 @@
 
 ## <a name="about"></a>About Nova React
 
-Accessible Visa Product Design System components built for React.
+Accessible Visa Product Design System components built for React
 
 Nova React is a comprehensive library of accessible components designed to align with the Visa Product Design System. It provides developers with a set of reusable UI elements that can be easily integrated into React applications. With Nova React, developers can quickly build visually consistent and user-friendly interfaces that adhere to accessibility best practices.
 
