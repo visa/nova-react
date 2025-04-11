@@ -1,0 +1,43 @@
+{
+  "name": "@visa/nova-react",
+  "version": "2.5.4",
+  "description": "Visa Product Design System Nova React library",
+  "author": "Visa Product Design System",
+  "main": "./index.js",
+  "module": "./index.mjs",
+  "types": "./index.d.ts",
+  "sideEffects": false,
+  "optionalDependencies": {},
+  "peerDependencies": {
+    "@visa/nova-icons-react": "^1 || ^2",
+    "@visa/nova-styles": "^1.6.1",
+    "clsx": "^2.1.0",
+    "react": "^18 || ^19",
+    "react-dom": "^18 || ^19",
+    "tslib": "^2.6.2"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "keywords": [
+    "visa product design system",
+    "visa design system",
+    "visa design",
+    "design system",
+    "JS",
+    "nova",
+    "react",
+    "rollup",
+    "typescript",
+    "UI",
+    "vds",
+    "visa",
+    "visa-ui",
+    "vite"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "Apache-2.0"
+}

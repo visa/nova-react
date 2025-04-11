@@ -1,21 +1,13 @@
-<!--
- *              Copyright (c) 2025 Visa, Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *         http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- *
- -->
 
-## [2.5.4] (2025-04-11)
+### [2.5.4](Learn more at: https://design.visa.com/developing/react/changelog) (2025-04-11)
+
+
+### Bug Fixes
+
+* comment out NPM deployment script in Jenkinsfile ([3e20d28](Learn more at: https://design.visa.com/developing/react/changelog))
+* comment out NPM publish script in Jenkinsfile ([8b99922](Learn more at: https://design.visa.com/developing/react/changelog))
+
+## [2.5.3] (2025-03-26)
 
 ### Added
 

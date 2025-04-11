@@ -61,7 +61,6 @@
     "@testing-library/jest-dom": "^6.4.5",
     "@types/jest": "^29.5.12",
     "@types/jest-axe": "^3.5.9",
-    "@visa/scripts": "^4.1.0",
     "change-case": "^4.1.2",
     "eslint": "^9.17.0",
     "eslint-plugin-react": "7.37.2",

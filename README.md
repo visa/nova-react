@@ -1,5 +1,5 @@
 <!--
- *              Copyright (c) 2025 Visa, Inc.
+ *              © 2025 Visa
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,7 +14,6 @@
  * limitations under the License.
  *
  -->
-
 # Visa Product Design System - Nova React
 
 - [About](#about)
@@ -202,4 +201,4 @@ SEE CONTRIBUTING.md
 
 ## <a name="license"></a>License
 
-SEE LICENSE IN LICENSE.
+SEE LICENSE IN LICENSE

@@ -1,5 +1,5 @@
 {
-  "@visa/nova-icons-react@2.0.3": {
+  "@visa/nova-icons-react@1.6.5": {
     "licenses": "Custom: https://productdesignsystem.visa.com/",
     "path": "node_modules/@visa/nova-icons-react",
     "licenseFile": "node_modules/@visa/nova-icons-react/README.md"
