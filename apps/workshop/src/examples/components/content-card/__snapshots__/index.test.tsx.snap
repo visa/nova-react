@@ -141,11 +141,6 @@ exports[`Content card examples Compact dashboard content card should render corr
             >
               Increasing value
             </title>
-            <rect
-              height="1"
-              transform="translate(7 7.00049)"
-              width="1"
-            />
             <path
               class="v-icon-primary"
               clip-rule="evenodd"
@@ -156,7 +151,7 @@ exports[`Content card examples Compact dashboard content card should render corr
               <clippath>
                 <rect
                   height="16"
-                  transform="translate(0 0.000366211)"
+                  transform="translate(0 0.000488281)"
                   width="16"
                 />
               </clippath>
@@ -557,7 +552,6 @@ exports[`Content card examples Disabled clickable content card should render cor
   <button
     aria-disabled="true"
     class="v-content-card v-content-card-clickable"
-    disabled=""
   >
     <div
       class="v-content-card-body v-flex v-flex-col v-gap-4"

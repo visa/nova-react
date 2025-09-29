@@ -1,0 +1,25 @@
+{
+  "file-status-button": {
+    "testAvg": 77,
+    "file": "file-status-button.tsx",
+    "id": "file-status-button"
+  },
+  "upload-card": {
+    "testAvg": 100,
+    "file": "upload-card.tsx",
+    "id": "upload-card"
+  },
+  "upload-dialog": {
+    "testAvg": 80,
+    "file": "upload-dialog.tsx",
+    "id": "upload-dialog"
+  },
+  "upload-row": {
+    "testAvg": 98,
+    "file": "upload-row.tsx",
+    "id": "upload-row"
+  },
+  "mock-upload": {
+    "testAvg": 6
+  }
+}

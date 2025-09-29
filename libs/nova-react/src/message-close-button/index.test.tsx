@@ -39,7 +39,7 @@ describe('MessageCloseButton', () => {
   });
 
   it('should render with aria-label', () => {
-    const { container } = render(<MessageCloseButton ariaLabel="test-aria-label" />);
+    const { container } = render(<MessageCloseButton aria-label="test-aria-label" />);
     expect(container.firstElementChild?.getAttribute('aria-label')).toBe('test-aria-label');
   });
 

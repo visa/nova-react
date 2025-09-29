@@ -15,38 +15,34 @@
  *
  **/
 import cn from 'clsx';
-import { ElementType, ForwardedRef } from 'react';
-import forwardRef from '../types';
+import { ComponentPropsWithRef, ElementType } from 'react';
 
 const CSS_PREFIX = 'v-listbox-container';
 
-export type ListboxContainerProperties = {
-  /** @ignore */
-  className?: string;
+export type ListboxContainerProperties<ET extends ElementType = 'div',> = {
+
   /** Is Disabled */
   disabled?: boolean;
   /** Error */
   error?: boolean;
   /** Tag of Component */
   tag?: ElementType;
-};
-
-const ListboxContainer = <HTMLElementType,>(
-  { className, disabled, error, tag: Tag = 'div', ...remainingProps }: ListboxContainerProperties,
-  ref: ForwardedRef<HTMLElementType>
-) => (
-  <Tag
-    className={cn(CSS_PREFIX, disabled && `v-listbox-disabled`, error && `v-listbox-error`, className)}
-    ref={ref}
-    {...remainingProps}
-  />
-);
+} & ComponentPropsWithRef<ET>;
 
 /**
  * Container for listbox component.
  * @docs {@link https://design.visa.com/react/components/listbox | See Docs}
  */
-export default forwardRef<ListboxContainerProperties, HTMLDivElement>(ListboxContainer);
+const ListboxContainer = <ET extends ElementType = 'div',>(
+  { className, disabled, error, tag: Tag = 'div', ...remainingProps }: ListboxContainerProperties<ET>,
+) => (
+  <Tag
+    className={cn(CSS_PREFIX, disabled && `v-listbox-disabled`, error && `v-listbox-error`, className)}
+    {...remainingProps}
+  />
+);
+
+export default ListboxContainer;
 
 ListboxContainer.defaultProps = {
   tag: 'div',

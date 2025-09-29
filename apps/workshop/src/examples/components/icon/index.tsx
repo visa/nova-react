@@ -14,13 +14,13 @@
  * limitations under the License.
  *
  **/
-import { VisaMaximizeTiny as MaximizeTinyVisa } from '@visa/nova-icons-react';
-import { Link, SectionMessage, SectionMessageIcon, Typography } from '@visa/nova-react';
+import { VisaMaximizeTiny as MaximizeTinyVisa, MessageIcon } from '@visa/nova-icons-react';
+import { Link, SectionMessage, Typography } from '@visa/nova-react';
 import { ExampleIndex } from '../../../types';
 
 const ExampleIntro = () => (
   <SectionMessage>
-    <SectionMessageIcon />
+    <MessageIcon />
     <Typography variant="body-2">
       For more icons, please visit{' '}
       <Link

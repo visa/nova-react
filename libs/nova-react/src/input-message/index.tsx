@@ -15,24 +15,21 @@
  *
  **/
 import cn from 'clsx';
-import { ForwardedRef } from 'react';
-import forwardRef from '../types';
 import Typography, { TypographyProperties } from '../typography';
 
 const CSS_PREFIX = 'v-input-message';
 
 export type InputMessageProperties = TypographyProperties;
 
-const InputMessage = <HTMLElementType,>(
-  { className, tag = 'span', ...remainingProps }: InputMessageProperties,
-  ref: ForwardedRef<HTMLElementType>
-) => <Typography className={cn(CSS_PREFIX, className)} ref={ref} tag={tag} {...remainingProps} />;
-
 /**
  * Message shown beneath input components to provide context or guidance.
  * @docs {@link https://design.visa.com/react/components/input | See Docs}
  */
-export default forwardRef<InputMessageProperties, HTMLSpanElement>(InputMessage);
+const InputMessage = (
+  { className, tag = 'span', ...remainingProps }: InputMessageProperties,
+) => <Typography className={cn(CSS_PREFIX, className)} tag={tag} {...remainingProps} />;
+
+export default InputMessage;
 
 InputMessage.defaultProps = {
   tag: 'span',

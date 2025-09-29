@@ -15,27 +15,23 @@
  *
  **/
 import cn from 'clsx';
-import { ElementType, ForwardedRef } from 'react';
-import forwardRef from '../types';
+import { ComponentPropsWithRef, ElementType } from 'react';
 
 const CSS_PREFIX = 'v-message-content';
 
-export type MessageContentProperties = {
-  /** @ignore */
-  className?: string;
+export type MessageContentProperties <ET extends ElementType = 'div',>= {
   /** Tag of Component */
   tag?: ElementType;
-};
-
-const MessageContent = <HTMLElementType,>(
-  { className, tag: Tag = 'div', ...remainingProps }: MessageContentProperties,
-  ref: ForwardedRef<HTMLElementType>
-) => <Tag className={cn(CSS_PREFIX, className)} ref={ref} {...remainingProps} />;
+} & ComponentPropsWithRef<ET>;
 
 /**
  * Container for message content elements.
  */
-export default forwardRef<MessageContentProperties, HTMLDivElement>(MessageContent);
+const MessageContent = <ET extends ElementType = 'div',>(
+  { className, tag: Tag = 'div', ...remainingProps }: MessageContentProperties<ET>,
+) => <Tag className={cn(CSS_PREFIX, className)} {...remainingProps} />;
+
+export default MessageContent;
 
 MessageContent.defaultProps = {
   tag: 'div',

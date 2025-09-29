@@ -36,7 +36,7 @@ export const VerticalImageWithTextAvatar = () => {
           colorScheme="tertiary"
           onClick={() => setVerticalAvatarAndTextToggle(!verticalAvatarAndTextToggle)}
         >
-          <Avatar alt="" src={BASE_URL + '/alex-miller-stock.png'} tag="img"></Avatar>
+          <Avatar<'img'> alt="" src={BASE_URL + '/alex-miller-stock.png'} tag="img"></Avatar>
           {user}
           <TabSuffix element={verticalAvatarAndTextToggle ? <VisaChevronUpLow /> : <VisaChevronDownLow />} />
         </Button>

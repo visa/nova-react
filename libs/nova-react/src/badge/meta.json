@@ -1,8 +1,8 @@
 {
   "description": "Visual indicators communicating the status of a component.",
-  "displayName": "Badge",
+  "displayName": "badge",
   "filePath": "/badge/index.tsx",
-  "gitLink": "https://stash.trusted.visa.com:7990/projects/VC/repos/nova-react/browse/libs/nova-react/src/badge/index.tsx",
+  "gitLink": "https://github.com/visa/nova-react/blob/main/libs/nova-react/src/badge/index.tsx",
   "props": [
     {
       "description": "Active style",
@@ -27,12 +27,6 @@
       "name": "clear",
       "required": false,
       "type": "boolean"
-    },
-    {
-      "description": "This is a useRef",
-      "name": "ref",
-      "required": false,
-      "type": "ForwardedRef<HTMLElementType>"
     },
     {
       "defaultValue": "div",

@@ -14,23 +14,16 @@
  * limitations under the License.
  *
  **/
-import { ElementType, ForwardedRef } from 'react';
-import forwardRef from '../types';
 import cn from 'clsx';
+import { ComponentPropsWithRef, ElementType } from 'react';
 
 const CSS_PREFIX = 'v-dropdown-menu v-surface';
 
-export type DropdownMenuProperties = {
-  /** @ignore */
-  className?: string;
+export type DropdownMenuProperties<ET extends ElementType = 'div',> = {
+
   /** Scroll */
   tag?: ElementType;
-};
-
-const DropdownMenu = <HTMLElementType,>(
-  { className, tag: Tag = 'div', ...remainingProps }: DropdownMenuProperties,
-  ref: ForwardedRef<HTMLElementType>
-) => <Tag className={cn(CSS_PREFIX, className)} ref={ref} {...remainingProps} />;
+} & ComponentPropsWithRef<ET>;
 
 /**
  * Interactive element enabling users to select a single option from a list.
@@ -39,7 +32,11 @@ const DropdownMenu = <HTMLElementType,>(
  * @vgar TODO
  * @wcag TODO
  */
-export default forwardRef<DropdownMenuProperties, HTMLElement>(DropdownMenu);
+const DropdownMenu = <ET extends ElementType = 'div',>(
+  { className, tag: Tag = 'div', ...remainingProps }: DropdownMenuProperties<ET>,
+) => <Tag className={cn(CSS_PREFIX, className)} {...remainingProps} />;
+
+export default DropdownMenu;
 
 DropdownMenu.defaultProps = {
   tag: 'div',

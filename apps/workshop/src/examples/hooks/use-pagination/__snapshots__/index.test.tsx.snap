@@ -1,4 +1,4 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
 
 exports[`usePagination example Behavior and usage should render correctly 1`] = `
 <div>
@@ -24,11 +24,6 @@ exports[`usePagination example Behavior and usage should render correctly 1`] = 
             width="16"
             xmlns="http://www.w3.org/2000/svg"
           >
-            <rect
-              height="1"
-              transform="translate(7 7.00049)"
-              width="1"
-            />
             <path
               class="v-icon-primary"
               clip-rule="evenodd"
@@ -155,11 +150,6 @@ exports[`usePagination example Behavior and usage should render correctly 1`] = 
             width="16"
             xmlns="http://www.w3.org/2000/svg"
           >
-            <rect
-              height="1"
-              transform="translate(8 7.00049)"
-              width="1"
-            />
             <path
               class="v-icon-primary"
               clip-rule="evenodd"

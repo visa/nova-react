@@ -1,8 +1,8 @@
 {
   "description": "Compact elements used to filter content or display user input.",
-  "displayName": "Chip",
+  "displayName": "chip",
   "filePath": "/chip/index.tsx",
-  "gitLink": "https://stash.trusted.visa.com:7990/projects/VC/repos/nova-react/browse/libs/nova-react/src/chip/index.tsx",
+  "gitLink": "https://github.com/visa/nova-react/blob/main/libs/nova-react/src/chip/index.tsx",
   "props": [
     {
       "description": "Chip Size",
@@ -15,12 +15,6 @@
       "name": "chipType",
       "required": false,
       "type": "\"selection\""
-    },
-    {
-      "description": "This is a useRef",
-      "name": "ref",
-      "required": false,
-      "type": "ForwardedRef<HTMLElementType>"
     },
     {
       "defaultValue": "div",

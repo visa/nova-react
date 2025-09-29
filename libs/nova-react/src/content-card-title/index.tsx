@@ -15,24 +15,21 @@
  *
  **/
 import cn from 'clsx';
-import { ForwardedRef } from 'react';
-import forwardRef from '../types';
 import Typography, { TypographyProperties } from '../typography';
 
 const CSS_PREFIX = 'v-content-card-title';
 
 export type ContentCardTitleProperties = TypographyProperties;
 
-const ContentCardTitle = <HTMLElementType,>(
-  { className, tag = 'h3', ...remainingProps }: ContentCardTitleProperties,
-  ref: ForwardedRef<HTMLElementType>
-) => <Typography className={cn(CSS_PREFIX, className)} ref={ref} tag={tag} {...remainingProps} />;
-
 /**
  * Title component for content card. Extends typography component.
  * @docs {@link https://design.visa.com/react/components/content-card | See Docs}
  */
-export default forwardRef<ContentCardTitleProperties, HTMLHeadingElement>(ContentCardTitle);
+const ContentCardTitle = (
+  { className, tag = 'h3', ...remainingProps }: ContentCardTitleProperties,
+) => <Typography className={cn(CSS_PREFIX, className)} tag={tag} {...remainingProps} />;
+
+export default ContentCardTitle;
 
 ContentCardTitle.defaultProps = {
   tag: 'h3',

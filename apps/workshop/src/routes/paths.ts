@@ -25,12 +25,8 @@ export const Paths = {
   changeLog: '/changelog',
   sitemap: '/sitemap',
   components: '/components',
-  commitLinkExample: ({ commitId = '', docType = 'components', docName = '', exampleFile = 'index.tsx' }) =>
-    `https://stash.trusted.visa.com:7990/projects/VC/repos/nova-react/commits/${commitId}#apps/workshop/src/examples/${docType}/${docName}/${exampleFile}`,
-  commitLinkLib: ({ commitId = '', docName = '', isHook = false }) =>
-    `https://stash.trusted.visa.com:7990/projects/VC/repos/nova-react/commits/${commitId}#libs/nova-react/src/${docName}/index.ts${
-      isHook ? '' : 'x'
-    }`,
+  commitLinkExample: 'unavailable for public use',
+  commitLinkLib: 'unavailable for public use',
   documentationApi: (docType: DocType | ':docType' = ':docType', docName = ':docName') => `/${docType}/${docName}/api`,
   documentationExample: (docType: DocType | ':docType' = ':docType', docName = ':docName', example = ':exampleName') =>
     `/${docType}/${docName}#${example}`,
@@ -49,7 +45,6 @@ export const Paths = {
   vpds: VPDS,
   vpdsReact: VPDS + '/react',
   unknown: '/*',
-  userApi: VPDS + '/userinfo',
 };
 
 export default Paths;

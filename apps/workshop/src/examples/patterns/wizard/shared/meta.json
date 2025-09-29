@@ -1,0 +1,38 @@
+{
+  "exit-dialog": {
+    "testAvg": 87,
+    "file": "exit-dialog.tsx",
+    "id": "exit-dialog",
+    "tags": {
+      "patterns": true,
+      "isShared": true
+    }
+  },
+  "save-flag": {
+    "testAvg": 100,
+    "file": "save-flag.tsx",
+    "id": "save-flag",
+    "tags": {
+      "patterns": true,
+      "isShared": true
+    }
+  },
+  "success-message": {
+    "testAvg": 100,
+    "file": "success-message.tsx",
+    "id": "success-message",
+    "tags": {
+      "patterns": true,
+      "isShared": true
+    }
+  },
+  "summary-page": {
+    "testAvg": 100,
+    "file": "summary-page.tsx",
+    "id": "summary-page",
+    "tags": {
+      "patterns": true,
+      "isShared": true
+    }
+  }
+}

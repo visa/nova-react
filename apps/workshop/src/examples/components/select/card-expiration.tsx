@@ -66,7 +66,7 @@ export const CardExpirationSelect = () => {
   };
 
   return (
-    <Utility noValidate onSubmit={onSubmit} tag="form" vFlex vFlexCol vGap={6}>
+    <Utility<'form'> noValidate onSubmit={onSubmit} tag="form" vFlex vFlexCol vGap={6}>
       <Utility aria-labelledby={`${id}-message`} tag="fieldset" vFlex vFlexCol vGap={4}>
         <Label tag="legend">Expires (MM/YY)</Label>
         <Utility vFlex vFlexRow vAlignItems="center" vGap={6}>

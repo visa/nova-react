@@ -20,7 +20,7 @@ import { CSSProperties } from 'react';
 export const CustomSeparatorBreadcrumbs = () => {
   return (
     <Breadcrumbs
-      ariaLabel="Custom separator breadcrumbs"
+      aria-label="Custom separator breadcrumbs"
       style={{ '--v-breadcrumbs-pseudo-separator': "'+'" } as CSSProperties}
     >
       <ol>

@@ -55,9 +55,11 @@ const ChangeLog = () => {
       </PageHeader>
       <PageContent ref={mdRef}>
         {loading && <VSuspense />}
-        <Markdown className={Styles.changeLogMarkdown} urlTransform={url => url.replace('amp;', '')}>
-          {changeLog}
-        </Markdown>
+        <div className={Styles.changeLogMarkdown}>
+          <Markdown urlTransform={url => url.replace('amp;', '')}>
+            {changeLog}
+          </Markdown>
+        </div>
       </PageContent>
     </div>
   );

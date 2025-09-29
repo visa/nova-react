@@ -15,31 +15,27 @@
  *
  **/
 import cn from 'clsx';
-import { ForwardedRef } from 'react';
-import forwardRef from '../types';
 import Typography, { TypographyProperties } from '../typography';
 
 const CSS_PREFIX = 'v-dialog-header';
 
 export type DialogHeaderProperties = TypographyProperties;
 
-const DialogHeader = <HTMLElementType,>(
+/**
+ * Container for the heading area of a dialog pop-up window.
+ * @docs {@link https://design.visa.com/react/components/dialog | See Docs}
+ */
+const DialogHeader = (
   { className, tag = 'h2', ...remainingProps }: DialogHeaderProperties,
-  ref: ForwardedRef<HTMLElementType>
 ) => (
   <Typography
     className={cn(CSS_PREFIX, 'v-align-items-center v-flex v-gap-6 v-justify-content-start', className)}
-    ref={ref}
     tag={tag}
     {...remainingProps}
   />
 );
 
-/**
- * Container for the heading area of a dialog pop-up window.
- * @docs {@link https://design.visa.com/react/components/dialog | See Docs}
- */
-export default forwardRef<DialogHeaderProperties, HTMLHeadingElement>(DialogHeader);
+export default DialogHeader;
 
 DialogHeader.defaultProps = {
   tag: 'h2',

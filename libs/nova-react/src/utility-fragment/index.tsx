@@ -15,7 +15,7 @@
  *
  **/
 import cn from 'clsx';
-import { CSSProperties, ReactElement, cloneElement } from 'react';
+import { ComponentPropsWithRef, ElementType, cloneElement } from 'react';
 
 export type BreakPoints = 'xs' | 'sm' | 'md' | 'lg' | 'xl' | 'xxl' | 'desktop' | 'mobile';
 
@@ -74,13 +74,7 @@ export type VPoint =
 
 export type VSpacing = VPoint | 'auto' | 'inherit';
 
-export type UtilityFragmentProperties = {
-  /** Child element that the styles are applies to. Only allows for single child element. */
-  children: ReactElement;
-  /** @ignore */
-  className?: string;
-  /** @ignore */
-  style?: CSSProperties;
+export type UtilityFragmentProperties<ET extends ElementType = 'div',> = {
   vAlignContent?: DefaultPositions | 'around' | 'between' | 'evenly';
   vAlignItems?: DefaultPositions | 'baseline' | 'stretch';
   vAlignSelf?: DefaultPositions | 'auto' | 'stretch';
@@ -119,7 +113,7 @@ export type UtilityFragmentProperties = {
   vPaddingTop?: VSpacing;
   vPaddingVertical?: VSpacing;
   vRowGap?: VPoint;
-};
+} & ComponentPropsWithRef<ET>;
 
 /**
  * Wraps around a component and add Nova utility classes to its direct child without adding extra elements to the DOM.
@@ -127,7 +121,7 @@ export type UtilityFragmentProperties = {
  * @vgar TODO
  * @wcag TODO
  */
-const UtilityFragment = ({
+const UtilityFragment = <ET extends ElementType = 'div',>({
   children,
   className,
   vAlignContent,
@@ -169,7 +163,7 @@ const UtilityFragment = ({
   vPaddingVertical,
   vRowGap,
   ...remainingProps
-}: UtilityFragmentProperties) => {
+}: UtilityFragmentProperties<ET>) => {
   const classNames =
     cn(
       vAlignContent && `v-align-content-${vAlignContent}`,

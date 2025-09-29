@@ -145,11 +145,11 @@ describe('Listbox examples', () => {
     it('should focus correctly on keyboard navigation', async () => {
       render(<OptionSingleListbox />);
       const user = userEvent.setup();
-      const cardOptionD = screen.getByText('Item C');
+      const cardOptionC = screen.getByText('Item C');
       await user.tab();
       await user.keyboard('{ArrowDown}');
       await user.keyboard('{ArrowDown}');
-      expect(cardOptionD).toHaveFocus();
+      expect(cardOptionC).toHaveFocus();
     });
   });
 

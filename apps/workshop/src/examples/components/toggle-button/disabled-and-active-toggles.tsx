@@ -38,7 +38,7 @@ export const DisabledAndActiveToggles = () => {
     <ToggleContainer>
       {options.map((option, optionIndex) => (
         <UtilityFragment key={option.id} vGap={6}>
-          <Toggle
+          <Toggle<'button'>
             tag="button"
             aria-pressed={togglePressedState[optionIndex]}
             onClick={() => handleSingleSelectTogglePress(optionIndex)}

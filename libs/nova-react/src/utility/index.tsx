@@ -14,51 +14,23 @@
  * limitations under the License.
  *
  **/
-import { ElementType, ForwardedRef, ReactElement, ReactNode, cloneElement } from 'react';
-import { DefaultProperties, default as forwardRef } from '../types';
+import cn from 'clsx';
+import { ElementType, ReactElement, cloneElement } from 'react';
 import UtilityFragment, { UtilityFragmentProperties } from '../utility-fragment';
 
-export type UtilityProperties = {
-  /** @ignore */
-  children?: ReactNode;
-  /** @ignore */
-  className?: string;
-} & (
+export type UtilityCustomProps<ET extends ElementType = 'div',> = Omit<UtilityFragmentProperties<ET>, ''>;
+export type UtilityProperties<ET extends ElementType = 'div',> = UtilityCustomProps<ET> & ({
+  /** Cloned Element (not compatible with tag property) */
+  element?: never;
+  /** Tag (not compatible with element property) */
+  tag?: ElementType;
+}
   | {
-      /** Cloned Element (not compatible with tag property) */
-      element?: never;
-      /** Tag (not compatible with element property) */
-      tag?: ElementType;
-    }
-  | {
-      /** Cloned Element (not compatible with tag property) */
-      element?: ReactElement;
-      /** Tag (not compatible with element property) */
-      tag?: never;
-    }
-) &
-  Omit<UtilityFragmentProperties, 'children'>;
-
-const Utility = <HTMLElementType,>(
-  { children, element, tag: Tag = 'div', ...remainingProps }: UtilityProperties,
-  ref: ForwardedRef<HTMLElementType>
-) => {
-  return (
-    <UtilityFragment {...remainingProps}>
-      {element ? (
-        cloneElement<UtilityProperties & DefaultProperties<HTMLElementType>>(
-          element,
-          {
-            ref,
-          },
-          [element.props.children, children]
-        )
-      ) : (
-        <Tag ref={ref}>{children}</Tag>
-      )}
-    </UtilityFragment>
-  );
-};
+    /** Cloned Element (not compatible with tag property) */
+    element?: ReactElement<UtilityCustomProps<ET>>;
+    /** Tag (not compatible with element property) */
+    tag?: never;
+  });
 
 /**
  * Component used to create a div, by default, with the correct Nova utility style classes applied.
@@ -67,7 +39,25 @@ const Utility = <HTMLElementType,>(
  * @vgar 2.1
  * @wcag 2.1
  */
-export default forwardRef<UtilityProperties, HTMLDivElement>(Utility);
+const Utility = <ET extends ElementType = 'div',>(
+  { children, className, element, tag: Tag = 'div', ...remainingProps }: UtilityProperties<ET>,
+) => {
+  return (
+    <UtilityFragment {...remainingProps}>
+      {element ? (
+        cloneElement<UtilityProperties>(element, {
+          className: cn(className, element.props.className),
+        },
+          [element.props.children, children]
+        )
+      ) : (
+        <Tag className={className}>{children}</Tag>
+      )}
+    </UtilityFragment>
+  );
+};
+
+export default Utility;
 
 Utility.defaultProps = {
   tag: 'div',

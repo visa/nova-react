@@ -63,9 +63,15 @@ export const useWizard = (useWizardOptions: UseWizardOptions) => {
 
   // Change the current step to the specific index
   const onStepChange = (index: number) => {
+    // Reset error for the current step before navigating away
+    setErrorSteps(prev => {
+      const current = new Set(prev);
+      current.delete(currentStep);
+      return current;
+    });
+
     let nextStep = index;
-    if (index < 0)
-      nextStep = 0; // Stays at first step
+    if (index < 0) nextStep = 0; // Stays at first step
     else if (index >= length) nextStep = length - 1; // Stays at last step
     setMaxStep(prev => Math.max(prev, nextStep)); // Update the maximum step
     setCurrentStep(nextStep);

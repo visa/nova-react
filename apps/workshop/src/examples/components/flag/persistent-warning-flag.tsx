@@ -14,12 +14,13 @@
  * limitations under the License.
  *
  **/
-import { Flag, FlagContent, FlagIcon, Typography, ScreenReader } from '@visa/nova-react';
+import { MessageIcon } from '@visa/nova-icons-react';
+import { Flag, FlagContent, ScreenReader, Typography } from '@visa/nova-react';
 
 export const PersistentWarningFlag = () => {
   return (
     <Flag messageType="warning">
-      <FlagIcon />
+      <MessageIcon messageType="warning" />
       <FlagContent className="v-pl-2 v-pb-2" role="alert" aria-live="polite">
         <ScreenReader>warning</ScreenReader>
         <Typography>This is required text that describes the flag in more detail.</Typography>

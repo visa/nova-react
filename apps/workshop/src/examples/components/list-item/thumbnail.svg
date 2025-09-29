@@ -1,0 +1,37 @@
+<!--
+ *              © 2025 Visa
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *         http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ -->
+<svg width="304" height="218" viewBox="0 0 304 218" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="49" y="32" width="206" height="154" rx="16" fill="var(--palette-default-surface-1, white)"/>
+<circle cx="82" cy="63" r="11" fill="var(--palette-default-text, black)" fill-opacity="0.9"/>
+<rect x="104" y="60" width="68" height="6" rx="3" fill="var(--palette-default-text, black)" fill-opacity="0.3"/>
+<g opacity="0.01">
+<rect width="0.929567" height="0.929567" transform="translate(226.493 63.9291)" fill="var(--palette-default-active), #1434CB"/>
+</g>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M223.14 56.493L229.282 63L223.14 69.507L221.845 68.135L226.692 63L221.845 57.8651L223.14 56.493Z" fill="var(--palette-default-text, black)" fill-opacity="0.9"/>
+<circle cx="82" cy="109" r="11" fill="var(--palette-default-text, black)" fill-opacity="0.9"/>
+<rect x="104" y="106" width="41" height="6" rx="3" fill="var(--palette-default-text, black)" fill-opacity="0.3"/>
+<g opacity="0.01">
+<rect width="0.929567" height="0.929567" transform="translate(226.493 109.929)" fill="var(--palette-default-active), #1434CB"/>
+</g>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M223.14 102.493L229.282 109L223.14 115.507L221.845 114.135L226.692 109L221.845 103.865L223.14 102.493Z" fill="var(--palette-default-text, black)" fill-opacity="0.9"/>
+<circle cx="82" cy="155" r="11" fill="var(--palette-default-text, black)" fill-opacity="0.9"/>
+<rect x="104" y="152" width="60" height="6" rx="3" fill="var(--palette-default-text, black)" fill-opacity="0.3"/>
+<g opacity="0.01">
+<rect width="0.929567" height="0.929567" transform="translate(226.493 155.929)" fill="var(--palette-default-active), #1434CB"/>
+</g>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M223.14 148.493L229.282 155L223.14 161.507L221.845 160.135L226.692 155L221.845 149.865L223.14 148.493Z" fill="var(--palette-default-text, black)" fill-opacity="0.9"/>
+</svg>

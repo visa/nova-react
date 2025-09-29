@@ -15,27 +15,26 @@
  *
  **/
 import { VisaCloseTiny } from '@visa/nova-icons-react';
-import { ForwardedRef, ReactNode } from 'react';
+import { ReactNode } from 'react';
 import Button, { ButtonProperties } from '../button';
-import forwardRef from '../types';
 
 export type MessageCloseButtonProperties = {
-  /** @deprecated migrate to `aria-label` */
-  ariaLabel?: string;
-  /** @ignore */
-  children?: ReactNode;
+  /** @required */
+  children: ReactNode;
 } & ButtonProperties;
 
-const MessageCloseButton = <HTMLElementType,>(
-  { ariaLabel = 'Close', children = <VisaCloseTiny />, ...remainingProps }: MessageCloseButtonProperties,
-  ref: ForwardedRef<HTMLElementType>
+/**
+ * Close button for message component.
+ */
+const MessageCloseButton = (
+  { children = <VisaCloseTiny />, ...remainingProps }: MessageCloseButtonProperties,
+
 ) => (
-  <Button<HTMLElementType>
-    aria-label={ariaLabel}
+  <Button
+    aria-label={'Close'}
     buttonSize="small"
     colorScheme="tertiary"
     iconButton
-    ref={ref}
     subtle
     {...remainingProps}
   >
@@ -43,10 +42,7 @@ const MessageCloseButton = <HTMLElementType,>(
   </Button>
 );
 
-/**
- * Close button for message component.
- */
-export default forwardRef<MessageCloseButtonProperties, HTMLButtonElement>(MessageCloseButton);
+export default MessageCloseButton;
 
 MessageCloseButton.displayName = 'MessageCloseButton';
 

@@ -15,21 +15,18 @@
  *
  **/
 import cn from 'clsx';
-import { ForwardedRef } from 'react';
 import MessageCloseButton, { MessageCloseButtonProperties } from '../message-close-button';
-import forwardRef from '../types';
 
 export type FlagCloseButtonProperties = MessageCloseButtonProperties;
-
-const FlagCloseButton = <HTMLElementType,>(
-  { className, ...remainingProps }: FlagCloseButtonProperties,
-  ref: ForwardedRef<HTMLElementType>
-) => <MessageCloseButton<HTMLElementType> className={cn('-v-mt-8 -v-mr-8', className)} ref={ref} {...remainingProps} />;
 
 /**
  * Close button to dismiss a flag message.
  * @docs {@link https://design.visa.com/react/components/flag | See Docs}
  */
-export default forwardRef<FlagCloseButtonProperties, HTMLButtonElement>(FlagCloseButton);
+const FlagCloseButton = (
+  { children, className, ...remainingProps }: FlagCloseButtonProperties,
+) => <MessageCloseButton className={cn('-v-mt-8 -v-mr-8', className)} {...remainingProps}>{children}</MessageCloseButton>;
+
+export default FlagCloseButton;
 
 FlagCloseButton.displayName = 'FlagCloseButton';

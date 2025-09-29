@@ -15,24 +15,21 @@
  *
  **/
 import cn from 'clsx';
-import { ForwardedRef } from 'react';
 import Surface, { SurfaceProperties } from '../surface';
-import forwardRef from '../types';
 
 const CSS_PREFIX = 'v-input-container';
 
 export type InputContainerProperties = SurfaceProperties;
-
-const InputContainer = <HTMLElementType,>(
-  { className, ...remainingProps }: InputContainerProperties,
-  ref: ForwardedRef<HTMLElementType>
-) => <Surface className={cn(CSS_PREFIX, className)} ref={ref} {...remainingProps} />;
 
 /**
  * Container for styling input elements.
  * @docs {@link https://design.visa.com/react/components/input | See Docs}
  * @related combobox, input, select, textarea
  */
-export default forwardRef<InputContainerProperties, HTMLDivElement>(InputContainer);
+const InputContainer = (
+  { className, ...remainingProps }: InputContainerProperties,
+) => <Surface className={cn(CSS_PREFIX, className)}{...remainingProps} />;
+
+export default InputContainer;
 
 InputContainer.displayName = 'InputContainer';

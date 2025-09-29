@@ -15,26 +15,23 @@
  *
  **/
 import cn from 'clsx';
-import { ForwardedRef } from 'react';
 import Message, { MessageProperties } from '../message';
-import forwardRef from '../types';
 
 const CSS_PREFIX = 'v-flag';
 
 export type FlagProperties = MessageProperties;
 
-const Flag = <HTMLElementType,>(
-  { className, ...remainingProps }: FlagProperties,
-  ref: ForwardedRef<HTMLElementType>
-) => <Message<HTMLElementType> className={cn(CSS_PREFIX, className)} ref={ref} {...remainingProps} />;
-
 /**
  * Messages that provide low-priority updates about a process or event
  * @docs {@link https://design.visa.com/react/components/flag | See Docs}
- * @related flag-close-button, message-content, message-icon
+ * @related flag-close-button, message-content
  * @vgar TODO
  * @wcag TODO
  */
-export default forwardRef<FlagProperties, HTMLDivElement>(Flag);
+const Flag = (
+  { className, ...remainingProps }: FlagProperties,
+) => <Message className={cn(CSS_PREFIX, className)} {...remainingProps} />;
+
+export default Flag;
 
 Flag.displayName = 'Flag';

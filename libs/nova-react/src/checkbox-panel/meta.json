@@ -1,15 +1,9 @@
 {
   "description": "Container to be used with checkbox component to add border and background color.",
-  "displayName": "CheckboxPanel",
+  "displayName": "checkboxpanel",
   "filePath": "/checkbox-panel/index.tsx",
-  "gitLink": "https://stash.trusted.visa.com:7990/projects/VC/repos/nova-react/browse/libs/nova-react/src/checkbox-panel/index.tsx",
+  "gitLink": "https://github.com/visa/nova-react/blob/main/libs/nova-react/src/checkbox-panel/index.tsx",
   "props": [
-    {
-      "description": "This is a useRef",
-      "name": "ref",
-      "required": false,
-      "type": "ForwardedRef<HTMLElementType>"
-    },
     {
       "description": "Tag of Component",
       "name": "tag",

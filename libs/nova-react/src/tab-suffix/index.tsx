@@ -15,43 +15,37 @@
  *
  **/
 import cn from 'clsx';
-import { ForwardedRef, ReactElement, cloneElement } from 'react';
-import forwardRef, { DefaultProperties } from '../types';
+import { ComponentPropsWithRef, ElementType, ReactElement, cloneElement } from 'react';
 
 const CSS_PREFIX = 'v-tab-suffix';
 
-export type TabSuffixProperties = {
-  /** @ignore */
-  className?: string;
-} & (
+export type TabSuffixProperties<ET extends ElementType = 'div',> = (
+  {
+    /** Child element that the styles are applies to. Only allows for single child element. (not compatible with element property) */
+    children: ReactElement<ComponentPropsWithRef<ET>>;
+    /** Cloned Element (not compatible with children) */
+    element?: never;
+  }
   | {
-      /** Child element that the styles are applies to. Only allows for single child element. (not compatible with element property) */
-      children: ReactElement;
-      /** Cloned Element (not compatible with children) */
-      element?: never;
-    }
-  | {
-      /** Child element that the styles are applies to. Only allows for single child element. (not compatible with element property) */
-      children?: never;
-      /** Cloned Element (not compatible with children) */
-      element: ReactElement;
-    }
-);
-
-const TabSuffix = <HTMLElementType,>(
-  { children, className, element, ...remainingProps }: TabSuffixProperties,
-  ref: ForwardedRef<HTMLElementType>
-) =>
-  cloneElement<TabSuffixProperties & DefaultProperties<HTMLElementType>>(children || element, {
-    className: cn(CSS_PREFIX, className, children?.props.className, element?.props.className),
-    ref,
-    ...remainingProps,
-  });
+    /** Child element that the styles are applies to. Only allows for single child element. (not compatible with element property) */
+    children?: never;
+    /** Cloned Element (not compatible with children) */
+    element: ReactElement<ComponentPropsWithRef<ET>>
+  }
+) & Omit<ComponentPropsWithRef<ET>, ''>;
 
 /**
  * Utility class for positioning and styling elements at the end of tab components.
  * @docs {@link https://design.visa.com/react/components/tabs | See Docs}
  */
-export default forwardRef<TabSuffixProperties, HTMLDivElement>(TabSuffix);
+const TabSuffix = <ET extends ElementType = 'div',>(
+  { children, className, element, ...remainingProps }: TabSuffixProperties<ET>,
+) =>
+  cloneElement<TabSuffixProperties>(children || element, {
+    className: cn(CSS_PREFIX, className, children?.props.className, element?.props.className),
+    ...remainingProps,
+  });
+
+export default TabSuffix;
 
 TabSuffix.displayName = 'TabSuffix';

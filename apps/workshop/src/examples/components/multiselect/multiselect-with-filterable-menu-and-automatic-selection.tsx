@@ -187,7 +187,7 @@ export const MultiselectWithFilterableMenuAndAutomaticSelection = () => {
         >
           <Listbox {...getMenuProps()}>
             {items.map((item, index) => (
-              <ListboxItem<HTMLLIElement>
+              <ListboxItem<'li'>
                 key={`${id}-example-${index}`}
                 className={highlightedIndex === index ? 'v-listbox-item-highlighted' : ''}
                 {...getItemProps({

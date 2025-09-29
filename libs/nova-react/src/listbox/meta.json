@@ -1,20 +1,14 @@
 {
   "description": "Container that displays a list of items available for selection.",
-  "displayName": "Listbox",
+  "displayName": "listbox",
   "filePath": "/listbox/index.tsx",
-  "gitLink": "https://stash.trusted.visa.com:7990/projects/VC/repos/nova-react/browse/libs/nova-react/src/listbox/index.tsx",
+  "gitLink": "https://github.com/visa/nova-react/blob/main/libs/nova-react/src/listbox/index.tsx",
   "props": [
     {
       "description": "Multiselect",
       "name": "multiselect",
       "required": false,
       "type": "boolean"
-    },
-    {
-      "description": "This is a useRef",
-      "name": "ref",
-      "required": false,
-      "type": "ForwardedRef<HTMLElementType>"
     },
     {
       "description": "Scroll",
@@ -30,13 +24,13 @@
       "type": "ElementType"
     }
   ],
+  "vgar": "TODO",
+  "wcag": "TODO",
+  "docs": "{@link https://design.visa.com/react/components/listbox See Docs}",
+  "testAvg": 100,
   "related": [
     "listbox-container",
     "listbox-item",
     "use-listbox"
-  ],
-  "vgar": "TODO",
-  "wcag": "TODO",
-  "docs": "{@link https://design.visa.com/react/components/listbox See Docs}",
-  "testAvg": 100
+  ]
 }

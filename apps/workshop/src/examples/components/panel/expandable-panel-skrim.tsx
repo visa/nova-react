@@ -46,7 +46,7 @@ export const ModalExpandablePanelWithSkrim = () => {
       </UtilityFragment>
 
       <UtilityFragment vMarginLeft="auto">
-        <Panel
+        <Panel<'dialog'>
           expandable
           onKeyDown={e => onKeyNavigation(e, ref.current?.open)}
           ref={ref}

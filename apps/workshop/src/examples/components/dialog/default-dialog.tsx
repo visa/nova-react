@@ -14,6 +14,7 @@
  * limitations under the License.
  *
  **/
+import { VisaCloseTiny } from '@visa/nova-icons-react';
 import {
   Button,
   Dialog,
@@ -51,7 +52,9 @@ export const DefaultDialog = () => {
             <Button colorScheme="secondary">Secondary action</Button>
           </Utility>
         </DialogContent>
-        <DialogCloseButton onClick={() => ref.current?.close()} />
+        <DialogCloseButton onClick={() => ref.current?.close()}>
+          <VisaCloseTiny />
+        </DialogCloseButton>
       </Dialog>
     </>
   );

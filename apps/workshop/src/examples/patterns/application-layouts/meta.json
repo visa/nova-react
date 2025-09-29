@@ -1,0 +1,168 @@
+{
+  "horizontal-application-layout": {
+    "file": "horizontal-application-layout.tsx",
+    "id": "horizontal-application-layout",
+    "title": "Horizontal application layout",
+    "testAvg": 100,
+    "tags": {
+      "patterns": true,
+      "isShared": false
+    },
+    "subComponents": [
+      "horizontal-nav-layout",
+      "styles-horizontal"
+    ]
+  },
+  "vertical-application-layout": {
+    "file": "vertical-application-layout.tsx",
+    "id": "vertical-application-layout",
+    "title": "Vertical application layout",
+    "testAvg": 100,
+    "tags": {
+      "patterns": true,
+      "isShared": false
+    },
+    "subComponents": [
+      "vertical-nav-layout",
+      "styles-vertical"
+    ]
+  },
+  "mixed-application-layout": {
+    "file": "mixed-application-layout.tsx",
+    "id": "mixed-application-layout",
+    "title": "Mixed application layout",
+    "testAvg": 100,
+    "tags": {
+      "patterns": true,
+      "isShared": false
+    },
+    "subComponents": [
+      "alternate-horizontal-nav-layout",
+      "vertical-mixed-nav-layout",
+      "styles-mixed"
+    ]
+  },
+  "stacked-horizontal-application-layout": {
+    "file": "stacked-horizontal-application-layout.tsx",
+    "id": "stacked-horizontal-application-layout",
+    "title": "Stacked horizontal application layout",
+    "testAvg": 100,
+    "tags": {
+      "patterns": true,
+      "isShared": false
+    },
+    "subComponents": [
+      "stacked-horizontal-nav-layout",
+      "styles-stacked"
+    ]
+  },
+  "horizontal-nav-layout": {
+    "file": "horizontal-nav-layout.tsx",
+    "id": "horizontal-nav-layout",
+    "title": "Horizontal nav",
+    "testAvg": 100,
+    "tags": {
+      "patterns": true,
+      "isShared": false,
+      "isSubComponent": true
+    }
+  },
+  "alternate-horizontal-nav-layout": {
+    "file": "alternate-horizontal-nav-layout.tsx",
+    "id": "alternate-horizontal-nav-layout",
+    "title": "Alternate horizontal nav",
+    "testAvg": 100,
+    "tags": {
+      "patterns": true,
+      "isShared": false,
+      "isSubComponent": true
+    }
+  },
+  "vertical-nav-layout": {
+    "file": "vertical-nav-layout.tsx",
+    "id": "vertical-nav-layout",
+    "title": "Vertical nav",
+    "testAvg": 100,
+    "tags": {
+      "patterns": true,
+      "isShared": false,
+      "isSubComponent": true
+    }
+  },
+  "vertical-mixed-nav-layout": {
+    "file": "vertical-mixed-nav-layout.tsx",
+    "id": "vertical-mixed-nav-layout",
+    "title": "Vertical mixed nav",
+    "testAvg": 100,
+    "tags": {
+      "patterns": true,
+      "isShared": false,
+      "isSubComponent": true
+    }
+  },
+  "stacked-horizontal-nav-layout": {
+    "file": "stacked-horizontal-nav-layout.tsx",
+    "id": "stacked-horizontal-nav-layout",
+    "title": "Stacked horizontal nav",
+    "testAvg": 100,
+    "tags": {
+      "patterns": true,
+      "isShared": false,
+      "isSubComponent": true
+    }
+  },
+  "footer-layout": {
+    "file": "footer-layout.tsx",
+    "id": "footer-layout",
+    "title": "Footer layout",
+    "testAvg": 100,
+    "tags": {
+      "patterns": true,
+      "isShared": true
+    }
+  },
+  "styles-horizontal": {
+    "file": "styles-horizontal.css",
+    "id": "styles-horizontal",
+    "title": "Styles horizontal",
+    "testAvg": 100,
+    "tags": {
+      "patterns": true,
+      "isShared": false,
+      "isSubComponent": true
+    }
+  },
+  "styles-stacked": {
+    "file": "styles-stacked.css",
+    "id": "styles-stacked",
+    "title": "Styles stacked",
+    "testAvg": 100,
+    "tags": {
+      "patterns": true,
+      "isShared": false,
+      "isSubComponent": true
+    }
+  },
+  "styles-vertical": {
+    "file": "styles-vertical.css",
+    "id": "styles-vertical",
+    "title": "Styles vertical",
+    "testAvg": 100,
+    "tags": {
+      "patterns": true,
+      "isShared": false,
+      "isSubComponent": true
+    }
+  },
+  "styles-mixed": {
+    "file": "styles-mixed.css",
+    "id": "styles-mixed",
+    "title": "Styles mixed",
+    "testAvg": 100,
+    "tags": {
+      "patterns": true,
+      "isShared": false,
+      "isSubComponent": true
+    }
+  }
+}

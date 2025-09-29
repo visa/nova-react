@@ -2,7 +2,7 @@
   "description": "This hook is used to manage pagination events, state, and visible page blocks.",
   "displayName": "usePagination",
   "filePath": "/use-pagination/index.ts",
-  "gitLink": "https://stash.trusted.visa.com:7990/projects/VC/repos/nova-react/browse/libs/nova-react/src/use-pagination/index.ts",
+  "gitLink": "https://github.com/visa/nova-react/blob/main/libs/nova-react/src/use-pagination/index.ts",
   "props": [
     {
       "defaultValue": 1,

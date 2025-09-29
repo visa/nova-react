@@ -45,7 +45,7 @@ export const CVVInput = () => {
   };
 
   return (
-    <Utility noValidate onReset={onReset} onSubmit={onSubmit} tag="form" vFlex vFlexCol vGap={4}>
+    <Utility<'form'> noValidate onReset={onReset} onSubmit={onSubmit} tag="form" vFlex vFlexCol vGap={4}>
       <Label htmlFor={id}>Security code</Label>
       <InputContainer>
         <Input

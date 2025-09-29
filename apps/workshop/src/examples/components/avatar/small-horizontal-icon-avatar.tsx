@@ -67,12 +67,12 @@ export const SmallHorizontalIconAvatar = () => {
               {...getFloatingProps()}
             >
               <UtilityFragment vFlex vJustifyContent="start" vPaddingHorizontal={8} vPaddingVertical={11}>
-                <Button buttonSize="large" colorScheme="tertiary" tag="a" href="./avatar">
+                <Button<'a'> buttonSize="large" colorScheme="tertiary" tag="a" href="./avatar">
                   L2 label 1
                 </Button>
               </UtilityFragment>
               <UtilityFragment vFlex vJustifyContent="start" vPaddingHorizontal={8} vPaddingVertical={11}>
-                <Button buttonSize="large" colorScheme="tertiary" tag="a" href="./avatar">
+                <Button<'a'> buttonSize="large" colorScheme="tertiary" tag="a" href="./avatar">
                   L2 label 2
                 </Button>
               </UtilityFragment>

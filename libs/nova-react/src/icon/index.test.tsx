@@ -44,7 +44,7 @@ describe('Icon', () => {
 
   it('should have the correct aria-labelledby', () => {
     const { container } = render(<Icon description="test-description" title="test-title" />);
-    expect(container.firstElementChild?.getAttribute('aria-labelledby')).toBe('title-:r2:,description-:r2:');
+    expect(container.firstElementChild?.getAttribute('aria-labelledby')).toBe('title-«r2»,description-«r2»');
   });
 
   it('should have the correct aria-labelledby with ariaBaseId', () => {
@@ -54,12 +54,12 @@ describe('Icon', () => {
 
   it('should have the correct aria-labelledby with description only', () => {
     const { container } = render(<Icon description="test-description" />);
-    expect(container.firstElementChild?.getAttribute('aria-labelledby')).toBe('description-:r4:');
+    expect(container.firstElementChild?.getAttribute('aria-labelledby')).toBe('description-«r4»');
   });
 
   it('should have the correct aria-labelledby with title only', () => {
     const { container } = render(<Icon title="test-title" />);
-    expect(container.firstElementChild?.getAttribute('aria-labelledby')).toBe('title-:r5:');
+    expect(container.firstElementChild?.getAttribute('aria-labelledby')).toBe('title-«r5»');
   });
 
   it('should render the icon with the correct high resolution', () => {

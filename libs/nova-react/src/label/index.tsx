@@ -15,28 +15,25 @@
  *
  **/
 import cn from 'clsx';
-import { ForwardedRef, ElementType } from 'react';
-import forwardRef from '../types';
+import { ComponentPropsWithRef, ElementType } from 'react';
 
 const CSS_PREFIX = 'v-label';
 
-export type LabelProperties = {
-  /** @ignore */
-  className?: string;
+export type LabelProperties<ET extends ElementType = 'label',> = {
+
   /** Tag of Component */
   tag?: ElementType;
-};
-
-const Label = <HTMLElementType,>(
-  { className, tag: Tag = 'label', ...remainingProps }: LabelProperties,
-  ref: ForwardedRef<HTMLElementType>
-) => <Tag className={cn(CSS_PREFIX, className)} ref={ref} {...remainingProps} />;
+} & ComponentPropsWithRef<ET>;
 
 /**
  * Component used to label form elements.
  * @docs {@link https://design.visa.com/react/components | See Docs}
  */
-export default forwardRef<LabelProperties, HTMLLabelElement>(Label);
+const Label = <ET extends ElementType = 'label',>(
+  { className, tag: Tag = 'label', ...remainingProps }: LabelProperties<ET>,
+) => <Tag className={cn(CSS_PREFIX, className)} {...remainingProps} />;
+
+export default Label;
 
 Label.defaultProps = {
   tag: 'label',

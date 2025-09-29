@@ -1,8 +1,0 @@
-{
-  "description": "{@link https://productdesignsystem.visa.com/react/components/dialog See Docs}",
-  "displayName": "DialogIcon",
-  "filePath": "/dialog-icon/index.tsx",
-  "gitLink": "https://stash.trusted.visa.com:7990/projects/VC/repos/nova-react/browse/libs/nova-react/src/dialog-icon/index.tsx",
-  "props": [],
-  "testAvg": 100
-}

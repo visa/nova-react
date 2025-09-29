@@ -15,37 +15,18 @@
  *
  **/
 import cn from 'clsx';
-import { ElementType, ForwardedRef } from 'react';
-import forwardRef from '../types';
+import { ComponentPropsWithRef, ElementType } from 'react';
 
 const CSS_PREFIX = 'v-content-card';
 
-export type ContentCardProperties = {
+export type ContentCardProperties<ET extends ElementType = 'div',> = {
   /** Show bottom border on content card */
   borderBlockEnd?: boolean;
-  /** @ignore */
-  className?: string;
   /** Card Clickable */
   clickable?: boolean;
   /** Tag of Component */
   tag?: ElementType;
-};
-
-const ContentCard = <HTMLElementType,>(
-  { borderBlockEnd, className, clickable, tag: Tag = 'div', ...remainingProps }: ContentCardProperties,
-  ref: ForwardedRef<HTMLElementType>
-) => (
-  <Tag
-    className={cn(
-      CSS_PREFIX,
-      borderBlockEnd && `${CSS_PREFIX}-border-block-end`,
-      clickable && `${CSS_PREFIX}-clickable`,
-      className
-    )}
-    ref={ref}
-    {...remainingProps}
-  />
-);
+} & ComponentPropsWithRef<ET>;
 
 /**
  * Compact displays summarizing or directing users to more information.
@@ -54,7 +35,21 @@ const ContentCard = <HTMLElementType,>(
  * @vgar TODO
  * @wcag TODO
  */
-export default forwardRef<ContentCardProperties, HTMLDivElement>(ContentCard);
+const ContentCard = <ET extends ElementType = 'div',>(
+  { borderBlockEnd, className, clickable, tag: Tag = 'div', ...remainingProps }: ContentCardProperties<ET>,
+) => (
+  <Tag
+    className={cn(
+      CSS_PREFIX,
+      borderBlockEnd && `${CSS_PREFIX}-border-block-end`,
+      clickable && `${CSS_PREFIX}-clickable`,
+      className
+    )}
+    {...remainingProps}
+  />
+);
+
+export default ContentCard;
 
 ContentCard.defaultProps = {
   tag: 'div',

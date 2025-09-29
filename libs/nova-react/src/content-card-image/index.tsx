@@ -15,28 +15,24 @@
  *
  **/
 import cn from 'clsx';
-import { ElementType, ForwardedRef } from 'react';
-import forwardRef from '../types';
+import { ComponentPropsWithRef, ElementType } from 'react';
 
 const CSS_PREFIX = 'v-content-card-image';
 
-export type ContentCardImageProperties = {
-  /** @ignore */
-  className?: string;
+export type ContentCardImageProperties<ET extends ElementType = 'div',> = {
   /** Tag of Component */
   tag?: ElementType;
-};
-
-const ContentCardImage = <HTMLElementType,>(
-  { className, tag: Tag = 'div', ...remainingProps }: ContentCardImageProperties,
-  ref: ForwardedRef<HTMLElementType>
-) => <Tag className={cn(CSS_PREFIX, className)} ref={ref} {...remainingProps} />;
+} & ComponentPropsWithRef<ET>;
 
 /**
  * Hero image for content card.
  * @docs {@link https://design.visa.com/react/components/content-card | See Docs}
  */
-export default forwardRef<ContentCardImageProperties, HTMLDivElement>(ContentCardImage);
+const ContentCardImage = <ET extends ElementType = 'div',>(
+  { className, tag: Tag = 'div', ...remainingProps }: ContentCardImageProperties<ET>,
+) => <Tag className={cn(CSS_PREFIX, className)} {...remainingProps} />;
+
+export default ContentCardImage;
 
 ContentCardImage.defaultProps = {
   tag: 'div',

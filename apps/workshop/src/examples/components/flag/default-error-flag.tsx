@@ -14,16 +14,20 @@
  * limitations under the License.
  *
  **/
-import { Flag, FlagCloseButton, FlagContent, FlagIcon, ScreenReader } from '@visa/nova-react';
+import { MessageIcon, VisaCloseTiny } from '@visa/nova-icons-react';
+import { Flag, FlagCloseButton, FlagContent, ScreenReader } from '@visa/nova-react';
 
 export const DefaultErrorFlag = () => {
   return (
     <Flag messageType="error">
-      <FlagIcon />
+      <MessageIcon messageType="error" />
       <FlagContent className="v-pl-2 v-pb-2" role="alert" aria-live="polite">
         <ScreenReader>error</ScreenReader>
-        This is required text that describes the flag in more detail.</FlagContent>
-      <FlagCloseButton />
+        This is required text that describes the flag in more detail.
+      </FlagContent>
+      <FlagCloseButton>
+        <VisaCloseTiny />
+      </FlagCloseButton>
     </Flag>
   );
 };

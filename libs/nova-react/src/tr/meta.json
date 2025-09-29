@@ -2,15 +2,8 @@
   "description": "Table row component.",
   "displayName": "Tr",
   "filePath": "/tr/index.tsx",
-  "gitLink": "https://stash.trusted.visa.com:7990/projects/VC/repos/nova-react/browse/libs/nova-react/src/tr/index.tsx",
-  "props": [
-    {
-      "description": "This is a useRef",
-      "name": "ref",
-      "required": false,
-      "type": "ForwardedRef<HTMLElementType>"
-    }
-  ],
+  "gitLink": "https://github.com/visa/nova-react/blob/main/libs/nova-react/src/tr/index.tsx",
+  "props": [],
   "docs": "{@link https://design.visa.com/react/components/table See Docs}",
   "testAvg": 100
 }

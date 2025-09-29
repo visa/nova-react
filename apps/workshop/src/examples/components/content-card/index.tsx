@@ -14,18 +14,13 @@
  * limitations under the License.
  *
  **/
+import { MessageIcon } from '@visa/nova-icons-react';
+import { SectionMessage, SectionMessageContent, Typography, UtilityFragment } from '@visa/nova-react';
 import { ExampleIndex } from '../../../types';
-import {
-  SectionMessage,
-  SectionMessageContent,
-  SectionMessageIcon,
-  Typography,
-  UtilityFragment,
-} from '@visa/nova-react';
 
 const NoteAboutHeadings = () => (
   <SectionMessage>
-    <SectionMessageIcon />
+    <MessageIcon />
     <UtilityFragment vFlex vFlexCol vGap={6}>
       <SectionMessageContent>
         <Typography tag="h2" variant="body-2-bold">

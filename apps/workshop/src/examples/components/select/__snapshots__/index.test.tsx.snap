@@ -1,4 +1,4 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
 
 exports[`Select examples Default select should render correctly 1`] = `
 <div>
@@ -192,10 +192,10 @@ exports[`Select examples Read-only select should render correctly 1`] = `
       class="v-surface v-input-container"
     >
       <select
+        aria-readonly="true"
         class="v-input"
         id="read-only-select"
         name="read-only-select-name"
-        readonly=""
         required=""
       >
         <option

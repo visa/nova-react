@@ -53,9 +53,9 @@ export const stateReducer = <ItemType,>(
   // this prevents on mouse hover, the item in the list is automatic selected
   type === useCombobox.stateChangeTypes.ItemMouseMove || type === useCombobox.stateChangeTypes.MenuMouseLeave
     ? {
-        ...changes, // default Downshift new state changes on item selection.
-        highlightedIndex: state.highlightedIndex,
-      }
+      ...changes, // default Downshift new state changes on item selection.
+      highlightedIndex: state.highlightedIndex,
+    }
     : changes;
 
 export const AutocompleteWithManualSelectionCombobox = () => {
@@ -79,6 +79,7 @@ export const AutocompleteWithManualSelectionCombobox = () => {
   });
 
   const { id: listboxId, ...listboxProps } = getMenuProps();
+  const resultsFound = items.length > 0;
 
   return (
     <Combobox>
@@ -92,8 +93,8 @@ export const AutocompleteWithManualSelectionCombobox = () => {
                 name="text-input-field-12"
                 type="text"
                 {...getInputProps({
-                  'aria-expanded': isOpen && items.length > 0,
-                  'aria-owns': listboxId
+                  'aria-expanded': isOpen,
+                  'aria-owns': listboxId,
                 })}
               />
               <Button
@@ -111,24 +112,23 @@ export const AutocompleteWithManualSelectionCombobox = () => {
       </UtilityFragment>
       <ListboxContainer>
         <Listbox id={listboxId} {...listboxProps}>
-          {items.length > 0 ? (
-            items.map((item, index) => (
-              <ListboxItem
-                className={highlightedIndex === index ? 'v-listbox-item-highlighted' : ''}
-                key={`manual-autocomplete-combobox-${index}`}
-                {...getItemProps({
-                  'aria-selected': inputValue === item.value,
-                  index,
-                  item,
-                })}
-              >
-                <UtilityFragment vFlexShrink0>
-                  <Radio tag="span" />
-                </UtilityFragment>
-                {item.value}
-              </ListboxItem>
-            ))
-          ) : (
+          {items.map((item, index) => (
+            <ListboxItem
+              className={highlightedIndex === index ? 'v-listbox-item-highlighted' : ''}
+              key={`manual-autocomplete-combobox-${index}`}
+              {...getItemProps({
+                'aria-selected': inputValue === item.value,
+                index,
+                item,
+              })}
+            >
+              <UtilityFragment vFlexShrink0>
+                <Radio tag="span" />
+              </UtilityFragment>
+              {item.value}
+            </ListboxItem>
+          ))}
+          {!resultsFound && (
             <UtilityFragment vFlex vJustifyContent="center" vPaddingVertical={8}>
               <li>No results found.</li>
             </UtilityFragment>

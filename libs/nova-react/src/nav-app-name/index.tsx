@@ -15,28 +15,24 @@
  *
  **/
 import cn from 'clsx';
-import { ElementType, ForwardedRef } from 'react';
-import forwardRef from '../types';
+import { ComponentPropsWithRef, ElementType } from 'react';
 
 const CSS_PREFIX = 'v-nav-app-name';
 
-export type NavAppNameProperties = {
-  /** @ignore */
-  className?: string;
+export type NavAppNameProperties<ET extends ElementType = 'div',> = {
   /** Tag of Component */
   tag?: ElementType;
-};
-
-const NavAppName = <HTMLElementType,>(
-  { className, tag: Tag = 'div', ...remainingProps }: NavAppNameProperties,
-  ref: ForwardedRef<HTMLElementType>
-) => <Tag className={cn(CSS_PREFIX, className)} ref={ref} {...remainingProps} />;
+} & ComponentPropsWithRef<ET>;
 
 /**
  * Containing element for app name styles within a Nav.
  * @docs {@link https://design.visa.com/react/components/horizontal-navigation | See Docs}
  */
-export default forwardRef<NavAppNameProperties, HTMLDivElement>(NavAppName);
+const NavAppName = <ET extends ElementType = 'div',>(
+  { className, tag: Tag = 'div', ...remainingProps }: NavAppNameProperties<ET>,
+) => <Tag className={cn(CSS_PREFIX, className)} {...remainingProps} />;
+
+export default NavAppName;
 
 NavAppName.defaultProps = {
   tag: 'div',

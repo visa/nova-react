@@ -1,20 +1,14 @@
 {
   "description": "Table header cell component usually used for titles and column/row descriptions.",
-  "displayName": "Th",
+  "displayName": "th",
   "filePath": "/th/index.tsx",
-  "gitLink": "https://stash.trusted.visa.com:7990/projects/VC/repos/nova-react/browse/libs/nova-react/src/th/index.tsx",
+  "gitLink": "https://github.com/visa/nova-react/blob/main/libs/nova-react/src/th/index.tsx",
   "props": [
     {
       "description": "Alt",
       "name": "alternate",
       "required": false,
       "type": "boolean"
-    },
-    {
-      "description": "This is a useRef",
-      "name": "ref",
-      "required": false,
-      "type": "ForwardedRef<HTMLElementType>"
     },
     {
       "defaultValue": "th",

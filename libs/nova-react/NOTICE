@@ -1,10 +1,5 @@
 {
-  "@visa/nova-icons-react@1.6.5": {
-    "licenses": "Custom: https://productdesignsystem.visa.com/",
-    "path": "node_modules/@visa/nova-icons-react",
-    "licenseFile": "node_modules/@visa/nova-icons-react/README.md"
-  },
-  "@visa/nova-styles@1.6.1": {
+  "@visa/nova-styles@1.6.4": {
     "licenses": "Apache-2.0",
     "publisher": "Visa Product Design System",
     "path": "node_modules/@visa/nova-styles",
@@ -20,13 +15,13 @@
     "path": "node_modules/clsx",
     "licenseFile": "node_modules/clsx/license"
   },
-  "react-dom@18.3.1": {
+  "react-dom@19.1.1": {
     "licenses": "MIT",
     "repository": "https://github.com/facebook/react",
     "path": "node_modules/react-dom",
     "licenseFile": "node_modules/react-dom/LICENSE"
   },
-  "react@18.3.1": {
+  "react@19.1.1": {
     "licenses": "MIT",
     "repository": "https://github.com/facebook/react",
     "path": "node_modules/react",

@@ -1,20 +1,20 @@
 {
   "description": "Container for listbox component.",
-  "displayName": "ListboxContainer",
+  "displayName": "listboxcontainer",
   "filePath": "/listbox-container/index.tsx",
-  "gitLink": "https://stash.trusted.visa.com:7990/projects/VC/repos/nova-react/browse/libs/nova-react/src/listbox-container/index.tsx",
+  "gitLink": "https://github.com/visa/nova-react/blob/main/libs/nova-react/src/listbox-container/index.tsx",
   "props": [
+    {
+      "description": "Is Disabled",
+      "name": "disabled",
+      "required": false,
+      "type": "boolean"
+    },
     {
       "description": "Error",
       "name": "error",
       "required": false,
       "type": "boolean"
-    },
-    {
-      "description": "This is a useRef",
-      "name": "ref",
-      "required": false,
-      "type": "ForwardedRef<HTMLElementType>"
     },
     {
       "defaultValue": "div",

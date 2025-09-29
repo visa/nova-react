@@ -33,7 +33,7 @@ const fetchExamplesIndex = async (docType: string, docName: string): Promise<Exa
 const DocsTemplate = () => {
   const { hash: exampleParam = '#' } = useLocation();
   const { docName = '', docType = '' } = useParams();
-  const exampleRef = useRef<HTMLDivElement>(null);
+  const exampleRef = useRef<HTMLButtonElement | null>(null);
 
   const results = useQueries({
     queries: [
@@ -82,8 +82,8 @@ const DocsTemplate = () => {
                 docType={docType as DocType}
                 key={`${docName}-example-${id}}`}
                 metaData={(examplesMetaData.data && examplesMetaData.data[id]) || {}}
-                ref={id === selectedExampleId ? exampleRef : undefined}
                 showTitleAsLink={true}
+                ref={id === selectedExampleId ? exampleRef : undefined}
                 headerTag={contentData?.headerTag ? contentData.headerTag : 'h3'}
               />
             );

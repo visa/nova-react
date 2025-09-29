@@ -14,17 +14,20 @@
  * limitations under the License.
  *
  **/
-import { Banner, BannerCloseButton, BannerContent, BannerIcon, Typography } from '@visa/nova-react';
+import { MessageIcon, VisaCloseTiny } from '@visa/nova-icons-react';
+import { Banner, BannerCloseButton, BannerContent, Typography } from '@visa/nova-react';
 
 export const TitleErrorBanner = () => {
   return (
     <Banner messageType="error">
-      <BannerIcon />
+      <MessageIcon messageType="error" />
       <BannerContent className="v-pl-2 v-pb-2">
         <Typography variant="body-2-bold">Error title</Typography>
         <Typography>This is required text that describes the banner in more detail.</Typography>
       </BannerContent>
-      <BannerCloseButton />
+      <BannerCloseButton>
+        <VisaCloseTiny />
+      </BannerCloseButton>
     </Banner>
   );
 };

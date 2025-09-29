@@ -15,31 +15,16 @@
  *
  **/
 import cn from 'clsx';
-import { ElementType, ForwardedRef } from 'react';
-import forwardRef from '../types';
+import { ComponentPropsWithRef, ElementType } from 'react';
 
 const CSS_PREFIX = 'v-radio';
 
-export type RadioProperties = {
-  /** @ignore */
-  children?: never;
-  /** @ignore */
-  className?: string;
+export type RadioProperties<ET extends ElementType = 'input',> = {
+
+
   /** Tag of Component */
   tag?: ElementType;
-};
-
-const Radio = <HTMLElementType,>(
-  { className, tag: Tag = 'input', ...remainingProps }: RadioProperties,
-  ref: ForwardedRef<HTMLElementType>
-) => (
-  <Tag
-    className={cn(CSS_PREFIX, className)}
-    ref={ref}
-    type={Tag === 'input' ? 'radio' : undefined}
-    {...remainingProps}
-  />
-);
+} & ComponentPropsWithRef<ET>;
 
 /**
  * Interactive elements that allow users to select a single option from a list.
@@ -48,7 +33,16 @@ const Radio = <HTMLElementType,>(
  * @wcag TODO
  * @related radio-panel
  */
-export default forwardRef<RadioProperties, HTMLInputElement>(Radio);
+const Radio = <ET extends ElementType = 'input',>(
+  { className, tag: Tag = 'input', ...remainingProps }: RadioProperties<ET>) => (
+  <Tag
+    className={cn(CSS_PREFIX, className)}
+    type={Tag === 'input' ? 'radio' : undefined}
+    {...remainingProps}
+  />
+);
+
+export default Radio;
 
 Radio.defaultProps = {
   tag: 'input',

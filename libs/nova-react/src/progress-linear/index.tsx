@@ -15,29 +15,29 @@
  *
  **/
 import cn from 'clsx';
-import { CSSProperties, ElementType, ForwardedRef } from 'react';
-import forwardRef from '../types';
+import { ComponentPropsWithRef, ElementType } from 'react';
 
 const CSS_PREFIX = 'v-progress';
 
-export type ProgressLinearProperties = {
-  /** @ignore */
-  children?: never;
-  /** @ignore */
-  className?: string;
+export type ProgressLinearProperties<ET extends ElementType = 'progress',> = {
   /** Is Completed */
   completed?: boolean;
   /** Is Error State */
   invalid?: boolean;
   /** Is Paused */
   paused?: boolean;
-  /** @ignore */
-  style?: CSSProperties;
   /** Tag of Component */
   tag?: ElementType;
-};
+} & ComponentPropsWithRef<ET>;
 
-const ProgressLinear = <HTMLElementType,>(
+/**
+ * Linear indicator used to show the progress of a task or process.
+ * @docs {@link https://design.visa.com/react/components/progress | See Docs}
+ * @related progress-label
+ * @vgar TODO
+ * @wcag TODO
+ */
+const ProgressLinear = <ET extends ElementType = 'progress',>(
   {
     className,
     completed,
@@ -46,8 +46,7 @@ const ProgressLinear = <HTMLElementType,>(
     style,
     tag: Tag = 'progress',
     ...remainingProps
-  }: ProgressLinearProperties,
-  ref: ForwardedRef<HTMLElementType>
+  }: ProgressLinearProperties<ET>,
 ) => (
   <Tag
     className={cn(
@@ -57,20 +56,12 @@ const ProgressLinear = <HTMLElementType,>(
       completed && `${CSS_PREFIX}-complete`,
       className
     )}
-    ref={ref}
     style={{ animationPlayState: paused ? 'paused' : 'running', ...style }}
     {...remainingProps}
   />
 );
 
-/**
- * Linear indicator used to show the progress of a task or process.
- * @docs {@link https://design.visa.com/react/components/progress | See Docs}
- * @related progress-label
- * @vgar TODO
- * @wcag TODO
- */
-export default forwardRef<ProgressLinearProperties, HTMLProgressElement>(ProgressLinear);
+export default ProgressLinear;
 
 ProgressLinear.defaultProps = {
   tag: 'progress',

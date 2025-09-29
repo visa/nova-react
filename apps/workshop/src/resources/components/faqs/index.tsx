@@ -31,7 +31,7 @@ const FAQs = () => {
           <div>
             <Link
               aria-label="Open guide in our git repository (Opens in a new tab)"
-              href="https://stash.trusted.visa.com:7990/projects/VC/repos/nova-react/browse/CONTRIBUTING.md?at=refs%2Fheads%2Fmain"
+              href="https://github.com/visa/nova-react/blob/main/CONTRIBUTING.md"
               noUnderline
               rel="noopener noreferrer"
               target="_blank"
@@ -115,14 +115,12 @@ const FAQs = () => {
           <Code
             deprecated
             exampleName="vite-plugin-svgr installation command"
-            // eslint-disable-next-line @cspell/spellchecker
             code={`\n import '@visa/vds/_stys/vds.min.css'; \n `}
             language="bash"
           />
           <Typography variant="body-2">2. Add Vault styles to your root stylesheet (e.g. index.css):</Typography>
           <Code
             exampleName="vite-plugin-svgr import"
-            // eslint-disable-next-line @cspell/spellchecker
             code={`@import url('node_modules/@visa/vds/_stys/vds-modern.min.css') layer(vendor);
             
 [class^="vds-"] {

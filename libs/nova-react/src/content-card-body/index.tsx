@@ -15,28 +15,24 @@
  *
  **/
 import cn from 'clsx';
-import { ElementType, ForwardedRef } from 'react';
-import forwardRef from '../types';
+import { ComponentPropsWithRef, ElementType } from 'react';
 
 const CSS_PREFIX = 'v-content-card-body';
 
-export type ContentCardBodyProperties = {
-  /** @ignore */
-  className?: string;
+export type ContentCardBodyProperties<ET extends ElementType = 'div',> = {
   /** Tag of Component */
   tag?: ElementType;
-};
-
-const ContentCardBody = <HTMLElementType,>(
-  { className, tag: Tag = 'div', ...remainingProps }: ContentCardBodyProperties,
-  ref: ForwardedRef<HTMLElementType>
-) => <Tag className={cn(CSS_PREFIX, className)} ref={ref} {...remainingProps} />;
+} & ComponentPropsWithRef<ET>;
 
 /**
  * Element containing the body elements of the content card.
  * @docs {@link https://design.visa.com/react/components/content-card | See Docs}
  */
-export default forwardRef<ContentCardBodyProperties, HTMLDivElement>(ContentCardBody);
+const ContentCardBody = <ET extends ElementType = 'div',>(
+  { className, tag: Tag = 'div', ...remainingProps }: ContentCardBodyProperties<ET>,
+) => <Tag className={cn(CSS_PREFIX, className)} {...remainingProps} />;
+
+export default ContentCardBody;
 
 ContentCardBody.defaultProps = {
   tag: 'div',

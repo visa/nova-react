@@ -1,20 +1,14 @@
 {
   "description": "Represents an individual step within a multi-step wizard process.",
-  "displayName": "WizardStep",
+  "displayName": "wizardstep",
   "filePath": "/wizard-step/index.tsx",
-  "gitLink": "https://stash.trusted.visa.com:7990/projects/VC/repos/nova-react/browse/libs/nova-react/src/wizard-step/index.tsx",
+  "gitLink": "https://github.com/visa/nova-react/blob/main/libs/nova-react/src/wizard-step/index.tsx",
   "props": [
     {
       "description": "Cloned Element (not compatible with tag property)",
       "name": "element",
       "required": false,
-      "type": "ReactElement<any, string | JSXElementConstructor<any>>"
-    },
-    {
-      "description": "This is a useRef",
-      "name": "ref",
-      "required": false,
-      "type": "ForwardedRef<HTMLElementType>"
+      "type": "ReactElement<ComponentPropsWithRef<ET>, string | JSXElementConstructor<any>>"
     },
     {
       "defaultValue": "li",

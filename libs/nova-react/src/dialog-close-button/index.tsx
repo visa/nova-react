@@ -15,27 +15,22 @@
  *
  **/
 import cn from 'clsx';
-import { ForwardedRef } from 'react';
 import MessageCloseButton, { MessageCloseButtonProperties } from '../message-close-button';
-import forwardRef from '../types';
 
 export type DialogCloseButtonProperties = MessageCloseButtonProperties;
-
-const DialogCloseButton = <HTMLElementType,>(
-  { className, ...remainingProps }: DialogCloseButtonProperties,
-  ref: ForwardedRef<HTMLElementType>
-) => (
-  <MessageCloseButton<HTMLElementType>
-    className={cn('-v-mt-20 -v-ml-12 -v-mr-18', className)}
-    ref={ref}
-    {...remainingProps}
-  />
-);
 
 /**
  * Button that appears in dialog pop-up windows to close them.
  * @docs {@link https://design.visa.com/react/components/dialog | See Docs}
  */
-export default forwardRef<DialogCloseButtonProperties, HTMLButtonElement>(DialogCloseButton);
+const DialogCloseButton = (
+  { children, className, ...remainingProps }: DialogCloseButtonProperties,
+) => (
+  <MessageCloseButton
+    className={cn('-v-mt-20 -v-ml-12 -v-mr-18', className)}
+    {...remainingProps}>{children}</MessageCloseButton>
+);
+
+export default DialogCloseButton;
 
 DialogCloseButton.displayName = 'DialogCloseButton';

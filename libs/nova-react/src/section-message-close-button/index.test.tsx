@@ -18,10 +18,11 @@ import { render } from '@testing-library/react';
 import { axe } from 'jest-axe';
 
 import SectionMessageCloseButton from '.';
+import { VisaCloseTiny } from '@visa/nova-icons-react';
 
 describe('SectionMessageCloseButton', () => {
   it('should render defaults correctly', async () => {
-    const { container } = render(<SectionMessageCloseButton />);
+    const { container } = render(<SectionMessageCloseButton > <VisaCloseTiny /></SectionMessageCloseButton>);
     const results = await axe(container);
     expect(results).toHaveNoViolations();
     expect(container).toMatchSnapshot();
@@ -32,19 +33,19 @@ describe('SectionMessageCloseButton', () => {
   });
 
   it('should allow custom classNames', () => {
-    const { container } = render(<SectionMessageCloseButton className="test-class" />);
+    const { container } = render(<SectionMessageCloseButton className="test-class"> <VisaCloseTiny /></SectionMessageCloseButton>);
     expect(container.firstElementChild?.className).toBe(
       'v-button v-button-small v-button-tertiary v-button-icon v-button-subtle -v-mt-8 -v-mr-8 v-ml-14 v-p-7 test-class'
     );
   });
 
   it('should allow custom element', () => {
-    const { container } = render(<SectionMessageCloseButton element={<a />} />);
+    const { container } = render(<SectionMessageCloseButton element={<a />}> <VisaCloseTiny /></SectionMessageCloseButton>);
     expect(container.firstElementChild?.tagName).toBe('A');
   });
 
   it('should permeate basic props', () => {
-    const { container } = render(<SectionMessageCloseButton aria-label="test-aria-label" id="test-id" role="menu" />);
+    const { container } = render(<SectionMessageCloseButton aria-label="test-aria-label" id="test-id" role="menu" > <VisaCloseTiny /></SectionMessageCloseButton>);
     expect(container.firstElementChild?.getAttribute('aria-label')).toBe('test-aria-label');
     expect(container.firstElementChild?.getAttribute('id')).toBe('test-id');
     expect(container.firstElementChild?.getAttribute('role')).toBe('menu');

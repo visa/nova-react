@@ -15,7 +15,7 @@
  *
  **/
 import { useQuery } from '@tanstack/react-query';
-import { VisaChevronRightTiny } from '@visa/nova-icons-react';
+import { VisaChevronDownTiny, VisaChevronRightTiny } from '@visa/nova-icons-react';
 import {
   Accordion,
   AccordionHeading,
@@ -35,7 +35,7 @@ import {
   UtilityFragment,
   Link as VLink,
 } from '@visa/nova-react';
-import { noCase, paramCase } from 'change-case';
+import { noCase, kebabCase } from 'change-case';
 import { Suspense, lazy, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Paths } from '../../routes';
@@ -67,7 +67,7 @@ const PropertiesTable = ({
   showTableOnly = false,
 }: PropertiesTableProperties) => {
   const isHook = docName.startsWith('use');
-  const paramDocName = paramCase(docName);
+  const paramDocName = kebabCase(docName);
 
   const [codeExpanded, setCodeExpanded] = useState(false);
 
@@ -171,7 +171,11 @@ const PropertiesTable = ({
             onClick={() => setCodeExpanded(!codeExpanded)}
             tag="button"
           >
-            <AccordionToggleIcon accordionOpen={codeExpanded} />
+            <AccordionToggleIcon
+              accordionOpen={codeExpanded}
+              elementClosed={<VisaChevronRightTiny rtl />}
+              elementOpen={<VisaChevronDownTiny />}
+            />
             TypeScript
             <UtilityFragment vMarginLeft="auto">
               <Badge badgeType={metaData.testAvg === 100 ? 'stable' : 'neutral'} className="v-ml-auto" tag="span">

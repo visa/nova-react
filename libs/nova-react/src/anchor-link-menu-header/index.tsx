@@ -15,28 +15,25 @@
  *
  **/
 import cn from 'clsx';
-import { ElementType, ForwardedRef } from 'react';
-import forwardRef from '../types';
+import { ComponentPropsWithRef, ElementType } from 'react';
 
 const CSS_PREFIX = 'v-anchor-link-menu-header';
 
-export type AnchorLinkMenuHeaderProperties = {
-  /** @ignore */
-  className?: string;
+export type AnchorLinkMenuHeaderProperties<ET extends ElementType = 'div',> = {
+
   /** Tag of Component */
   tag?: ElementType;
-};
-
-const AnchorLinkMenuHeader = <HTMLElementType,>(
-  { className, tag: Tag = 'div', ...remainingProps }: AnchorLinkMenuHeaderProperties,
-  ref: ForwardedRef<HTMLElementType>
-) => <Tag className={cn(CSS_PREFIX, className)} ref={ref} {...remainingProps} />;
+} & ComponentPropsWithRef<ET>;
 
 /**
  * Component containing the header of the anchor link menu.
  * @docs {@link https://design.visa.com/react/components/anchor-link-menu | See Docs}
  */
-export default forwardRef<AnchorLinkMenuHeaderProperties, HTMLElement>(AnchorLinkMenuHeader);
+const AnchorLinkMenuHeader = <ET extends ElementType = 'div',>(
+  { className, tag: Tag = 'div', ...remainingProps }: AnchorLinkMenuHeaderProperties<ET>,
+) => <Tag className={cn(CSS_PREFIX, className)} {...remainingProps} />;
+
+export default AnchorLinkMenuHeader;
 
 AnchorLinkMenuHeader.defaultProps = {
   tag: 'div',

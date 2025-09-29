@@ -35,7 +35,7 @@ export const ModalPanel = () => {
   return (
     <>
       <Button onClick={() => ref.current?.showModal()}>Open modal panel</Button>
-      <Panel
+      <Panel<'dialog'>
         aria-describedby={`${id}-description`}
         aria-labelledby={`${id}-title`}
         aria-modal="true"

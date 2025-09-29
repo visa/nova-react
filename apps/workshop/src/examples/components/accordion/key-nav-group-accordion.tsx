@@ -14,6 +14,7 @@
  * limitations under the License.
  *
  **/
+import { VisaChevronDownTiny, VisaChevronRightTiny } from '@visa/nova-icons-react';
 import {
   Accordion,
   AccordionHeading,
@@ -58,7 +59,11 @@ export const KeyNavGroupAccordion = () => {
             }}
             tag="button"
           >
-            <AccordionToggleIcon accordionOpen={isIndexExpanded(i)} />
+            <AccordionToggleIcon
+              accordionOpen={isIndexExpanded(i)}
+              elementClosed={<VisaChevronRightTiny rtl />}
+              elementOpen={<VisaChevronDownTiny />}
+            />
             {accordion.header}
           </AccordionHeading>
           <AccordionPanel aria-hidden={!isIndexExpanded(i)} id={`accordion-key-nav-group-panel-${i}`}>

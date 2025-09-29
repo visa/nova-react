@@ -69,7 +69,7 @@ describe('Combobox examples', () => {
   describe('default combobox', () => {
     it('should render correctly', async () => {
       const { container } = render(<NoAutocompleteCombobox />);
-      await act(async () => {});
+      await act(async () => { });
       const results = await axe(container);
       expect(results).toHaveNoViolations();
       expect(container).toMatchSnapshot();
@@ -105,7 +105,7 @@ describe('Combobox examples', () => {
   describe('pre-selected combobox', () => {
     it('should render correctly', async () => {
       const { container } = render(<PreSelectedCombobox />);
-      await act(async () => {});
+      await act(async () => { });
       const results = await axe(container);
       expect(results).toHaveNoViolations();
       expect(container).toMatchSnapshot();
@@ -146,7 +146,7 @@ describe('Combobox examples', () => {
   describe('inline message combobox', () => {
     it('should render correctly', async () => {
       const { container } = render(<InlineMessageCombobox />);
-      await act(async () => {});
+      await act(async () => { });
       const results = await axe(container);
       expect(results).toHaveNoViolations();
       expect(container).toMatchSnapshot();
@@ -182,7 +182,7 @@ describe('Combobox examples', () => {
   describe('error combobox', () => {
     it('should render correctly', async () => {
       const { container } = render(<ErrorCombobox />);
-      await act(async () => {});
+      await act(async () => { });
       const results = await axe(container);
       expect(results).toHaveNoViolations();
       expect(container).toMatchSnapshot();
@@ -239,7 +239,7 @@ describe('Combobox examples', () => {
   describe('clear button combobox', () => {
     it('should render correctly', async () => {
       const { container } = render(<ClearButtonCombobox />);
-      await act(async () => {});
+      await act(async () => { });
       const results = await axe(container);
       expect(results).toHaveNoViolations();
       expect(container).toMatchSnapshot();
@@ -287,7 +287,7 @@ describe('Combobox examples', () => {
   describe('leading icon combobox', () => {
     it('should render correctly', async () => {
       const { container } = render(<LeadingIconCombobox />);
-      await act(async () => {});
+      await act(async () => { });
       const results = await axe(container);
       expect(results).toHaveNoViolations();
       expect(container).toMatchSnapshot();
@@ -323,7 +323,7 @@ describe('Combobox examples', () => {
   describe('read-only combobox', () => {
     it('should render correctly', async () => {
       const { container } = render(<ReadOnlyCombobox />);
-      await act(async () => {});
+      await act(async () => { });
       const results = await axe(container);
       expect(results).toHaveNoViolations();
       expect(container).toMatchSnapshot();
@@ -338,7 +338,7 @@ describe('Combobox examples', () => {
   describe('disabled combobox', () => {
     it('should render correctly', async () => {
       const { container } = render(<DisabledCombobox />);
-      await act(async () => {});
+      await act(async () => { });
       const results = await axe(container);
       expect(results).toHaveNoViolations();
       expect(container).toMatchSnapshot();
@@ -353,7 +353,7 @@ describe('Combobox examples', () => {
   describe('combobox without chevron icon', () => {
     it('should render correctly', async () => {
       const { container } = render(<NoIconCombobox />);
-      await act(async () => {});
+      await act(async () => { });
       const results = await axe(container);
       expect(results).toHaveNoViolations();
       expect(container).toMatchSnapshot();
@@ -389,7 +389,7 @@ describe('Combobox examples', () => {
   describe('combobox with item disabled', () => {
     it('should render correctly', async () => {
       const { container } = render(<ItemDisabledCombobox />);
-      await act(async () => {});
+      await act(async () => { });
       const results = await axe(container);
       expect(results).toHaveNoViolations();
       expect(container).toMatchSnapshot();
@@ -426,7 +426,7 @@ describe('Combobox examples', () => {
   describe('autocomplete with auto selection', () => {
     it('should render correctly', async () => {
       const { container } = render(<AutocompleteWithAutomaticSelectionCombobox />);
-      await act(async () => {});
+      await act(async () => { });
       const results = await axe(container);
       expect(results).toHaveNoViolations();
       expect(container).toMatchSnapshot();
@@ -437,11 +437,12 @@ describe('Combobox examples', () => {
       fireEvent.change(input, { target: { value: 'Option A' } });
       expect(input).toHaveAttribute('aria-expanded', 'true');
     });
-    it('should closed when typing an unknown selection', () => {
+    it('should render no results found when typing an unknown selection', () => {
       const { container } = render(<AutocompleteWithAutomaticSelectionCombobox />);
       const input = container.querySelector('input')!;
-      fireEvent.change(input, { target: { value: '123456789' } });
-      expect(input).toHaveAttribute('aria-expanded', 'false');
+      fireEvent.change(input, { target: { value: '120898' } });
+      const listItem = container.querySelector('li')!;
+      expect(listItem).toHaveTextContent('No results found');
     });
     it('should return the correct state reducer', () => {
       const result = autoAutocompleteStateReducer<boolean>(
@@ -472,7 +473,7 @@ describe('Combobox examples', () => {
   describe('autocomplete with manual selection', () => {
     it('should render correctly', async () => {
       const { container } = render(<AutocompleteWithManualSelectionCombobox />);
-      await act(async () => {});
+      await act(async () => { });
       const results = await axe(container);
       expect(results).toHaveNoViolations();
       expect(container).toMatchSnapshot();
@@ -491,11 +492,12 @@ describe('Combobox examples', () => {
       fireEvent.change(input, { target: { value: 'Option A' } });
       expect(input).toHaveAttribute('aria-expanded', 'true');
     });
-    it('should closed when typing a known selection', () => {
+    it('should render no results found when typing an unknown selection', () => {
       const { container } = render(<AutocompleteWithManualSelectionCombobox />);
       const input = container.querySelector('input')!;
-      fireEvent.change(input, { target: { value: '123456789' } });
-      expect(input).toHaveAttribute('aria-expanded', 'false');
+      fireEvent.change(input, { target: { value: '120898' } });
+      const listItem = container.querySelector('li')!;
+      expect(listItem).toHaveTextContent('No results found');
     });
     it('should return the correct state reducer', () => {
       const result = manualAutocompleteStateReducer<boolean>(

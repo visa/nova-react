@@ -15,28 +15,24 @@
  *
  **/
 import cn from 'clsx';
-import { ElementType, ForwardedRef } from 'react';
-import forwardRef from '../types';
+import { ComponentPropsWithRef, ElementType } from 'react';
 
 const CSS_PREFIX = 'v-table-wrapper';
 
-export type TableWrapperProperties = {
-  /** @ignore */
-  className?: string;
+export type TableWrapperProperties<ET extends ElementType = 'div',>= {
   /** Tag of Component */
   tag?: ElementType;
-};
-
-const TableWrapper = <HTMLElementType,>(
-  { className, tag: Tag = 'div', ...remainingProps }: TableWrapperProperties,
-  ref: ForwardedRef<HTMLElementType>
-) => <Tag className={cn(CSS_PREFIX, className)} ref={ref} {...remainingProps} />;
+} & ComponentPropsWithRef<ET>;
 
 /**
  * Container for a table that adds a border with a curved radius to the table.
  * @docs {@link https://design.visa.com/react/components/table | See Docs}
  */
-export default forwardRef<TableWrapperProperties, HTMLDivElement>(TableWrapper);
+const TableWrapper = <ET extends ElementType = 'div',>(
+  { className, tag: Tag = 'div', ...remainingProps }: TableWrapperProperties<ET>,
+) => <Tag className={cn(CSS_PREFIX, className)} {...remainingProps} />;
+
+export default TableWrapper;
 
 TableWrapper.defaultProps = {
   tag: 'div',

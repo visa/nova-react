@@ -1,20 +1,14 @@
 {
   "description": "Styles text in a consistent manner.",
-  "displayName": "Typography",
+  "displayName": "typography",
   "filePath": "/typography/index.tsx",
-  "gitLink": "https://stash.trusted.visa.com:7990/projects/VC/repos/nova-react/browse/libs/nova-react/src/typography/index.tsx",
+  "gitLink": "https://github.com/visa/nova-react/blob/main/libs/nova-react/src/typography/index.tsx",
   "props": [
     {
       "description": "Color variant",
       "name": "colorScheme",
       "required": false,
-      "type": "\"default\" | \"subtle\" | \"active\" | \"on-active\""
-    },
-    {
-      "description": "This is a useRef",
-      "name": "ref",
-      "required": false,
-      "type": "ForwardedRef<HTMLElementType>"
+      "type": "\"subtle\" | \"active\" | \"default\" | \"on-active\""
     },
     {
       "defaultValue": "p",
@@ -22,6 +16,12 @@
       "name": "tag",
       "required": false,
       "type": "ElementType"
+    },
+    {
+      "description": "Style variant",
+      "name": "variant",
+      "required": false,
+      "type": "\"label\" | \"body-1\" | \"body-2-bold\" | \"body-2-link\" | \"body-2-medium\" | \"body-2\" | \"body-3\" | \"button-large\" | \"button-medium\" | \"button-small\" | \"display-1\" | \"display-2\" | \"headline-1\" | \"headline-2\" | \"headline-3\" | \"headline-4\" | \"label-active\" | \"label-large-active\" | \"label-large\" | \"label-small\" | \"overline\" | \"subtitle-1\" | \"subtitle-2\" | \"subtitle-3\""
     }
   ],
   "vgar": "TODO",

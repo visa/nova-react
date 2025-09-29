@@ -14,25 +14,27 @@
  * limitations under the License.
  *
  **/
+import { MessageIcon, VisaCloseTiny } from '@visa/nova-icons-react';
 import {
   SectionMessage,
   SectionMessageCloseButton,
   SectionMessageContent,
-  SectionMessageIcon,
   Typography,
-  UtilityFragment
+  UtilityFragment,
 } from '@visa/nova-react';
 
 export const DefaultSuccessSectionMessage = () => {
   return (
     <SectionMessage messageType="success">
-      <SectionMessageIcon />
+      <MessageIcon messageType="success" />
       <UtilityFragment vPaddingLeft={2} vPaddingBottom={2}>
         <SectionMessageContent>
           <Typography>This is required text that describes the section message in more detail.</Typography>
         </SectionMessageContent>
       </UtilityFragment>
-      <SectionMessageCloseButton />
+      <SectionMessageCloseButton>
+        <VisaCloseTiny />
+      </SectionMessageCloseButton>
     </SectionMessage>
   );
 };

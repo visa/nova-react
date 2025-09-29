@@ -14,13 +14,13 @@
  * limitations under the License.
  *
  **/
+import { MessageIcon, VisaCloseTiny } from '@visa/nova-icons-react';
 import {
   Button,
   Dialog,
   DialogCloseButton,
   DialogContent,
   DialogHeader,
-  DialogIcon,
   Typography,
   useFocusTrap,
   Utility,
@@ -45,7 +45,7 @@ export const ErrorDialog = () => {
       >
         <DialogContent>
           <DialogHeader id={`${id}-title`}>
-            <DialogIcon />
+            <MessageIcon messageType="error" />
             Error title
           </DialogHeader>
           <Typography id={`${id}-description`}>
@@ -55,7 +55,9 @@ export const ErrorDialog = () => {
             <Button>Primary action</Button>
           </Utility>
         </DialogContent>
-        <DialogCloseButton onClick={() => ref.current?.close()} />
+        <DialogCloseButton onClick={() => ref.current?.close()}>
+          <VisaCloseTiny />
+        </DialogCloseButton>
       </Dialog>
     </>
   );

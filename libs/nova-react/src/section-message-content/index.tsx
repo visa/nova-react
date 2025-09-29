@@ -16,13 +16,13 @@
  **/
 import MessageContent, { MessageContentProperties } from '../message-content';
 
-export type SectionMessageContentProperties = MessageContentProperties;
-
 /**
  * Content container to be used within a section message.
  * @displayName SectionMessageContent
  * @docs {@link https://design.visa.com/react/components/section-message | See Docs}
  */
+export type SectionMessageContentProperties = MessageContentProperties;
+
 const SectionMessageContent = MessageContent;
 
 export default SectionMessageContent;

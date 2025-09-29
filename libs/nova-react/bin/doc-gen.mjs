@@ -22,7 +22,7 @@ import { parse } from 'react-docgen-typescript';
 import createExports from './component-exports.mjs';
 
 /// Constants:
-const baseRepoPath = 'https://stash.trusted.visa.com:7990/projects/VC/repos/nova-react/browse/libs/nova-react/src';
+const baseRepoPath = 'https://github.com/visa/nova-react/blob/main/libs/nova-react/src';
 const defaultGitLogOptions = {
   repo: resolve('../../'),
   number: 1,

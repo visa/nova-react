@@ -15,24 +15,14 @@
  *
  **/
 import cn from 'clsx';
-import { ElementType, ForwardedRef } from 'react';
-import forwardRef from '../types';
+import { ComponentPropsWithRef, ElementType } from 'react';
 
 const CSS_PREFIX = 'v-switch';
 
-export type SwitchProperties = {
-  /** @ignore */
-  children?: never;
-  /** @ignore */
-  className?: string;
+export type SwitchProperties<ET extends ElementType = 'input',> = {
   /** Tag of Component */
   tag?: ElementType;
-};
-
-const Switch = <HTMLElementType,>(
-  { className, tag: Tag = 'input', ...remainingProps }: SwitchProperties,
-  ref: ForwardedRef<HTMLElementType>
-) => <Tag className={cn(CSS_PREFIX, className)} ref={ref} role="switch" type="checkbox" {...remainingProps} />;
+} & ComponentPropsWithRef<ET>;
 
 /**
  * Binary control that allows users to toggle between two states, such as on/off.
@@ -41,7 +31,11 @@ const Switch = <HTMLElementType,>(
  * @vgar TODO
  * @wcag TODO
  */
-export default forwardRef<SwitchProperties, HTMLInputElement>(Switch);
+const Switch = <ET extends ElementType = 'input',>(
+  { className, tag: Tag = 'input', ...remainingProps }: SwitchProperties<ET>,
+) => <Tag className={cn(CSS_PREFIX, className)} role="switch" type="checkbox" {...remainingProps} />;
+
+export default Switch;
 
 Switch.defaultProps = {
   tag: 'input',

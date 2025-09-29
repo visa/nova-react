@@ -14,7 +14,7 @@
  * limitations under the License.
  *
  **/
-import { paramCase } from 'change-case';
+import { kebabCase } from 'change-case';
 import { existsSync, readFileSync, writeFileSync } from 'fs';
 import { globSync } from 'glob';
 import { join, parse, resolve } from 'path';
@@ -94,7 +94,7 @@ const getLibData = () => {
     const parsedFile = parse(filePath);
     const componentDirPath = join(pathToLibSrc, parsedFile.dir);
     const componentMetaData = objectFromJsonPath(join(componentDirPath, metaDataFilename));
-    const componentId = paramCase(componentMetaData.displayName);
+    const componentId = kebabCase(componentMetaData.displayName);
     const examples = getExamples(componentId);
     metaData[componentId] = {
       ...componentMetaData,

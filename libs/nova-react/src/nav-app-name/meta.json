@@ -1,15 +1,9 @@
 {
   "description": "Containing element for app name styles within a Nav.",
-  "displayName": "NavAppName",
+  "displayName": "navappname",
   "filePath": "/nav-app-name/index.tsx",
-  "gitLink": "https://stash.trusted.visa.com:7990/projects/VC/repos/nova-react/browse/libs/nova-react/src/nav-app-name/index.tsx",
+  "gitLink": "https://github.com/visa/nova-react/blob/main/libs/nova-react/src/nav-app-name/index.tsx",
   "props": [
-    {
-      "description": "This is a useRef",
-      "name": "ref",
-      "required": false,
-      "type": "ForwardedRef<HTMLElementType>"
-    },
     {
       "defaultValue": "div",
       "description": "Tag of Component",

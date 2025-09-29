@@ -14,20 +14,25 @@
  * limitations under the License.
  *
  **/
+import { MessageIcon } from '@visa/nova-icons-react';
+import { SectionMessage, SectionMessageContent, Typography } from '@visa/nova-react';
 import { ExampleIndex } from '../../../types';
-import { SectionMessage, SectionMessageContent, SectionMessageIcon, Typography } from '@visa/nova-react';
-
 
 const ExampleIntro = () => (
   <SectionMessage>
-    <SectionMessageIcon />
+    <MessageIcon />
     <SectionMessageContent>
       <Typography tag="h2" variant="body-2-bold">
-      Set the message headings as needed for your use case.
+        Set the message headings as needed for your use case.
       </Typography>
       <Typography>The examples below use heading tags where titles are present.</Typography>
-      <Typography>In our demo examples, we use h4 headings following our application's hierarchical structure.</Typography>
-      <Typography>It is essential that you adjust these heading levels to match the structural needs of your application for optimal semantic accuracy and accessibility.</Typography>
+      <Typography>
+        In our demo examples, we use h4 headings following our application's hierarchical structure.
+      </Typography>
+      <Typography>
+        It is essential that you adjust these heading levels to match the structural needs of your application for
+        optimal semantic accuracy and accessibility.
+      </Typography>
     </SectionMessageContent>
   </SectionMessage>
 );

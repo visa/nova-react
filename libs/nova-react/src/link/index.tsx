@@ -15,16 +15,13 @@
  *
  **/
 import cn from 'clsx';
-import { ElementType, ForwardedRef, HTMLAttributes, ReactElement, cloneElement } from 'react';
-import forwardRef from '../types';
+import { ComponentPropsWithRef, ElementType, HTMLAttributes, ReactElement, cloneElement } from 'react';
 
 const CSS_PREFIX = 'v-link';
 
-export type LinkProperties = {
+export type LinkProperties<ET extends ElementType = 'a',> = {
   /** Alternate color scheme */
   alternate?: boolean;
-  /** @ignore */
-  className?: string;
   /** Disabled */
   disabled?: HTMLAttributes<HTMLElement>['aria-disabled'];
   /** No Underline */
@@ -32,23 +29,28 @@ export type LinkProperties = {
   /** Skip Link */
   skipLink?: boolean;
 } & (
-  | {
+    | {
       /** Cloned Element (not compatible with tag property) */
       element?: never;
       /** Tag (not compatible with element property) */
       tag?: ElementType;
     }
-  | {
+    | {
       /** Cloned Element (not compatible with tag property) */
-      element?: ReactElement;
+      element?: ReactElement<ComponentPropsWithRef<ET>>;
       /** Tag (not compatible with element property) */
       tag?: never;
     }
-);
+  ) & Omit<ComponentPropsWithRef<ET>, ''>;
 
-const Link = <HTMLElementType,>(
-  { alternate, className, disabled, element, noUnderline, skipLink, tag: Tag = 'a', ...remainingProps }: LinkProperties,
-  ref: ForwardedRef<HTMLElementType>
+/**
+ * Text-based navigation elements that directs users to another destination.
+ * @docs {@link https://design.visa.com/react/components/link | See Docs}
+ * @vgar TODO
+ * @wcag TODO
+ */
+const Link = <ET extends ElementType = 'a',>(
+  { alternate, className, disabled, element, noUnderline, skipLink, tag: Tag = 'a', ...remainingProps }: LinkProperties<ET>,
 ) => {
   const classNames = cn(
     CSS_PREFIX,
@@ -59,23 +61,17 @@ const Link = <HTMLElementType,>(
     className
   );
   return !element ? (
-    <Tag aria-disabled={disabled} className={classNames} ref={ref} {...remainingProps} />
+    <Tag aria-disabled={disabled} className={classNames} {...remainingProps} />
   ) : (
-    cloneElement(element, {
+    cloneElement<LinkProperties>(element, {
       'aria-disabled': disabled,
       className: classNames,
-      ref,
       ...remainingProps,
     })
   );
 };
-/**
- * Text-based navigation elements that directs users to another destination.
- * @docs {@link https://design.visa.com/react/components/link | See Docs}
- * @vgar TODO
- * @wcag TODO
- */
-export default forwardRef<LinkProperties, HTMLAnchorElement>(Link);
+
+export default Link;
 
 Link.defaultProps = {
   tag: 'a',

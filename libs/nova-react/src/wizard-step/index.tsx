@@ -15,44 +15,24 @@
  *
  **/
 import cn from 'clsx';
-import { ElementType, ForwardedRef, ReactElement, cloneElement } from 'react';
-import forwardRef from '../types';
+import { ComponentPropsWithRef, ElementType, ReactElement, cloneElement } from 'react';
 
 const CSS_PREFIX = 'v-wizard-step';
 
-export type WizardStepProperties = {
-  /** CSS Class Name */
-  className?: string;
-} & (
+export type WizardStepProperties<ET extends ElementType = 'div',> = (
+  {
+    /** Cloned Element (not compatible with tag property) */
+    element?: never;
+    /** Tag (not compatible with element property) */
+    tag?: ElementType;
+  }
   | {
-      /** Cloned Element (not compatible with tag property) */
-      element?: never;
-      /** Tag (not compatible with element property) */
-      tag?: ElementType;
-    }
-  | {
-      /** Cloned Element (not compatible with tag property) */
-      element?: ReactElement;
-      /** Tag (not compatible with element property) */
-      tag?: never;
-    }
-);
-
-const WizardStep = <HTMLElementType,>(
-  { className, element, tag: Tag = 'li', ...remainingProps }: WizardStepProperties,
-  ref: ForwardedRef<HTMLElementType>
-) => {
-  const classNames = cn(CSS_PREFIX, className);
-  return !element ? (
-    <Tag className={classNames} ref={ref} {...remainingProps} />
-  ) : (
-    cloneElement(element, {
-      className: cn(classNames, element.props.className),
-      ref,
-      ...remainingProps,
-    })
-  );
-};
+    /** Cloned Element (not compatible with tag property) */
+    element?: ReactElement<ComponentPropsWithRef<ET>>;
+    /** Tag (not compatible with element property) */
+    tag?: never;
+  }
+) & Omit<ComponentPropsWithRef<ET>, ''>;
 
 /**
  * Represents an individual step within a multi-step wizard process.
@@ -60,7 +40,21 @@ const WizardStep = <HTMLElementType,>(
  * @vgar TODO
  * @wcag TODO
  */
-export default forwardRef<WizardStepProperties, HTMLLIElement>(WizardStep);
+const WizardStep = <ET extends ElementType = 'div',>(
+  { className, element, tag: Tag = 'li', ...remainingProps }: WizardStepProperties<ET>,
+) => {
+  const classNames = cn(CSS_PREFIX, className);
+  return !element ? (
+    <Tag className={classNames} {...remainingProps} />
+  ) : (
+    cloneElement<WizardStepProperties>(element, {
+      className: cn(classNames, element.props?.className),
+      ...remainingProps,
+    })
+  );
+};
+
+export default WizardStep;
 
 WizardStep.defaultProps = {
   tag: 'li',

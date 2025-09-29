@@ -14,6 +14,7 @@
  * limitations under the License.
  *
  **/
+import { VisaChevronDownTiny, VisaChevronRightTiny } from '@visa/nova-icons-react';
 import {
   Accordion,
   AccordionHeading,
@@ -79,7 +80,11 @@ export const MultiSelectAccordionGroupWithDisabled = () => {
               onClick={() => handleToggle(panelKey)}
               tag="button"
             >
-              <AccordionToggleIcon accordionOpen={expandedPanels[panelKey]} />
+              <AccordionToggleIcon
+                accordionOpen={expandedPanels[panelKey]}
+                elementClosed={<VisaChevronRightTiny rtl />}
+                elementOpen={<VisaChevronDownTiny />}
+              />
               {accordion.header}
             </AccordionHeading>
             <AccordionPanel aria-hidden={!expandedPanels[panelKey]} id={`${accordion.id}-accordion-panel`}>

@@ -1,4 +1,4 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
 
 exports[`Combobox examples autocomplete with auto selection should render correctly 1`] = `
 <div>
@@ -10,8 +10,8 @@ exports[`Combobox examples autocomplete with auto selection should render correc
     >
       <label
         class="v-label"
-        for="downshift-:ru:-input"
-        id="downshift-:ru:-label"
+        for="downshift-«ru»-input"
+        id="downshift-«ru»-label"
       >
         Label
       </label>
@@ -21,25 +21,25 @@ exports[`Combobox examples autocomplete with auto selection should render correc
         <input
           aria-activedescendant=""
           aria-autocomplete="list"
-          aria-controls="downshift-:ru:-menu"
+          aria-controls="downshift-«ru»-menu"
           aria-expanded="false"
           aria-haspopup="listbox"
-          aria-labelledby="downshift-:ru:-label"
-          aria-owns="downshift-:ru:-menu"
+          aria-labelledby="downshift-«ru»-label"
+          aria-owns="downshift-«ru»-menu"
           autocomplete="off"
           class="v-input"
-          id="downshift-:ru:-input"
+          id="downshift-«ru»-input"
           name="text-input-field-11"
           role="combobox"
           type="text"
           value=""
         />
         <button
-          aria-controls="downshift-:ru:-menu"
+          aria-controls="downshift-«ru»-menu"
           aria-expanded="false"
           aria-label="expand"
           class="v-button v-button-small v-button-tertiary v-button-icon"
-          id="downshift-:ru:-toggle-button"
+          id="downshift-«ru»-toggle-button"
           tabindex="-1"
         >
           <svg
@@ -65,16 +65,16 @@ exports[`Combobox examples autocomplete with auto selection should render correc
       class="v-listbox-container"
     >
       <ul
-        aria-labelledby="downshift-:ru:-label"
+        aria-labelledby="downshift-«ru»-label"
         class="v-listbox"
-        id="downshift-:ru:-menu"
+        id="downshift-«ru»-menu"
         role="listbox"
       >
         <li
           aria-disabled="false"
           aria-selected="false"
           class="v-listbox-item"
-          id="downshift-:ru:-item-0"
+          id="downshift-«ru»-item-0"
           role="option"
         >
           <span
@@ -86,7 +86,7 @@ exports[`Combobox examples autocomplete with auto selection should render correc
           aria-disabled="false"
           aria-selected="false"
           class="v-listbox-item"
-          id="downshift-:ru:-item-1"
+          id="downshift-«ru»-item-1"
           role="option"
         >
           <span
@@ -98,7 +98,7 @@ exports[`Combobox examples autocomplete with auto selection should render correc
           aria-disabled="false"
           aria-selected="false"
           class="v-listbox-item"
-          id="downshift-:ru:-item-2"
+          id="downshift-«ru»-item-2"
           role="option"
         >
           <span
@@ -110,7 +110,7 @@ exports[`Combobox examples autocomplete with auto selection should render correc
           aria-disabled="false"
           aria-selected="false"
           class="v-listbox-item"
-          id="downshift-:ru:-item-3"
+          id="downshift-«ru»-item-3"
           role="option"
         >
           <span
@@ -122,7 +122,7 @@ exports[`Combobox examples autocomplete with auto selection should render correc
           aria-disabled="false"
           aria-selected="false"
           class="v-listbox-item"
-          id="downshift-:ru:-item-4"
+          id="downshift-«ru»-item-4"
           role="option"
         >
           <span
@@ -146,8 +146,8 @@ exports[`Combobox examples autocomplete with manual selection should render corr
     >
       <label
         class="v-label"
-        for="downshift-:r11:-input"
-        id="downshift-:r11:-label"
+        for="downshift-«r11»-input"
+        id="downshift-«r11»-label"
       >
         Label
       </label>
@@ -157,25 +157,25 @@ exports[`Combobox examples autocomplete with manual selection should render corr
         <input
           aria-activedescendant=""
           aria-autocomplete="list"
-          aria-controls="downshift-:r11:-menu"
+          aria-controls="downshift-«r11»-menu"
           aria-expanded="false"
           aria-haspopup="listbox"
-          aria-labelledby="downshift-:r11:-label"
-          aria-owns="downshift-:r11:-menu"
+          aria-labelledby="downshift-«r11»-label"
+          aria-owns="downshift-«r11»-menu"
           autocomplete="off"
           class="v-input"
-          id="downshift-:r11:-input"
+          id="downshift-«r11»-input"
           name="text-input-field-12"
           role="combobox"
           type="text"
           value=""
         />
         <button
-          aria-controls="downshift-:r11:-menu"
+          aria-controls="downshift-«r11»-menu"
           aria-expanded="false"
           aria-label="expand"
           class="v-button v-button-small v-button-tertiary v-button-icon"
-          id="downshift-:r11:-toggle-button"
+          id="downshift-«r11»-toggle-button"
           tabindex="-1"
         >
           <svg
@@ -201,16 +201,16 @@ exports[`Combobox examples autocomplete with manual selection should render corr
       class="v-listbox-container"
     >
       <ul
-        aria-labelledby="downshift-:r11:-label"
+        aria-labelledby="downshift-«r11»-label"
         class="v-listbox"
-        id="downshift-:r11:-menu"
+        id="downshift-«r11»-menu"
         role="listbox"
       >
         <li
           aria-disabled="false"
           aria-selected="false"
           class="v-listbox-item"
-          id="downshift-:r11:-item-0"
+          id="downshift-«r11»-item-0"
           role="option"
         >
           <span
@@ -222,7 +222,7 @@ exports[`Combobox examples autocomplete with manual selection should render corr
           aria-disabled="false"
           aria-selected="false"
           class="v-listbox-item"
-          id="downshift-:r11:-item-1"
+          id="downshift-«r11»-item-1"
           role="option"
         >
           <span
@@ -234,7 +234,7 @@ exports[`Combobox examples autocomplete with manual selection should render corr
           aria-disabled="false"
           aria-selected="false"
           class="v-listbox-item"
-          id="downshift-:r11:-item-2"
+          id="downshift-«r11»-item-2"
           role="option"
         >
           <span
@@ -246,7 +246,7 @@ exports[`Combobox examples autocomplete with manual selection should render corr
           aria-disabled="false"
           aria-selected="false"
           class="v-listbox-item"
-          id="downshift-:r11:-item-3"
+          id="downshift-«r11»-item-3"
           role="option"
         >
           <span
@@ -258,7 +258,7 @@ exports[`Combobox examples autocomplete with manual selection should render corr
           aria-disabled="false"
           aria-selected="false"
           class="v-listbox-item"
-          id="downshift-:r11:-item-4"
+          id="downshift-«r11»-item-4"
           role="option"
         >
           <span
@@ -282,8 +282,8 @@ exports[`Combobox examples clear button combobox should render correctly 1`] = `
     >
       <label
         class="v-label"
-        for="downshift-:rf:-input"
-        id="downshift-:rf:-label"
+        for="downshift-«rf»-input"
+        id="downshift-«rf»-label"
       >
         Label
       </label>
@@ -293,25 +293,25 @@ exports[`Combobox examples clear button combobox should render correctly 1`] = `
         <input
           aria-activedescendant=""
           aria-autocomplete="list"
-          aria-controls="downshift-:rf:-menu"
+          aria-controls="downshift-«rf»-menu"
           aria-expanded="false"
           aria-haspopup="listbox"
-          aria-labelledby="downshift-:rf:-label"
-          aria-owns="downshift-:rf:-menu"
+          aria-labelledby="downshift-«rf»-label"
+          aria-owns="downshift-«rf»-menu"
           autocomplete="off"
           class="v-input"
-          id="downshift-:rf:-input"
+          id="downshift-«rf»-input"
           name="text-input-field-4"
           role="combobox"
           type="text"
           value="Option A"
         />
         <button
-          aria-controls="downshift-:rf:-menu"
+          aria-controls="downshift-«rf»-menu"
           aria-expanded="false"
           aria-label="expand"
           class="v-button v-button-small v-button-tertiary v-button-icon"
-          id="downshift-:rf:-toggle-button"
+          id="downshift-«rf»-toggle-button"
           tabindex="-1"
         >
           <svg
@@ -337,16 +337,16 @@ exports[`Combobox examples clear button combobox should render correctly 1`] = `
       class="v-listbox-container"
     >
       <ul
-        aria-labelledby="downshift-:rf:-label"
+        aria-labelledby="downshift-«rf»-label"
         class="v-listbox"
-        id="downshift-:rf:-menu"
+        id="downshift-«rf»-menu"
         role="listbox"
       >
         <li
           aria-disabled="false"
           aria-selected="true"
           class="v-listbox-item"
-          id="downshift-:rf:-item-0"
+          id="downshift-«rf»-item-0"
           role="option"
         >
           <span
@@ -358,7 +358,7 @@ exports[`Combobox examples clear button combobox should render correctly 1`] = `
           aria-disabled="false"
           aria-selected="false"
           class="v-listbox-item"
-          id="downshift-:rf:-item-1"
+          id="downshift-«rf»-item-1"
           role="option"
         >
           <span
@@ -370,7 +370,7 @@ exports[`Combobox examples clear button combobox should render correctly 1`] = `
           aria-disabled="false"
           aria-selected="false"
           class="v-listbox-item"
-          id="downshift-:rf:-item-2"
+          id="downshift-«rf»-item-2"
           role="option"
         >
           <span
@@ -382,7 +382,7 @@ exports[`Combobox examples clear button combobox should render correctly 1`] = `
           aria-disabled="false"
           aria-selected="false"
           class="v-listbox-item"
-          id="downshift-:rf:-item-3"
+          id="downshift-«rf»-item-3"
           role="option"
         >
           <span
@@ -394,7 +394,7 @@ exports[`Combobox examples clear button combobox should render correctly 1`] = `
           aria-disabled="false"
           aria-selected="false"
           class="v-listbox-item"
-          id="downshift-:rf:-item-4"
+          id="downshift-«rf»-item-4"
           role="option"
         >
           <span
@@ -418,8 +418,8 @@ exports[`Combobox examples combobox with item disabled should render correctly 1
     >
       <label
         class="v-label"
-        for="downshift-:rr:-input"
-        id="downshift-:rr:-label"
+        for="downshift-«rr»-input"
+        id="downshift-«rr»-label"
       >
         Label
       </label>
@@ -429,25 +429,25 @@ exports[`Combobox examples combobox with item disabled should render correctly 1
         <input
           aria-activedescendant=""
           aria-autocomplete="list"
-          aria-controls="downshift-:rr:-menu"
+          aria-controls="downshift-«rr»-menu"
           aria-expanded="false"
           aria-haspopup="listbox"
-          aria-labelledby="downshift-:rr:-label"
-          aria-owns="downshift-:rr:-menu"
+          aria-labelledby="downshift-«rr»-label"
+          aria-owns="downshift-«rr»-menu"
           autocomplete="off"
           class="v-input"
-          id="downshift-:rr:-input"
+          id="downshift-«rr»-input"
           name="text-input-field-9"
           role="combobox"
           type="text"
           value=""
         />
         <button
-          aria-controls="downshift-:rr:-menu"
+          aria-controls="downshift-«rr»-menu"
           aria-expanded="false"
           aria-label="expand"
           class="v-button v-button-small v-button-tertiary v-button-icon"
-          id="downshift-:rr:-toggle-button"
+          id="downshift-«rr»-toggle-button"
           tabindex="-1"
         >
           <svg
@@ -473,16 +473,16 @@ exports[`Combobox examples combobox with item disabled should render correctly 1
       class="v-listbox-container"
     >
       <ul
-        aria-labelledby="downshift-:rr:-label"
+        aria-labelledby="downshift-«rr»-label"
         class="v-listbox"
-        id="downshift-:rr:-menu"
+        id="downshift-«rr»-menu"
         role="listbox"
       >
         <li
           aria-disabled="false"
           aria-selected="false"
           class="v-listbox-item"
-          id="downshift-:rr:-item-0"
+          id="downshift-«rr»-item-0"
           role="option"
         >
           <span
@@ -494,7 +494,7 @@ exports[`Combobox examples combobox with item disabled should render correctly 1
           aria-disabled="false"
           aria-selected="false"
           class="v-listbox-item"
-          id="downshift-:rr:-item-1"
+          id="downshift-«rr»-item-1"
           role="option"
         >
           <span
@@ -506,8 +506,7 @@ exports[`Combobox examples combobox with item disabled should render correctly 1
           aria-disabled="true"
           aria-selected="false"
           class="v-listbox-item"
-          disabled=""
-          id="downshift-:rr:-item-2"
+          id="downshift-«rr»-item-2"
           role="option"
         >
           <span
@@ -519,7 +518,7 @@ exports[`Combobox examples combobox with item disabled should render correctly 1
           aria-disabled="false"
           aria-selected="false"
           class="v-listbox-item"
-          id="downshift-:rr:-item-3"
+          id="downshift-«rr»-item-3"
           role="option"
         >
           <span
@@ -531,7 +530,7 @@ exports[`Combobox examples combobox with item disabled should render correctly 1
           aria-disabled="false"
           aria-selected="false"
           class="v-listbox-item"
-          id="downshift-:rr:-item-4"
+          id="downshift-«rr»-item-4"
           role="option"
         >
           <span
@@ -555,8 +554,8 @@ exports[`Combobox examples combobox without chevron icon should render correctly
     >
       <label
         class="v-label"
-        for="downshift-:ro:-input"
-        id="downshift-:ro:-label"
+        for="downshift-«ro»-input"
+        id="downshift-«ro»-label"
       >
         Label
       </label>
@@ -566,14 +565,14 @@ exports[`Combobox examples combobox without chevron icon should render correctly
         <input
           aria-activedescendant=""
           aria-autocomplete="list"
-          aria-controls="downshift-:ro:-menu"
+          aria-controls="downshift-«ro»-menu"
           aria-expanded="false"
           aria-haspopup="listbox"
-          aria-labelledby="downshift-:ro:-label"
-          aria-owns="downshift-:ro:-menu"
+          aria-labelledby="downshift-«ro»-label"
+          aria-owns="downshift-«ro»-menu"
           autocomplete="off"
           class="v-input"
-          id="downshift-:ro:-input"
+          id="downshift-«ro»-input"
           name="text-input-field-10"
           role="combobox"
           type="text"
@@ -585,16 +584,16 @@ exports[`Combobox examples combobox without chevron icon should render correctly
       class="v-listbox-container"
     >
       <ul
-        aria-labelledby="downshift-:ro:-label"
+        aria-labelledby="downshift-«ro»-label"
         class="v-listbox"
-        id="downshift-:ro:-menu"
+        id="downshift-«ro»-menu"
         role="listbox"
       >
         <li
           aria-disabled="false"
           aria-selected="false"
           class="v-listbox-item"
-          id="downshift-:ro:-item-0"
+          id="downshift-«ro»-item-0"
           role="option"
         >
           <span
@@ -606,7 +605,7 @@ exports[`Combobox examples combobox without chevron icon should render correctly
           aria-disabled="false"
           aria-selected="false"
           class="v-listbox-item"
-          id="downshift-:ro:-item-1"
+          id="downshift-«ro»-item-1"
           role="option"
         >
           <span
@@ -618,7 +617,7 @@ exports[`Combobox examples combobox without chevron icon should render correctly
           aria-disabled="false"
           aria-selected="false"
           class="v-listbox-item"
-          id="downshift-:ro:-item-2"
+          id="downshift-«ro»-item-2"
           role="option"
         >
           <span
@@ -630,7 +629,7 @@ exports[`Combobox examples combobox without chevron icon should render correctly
           aria-disabled="false"
           aria-selected="false"
           class="v-listbox-item"
-          id="downshift-:ro:-item-3"
+          id="downshift-«ro»-item-3"
           role="option"
         >
           <span
@@ -642,7 +641,7 @@ exports[`Combobox examples combobox without chevron icon should render correctly
           aria-disabled="false"
           aria-selected="false"
           class="v-listbox-item"
-          id="downshift-:ro:-item-4"
+          id="downshift-«ro»-item-4"
           role="option"
         >
           <span
@@ -666,8 +665,8 @@ exports[`Combobox examples default combobox should render correctly 1`] = `
     >
       <label
         class="v-label"
-        for="downshift-:r0:-input"
-        id="downshift-:r0:-label"
+        for="downshift-«r0»-input"
+        id="downshift-«r0»-label"
       >
         Label
       </label>
@@ -677,25 +676,25 @@ exports[`Combobox examples default combobox should render correctly 1`] = `
         <input
           aria-activedescendant=""
           aria-autocomplete="list"
-          aria-controls="downshift-:r0:-menu"
+          aria-controls="downshift-«r0»-menu"
           aria-expanded="false"
           aria-haspopup="listbox"
-          aria-labelledby="downshift-:r0:-label"
-          aria-owns="downshift-:r0:-menu"
+          aria-labelledby="downshift-«r0»-label"
+          aria-owns="downshift-«r0»-menu"
           autocomplete="off"
           class="v-input"
-          id="downshift-:r0:-input"
+          id="downshift-«r0»-input"
           name="text-input-field-1"
           role="combobox"
           type="text"
           value=""
         />
         <button
-          aria-controls="downshift-:r0:-menu"
+          aria-controls="downshift-«r0»-menu"
           aria-expanded="false"
           aria-label="expand"
           class="v-button v-button-small v-button-tertiary v-button-icon"
-          id="downshift-:r0:-toggle-button"
+          id="downshift-«r0»-toggle-button"
           tabindex="-1"
         >
           <svg
@@ -721,16 +720,16 @@ exports[`Combobox examples default combobox should render correctly 1`] = `
       class="v-listbox-container"
     >
       <ul
-        aria-labelledby="downshift-:r0:-label"
+        aria-labelledby="downshift-«r0»-label"
         class="v-listbox"
-        id="downshift-:r0:-menu"
+        id="downshift-«r0»-menu"
         role="listbox"
       >
         <li
           aria-disabled="false"
           aria-selected="false"
           class="v-listbox-item"
-          id="downshift-:r0:-item-0"
+          id="downshift-«r0»-item-0"
           role="option"
         >
           <span
@@ -742,7 +741,7 @@ exports[`Combobox examples default combobox should render correctly 1`] = `
           aria-disabled="false"
           aria-selected="false"
           class="v-listbox-item"
-          id="downshift-:r0:-item-1"
+          id="downshift-«r0»-item-1"
           role="option"
         >
           <span
@@ -754,7 +753,7 @@ exports[`Combobox examples default combobox should render correctly 1`] = `
           aria-disabled="false"
           aria-selected="false"
           class="v-listbox-item"
-          id="downshift-:r0:-item-2"
+          id="downshift-«r0»-item-2"
           role="option"
         >
           <span
@@ -766,7 +765,7 @@ exports[`Combobox examples default combobox should render correctly 1`] = `
           aria-disabled="false"
           aria-selected="false"
           class="v-listbox-item"
-          id="downshift-:r0:-item-3"
+          id="downshift-«r0»-item-3"
           role="option"
         >
           <span
@@ -778,7 +777,7 @@ exports[`Combobox examples default combobox should render correctly 1`] = `
           aria-disabled="false"
           aria-selected="false"
           class="v-listbox-item"
-          id="downshift-:r0:-item-4"
+          id="downshift-«r0»-item-4"
           role="option"
         >
           <span
@@ -802,8 +801,8 @@ exports[`Combobox examples disabled combobox should render correctly 1`] = `
     >
       <label
         class="v-label"
-        for="downshift-:rn:-input"
-        id="downshift-:rn:-label"
+        for="downshift-«rn»-input"
+        id="downshift-«rn»-label"
       >
         Label
       </label>
@@ -813,26 +812,26 @@ exports[`Combobox examples disabled combobox should render correctly 1`] = `
         <input
           aria-activedescendant=""
           aria-autocomplete="list"
-          aria-controls="downshift-:rn:-menu"
+          aria-controls="downshift-«rn»-menu"
           aria-expanded="false"
           aria-haspopup="listbox"
-          aria-labelledby="downshift-:rn:-label"
-          aria-owns="downshift-:rn:-menu"
+          aria-labelledby="downshift-«rn»-label"
+          aria-owns="downshift-«rn»-menu"
           autocomplete="off"
           class="v-input"
           disabled=""
-          id="downshift-:rn:-input"
+          id="downshift-«rn»-input"
           name="text-input-field-8"
           role="combobox"
           type="text"
           value="Option A"
         />
         <button
-          aria-controls="downshift-:rn:-menu"
+          aria-controls="downshift-«rn»-menu"
           aria-expanded="false"
           aria-label="expand"
           class="v-button v-button-small v-button-tertiary v-button-icon"
-          id="downshift-:rn:-toggle-button"
+          id="downshift-«rn»-toggle-button"
           tabindex="-1"
         >
           <svg
@@ -858,16 +857,16 @@ exports[`Combobox examples disabled combobox should render correctly 1`] = `
       class="v-listbox-container"
     >
       <ul
-        aria-labelledby="downshift-:rn:-label"
+        aria-labelledby="downshift-«rn»-label"
         class="v-listbox"
-        id="downshift-:rn:-menu"
+        id="downshift-«rn»-menu"
         role="listbox"
       >
         <li
           aria-disabled="false"
           aria-selected="true"
           class="v-listbox-item"
-          id="downshift-:rn:-item-0"
+          id="downshift-«rn»-item-0"
           role="option"
         >
           <span
@@ -879,7 +878,7 @@ exports[`Combobox examples disabled combobox should render correctly 1`] = `
           aria-disabled="false"
           aria-selected="false"
           class="v-listbox-item"
-          id="downshift-:rn:-item-1"
+          id="downshift-«rn»-item-1"
           role="option"
         >
           <span
@@ -891,7 +890,7 @@ exports[`Combobox examples disabled combobox should render correctly 1`] = `
           aria-disabled="false"
           aria-selected="false"
           class="v-listbox-item"
-          id="downshift-:rn:-item-2"
+          id="downshift-«rn»-item-2"
           role="option"
         >
           <span
@@ -903,7 +902,7 @@ exports[`Combobox examples disabled combobox should render correctly 1`] = `
           aria-disabled="false"
           aria-selected="false"
           class="v-listbox-item"
-          id="downshift-:rn:-item-3"
+          id="downshift-«rn»-item-3"
           role="option"
         >
           <span
@@ -915,7 +914,7 @@ exports[`Combobox examples disabled combobox should render correctly 1`] = `
           aria-disabled="false"
           aria-selected="false"
           class="v-listbox-item"
-          id="downshift-:rn:-item-4"
+          id="downshift-«rn»-item-4"
           role="option"
         >
           <span
@@ -942,8 +941,8 @@ exports[`Combobox examples error combobox should render correctly 1`] = `
       >
         <label
           class="v-label"
-          for="downshift-:ra:-input"
-          id="downshift-:ra:-label"
+          for="downshift-«ra»-input"
+          id="downshift-«ra»-label"
         >
           Label (required)
         </label>
@@ -953,27 +952,27 @@ exports[`Combobox examples error combobox should render correctly 1`] = `
           <input
             aria-activedescendant=""
             aria-autocomplete="list"
-            aria-controls="downshift-:ra:-menu"
+            aria-controls="downshift-«ra»-menu"
             aria-describedby="input-error-message"
             aria-expanded="false"
             aria-haspopup="listbox"
             aria-invalid="false"
-            aria-labelledby="downshift-:ra:-label"
-            aria-owns="downshift-:ra:-menu"
+            aria-labelledby="downshift-«ra»-label"
+            aria-owns="downshift-«ra»-menu"
             autocomplete="off"
             class="v-input"
-            id="downshift-:ra:-input"
+            id="downshift-«ra»-input"
             name="text-input-field-6"
             role="combobox"
             type="text"
             value=""
           />
           <button
-            aria-controls="downshift-:ra:-menu"
+            aria-controls="downshift-«ra»-menu"
             aria-expanded="false"
             aria-label="expand"
             class="v-button v-button-small v-button-tertiary v-button-icon"
-            id="downshift-:ra:-toggle-button"
+            id="downshift-«ra»-toggle-button"
             tabindex="-1"
           >
             <svg
@@ -999,16 +998,16 @@ exports[`Combobox examples error combobox should render correctly 1`] = `
         class="v-listbox-container"
       >
         <ul
-          aria-labelledby="downshift-:ra:-label"
+          aria-labelledby="downshift-«ra»-label"
           class="v-listbox"
-          id="downshift-:ra:-menu"
+          id="downshift-«ra»-menu"
           role="listbox"
         >
           <li
             aria-disabled="false"
             aria-selected="false"
             class="v-listbox-item"
-            id="downshift-:ra:-item-0"
+            id="downshift-«ra»-item-0"
             role="option"
           >
             <span
@@ -1020,7 +1019,7 @@ exports[`Combobox examples error combobox should render correctly 1`] = `
             aria-disabled="false"
             aria-selected="false"
             class="v-listbox-item"
-            id="downshift-:ra:-item-1"
+            id="downshift-«ra»-item-1"
             role="option"
           >
             <span
@@ -1032,7 +1031,7 @@ exports[`Combobox examples error combobox should render correctly 1`] = `
             aria-disabled="false"
             aria-selected="false"
             class="v-listbox-item"
-            id="downshift-:ra:-item-2"
+            id="downshift-«ra»-item-2"
             role="option"
           >
             <span
@@ -1044,7 +1043,7 @@ exports[`Combobox examples error combobox should render correctly 1`] = `
             aria-disabled="false"
             aria-selected="false"
             class="v-listbox-item"
-            id="downshift-:ra:-item-3"
+            id="downshift-«ra»-item-3"
             role="option"
           >
             <span
@@ -1056,7 +1055,7 @@ exports[`Combobox examples error combobox should render correctly 1`] = `
             aria-disabled="false"
             aria-selected="false"
             class="v-listbox-item"
-            id="downshift-:ra:-item-4"
+            id="downshift-«ra»-item-4"
             role="option"
           >
             <span
@@ -1095,8 +1094,8 @@ exports[`Combobox examples inline message combobox should render correctly 1`] =
     >
       <label
         class="v-label"
-        for="downshift-:r7:-input"
-        id="downshift-:r7:-label"
+        for="downshift-«r7»-input"
+        id="downshift-«r7»-label"
       >
         Label
       </label>
@@ -1106,26 +1105,26 @@ exports[`Combobox examples inline message combobox should render correctly 1`] =
         <input
           aria-activedescendant=""
           aria-autocomplete="list"
-          aria-controls="downshift-:r7:-menu"
+          aria-controls="downshift-«r7»-menu"
           aria-describedby="combobox-inline-message"
           aria-expanded="false"
           aria-haspopup="listbox"
-          aria-labelledby="downshift-:r7:-label"
-          aria-owns="downshift-:r7:-menu"
+          aria-labelledby="downshift-«r7»-label"
+          aria-owns="downshift-«r7»-menu"
           autocomplete="off"
           class="v-input"
-          id="downshift-:r7:-input"
+          id="downshift-«r7»-input"
           name="text-input-field-3"
           role="combobox"
           type="text"
           value=""
         />
         <button
-          aria-controls="downshift-:r7:-menu"
+          aria-controls="downshift-«r7»-menu"
           aria-expanded="false"
           aria-label="expand"
           class="v-button v-button-small v-button-tertiary v-button-icon"
-          id="downshift-:r7:-toggle-button"
+          id="downshift-«r7»-toggle-button"
           tabindex="-1"
         >
           <svg
@@ -1157,16 +1156,16 @@ exports[`Combobox examples inline message combobox should render correctly 1`] =
       class="v-listbox-container"
     >
       <ul
-        aria-labelledby="downshift-:r7:-label"
+        aria-labelledby="downshift-«r7»-label"
         class="v-listbox"
-        id="downshift-:r7:-menu"
+        id="downshift-«r7»-menu"
         role="listbox"
       >
         <li
           aria-disabled="false"
           aria-selected="false"
           class="v-listbox-item"
-          id="downshift-:r7:-item-0"
+          id="downshift-«r7»-item-0"
           role="option"
         >
           <span
@@ -1178,7 +1177,7 @@ exports[`Combobox examples inline message combobox should render correctly 1`] =
           aria-disabled="false"
           aria-selected="false"
           class="v-listbox-item"
-          id="downshift-:r7:-item-1"
+          id="downshift-«r7»-item-1"
           role="option"
         >
           <span
@@ -1190,7 +1189,7 @@ exports[`Combobox examples inline message combobox should render correctly 1`] =
           aria-disabled="false"
           aria-selected="false"
           class="v-listbox-item"
-          id="downshift-:r7:-item-2"
+          id="downshift-«r7»-item-2"
           role="option"
         >
           <span
@@ -1202,7 +1201,7 @@ exports[`Combobox examples inline message combobox should render correctly 1`] =
           aria-disabled="false"
           aria-selected="false"
           class="v-listbox-item"
-          id="downshift-:r7:-item-3"
+          id="downshift-«r7»-item-3"
           role="option"
         >
           <span
@@ -1214,7 +1213,7 @@ exports[`Combobox examples inline message combobox should render correctly 1`] =
           aria-disabled="false"
           aria-selected="false"
           class="v-listbox-item"
-          id="downshift-:r7:-item-4"
+          id="downshift-«r7»-item-4"
           role="option"
         >
           <span
@@ -1238,8 +1237,8 @@ exports[`Combobox examples leading icon combobox should render correctly 1`] = `
     >
       <label
         class="v-label"
-        for="downshift-:rj:-input"
-        id="downshift-:rj:-label"
+        for="downshift-«rj»-input"
+        id="downshift-«rj»-label"
       >
         Label
       </label>
@@ -1269,25 +1268,25 @@ exports[`Combobox examples leading icon combobox should render correctly 1`] = `
         <input
           aria-activedescendant=""
           aria-autocomplete="list"
-          aria-controls="downshift-:rj:-menu"
+          aria-controls="downshift-«rj»-menu"
           aria-expanded="false"
           aria-haspopup="listbox"
-          aria-labelledby="downshift-:rj:-label"
-          aria-owns="downshift-:rj:-menu"
+          aria-labelledby="downshift-«rj»-label"
+          aria-owns="downshift-«rj»-menu"
           autocomplete="off"
           class="v-input"
-          id="downshift-:rj:-input"
+          id="downshift-«rj»-input"
           name="text-input-field-5"
           role="combobox"
           type="text"
           value=""
         />
         <button
-          aria-controls="downshift-:rj:-menu"
+          aria-controls="downshift-«rj»-menu"
           aria-expanded="false"
           aria-label="expand"
           class="v-button v-button-small v-button-tertiary v-button-icon"
-          id="downshift-:rj:-toggle-button"
+          id="downshift-«rj»-toggle-button"
           tabindex="-1"
         >
           <svg
@@ -1313,16 +1312,16 @@ exports[`Combobox examples leading icon combobox should render correctly 1`] = `
       class="v-listbox-container"
     >
       <ul
-        aria-labelledby="downshift-:rj:-label"
+        aria-labelledby="downshift-«rj»-label"
         class="v-listbox"
-        id="downshift-:rj:-menu"
+        id="downshift-«rj»-menu"
         role="listbox"
       >
         <li
           aria-disabled="false"
           aria-selected="false"
           class="v-listbox-item"
-          id="downshift-:rj:-item-0"
+          id="downshift-«rj»-item-0"
           role="option"
         >
           <span
@@ -1334,7 +1333,7 @@ exports[`Combobox examples leading icon combobox should render correctly 1`] = `
           aria-disabled="false"
           aria-selected="false"
           class="v-listbox-item"
-          id="downshift-:rj:-item-1"
+          id="downshift-«rj»-item-1"
           role="option"
         >
           <span
@@ -1346,7 +1345,7 @@ exports[`Combobox examples leading icon combobox should render correctly 1`] = `
           aria-disabled="false"
           aria-selected="false"
           class="v-listbox-item"
-          id="downshift-:rj:-item-2"
+          id="downshift-«rj»-item-2"
           role="option"
         >
           <span
@@ -1358,7 +1357,7 @@ exports[`Combobox examples leading icon combobox should render correctly 1`] = `
           aria-disabled="false"
           aria-selected="false"
           class="v-listbox-item"
-          id="downshift-:rj:-item-3"
+          id="downshift-«rj»-item-3"
           role="option"
         >
           <span
@@ -1370,7 +1369,7 @@ exports[`Combobox examples leading icon combobox should render correctly 1`] = `
           aria-disabled="false"
           aria-selected="false"
           class="v-listbox-item"
-          id="downshift-:rj:-item-4"
+          id="downshift-«rj»-item-4"
           role="option"
         >
           <span
@@ -1394,8 +1393,8 @@ exports[`Combobox examples pre-selected combobox should render correctly 1`] = `
     >
       <label
         class="v-label"
-        for="downshift-:r3:-input"
-        id="downshift-:r3:-label"
+        for="downshift-«r3»-input"
+        id="downshift-«r3»-label"
       >
         Label
       </label>
@@ -1405,25 +1404,25 @@ exports[`Combobox examples pre-selected combobox should render correctly 1`] = `
         <input
           aria-activedescendant=""
           aria-autocomplete="list"
-          aria-controls="downshift-:r3:-menu"
+          aria-controls="downshift-«r3»-menu"
           aria-expanded="false"
           aria-haspopup="listbox"
-          aria-labelledby="downshift-:r3:-label"
-          aria-owns="downshift-:r3:-menu"
+          aria-labelledby="downshift-«r3»-label"
+          aria-owns="downshift-«r3»-menu"
           autocomplete="off"
           class="v-input"
-          id="downshift-:r3:-input"
+          id="downshift-«r3»-input"
           name="text-input-field-2"
           role="combobox"
           type="text"
           value="Option A"
         />
         <button
-          aria-controls="downshift-:r3:-menu"
+          aria-controls="downshift-«r3»-menu"
           aria-expanded="false"
           aria-label="expand"
           class="v-button v-button-small v-button-tertiary v-button-icon"
-          id="downshift-:r3:-toggle-button"
+          id="downshift-«r3»-toggle-button"
           tabindex="-1"
         >
           <svg
@@ -1449,16 +1448,16 @@ exports[`Combobox examples pre-selected combobox should render correctly 1`] = `
       class="v-listbox-container"
     >
       <ul
-        aria-labelledby="downshift-:r3:-label"
+        aria-labelledby="downshift-«r3»-label"
         class="v-listbox"
-        id="downshift-:r3:-menu"
+        id="downshift-«r3»-menu"
         role="listbox"
       >
         <li
           aria-disabled="false"
           aria-selected="true"
           class="v-listbox-item"
-          id="downshift-:r3:-item-0"
+          id="downshift-«r3»-item-0"
           role="option"
         >
           <span
@@ -1470,7 +1469,7 @@ exports[`Combobox examples pre-selected combobox should render correctly 1`] = `
           aria-disabled="false"
           aria-selected="false"
           class="v-listbox-item"
-          id="downshift-:r3:-item-1"
+          id="downshift-«r3»-item-1"
           role="option"
         >
           <span
@@ -1482,7 +1481,7 @@ exports[`Combobox examples pre-selected combobox should render correctly 1`] = `
           aria-disabled="false"
           aria-selected="false"
           class="v-listbox-item"
-          id="downshift-:r3:-item-2"
+          id="downshift-«r3»-item-2"
           role="option"
         >
           <span
@@ -1494,7 +1493,7 @@ exports[`Combobox examples pre-selected combobox should render correctly 1`] = `
           aria-disabled="false"
           aria-selected="false"
           class="v-listbox-item"
-          id="downshift-:r3:-item-3"
+          id="downshift-«r3»-item-3"
           role="option"
         >
           <span
@@ -1506,7 +1505,7 @@ exports[`Combobox examples pre-selected combobox should render correctly 1`] = `
           aria-disabled="false"
           aria-selected="false"
           class="v-listbox-item"
-          id="downshift-:r3:-item-4"
+          id="downshift-«r3»-item-4"
           role="option"
         >
           <span
@@ -1530,8 +1529,8 @@ exports[`Combobox examples read-only combobox should render correctly 1`] = `
     >
       <label
         class="v-label"
-        for="downshift-:rm:-input"
-        id="downshift-:rm:-label"
+        for="downshift-«rm»-input"
+        id="downshift-«rm»-label"
       >
         Label
       </label>
@@ -1541,14 +1540,14 @@ exports[`Combobox examples read-only combobox should render correctly 1`] = `
         <input
           aria-activedescendant=""
           aria-autocomplete="list"
-          aria-controls="downshift-:rm:-menu"
+          aria-controls="downshift-«rm»-menu"
           aria-expanded="false"
           aria-haspopup="listbox"
-          aria-labelledby="downshift-:rm:-label"
+          aria-labelledby="downshift-«rm»-label"
           aria-owns="combobox-listbox-example-7"
           autocomplete="off"
           class="v-input"
-          id="downshift-:rm:-input"
+          id="downshift-«rm»-input"
           name="text-input-field-7"
           readonly=""
           role="combobox"
@@ -1556,12 +1555,12 @@ exports[`Combobox examples read-only combobox should render correctly 1`] = `
           value="Option A"
         />
         <button
-          aria-controls="downshift-:rm:-menu"
+          aria-controls="downshift-«rm»-menu"
           aria-expanded="false"
           aria-label="expand"
           class="v-button v-button-small v-button-tertiary v-button-icon"
           disabled=""
-          id="downshift-:rm:-toggle-button"
+          id="downshift-«rm»-toggle-button"
           tabindex="-1"
         >
           <svg

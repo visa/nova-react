@@ -1,0 +1,119 @@
+{
+  "multi-file-upload": {
+    "file": "multi-file-upload.tsx",
+    "title": "Multi-file upload",
+    "id": "multi-file-upload",
+    "testAvg": 89,
+    "tags": {
+      "patterns": true
+    },
+    "subComponents": [
+      "file-status-button",
+      "mock-upload",
+      "types",
+      "upload-card"
+    ]
+  },
+  "single-file-upload": {
+    "file": "single-file-upload.tsx",
+    "title": "Single-file upload",
+    "id": "single-file-upload",
+    "testAvg": 72,
+    "tags": {
+      "patterns": true
+    },
+    "subComponents": [
+      "file-status-button",
+      "mock-upload",
+      "types",
+      "upload-card"
+    ]
+  },
+  "multi-file-manual-upload": {
+    "file": "multi-file-manual-upload.tsx",
+    "title": "Multi-file manual upload",
+    "id": "multi-file-manual-upload",
+    "testAvg": 84,
+    "tags": {
+      "patterns": true
+    },
+    "subComponents": [
+      "file-status-button",
+      "mock-upload",
+      "types",
+      "upload-card",
+      "upload-dialog"
+    ]
+  },
+  "file-upload-with-alternate-display": {
+    "file": "file-upload-with-alternate-display.tsx",
+    "title": "File upload with alternate display",
+    "id": "file-upload-with-alternate-display",
+    "testAvg": 90,
+    "tags": {
+      "patterns": true
+    },
+    "subComponents": [
+      "file-status-button",
+      "mock-upload",
+      "types",
+      "upload-card",
+      "upload-dialog",
+      "upload-row"
+    ]
+  },
+  "file-status-button": {
+    "file": "file-status-button.tsx",
+    "id": "file-status-button",
+    "title": "File status button",
+    "tags": {
+      "patterns": true,
+      "isShared": true
+    }
+  },
+  "mock-upload": {
+    "file": "mock-upload.ts",
+    "id": "mock-upload",
+    "title": "Mock upload",
+    "tags": {
+      "patterns": true,
+      "isShared": true
+    }
+  },
+  "types": {
+    "file": "types.ts",
+    "id": "types",
+    "title": "Types",
+    "tags": {
+      "patterns": true,
+      "isShared": true
+    }
+  },
+  "upload-card": {
+    "file": "upload-card.tsx",
+    "id": "upload-card",
+    "title": "Upload card",
+    "tags": {
+      "patterns": true,
+      "isShared": true
+    }
+  },
+  "upload-dialog": {
+    "file": "upload-dialog.tsx",
+    "id": "upload-dialog",
+    "title": "Upload dialog",
+    "tags": {
+      "patterns": true,
+      "isShared": true
+    }
+  },
+  "upload-row": {
+    "file": "upload-row.tsx",
+    "id": "upload-row",
+    "title": "Upload row",
+    "tags": {
+      "patterns": true,
+      "isShared": true
+    }
+  }
+}

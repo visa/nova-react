@@ -1,20 +1,20 @@
 {
   "description": "Manages and navigates multi-step processes within your application.",
-  "displayName": "Wizard",
+  "displayName": "wizard",
   "filePath": "/wizard/index.tsx",
-  "gitLink": "https://stash.trusted.visa.com:7990/projects/VC/repos/nova-react/browse/libs/nova-react/src/wizard/index.tsx",
+  "gitLink": "https://github.com/visa/nova-react/blob/main/libs/nova-react/src/wizard/index.tsx",
   "props": [
+    {
+      "description": "CSS Class Name",
+      "name": "className",
+      "required": false,
+      "type": "string"
+    },
     {
       "description": "show wizard in compact",
       "name": "compact",
       "required": false,
       "type": "boolean"
-    },
-    {
-      "description": "This is a useRef",
-      "name": "ref",
-      "required": false,
-      "type": "ForwardedRef<HTMLElementType>"
     },
     {
       "defaultValue": "ol",
@@ -31,13 +31,14 @@
     }
   ],
   "docs": "{@link https://design.visa.com/react/components/wizard See Docs}",
+  "vgar": "TODO",
+  "wcag": "TODO",
+  "testAvg": 100,
   "related": [
     "wizard-step",
     "use-wizard",
+    "use-accordion",
     "badge",
     "button"
-  ],
-  "vgar": "TODO",
-  "wcag": "TODO",
-  "testAvg": 100
+  ]
 }

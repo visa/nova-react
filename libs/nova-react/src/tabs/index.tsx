@@ -15,37 +15,18 @@
  *
  **/
 import cn from 'clsx';
-import { ElementType, ForwardedRef } from 'react';
-import forwardRef from '../types';
+import { ComponentPropsWithRef, ElementType } from 'react';
 
 const CSS_PREFIX = 'v-tabs';
 
-export type TabsProperties = {
-  /** @ignore */
-  className?: string;
+export type TabsProperties<ET extends ElementType = 'ul',> = {
   /** Orientation */
   orientation?: 'horizontal' | 'vertical';
   /** Stacked */
   stacked?: boolean;
   /** Tag of Component */
   tag?: ElementType;
-};
-
-const Tabs = <HTMLElementType,>(
-  { className, orientation = 'horizontal', stacked, tag: Tag = 'ul', ...remainingProps }: TabsProperties,
-  ref: ForwardedRef<HTMLElementType>
-) => (
-  <Tag
-    className={cn(
-      CSS_PREFIX,
-      orientation && `${CSS_PREFIX}-${orientation}`,
-      stacked && `${CSS_PREFIX}-stacked`,
-      className
-    )}
-    ref={ref}
-    {...remainingProps}
-  />
-);
+} & ComponentPropsWithRef<ET>;
 
 /**
  * Organizational element that separates content and allows users to switch between views.
@@ -54,7 +35,21 @@ const Tabs = <HTMLElementType,>(
  * @vgar TODO
  * @wcag TODO
  */
-export default forwardRef<TabsProperties, HTMLUListElement>(Tabs);
+const Tabs = <ET extends ElementType = 'ul',>(
+  { className, orientation = 'horizontal', stacked, tag: Tag = 'ul', ...remainingProps }: TabsProperties<ET>,
+) => (
+  <Tag
+    className={cn(
+      CSS_PREFIX,
+      orientation && `${CSS_PREFIX}-${orientation}`,
+      stacked && `${CSS_PREFIX}-stacked`,
+      className
+    )}
+    {...remainingProps}
+  />
+);
+
+export default Tabs;
 
 Tabs.defaultProps = {
   orientation: 'horizontal',

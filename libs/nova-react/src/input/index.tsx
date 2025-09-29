@@ -15,26 +15,16 @@
  *
  **/
 import cn from 'clsx';
-import { ElementType, ForwardedRef } from 'react';
-import forwardRef from '../types';
+import { ComponentPropsWithRef, ElementType } from 'react';
 
 const CSS_PREFIX = 'v-input';
 
-export type InputProperties = {
-  /** @ignore */
-  children?: never;
-  /** @ignore */
-  className?: string;
+export type InputProperties<ET extends ElementType = 'input',> = {
   /** one-time pass-code style */
   otp?: boolean;
   /** Tag of Component */
   tag?: ElementType;
-};
-
-const Input = <HTMLElementType,>(
-  { className, otp = false, tag: Tag = 'input', ...remainingProps }: InputProperties,
-  ref: ForwardedRef<HTMLElementType>
-) => <Tag className={cn(CSS_PREFIX, otp && `${CSS_PREFIX}-otp`, className)} ref={ref} {...remainingProps} />;
+} & ComponentPropsWithRef<ET>;
 
 /**
  * Text fields that enable users to enter free-form content.
@@ -43,7 +33,11 @@ const Input = <HTMLElementType,>(
  * @vgar TODO
  * @wcag TODO
  */
-export default forwardRef<InputProperties, HTMLInputElement>(Input);
+const Input = <ET extends ElementType = 'input',>(
+  { className, otp = false, tag: Tag = 'input', ...remainingProps }: InputProperties<ET>,
+) => <Tag className={cn(CSS_PREFIX, otp && `${CSS_PREFIX}-otp`, className)} {...remainingProps} />;
+
+export default Input;
 
 Input.defaultProps = {
   tag: 'input',

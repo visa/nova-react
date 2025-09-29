@@ -15,4 +15,4 @@
  *
  **/
 export * from './component';
-export type DocType = 'components' | 'hooks' | 'utilities';
+export type DocType = 'components' | 'hooks' | 'utilities' | 'patterns';

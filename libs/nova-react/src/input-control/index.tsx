@@ -15,29 +15,25 @@
  *
  **/
 import cn from 'clsx';
-import { ElementType, ForwardedRef } from 'react';
-import forwardRef from '../types';
+import { ComponentPropsWithRef, ElementType } from 'react';
 
 const CSS_PREFIX = 'v-input-control';
 
-export type InputControlProperties = {
-  /** @ignore */
-  className?: string;
+export type InputControlProperties <ET extends ElementType = 'div',>= {
   /** Tag of Component */
   tag?: ElementType;
-};
-
-const InputControl = <HTMLElementType,>(
-  { className, tag: Tag = 'div', ...remainingProps }: InputControlProperties,
-  ref: ForwardedRef<HTMLElementType>
-) => <Tag className={cn(CSS_PREFIX, className)} ref={ref} {...remainingProps} />;
+} & ComponentPropsWithRef<ET>;
 
 /**
  * Container for icons controlling form elements, such as a dropdown icon for a select element.
  * @docs {@link https://design.visa.com/react/components/input | See Docs}
  * @related select
  */
-export default forwardRef<InputControlProperties, HTMLDivElement>(InputControl);
+const InputControl = <ET extends ElementType = 'div',>(
+  { className, tag: Tag = 'div', ...remainingProps }: InputControlProperties<ET>,
+) => <Tag className={cn(CSS_PREFIX, className)} {...remainingProps} />;
+
+export default InputControl;
 
 InputControl.defaultProps = {
   tag: 'div',

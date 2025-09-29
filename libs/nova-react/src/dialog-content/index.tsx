@@ -15,21 +15,18 @@
  *
  **/
 import cn from 'clsx';
-import { ForwardedRef } from 'react';
 import MessageContent, { MessageContentProperties } from '../message-content';
-import forwardRef from '../types';
 
 export type DialogContentProperties = MessageContentProperties;
-
-const DialogContent = <HTMLElementType,>(
-  { className, ...remainingProps }: DialogContentProperties,
-  ref: ForwardedRef<HTMLElementType>
-) => <MessageContent<HTMLElementType> className={cn('v-pb-2 v-pr-2', className)} ref={ref} {...remainingProps} />;
 
 /**
  * Component used to display content within a dialog.
  * @docs {@link https://design.visa.com/react/components/dialog | See Docs}
  */
-export default forwardRef<DialogContentProperties, HTMLDivElement>(DialogContent);
+const DialogContent = (
+  { className, ...remainingProps }: DialogContentProperties,
+) => <MessageContent className={cn('v-pb-2 v-pr-2', className)} {...remainingProps} />;
+
+export default DialogContent;
 
 DialogContent.displayName = 'DialogContent';

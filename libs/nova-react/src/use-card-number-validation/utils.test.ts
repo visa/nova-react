@@ -325,7 +325,6 @@ describe('useCardValidation utils', () => {
           expect(validator.binRegex.test(validBin)).toBe(true);
         });
         invalidBins.forEach(invalidBin => {
-          // if (validator.binRegex.test(invalidBin)) console.log(invalidBin);
           expect(validator.binRegex.test(invalidBin)).toBe(false);
         });
       });
@@ -365,7 +364,6 @@ describe('useCardValidation utils', () => {
           expect(validator.binRegex.test(validBin)).toBe(true);
         });
         invalidBins.forEach(invalidBin => {
-          // if (validator.binRegex.test(invalidBin)) console.log(invalidBin);
           expect(validator.binRegex.test(invalidBin)).toBe(false);
         });
       });
@@ -392,7 +390,6 @@ describe('useCardValidation utils', () => {
           expect(validator.binRegex.test(validBin)).toBe(true);
         });
         invalidBins.forEach(invalidBin => {
-          // if (validator.binRegex.test(invalidBin)) console.log(invalidBin);
           expect(validator.binRegex.test(invalidBin)).toBe(false);
         });
       });
@@ -427,7 +424,6 @@ describe('useCardValidation utils', () => {
           expect(validator.binRegex.test(validBin)).toBe(true);
         });
         invalidBins.forEach(invalidBin => {
-          // if (validator.binRegex.test(invalidBin)) console.log(invalidBin);
           expect(validator.binRegex.test(invalidBin)).toBe(false);
         });
       });
@@ -455,7 +451,6 @@ describe('useCardValidation utils', () => {
           expect(validator.binRegex.test(validBin)).toBe(true);
         });
         invalidBins.forEach(invalidBin => {
-          // if (validator.binRegex.test(invalidBin)) console.log(invalidBin);
           expect(validator.binRegex.test(invalidBin)).toBe(false);
         });
       });
@@ -563,7 +558,6 @@ describe('useCardValidation utils', () => {
       it('should return the correct validator for valid maestro card numbers', () => {
         validMaestroBins.forEach(cardNumber => {
           const result = findCardValidatorFromBinRegex(cardNumber);
-          // if (result?.brand !== 'MAESTRO') console.log(cardNumber);
           expect(result).toBe(cardValidators.MAESTRO);
         });
       });
@@ -687,7 +681,6 @@ describe('useCardValidation utils', () => {
     it('should mod 10 check invalid numbers correctly', () => {
       invalidMod10Numbers.forEach(cardNumber => {
         const result = moduloCheck(cardNumber);
-        // if (result) console.log(cardNumber);
         expect(result).toBe(false);
       });
     });

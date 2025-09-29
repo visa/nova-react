@@ -1,4 +1,4 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
 
 exports[`Chip examples Compact removable chip group should render correctly 1`] = `
 <div>
@@ -1072,7 +1072,6 @@ exports[`Chip examples Static chip should render correctly 1`] = `
 <div>
   <label
     class="v-chip v-flex"
-    readonly=""
   >
     Label
   </label>

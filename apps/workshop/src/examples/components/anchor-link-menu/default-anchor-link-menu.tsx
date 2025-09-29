@@ -20,6 +20,7 @@ import { AnchorLinkMenu, AnchorLinkMenuHeader, Link, Typography } from '@visa/no
 const id = 'default-anchor-link-menu';
 
 export const DefaultAnchorLinkMenu = () => {
+
   return (
     <AnchorLinkMenu aria-labelledby={`${id}-header`}>
       <section>

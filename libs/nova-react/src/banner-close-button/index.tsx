@@ -15,23 +15,20 @@
  *
  **/
 import cn from 'clsx';
-import { ForwardedRef } from 'react';
 import MessageCloseButton, { MessageCloseButtonProperties } from '../message-close-button';
-import forwardRef from '../types';
 
 export type BannerCloseButtonProperties = MessageCloseButtonProperties;
-
-const BannerCloseButton = <HTMLElementType,>(
-  { className, ...remainingProps }: BannerCloseButtonProperties,
-  ref: ForwardedRef<HTMLElementType>
-) => (
-  <MessageCloseButton<HTMLElementType> className={cn('-v-mt-8 -v-mr-16', className)} ref={ref} {...remainingProps} />
-);
 
 /**
  * Close button used in upper corner of banner.
  * @docs {@link https://design.visa.com/react/components/banner | See Docs}
  */
-export default forwardRef<BannerCloseButtonProperties, HTMLButtonElement>(BannerCloseButton);
+const BannerCloseButton = (
+  { children, className, ...remainingProps }: BannerCloseButtonProperties,
+) => (
+  <MessageCloseButton className={cn('-v-mt-8 -v-mr-16', className)} {...remainingProps}>{children}</MessageCloseButton>
+);
+
+export default BannerCloseButton;
 
 BannerCloseButton.displayName = 'BannerCloseButton';

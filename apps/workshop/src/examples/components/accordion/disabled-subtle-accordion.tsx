@@ -14,7 +14,7 @@
  * limitations under the License.
  *
  **/
-import { CSSProperties } from 'react';
+import { VisaChevronDownTiny, VisaChevronRightTiny } from '@visa/nova-icons-react';
 import {
   Accordion,
   AccordionHeading,
@@ -23,6 +23,7 @@ import {
   Typography,
   UtilityFragment,
 } from '@visa/nova-react';
+import { CSSProperties } from 'react';
 
 // TIP: Customize this ID, pass it as a prop, or auto-generate it with useId() from @react
 const id = 'disabled-subtle-accordion';
@@ -42,7 +43,11 @@ export const DisabledSubtleAccordion = () => {
           id={`${id}-accordion-header`}
           tag="button"
         >
-          <AccordionToggleIcon accordionOpen={expanded} />
+          <AccordionToggleIcon
+            accordionOpen={expanded}
+            elementClosed={<VisaChevronRightTiny rtl />}
+            elementOpen={<VisaChevronDownTiny />}
+          />
           <Typography variant="body-2-medium">Accordion title</Typography>
         </AccordionHeading>
       </UtilityFragment>

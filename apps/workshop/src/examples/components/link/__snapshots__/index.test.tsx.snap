@@ -1,4 +1,4 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
 
 exports[`Link examples Alternate link with trailing icon should render correctly 1`] = `
 <div>
@@ -250,11 +250,6 @@ exports[`Link examples Link with leading icon should render correctly 1`] = `
       width="16"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <rect
-        height="1"
-        transform="translate(7 7.00024)"
-        width="1"
-      />
       <path
         class="v-icon-primary"
         d="M3.91838 7.00159L9.21132 1.70865L7.7971 0.294434L0.0899963 8.00154L7.7971 15.7086L9.21132 14.2944L3.91847 9.00159H16.0042V7.00159H3.91838Z"

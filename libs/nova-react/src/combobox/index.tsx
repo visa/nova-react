@@ -15,22 +15,14 @@
  *
  **/
 import cn from 'clsx';
-import { ElementType, ForwardedRef } from 'react';
-import forwardRef from '../types';
+import { ComponentPropsWithRef, ElementType } from 'react';
 
 const CSS_PREFIX = 'v-combobox';
 
-export type ComboboxProperties = {
-  /** @ignore */
-  className?: string;
+export type ComboboxProperties<ET extends ElementType = 'div',> = {
   /** Tag of the component */
   tag?: ElementType;
-};
-
-const Combobox = <HTMLElementType,>(
-  { className, tag: Tag = 'div', ...remainingProps }: ComboboxProperties,
-  ref: ForwardedRef<HTMLElementType>
-) => <Tag className={cn(CSS_PREFIX, className)} ref={ref} {...remainingProps} />;
+} & ComponentPropsWithRef<ET>;
 
 /**
  * Dropdown menu enabling users to enter text or select items from a list.
@@ -39,7 +31,11 @@ const Combobox = <HTMLElementType,>(
  * @vgar TODO
  * @wcag TODO
  */
-export default forwardRef<ComboboxProperties, HTMLDivElement>(Combobox);
+const Combobox = <ET extends ElementType = 'div',>(
+  { className, tag: Tag = 'div', ...remainingProps }: ComboboxProperties<ET>,
+) => <Tag className={cn(CSS_PREFIX, className)} {...remainingProps} />;
+
+export default Combobox;
 
 Combobox.defaultProps = {
   tag: 'div',

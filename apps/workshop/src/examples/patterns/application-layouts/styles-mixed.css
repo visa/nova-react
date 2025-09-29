@@ -1,0 +1,82 @@
+/**
+ *              © 2025 Visa
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *         http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ **/
+.layout-mixed {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: auto 1fr;
+  grid-template-areas: 'header header' 'nav content';
+  height: 100vh;
+  background-color: var(--palette-default-surface-3, #f0f0f0);
+}
+
+/* open nav */
+.layout-mixed:has(.mixed-vertical-tabs) {
+  grid-template-columns: 242px 1fr !important;
+}
+
+.layout-mixed .layout-header {
+  z-index: 3;
+  position: relative;
+  grid-area: header;
+}
+
+.layout-mixed .layout-vertical-mixed {
+  grid-area: nav;
+}
+
+.layout-mixed .layout-content {
+  position: relative;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  grid-area: content;
+}
+
+.layout-mixed main {
+  display: block;
+  flex-grow: 1;
+}
+
+/* customize the default footer color */
+.layout-mixed footer {
+  --v-footer-background-color: var(--v-palette-default-surface-3);
+}
+
+/* breakpoints */
+@container (max-width: 1003px) {
+  .layout-mixed .v-mobile-container-hide {
+    display: none;
+  }
+
+  .layout-mixed .v-desktop-container-hide {
+    display: block;
+  }
+
+  .layout-mixed .v-desktop-container-hide.v-hide {
+    display: none;
+  }
+}
+
+@container (min-width: 1004px) {
+  .layout-mixed .v-mobile-container-hide {
+    display: flex;
+  }
+
+  .layout-mixed .v-desktop-container-hide {
+    display: none;
+  }
+}

@@ -15,24 +15,20 @@
  *
  **/
 import cn from 'clsx';
-import { ForwardedRef } from 'react';
-import forwardRef from '../types';
+import { ComponentPropsWithRef, ElementType } from 'react';
 
 const CSS_PREFIX = 'v-td';
 
-export type TdProperties = {
-  /** @ignore */
-  className?: string;
-};
-
-const Td = <HTMLElementType,>({ className, ...remainingProps }: TdProperties, ref: ForwardedRef<HTMLElementType>) => (
-  <td className={cn(CSS_PREFIX, className)} ref={ref as ForwardedRef<HTMLTableCellElement>} {...remainingProps} />
-);
+export type TdProperties<ET extends ElementType = 'td',> = ComponentPropsWithRef<ET>;
 
 /**
  * Table data cell component typically used for displaying data and content.
  * @docs {@link https://design.visa.com/react/components/table | See Docs}
  */
-export default forwardRef<TdProperties, HTMLTableCellElement>(Td);
+const Td = <ET extends ElementType = 'td',>({ className, ...remainingProps }: TdProperties<ET>) => (
+  <td className={cn(CSS_PREFIX, className)}  {...remainingProps} />
+);
+
+export default Td;
 
 Td.displayName = 'Td';

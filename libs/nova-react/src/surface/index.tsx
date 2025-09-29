@@ -15,24 +15,17 @@
  *
  **/
 import cn from 'clsx';
-import { ElementType, ForwardedRef } from 'react';
-import forwardRef from '../types';
+import { ComponentPropsWithRef, ElementType } from 'react';
 
 const CSS_PREFIX = 'v-surface';
 
-export type SurfaceProperties = {
-  /** @ignore */
-  className?: string;
+export type SurfaceProperties<ET extends ElementType = 'div',> = {
+
   /** Type of Surface */
   surfaceType?: 'alternate';
   /** Tag of Component */
   tag?: ElementType;
-};
-
-const Surface = <HTMLElementType,>(
-  { className, surfaceType, tag: Tag = 'div', ...remainingProps }: SurfaceProperties,
-  ref: ForwardedRef<HTMLElementType>
-) => <Tag className={cn(CSS_PREFIX, surfaceType && `v-${surfaceType}`, className)} ref={ref} {...remainingProps} />;
+} & ComponentPropsWithRef<ET>;
 
 /**
  * Styles container to be used for alternate backgrounds.
@@ -40,7 +33,11 @@ const Surface = <HTMLElementType,>(
  * @vgar TODO
  * @wcag TODO
  */
-export default forwardRef<SurfaceProperties, HTMLDivElement>(Surface);
+const Surface = <ET extends ElementType = 'div',>(
+  { className, surfaceType, tag: Tag = 'div', ...remainingProps }: SurfaceProperties<ET>,
+) => <Tag className={cn(CSS_PREFIX, surfaceType && `v-${surfaceType}`, className)} {...remainingProps} />;
+
+export default Surface;
 
 Surface.defaultProps = {
   tag: 'div',

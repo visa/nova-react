@@ -30,7 +30,7 @@ export const SelectedMultiListbox = () => {
       <ListboxContainer>
         <Listbox id={id} scroll tag="div">
           {options.map((option, index) => (
-            <ListboxItem htmlFor={`${id}-option-${index}`} key={`${id}-option-${index}`} tag="label">
+            <ListboxItem<'label'> htmlFor={`${id}-option-${index}`} key={`${id}-option-${index}`} tag="label">
               <Checkbox
                 className="v-flex-shrink-0"
                 defaultChecked={index === 1}

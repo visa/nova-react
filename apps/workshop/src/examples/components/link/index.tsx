@@ -14,13 +14,14 @@
  * limitations under the License.
  *
  **/
-import { SectionMessage, SectionMessageContent, SectionMessageIcon, Typography } from '@visa/nova-react';
+import { MessageIcon } from '@visa/nova-icons-react';
+import { SectionMessage, SectionMessageContent, Typography } from '@visa/nova-react';
 import Code from '../../../components/code';
 import { ExampleIndex } from '../../../types';
 
 const ExampleIntro = () => (
   <SectionMessage>
-    <SectionMessageIcon />
+    <MessageIcon />
     <SectionMessageContent>
       <Typography variant="subtitle-1">
         If you are using VDS <code>{`<Link />`}</code> in the same file with React Router <code>{`<Link />`}</code>,

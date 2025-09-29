@@ -19,7 +19,7 @@ import { Breadcrumbs, Link } from '@visa/nova-react';
 
 export const InlineSVGSeparatorBreadcrumbs = () => {
   return (
-    <Breadcrumbs ariaLabel="Custom svg separator breadcrumbs" customSeparator>
+    <Breadcrumbs aria-label="Custom svg separator breadcrumbs" customSeparator>
       <ol>
         <li>
           <Link href="./">L1 label</Link> <VisaChevronRightTiny rtl />

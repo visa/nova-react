@@ -14,6 +14,7 @@
  * limitations under the License.
  *
  **/
+import { VisaChevronRightTiny, VisaChevronDownTiny } from '@visa/nova-icons-react';
 import {
   Accordion,
   AccordionHeading,
@@ -47,7 +48,7 @@ export const DefaultMultiSelectAccordionGroup = () => {
       {accordions.map((accordion, index) => (
         <Accordion key={`${id}-${index}`}>
           <AccordionHeading buttonSize="large" colorScheme="secondary">
-            <AccordionToggleIcon />
+            <AccordionToggleIcon elementClosed={<VisaChevronRightTiny rtl />} elementOpen={<VisaChevronDownTiny />} />
             {accordion.header}
           </AccordionHeading>
           <AccordionPanel>

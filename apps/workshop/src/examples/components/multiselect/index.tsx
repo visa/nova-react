@@ -14,8 +14,8 @@
  * limitations under the License.
  *
  **/
-import { VisaMaximizeTiny } from '@visa/nova-icons-react';
-import { Link, SectionMessage, SectionMessageContent, SectionMessageIcon, Typography } from '@visa/nova-react';
+import { MessageIcon, VisaMaximizeTiny } from '@visa/nova-icons-react';
+import { Link, SectionMessage, SectionMessageContent, Typography } from '@visa/nova-react';
 import Utility from '@visa/nova-react/utility';
 import packageJson from '../../../../package.json';
 import PackageInstaller from '../../../components/package-installer';
@@ -23,7 +23,7 @@ import { ExampleIndex } from '../../../types/component';
 
 const ExampleIntro = () => (
   <SectionMessage>
-    <SectionMessageIcon />
+    <MessageIcon />
     <SectionMessageContent>
       <Typography variant="subtitle-1">
         Note: We have modified the behavior and usage of the <code>useMultipleSelection</code> hook to fit our design

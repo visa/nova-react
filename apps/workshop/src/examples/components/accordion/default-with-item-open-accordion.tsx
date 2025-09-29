@@ -14,7 +14,7 @@
  * limitations under the License.
  *
  **/
-import { Fragment } from 'react';
+import { VisaChevronDownTiny, VisaChevronRightTiny } from '@visa/nova-icons-react';
 import {
   Accordion,
   AccordionHeading,
@@ -23,6 +23,7 @@ import {
   Typography,
   useAccordion,
 } from '@visa/nova-react';
+import { Fragment } from 'react';
 
 const accordions = [
   {
@@ -55,7 +56,11 @@ export const DefaultWithItemOpenAccordion = () => {
             onClick={() => toggleIndexExpanded(index)}
             tag="button"
           >
-            <AccordionToggleIcon accordionOpen={isIndexExpanded(index)} />
+            <AccordionToggleIcon
+              accordionOpen={isIndexExpanded(index)}
+              elementClosed={<VisaChevronRightTiny rtl />}
+              elementOpen={<VisaChevronDownTiny />}
+            />
             {accordion.header}
           </AccordionHeading>
           <AccordionPanel aria-hidden={!isIndexExpanded(index)} id={`accordion-default-open-panel-${index}`}>

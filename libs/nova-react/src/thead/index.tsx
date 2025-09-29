@@ -14,19 +14,18 @@
  * limitations under the License.
  *
  **/
-import { ForwardedRef } from 'react';
-import forwardRef from '../types';
+import { ComponentPropsWithRef, ElementType } from 'react';
 
-export type TheadProperties = Record<string, unknown>;
-
-const Thead = <HTMLElementType,>(props: TheadProperties, ref: ForwardedRef<HTMLElementType>) => (
-  <thead ref={ref as ForwardedRef<HTMLTableSectionElement>} {...props} />
-);
+export type TheadProperties<ET extends ElementType = 'thead',> = Record<string, unknown> & ComponentPropsWithRef<ET>;
 
 /**
  * Table head component that contains all the th cells.
  * @docs {@link https://design.visa.com/react/components/table | See Docs}
  */
-export default forwardRef<TheadProperties, HTMLTableSectionElement>(Thead);
+const Thead = <ET extends ElementType = 'thead',>(props: TheadProperties<ET>) => (
+  <thead {...props} />
+);
+
+export default Thead;
 
 Thead.displayName = 'Thead';

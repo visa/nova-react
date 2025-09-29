@@ -15,23 +15,20 @@
  *
  **/
 import cn from 'clsx';
-import { ForwardedRef } from 'react';
 import Tabs, { TabsProperties } from '../tabs';
-import forwardRef from '../types';
 
 const CSS_PREFIX = 'v-panel-tabs';
 
 export type PanelTabsProperties = TabsProperties;
 
-const PanelTabs = <HTMLElementType,>(
-  { className, ...remainingProps }: PanelTabsProperties,
-  ref: ForwardedRef<HTMLElementType>
-) => <Tabs<HTMLElementType> className={cn(CSS_PREFIX, className)} ref={ref} {...remainingProps} />;
-
 /**
  * Tabs to be used with panel component.
  * @docs {@link https://design.visa.com/react/components/panel | See Docs}
  */
-export default forwardRef<PanelTabsProperties, HTMLUListElement>(PanelTabs);
+const PanelTabs = (
+  { className, ...remainingProps }: PanelTabsProperties,
+) => <Tabs className={cn(CSS_PREFIX, className)} {...remainingProps} />;
+
+export default PanelTabs;
 
 PanelTabs.displayName = 'PanelTabs';

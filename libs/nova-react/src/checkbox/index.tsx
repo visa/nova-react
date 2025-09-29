@@ -15,34 +15,34 @@
  *
  **/
 import cn from 'clsx';
-import { ElementType, ForwardedRef } from 'react';
-import forwardRef from '../types';
+import { ComponentPropsWithRef, ElementType, HTMLElementType } from 'react';
 
 const CSS_PREFIX = 'v-checkbox';
 
-export type CheckboxProperties = {
-  /** @ignore */
-  children?: never;
-  /** @ignore */
-  className?: string;
-} & (
+export type CheckboxProperties<ET extends ElementType = 'input',> = (
   | {
-      /** Whether a checkbox is indeterminate state, only allowable on "input" tag types. This should only be set to true if checked is false. */
-      indeterminate?: never;
-      /** Tag of Component */
-      tag: Exclude<ElementType, 'input'>;
-    }
+    /** Whether a checkbox is indeterminate state, only allowable on "input" tag types. This should only be set to true if checked is false. */
+    indeterminate?: never;
+    /** Tag of Component */
+    tag: Exclude<ElementType, 'input'>;
+  }
   | {
-      /** Whether a checkbox is indeterminate state, only allowable on "input" tag types. This should only be set to true if checked is false. */
-      indeterminate?: boolean;
-      /** Tag of Component */
-      tag?: 'input';
-    }
-);
+    /** Whether a checkbox is indeterminate state, only allowable on "input" tag types. This should only be set to true if checked is false. */
+    indeterminate?: boolean;
+    /** Tag of Component */
+    tag?: 'input';
+  }
+) & Omit<ComponentPropsWithRef<ET>, ''>;
 
-const Checkbox = <HTMLElementType,>(
-  { className, indeterminate, tag: Tag = 'input', ...remainingProps }: CheckboxProperties,
-  ref: ForwardedRef<HTMLElementType>
+/**
+ * Interactive element enabling users to select one or more independent options from a group.
+ * @docs {@link https://design.visa.com/react/components/checkbox | See Docs}
+ * @vgar TODO
+ * @wcag TODO
+ * @related checkbox-panel
+ */
+const Checkbox = <ET extends ElementType = 'input',>(
+  { className, indeterminate, tag: Tag = 'input', ref, ...remainingProps }: CheckboxProperties<ET>
 ) => (
   <Tag
     className={cn(CSS_PREFIX, className)}
@@ -56,14 +56,7 @@ const Checkbox = <HTMLElementType,>(
   />
 );
 
-/**
- * Interactive element enabling users to select one or more independent options from a group.
- * @docs {@link https://design.visa.com/react/components/checkbox | See Docs}
- * @vgar TODO
- * @wcag TODO
- * @related checkbox-panel
- */
-export default forwardRef<CheckboxProperties, HTMLInputElement>(Checkbox);
+export default Checkbox;
 
 Checkbox.defaultProps = {
   tag: 'input',

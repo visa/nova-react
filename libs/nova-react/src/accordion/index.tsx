@@ -15,22 +15,17 @@
  *
  **/
 import cn from 'clsx';
-import { ElementType, ForwardedRef } from 'react';
-import forwardRef from '../types/';
+import { ElementType } from 'react';
+import { ComponentPropsWithRef } from 'react';
 
 const CSS_PREFIX = 'v-accordion';
 
-export type AccordionProperties = {
-  /** @ignore */
-  className?: string;
+export type AccordionProperties<ET extends ElementType = 'details',> = {
+
   /** Tag of Component */
   tag?: ElementType;
-};
+} & ComponentPropsWithRef<ET>;
 
-const Accordion = <HTMLElementType,>(
-  { className, tag: Tag = 'details', ...remainingProps }: AccordionProperties,
-  ref: ForwardedRef<HTMLElementType>
-) => <Tag className={cn(CSS_PREFIX, className)} ref={ref} {...remainingProps} />;
 
 /**
  * Sets of vertical headers that reveal or hide the accordion panel.
@@ -39,10 +34,9 @@ const Accordion = <HTMLElementType,>(
  * @vgar TODO
  * @wcag TODO
  */
-export default forwardRef<AccordionProperties, HTMLDetailsElement>(Accordion);
-
-Accordion.defaultProps = {
-  tag: 'details',
-};
+const Accordion = <ET extends ElementType = 'details',>(
+  { className, tag: Tag = 'details', ...remainingProps }: AccordionProperties<ET>,
+) => <Tag className={cn(CSS_PREFIX, className)} {...remainingProps} />;
+export default Accordion;
 
 Accordion.displayName = 'Accordion';

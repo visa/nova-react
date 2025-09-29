@@ -14,7 +14,6 @@
  * limitations under the License.
  *
  **/
-/* eslint-disable @cspell/spellchecker */
 import { act, fireEvent, render, screen } from '@testing-library/react';
 import { axe } from 'jest-axe';
 

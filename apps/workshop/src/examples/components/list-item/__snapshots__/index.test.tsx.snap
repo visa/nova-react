@@ -1,0 +1,2249 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`List item examples Account clickthrough list should render correctly 1`] = `
+<div>
+  <section
+    aria-label="List title"
+    style="max-inline-size: 343px;"
+  >
+    <span
+      class="v-typography-label v-mb-6"
+    >
+      Accounts
+    </span>
+    <ul
+      class="v-content-card v-p-4"
+      style="max-inline-size: 343px; --v-content-card-border: 0px; --v-content-card-border-radius: 8px;"
+    >
+      <li
+        class="v-surface v-p-0"
+      >
+        <a
+          class="v-button v-button-tertiary v-align-items-center v-flex v-justify-content-between v-pl-0 v-pr-4 v-py-6"
+          href="./list-item"
+          style="--v-button-default-border-radius: 0px; min-block-size: 64px;"
+        >
+          <div
+            class="v-flex v-gap-3"
+          >
+            <div
+              style="background-color: rgb(24, 56, 92); inline-size: 5px; block-size: 56px; border-radius: 10px;"
+            />
+            <div
+              class="v-align-items-center v-flex v-gap-8"
+            >
+              <div
+                class="v-align-items-center v-flex v-justify-content-center"
+                style="background-color: rgb(24, 56, 92); border-radius: 4px; inline-size: 40px; block-size: 25px;"
+              >
+                <svg
+                  aria-label="Visa"
+                  class="v-logo"
+                  height="23"
+                  style="fill: white; height: 10px; width: 30px;"
+                  viewBox="0 0 71 23"
+                  width="71"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M50.6986 15.3377C50.7123 11.8369 47.8134 10.3152 45.4937 9.09755C43.9358 8.27981 42.6393 7.59921 42.6617 6.54843C42.6781 5.75329 43.4371 4.90557 45.0931 4.692C47.0325 4.5045 48.9864 4.8451 50.7479 5.67771L51.7566 0.985714C50.0419 0.341244 48.2261 0.00745647 46.3943 0C40.7429 0 36.7376 3.013 36.7014 7.33043C36.6653 10.5143 39.5501 12.3017 41.7286 13.363C43.9629 14.4473 44.7153 15.1439 44.7054 16.1164C44.7054 17.6049 42.9213 18.2587 41.2751 18.285C38.4794 18.3296 36.8224 17.5564 35.5085 16.9434L35.3839 16.8853L34.3357 21.7416C35.6763 22.3593 38.1504 22.8949 40.7166 22.9211C46.7393 22.9211 50.6821 19.9443 50.7019 15.3377H50.6986ZM26.9429 0.404143L17.6541 22.5729H11.592L7.02157 4.88257C6.74229 3.79171 6.50243 3.39414 5.658 2.93414C4.27143 2.18829 2.00429 1.48514 0 1.04814L0.138 0.391H9.89329C11.2059 0.396383 12.3201 1.35458 12.5219 2.65157L14.9369 15.4823L20.9234 0.404143H26.9429ZM70.9714 22.5663H65.6683L64.975 19.2641H57.6183L56.4223 22.5729H50.4029L59.0016 2.03057C59.409 1.04254 60.3741 0.399575 61.4429 0.404143H66.3419L70.9714 22.5663ZM59.2677 14.72L62.2873 6.394L64.0254 14.72H59.2677ZM30.3994 22.5729L35.1571 0.404143H29.4071L24.6626 22.5729H30.3994Z"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </div>
+              <div
+                class="v-flex v-flex-col"
+              >
+                <p
+                  class="v-typography-overline"
+                >
+                  •••• 1111
+                </p>
+                <p
+                  class="v-typography-label"
+                >
+                  Digital Bank card
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="v-align-items-center v-flex v-gap-8"
+          >
+            <span
+              class="v-typography-subtitle-3"
+            >
+              $1,234.56
+            </span>
+            <svg
+              aria-hidden="true"
+              class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-right"
+              focusable="false"
+              height="16"
+              viewBox="0 0 16 16"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                class="v-icon-primary"
+                clip-rule="evenodd"
+                d="M5.39309 1.00049L12 8.00049L5.39309 15.0005L4 13.5245L9.21383 8.00049L4 2.47646L5.39309 1.00049Z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
+        </a>
+      </li>
+      <li
+        class="v-surface v-p-0"
+      >
+        <a
+          class="v-button v-button-tertiary v-align-items-center v-flex v-justify-content-between v-pl-0 v-pr-4 v-py-6"
+          href="./list-item"
+          style="--v-button-default-border-radius: 0px; min-block-size: 64px;"
+        >
+          <div
+            class="v-flex v-gap-3"
+          >
+            <div
+              style="background-color: rgb(48, 131, 66); inline-size: 5px; block-size: 56px; border-radius: 10px;"
+            />
+            <div
+              class="v-align-items-center v-flex v-gap-8"
+            >
+              <div
+                class="v-align-items-center v-flex v-justify-content-center"
+                style="background-color: rgb(48, 131, 66); border-radius: 4px; inline-size: 40px; block-size: 25px;"
+              >
+                <svg
+                  aria-label="Visa"
+                  class="v-logo"
+                  height="23"
+                  style="fill: white; height: 10px; width: 30px;"
+                  viewBox="0 0 71 23"
+                  width="71"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M50.6986 15.3377C50.7123 11.8369 47.8134 10.3152 45.4937 9.09755C43.9358 8.27981 42.6393 7.59921 42.6617 6.54843C42.6781 5.75329 43.4371 4.90557 45.0931 4.692C47.0325 4.5045 48.9864 4.8451 50.7479 5.67771L51.7566 0.985714C50.0419 0.341244 48.2261 0.00745647 46.3943 0C40.7429 0 36.7376 3.013 36.7014 7.33043C36.6653 10.5143 39.5501 12.3017 41.7286 13.363C43.9629 14.4473 44.7153 15.1439 44.7054 16.1164C44.7054 17.6049 42.9213 18.2587 41.2751 18.285C38.4794 18.3296 36.8224 17.5564 35.5085 16.9434L35.3839 16.8853L34.3357 21.7416C35.6763 22.3593 38.1504 22.8949 40.7166 22.9211C46.7393 22.9211 50.6821 19.9443 50.7019 15.3377H50.6986ZM26.9429 0.404143L17.6541 22.5729H11.592L7.02157 4.88257C6.74229 3.79171 6.50243 3.39414 5.658 2.93414C4.27143 2.18829 2.00429 1.48514 0 1.04814L0.138 0.391H9.89329C11.2059 0.396383 12.3201 1.35458 12.5219 2.65157L14.9369 15.4823L20.9234 0.404143H26.9429ZM70.9714 22.5663H65.6683L64.975 19.2641H57.6183L56.4223 22.5729H50.4029L59.0016 2.03057C59.409 1.04254 60.3741 0.399575 61.4429 0.404143H66.3419L70.9714 22.5663ZM59.2677 14.72L62.2873 6.394L64.0254 14.72H59.2677ZM30.3994 22.5729L35.1571 0.404143H29.4071L24.6626 22.5729H30.3994Z"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </div>
+              <div
+                class="v-flex v-flex-col"
+              >
+                <p
+                  class="v-typography-overline"
+                >
+                  •••• 2222
+                </p>
+                <p
+                  class="v-typography-label"
+                >
+                  Digital Bank card
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="v-align-items-center v-flex v-gap-8"
+          >
+            <span
+              class="v-typography-subtitle-3"
+            >
+              $1,234.56
+            </span>
+            <svg
+              aria-hidden="true"
+              class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-right"
+              focusable="false"
+              height="16"
+              viewBox="0 0 16 16"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                class="v-icon-primary"
+                clip-rule="evenodd"
+                d="M5.39309 1.00049L12 8.00049L5.39309 15.0005L4 13.5245L9.21383 8.00049L4 2.47646L5.39309 1.00049Z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
+        </a>
+      </li>
+      <li
+        class="v-surface v-p-0"
+      >
+        <a
+          class="v-button v-button-tertiary v-align-items-center v-flex v-justify-content-between v-pl-0 v-pr-4 v-py-6"
+          href="./list-item"
+          style="--v-button-default-border-radius: 0px; min-block-size: 64px;"
+        >
+          <div
+            class="v-flex v-gap-3"
+          >
+            <div
+              style="background-color: rgb(166, 48, 75); inline-size: 5px; block-size: 56px; border-radius: 10px;"
+            />
+            <div
+              class="v-align-items-center v-flex v-gap-8"
+            >
+              <div
+                class="v-align-items-center v-flex v-justify-content-center"
+                style="background-color: rgb(166, 48, 75); border-radius: 4px; inline-size: 40px; block-size: 25px;"
+              >
+                <svg
+                  aria-label="Visa"
+                  class="v-logo"
+                  height="23"
+                  style="fill: white; height: 10px; width: 30px;"
+                  viewBox="0 0 71 23"
+                  width="71"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M50.6986 15.3377C50.7123 11.8369 47.8134 10.3152 45.4937 9.09755C43.9358 8.27981 42.6393 7.59921 42.6617 6.54843C42.6781 5.75329 43.4371 4.90557 45.0931 4.692C47.0325 4.5045 48.9864 4.8451 50.7479 5.67771L51.7566 0.985714C50.0419 0.341244 48.2261 0.00745647 46.3943 0C40.7429 0 36.7376 3.013 36.7014 7.33043C36.6653 10.5143 39.5501 12.3017 41.7286 13.363C43.9629 14.4473 44.7153 15.1439 44.7054 16.1164C44.7054 17.6049 42.9213 18.2587 41.2751 18.285C38.4794 18.3296 36.8224 17.5564 35.5085 16.9434L35.3839 16.8853L34.3357 21.7416C35.6763 22.3593 38.1504 22.8949 40.7166 22.9211C46.7393 22.9211 50.6821 19.9443 50.7019 15.3377H50.6986ZM26.9429 0.404143L17.6541 22.5729H11.592L7.02157 4.88257C6.74229 3.79171 6.50243 3.39414 5.658 2.93414C4.27143 2.18829 2.00429 1.48514 0 1.04814L0.138 0.391H9.89329C11.2059 0.396383 12.3201 1.35458 12.5219 2.65157L14.9369 15.4823L20.9234 0.404143H26.9429ZM70.9714 22.5663H65.6683L64.975 19.2641H57.6183L56.4223 22.5729H50.4029L59.0016 2.03057C59.409 1.04254 60.3741 0.399575 61.4429 0.404143H66.3419L70.9714 22.5663ZM59.2677 14.72L62.2873 6.394L64.0254 14.72H59.2677ZM30.3994 22.5729L35.1571 0.404143H29.4071L24.6626 22.5729H30.3994Z"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </div>
+              <div
+                class="v-flex v-flex-col"
+              >
+                <p
+                  class="v-typography-overline"
+                >
+                  •••• 3333
+                </p>
+                <p
+                  class="v-typography-label"
+                >
+                  Digital Bank card
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="v-align-items-center v-flex v-gap-8"
+          >
+            <span
+              class="v-typography-subtitle-3"
+            >
+              $1,234.56
+            </span>
+            <svg
+              aria-hidden="true"
+              class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-right"
+              focusable="false"
+              height="16"
+              viewBox="0 0 16 16"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                class="v-icon-primary"
+                clip-rule="evenodd"
+                d="M5.39309 1.00049L12 8.00049L5.39309 15.0005L4 13.5245L9.21383 8.00049L4 2.47646L5.39309 1.00049Z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
+        </a>
+      </li>
+      <li
+        class="v-surface v-p-0"
+      >
+        <a
+          class="v-button v-button-tertiary v-align-items-center v-flex v-justify-content-between v-pl-0 v-pr-4 v-py-6"
+          href="./list-item"
+          style="--v-button-default-border-radius: 0px; min-block-size: 64px;"
+        >
+          <div
+            class="v-flex v-gap-3"
+          >
+            <div
+              style="background-color: rgb(21, 105, 207); inline-size: 5px; block-size: 56px; border-radius: 10px;"
+            />
+            <div
+              class="v-align-items-center v-flex v-gap-8"
+            >
+              <div
+                class="v-align-items-center v-flex v-justify-content-center"
+                style="background-color: rgb(21, 105, 207); border-radius: 4px; inline-size: 40px; block-size: 25px;"
+              >
+                <svg
+                  aria-label="Visa"
+                  class="v-logo"
+                  height="23"
+                  style="fill: white; height: 10px; width: 30px;"
+                  viewBox="0 0 71 23"
+                  width="71"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M50.6986 15.3377C50.7123 11.8369 47.8134 10.3152 45.4937 9.09755C43.9358 8.27981 42.6393 7.59921 42.6617 6.54843C42.6781 5.75329 43.4371 4.90557 45.0931 4.692C47.0325 4.5045 48.9864 4.8451 50.7479 5.67771L51.7566 0.985714C50.0419 0.341244 48.2261 0.00745647 46.3943 0C40.7429 0 36.7376 3.013 36.7014 7.33043C36.6653 10.5143 39.5501 12.3017 41.7286 13.363C43.9629 14.4473 44.7153 15.1439 44.7054 16.1164C44.7054 17.6049 42.9213 18.2587 41.2751 18.285C38.4794 18.3296 36.8224 17.5564 35.5085 16.9434L35.3839 16.8853L34.3357 21.7416C35.6763 22.3593 38.1504 22.8949 40.7166 22.9211C46.7393 22.9211 50.6821 19.9443 50.7019 15.3377H50.6986ZM26.9429 0.404143L17.6541 22.5729H11.592L7.02157 4.88257C6.74229 3.79171 6.50243 3.39414 5.658 2.93414C4.27143 2.18829 2.00429 1.48514 0 1.04814L0.138 0.391H9.89329C11.2059 0.396383 12.3201 1.35458 12.5219 2.65157L14.9369 15.4823L20.9234 0.404143H26.9429ZM70.9714 22.5663H65.6683L64.975 19.2641H57.6183L56.4223 22.5729H50.4029L59.0016 2.03057C59.409 1.04254 60.3741 0.399575 61.4429 0.404143H66.3419L70.9714 22.5663ZM59.2677 14.72L62.2873 6.394L64.0254 14.72H59.2677ZM30.3994 22.5729L35.1571 0.404143H29.4071L24.6626 22.5729H30.3994Z"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </div>
+              <div
+                class="v-flex v-flex-col"
+              >
+                <p
+                  class="v-typography-overline"
+                >
+                  •••• 4444
+                </p>
+                <p
+                  class="v-typography-label"
+                >
+                  Digital Bank card
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="v-align-items-center v-flex v-gap-8"
+          >
+            <span
+              class="v-typography-subtitle-3"
+            >
+              $1,234.56
+            </span>
+            <svg
+              aria-hidden="true"
+              class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-right"
+              focusable="false"
+              height="16"
+              viewBox="0 0 16 16"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                class="v-icon-primary"
+                clip-rule="evenodd"
+                d="M5.39309 1.00049L12 8.00049L5.39309 15.0005L4 13.5245L9.21383 8.00049L4 2.47646L5.39309 1.00049Z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
+        </a>
+      </li>
+    </ul>
+  </section>
+</div>
+`;
+
+exports[`List item examples Checkbox list should render correctly 1`] = `
+<div>
+  <fieldset
+    aria-label="Section title"
+    style="max-inline-size: 343px;"
+  >
+    <legend
+      class="v-label v-mb-6"
+      id="checkbox-list-legend"
+    >
+      Section title
+    </legend>
+    <ul
+      class="v-content-card v-flex v-flex-col v-gap-4 v-m-0 v-p-4"
+      style="--v-content-card-border: 0px; --v-content-card-border-radius: 8px;"
+    >
+      <li
+        class="v-surface v-p-0"
+      >
+        <label
+          class="v-label v-align-items-center v-flex v-gap-8 v-justify-content-between v-px-8 v-py-6 v-action v-action-secondary"
+          for="checkbox-list-1"
+          style="min-block-size: 64px; inline-size: 100%;"
+        >
+          <div
+            class="v-align-items-center v-flex v-gap-8"
+          >
+            <input
+              class="v-checkbox"
+              id="checkbox-list-1"
+              name="checkbox-list"
+              style="--v-checkbox-glow-offset: 0;"
+              type="checkbox"
+            />
+            <span
+              class="v-typography-label-large"
+            >
+              Item A label 1
+            </span>
+          </div>
+          <p
+            class="v-typography-label-large"
+          >
+            Item A label 2
+          </p>
+        </label>
+      </li>
+      <li
+        class="v-surface v-p-0"
+      >
+        <label
+          class="v-label v-align-items-center v-flex v-gap-8 v-justify-content-between v-px-8 v-py-6 v-action v-action-secondary"
+          for="checkbox-list-2"
+          style="min-block-size: 64px; inline-size: 100%;"
+        >
+          <div
+            class="v-align-items-center v-flex v-gap-8"
+          >
+            <input
+              class="v-checkbox"
+              id="checkbox-list-2"
+              name="checkbox-list"
+              style="--v-checkbox-glow-offset: 0;"
+              type="checkbox"
+            />
+            <span
+              class="v-typography-label-large"
+            >
+              Item B label 1
+            </span>
+          </div>
+          <p
+            class="v-typography-label-large"
+          >
+            Item B label 2
+          </p>
+        </label>
+      </li>
+      <li
+        class="v-surface v-p-0"
+      >
+        <label
+          class="v-label v-align-items-center v-flex v-gap-8 v-justify-content-between v-px-8 v-py-6 v-action v-action-secondary"
+          for="checkbox-list-3"
+          style="min-block-size: 64px; inline-size: 100%;"
+        >
+          <div
+            class="v-align-items-center v-flex v-gap-8"
+          >
+            <input
+              class="v-checkbox"
+              id="checkbox-list-3"
+              name="checkbox-list"
+              style="--v-checkbox-glow-offset: 0;"
+              type="checkbox"
+            />
+            <span
+              class="v-typography-label-large"
+            >
+              Item C label 1
+            </span>
+          </div>
+          <p
+            class="v-typography-label-large"
+          >
+            Item C label 2
+          </p>
+        </label>
+      </li>
+      <li
+        class="v-surface v-p-0"
+      >
+        <label
+          class="v-label v-align-items-center v-flex v-gap-8 v-justify-content-between v-px-8 v-py-6 v-action v-action-secondary"
+          for="checkbox-list-4"
+          style="min-block-size: 64px; inline-size: 100%;"
+        >
+          <div
+            class="v-align-items-center v-flex v-gap-8"
+          >
+            <input
+              class="v-checkbox"
+              id="checkbox-list-4"
+              name="checkbox-list"
+              style="--v-checkbox-glow-offset: 0;"
+              type="checkbox"
+            />
+            <span
+              class="v-typography-label-large"
+            >
+              Item D label 1
+            </span>
+          </div>
+          <p
+            class="v-typography-label-large"
+          >
+            Item D label 2
+          </p>
+        </label>
+      </li>
+    </ul>
+  </fieldset>
+</div>
+`;
+
+exports[`List item examples Clickthrough list should render correctly 1`] = `
+<div>
+  <ul
+    class="v-content-card v-p-4"
+    style="max-inline-size: 343px; --v-content-card-border: 0px; --v-content-card-border-radius: 8px;"
+  >
+    <li
+      class="v-surface v-p-0"
+    >
+      <a
+        class="v-button v-button-tertiary v-align-items-center v-flex v-justify-content-between v-pl-8 v-pr-4 v-py-6"
+        href="./list-item"
+        style="--v-button-default-border-radius: 0px; min-block-size: 64px;"
+      >
+        <span
+          class="v-typography-label-large"
+        >
+          Item A label
+        </span>
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-right"
+          focusable="false"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M5.39309 1.00049L12 8.00049L5.39309 15.0005L4 13.5245L9.21383 8.00049L4 2.47646L5.39309 1.00049Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </a>
+    </li>
+    <li
+      class="v-surface v-p-0"
+    >
+      <a
+        class="v-button v-button-tertiary v-align-items-center v-flex v-justify-content-between v-pl-8 v-pr-4 v-py-6"
+        href="./list-item"
+        style="--v-button-default-border-radius: 0px; min-block-size: 64px;"
+      >
+        <span
+          class="v-typography-label-large"
+        >
+          Item B label
+        </span>
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-right"
+          focusable="false"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M5.39309 1.00049L12 8.00049L5.39309 15.0005L4 13.5245L9.21383 8.00049L4 2.47646L5.39309 1.00049Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </a>
+    </li>
+    <li
+      class="v-surface v-p-0"
+    >
+      <a
+        class="v-button v-button-tertiary v-align-items-center v-flex v-justify-content-between v-pl-8 v-pr-4 v-py-6"
+        href="./list-item"
+        style="--v-button-default-border-radius: 0px; min-block-size: 64px;"
+      >
+        <span
+          class="v-typography-label-large"
+        >
+          Item C label
+        </span>
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-right"
+          focusable="false"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M5.39309 1.00049L12 8.00049L5.39309 15.0005L4 13.5245L9.21383 8.00049L4 2.47646L5.39309 1.00049Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </a>
+    </li>
+    <li
+      class="v-surface v-p-0"
+    >
+      <a
+        class="v-button v-button-tertiary v-align-items-center v-flex v-justify-content-between v-pl-8 v-pr-4 v-py-6"
+        href="./list-item"
+        style="--v-button-default-border-radius: 0px; min-block-size: 64px;"
+      >
+        <span
+          class="v-typography-label-large"
+        >
+          Item D label
+        </span>
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-right"
+          focusable="false"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M5.39309 1.00049L12 8.00049L5.39309 15.0005L4 13.5245L9.21383 8.00049L4 2.47646L5.39309 1.00049Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </a>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`List item examples Default checkbox list item should render correctly 1`] = `
+<div>
+  <ul
+    style="max-inline-size: 343px;"
+  >
+    <li
+      class="v-surface v-p-0"
+    >
+      <label
+        class="v-label v-align-items-center v-flex v-gap-8 v-px-8 v-py-6 v-action v-action-secondary"
+        for="default-checkbox-list-item"
+        style="min-block-size: 64px; inline-size: 100%;"
+      >
+        <input
+          class="v-checkbox"
+          id="default-checkbox-list-item"
+          name="default-checkbox-list-item"
+          style="--v-checkbox-glow-offset: 0;"
+          type="checkbox"
+        />
+        <span
+          class="v-typography-label-large"
+        >
+          Item label
+        </span>
+      </label>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`List item examples Default clickthrough list item should render correctly 1`] = `
+<div>
+  <ul
+    style="max-inline-size: 343px;"
+  >
+    <li
+      class="v-surface v-p-0"
+    >
+      <a
+        class="v-button v-button-tertiary v-align-items-center v-flex v-justify-content-between v-pl-8 v-pr-4 v-py-6"
+        href="./list-item"
+        style="--v-button-default-border-radius: 0px; min-block-size: 64px;"
+      >
+        <span
+          class="v-typography-label-large"
+        >
+          Item label
+        </span>
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-right"
+          focusable="false"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M5.39309 1.00049L12 8.00049L5.39309 15.0005L4 13.5245L9.21383 8.00049L4 2.47646L5.39309 1.00049Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </a>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`List item examples Default list should render correctly 1`] = `
+<div>
+  <ul
+    class="v-content-card v-p-4"
+    style="max-inline-size: 343px; --v-content-card-border: 0px; --v-content-card-border-radius: 8px;"
+  >
+    <li
+      class="v-surface v-align-items-center v-flex v-justify-content-between v-px-8 v-py-6"
+      style="min-block-size: 64px;"
+    >
+      <span
+        class="v-typography-label-large"
+      >
+        Item A label 1
+      </span>
+      <span
+        class="v-typography-label-large"
+      >
+        Item A label 2
+      </span>
+    </li>
+    <li
+      class="v-surface v-align-items-center v-flex v-justify-content-between v-px-8 v-py-6"
+      style="min-block-size: 64px;"
+    >
+      <span
+        class="v-typography-label-large"
+      >
+        Item B label 1
+      </span>
+      <span
+        class="v-typography-label-large"
+      >
+        Item B label 2
+      </span>
+    </li>
+    <li
+      class="v-surface v-align-items-center v-flex v-justify-content-between v-px-8 v-py-6"
+      style="min-block-size: 64px;"
+    >
+      <span
+        class="v-typography-label-large"
+      >
+        Item C label 1
+      </span>
+      <span
+        class="v-typography-label-large"
+      >
+        Item C label 2
+      </span>
+    </li>
+    <li
+      class="v-surface v-align-items-center v-flex v-justify-content-between v-px-8 v-py-6"
+      style="min-block-size: 64px;"
+    >
+      <span
+        class="v-typography-label-large"
+      >
+        Item D label 1
+      </span>
+      <span
+        class="v-typography-label-large"
+      >
+        Item D label 2
+      </span>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`List item examples Default list with dividers should render correctly 1`] = `
+<div>
+  <ul
+    class="v-content-card v-p-4"
+    style="max-inline-size: 343px; --v-content-card-border: 0px; --v-content-card-border-radius: 8px;"
+  >
+    <li>
+      <div
+        class="v-surface v-align-items-center v-flex v-justify-content-between v-px-8 v-py-6"
+        style="min-block-size: 64px;"
+      >
+        <span
+          class="v-typography-label-large"
+        >
+          Item A label 1
+        </span>
+        <span
+          class="v-typography-label-large"
+        >
+          Item A label 2
+        </span>
+      </div>
+      <hr
+        aria-hidden="true"
+        class="v-divider v-divider-decorative"
+      />
+    </li>
+    <li>
+      <div
+        class="v-surface v-align-items-center v-flex v-justify-content-between v-px-8 v-py-6"
+        style="min-block-size: 64px;"
+      >
+        <span
+          class="v-typography-label-large"
+        >
+          Item B label 1
+        </span>
+        <span
+          class="v-typography-label-large"
+        >
+          Item B label 2
+        </span>
+      </div>
+      <hr
+        aria-hidden="true"
+        class="v-divider v-divider-decorative"
+      />
+    </li>
+    <li>
+      <div
+        class="v-surface v-align-items-center v-flex v-justify-content-between v-px-8 v-py-6"
+        style="min-block-size: 64px;"
+      >
+        <span
+          class="v-typography-label-large"
+        >
+          Item C label 1
+        </span>
+        <span
+          class="v-typography-label-large"
+        >
+          Item C label 2
+        </span>
+      </div>
+      <hr
+        aria-hidden="true"
+        class="v-divider v-divider-decorative"
+      />
+    </li>
+    <li>
+      <div
+        class="v-surface v-align-items-center v-flex v-justify-content-between v-px-8 v-py-6"
+        style="min-block-size: 64px;"
+      >
+        <span
+          class="v-typography-label-large"
+        >
+          Item D label 1
+        </span>
+        <span
+          class="v-typography-label-large"
+        >
+          Item D label 2
+        </span>
+      </div>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`List item examples Default list with section title and hyperlink should render correctly 1`] = `
+<div>
+  <section
+    aria-label="Section title"
+    style="max-inline-size: 343px;"
+  >
+    <div
+      class="v-align-items-center v-flex v-justify-content-between v-mb-6"
+    >
+      <span
+        class="v-typography-label"
+      >
+        Section title
+      </span>
+      <a
+        class="v-link v-link-no-underline"
+        href="./list-item"
+      >
+        <span
+          class="v-typography-label"
+        >
+          Hyperlink
+        </span>
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-right"
+          focusable="false"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M5.39309 1.00049L12 8.00049L5.39309 15.0005L4 13.5245L9.21383 8.00049L4 2.47646L5.39309 1.00049Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </a>
+    </div>
+    <ul
+      class="v-content-card v-p-4"
+      style="--v-content-card-border: 0px; --v-content-card-border-radius: 8px;"
+    >
+      <li
+        class="v-surface v-align-items-center v-flex v-justify-content-between v-px-8 v-py-6"
+        style="min-block-size: 64px;"
+      >
+        <span
+          class="v-typography-label-large"
+        >
+          Item A label 1
+        </span>
+        <span
+          class="v-typography-label-large"
+        >
+          Item A label 2
+        </span>
+      </li>
+      <li
+        class="v-surface v-align-items-center v-flex v-justify-content-between v-px-8 v-py-6"
+        style="min-block-size: 64px;"
+      >
+        <span
+          class="v-typography-label-large"
+        >
+          Item B label 1
+        </span>
+        <span
+          class="v-typography-label-large"
+        >
+          Item B label 2
+        </span>
+      </li>
+      <li
+        class="v-surface v-align-items-center v-flex v-justify-content-between v-px-8 v-py-6"
+        style="min-block-size: 64px;"
+      >
+        <span
+          class="v-typography-label-large"
+        >
+          Item C label 1
+        </span>
+        <span
+          class="v-typography-label-large"
+        >
+          Item C label 2
+        </span>
+      </li>
+      <li
+        class="v-surface v-align-items-center v-flex v-justify-content-between v-px-8 v-py-6"
+        style="min-block-size: 64px;"
+      >
+        <span
+          class="v-typography-label-large"
+        >
+          Item D label 1
+        </span>
+        <span
+          class="v-typography-label-large"
+        >
+          Item D label 2
+        </span>
+      </li>
+    </ul>
+  </section>
+</div>
+`;
+
+exports[`List item examples Default list with title should render correctly 1`] = `
+<div>
+  <section
+    aria-label="List title"
+    style="max-inline-size: 343px;"
+  >
+    <span
+      class="v-typography-label v-mb-6"
+    >
+      List title
+    </span>
+    <ul
+      class="v-content-card v-p-4"
+      style="--v-content-card-border: 0px; --v-content-card-border-radius: 8px;"
+    >
+      <li
+        class="v-surface v-align-items-center v-flex v-justify-content-between v-px-8 v-py-6"
+        style="min-block-size: 64px;"
+      >
+        <span
+          class="v-typography-label-large"
+        >
+          Item A label 1
+        </span>
+        <span
+          class="v-typography-label-large"
+        >
+          Item A label 2
+        </span>
+      </li>
+      <li
+        class="v-surface v-align-items-center v-flex v-justify-content-between v-px-8 v-py-6"
+        style="min-block-size: 64px;"
+      >
+        <span
+          class="v-typography-label-large"
+        >
+          Item B label 1
+        </span>
+        <span
+          class="v-typography-label-large"
+        >
+          Item B label 2
+        </span>
+      </li>
+      <li
+        class="v-surface v-align-items-center v-flex v-justify-content-between v-px-8 v-py-6"
+        style="min-block-size: 64px;"
+      >
+        <span
+          class="v-typography-label-large"
+        >
+          Item C label 1
+        </span>
+        <span
+          class="v-typography-label-large"
+        >
+          Item C label 2
+        </span>
+      </li>
+      <li
+        class="v-surface v-align-items-center v-flex v-justify-content-between v-px-8 v-py-6"
+        style="min-block-size: 64px;"
+      >
+        <span
+          class="v-typography-label-large"
+        >
+          Item D label 1
+        </span>
+        <span
+          class="v-typography-label-large"
+        >
+          Item D label 2
+        </span>
+      </li>
+    </ul>
+  </section>
+</div>
+`;
+
+exports[`List item examples Default radio list item should render correctly 1`] = `
+<div>
+  <ul
+    style="max-inline-size: 343px;"
+  >
+    <li
+      class="v-surface v-p-0"
+    >
+      <label
+        class="v-label v-align-items-center v-flex v-gap-8 v-px-8 v-py-6 v-action v-action-secondary"
+        for="default-radio-list-item"
+        style="min-block-size: 64px; inline-size: 100%;"
+      >
+        <input
+          class="v-radio"
+          id="default-radio-list-item"
+          name="default-radio-list-item"
+          style="--v-radio-glow-offset: 0;"
+          type="radio"
+        />
+        <span
+          class="v-typography-label-large"
+        >
+          Item label
+        </span>
+      </label>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`List item examples Default switch list item should render correctly 1`] = `
+<div>
+  <ul
+    style="max-inline-size: 343px;"
+  >
+    <li
+      class="v-surface v-align-items-center v-flex v-justify-content-between v-px-8 v-py-6"
+      style="min-block-size: 64px;"
+    >
+      <label
+        class="v-label v-switch-label"
+        for="default-switch-list-item-switch"
+      >
+        <span
+          class="v-typography-label-large"
+        >
+          Item label
+        </span>
+      </label>
+      <input
+        class="v-switch"
+        id="default-switch-list-item-switch"
+        name="default-switch-list-item"
+        role="switch"
+        type="checkbox"
+      />
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`List item examples Disabled card art clickthrough list item should render correctly 1`] = `
+<div>
+  <ul
+    style="max-inline-size: 343px;"
+  >
+    <li
+      class="v-surface v-p-0"
+    >
+      <a
+        aria-disabled="true"
+        class="v-button v-button-tertiary v-align-items-center v-flex v-justify-content-between v-pl-8 v-pr-4 v-py-6"
+        href="./list-item"
+        role="link"
+        style="min-block-size: 64px;"
+        tabindex="-1"
+      >
+        <div
+          class="v-align-items-center v-flex v-gap-8"
+        >
+          <div
+            class="v-align-items-center v-flex v-justify-content-center"
+            style="opacity: 0.3; mix-blend-mode: luminosity; border-radius: 2px; inline-size: 40px; block-size: 25px;"
+          >
+            <svg
+              aria-label="Visa"
+              class="v-logo"
+              height="23"
+              style="fill: white; height: 10px; width: 30px;"
+              viewBox="0 0 71 23"
+              width="71"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M50.6986 15.3377C50.7123 11.8369 47.8134 10.3152 45.4937 9.09755C43.9358 8.27981 42.6393 7.59921 42.6617 6.54843C42.6781 5.75329 43.4371 4.90557 45.0931 4.692C47.0325 4.5045 48.9864 4.8451 50.7479 5.67771L51.7566 0.985714C50.0419 0.341244 48.2261 0.00745647 46.3943 0C40.7429 0 36.7376 3.013 36.7014 7.33043C36.6653 10.5143 39.5501 12.3017 41.7286 13.363C43.9629 14.4473 44.7153 15.1439 44.7054 16.1164C44.7054 17.6049 42.9213 18.2587 41.2751 18.285C38.4794 18.3296 36.8224 17.5564 35.5085 16.9434L35.3839 16.8853L34.3357 21.7416C35.6763 22.3593 38.1504 22.8949 40.7166 22.9211C46.7393 22.9211 50.6821 19.9443 50.7019 15.3377H50.6986ZM26.9429 0.404143L17.6541 22.5729H11.592L7.02157 4.88257C6.74229 3.79171 6.50243 3.39414 5.658 2.93414C4.27143 2.18829 2.00429 1.48514 0 1.04814L0.138 0.391H9.89329C11.2059 0.396383 12.3201 1.35458 12.5219 2.65157L14.9369 15.4823L20.9234 0.404143H26.9429ZM70.9714 22.5663H65.6683L64.975 19.2641H57.6183L56.4223 22.5729H50.4029L59.0016 2.03057C59.409 1.04254 60.3741 0.399575 61.4429 0.404143H66.3419L70.9714 22.5663ZM59.2677 14.72L62.2873 6.394L64.0254 14.72H59.2677ZM30.3994 22.5729L35.1571 0.404143H29.4071L24.6626 22.5729H30.3994Z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
+          <span
+            class="v-typography-label-large"
+          >
+            Item label
+          </span>
+        </div>
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-right"
+          focusable="false"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M5.39309 1.00049L12 8.00049L5.39309 15.0005L4 13.5245L9.21383 8.00049L4 2.47646L5.39309 1.00049Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </a>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`List item examples Disabled card art with number clickthrough list item should render correctly 1`] = `
+<div>
+  <ul
+    style="max-inline-size: 343px;"
+  >
+    <li
+      class="v-surface v-p-0"
+    >
+      <a
+        aria-disabled="true"
+        class="v-button v-button-tertiary v-align-items-center v-flex v-justify-content-between v-pl-8 v-pr-4 v-py-6"
+        href="./list-item"
+        role="link"
+        style="min-block-size: 64px;"
+        tabindex="-1"
+      >
+        <div
+          class="v-align-items-center v-flex v-gap-8"
+        >
+          <div
+            class="v-align-items-center v-flex v-gap-4"
+          >
+            <div
+              class="v-align-items-center v-flex v-justify-content-center"
+              style="opacity: 0.3; mix-blend-mode: luminosity; border-radius: 2px; inline-size: 40px; block-size: 25px;"
+            >
+              <svg
+                aria-label="Visa"
+                class="v-logo"
+                height="23"
+                style="fill: white; height: 10px; width: 30px;"
+                viewBox="0 0 71 23"
+                width="71"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M50.6986 15.3377C50.7123 11.8369 47.8134 10.3152 45.4937 9.09755C43.9358 8.27981 42.6393 7.59921 42.6617 6.54843C42.6781 5.75329 43.4371 4.90557 45.0931 4.692C47.0325 4.5045 48.9864 4.8451 50.7479 5.67771L51.7566 0.985714C50.0419 0.341244 48.2261 0.00745647 46.3943 0C40.7429 0 36.7376 3.013 36.7014 7.33043C36.6653 10.5143 39.5501 12.3017 41.7286 13.363C43.9629 14.4473 44.7153 15.1439 44.7054 16.1164C44.7054 17.6049 42.9213 18.2587 41.2751 18.285C38.4794 18.3296 36.8224 17.5564 35.5085 16.9434L35.3839 16.8853L34.3357 21.7416C35.6763 22.3593 38.1504 22.8949 40.7166 22.9211C46.7393 22.9211 50.6821 19.9443 50.7019 15.3377H50.6986ZM26.9429 0.404143L17.6541 22.5729H11.592L7.02157 4.88257C6.74229 3.79171 6.50243 3.39414 5.658 2.93414C4.27143 2.18829 2.00429 1.48514 0 1.04814L0.138 0.391H9.89329C11.2059 0.396383 12.3201 1.35458 12.5219 2.65157L14.9369 15.4823L20.9234 0.404143H26.9429ZM70.9714 22.5663H65.6683L64.975 19.2641H57.6183L56.4223 22.5729H50.4029L59.0016 2.03057C59.409 1.04254 60.3741 0.399575 61.4429 0.404143H66.3419L70.9714 22.5663ZM59.2677 14.72L62.2873 6.394L64.0254 14.72H59.2677ZM30.3994 22.5729L35.1571 0.404143H29.4071L24.6626 22.5729H30.3994Z"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </div>
+            <span
+              class="v-typography-label"
+            >
+              •••• 1234
+            </span>
+          </div>
+          <span
+            class="v-typography-label-large"
+          >
+            Item label
+          </span>
+        </div>
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-right"
+          focusable="false"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M5.39309 1.00049L12 8.00049L5.39309 15.0005L4 13.5245L9.21383 8.00049L4 2.47646L5.39309 1.00049Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </a>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`List item examples Disabled checkbox list item should render correctly 1`] = `
+<div>
+  <ul
+    style="max-inline-size: 343px;"
+  >
+    <li
+      class="v-surface v-p-0"
+    >
+      <label
+        class="v-label v-align-items-center v-flex v-gap-8 v-px-8 v-py-6 v-action v-action-secondary"
+        for="disabled-checkbox-list-item"
+        style="min-block-size: 64px; inline-size: 100%;"
+      >
+        <input
+          class="v-checkbox"
+          disabled=""
+          id="disabled-checkbox-list-item"
+          name="disabled-checkbox-list-item"
+          style="--v-checkbox-glow-offset: 0;"
+          type="checkbox"
+        />
+        <span
+          class="v-typography-label-large"
+        >
+          Item label
+        </span>
+      </label>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`List item examples Disabled clickthrough list item should render correctly 1`] = `
+<div>
+  <ul
+    style="max-inline-size: 343px;"
+  >
+    <li
+      class="v-surface v-p-0"
+    >
+      <a
+        aria-disabled="true"
+        class="v-button v-button-tertiary v-align-items-center v-flex v-justify-content-between v-pl-8 v-pr-4 v-py-6"
+        href="./list-item"
+        role="link"
+        style="--v-button-default-border-radius: 0px; min-block-size: 64px;"
+        tabindex="-1"
+      >
+        <span
+          class="v-typography-label-large"
+        >
+          Item label
+        </span>
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-right"
+          focusable="false"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M5.39309 1.00049L12 8.00049L5.39309 15.0005L4 13.5245L9.21383 8.00049L4 2.47646L5.39309 1.00049Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </a>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`List item examples Disabled leading icon clickthrough list item should render correctly 1`] = `
+<div>
+  <ul
+    style="max-inline-size: 343px;"
+  >
+    <li
+      class="v-surface v-p-0"
+    >
+      <a
+        aria-disabled="true"
+        class="v-button v-button-tertiary v-align-items-center v-flex v-justify-content-between v-pl-8 v-pr-4 v-py-6"
+        href="./list-item"
+        role="link"
+        style="--v-button-default-border-radius: 0px; min-block-size: 64px;"
+        tabindex="-1"
+      >
+        <div
+          class="v-align-items-center v-flex v-gap-8"
+        >
+          <svg
+            aria-hidden="true"
+            class="v-icon v-icon-generic v-icon-low v-icon-security-protection"
+            focusable="false"
+            height="24"
+            style="--v-icon-height: 24px; --v-icon-width: 24px;"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="v-icon-primary"
+              clip-rule="evenodd"
+              d="M5 14.9392C5 18.8392 8.136 22.0002 12 22.0002C15.864 22.0002 19 18.8392 19 14.9392V5.29721C16.425 5.08821 13.983 4.07621 12 2.36621C10.017 4.07621 7.575 5.08821 5 5.29721V14.9392ZM3 14.9395V5.2965C3 4.2705 3.775 3.3885 4.807 3.3065C7.238 3.1175 9.527 2.0725 11.29 0.2955C11.682 -0.0985 12.318 -0.0985 12.71 0.2955C14.473 2.0725 16.762 3.1175 19.194 3.3065C20.225 3.3885 21 4.2705 21 5.2965V14.9395C21 19.9415 16.972 24.0005 12 24.0005C7.028 24.0005 3 19.9415 3 14.9395ZM15.2933 9.29325C15.6842 8.90225 16.3162 8.90225 16.7072 9.29325C17.0982 9.68325 17.0982 10.3162 16.7072 10.7072L11.7073 15.7072C11.3162 16.0972 10.6842 16.0972 10.2933 15.7072L7.29325 12.7072C6.90225 12.3162 6.90225 11.6833 7.29325 11.2933C7.68425 10.9023 8.31625 10.9023 8.70725 11.2933L11.0002 13.5852L15.2933 9.29325Z"
+              fill-rule="evenodd"
+            />
+          </svg>
+          <span
+            class="v-typography-label-large"
+          >
+            Item label
+          </span>
+        </div>
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-right"
+          focusable="false"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M5.39309 1.00049L12 8.00049L5.39309 15.0005L4 13.5245L9.21383 8.00049L4 2.47646L5.39309 1.00049Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </a>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`List item examples Disabled leading image clickthrough list item should render correctly 1`] = `
+<div>
+  <ul
+    style="max-inline-size: 343px;"
+  >
+    <li
+      class="v-surface v-p-0"
+    >
+      <a
+        aria-disabled="true"
+        class="v-button v-button-tertiary v-align-items-center v-flex v-justify-content-between v-pl-8 v-pr-4 v-py-6"
+        href="./list-item"
+        role="link"
+        style="--v-button-default-border-radius: 0px; min-block-size: 64px;"
+        tabindex="-1"
+      >
+        <div
+          class="v-align-items-center v-flex v-gap-8"
+        >
+          <img
+            alt="Alex Miller"
+            class="v-avatar"
+            src="https://www.url.com/alex-miller-stock.png"
+            style="--v-avatar-size: 48px;"
+          />
+          <span
+            class="v-typography-label-large"
+          >
+            Item label
+          </span>
+        </div>
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-right"
+          focusable="false"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M5.39309 1.00049L12 8.00049L5.39309 15.0005L4 13.5245L9.21383 8.00049L4 2.47646L5.39309 1.00049Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </a>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`List item examples Disabled radio list item should render correctly 1`] = `
+<div>
+  <ul
+    style="max-inline-size: 343px;"
+  >
+    <li
+      class="v-surface v-p-0"
+    >
+      <label
+        class="v-label v-align-items-center v-flex v-gap-8 v-px-8 v-py-6 v-action v-action-secondary"
+        for="disabled-radio-list-item"
+        style="min-block-size: 64px; inline-size: 100%;"
+      >
+        <input
+          class="v-radio"
+          disabled=""
+          id="disabled-radio-list-item"
+          name="disabled-radio-list-item"
+          style="--v-radio-glow-offset: 0;"
+          type="radio"
+        />
+        <span
+          class="v-typography-label-large"
+        >
+          Item label
+        </span>
+      </label>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`List item examples Disabled switch list item should render correctly 1`] = `
+<div>
+  <ul
+    style="max-inline-size: 343px;"
+  >
+    <li
+      class="v-surface v-align-items-center v-flex v-justify-content-between v-px-8 v-py-6"
+      style="min-block-size: 64px;"
+    >
+      <label
+        class="v-label v-switch-label"
+        for="disabled-switch-list-item-switch"
+      >
+        <span
+          class="v-typography-label-large"
+        >
+          Item label
+        </span>
+      </label>
+      <input
+        class="v-switch"
+        disabled=""
+        id="disabled-switch-list-item-switch"
+        name="disabled-switch-list-item"
+        role="switch"
+        type="checkbox"
+      />
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`List item examples Indicator line list item should render correctly 1`] = `
+<div>
+  <ul
+    style="max-inline-size: 343px;"
+  >
+    <li
+      class="v-surface v-align-items-center v-flex v-gap-3 v-pl-0 v-pr-8 v-py-6"
+      style="min-block-size: 64px;"
+    >
+      <div
+        style="inline-size: 5px; block-size: 56px; border-radius: 10px;"
+      />
+      <span
+        class="v-typography-label-large"
+      >
+        Item label
+      </span>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`List item examples Leading card art list item should render correctly 1`] = `
+<div>
+  <ul
+    style="max-inline-size: 343px;"
+  >
+    <li
+      class="v-surface v-align-items-center v-flex v-gap-8 v-px-8 v-py-6"
+      style="min-block-size: 64px;"
+    >
+      <div
+        class="v-align-items-center v-flex v-justify-content-center"
+        style="border-radius: 2px; inline-size: 40px; block-size: 25px;"
+      >
+        <svg
+          aria-label="Visa"
+          class="v-logo"
+          height="23"
+          style="fill: white; height: 10px; width: 30px;"
+          viewBox="0 0 71 23"
+          width="71"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M50.6986 15.3377C50.7123 11.8369 47.8134 10.3152 45.4937 9.09755C43.9358 8.27981 42.6393 7.59921 42.6617 6.54843C42.6781 5.75329 43.4371 4.90557 45.0931 4.692C47.0325 4.5045 48.9864 4.8451 50.7479 5.67771L51.7566 0.985714C50.0419 0.341244 48.2261 0.00745647 46.3943 0C40.7429 0 36.7376 3.013 36.7014 7.33043C36.6653 10.5143 39.5501 12.3017 41.7286 13.363C43.9629 14.4473 44.7153 15.1439 44.7054 16.1164C44.7054 17.6049 42.9213 18.2587 41.2751 18.285C38.4794 18.3296 36.8224 17.5564 35.5085 16.9434L35.3839 16.8853L34.3357 21.7416C35.6763 22.3593 38.1504 22.8949 40.7166 22.9211C46.7393 22.9211 50.6821 19.9443 50.7019 15.3377H50.6986ZM26.9429 0.404143L17.6541 22.5729H11.592L7.02157 4.88257C6.74229 3.79171 6.50243 3.39414 5.658 2.93414C4.27143 2.18829 2.00429 1.48514 0 1.04814L0.138 0.391H9.89329C11.2059 0.396383 12.3201 1.35458 12.5219 2.65157L14.9369 15.4823L20.9234 0.404143H26.9429ZM70.9714 22.5663H65.6683L64.975 19.2641H57.6183L56.4223 22.5729H50.4029L59.0016 2.03057C59.409 1.04254 60.3741 0.399575 61.4429 0.404143H66.3419L70.9714 22.5663ZM59.2677 14.72L62.2873 6.394L64.0254 14.72H59.2677ZM30.3994 22.5729L35.1571 0.404143H29.4071L24.6626 22.5729H30.3994Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+      <span
+        class="v-typography-label-large"
+      >
+        Item label
+      </span>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`List item examples Leading icon list item should render correctly 1`] = `
+<div>
+  <ul
+    style="max-inline-size: 343px;"
+  >
+    <li
+      class="v-surface v-align-items-center v-flex v-gap-8 v-px-8 v-py-6"
+      style="min-block-size: 64px;"
+    >
+      <svg
+        aria-hidden="true"
+        class="v-icon v-icon-generic v-icon-low v-icon-information"
+        focusable="false"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          class="v-icon-primary"
+          clip-rule="evenodd"
+          d="M22 12C22 6.47728 17.5227 2 12 2C6.47728 2 2 6.47728 2 12C2 17.5227 6.47728 22 12 22C17.5227 22 22 17.5227 22 12ZM24 12C24 18.6273 18.6273 24 12 24C5.37272 24 0 18.6273 0 12C0 5.37272 5.37272 0 12 0C18.6273 0 24 5.37272 24 12ZM10.0898 17.9795H11.5898L13.2598 9.26953H11.7698L10.0898 17.9795ZM12.9998 5.83008C12.4475 5.83008 11.9998 6.27779 11.9998 6.83008C11.9773 7.07168 12.0578 7.31157 12.2216 7.4906C12.3854 7.66963 12.6172 7.77113 12.8598 7.77008C13.4121 7.77008 13.8598 7.32236 13.8598 6.77008C13.8793 6.5292 13.7977 6.29109 13.6345 6.11279C13.4714 5.93449 13.2415 5.83207 12.9998 5.83008Z"
+          fill-rule="evenodd"
+        />
+      </svg>
+      <span
+        class="v-typography-label-large"
+      >
+        Item label
+      </span>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`List item examples Leading icon with background list item should render correctly 1`] = `
+<div>
+  <ul
+    style="max-inline-size: 343px;"
+  >
+    <li
+      class="v-surface v-align-items-center v-flex v-gap-8 v-px-8 v-py-6"
+      style="min-block-size: 64px;"
+    >
+      <div
+        class="v-flex v-p-8"
+        style="border-radius: 4px;"
+      >
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-low v-icon-account"
+          focusable="false"
+          height="24"
+          style="--v-icon-primary: currentColor; --v-icon-secondary: currentColor;"
+          viewBox="0 0 24 24"
+          width="24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-secondary"
+            clip-rule="evenodd"
+            d="M12 14C7.58172 14 4 17.5817 4 22V24H2V22C2 16.4772 6.47715 12 12 12C17.5228 12 22 16.4772 22 22V24H20V22C20 17.5817 16.4183 14 12 14Z"
+            fill-rule="evenodd"
+          />
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M12 8C13.6569 8 15 6.65685 15 5C15 3.34315 13.6569 2 12 2C10.3431 2 9 3.34315 9 5C9 6.65685 10.3431 8 12 8ZM12 10C14.7614 10 17 7.76142 17 5C17 2.23858 14.7614 0 12 0C9.23858 0 7 2.23858 7 5C7 7.76142 9.23858 10 12 10Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+      <span
+        class="v-typography-label-large"
+      >
+        Item label
+      </span>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`List item examples Leading image list item should render correctly 1`] = `
+<div>
+  <ul
+    style="max-inline-size: 343px;"
+  >
+    <li
+      class="v-surface v-align-items-center v-flex v-gap-8 v-px-8 v-py-6"
+      style="min-block-size: 64px;"
+    >
+      <img
+        alt="Alex Miller"
+        class="v-avatar"
+        src="https://www.url.com/alex-miller-stock.png"
+      />
+      <span
+        class="v-typography-label-large"
+      >
+        Item label
+      </span>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`List item examples One-line list item should render correctly 1`] = `
+<div>
+  <ul
+    style="max-inline-size: 343px;"
+  >
+    <li
+      class="v-surface v-align-items-center v-flex v-px-8 v-py-6"
+      style="min-block-size: 64px;"
+    >
+      <span
+        class="v-typography-label-large"
+      >
+        Item label
+      </span>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`List item examples One-line, two-column list item should render correctly 1`] = `
+<div>
+  <ul
+    style="max-inline-size: 343px;"
+  >
+    <li
+      class="v-surface v-align-items-center v-flex v-justify-content-between v-px-8 v-py-6"
+      style="min-block-size: 64px;"
+    >
+      <span
+        class="v-typography-label-large"
+      >
+        Item label 1
+      </span>
+      <span
+        class="v-typography-label-large"
+      >
+        Item label 2
+      </span>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`List item examples Radio list should render correctly 1`] = `
+<div>
+  <fieldset
+    aria-label="Section title"
+    style="max-inline-size: 343px;"
+  >
+    <legend
+      class="v-label v-mb-6"
+      id="radio-list-legend"
+    >
+      Section title
+    </legend>
+    <ul
+      class="v-content-card v-flex v-flex-col v-gap-4 v-m-0 v-p-4"
+      style="--v-content-card-border: 0px; --v-content-card-border-radius: 8px;"
+    >
+      <li
+        class="v-surface v-p-0"
+      >
+        <label
+          class="v-label v-align-items-center v-flex v-gap-8 v-justify-content-between v-px-8 v-py-6 v-action v-action-secondary"
+          for="radio-list-1"
+          style="min-block-size: 64px; inline-size: 100%;"
+        >
+          <div
+            class="v-align-items-center v-flex v-gap-8"
+          >
+            <input
+              class="v-radio"
+              id="radio-list-1"
+              name="radio-list"
+              style="--v-radio-glow-offset: 0;"
+              type="radio"
+            />
+            <span
+              class="v-typography-label-large"
+            >
+              Item A label 1
+            </span>
+          </div>
+          <p
+            class="v-typography-label-large"
+          >
+            Item A label 2
+          </p>
+        </label>
+      </li>
+      <li
+        class="v-surface v-p-0"
+      >
+        <label
+          class="v-label v-align-items-center v-flex v-gap-8 v-justify-content-between v-px-8 v-py-6 v-action v-action-secondary"
+          for="radio-list-2"
+          style="min-block-size: 64px; inline-size: 100%;"
+        >
+          <div
+            class="v-align-items-center v-flex v-gap-8"
+          >
+            <input
+              class="v-radio"
+              id="radio-list-2"
+              name="radio-list"
+              style="--v-radio-glow-offset: 0;"
+              type="radio"
+            />
+            <span
+              class="v-typography-label-large"
+            >
+              Item B label 1
+            </span>
+          </div>
+          <p
+            class="v-typography-label-large"
+          >
+            Item B label 2
+          </p>
+        </label>
+      </li>
+      <li
+        class="v-surface v-p-0"
+      >
+        <label
+          class="v-label v-align-items-center v-flex v-gap-8 v-justify-content-between v-px-8 v-py-6 v-action v-action-secondary"
+          for="radio-list-3"
+          style="min-block-size: 64px; inline-size: 100%;"
+        >
+          <div
+            class="v-align-items-center v-flex v-gap-8"
+          >
+            <input
+              class="v-radio"
+              id="radio-list-3"
+              name="radio-list"
+              style="--v-radio-glow-offset: 0;"
+              type="radio"
+            />
+            <span
+              class="v-typography-label-large"
+            >
+              Item C label 1
+            </span>
+          </div>
+          <p
+            class="v-typography-label-large"
+          >
+            Item C label 2
+          </p>
+        </label>
+      </li>
+      <li
+        class="v-surface v-p-0"
+      >
+        <label
+          class="v-label v-align-items-center v-flex v-gap-8 v-justify-content-between v-px-8 v-py-6 v-action v-action-secondary"
+          for="radio-list-4"
+          style="min-block-size: 64px; inline-size: 100%;"
+        >
+          <div
+            class="v-align-items-center v-flex v-gap-8"
+          >
+            <input
+              class="v-radio"
+              id="radio-list-4"
+              name="radio-list"
+              style="--v-radio-glow-offset: 0;"
+              type="radio"
+            />
+            <span
+              class="v-typography-label-large"
+            >
+              Item D label 1
+            </span>
+          </div>
+          <p
+            class="v-typography-label-large"
+          >
+            Item D label 2
+          </p>
+        </label>
+      </li>
+    </ul>
+  </fieldset>
+</div>
+`;
+
+exports[`List item examples Three-line list item should render correctly 1`] = `
+<div>
+  <ul
+    style="max-inline-size: 343px;"
+  >
+    <li
+      class="v-surface v-flex v-flex-col v-gap-2 v-justify-content-center v-px-8 v-py-6"
+      style="min-block-size: 64px;"
+    >
+      <span
+        class="v-typography-label-large"
+      >
+        Item label
+      </span>
+      <span
+        class="v-typography-label"
+      >
+        Secondary text
+      </span>
+      <span
+        class="v-typography-label-small"
+      >
+        Tertiary text
+      </span>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`List item examples Trailing card art list item should render correctly 1`] = `
+<div>
+  <ul
+    style="max-inline-size: 343px;"
+  >
+    <li
+      class="v-surface v-align-items-center v-flex v-justify-content-between v-px-8 v-py-6"
+      style="min-block-size: 64px;"
+    >
+      <span
+        class="v-typography-label-large"
+      >
+        Item label
+      </span>
+      <div
+        class="v-align-items-center v-flex v-justify-content-center"
+        style="border-radius: 2px; inline-size: 40px; block-size: 25px;"
+      >
+        <svg
+          aria-label="Visa"
+          class="v-logo"
+          height="23"
+          style="fill: white; height: 10px; width: 30px;"
+          viewBox="0 0 71 23"
+          width="71"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M50.6986 15.3377C50.7123 11.8369 47.8134 10.3152 45.4937 9.09755C43.9358 8.27981 42.6393 7.59921 42.6617 6.54843C42.6781 5.75329 43.4371 4.90557 45.0931 4.692C47.0325 4.5045 48.9864 4.8451 50.7479 5.67771L51.7566 0.985714C50.0419 0.341244 48.2261 0.00745647 46.3943 0C40.7429 0 36.7376 3.013 36.7014 7.33043C36.6653 10.5143 39.5501 12.3017 41.7286 13.363C43.9629 14.4473 44.7153 15.1439 44.7054 16.1164C44.7054 17.6049 42.9213 18.2587 41.2751 18.285C38.4794 18.3296 36.8224 17.5564 35.5085 16.9434L35.3839 16.8853L34.3357 21.7416C35.6763 22.3593 38.1504 22.8949 40.7166 22.9211C46.7393 22.9211 50.6821 19.9443 50.7019 15.3377H50.6986ZM26.9429 0.404143L17.6541 22.5729H11.592L7.02157 4.88257C6.74229 3.79171 6.50243 3.39414 5.658 2.93414C4.27143 2.18829 2.00429 1.48514 0 1.04814L0.138 0.391H9.89329C11.2059 0.396383 12.3201 1.35458 12.5219 2.65157L14.9369 15.4823L20.9234 0.404143H26.9429ZM70.9714 22.5663H65.6683L64.975 19.2641H57.6183L56.4223 22.5729H50.4029L59.0016 2.03057C59.409 1.04254 60.3741 0.399575 61.4429 0.404143H66.3419L70.9714 22.5663ZM59.2677 14.72L62.2873 6.394L64.0254 14.72H59.2677ZM30.3994 22.5729L35.1571 0.404143H29.4071L24.6626 22.5729H30.3994Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`List item examples Trailing icon list item should render correctly 1`] = `
+<div>
+  <ul
+    style="max-inline-size: 343px;"
+  >
+    <li
+      class="v-surface v-align-items-center v-flex v-justify-content-between v-px-8 v-py-6"
+      style="min-block-size: 64px;"
+    >
+      <span
+        class="v-typography-label-large"
+      >
+        Item label
+      </span>
+      <svg
+        aria-hidden="true"
+        class="v-icon v-icon-generic v-icon-low v-icon-information"
+        focusable="false"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          class="v-icon-primary"
+          clip-rule="evenodd"
+          d="M22 12C22 6.47728 17.5227 2 12 2C6.47728 2 2 6.47728 2 12C2 17.5227 6.47728 22 12 22C17.5227 22 22 17.5227 22 12ZM24 12C24 18.6273 18.6273 24 12 24C5.37272 24 0 18.6273 0 12C0 5.37272 5.37272 0 12 0C18.6273 0 24 5.37272 24 12ZM10.0898 17.9795H11.5898L13.2598 9.26953H11.7698L10.0898 17.9795ZM12.9998 5.83008C12.4475 5.83008 11.9998 6.27779 11.9998 6.83008C11.9773 7.07168 12.0578 7.31157 12.2216 7.4906C12.3854 7.66963 12.6172 7.77113 12.8598 7.77008C13.4121 7.77008 13.8598 7.32236 13.8598 6.77008C13.8793 6.5292 13.7977 6.29109 13.6345 6.11279C13.4714 5.93449 13.2415 5.83207 12.9998 5.83008Z"
+          fill-rule="evenodd"
+        />
+      </svg>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`List item examples Trailing icon with background list item should render correctly 1`] = `
+<div>
+  <ul
+    style="max-inline-size: 343px;"
+  >
+    <li
+      class="v-surface v-align-items-center v-flex v-justify-content-between v-px-8 v-py-6"
+      style="min-block-size: 64px;"
+    >
+      <span
+        class="v-typography-label-large"
+      >
+        Item label
+      </span>
+      <div
+        class="v-flex v-p-8"
+        style="border-radius: 4px;"
+      >
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-low v-icon-account"
+          focusable="false"
+          height="24"
+          style="--v-icon-primary: currentColor; --v-icon-secondary: currentColor;"
+          viewBox="0 0 24 24"
+          width="24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-secondary"
+            clip-rule="evenodd"
+            d="M12 14C7.58172 14 4 17.5817 4 22V24H2V22C2 16.4772 6.47715 12 12 12C17.5228 12 22 16.4772 22 22V24H20V22C20 17.5817 16.4183 14 12 14Z"
+            fill-rule="evenodd"
+          />
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M12 8C13.6569 8 15 6.65685 15 5C15 3.34315 13.6569 2 12 2C10.3431 2 9 3.34315 9 5C9 6.65685 10.3431 8 12 8ZM12 10C14.7614 10 17 7.76142 17 5C17 2.23858 14.7614 0 12 0C9.23858 0 7 2.23858 7 5C7 7.76142 9.23858 10 12 10Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`List item examples Trailing image list item should render correctly 1`] = `
+<div>
+  <ul
+    style="max-inline-size: 343px;"
+  >
+    <li
+      class="v-surface v-align-items-center v-flex v-justify-content-between v-px-8 v-py-6"
+      style="min-block-size: 64px;"
+    >
+      <span
+        class="v-typography-label-large"
+      >
+        Item label
+      </span>
+      <img
+        alt="Alex Miller"
+        class="v-avatar"
+        src="https://www.url.com/alex-miller-stock.png"
+      />
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`List item examples Transactions list should render correctly 1`] = `
+<div>
+  <section
+    aria-label="Transactions"
+    style="max-inline-size: 343px;"
+  >
+    <div
+      class="v-align-items-center v-flex v-justify-content-between v-mb-6"
+    >
+      <span
+        class="v-typography-label"
+      >
+        Transactions
+      </span>
+      <a
+        class="v-link v-link-no-underline"
+        href="./list-item"
+      >
+        <span
+          class="v-typography-label"
+        >
+          See more
+        </span>
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-tiny v-icon-chevron-right"
+          focusable="false"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-primary"
+            clip-rule="evenodd"
+            d="M5.39309 1.00049L12 8.00049L5.39309 15.0005L4 13.5245L9.21383 8.00049L4 2.47646L5.39309 1.00049Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </a>
+    </div>
+    <ul
+      class="v-content-card v-p-4"
+      style="--v-content-card-border: 0px; --v-content-card-border-radius: 8px;"
+    >
+      <li
+        class="v-surface v-align-items-center v-flex v-justify-content-between v-px-8 v-py-6"
+        style="min-block-size: 64px;"
+      >
+        <div
+          class="v-align-items-center v-flex v-gap-8"
+        >
+          <span
+            aria-label="Merchant Name"
+            class="v-avatar"
+            role="img"
+          >
+            MN
+          </span>
+          <span
+            class="v-typography-body-3"
+          >
+            Merchant name
+          </span>
+        </div>
+        <div
+          class="v-flex v-flex-col"
+          style="text-align: end;"
+        >
+          <span
+            class="v-typography-subtitle-2"
+          >
+            - $14.57
+          </span>
+          <span
+            class="v-typography-color-subtle v-typography-label"
+          >
+            $1,234.56
+          </span>
+        </div>
+      </li>
+      <li
+        class="v-surface v-align-items-center v-flex v-justify-content-between v-px-8 v-py-6"
+        style="min-block-size: 64px;"
+      >
+        <div
+          class="v-align-items-center v-flex v-gap-8"
+        >
+          <span
+            aria-label="Merchant Name"
+            class="v-avatar"
+            role="img"
+          >
+            MN
+          </span>
+          <span
+            class="v-typography-body-3"
+          >
+            Merchant name
+          </span>
+        </div>
+        <div
+          class="v-flex v-flex-col"
+          style="text-align: end;"
+        >
+          <span
+            class="v-typography-subtitle-2"
+          >
+            - $14.57
+          </span>
+          <span
+            class="v-typography-color-subtle v-typography-label"
+          >
+            $1,234.56
+          </span>
+        </div>
+      </li>
+      <li
+        class="v-surface v-align-items-center v-flex v-justify-content-between v-px-8 v-py-6"
+        style="min-block-size: 64px;"
+      >
+        <div
+          class="v-align-items-center v-flex v-gap-8"
+        >
+          <span
+            aria-label="Merchant Name"
+            class="v-avatar"
+            role="img"
+          >
+            MN
+          </span>
+          <span
+            class="v-typography-body-3"
+          >
+            Merchant name
+          </span>
+        </div>
+        <div
+          class="v-flex v-flex-col"
+          style="text-align: end;"
+        >
+          <span
+            class="v-typography-subtitle-2"
+          >
+            - $14.57
+          </span>
+          <span
+            class="v-typography-color-subtle v-typography-label"
+          >
+            $1,234.56
+          </span>
+        </div>
+      </li>
+      <li
+        class="v-surface v-align-items-center v-flex v-justify-content-between v-px-8 v-py-6"
+        style="min-block-size: 64px;"
+      >
+        <div
+          class="v-align-items-center v-flex v-gap-8"
+        >
+          <span
+            aria-label="Merchant Name"
+            class="v-avatar"
+            role="img"
+          >
+            MN
+          </span>
+          <span
+            class="v-typography-body-3"
+          >
+            Merchant name
+          </span>
+        </div>
+        <div
+          class="v-flex v-flex-col"
+          style="text-align: end;"
+        >
+          <span
+            class="v-typography-subtitle-2"
+          >
+            - $14.57
+          </span>
+          <span
+            class="v-typography-color-subtle v-typography-label"
+          >
+            $1,234.56
+          </span>
+        </div>
+      </li>
+    </ul>
+  </section>
+</div>
+`;
+
+exports[`List item examples Two-line list item should render correctly 1`] = `
+<div>
+  <ul
+    style="max-inline-size: 343px;"
+  >
+    <li
+      class="v-surface v-flex v-flex-col v-gap-2 v-justify-content-center v-px-8 v-py-6"
+      style="min-block-size: 64px;"
+    >
+      <span
+        class="v-typography-label-large"
+      >
+        Item label
+      </span>
+      <span
+        class="v-typography-label"
+      >
+        Secondary text
+      </span>
+    </li>
+  </ul>
+</div>
+`;

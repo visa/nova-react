@@ -14,6 +14,7 @@
  * limitations under the License.
  *
  **/
+import { VisaCloseTiny } from '@visa/nova-icons-react';
 import {
   Button,
   Dialog,
@@ -68,7 +69,9 @@ export const TouringTipsDialog = () => {
             </Utility>
           </Utility>
         </DialogContent>
-        <DialogCloseButton onClick={onCloseDialog} />
+        <DialogCloseButton onClick={onCloseDialog}>
+          <VisaCloseTiny />
+        </DialogCloseButton>
       </Dialog>
     </>
   );

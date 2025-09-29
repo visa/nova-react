@@ -15,31 +15,28 @@
  *
  **/
 import cn from 'clsx';
-import { ForwardedRef } from 'react';
+import { ComponentPropsWithRef, ElementType } from 'react';
 import Message, { MessageProperties } from '../message';
-import forwardRef from '../types';
 
 const CSS_PREFIX = 'v-banner';
 
-export type BannerProperties = {
-  /** @ignore */
-  className?: string;
+export type BannerProperties<ET extends ElementType = 'div',> = {
+
   /** Message Type */
   messageType?: MessageProperties['messageType'];
-} & Omit<MessageProperties, 'messageType'>;
-
-const Banner = <HTMLElementType,>(
-  { className, ...remainingProps }: BannerProperties,
-  ref: ForwardedRef<HTMLElementType>
-) => <Message className={cn(CSS_PREFIX, className)} ref={ref} {...remainingProps} />;
+} & Omit<MessageProperties, 'messageType'> & ComponentPropsWithRef<ET>;
 
 /**
  * Messages indicating the global status of an application or website.
  * @docs {@link https://design.visa.com/react/components/banner | See Docs}
- * @related banner-close-button, message-content, message-icon
+ * @related banner-close-button, message-content
  * @vgar TODO
  * @wcag TODO
  */
-export default forwardRef<BannerProperties, HTMLDivElement>(Banner);
+const Banner = <ET extends ElementType = 'div',>(
+  { className, ...remainingProps }: BannerProperties<ET>,
+) => <Message className={cn(CSS_PREFIX, className)} {...remainingProps} />;
+
+export default Banner;
 
 Banner.displayName = 'Banner';

@@ -50,7 +50,7 @@ describe('useWizard', () => {
       act(() => {
         result.current.onStepComplete(0);
       });
-      expect(result.current.hasError()).toBe(true);
+      expect(result.current.hasError()).toBe(false);
     });
   });
 

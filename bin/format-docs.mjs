@@ -246,14 +246,17 @@ const fetchLibMetaForResource = resourceName => {
   return objectFromJsonPath(join(pathToLibSrc, libResourceName, metaDataFilename));
 };
 
+//@TODO: rewrite this to not depend on index.tsx
 const fetchAllDataForResource = (resourceType, resourceName) => {
-  const pathToResourceType = join(pathToExamples, resourceType); // components, hooks, utilities
+  const pathToResourceType = join(pathToExamples, resourceType); // components, patterns, hooks, utilities,
   const pathToResourceDir = join(pathToResourceType, resourceName);
+  //const pathToSharedMetaFiles= join(pathToResourceType, '/shared', resourceName, metaDataFilename);
   const pathToResourceIndexFile = join(pathToResourceDir, '/index.tsx');
   const pathToResourceMetaFile = join(pathToResourceDir, metaDataFilename);
-
   const indexFileContent = readFileSync(pathToResourceIndexFile, 'utf-8');
+  //const sharedFileContent = objectFromJsonPath(pathToSharedMetaFiles);
   const resourceExamplesMetaData = objectFromJsonPath(pathToResourceMetaFile);
+  const githubUrl = `apps/workshop/src/examples`;
   const ast = babelParse(indexFileContent, {
     sourceType: 'module',
     plugins: ['typescript', 'jsx'],
@@ -377,21 +380,36 @@ const fetchAllDataForResource = (resourceType, resourceName) => {
   const examples = sectionsAndExamples
     .filter(r => !r.type) // filter out all of the headings that have type of `section`
     .map((exampleReference, i) => {
+
       const exampleInfo = resourceExamplesMetaData[exampleReference.id]; // fetch the example data from the meta.json file
       if (!exampleInfo) {
         console.warn(`example info not found for ${exampleReference.id}`);
         return exampleReference;
       }
-
       // fetch tsx for example implementation
-      const snippetPath = join(pathToResourceDir, exampleInfo.file);
+      let snippetPath = join(pathToResourceDir, exampleInfo.file);
 
-      const snippetFileType = parse(snippetPath).ext.slice(1); // capture the file extension since this is part of our api
+      if (exampleInfo.tags && exampleInfo.tags.isShared !== undefined) {
+        if (exampleInfo.tags.isShared === true) {
+          snippetPath = join(pathToResourceDir + '/shared/', exampleInfo.file);
+        }
+      }
+
+      const cutIndex = snippetPath.indexOf("patterns") + "patterns".length;
+      let shortenedPatternsPath = snippetPath.substring(cutIndex - "patterns".length);
+
+      const snippetFileType = snippetPath.includes("patterns") ? shortenedPatternsPath : parse(snippetPath).ext.slice(1); // capture the file extension since this is part of our api
+
       const codeSnippet = readFileSync(snippetPath, 'utf-8'); // fetch the code implementation for the example
       if (!codeSnippet) {
         console.warn(`${snippetPath} not found!`);
         return exampleReference;
       }
+
+      const snippets = {
+        [snippetFileType]: codeSnippet,
+      }
+
 
       // our api expects the tags to be an array of strings--
       // convert truthy tag values within `tags` object into an array
@@ -403,11 +421,12 @@ const fetchAllDataForResource = (resourceType, resourceName) => {
         libraryId: null,
         componentId: null,
         section: exampleReference.section,
-        url: `${resourceType}/${resourceName}/${exampleInfo.id}`,
-        tags: exampleTags,
-        snippets: {
-          [snippetFileType]: codeSnippet,
+        url: {
+          'iframe': exampleInfo.tags && exampleInfo.tags.isShared !== undefined ? exampleInfo.tags.isShared === true ? '' : `${resourceType}/${resourceName}/${exampleInfo.id}` : `${resourceType}/${resourceName}/${exampleInfo.id}`,
+          'github': `${githubUrl}/${resourceType}/${resourceName}/${exampleInfo.file}`
         },
+        tags: exampleTags,
+        snippets: snippets,
       };
 
       if (resourceType === 'hooks' && exampleInfo.title === 'Behavior and usage') {
@@ -455,10 +474,23 @@ const fetchAllDataForResource = (resourceType, resourceName) => {
     return finalHookData;
   }
 
+  // all utilities need to have <Utility /> and <UtilityFragment />
+  if (resourceType === 'utilities') {
+    const utilityLibData = fetchLibMetaForResource('utility');
+    propertySections.push(formatPropertySection('utility', utilityLibData));
+    const utilityFragmentLibData = fetchLibMetaForResource('utility-fragment');
+    propertySections.push(formatPropertySection('utility-fragment', utilityFragmentLibData));
+
+    properties.push(...formatProperties(utilityLibData));
+    properties.push(...formatProperties(utilityFragmentLibData));
+  }
+
+
+
   // avoid populating `components` for components that don't have a props array
   // (or hooks that don't have a params array)
   // ex: color selector (native), or vertical-navigation (nav is the real parent component)
-  if (!rootItemLibMeta.noComponent) {
+  if (!rootItemLibMeta.noComponent && resourceType !== 'patterns') {
     // start populating propertySections and properties for our final api data
     // the first propertySection is a reference is a self reference
     // e.g. <Accordion /> for resourceName === "accordion"
@@ -477,10 +509,6 @@ const fetchAllDataForResource = (resourceType, resourceName) => {
   // if the top level item is a hook then we don't need to show the related APIs
   if (resourceType !== 'hooks') {
     rootItemLibMeta.related?.forEach(relatedName => {
-      // NOTE: remove this block when the badge-number component is officially removed
-      if (relatedName === 'badge-number') {
-        return;
-      }
 
       const relatedItemLibMeta = fetchLibMetaForResource(relatedName);
       if (!relatedItemLibMeta) {
@@ -522,10 +550,12 @@ const fetchAllDataForResource = (resourceType, resourceName) => {
     propertySections.push(...relatedComponents.sections, ...relatedHooks.sections, ...relatedTopLevelItems.sections);
     properties.push(...relatedComponents.properties);
 
-    propertySections = propertySections.map((ps, i) => ({
+    propertySections = propertySections.filter(ps => ps && ps.name !== 'Progress').map((ps, i) =>
+    ({
       order: i + 1,
       ...ps,
-    }));
+    })
+    );
   }
 
   const finalResourceData = {
@@ -570,13 +600,13 @@ const getWorkshopExamples = () => {
   // create a global object that contains all the resources with
   // top level workshop example pages.
   // this can be used in `related` component references
-  ['components', 'hooks', 'utilities'].forEach(resourceType => {
+  ['components', 'patterns', 'hooks', 'utilities'].forEach(resourceType => {
     examplesMetaData[resourceType].forEach(resourceName => {
       globalTopLevelResourceStore[resourceName] = true;
     });
   });
 
-  ['components', 'hooks', 'utilities'].forEach(resourceType => {
+  ['components', 'patterns', 'hooks', 'utilities'].forEach(resourceType => {
     const resourceData = examplesMetaData[resourceType].map(resourceName => {
       return {
         name: resourceName,

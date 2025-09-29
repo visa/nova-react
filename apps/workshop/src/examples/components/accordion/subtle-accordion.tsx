@@ -14,7 +14,7 @@
  * limitations under the License.
  *
  **/
-import { CSSProperties } from 'react';
+import { VisaChevronDownTiny, VisaChevronRightTiny } from '@visa/nova-icons-react';
 import {
   Accordion,
   AccordionHeading,
@@ -23,6 +23,7 @@ import {
   Typography,
   UtilityFragment,
 } from '@visa/nova-react';
+import { CSSProperties } from 'react';
 
 export const SubtleAccordion = () => {
   return (
@@ -38,7 +39,7 @@ export const SubtleAccordion = () => {
             } as CSSProperties
           }
         >
-          <AccordionToggleIcon />
+          <AccordionToggleIcon elementClosed={<VisaChevronRightTiny rtl />} elementOpen={<VisaChevronDownTiny />} />
           Accordion title
         </AccordionHeading>
       </UtilityFragment>

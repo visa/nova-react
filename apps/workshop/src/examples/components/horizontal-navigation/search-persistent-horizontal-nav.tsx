@@ -94,8 +94,8 @@ export const SearchPersistentHorizontalNav = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [label3Open, setLabel3Open] = useState(false);
 
-  const mobileSearchInputRef = useRef<HTMLInputElement | null>();
-  const mobileSearchButtonRef = useRef<HTMLButtonElement | null>();
+  const mobileSearchInputRef = useRef<HTMLInputElement | null>(null);
+  const mobileSearchButtonRef = useRef<HTMLButtonElement | null>(null);
 
   const [expandSearch, setExpandSearch] = useState(false);
 
@@ -266,7 +266,7 @@ export const SearchPersistentHorizontalNav = () => {
                                 {label3SubItems.map(label3SubItem => (
                                   <li key={label3SubItem.id}>
                                     <UtilityFragment vPaddingVertical={4} vPaddingHorizontal={8}>
-                                      <ListboxItem href={label3SubItem.href} tag="a">
+                                      <ListboxItem<'a'> href={label3SubItem.href} tag="a">
                                         {label3SubItem.tabLabel}
                                       </ListboxItem>
                                     </UtilityFragment>
@@ -364,7 +364,7 @@ export const SearchPersistentHorizontalNav = () => {
                               <UtilityFragment key={accountSubItem.id}>
                                 <li>
                                   <UtilityFragment vPaddingVertical={4} vPaddingHorizontal={8}>
-                                    <ListboxItem href={accountSubItem.href} tag="a">
+                                    <ListboxItem<'a'> href={accountSubItem.href} tag="a">
                                       {accountSubItem.tabLabel}
                                     </ListboxItem>
                                   </UtilityFragment>

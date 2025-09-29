@@ -15,14 +15,12 @@
  *
  **/
 import cn from 'clsx';
-import { ElementType, ForwardedRef } from 'react';
-import forwardRef from '../types';
+import { ComponentPropsWithRef, ElementType } from 'react';
 
 const CSS_PREFIX = 'v-panel';
 
-export type PanelProperties = {
-  /** @ignore */
-  className?: string;
+export type PanelProperties<ET extends ElementType = 'div',> = {
+
   /** Expandable */
   expandable?: boolean;
   /** Responsive */
@@ -31,11 +29,17 @@ export type PanelProperties = {
   skrim?: boolean;
   /** Tag of Component */
   tag?: ElementType;
-};
+} & ComponentPropsWithRef<ET>;
 
-const Panel = <HTMLElementType,>(
-  { className, expandable, responsive, skrim, tag: Tag = 'div', ...remainingProps }: PanelProperties,
-  ref: ForwardedRef<HTMLElementType>
+/**
+ * Collapsible or persistent containers used to present supplementary information.
+ * @docs {@link https://design.visa.com/react/components/panel | See Docs}
+ * @related panel-body, panel-content, panel-header, panel-toggle, use-focus-trap
+ * @vgar TODO
+ * @wcag TODO
+ */
+const Panel = <ET extends ElementType = 'div',>(
+  { className, expandable, responsive, skrim, tag: Tag = 'div', ...remainingProps }: PanelProperties<ET>,
 ) => (
   <Tag
     className={cn(
@@ -45,19 +49,11 @@ const Panel = <HTMLElementType,>(
       skrim && `${CSS_PREFIX}-skrim`,
       className
     )}
-    ref={ref}
     {...remainingProps}
   />
 );
 
-/**
- * Collapsible or persistent containers used to present supplementary information.
- * @docs {@link https://design.visa.com/react/components/panel | See Docs}
- * @related panel-body, panel-content, panel-header, panel-toggle, use-focus-trap
- * @vgar TODO
- * @wcag TODO
- */
-export default forwardRef<PanelProperties, HTMLDivElement>(Panel);
+export default Panel;
 
 Panel.defaultProps = {
   tag: 'div',

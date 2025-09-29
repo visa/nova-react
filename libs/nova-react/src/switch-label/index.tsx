@@ -15,23 +15,20 @@
  *
  **/
 import cn from 'clsx';
-import { ForwardedRef } from 'react';
 import Label, { LabelProperties } from '../label';
-import forwardRef from '../types';
 
 const CSS_PREFIX = 'v-switch-label';
 
 export type SwitchLabelProperties = LabelProperties;
 
-const SwitchLabel = <HTMLElementType,>(
-  { className, ...remainingProps }: SwitchLabelProperties,
-  ref: ForwardedRef<HTMLElementType>
-) => <Label<HTMLElementType> className={cn(CSS_PREFIX, className)} ref={ref} {...remainingProps} />;
-
 /**
  * Label to be used with switch component.
  * @docs {@link https://design.visa.com/react/components/switch | See Docs}
  */
-export default forwardRef<SwitchLabelProperties, HTMLLabelElement>(SwitchLabel);
+const SwitchLabel = (
+  { className, ...remainingProps }: SwitchLabelProperties,
+) => <Label className={cn(CSS_PREFIX, className)} {...remainingProps} />;
+
+export default SwitchLabel;
 
 SwitchLabel.displayName = 'SwitchLabel';

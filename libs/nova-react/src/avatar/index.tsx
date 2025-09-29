@@ -15,24 +15,17 @@
  *
  **/
 import cn from 'clsx';
-import { ElementType, ForwardedRef } from 'react';
-import forwardRef from '../types';
+import { ComponentPropsWithRef, ElementType } from 'react';
 
 const CSS_PREFIX = 'v-avatar';
 
-export type AvatarProperties = {
-  /** @ignore */
-  className?: string;
+export type AvatarProperties<ET extends ElementType = 'span',> = {
+
   /** Small Avatar */
   small?: boolean;
   /** Tag of Component */
   tag?: ElementType;
-};
-
-const Avatar = <HTMLElementType,>(
-  { className, small, tag: Tag = 'span', ...remainingProps }: AvatarProperties,
-  ref: ForwardedRef<HTMLElementType>
-) => <Tag className={cn(CSS_PREFIX, small && `${CSS_PREFIX}-small`, className)} ref={ref} {...remainingProps} />;
+} & ComponentPropsWithRef<ET>;
 
 /**
  * Icons and/or text representing users or entities.
@@ -41,7 +34,11 @@ const Avatar = <HTMLElementType,>(
  * @vgar TODO
  * @wcag TODO
  */
-export default forwardRef<AvatarProperties, HTMLSpanElement>(Avatar);
+const Avatar = <ET extends ElementType = 'button',>(
+  { className, small, tag: Tag = 'span', ...remainingProps }: AvatarProperties<ET>,
+) => <Tag className={cn(CSS_PREFIX, small && `${CSS_PREFIX}-small`, className)} {...remainingProps} />;
+
+export default Avatar;
 
 Avatar.defaultProps = {
   tag: 'span',

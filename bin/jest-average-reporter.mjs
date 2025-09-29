@@ -14,7 +14,7 @@
  * limitations under the License.
  *
  **/
-import { paramCase } from 'change-case';
+import { kebabCase } from 'change-case';
 import { existsSync, readFileSync, writeFileSync } from 'fs';
 import { join, parse, resolve } from 'path';
 
@@ -54,7 +54,7 @@ const calculateAverageCoverage = () => {
       } else if (isLib) {
         metaData = { ...metaData, testAvg: average };
       } else {
-        const exampleId = paramCase(parsedPath.name);
+        const exampleId = kebabCase(parsedPath.name);
         const prevExampleData = metaData[exampleId] || {};
         metaData[exampleId] = { ...prevExampleData, testAvg: average };
       }

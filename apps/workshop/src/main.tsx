@@ -16,27 +16,24 @@
  **/
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import '@visa/nova-styles/styles.css';
-import { StrictMode, Suspense, lazy } from 'react';
+import { StrictMode, Suspense } from 'react';
 import { createRoot } from 'react-dom/client';
 import VSuspense from './components/v-suspense';
 import './index.scss';
 import { ThemeProvider } from './providers';
-import AuthProvider from './providers/auth-provider';
+import Routing from './routes';
+//import AuthProvider from './providers/auth-provider';
 
 const queryClient = new QueryClient();
 
-const LazyRouting = lazy(() => import('./routes'));
-
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <AuthProvider>
-      <QueryClientProvider client={queryClient}>
-        <ThemeProvider>
-          <Suspense fallback={<VSuspense />}>
-            <LazyRouting />
-          </Suspense>
-        </ThemeProvider>
-      </QueryClientProvider>
-    </AuthProvider>
+    <QueryClientProvider client={queryClient}>
+      <ThemeProvider>
+        <Suspense fallback={<VSuspense />}>
+          <Routing />
+        </Suspense>
+      </ThemeProvider>
+    </QueryClientProvider>
   </StrictMode>
 );

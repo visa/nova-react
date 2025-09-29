@@ -1,0 +1,209 @@
+{
+  "one-line-list-item": {
+    "file": "one-line-list-item.tsx",
+    "id": "one-line-list-item",
+    "title": "One-line list item",
+    "testAvg": 100
+  },
+  "one-line-two-column-list-item": {
+    "file": "one-line-two-column-list-item.tsx",
+    "id": "one-line-two-column-list-item",
+    "title": "One-line, two-column list item",
+    "testAvg": 100
+  },
+  "two-line-list-item": {
+    "file": "two-line-list-item.tsx",
+    "id": "two-line-list-item",
+    "title": "Two-line list item",
+    "testAvg": 100
+  },
+  "three-line-list-item": {
+    "file": "three-line-list-item.tsx",
+    "id": "three-line-list-item",
+    "title": "Three-line list item",
+    "testAvg": 100
+  },
+  "leading-icon-list-item": {
+    "file": "leading-icon-list-item.tsx",
+    "id": "leading-icon-list-item",
+    "title": "Leading icon list item",
+    "testAvg": 100
+  },
+  "leading-icon-with-background-list-item": {
+    "file": "leading-icon-with-background-list-item.tsx",
+    "id": "leading-icon-with-background-list-item",
+    "title": "Leading icon with background list item",
+    "testAvg": 100
+  },
+  "leading-image-list-item": {
+    "file": "leading-image-list-item.tsx",
+    "id": "leading-image-list-item",
+    "title": "Leading image list item",
+    "testAvg": 100
+  },
+  "leading-card-art-list-item": {
+    "file": "leading-card-art-list-item.tsx",
+    "id": "leading-card-art-list-item",
+    "title": "Leading card art list item",
+    "testAvg": 100
+  },
+  "indicator-line-list-item": {
+    "file": "indicator-line-list-item.tsx",
+    "id": "indicator-line-list-item",
+    "title": "Indicator line list item",
+    "testAvg": 100
+  },
+  "trailing-icon-list-item": {
+    "file": "trailing-icon-list-item.tsx",
+    "id": "trailing-icon-list-item",
+    "title": "Trailing icon list item",
+    "testAvg": 100
+  },
+  "trailing-icon-with-background-list-item": {
+    "file": "trailing-icon-with-background-list-item.tsx",
+    "id": "trailing-icon-with-background-list-item",
+    "title": "Trailing icon with background list item",
+    "testAvg": 100
+  },
+  "trailing-image-list-item": {
+    "file": "trailing-image-list-item.tsx",
+    "id": "trailing-image-list-item",
+    "title": "Trailing image list item",
+    "testAvg": 100
+  },
+  "trailing-card-art-list-item": {
+    "file": "trailing-card-art-list-item.tsx",
+    "id": "trailing-card-art-list-item",
+    "title": "Trailing card art list item",
+    "testAvg": 100
+  },
+  "default-clickthrough-list-item": {
+    "file": "default-clickthrough-list-item.tsx",
+    "id": "default-clickthrough-list-item",
+    "title": "Default clickthrough list item",
+    "testAvg": 100
+  },
+  "disabled-clickthrough-list-item": {
+    "file": "disabled-clickthrough-list-item.tsx",
+    "id": "disabled-clickthrough-list-item",
+    "title": "Disabled clickthrough list item",
+    "testAvg": 100
+  },
+  "disabled-leading-image-clickthrough-list-item": {
+    "file": "disabled-leading-image-clickthrough-list-item.tsx",
+    "id": "disabled-leading-image-clickthrough-list-item",
+    "title": "Disabled leading image clickthrough list item",
+    "testAvg": 100
+  },
+  "disabled-leading-icon-clickthrough-list-item": {
+    "file": "disabled-leading-icon-clickthrough-list-item.tsx",
+    "id": "disabled-leading-icon-clickthrough-list-item",
+    "title": "Disabled leading icon clickthrough list item",
+    "testAvg": 100
+  },
+  "disabled-card-art-clickthrough-list-item": {
+    "file": "disabled-card-art-clickthrough-list-item.tsx",
+    "id": "disabled-card-art-clickthrough-list-item",
+    "title": "Disabled card art clickthrough list item",
+    "testAvg": 100
+  },
+  "disabled-card-art-with-number-clickthrough-list-item": {
+    "file": "disabled-card-art-with-number-clickthrough-list-item.tsx",
+    "id": "disabled-card-art-with-number-clickthrough-list-item",
+    "title": "Disabled card art with number clickthrough list item",
+    "testAvg": 100
+  },
+  "default-switch-list-item": {
+    "file": "default-switch-list-item.tsx",
+    "id": "default-switch-list-item",
+    "title": "Default switch list item",
+    "testAvg": 100
+  },
+  "disabled-switch-list-item": {
+    "file": "disabled-switch-list-item.tsx",
+    "id": "disabled-switch-list-item",
+    "title": "Disabled switch list item",
+    "testAvg": 100
+  },
+  "default-radio-list-item": {
+    "file": "default-radio-list-item.tsx",
+    "id": "default-radio-list-item",
+    "title": "Default radio list item",
+    "testAvg": 100
+  },
+  "disabled-radio-list-item": {
+    "file": "disabled-radio-list-item.tsx",
+    "id": "disabled-radio-list-item",
+    "title": "Disabled radio list item",
+    "testAvg": 100
+  },
+  "default-checkbox-list-item": {
+    "file": "default-checkbox-list-item.tsx",
+    "id": "default-checkbox-list-item",
+    "title": "Default checkbox list item",
+    "testAvg": 100
+  },
+  "disabled-checkbox-list-item": {
+    "file": "disabled-checkbox-list-item.tsx",
+    "id": "disabled-checkbox-list-item",
+    "title": "Disabled checkbox list item",
+    "testAvg": 100
+  },
+  "default-list": {
+    "file": "default-list.tsx",
+    "id": "default-list",
+    "title": "Default list",
+    "testAvg": 100
+  },
+  "default-list-with-dividers": {
+    "file": "default-list-with-dividers.tsx",
+    "id": "default-list-with-dividers",
+    "title": "Default list with dividers",
+    "testAvg": 100
+  },
+  "default-list-with-title": {
+    "file": "default-list-with-title.tsx",
+    "id": "default-list-with-title",
+    "title": "Default list with title",
+    "testAvg": 100
+  },
+  "default-list-with-section-title-and-hyperlink": {
+    "file": "default-list-with-section-title-and-hyperlink.tsx",
+    "id": "default-list-with-section-title-and-hyperlink",
+    "title": "Default list with section title and hyperlink",
+    "testAvg": 100
+  },
+  "clickthrough-list": {
+    "file": "clickthrough-list.tsx",
+    "id": "clickthrough-list",
+    "title": "Clickthrough list",
+    "testAvg": 100
+  },
+  "radio-list": {
+    "file": "radio-list.tsx",
+    "id": "radio-list",
+    "title": "Radio list",
+    "testAvg": 100
+  },
+  "checkbox-list": {
+    "file": "checkbox-list.tsx",
+    "id": "checkbox-list",
+    "title": "Checkbox list",
+    "testAvg": 100
+  },
+  "account-clickthrough-list": {
+    "file": "account-clickthrough-list.tsx",
+    "id": "account-clickthrough-list",
+    "title": "Account clickthrough list",
+    "testAvg": 100
+  },
+  "transactions-list": {
+    "file": "transactions-list.tsx",
+    "id": "transactions-list",
+    "title": "Transactions list",
+    "testAvg": 100
+  },
+  "meta": {
+    "designReviewDate": "2025-05-20"
+  }
+}

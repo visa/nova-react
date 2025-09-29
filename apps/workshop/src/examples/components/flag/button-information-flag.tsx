@@ -14,18 +14,21 @@
  * limitations under the License.
  *
  **/
-import { Button, Flag, FlagCloseButton, FlagContent, FlagIcon, Typography, ScreenReader } from '@visa/nova-react';
+import { MessageIcon, VisaCloseTiny } from '@visa/nova-icons-react';
+import { Button, Flag, FlagCloseButton, FlagContent, Typography, ScreenReader } from '@visa/nova-react';
 
 export const ButtonInformationFlag = () => {
   return (
     <Flag>
-      <FlagIcon />
+      <MessageIcon />
       <FlagContent className="v-pl-2 v-pb-2" role="alert" aria-live="polite">
         <ScreenReader>information</ScreenReader>
         <Typography className="v-mb-8">This is required text that describes the flag in more detail.</Typography>
         <Button colorScheme="secondary">Primary action</Button>
       </FlagContent>
-      <FlagCloseButton />
+      <FlagCloseButton>
+        <VisaCloseTiny />
+      </FlagCloseButton>
     </Flag>
   );
 };

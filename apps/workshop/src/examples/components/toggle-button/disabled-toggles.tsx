@@ -31,7 +31,7 @@ export const DisabledToggles = () => {
     <ToggleContainer>
       {options.map(option => (
         <UtilityFragment key={option.id} vGap={6}>
-          <Toggle tag="button" disabled={option.disabled}>
+          <Toggle<'button'> tag="button" disabled={option.disabled}>
             {option.icon}
             {option.label}
           </Toggle>
@@ -40,4 +40,3 @@ export const DisabledToggles = () => {
     </ToggleContainer>
   );
 };
-

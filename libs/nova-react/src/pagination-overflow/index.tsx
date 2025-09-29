@@ -15,28 +15,25 @@
  *
  **/
 import cn from 'clsx';
-import { ElementType, ForwardedRef } from 'react';
-import forwardRef from '../types';
+import { ComponentPropsWithRef, ElementType } from 'react';
 
 const CSS_PREFIX = 'v-pagination-overflow';
 
-export type PaginationOverflowProperties = {
-  /** @ignore */
-  className?: string;
+export type PaginationOverflowProperties<ET extends ElementType = 'li',> = {
+
   /** Tag of Component */
   tag?: ElementType;
-};
-
-const PaginationOverflow = <HTMLElementType,>(
-  { className, tag: Tag = 'li', ...remainingProps }: PaginationOverflowProperties,
-  ref: ForwardedRef<HTMLElementType>
-) => <Tag className={cn(CSS_PREFIX, className)} ref={ref} {...remainingProps} />;
+} & ComponentPropsWithRef<ET>;
 
 /**
  * Element to show hidden elements within pagination component, usually used with ellipsis icon.
  * @docs {@link https://design.visa.com/react/components/pagination | See Docs}
  */
-export default forwardRef<PaginationOverflowProperties, HTMLLIElement>(PaginationOverflow);
+const PaginationOverflow = <ET extends ElementType = 'li',>(
+  { className, tag: Tag = 'li', ...remainingProps }: PaginationOverflowProperties<ET>,
+) => <Tag className={cn(CSS_PREFIX, className)} {...remainingProps} />;
+
+export default PaginationOverflow;
 
 PaginationOverflow.defaultProps = {
   tag: 'li',

@@ -15,18 +15,15 @@
  *
  **/
 import cn from 'clsx';
-import { ElementType, ForwardedRef, ReactElement, cloneElement } from 'react';
-import { DefaultProperties, default as forwardRef } from '../types';
+import { ComponentPropsWithRef, ElementType, ReactElement, cloneElement } from 'react';
 
 const CSS_PREFIX = 'v-button';
 
-export type ButtonProperties = {
+type ButtonCustomProps<ET extends ElementType = 'button',> = {
   /** Alternate color scheme */
   alternate?: boolean;
   /** Size of Button */
   buttonSize?: 'large' | 'small';
-  /** @ignore */
-  className?: string;
   /** Color Scheme of Button */
   colorScheme?: 'secondary' | 'tertiary';
   /** Destructive Button */
@@ -39,22 +36,30 @@ export type ButtonProperties = {
   stacked?: boolean;
   /** Subtle Button */
   subtle?: boolean;
-} & (
-  | {
-      /** Cloned Element (not compatible with tag property) */
-      element?: never;
-      /** Tag (not compatible with element property) */
-      tag?: ElementType;
-    }
-  | {
-      /** Cloned Element (not compatible with tag property) */
-      element?: ReactElement;
-      /** Tag (not compatible with element property) */
-      tag?: never;
-    }
-);
+} & Omit<ComponentPropsWithRef<ET>, ''>;;
 
-const Button = <HTMLElementType,>(
+export type ButtonProperties<ET extends ElementType = 'button',> = ButtonCustomProps & (
+  | {
+    /** Cloned Element (not compatible with tag property) */
+    element?: never;
+    /** Tag (not compatible with element property) */
+    tag?: ElementType;
+  }
+  | {
+    /** Cloned Element (not compatible with tag property) */
+    element?: ReactElement<ButtonCustomProps<ET>>;
+    /** Tag (not compatible with element property) */
+    tag?: never;
+  }
+) & Omit<ComponentPropsWithRef<ET>, ''>;
+
+/**
+ * Interactive elements enabling users to take actions within an interface.
+ * @docs {@link https://design.visa.com/react/components/button | See Docs}
+ * @vgar TODO
+ * @wcag TODO
+ */
+const Button = <ET extends ElementType = 'button',>(
   {
     alternate,
     buttonSize,
@@ -68,8 +73,8 @@ const Button = <HTMLElementType,>(
     subtle,
     tag: Tag = 'button',
     ...remainingProps
-  }: ButtonProperties,
-  ref: ForwardedRef<HTMLElementType>
+  }: ButtonProperties<ET>,
+
 ) => {
   const classNames = cn(
     CSS_PREFIX,
@@ -84,23 +89,16 @@ const Button = <HTMLElementType,>(
     className
   );
   return !element ? (
-    <Tag className={classNames} ref={ref} {...remainingProps} />
+    <Tag className={classNames} {...remainingProps} />
   ) : (
-    cloneElement<ButtonProperties & DefaultProperties<HTMLElementType>>(element, {
+    cloneElement<ButtonProperties>(element, {
       className: cn(classNames, element.props.className),
-      ref,
       ...remainingProps,
     })
   );
 };
 
-/**
- * Interactive elements enabling users to take actions within an interface.
- * @docs {@link https://design.visa.com/react/components/button | See Docs}
- * @vgar TODO
- * @wcag TODO
- */
-export default forwardRef<ButtonProperties, HTMLButtonElement>(Button);
+export default Button;
 
 Button.defaultProps = {
   tag: 'button',

@@ -15,23 +15,20 @@
  *
  **/
 import cn from 'clsx';
-import { ForwardedRef } from 'react';
 import Surface, { SurfaceProperties } from '../surface';
-import forwardRef from '../types';
 
 const CSS_PREFIX = 'v-panel-content';
 
 export type PanelContentProperties = SurfaceProperties;
 
-const PanelContent = <HTMLElementType,>(
-  { className, ...remainingProps }: PanelContentProperties,
-  ref: ForwardedRef<HTMLElementType>
-) => <Surface<HTMLElementType> className={cn(CSS_PREFIX, className)} ref={ref} {...remainingProps} />;
-
 /**
  * Container for all panel content, included heading and body.
  * @docs {@link https://design.visa.com/react/components/panel | See Docs}
  */
-export default forwardRef<PanelContentProperties, HTMLDivElement>(PanelContent);
+const PanelContent = (
+  { className, ...remainingProps }: PanelContentProperties,
+) => <Surface className={cn(CSS_PREFIX, className)} {...remainingProps} />;
+
+export default PanelContent;
 
 PanelContent.displayName = 'PanelContent';

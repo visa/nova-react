@@ -88,8 +88,8 @@ const label3SubItems = [
 ];
 
 export const DefaultHorizontalNav = () => {
-  const searchInputRef = useRef<HTMLInputElement | null>();
-  const searchButtonRef = useRef<HTMLButtonElement | null>();
+  const searchInputRef = useRef<HTMLInputElement>(null);
+  const searchButtonRef = useRef<HTMLButtonElement>(null);
 
   const [accountMenuOpen, setAccountMenuOpen] = useState(false);
   const [mobileAccountMenuOpen, setMobileAccountMenuOpen] = useState(false);
@@ -267,7 +267,7 @@ export const DefaultHorizontalNav = () => {
                                 {label3SubItems.map(label3SubItem => (
                                   <li key={label3SubItem.id}>
                                     <UtilityFragment vPaddingVertical={4} vPaddingHorizontal={8}>
-                                      <ListboxItem href={label3SubItem.href} tag="a">
+                                      <ListboxItem<'a'> href={label3SubItem.href} tag="a">
                                         {label3SubItem.tabLabel}
                                       </ListboxItem>
                                     </UtilityFragment>
@@ -350,7 +350,7 @@ export const DefaultHorizontalNav = () => {
                               <UtilityFragment key={accountSubItem.id}>
                                 <li>
                                   <UtilityFragment vPaddingVertical={4} vPaddingHorizontal={8}>
-                                    <ListboxItem href={accountSubItem.href} tag="a">
+                                    <ListboxItem<'a'> href={accountSubItem.href} tag="a">
                                       {accountSubItem.tabLabel}
                                     </ListboxItem>
                                   </UtilityFragment>

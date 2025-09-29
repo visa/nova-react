@@ -94,12 +94,12 @@ const VersionPicker: FC<VersionPickerProps> = props => {
           })}
         >
           <Listbox onKeyDown={onKeyNavigation} tag="div">
-            <ListboxItem
+            <ListboxItem<'a'>
               aria-current={isLatest ? 'page' : undefined}
               className="v-px-8 v-py-11"
               href={Paths?.vpdsReact + pathname}
               ref={node => {
-                versionListRef.current[0] = node;
+                versionListRef.current[0] = node as unknown as HTMLLIElement | null;
               }}
               rel="noopener noreferrer"
               role="option"
@@ -107,13 +107,13 @@ const VersionPicker: FC<VersionPickerProps> = props => {
             >
               Latest {latestVersion && `(${latestVersion})`}
             </ListboxItem>
-            <ListboxItem
+            <ListboxItem<'a'>
               aria-disabled={isDevelopmentBeta ? true : undefined}
               aria-selected={isDevelopmentBeta ? true : undefined}
               className="v-px-8 v-py-11"
               href={Paths?.beta + pathname}
               ref={node => {
-                versionListRef.current[1] = node;
+                versionListRef.current[1] = node as unknown as HTMLLIElement | null;
               }}
               rel="noopener noreferrer"
               role="option"
@@ -122,18 +122,18 @@ const VersionPicker: FC<VersionPickerProps> = props => {
               Beta
             </ListboxItem>
             {loading && (
-              <ListboxItem className="v-px-8 v-py-11" disabled tag="span">
+              <ListboxItem<'span'> className="v-px-8 v-py-11" tag="span">
                 Loading...
               </ListboxItem>
             )}
             {versions.slice(1).map((version, index) => (
-              <ListboxItem
+              <ListboxItem<'a'>
                 aria-current={version === currentVersion ? 'page' : undefined}
                 className="v-px-8 v-py-11"
                 href={`${Paths.versioned}/${version}${pathname}`}
                 key={`version-link-${id}-${version}`}
                 ref={node => {
-                  versionListRef.current[index + 2] = node;
+                  versionListRef.current[index + 2] = node as unknown as HTMLLIElement | null;
                 }}
                 rel="noopener noreferrer"
                 role="option"

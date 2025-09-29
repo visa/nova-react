@@ -21,7 +21,7 @@ const id = 'default-selection-chip';
 
 export const DefaultSelectionChip = () => {
   return (
-    <Chip chipType="selection" htmlFor={id} tag="label">
+    <Chip<'label'> chipType="selection" htmlFor={id} tag="label">
       Label
       <Checkbox id={id} />
     </Chip>

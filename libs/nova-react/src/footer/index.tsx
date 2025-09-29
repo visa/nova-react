@@ -15,22 +15,14 @@
  *
  **/
 import cn from 'clsx';
-import { ElementType, ForwardedRef } from 'react';
-import forwardRef from '../types';
+import { ComponentPropsWithRef, ElementType } from 'react';
 
 const CSS_PREFIX = 'v-footer';
 
-export type FooterProperties = {
-  /** @ignore */
-  className?: string;
+export type FooterProperties<ET extends ElementType = 'footer',> = {
   /** Tag of Component */
   tag?: ElementType;
-};
-
-const Footer = <HTMLElementType,>(
-  { className, tag: Tag = 'footer', ...remainingProps }: FooterProperties,
-  ref: ForwardedRef<HTMLElementType>
-) => <Tag className={cn(CSS_PREFIX, className)} ref={ref} {...remainingProps} />;
+} & ComponentPropsWithRef<ET>;
 
 /**
  * Content anchored at the bottom of a page to provide important information or links.
@@ -38,7 +30,11 @@ const Footer = <HTMLElementType,>(
  * @vgar TODO
  * @wcag TODO
  */
-export default forwardRef<FooterProperties, HTMLElement>(Footer);
+const Footer = <ET extends ElementType = 'footer',>(
+  { className, tag: Tag = 'footer', ...remainingProps }: FooterProperties<ET>,
+) => <Tag className={cn(CSS_PREFIX, className)} {...remainingProps} />;
+
+export default Footer;
 
 Footer.defaultProps = {
   tag: 'footer',

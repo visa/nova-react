@@ -15,28 +15,25 @@
  *
  **/
 import cn from 'clsx';
-import { ForwardedRef, ReactElement } from 'react';
+import { ReactElement } from 'react';
 import Label, { LabelProperties } from '../label';
-import forwardRef from '../types';
 
 const CSS_PREFIX = 'v-checkbox-panel v-action v-action-secondary';
 export type CheckboxPanelProperties = LabelProperties;
-
-const CheckboxPanel = <HTMLElementType,>(
-  { className, ...remainingProps }: CheckboxPanelProperties,
-  ref: ForwardedRef<HTMLElementType>
-): ReactElement => (
-  <Label<HTMLElementType>
-    className={cn(CSS_PREFIX, className)}
-    ref={ref as ForwardedRef<HTMLElementType>}
-    {...remainingProps}
-  />
-);
 
 /**
  * Container to be used with checkbox component to add border and background color.
  * @docs {@link https://design.visa.com/react/components/Checkbox | See Docs}
  */
-export default forwardRef<CheckboxPanelProperties, HTMLLabelElement>(CheckboxPanel);
+const CheckboxPanel = (
+  { className, ...remainingProps }: CheckboxPanelProperties,
+): ReactElement => (
+  <Label
+    className={cn(CSS_PREFIX, className)}
+    {...remainingProps}
+  />
+);
+
+export default CheckboxPanel;
 
 CheckboxPanel.displayName = 'CheckboxPanel';

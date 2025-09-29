@@ -1,0 +1,145 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ManualFileUpload should render correctly 1`] = `
+<div>
+  <div
+    class="v-flex v-flex-col v-gap-25"
+  >
+    <div
+      class="v-flex v-flex-col v-gap-25"
+      style="max-width: 400px;"
+    >
+      <div
+        class="v-flex v-flex-col v-gap-16"
+      >
+        <div
+          class="v-flex v-flex-col v-gap-8"
+        >
+          <h4
+            class="v-typography-subtitle-1"
+          >
+            Upload files
+          </h4>
+          <p
+            class="v-typography-label-small"
+          >
+            Choose one or more files to upload, up to 10MB each. Accepted file types are jpg, pdf, docx, and xlsx.
+          </p>
+        </div>
+        <input
+          class="v-screen-reader"
+          hidden=""
+          multiple=""
+          type="file"
+        />
+        <button
+          class="v-button v-button-secondary v-align-self-start"
+        >
+          Select file(s)
+        </button>
+      </div>
+      <div
+        class="v-flex v-flex-col v-gap-8 v-screen-reader"
+        role="status"
+      />
+    </div>
+    <div
+      class="v-align-self-end"
+      role="alert"
+    />
+    <dialog
+      aria-describedby="manual-upload-dialog-description"
+      aria-labelledby="manual-upload-dialog-title"
+      class="v-message v-dialog v-dialog-default v-px-0"
+      id="manual-upload-dialog"
+      style="max-width: 400px; --v-message-display: block; overflow-y: auto;"
+    >
+      <button
+        aria-label="Close"
+        class="v-button v-button-small v-button-tertiary v-button-icon v-button-subtle -v-mt-20 -v-ml-12 -v-mr-18"
+        style="margin-inline-end: 4px; float: inline-end;"
+      >
+        <svg
+          aria-hidden="true"
+          class="v-icon v-icon-visa v-icon-tiny v-icon-close"
+          focusable="false"
+          height="16"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="v-icon-primary"
+            d="M7.99995 9.4149L13.9497 15.3646L15.3639 13.9504L9.41417 8.00069L15.3639 2.05094L13.9497 0.636723L7.99995 6.58647L2.0502 0.636719L0.635986 2.05093L6.58574 8.00069L0.635993 13.9504L2.05021 15.3646L7.99995 9.4149Z"
+          />
+          <defs>
+            <clippath>
+              <rect
+                height="16"
+                transform="translate(0 0.000488281)"
+                width="16"
+              />
+            </clippath>
+          </defs>
+        </svg>
+      </button>
+      <div
+        class="v-message-content v-pb-2 v-pr-2"
+        style="overflow-y: visible;"
+      >
+        <div
+          class="v-px-24"
+        >
+          <h2
+            class="v-typography-headline-4 v-dialog-header v-align-items-center v-flex v-gap-6 v-justify-content-start"
+            id="manual-upload-dialog-title"
+          >
+            Upload files
+          </h2>
+          <p
+            class="v-typography-body-3"
+            id="manual-upload-dialog-description"
+          >
+            Upload one or more files, up to 10 MB each. Accepted file types are .jpg, .pdf, .docx, and .xlsx. Only files that meet these requirements will be uploaded.
+          </p>
+        </div>
+        <div
+          class="v-align-items-center v-flex v-flex-wrap v-gap-8 v-px-24 v-pt-16"
+        >
+          <button
+            class="v-button v-button-secondary"
+          >
+            Select file(s)
+          </button>
+        </div>
+        <hr
+          aria-hidden="true"
+          class="v-divider v-divider-decorative v-mt-20"
+        />
+        <ul
+          class="v-flex v-flex-col v-gap-8 v-flex v-flex-col v-gap-8 v-px-24 v-py-12"
+          style="min-height: 266px;"
+        />
+        <hr
+          aria-hidden="true"
+          class="v-divider v-divider-decorative"
+        />
+        <div
+          class="v-align-items-center v-flex v-flex-wrap v-gap-8 v-px-24 v-pt-16"
+        >
+          <button
+            class="v-button"
+          >
+            Upload
+          </button>
+          <button
+            class="v-button v-button-secondary"
+          >
+            Cancel
+          </button>
+        </div>
+      </div>
+    </dialog>
+  </div>
+</div>
+`;

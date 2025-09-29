@@ -15,28 +15,25 @@
  *
  **/
 import cn from 'clsx';
-import { ElementType, ForwardedRef } from 'react';
-import forwardRef from '../types/';
+import { ComponentPropsWithRef, ElementType } from 'react';
 
 const CSS_PREFIX = 'v-accordion-panel';
 
-export type AccordionPanelProperties = {
-  /** @ignore */
-  className?: string;
+export type AccordionPanelProperties<ET extends ElementType = 'div',> = {
+
   /** Tag of Component */
   tag?: ElementType;
-};
-
-const AccordionPanel = <HTMLElementType,>(
-  { className, tag: Tag = 'div', ...remainingProps }: AccordionPanelProperties,
-  ref: ForwardedRef<HTMLElementType>
-) => <Tag className={cn(CSS_PREFIX, className)} ref={ref} {...remainingProps} />;
+} & ComponentPropsWithRef<ET>;
 
 /**
  * Component containing the content of the accordion.
  * @docs {@link https://design.visa.com/react/components/accordion | See Docs}
  */
-export default forwardRef<AccordionPanelProperties, HTMLDivElement>(AccordionPanel);
+const AccordionPanel = <ET extends ElementType = 'div',>(
+  { className, tag: Tag = 'div', ...remainingProps }: AccordionPanelProperties<ET>,
+) => <Tag className={cn(CSS_PREFIX, className)} {...remainingProps} />;
+
+export default AccordionPanel;
 
 AccordionPanel.defaultProps = {
   tag: 'div',

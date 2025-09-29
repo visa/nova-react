@@ -14,7 +14,6 @@
  * limitations under the License.
  *
  **/
-import cspellPlugin from '@cspell/eslint-plugin';
 import pluginJs from '@eslint/js';
 import pluginReact from 'eslint-plugin-react';
 import globals from 'globals';
@@ -29,33 +28,6 @@ export default [
   ...tseslint.configs.recommended,
   pluginReact.configs.flat.recommended,
   {
-    plugins: { '@cspell': cspellPlugin },
-    rules: {
-      '@cspell/spellchecker': [
-        'warn',
-        {
-          cspell: {
-            words: [
-              'genai',
-              'gitlog',
-              'iframed',
-              'luhn',
-              'multiselects',
-              'navigations',
-              'paginations',
-              'skrim',
-              'vgar',
-              'vpds',
-              'xlarge',
-              'xxlarge',
-              'xsmall',
-            ],
-          },
-        },
-      ],
-    },
-  },
-  {
     settings: {
       react: {
         version: 'detect',
@@ -65,6 +37,12 @@ export default [
       'react/react-in-jsx-scope': 'off',
       '@typescript-eslint/no-unused-expressions': 'off',
       'react/no-unescaped-entities': 'off',
+    },
+  },
+  {
+    files: ['**/*.ts', '**/*.tsx'],
+    rules: {
+      'react/prop-types': 'off',
     },
   },
 ];

@@ -18,10 +18,11 @@ import { render } from '@testing-library/react';
 import { axe } from 'jest-axe';
 
 import FlagCloseButton from '.';
+import { VisaCloseTiny } from '@visa/nova-icons-react';
 
 describe('BannerIcon', () => {
   it('should render defaults correctly', async () => {
-    const { container } = render(<FlagCloseButton />);
+    const { container } = render(<FlagCloseButton> <VisaCloseTiny /></FlagCloseButton>);
     const results = await axe(container);
     expect(results).toHaveNoViolations();
     expect(container).toMatchSnapshot();
@@ -32,19 +33,19 @@ describe('BannerIcon', () => {
   });
 
   it('should allow custom classNames', () => {
-    const { container } = render(<FlagCloseButton className="test-class" />);
+    const { container } = render(<FlagCloseButton className="test-class"> <VisaCloseTiny /></FlagCloseButton>);
     expect(container.firstElementChild?.className).toBe(
       'v-button v-button-small v-button-tertiary v-button-icon v-button-subtle -v-mt-8 -v-mr-8 test-class'
     );
   });
 
   it('should allow custom tags', () => {
-    const { container } = render(<FlagCloseButton element={<a />} />);
+    const { container } = render(<FlagCloseButton element={<a />} > <VisaCloseTiny /></FlagCloseButton>);
     expect(container.firstElementChild?.tagName).toBe('A');
   });
 
   it('should permeate basic props', () => {
-    const { container } = render(<FlagCloseButton aria-label="test-aria-label" id="test-id" role="menu" />);
+    const { container } = render(<FlagCloseButton aria-label="test-aria-label" id="test-id" role="menu"> <VisaCloseTiny /></FlagCloseButton>);
     expect(container.firstElementChild?.getAttribute('aria-label')).toBe('test-aria-label');
     expect(container.firstElementChild?.getAttribute('id')).toBe('test-id');
     expect(container.firstElementChild?.getAttribute('role')).toBe('menu');

@@ -15,29 +15,35 @@
  *
  **/
 import cn from 'clsx';
-import { ForwardedRef } from 'react';
-import forwardRef from '../types';
+import { ComponentPropsWithRef, ElementType } from 'react';
 
 const CSS_PREFIX = 'v-table';
 
-export type TableProperties = {
+export type TableProperties<ET extends ElementType = 'table',> = {
   /** Alt */
   alternate?: boolean;
   /** Borders all around the table and cells */
   border?: boolean;
   /** Borders only separating the rows */
   borderBlock?: boolean;
-  /** @ignore */
-  className?: string;
+
   /** Key value pairs where text for the first column is bold. */
   keyValue?: boolean;
   /** Subtle header */
   subtle?: boolean;
-};
+} &
+  //We omit the border prop so it doesn't clash with our custom prop
+  Omit<ComponentPropsWithRef<ET>, 'border'>;
 
-const Table = <HTMLElementType,>(
-  { alternate, border, borderBlock, className, keyValue, subtle, ...remainingProps }: TableProperties,
-  ref: ForwardedRef<HTMLElementType>
+/**
+ * Grid that organizes information, enabling data interaction, manipulation, and criteria-based analysis using columns and rows.
+ * @docs {@link https://design.visa.com/react/components/table | See Docs}
+ * @related table-wrapper, tbody, td, th, thead, tr
+ * @vgar TODO
+ * @wcag TODO
+ */
+const Table = <ET extends ElementType = 'table',>(
+  { alternate, border, borderBlock, className, keyValue, subtle, ...remainingProps }: TableProperties<ET>,
 ) => (
   <table
     {...remainingProps}
@@ -50,17 +56,9 @@ const Table = <HTMLElementType,>(
       subtle && `${CSS_PREFIX}-subtle`,
       className
     )}
-    ref={ref as ForwardedRef<HTMLTableElement>}
   />
 );
 
-/**
- * Grid that organizes information, enabling data interaction, manipulation, and criteria-based analysis using columns and rows.
- * @docs {@link https://design.visa.com/react/components/table | See Docs}
- * @related table-wrapper, tbody, td, th, thead, tr
- * @vgar TODO
- * @wcag TODO
- */
-export default forwardRef<TableProperties, HTMLTableElement>(Table);
+export default Table;
 
 Table.displayName = 'Table';

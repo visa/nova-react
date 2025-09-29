@@ -14,26 +14,22 @@
  * limitations under the License.
  *
  **/
-import {
-  Button,
-  SectionMessage,
-  SectionMessageCloseButton,
-  SectionMessageContent,
-  SectionMessageIcon,
-  Typography
-} from '@visa/nova-react';
+import { MessageIcon, VisaCloseTiny } from '@visa/nova-icons-react';
+import { Button, SectionMessage, SectionMessageCloseButton, SectionMessageContent, Typography } from '@visa/nova-react';
 
 export const ButtonErrorSectionMessage = () => {
   return (
     <SectionMessage messageType="error">
-      <SectionMessageIcon />
+      <MessageIcon messageType="error" />
       <SectionMessageContent>
         <Typography className="v-mb-8">
           This is required text that describes the section message in more detail.
         </Typography>
         <Button colorScheme="secondary">Primary action</Button>
       </SectionMessageContent>
-      <SectionMessageCloseButton />
+      <SectionMessageCloseButton>
+        <VisaCloseTiny />
+      </SectionMessageCloseButton>
     </SectionMessage>
   );
 };

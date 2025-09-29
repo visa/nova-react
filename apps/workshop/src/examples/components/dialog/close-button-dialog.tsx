@@ -14,16 +14,8 @@
  * limitations under the License.
  *
  **/
-import {
-  Button,
-  Dialog,
-  DialogContent,
-  DialogHeader,
-  DialogIcon,
-  Typography,
-  useFocusTrap,
-  Utility,
-} from '@visa/nova-react';
+import { MessageIcon } from '@visa/nova-icons-react';
+import { Button, Dialog, DialogContent, DialogHeader, Typography, useFocusTrap, Utility } from '@visa/nova-react';
 
 // TIP: Customize this ID, pass it as a prop, or auto-generate it with useId() from @react
 const id = 'no-close-dialog';
@@ -44,7 +36,7 @@ export const CloseButtonDialog = () => {
       >
         <DialogContent>
           <DialogHeader id={`${id}-title`}>
-            <DialogIcon />
+            <MessageIcon messageType="error" />
             Error title
           </DialogHeader>
           <Typography id={`${id}-description`}>

@@ -14,19 +14,19 @@
  * limitations under the License.
  *
  **/
-import { ForwardedRef } from 'react';
-import forwardRef from '../types';
 
-export type TbodyProperties = Record<string, unknown>;
+import { ComponentPropsWithRef, ElementType } from "react";
 
-const Tbody = <HTMLElementType,>(props: TbodyProperties, ref: ForwardedRef<HTMLElementType>) => (
-  <tbody ref={ref as ForwardedRef<HTMLTableSectionElement>} {...props} />
-);
+export type TbodyProperties<ET extends ElementType = 'tbody',> = Record<string, unknown> & ComponentPropsWithRef<ET>;
 
 /**
  * Table body component that contains all the tr and td cells.
  * @docs {@link https://design.visa.com/react/components/table | See Docs}
  */
-export default forwardRef<TbodyProperties, HTMLTableSectionElement>(Tbody);
+const Tbody = <ET extends ElementType = 'tbody',>(props: TbodyProperties<ET>) => (
+  <tbody {...props} />
+);
+
+export default Tbody;
 
 Tbody.displayName = 'Tbody';

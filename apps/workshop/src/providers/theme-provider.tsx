@@ -59,7 +59,7 @@ export const ThemeProvider = <PreferencesType extends DefaultPreferences = Defau
 }: ThemeProviderProperties<PreferencesType>) => {
   const genId = useId();
   const [themeChanging, setThemeChanging] = useState(true);
-  const globalStylesRef = useRef<HTMLStyleElement>();
+  const globalStylesRef = useRef<HTMLStyleElement>(null);
   const [browserPrefersDarkMode, setBrowserPrefersDarkMode] = useState<boolean>(false);
   const [preferences, setPreferences] = useState<PreferencesType>();
 

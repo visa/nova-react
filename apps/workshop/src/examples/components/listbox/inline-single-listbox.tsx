@@ -30,7 +30,7 @@ export const InlineSingleListbox = () => {
       <ListboxContainer>
         <Listbox id={id} scroll tag="div">
           {options.map((option, index) => (
-            <ListboxItem htmlFor={`${id}-option-${index}`} key={`${id}-option-${index}`} tag="label">
+            <ListboxItem<'label'> htmlFor={`${id}-option-${index}`} key={`${id}-option-${index}`} tag="label">
               <Radio className="v-flex-shrink-0" id={`${id}-option-${index}`} name={`${id}-options`} />
               <Label tag="span">{option}</Label>
             </ListboxItem>

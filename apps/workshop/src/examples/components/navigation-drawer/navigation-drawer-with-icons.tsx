@@ -103,7 +103,7 @@ export const NavigationDrawerWithIcons = () => {
       </UtilityFragment>
 
       <UtilityFragment vMarginHorizontal={0}>
-        <Panel
+        <Panel<'dialog'>
           aria-modal="true"
           id={id}
           ref={navDrawerRef}

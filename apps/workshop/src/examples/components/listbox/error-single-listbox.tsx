@@ -47,7 +47,7 @@ export const ErrorSingleListbox = () => {
         <ListboxContainer error={invalid}>
           <Listbox id={id} scroll tag="div">
             {options.map((option, index) => (
-              <ListboxItem htmlFor={`${id}-option-${index}`} key={`${id}-option-${index}`} tag="label">
+              <ListboxItem<'label'> htmlFor={`${id}-option-${index}`} key={`${id}-option-${index}`} tag="label">
                 <Radio
                   checked={selectedIndex === index}
                   className="v-flex-shrink-0"

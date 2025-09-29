@@ -15,27 +15,24 @@
  *
  **/
 import cn from 'clsx';
-import { ElementType, ForwardedRef } from 'react';
-import forwardRef from '../types';
+import { ComponentPropsWithRef, ElementType } from 'react';
 
 const CSS_PREFIX = 'v-screen-reader';
 
-export type ScreenReaderProperties = {
-  /** @ignore */
-  className?: string;
+export type ScreenReaderProperties<ET extends ElementType = 'span',> = {
+
   /** Tag of Component */
   tag?: ElementType;
-};
-
-const ScreenReader = <HTMLElementType,>(
-  { className, tag: Tag = 'span', ...remainingProps }: ScreenReaderProperties,
-  ref: ForwardedRef<HTMLElementType>
-) => <Tag className={cn(CSS_PREFIX, className)} ref={ref} {...remainingProps} />;
+} & ComponentPropsWithRef<ET>;
 
 /**
  * Text elements to only be read by screen readers but not shown visually on screen.
  */
-export default forwardRef<ScreenReaderProperties, HTMLSpanElement>(ScreenReader);
+const ScreenReader = <ET extends ElementType = 'span',>(
+  { className, tag: Tag = 'span', ...remainingProps }: ScreenReaderProperties<ET>,
+) => <Tag className={cn(CSS_PREFIX, className)} {...remainingProps} />;
+
+export default ScreenReader;
 
 ScreenReader.defaultProps = {
   tag: 'span',

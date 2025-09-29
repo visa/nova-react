@@ -14,12 +14,13 @@
  * limitations under the License.
  *
  **/
-import { Banner, BannerContent, BannerIcon, Typography } from '@visa/nova-react';
+import { MessageIcon } from '@visa/nova-icons-react';
+import { Banner, BannerContent, Typography } from '@visa/nova-react';
 
 export const PersistentWarningBanner = () => {
   return (
     <Banner messageType="warning">
-      <BannerIcon />
+      <MessageIcon messageType="warning" />
       <BannerContent className="v-pl-2 v-pb-2">
         <Typography>This is required text that describes the banner in more detail.</Typography>
       </BannerContent>

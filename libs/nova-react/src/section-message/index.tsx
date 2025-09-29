@@ -15,26 +15,23 @@
  *
  **/
 import cn from 'clsx';
-import { ForwardedRef } from 'react';
 import Message, { MessageProperties } from '../message';
-import forwardRef from '../types';
 
 const CSS_PREFIX = 'v-section';
 
 export type SectionMessageProperties = MessageProperties;
 
-const SectionMessage = <HTMLElementType,>(
-  { className, ...remainingProps }: SectionMessageProperties,
-  ref: ForwardedRef<HTMLElementType>
-) => <Message<HTMLElementType> className={cn(CSS_PREFIX, className)} ref={ref} {...remainingProps} />;
-
 /**
  * Section-level messages providing information about the status of a page or action.
  * @docs {@link https://design.visa.com/react/components/section-message | See Docs}
- * @related section-message-close-button, message-content, message-icon
+ * @related section-message-close-button, message-content
  * @vgar TODO
  * @wcag TODO
  */
-export default forwardRef<SectionMessageProperties, HTMLDivElement>(SectionMessage);
+const SectionMessage = (
+  { className, ...remainingProps }: SectionMessageProperties,
+) => <Message className={cn(CSS_PREFIX, className)} {...remainingProps} />;
+
+export default SectionMessage;
 
 SectionMessage.displayName = 'SectionMessage';

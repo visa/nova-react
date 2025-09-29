@@ -15,31 +15,14 @@
  *
  **/
 import cn from 'clsx';
-import { ForwardedRef } from 'react';
-import forwardRef from '../types';
+import { ComponentPropsWithRef, ElementType } from 'react';
 
 const CSS_PREFIX = 'v-divider';
 
-export type DividerProperties = {
-  /** @ignore */
-  children?: never;
-  /** @ignore */
-  className?: string;
+export type DividerProperties<ET extends ElementType = 'div',> = {
   /** Divider Type */
   dividerType?: 'decorative' | 'section';
-};
-
-const Divider = <HTMLElementType,>(
-  { className, dividerType, ...remainingProps }: DividerProperties,
-  ref: ForwardedRef<HTMLElementType>
-) => (
-  <hr
-    aria-hidden={dividerType === 'decorative' ? true : undefined}
-    className={cn(CSS_PREFIX, dividerType && `${CSS_PREFIX}-${dividerType}`, className)}
-    ref={ref as ForwardedRef<HTMLHRElement>}
-    {...remainingProps}
-  />
-);
+} & ComponentPropsWithRef<ET>;
 
 /**
  * Visual element used to separate and group information on a page.
@@ -47,7 +30,17 @@ const Divider = <HTMLElementType,>(
  * @vgar TODO
  * @wcag TODO
  */
-export default forwardRef<DividerProperties, HTMLHRElement>(Divider);
+const Divider = <ET extends ElementType = 'div',>(
+  { className, dividerType, ...remainingProps }: DividerProperties<ET>,
+) => (
+  <hr
+    aria-hidden={dividerType === 'decorative' ? true : undefined}
+    className={cn(CSS_PREFIX, dividerType && `${CSS_PREFIX}-${dividerType}`, className)}
+    {...remainingProps}
+  />
+);
+
+export default Divider;
 
 Divider.defaultProps = {
   title: 'Separator',

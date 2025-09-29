@@ -1,0 +1,6 @@
+{
+  "description": "Individual containers that can be grouped to create lists in web and mobile apps.",
+  "displayName": "ListItem",
+  "noComponent": true,
+  "related": ["button", "checkbox", "radio", "switch"]
+}

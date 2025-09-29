@@ -25,7 +25,7 @@ export const SelectionGroupChip = () => {
   return (
     <Utility vFlex vFlexWrap vGap={8} style={{ inlineSize: '50%' }}>
       {chips.map((chip, index) => (
-        <Chip chipType="selection" htmlFor={`${id}-${index}`} key={`${id}-${index}`} tag="label">
+        <Chip<'label'> chipType="selection" htmlFor={`${id}-${index}`} key={`${id}-${index}`} tag="label">
           <span>{chip}</span>
           <Checkbox id={`${id}-${index}`} />
         </Chip>

@@ -18,7 +18,7 @@ import { Breadcrumbs, Link } from '@visa/nova-react';
 
 export const DefaultBreadcrumbs = () => {
   return (
-    <Breadcrumbs ariaLabel="Default breadcrumbs">
+    <Breadcrumbs aria-label="Default breadcrumbs">
       <ol>
         <li>
           <Link href="./">L1 label</Link>

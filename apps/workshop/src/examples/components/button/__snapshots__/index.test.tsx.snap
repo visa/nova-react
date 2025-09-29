@@ -41,11 +41,6 @@ exports[`Button examples Alternate primary icon button should render correctly 1
       width="16"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <rect
-        height="1"
-        transform="translate(7 7.00024)"
-        width="1"
-      />
       <path
         class="v-icon-primary"
         clip-rule="evenodd"
@@ -93,7 +88,7 @@ exports[`Button examples Alternate secondary icon button should render correctly
       <path
         class="v-icon-secondary"
         clip-rule="evenodd"
-        d="M7.69974 11.3646C8.1485 10.8713 8.49993 10.2878 8.72368 9.64453L10.1935 10.6059C10.696 10.2263 11.3217 10.0012 12 10.0012C13.6568 10.0012 15 11.3444 15 13.0012C15 14.6581 13.6568 16.0012 12 16.0012C10.3431 16.0012 8.99998 14.6581 8.99998 13.0012C8.99998 12.7502 9.03082 12.5063 9.08892 12.2732L7.69974 11.3646ZM13 13.0012C13 13.5535 12.5523 14.0012 12 14.0012C11.4477 14.0012 11 13.5535 11 13.0012C11 12.4489 11.4477 12.0012 12 12.0012C12.5523 12.0012 13 12.4489 13 13.0012Z"
+        d="M7.69971 11.3646C8.14847 10.8713 8.4999 10.2878 8.72365 9.64453L10.1935 10.6059C10.696 10.2263 11.3217 10.0012 12 10.0012C13.6568 10.0012 15 11.3444 15 13.0012C15 14.6581 13.6568 16.0012 12 16.0012C10.3431 16.0012 8.99995 14.6581 8.99995 13.0012C8.99995 12.7502 9.03079 12.5063 9.08889 12.2732L7.69971 11.3646ZM13 13.0012C13 13.5535 12.5522 14.0012 12 14.0012C11.4477 14.0012 11 13.5535 11 13.0012C11 12.4489 11.4477 12.0012 12 12.0012C12.5522 12.0012 13 12.4489 13 13.0012Z"
         fill-rule="evenodd"
       />
       <path
@@ -210,11 +205,6 @@ exports[`Button examples Default primary icon button should render correctly 1`]
       width="16"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <rect
-        height="1"
-        transform="translate(7 7.00024)"
-        width="1"
-      />
       <path
         class="v-icon-primary"
         clip-rule="evenodd"
@@ -262,7 +252,7 @@ exports[`Button examples Default secondary icon button should render correctly 1
       <path
         class="v-icon-secondary"
         clip-rule="evenodd"
-        d="M7.69974 11.3646C8.1485 10.8713 8.49993 10.2878 8.72368 9.64453L10.1935 10.6059C10.696 10.2263 11.3217 10.0012 12 10.0012C13.6568 10.0012 15 11.3444 15 13.0012C15 14.6581 13.6568 16.0012 12 16.0012C10.3431 16.0012 8.99998 14.6581 8.99998 13.0012C8.99998 12.7502 9.03082 12.5063 9.08892 12.2732L7.69974 11.3646ZM13 13.0012C13 13.5535 12.5523 14.0012 12 14.0012C11.4477 14.0012 11 13.5535 11 13.0012C11 12.4489 11.4477 12.0012 12 12.0012C12.5523 12.0012 13 12.4489 13 13.0012Z"
+        d="M7.69971 11.3646C8.14847 10.8713 8.4999 10.2878 8.72365 9.64453L10.1935 10.6059C10.696 10.2263 11.3217 10.0012 12 10.0012C13.6568 10.0012 15 11.3444 15 13.0012C15 14.6581 13.6568 16.0012 12 16.0012C10.3431 16.0012 8.99995 14.6581 8.99995 13.0012C8.99995 12.7502 9.03079 12.5063 9.08889 12.2732L7.69971 11.3646ZM13 13.0012C13 13.5535 12.5522 14.0012 12 14.0012C11.4477 14.0012 11 13.5535 11 13.0012C11 12.4489 11.4477 12.0012 12 12.0012C12.5522 12.0012 13 12.4489 13 13.0012Z"
         fill-rule="evenodd"
       />
       <path
@@ -359,11 +349,6 @@ exports[`Button examples Disabled primary icon button should render correctly 1`
           width="16"
           xmlns="http://www.w3.org/2000/svg"
         >
-          <rect
-            height="1"
-            transform="translate(7 7.00024)"
-            width="1"
-          />
           <path
             class="v-icon-primary"
             clip-rule="evenodd"
@@ -447,7 +432,7 @@ exports[`Button examples Disabled secondary icon button should render correctly 
           <path
             class="v-icon-secondary"
             clip-rule="evenodd"
-            d="M7.69974 11.3646C8.1485 10.8713 8.49993 10.2878 8.72368 9.64453L10.1935 10.6059C10.696 10.2263 11.3217 10.0012 12 10.0012C13.6568 10.0012 15 11.3444 15 13.0012C15 14.6581 13.6568 16.0012 12 16.0012C10.3431 16.0012 8.99998 14.6581 8.99998 13.0012C8.99998 12.7502 9.03082 12.5063 9.08892 12.2732L7.69974 11.3646ZM13 13.0012C13 13.5535 12.5523 14.0012 12 14.0012C11.4477 14.0012 11 13.5535 11 13.0012C11 12.4489 11.4477 12.0012 12 12.0012C12.5523 12.0012 13 12.4489 13 13.0012Z"
+            d="M7.69971 11.3646C8.14847 10.8713 8.4999 10.2878 8.72365 9.64453L10.1935 10.6059C10.696 10.2263 11.3217 10.0012 12 10.0012C13.6568 10.0012 15 11.3444 15 13.0012C15 14.6581 13.6568 16.0012 12 16.0012C10.3431 16.0012 8.99995 14.6581 8.99995 13.0012C8.99995 12.7502 9.03079 12.5063 9.08889 12.2732L7.69971 11.3646ZM13 13.0012C13 13.5535 12.5522 14.0012 12 14.0012C11.4477 14.0012 11 13.5535 11 13.0012C11 12.4489 11.4477 12.0012 12 12.0012C12.5522 12.0012 13 12.4489 13 13.0012Z"
             fill-rule="evenodd"
           />
           <path
@@ -494,14 +479,14 @@ exports[`Button examples Disabled secondary text button should render correctly 
       xmlns="http://www.w3.org/2000/svg"
     >
       <path
+        class="v-icon-secondary"
+        d="M8 16L4.5 12.2579L5.83962 10.8217L7.0566 12.1365V8H8.9434V12.1365L10.1604 10.8217L11.5 12.2579L8 16Z"
+      />
+      <path
         class="v-icon-primary"
         clip-rule="evenodd"
         d="M0 2H8V0H0V2ZM14 14V6H2V14H3V16H0V4H16V16H13V14H14Z"
         fill-rule="evenodd"
-      />
-      <path
-        class="v-icon-secondary"
-        d="M8 16L4.5 12.2579L5.83962 10.8217L7.0566 12.1365V8H8.9434V12.1365L10.1604 10.8217L11.5 12.2579L8 16Z"
       />
       <defs>
         <clippath>
@@ -605,11 +590,6 @@ exports[`Button examples Large primary icon button should render correctly 1`] =
       width="24"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <rect
-        height="1"
-        transform="translate(12 12)"
-        width="1"
-      />
       <path
         class="v-icon-primary"
         clip-rule="evenodd"
@@ -706,14 +686,14 @@ exports[`Button examples Large secondary text button should render correctly 1`]
       xmlns="http://www.w3.org/2000/svg"
     >
       <path
+        class="v-icon-secondary"
+        d="M8 16L4.5 12.2579L5.83962 10.8217L7.0566 12.1365V8H8.9434V12.1365L10.1604 10.8217L11.5 12.2579L8 16Z"
+      />
+      <path
         class="v-icon-primary"
         clip-rule="evenodd"
         d="M0 2H8V0H0V2ZM14 14V6H2V14H3V16H0V4H16V16H13V14H14Z"
         fill-rule="evenodd"
-      />
-      <path
-        class="v-icon-secondary"
-        d="M8 16L4.5 12.2579L5.83962 10.8217L7.0566 12.1365V8H8.9434V12.1365L10.1604 10.8217L11.5 12.2579L8 16Z"
       />
       <defs>
         <clippath>
@@ -818,7 +798,7 @@ exports[`Button examples Primary destructive text button should render correctly
       <path
         class="v-icon-primary"
         clip-rule="evenodd"
-        d="M8.00001 10.4148L6.20712 12.2077L4.79291 10.7935L6.5858 9.00056L4.79291 7.20767L6.20712 5.79346L8.00001 7.58635L9.79291 5.79346L11.2071 7.20767L9.41423 9.00056L11.2071 10.7935L9.79291 12.2077L8.00001 10.4148Z"
+        d="M8.00008 10.4148L6.20718 12.2077L4.79297 10.7935L6.58586 9.00056L4.79297 7.20767L6.20718 5.79346L8.00008 7.58635L9.79297 5.79346L11.2072 7.20767L9.41429 9.00056L11.2072 10.7935L9.79297 12.2077L8.00008 10.4148Z"
         fill-rule="evenodd"
       />
       <defs>
@@ -857,11 +837,6 @@ exports[`Button examples Primary icon button with label should render correctly 
           width="16"
           xmlns="http://www.w3.org/2000/svg"
         >
-          <rect
-            height="1"
-            transform="translate(7 7.00024)"
-            width="1"
-          />
           <path
             class="v-icon-primary"
             clip-rule="evenodd"
@@ -972,7 +947,7 @@ exports[`Button examples Secondary destructive text button should render correct
       <path
         class="v-icon-primary"
         clip-rule="evenodd"
-        d="M8.00001 10.4148L6.20712 12.2077L4.79291 10.7935L6.5858 9.00056L4.79291 7.20767L6.20712 5.79346L8.00001 7.58635L9.79291 5.79346L11.2071 7.20767L9.41423 9.00056L11.2071 10.7935L9.79291 12.2077L8.00001 10.4148Z"
+        d="M8.00008 10.4148L6.20718 12.2077L4.79297 10.7935L6.58586 9.00056L4.79297 7.20767L6.20718 5.79346L8.00008 7.58635L9.79297 5.79346L11.2072 7.20767L9.41429 9.00056L11.2072 10.7935L9.79297 12.2077L8.00008 10.4148Z"
         fill-rule="evenodd"
       />
       <defs>
@@ -1014,7 +989,7 @@ exports[`Button examples Secondary icon button with label should render correctl
           <path
             class="v-icon-secondary"
             clip-rule="evenodd"
-            d="M7.69974 11.3646C8.1485 10.8713 8.49993 10.2878 8.72368 9.64453L10.1935 10.6059C10.696 10.2263 11.3217 10.0012 12 10.0012C13.6568 10.0012 15 11.3444 15 13.0012C15 14.6581 13.6568 16.0012 12 16.0012C10.3431 16.0012 8.99998 14.6581 8.99998 13.0012C8.99998 12.7502 9.03082 12.5063 9.08892 12.2732L7.69974 11.3646ZM13 13.0012C13 13.5535 12.5523 14.0012 12 14.0012C11.4477 14.0012 11 13.5535 11 13.0012C11 12.4489 11.4477 12.0012 12 12.0012C12.5523 12.0012 13 12.4489 13 13.0012Z"
+            d="M7.69971 11.3646C8.14847 10.8713 8.4999 10.2878 8.72365 9.64453L10.1935 10.6059C10.696 10.2263 11.3217 10.0012 12 10.0012C13.6568 10.0012 15 11.3444 15 13.0012C15 14.6581 13.6568 16.0012 12 16.0012C10.3431 16.0012 8.99995 14.6581 8.99995 13.0012C8.99995 12.7502 9.03079 12.5063 9.08889 12.2732L7.69971 11.3646ZM13 13.0012C13 13.5535 12.5522 14.0012 12 14.0012C11.4477 14.0012 11 13.5535 11 13.0012C11 12.4489 11.4477 12.0012 12 12.0012C12.5522 12.0012 13 12.4489 13 13.0012Z"
             fill-rule="evenodd"
           />
           <path
@@ -1060,14 +1035,14 @@ exports[`Button examples Secondary text button with leading icon should render c
       xmlns="http://www.w3.org/2000/svg"
     >
       <path
+        class="v-icon-secondary"
+        d="M8 16L4.5 12.2579L5.83962 10.8217L7.0566 12.1365V8H8.9434V12.1365L10.1604 10.8217L11.5 12.2579L8 16Z"
+      />
+      <path
         class="v-icon-primary"
         clip-rule="evenodd"
         d="M0 2H8V0H0V2ZM14 14V6H2V14H3V16H0V4H16V16H13V14H14Z"
         fill-rule="evenodd"
-      />
-      <path
-        class="v-icon-secondary"
-        d="M8 16L4.5 12.2579L5.83962 10.8217L7.0566 12.1365V8H8.9434V12.1365L10.1604 10.8217L11.5 12.2579L8 16Z"
       />
       <defs>
         <clippath>
@@ -1099,14 +1074,14 @@ exports[`Button examples Secondary text button with trailing icon should render 
       xmlns="http://www.w3.org/2000/svg"
     >
       <path
+        class="v-icon-secondary"
+        d="M8 16L4.5 12.2579L5.83962 10.8217L7.0566 12.1365V8H8.9434V12.1365L10.1604 10.8217L11.5 12.2579L8 16Z"
+      />
+      <path
         class="v-icon-primary"
         clip-rule="evenodd"
         d="M0 2H8V0H0V2ZM14 14V6H2V14H3V16H0V4H16V16H13V14H14Z"
         fill-rule="evenodd"
-      />
-      <path
-        class="v-icon-secondary"
-        d="M8 16L4.5 12.2579L5.83962 10.8217L7.0566 12.1365V8H8.9434V12.1365L10.1604 10.8217L11.5 12.2579L8 16Z"
       />
       <defs>
         <clippath>
@@ -1162,11 +1137,6 @@ exports[`Button examples Small primary icon button should render correctly 1`] =
       width="16"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <rect
-        height="1"
-        transform="translate(7 7.00024)"
-        width="1"
-      />
       <path
         class="v-icon-primary"
         clip-rule="evenodd"
@@ -1231,14 +1201,14 @@ exports[`Button examples Small secondary text button should render correctly 1`]
       xmlns="http://www.w3.org/2000/svg"
     >
       <path
+        class="v-icon-secondary"
+        d="M8 16L4.5 12.2579L5.83962 10.8217L7.0566 12.1365V8H8.9434V12.1365L10.1604 10.8217L11.5 12.2579L8 16Z"
+      />
+      <path
         class="v-icon-primary"
         clip-rule="evenodd"
         d="M0 2H8V0H0V2ZM14 14V6H2V14H3V16H0V4H16V16H13V14H14Z"
         fill-rule="evenodd"
-      />
-      <path
-        class="v-icon-secondary"
-        d="M8 16L4.5 12.2579L5.83962 10.8217L7.0566 12.1365V8H8.9434V12.1365L10.1604 10.8217L11.5 12.2579L8 16Z"
       />
       <defs>
         <clippath>
@@ -1343,7 +1313,7 @@ exports[`Button examples Tertiary destructive text button should render correctl
       <path
         class="v-icon-primary"
         clip-rule="evenodd"
-        d="M8.00001 10.4148L6.20712 12.2077L4.79291 10.7935L6.5858 9.00056L4.79291 7.20767L6.20712 5.79346L8.00001 7.58635L9.79291 5.79346L11.2071 7.20767L9.41423 9.00056L11.2071 10.7935L9.79291 12.2077L8.00001 10.4148Z"
+        d="M8.00008 10.4148L6.20718 12.2077L4.79297 10.7935L6.58586 9.00056L4.79297 7.20767L6.20718 5.79346L8.00008 7.58635L9.79297 5.79346L11.2072 7.20767L9.41429 9.00056L11.2072 10.7935L9.79297 12.2077L8.00008 10.4148Z"
         fill-rule="evenodd"
       />
       <defs>

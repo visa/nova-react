@@ -14,27 +14,22 @@
  * limitations under the License.
  *
  **/
-import {
-    Button,
-    SectionMessage,
-    SectionMessageCloseButton,
-    SectionMessageContent,
-    SectionMessageIcon,
-    Typography
-  } from '@visa/nova-react';
-  
-  export const ButtonSubtleSectionMessage = () => {
-    return (
-      <SectionMessage messageType="subtle">
-        <SectionMessageIcon />
-        <SectionMessageContent>
-          <Typography className="v-mb-8">
-            This is required text that describes the section message in more detail.
-          </Typography>
-          <Button colorScheme="secondary">Primary action</Button>
-        </SectionMessageContent>
-        <SectionMessageCloseButton />
-      </SectionMessage>
-    );
-  };
-  
+import { MessageIcon, VisaCloseTiny } from '@visa/nova-icons-react';
+import { Button, SectionMessage, SectionMessageCloseButton, SectionMessageContent, Typography } from '@visa/nova-react';
+
+export const ButtonSubtleSectionMessage = () => {
+  return (
+    <SectionMessage messageType="subtle">
+      <MessageIcon messageType="subtle" />
+      <SectionMessageContent>
+        <Typography className="v-mb-8">
+          This is required text that describes the section message in more detail.
+        </Typography>
+        <Button colorScheme="secondary">Primary action</Button>
+      </SectionMessageContent>
+      <SectionMessageCloseButton>
+        <VisaCloseTiny />
+      </SectionMessageCloseButton>
+    </SectionMessage>
+  );
+};

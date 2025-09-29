@@ -1,8 +1,8 @@
 {
   "description": "Grid that organizes information, enabling data interaction, manipulation, and criteria-based analysis using columns and rows.",
-  "displayName": "Table",
+  "displayName": "table",
   "filePath": "/table/index.tsx",
-  "gitLink": "https://stash.trusted.visa.com:7990/projects/VC/repos/nova-react/browse/libs/nova-react/src/table/index.tsx",
+  "gitLink": "https://github.com/visa/nova-react/blob/main/libs/nova-react/src/table/index.tsx",
   "props": [
     {
       "description": "Alt",
@@ -29,18 +29,16 @@
       "type": "boolean"
     },
     {
-      "description": "This is a useRef",
-      "name": "ref",
-      "required": false,
-      "type": "ForwardedRef<HTMLElementType>"
-    },
-    {
       "description": "Subtle header",
       "name": "subtle",
       "required": false,
       "type": "boolean"
     }
   ],
+  "vgar": "TODO",
+  "wcag": "TODO",
+  "docs": "{@link https://design.visa.com/react/components/table See Docs}",
+  "testAvg": 100,
   "related": [
     "table-wrapper",
     "tbody",
@@ -48,9 +46,5 @@
     "th",
     "thead",
     "tr"
-  ],
-  "vgar": "TODO",
-  "wcag": "TODO",
-  "docs": "{@link https://design.visa.com/react/components/table See Docs}",
-  "testAvg": 100
+  ]
 }

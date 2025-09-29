@@ -15,7 +15,7 @@
  *
  **/
 import { AnchorLinkMenu, AnchorLinkMenuHeader, Typography, Link as VLink } from '@visa/nova-react';
-import { paramCase } from 'change-case';
+import { kebabCase } from 'change-case';
 import { Link } from 'react-router-dom';
 import useVisibleId from '../../hooks/use-visible-id';
 import { Paths } from '../../routes/paths';
@@ -46,7 +46,13 @@ const ExamplesDirectory = ({
 
   return (
     <AnchorLinkMenu aria-labelledby="example-anchor-link-menu-header" tag="nav">
-      <section style={{ maxBlockSize: '85dvh', overflowY: 'auto' }}>
+      <section
+        style={{
+          maxBlockSize: '85dvh',
+          overflowY: 'auto',
+          padding: 'calc(var(--theme-focus-outline-offset, 0px) + 1px)',
+        }}
+      >
         <AnchorLinkMenuHeader>
           <Typography id="example-anchor-link-menu-header" tag="h2" variant="overline">
             On this page
@@ -55,8 +61,12 @@ const ExamplesDirectory = ({
         <ul>
           {examples.map(({ id }) => {
             const title = exampleMetaData[id]?.title || '';
+            const tags = exampleMetaData[id]?.tags
+            
+            if (tags?.isShared || tags?.isSubComponent) return null;
+
             return (
-              <li key={`${docName}-example-${paramCase(title)}-anchor`}>
+              <li key={`${docName}-example-${kebabCase(title)}-anchor`}>
                 <VLink
                   aria-current={visibleId === `v-example-${docType}-${docName}-${title}`}
                   element={<Link to={Paths.documentationExample(docType, docName, id)} />}

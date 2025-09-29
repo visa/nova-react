@@ -32,7 +32,6 @@ ReactGA.initialize(GA_TRACKING_ID);
 
 const ApiPage = () => {
   const { docName = '' } = useParams();
-
   const {
     data: metaData,
     isError,

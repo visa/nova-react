@@ -26,7 +26,7 @@ import {
 
 export const ClickableDisabledContentCard = () => {
   return (
-    <ContentCard aria-disabled="true" clickable tag="button" disabled>
+    <ContentCard aria-disabled="true" clickable tag="button">
       <Utility element={<ContentCardBody />} vFlex vFlexCol vGap={4}>
         <Utility vAlignItems="center" vFlex vGap={12}>
           <ContentCardTitle variant="headline-4" tag="span">

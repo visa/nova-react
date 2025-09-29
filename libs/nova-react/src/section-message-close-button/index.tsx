@@ -15,27 +15,22 @@
  *
  **/
 import cn from 'clsx';
-import { ForwardedRef } from 'react';
 import MessageCloseButton, { MessageCloseButtonProperties } from '../message-close-button';
-import forwardRef from '../types';
 
 export type SectionMessageCloseButtonProperties = MessageCloseButtonProperties;
-
-const SectionMessageCloseButton = <HTMLElementType,>(
-  { className, ...remainingProps }: SectionMessageCloseButtonProperties,
-  ref: ForwardedRef<HTMLElementType>
-) => (
-  <MessageCloseButton<HTMLElementType>
-    className={cn('-v-mt-8 -v-mr-8 v-ml-14 v-p-7', className)}
-    ref={ref}
-    {...remainingProps}
-  />
-);
 
 /**
  * Close button for section message component.
  * @docs {@link https://design.visa.com/react/components/section-message | See Docs}
  */
-export default forwardRef<SectionMessageCloseButtonProperties, HTMLButtonElement>(SectionMessageCloseButton);
+const SectionMessageCloseButton = (
+  { children, className, ...remainingProps }: SectionMessageCloseButtonProperties,
+) => (
+  <MessageCloseButton
+    className={cn('-v-mt-8 -v-mr-8 v-ml-14 v-p-7', className)}
+    {...remainingProps}>{children}</MessageCloseButton>
+);
+
+export default SectionMessageCloseButton;
 
 SectionMessageCloseButton.displayName = 'SectionMessageCloseButton';

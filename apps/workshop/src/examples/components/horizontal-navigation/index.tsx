@@ -14,14 +14,15 @@
  * limitations under the License.
  *
  **/
-import { SectionMessage, SectionMessageContent, SectionMessageIcon, Typography } from '@visa/nova-react';
+import { MessageIcon } from '@visa/nova-icons-react';
+import { SectionMessage, SectionMessageContent, Typography } from '@visa/nova-react';
 import packageJson from '../../../../package.json';
 import PackageInstaller from '../../../components/package-installer';
 import { ExampleIndex } from '../../../types';
 
 const ExampleIntro = () => (
   <SectionMessage messageType="success" className="v-flex v-align-items-center">
-    <SectionMessageIcon />
+    <MessageIcon messageType="success" />
     <SectionMessageContent>
       <Typography variant="subtitle-2">
         Tip: use <code>aria-current=&quot;page&quot;</code> or <code>aria-selected=&quot;true&quot;</code> to set the

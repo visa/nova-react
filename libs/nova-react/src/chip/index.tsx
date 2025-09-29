@@ -15,25 +15,27 @@
  *
  **/
 import cn from 'clsx';
-import { ElementType, ForwardedRef } from 'react';
-import forwardRef from '../types';
+import { ComponentPropsWithRef, ElementType } from 'react';
 
 const CSS_PREFIX = 'v-chip';
 
-export type ChipProperties = {
+export type ChipProperties<ET extends ElementType = 'div',> = {
   /** Chip Size */
   chipSize?: 'compact';
   /** Chip Type */
   chipType?: 'selection';
-  /** @ignore */
-  className?: string;
   /** Tag of Component */
   tag?: ElementType;
-};
+} & ComponentPropsWithRef<ET>;
 
-const Chip = <HTMLElementType,>(
-  { className, chipType, chipSize, tag: Tag = 'div', ...remainingProps }: ChipProperties,
-  ref: ForwardedRef<HTMLElementType>
+/**
+ * Compact elements used to filter content or display user input.
+ * @docs {@link https://design.visa.com/react/components/chip | See Docs}
+ * @vgar TODO
+ * @wcag TODO
+ */
+const Chip = <ET extends ElementType = 'div',>(
+  { className, chipType, chipSize, tag: Tag = 'div', ...remainingProps }: ChipProperties<ET>,
 ) => (
   <Tag
     className={cn(
@@ -43,18 +45,11 @@ const Chip = <HTMLElementType,>(
       chipType && chipType === 'selection' ? 'v-label v-gap-6' : 'v-flex',
       className
     )}
-    ref={ref}
     {...remainingProps}
   />
 );
 
-/**
- * Compact elements used to filter content or display user input.
- * @docs {@link https://design.visa.com/react/components/chip | See Docs}
- * @vgar TODO
- * @wcag TODO
- */
-export default forwardRef<ChipProperties, HTMLDivElement>(Chip);
+export default Chip;
 
 Chip.defaultProps = {
   tag: 'div',

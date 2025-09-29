@@ -15,23 +15,20 @@
  *
  **/
 import cn from 'clsx';
-import { ForwardedRef } from 'react';
 import Button, { ButtonProperties } from '../button';
-import forwardRef from '../types';
 
 const CSS_PREFIX = 'v-dropdown';
 
 export type DropdownButtonProperties = ButtonProperties;
 
-const DropdownButton = <HTMLElementType,>(
-  { className, ...remainingProps }: DropdownButtonProperties,
-  ref: ForwardedRef<HTMLElementType>
-) => <Button<HTMLElementType> ref={ref} className={cn(CSS_PREFIX, className)} {...remainingProps} />;
-
 /**
  * Button used to hide or show the dropdown menu.
  * @docs {@link https://design.visa.com/react/components/dropdown-menu | See Docs}
  */
-export default forwardRef<DropdownButtonProperties, HTMLButtonElement>(DropdownButton);
+const DropdownButton = (
+  { className, ...remainingProps }: DropdownButtonProperties,
+) => <Button className={cn(CSS_PREFIX, className)} {...remainingProps} />;
+
+export default DropdownButton;
 
 DropdownButton.displayName = 'DropdownButton';

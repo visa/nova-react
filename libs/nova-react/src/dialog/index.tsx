@@ -15,42 +15,37 @@
  *
  **/
 import cn from 'clsx';
-import { ElementType, ForwardedRef } from 'react';
+import { ComponentPropsWithRef, ElementType } from 'react';
 import Message, { MessageProperties } from '../message';
-import forwardRef from '../types';
 
 const CSS_PREFIX = 'v-dialog';
 
-export type DialogProperties = {
-  /** @ignore */
-  className?: string;
+export type DialogProperties<ET extends ElementType = 'dialog',> = {
   /** Message Type */
   messageType?: MessageProperties['messageType'];
   /** Tag of Component */
   tag?: ElementType;
-};
-
-const Dialog = <HTMLElementType,>(
-  { className, messageType, tag = 'dialog', ...remainingProps }: DialogProperties,
-  ref: ForwardedRef<HTMLElementType>
-) => (
-  <Message<HTMLElementType>
-    className={cn(CSS_PREFIX, !messageType && `${CSS_PREFIX}-default`, className)}
-    messageType={messageType}
-    tag={tag}
-    ref={ref}
-    {...remainingProps}
-  />
-);
+} & ComponentPropsWithRef<ET>;
 
 /**
  * Pop-up windows that overlay page content to facilitate user interactions or show important information.
  * @docs {@link https://design.visa.com/react/components/dialog | See Docs}
- * @related dialog-close-button, dialog-header, message-content, message-icon, use-focus-trap
+ * @related dialog-close-button, dialog-header, message-content, use-focus-trap
  * @vgar TODO
  * @wcag TODO
  */
-export default forwardRef<DialogProperties, HTMLDialogElement>(Dialog);
+const Dialog = <ET extends ElementType = 'dialog',>(
+  { className, messageType, tag = 'dialog', ...remainingProps }: DialogProperties<ET>,
+) => (
+  <Message
+    className={cn(CSS_PREFIX, !messageType && `${CSS_PREFIX}-default`, className)}
+    messageType={messageType}
+    tag={tag}
+    {...(remainingProps as MessageProperties<ET>)}
+  />
+);
+
+export default Dialog;
 
 Dialog.defaultProps = {
   tag: 'dialog',

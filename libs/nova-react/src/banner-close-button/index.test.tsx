@@ -18,10 +18,11 @@ import { render } from '@testing-library/react';
 import { axe } from 'jest-axe';
 
 import BannerCloseButton from '.';
+import { VisaCloseTiny } from '@visa/nova-icons-react';
 
 describe('BannerIcon', () => {
   it('should render defaults correctly', async () => {
-    const { container } = render(<BannerCloseButton />);
+    const { container } = render(<BannerCloseButton> <VisaCloseTiny /></BannerCloseButton>);
     const results = await axe(container);
     expect(results).toHaveNoViolations();
     expect(container).toMatchSnapshot();
@@ -32,19 +33,19 @@ describe('BannerIcon', () => {
   });
 
   it('should allow custom classNames', () => {
-    const { container } = render(<BannerCloseButton className="test-class" />);
+    const { container } = render(<BannerCloseButton className="test-class" > <VisaCloseTiny /></BannerCloseButton>);
     expect(container.firstElementChild?.className).toBe(
       'v-button v-button-small v-button-tertiary v-button-icon v-button-subtle -v-mt-8 -v-mr-16 test-class'
     );
   });
 
   it('should allow custom tags', () => {
-    const { container } = render(<BannerCloseButton element={<a />} />);
+    const { container } = render(<BannerCloseButton element={<a />}> <VisaCloseTiny /></BannerCloseButton>);
     expect(container.firstElementChild?.tagName).toBe('A');
   });
 
   it('should permeate basic props', () => {
-    const { container } = render(<BannerCloseButton aria-label="test-aria-label" id="test-id" role="menu" />);
+    const { container } = render(<BannerCloseButton aria-label="test-aria-label" id="test-id" role="menu"> <VisaCloseTiny /></BannerCloseButton>);
     expect(container.firstElementChild?.getAttribute('aria-label')).toBe('test-aria-label');
     expect(container.firstElementChild?.getAttribute('id')).toBe('test-id');
     expect(container.firstElementChild?.getAttribute('role')).toBe('menu');

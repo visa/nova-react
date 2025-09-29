@@ -14,5 +14,4 @@
  * limitations under the License.
  *
  **/
-// eslint-disable-next-line @cspell/spellchecker
 export const GA_TRACKING_ID = 'G-ER1Y9VSTKY';

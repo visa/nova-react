@@ -1,19 +1,17 @@
 {
   "name": "@visa/nova-react",
-  "version": "2.5.4",
+  "version": "3.0.0",
   "description": "Visa Product Design System Nova React library",
   "author": "Visa Product Design System",
   "main": "./index.js",
   "module": "./index.mjs",
   "types": "./index.d.ts",
   "sideEffects": false,
-  "optionalDependencies": {},
   "peerDependencies": {
-    "@visa/nova-icons-react": "^1 || ^2",
-    "@visa/nova-styles": "^1.6.1",
+    "@visa/nova-styles": "^1.6.4",
     "clsx": "^2.1.0",
-    "react": "^18 || ^19",
-    "react-dom": "^18 || ^19",
+    "react": "^19",
+    "react-dom": "^19",
     "tslib": "^2.6.2"
   },
   "engines": {

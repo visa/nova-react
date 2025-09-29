@@ -14,10 +14,22 @@
  * limitations under the License.
  *
  -->
+# Changelog
 
-## [2.5.3] (2025-03-26)
+## [3.0.0](Learn more at: https://design.visa.com/developing/react/changelog) (2025-09-26)
 
-### Added
+### Features
+
+- Added a collection of patterns.
+
+  - Application layout
+  - Chat
+  - File Upload
+  - Wizard
+
+### [2.5.4](Learn more at: https://design.visa.com/developing/react/changelog) (2025-04-11)
+
+### Features
 
 - Initial release of the nova-react library.
 - Added a collection of components.

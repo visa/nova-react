@@ -18,15 +18,12 @@ import { Link } from '@visa/nova-react';
 import { capitalCase } from 'change-case';
 import cn from 'clsx';
 import { useEffect, useRef, useState } from 'react';
-import { Helmet, HelmetData } from 'react-helmet-async';
 import { Outlet, useLocation, useParams } from 'react-router-dom';
 import { useTheme, VersionsProvider } from '../providers';
 import SiteFooter from './components/footer';
 import SiteHeader from './components/header';
 import SiteNav from './components/nav';
 import Styles from './styles.module.scss';
-
-const helmetData = new HelmetData({});
 
 const Layout = () => {
   const { darkMode } = useTheme();
@@ -58,9 +55,7 @@ const Layout = () => {
 
   return (
     <>
-      <Helmet helmetData={helmetData}>
-        <title>{pageTitle + ' | React | Visa Product Design System'}</title>
-      </Helmet>
+      <title>{pageTitle + ' | React | Visa Product Design System'}</title>
       <VersionsProvider>
         <div className={cn(Styles.layout, darkMode && 'dark-mode')}>
           <div className={Styles.skipToContent}>

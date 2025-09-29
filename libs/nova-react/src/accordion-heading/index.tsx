@@ -15,24 +15,21 @@
  *
  **/
 import cn from 'clsx';
-import { ForwardedRef } from 'react';
 import Button, { ButtonProperties } from '../button';
-import forwardRef from '../types';
 
 const CSS_PREFIX = 'v-accordion-heading';
 
 export type AccordionHeadingProperties = Omit<ButtonProperties, 'element'>;
 
-const AccordionHeading = <HTMLElementType,>(
-  { className, tag: Tag = 'summary', ...remainingProps }: AccordionHeadingProperties,
-  ref: ForwardedRef<HTMLElementType>
-) => <Button<HTMLElementType> tag={Tag} className={cn(CSS_PREFIX, className)} ref={ref} {...remainingProps} />;
-
 /**
  * Default summary element, styled as a button that is used to expand and collapse content.
  * @docs {@link https://design.visa.com/react/components/accordion | See Docs}
  */
-export default forwardRef<AccordionHeadingProperties, HTMLButtonElement>(AccordionHeading);
+const AccordionHeading = (
+  { className, tag: Tag = 'summary', ...remainingProps }: AccordionHeadingProperties,
+) => <Button tag={Tag} className={cn(CSS_PREFIX, className)} {...remainingProps} />;
+
+export default AccordionHeading;
 
 AccordionHeading.defaultProps = {
   tag: 'summary',

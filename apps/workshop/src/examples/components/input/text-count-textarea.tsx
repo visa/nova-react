@@ -66,7 +66,7 @@ export const TextCountTextarea = () => {
       <Utility vFlex vFlexCol vGap={4}>
         <Label htmlFor={id}>Label (required)</Label>
         <InputContainer className="v-flex-row">
-          <Textarea
+          <Textarea<'input'>
             aria-describedby={`${id}-message`}
             aria-invalid={characterCountInvalid || invalid}
             aria-required="true"

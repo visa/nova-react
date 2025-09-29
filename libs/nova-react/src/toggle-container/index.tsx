@@ -15,28 +15,24 @@
  *
  **/
 import cn from 'clsx';
-import { ElementType, ForwardedRef } from 'react';
-import forwardRef from '../types';
+import { ComponentPropsWithRef, ElementType } from 'react';
 
 const CSS_PREFIX = 'v-toggle-container';
 
-export type ToggleContainerProperties = {
-  /** @ignore */
-  className?: string;
+export type ToggleContainerProperties<ET extends ElementType = 'fieldset',> = {
   /** Tag of Component */
   tag?: ElementType;
-};
-
-const ToggleContainer = <HTMLElementType,>(
-  { className, tag: Tag = 'fieldset', ...remainingProps }: ToggleContainerProperties,
-  ref: ForwardedRef<HTMLElementType>
-) => <Tag className={cn(CSS_PREFIX, className)} ref={ref} {...remainingProps} />;
+} & ComponentPropsWithRef<ET>;
 
 /**
  * Element to contain a group of toggle components.
  * @docs {@link https://design.visa.com/react/components/toggle | See Docs}
  */
-export default forwardRef<ToggleContainerProperties, HTMLFieldSetElement>(ToggleContainer);
+const ToggleContainer = <ET extends ElementType = 'fieldset',>(
+  { className, tag: Tag = 'fieldset', ...remainingProps }: ToggleContainerProperties<ET>,
+) => <Tag className={cn(CSS_PREFIX, className)} {...remainingProps} />;
+
+export default ToggleContainer;
 
 ToggleContainer.defaultProps = {
   tag: 'fieldset',

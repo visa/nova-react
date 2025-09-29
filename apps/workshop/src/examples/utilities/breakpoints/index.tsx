@@ -14,12 +14,13 @@
  * limitations under the License.
  *
  **/
-import { SectionMessage, SectionMessageContent, SectionMessageIcon, Typography } from '@visa/nova-react';
+import { MessageIcon } from '@visa/nova-icons-react';
+import { SectionMessage, SectionMessageContent, Typography } from '@visa/nova-react';
 import { ExampleIndex } from '../../../types';
 
 const ContainerNotes = () => (
   <SectionMessage messageType="warning">
-    <SectionMessageIcon />
+    <MessageIcon messageType="warning" />
     <SectionMessageContent>
       <Typography variant="body-2-bold">Using container queries for direct children of React elements</Typography>
       <Typography>

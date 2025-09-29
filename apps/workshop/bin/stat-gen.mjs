@@ -19,7 +19,7 @@ import { existsSync, readdirSync, readFileSync, writeFileSync } from 'fs';
 import gitlog from 'gitlog';
 import { globSync } from 'glob';
 import { join, parse, resolve } from 'path';
-import { paramCase } from 'change-case';
+import { kebabCase } from 'change-case';
 
 /// Constants:
 const metaDataFilename = 'meta.json';
@@ -54,7 +54,7 @@ const updateExamplesMetaData = () => {
     const metaDataFilePath = join(parsedExampleFilePath.dir, metaDataFilename);
     const metaData = existsSync(metaDataFilePath) ? JSON.parse(readFileSync(metaDataFilePath, 'utf-8')) : {};
 
-    const exampleId = paramCase(parsedExampleFilePath.name);
+    const exampleId = kebabCase(parsedExampleFilePath.name);
 
     const prevExampleMetaData = metaData[exampleId] || {};
 

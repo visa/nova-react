@@ -15,36 +15,31 @@
  *
  **/
 import cn from 'clsx';
-import { ElementType, ForwardedRef } from 'react';
-import forwardRef from '../types';
+import { ComponentPropsWithRef, ElementType } from 'react';
 
 const CSS_PREFIX = 'v-tab';
 
-export type TabProperties = {
-  /** @ignore */
-  className?: string;
+export type TabProperties<ET extends ElementType = 'li',> = {
   /** section title */
   sectionTitle?: boolean;
   /** Tag of Component */
   tag?: ElementType;
-};
-
-const Tab = <HTMLElementType,>(
-  { className, sectionTitle, tag: Tag = 'li', ...remainingProps }: TabProperties,
-  ref: ForwardedRef<HTMLElementType>
-) => (
-  <Tag
-    className={cn(CSS_PREFIX, sectionTitle && `${CSS_PREFIX}-section-title`, className)}
-    ref={ref}
-    {...remainingProps}
-  />
-);
+} & ComponentPropsWithRef<ET>;
 
 /**
  * Singular tab component to be used in a tab group.
  * @docs {@link https://design.visa.com/react/components/tabs | See Docs}
  */
-export default forwardRef<TabProperties, HTMLLIElement>(Tab);
+const Tab = <ET extends ElementType = 'li',>(
+  { className, sectionTitle, tag: Tag = 'li', ...remainingProps }: TabProperties<ET>,
+) => (
+  <Tag
+    className={cn(CSS_PREFIX, sectionTitle && `${CSS_PREFIX}-section-title`, className)}
+    {...remainingProps}
+  />
+);
+
+export default Tab;
 
 Tab.defaultProps = {
   tag: 'li',

@@ -15,24 +15,16 @@
  *
  **/
 import cn from 'clsx';
-import { ElementType, ForwardedRef } from 'react';
-import forwardRef from '../types';
+import { ComponentPropsWithRef, ElementType } from 'react';
 
 const CSS_PREFIX = 'v-toggle';
 
-export type ToggleProperties = {
-  /** @ignore */
-  className?: string;
+export type ToggleProperties <ET extends ElementType = 'label',>= {
   /** Icons only toggle button */
   iconOnly?: boolean;
   /** Tag of Component */
   tag?: ElementType;
-};
-
-const Toggle = <HTMLElementType,>(
-  { className, iconOnly, tag: Tag = 'label', ...remainingProps }: ToggleProperties,
-  ref: ForwardedRef<HTMLElementType>
-) => <Tag className={cn(CSS_PREFIX, iconOnly && `${CSS_PREFIX}-icon`, className)} ref={ref} {...remainingProps} />;
+} & ComponentPropsWithRef<ET>;
 
 /**
  * Selection element that allows users to switch between states or views.
@@ -41,7 +33,11 @@ const Toggle = <HTMLElementType,>(
  * @vgar TODO
  * @wcag TODO
  */
-export default forwardRef<ToggleProperties, HTMLLabelElement>(Toggle);
+const Toggle = <ET extends ElementType = 'label',>(
+  { className, iconOnly, tag: Tag = 'label', ...remainingProps }: ToggleProperties<ET>,
+) => <Tag className={cn(CSS_PREFIX, iconOnly && `${CSS_PREFIX}-icon`, className)} {...remainingProps} />;
+
+export default Toggle;
 
 Toggle.defaultProps = {
   tag: 'label',

@@ -45,7 +45,6 @@ code {
 }
 
 .checkered-background {
-  margin-bottom: var(--size-scalable-40);
   --example-background: hsla(0, 0%, 0%, 0.03);
   background: repeating-conic-gradient(
       var(--palette-default-surface-2) 0,
@@ -118,4 +117,24 @@ code {
 
 ::-webkit-scrollbar-thumb:active {
   background: var(--palette-default-surface-lowlight);
+}
+
+// patterns
+.checkered-background:has(.layout-example),
+.patterns-background:has(.layout-example) {
+  padding: 0 !important;
+  background: none !important;
+  min-height: 200px;
+  min-width: 350px;
+  border-radius: 0;
+}
+
+.patterns-background {
+  background-color: var(--palette-default-surface-3);
+}
+
+// inside the examples page of react library
+main .layout-example {
+  min-height: 800px;
+  height: inherit;
 }

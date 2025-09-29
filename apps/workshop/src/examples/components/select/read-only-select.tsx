@@ -27,7 +27,7 @@ export const ReadOnlySelect = () => {
     <Utility tag="fieldset" vFlex vFlexCol vGap={6}>
       <Label htmlFor={id}>Label (required)</Label>
       <InputContainer>
-        <Select defaultValue="0" id={id} name={`${id}-name`} readOnly required>
+        <Select defaultValue="0" id={id} name={`${id}-name`} aria-readonly={true} required>
           <option hidden value="" />
           {options.map((option, index) => (
             <option disabled key={`${id}-option-${index}`} value={index}>

@@ -15,47 +15,35 @@
  *
  **/
 import cn from 'clsx';
-import { ElementType, ForwardedRef, createContext, useContext } from 'react';
-import forwardRef from '../types';
-
-const MessageContext = createContext<{ messageType: MessageType | '' }>({ messageType: '' });
-
-export const useMessage = () => useContext(MessageContext);
+import { ComponentPropsWithRef, ElementType } from 'react';
 
 const CSS_PREFIX = 'v-message';
 
 export type MessageType = 'error' | 'success' | 'warning' | 'subtle';
 
-export type MessageProperties = {
-  /** @ignore */
-  className?: string;
+export type MessageProperties<ET extends ElementType = 'div',> = {
   /** Message Type */
   messageType?: MessageType;
   /** Tag of Component */
   tag?: ElementType;
-};
-
-const Message = <HTMLElementType,>(
-  { className, messageType, tag: Tag = 'div', ...remainingProps }: MessageProperties,
-  ref: ForwardedRef<HTMLElementType>
-) => (
-  <MessageContext.Provider value={{ messageType: messageType || '' }}>
-    <Tag
-      className={cn(CSS_PREFIX, messageType && `${CSS_PREFIX}-${messageType}`, className)}
-      ref={ref}
-      {...remainingProps}
-    />
-  </MessageContext.Provider>
-);
+} & ComponentPropsWithRef<ET>;
 
 /**
  * Container for message elements. This is the base element for banner, flag, and section message.
  * @docs {@link https://design.visa.com/react/components | See Docs}
- * @related banner, flag, message-close-button, message-content, message-icon, section-message
+ * @related banner, flag, message-close-button, message-content, section-message
  * @vgar TODO
  * @wcag TODO
  */
-export default forwardRef<MessageProperties, HTMLDivElement>(Message);
+const Message = <ET extends ElementType = 'div',>(
+  { className, messageType, tag: Tag = 'div', ...remainingProps }: MessageProperties<ET>,
+) => (
+  <Tag
+    className={cn(CSS_PREFIX, messageType && `${CSS_PREFIX}-${messageType}`, className)}
+    {...remainingProps}
+  />
+);
+export default Message;
 
 Message.defaultProps = {
   tag: 'div',

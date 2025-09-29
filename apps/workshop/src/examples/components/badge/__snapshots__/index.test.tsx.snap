@@ -1,4 +1,4 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
 
 exports[`Badge examples Default negative badge should render correctly 1`] = `
 <div>
@@ -167,13 +167,13 @@ exports[`Badge examples Default warning badge should render correctly 1`] = `
     >
       <path
         class="v-icon-secondary"
-        clip-rule="evenodd"
-        d="M8 0.492188L0 15.3493H16L8 0.492188ZM8 4.71071L3.34843 13.3493H12.6516L8 4.71071Z"
-        fill-rule="evenodd"
+        d="M7 8H9V10H7V8Z"
       />
       <path
         class="v-icon-primary"
-        d="M7 9.49219H9V11.4922H7V9.49219Z"
+        clip-rule="evenodd"
+        d="M2.74153 12L8.0005 2.9846L13.2595 12H2.74153ZM15.8643 12.4961L8.86428 0.496094H7.13672L0.136719 12.4961L1.0005 14H15.0005L15.8643 12.4961Z"
+        fill-rule="evenodd"
       />
     </svg>
      Label
@@ -513,7 +513,7 @@ exports[`Badge examples Positive icon badge with background should render correc
     >
       <path
         class="v-icon-primary"
-        d="M15.7442 3.43912L5.03712 14.1462L0.330017 9.43912L1.74423 8.0249L5.03712 11.3178L14.33 2.0249L15.7442 3.43912Z"
+        d="M15.7443 3.43912L5.03718 14.1462L0.330078 9.43912L1.74429 8.0249L5.03718 11.3178L14.3301 2.0249L15.7443 3.43912Z"
       />
     </svg>
   </div>
@@ -537,7 +537,7 @@ exports[`Badge examples Positive icon badge without background should render cor
     >
       <path
         class="v-icon-primary"
-        d="M15.7442 3.43912L5.03712 14.1462L0.330017 9.43912L1.74423 8.0249L5.03712 11.3178L14.33 2.0249L15.7442 3.43912Z"
+        d="M15.7443 3.43912L5.03718 14.1462L0.330078 9.43912L1.74429 8.0249L5.03718 11.3178L14.3301 2.0249L15.7443 3.43912Z"
       />
     </svg>
   </div>
@@ -688,13 +688,13 @@ exports[`Badge examples Warning icon badge with background should render correct
     >
       <path
         class="v-icon-secondary"
-        clip-rule="evenodd"
-        d="M8 0.492188L0 15.3493H16L8 0.492188ZM8 4.71071L3.34843 13.3493H12.6516L8 4.71071Z"
-        fill-rule="evenodd"
+        d="M7 8H9V10H7V8Z"
       />
       <path
         class="v-icon-primary"
-        d="M7 9.49219H9V11.4922H7V9.49219Z"
+        clip-rule="evenodd"
+        d="M2.74153 12L8.0005 2.9846L13.2595 12H2.74153ZM15.8643 12.4961L8.86428 0.496094H7.13672L0.136719 12.4961L1.0005 14H15.0005L15.8643 12.4961Z"
+        fill-rule="evenodd"
       />
     </svg>
   </div>
@@ -718,13 +718,13 @@ exports[`Badge examples Warning icon badge without background should render corr
     >
       <path
         class="v-icon-secondary"
-        clip-rule="evenodd"
-        d="M8 0.492188L0 15.3493H16L8 0.492188ZM8 4.71071L3.34843 13.3493H12.6516L8 4.71071Z"
-        fill-rule="evenodd"
+        d="M7 8H9V10H7V8Z"
       />
       <path
         class="v-icon-primary"
-        d="M7 9.49219H9V11.4922H7V9.49219Z"
+        clip-rule="evenodd"
+        d="M2.74153 12L8.0005 2.9846L13.2595 12H2.74153ZM15.8643 12.4961L8.86428 0.496094H7.13672L0.136719 12.4961L1.0005 14H15.0005L15.8643 12.4961Z"
+        fill-rule="evenodd"
       />
     </svg>
   </div>

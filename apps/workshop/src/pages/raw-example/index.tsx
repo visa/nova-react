@@ -21,10 +21,20 @@ import { FC } from 'react';
 import { useParams } from 'react-router-dom';
 import Styles from './styles.module.scss';
 
-const fetchExample = async (docType: string, docName: string, exampleName: string): Promise<FC> =>
-  Object.values<FC>(await import(`../../examples/${docType}/${docName}/${exampleName}.tsx`))[0];
+const fetchExample = async (docType: string, docName: string, exampleName: string): Promise<FC> => {
+  const mod = await import(`../../examples/${docType}/${docName}/${exampleName}.tsx`);
+  // prefer default export if available and is a function/component
+  if (mod.default) return mod.default as FC;
+  // fallback to the first named export
+  const values = Object.values(mod).filter(Boolean) as FC[];
+  if (values.length === 0) {
+    throw new Error('No exports found in the example module');
+  }
+  return values[0];
+};
 
 const RawExample = () => {
+  console.log('here');
   const { docName = '', docType = '', exampleName = '' } = useParams();
   const {
     data: Example,
@@ -35,12 +45,16 @@ const RawExample = () => {
     queryKey: [`${docType}-${docName}-${exampleName}-raw-example`],
   });
 
+  const isPattern = docType === 'patterns';
+
   if (isError) return <h1>Error loading example :'(</h1>;
   if (isPending) return <h1>Loading...</h1>;
   if (!Example) return <h1>No examples found :(</h1>;
 
+  console.log('example', Example);
+
   return (
-    <div className={cn('checkered-background', Styles.rawExampleContent)}>
+    <div className={cn(isPattern ? 'patterns-background' : 'checkered-background', Styles.rawExampleContent)}>
       <Example />
     </div>
   );

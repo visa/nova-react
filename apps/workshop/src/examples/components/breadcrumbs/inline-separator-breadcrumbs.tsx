@@ -18,7 +18,7 @@ import { Breadcrumbs, Link } from '@visa/nova-react';
 
 export const InlineSeparatorBreadcrumbs = () => {
   return (
-    <Breadcrumbs ariaLabel="Inline separator breadcrumbs" customSeparator>
+    <Breadcrumbs aria-label="Inline separator breadcrumbs" customSeparator>
       <ol>
         <li>
           <Link href="./">L1 label</Link> <span aria-hidden="true">|</span>

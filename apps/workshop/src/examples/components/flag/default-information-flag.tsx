@@ -14,15 +14,19 @@
  * limitations under the License.
  *
  **/
-import { Flag, FlagCloseButton, FlagContent, FlagIcon, ScreenReader } from '@visa/nova-react';
+import { MessageIcon, VisaCloseTiny } from '@visa/nova-icons-react';
+import { Flag, FlagCloseButton, FlagContent, ScreenReader } from '@visa/nova-react';
 
 export const DefaultInformationFlag = () => {
   return (
     <Flag>
-      <FlagIcon />
+      <MessageIcon />
       <FlagContent className="v-pl-2 v-pb-2" role="alert" aria-live="polite">
-      <ScreenReader>information</ScreenReader>This is required text that describes the flag in more detail.</FlagContent>
-      <FlagCloseButton />
+        <ScreenReader>information</ScreenReader>This is required text that describes the flag in more detail.
+      </FlagContent>
+      <FlagCloseButton>
+        <VisaCloseTiny />
+      </FlagCloseButton>
     </Flag>
   );
 };

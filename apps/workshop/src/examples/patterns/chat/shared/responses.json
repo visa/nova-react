@@ -1,0 +1,34 @@
+{
+    "exampleResponses": [
+        {
+            "message": "This is a sent message.",
+            "role": "User 1",
+            "timeStamp": "12:08pm"
+        },
+        {
+            "message": "This is a received message.",
+            "role": "User 2",
+            "timeStamp": "12:08pm"
+        },
+        {
+            "message": "This is a sent message.",
+            "role": "User 1",
+            "timeStamp": "12:08pm"
+        },
+        {
+            "message": "This is a received message. ~~~js const aJsVariable = 'test' console.log(aJsVariable);~~~",
+            "role": "User 2",
+            "timeStamp": "12:08pm"
+        },
+        {
+            "message": "This is a sent message.",
+            "role": "User 1",
+            "timeStamp": "12:08pm"
+        },
+        {
+            "message": "This is a received message.",
+            "role": "User 2",
+            "timeStamp": "12:08pm"
+        }
+    ]
+}

@@ -15,67 +15,46 @@
  *
  **/
 import cn from 'clsx';
-import { ElementType, ForwardedRef } from 'react';
-import forwardRef from '../types';
+import { ComponentPropsWithRef, ElementType } from 'react';
 
 const CSS_PREFIX = 'v-typography';
 const CSS_PREFIX_COLOR = 'v-typography-color';
 
-export type TypographyProperties = {
-  /** @ignore */
-  className?: string;
+export type TypographyProperties<ET extends ElementType = 'p',> = {
   /** Color variant */
   colorScheme?: 'default' | 'subtle' | 'active' | 'on-active';
   /** Tag of Component */
   tag?: ElementType;
 } & (
-  | {
-      /** @deprecated Migrate to `colorScheme` prop */
-      variant?: 'color-default' | 'color-subtle';
-    }
-  | {
+    | {
       /** Style variant */
       variant?:
-        | 'body-1'
-        | 'body-2-bold'
-        | 'body-2-link'
-        | 'body-2-medium'
-        | 'body-2'
-        | 'body-3'
-        | 'button-large'
-        | 'button-medium'
-        | 'button-small'
-        | 'display-1'
-        | 'display-2'
-        | 'headline-1'
-        | 'headline-2'
-        | 'headline-3'
-        | 'headline-4'
-        | 'label-active'
-        | 'label-large-active'
-        | 'label-large'
-        | 'label-small'
-        | 'label'
-        | 'overline'
-        | 'subtitle-1'
-        | 'subtitle-2'
-        | 'subtitle-3';
+      | 'body-1'
+      | 'body-2-bold'
+      | 'body-2-link'
+      | 'body-2-medium'
+      | 'body-2'
+      | 'body-3'
+      | 'button-large'
+      | 'button-medium'
+      | 'button-small'
+      | 'display-1'
+      | 'display-2'
+      | 'headline-1'
+      | 'headline-2'
+      | 'headline-3'
+      | 'headline-4'
+      | 'label-active'
+      | 'label-large-active'
+      | 'label-large'
+      | 'label-small'
+      | 'label'
+      | 'overline'
+      | 'subtitle-1'
+      | 'subtitle-2'
+      | 'subtitle-3';
     }
-);
-
-const Typography = <HTMLElementType,>(
-  { className, colorScheme, tag: Tag = 'p', variant, ...remainingProps }: TypographyProperties,
-  ref: ForwardedRef<HTMLElementType>
-) => (
-  <Tag
-    className={
-      cn(colorScheme && `${CSS_PREFIX_COLOR}-${colorScheme}`, variant && `${CSS_PREFIX}-${variant}`, className) ||
-      undefined
-    }
-    ref={ref}
-    {...remainingProps}
-  />
-);
+  ) & ComponentPropsWithRef<ET>;
 
 /**
  * Styles text in a consistent manner.
@@ -83,7 +62,19 @@ const Typography = <HTMLElementType,>(
  * @vgar TODO
  * @wcag TODO
  */
-export default forwardRef<TypographyProperties, HTMLParagraphElement>(Typography);
+const Typography = <ET extends ElementType = 'p',>(
+  { className, colorScheme, tag: Tag = 'p', variant, ...remainingProps }: TypographyProperties<ET>,
+) => (
+  <Tag
+    className={
+      cn(colorScheme && `${CSS_PREFIX_COLOR}-${colorScheme}`, variant && `${CSS_PREFIX}-${variant}`, className) ||
+      undefined
+    }
+    {...remainingProps}
+  />
+);
+
+export default Typography;
 
 Typography.defaultProps = {
   tag: 'p',

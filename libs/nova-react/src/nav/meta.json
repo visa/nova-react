@@ -1,8 +1,8 @@
 {
   "description": "Menu or panel at the top or next to page content that links to important pages or features.",
-  "displayName": "Nav",
+  "displayName": "nav",
   "filePath": "/nav/index.tsx",
-  "gitLink": "https://stash.trusted.visa.com:7990/projects/VC/repos/nova-react/browse/libs/nova-react/src/nav/index.tsx",
+  "gitLink": "https://github.com/visa/nova-react/blob/main/libs/nova-react/src/nav/index.tsx",
   "props": [
     {
       "description": "Alternate",
@@ -17,10 +17,10 @@
       "type": "boolean"
     },
     {
-      "description": "This is a useRef",
-      "name": "ref",
+      "description": "Orientation",
+      "name": "orientation",
       "required": false,
-      "type": "ForwardedRef<HTMLElementType>"
+      "type": "\"horizontal\" | \"vertical\""
     },
     {
       "defaultValue": "nav",
@@ -32,10 +32,10 @@
   ],
   "vgar": "TODO",
   "wcag": "TODO",
+  "docs": "{@link https://design.visa.com/react/components/nav See Docs}",
+  "testAvg": 100,
   "related": [
     "tab",
     "tabs"
-  ],
-  "docs": "{@link https://design.visa.com/react/components/nav See Docs}",
-  "testAvg": 100
+  ]
 }

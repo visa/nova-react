@@ -18,10 +18,11 @@ import { render } from '@testing-library/react';
 import { axe } from 'jest-axe';
 
 import DialogCloseButton from '.';
+import { VisaCloseTiny } from '@visa/nova-icons-react';
 
 describe('DialogCloseButton', () => {
   it('should render defaults correctly', async () => {
-    const { container } = render(<DialogCloseButton />);
+    const { container } = render(<DialogCloseButton> <VisaCloseTiny /></DialogCloseButton>);
     const results = await axe(container);
     expect(results).toHaveNoViolations();
     expect(container).toMatchSnapshot();
@@ -32,24 +33,24 @@ describe('DialogCloseButton', () => {
   });
 
   it('should allow custom classNames', () => {
-    const { container } = render(<DialogCloseButton className="test-class" />);
+    const { container } = render(<DialogCloseButton className="test-class"> <VisaCloseTiny /></DialogCloseButton>);
     expect(container.firstElementChild?.className).toBe(
       'v-button v-button-small v-button-tertiary v-button-icon v-button-subtle -v-mt-20 -v-ml-12 -v-mr-18 test-class'
     );
   });
 
   it('should render with aria-label', () => {
-    const { container } = render(<DialogCloseButton ariaLabel="test-aria-label" />);
+    const { container } = render(<DialogCloseButton aria-label="test-aria-label"> <VisaCloseTiny /> </DialogCloseButton>);
     expect(container.firstElementChild?.getAttribute('aria-label')).toBe('test-aria-label');
   });
 
   it('should allow custom elements', () => {
-    const { container } = render(<DialogCloseButton element={<a />} />);
+    const { container } = render(<DialogCloseButton element={<a />}> <VisaCloseTiny /></DialogCloseButton>);
     expect(container.firstElementChild?.tagName).toBe('A');
   });
 
   it('should permeate basic props', () => {
-    const { container } = render(<DialogCloseButton aria-label="test-aria-label" id="test-id" role="menu" />);
+    const { container } = render(<DialogCloseButton aria-label="test-aria-label" id="test-id" role="menu"> <VisaCloseTiny /></DialogCloseButton>);
     expect(container.firstElementChild?.getAttribute('aria-label')).toBe('test-aria-label');
     expect(container.firstElementChild?.getAttribute('id')).toBe('test-id');
     expect(container.firstElementChild?.getAttribute('role')).toBe('menu');

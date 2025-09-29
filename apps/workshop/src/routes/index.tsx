@@ -14,7 +14,7 @@
  * limitations under the License.
  *
  **/
-import { lazy, Suspense } from 'react';
+import { lazy } from 'react';
 import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from 'react-router-dom';
 import VSuspense from '../components/v-suspense';
 import Paths from './paths';
@@ -29,6 +29,19 @@ const ExampleLayout = lazy(() => import('../components/example-layout'));
 const PageNotFound = lazy(() => import('../pages/page-not-found'));
 const Resources = lazy(() => import('../resources'));
 
+interface RouterFutureOptions {
+  v7_relativeSplatPath?: boolean;
+  v7_fetcherPersist?: boolean;
+  v7_normalizeFormMethod?: boolean;
+  v7_partialHydration?: boolean;
+  v7_skipActionErrorRevalidation?: boolean;
+}
+
+interface RouterProviderFutureOptions {
+  v7_relativeSplatPath?: boolean;
+  v7_startTransition?: boolean;
+}
+
 const Routing = () => {
   const router = createBrowserRouter(
     createRoutesFromElements(
@@ -40,89 +53,67 @@ const Routing = () => {
         >
           <Route
             element={
-              <Suspense fallback={<VSuspense />}>
-                <Home />
-              </Suspense>
+              <Home />
             }
             path={Paths.root}
           />
           <Route
             element={
-              <Suspense fallback={<VSuspense />}>
-                <Sitemap />
-              </Suspense>
+              <Sitemap />
             }
             path={Paths.sitemap}
           />
           <Route
             element={
-              <Suspense fallback={<VSuspense />}>
-                <Changelog />
-              </Suspense>
+              <Changelog />
             }
             path={Paths.changeLog}
           />
           <Route
             element={
-              <Suspense fallback={<VSuspense />}>
-                <Resources />
-              </Suspense>
+              <Resources />
             }
             path={Paths.resources}
           />
           <Route
             element={
-              <Suspense fallback={<VSuspense />}>
-                <Components />
-              </Suspense>
+              <Components />
             }
             path={Paths.components}
           />
           <Route
             element={
-              <Suspense fallback={<VSuspense />}>
-                <ExampleLayout />
-              </Suspense>
+              <ExampleLayout />
             }
           >
             <Route
               element={
-                <Suspense fallback={<VSuspense />}>
-                  <DocsTemplate />
-                </Suspense>
+                <DocsTemplate />
               }
               path={Paths.documentationPage()}
             />
             <Route
               element={
-                <Suspense fallback={<VSuspense />}>
-                  <DocsTemplate />
-                </Suspense>
+                <DocsTemplate />
               }
               path={Paths.documentationExample()}
             />
             <Route
               element={
-                <Suspense fallback={<VSuspense />}>
-                  <DocsTemplate />
-                </Suspense>
+                <DocsTemplate />
               }
               path={Paths.documentationApi()}
             />
           </Route>
           <Route
             element={
-              <Suspense fallback={<VSuspense />}>
-                <HooksTemplate />
-              </Suspense>
+              <HooksTemplate />
             }
             path={Paths.documentationPage('hooks')}
           />
           <Route
             element={
-              <Suspense fallback={<VSuspense />}>
-                <PageNotFound />
-              </Suspense>
+              <PageNotFound />
             }
             path={Paths.unknown}
           />
@@ -141,10 +132,29 @@ const Routing = () => {
         />
       </>
     ),
-    { basename: Paths.base }
+    {
+      basename: Paths.base,
+      future: {
+        v7_fetcherPersist: false,
+        v7_normalizeFormMethod: false,
+        v7_partialHydration: false,
+        v7_skipActionErrorRevalidation: false,
+      } as RouterFutureOptions,
+    }
   );
 
-  return <RouterProvider router={router} fallbackElement={<VSuspense />} />;
+  return (
+    <RouterProvider
+      router={router}
+      fallbackElement={<VSuspense />}
+      future={
+        {
+          v7_startTransition: true,
+          v7_relativeSplatPath: true,
+        } as RouterProviderFutureOptions
+      }
+    />
+  );
 };
 
 Routing.displayName = 'Routing';

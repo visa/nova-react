@@ -14,13 +14,14 @@
  * limitations under the License.
  *
  **/
+import { VisaChevronDownTiny, VisaChevronRightTiny } from '@visa/nova-icons-react';
 import { Accordion, AccordionHeading, AccordionPanel, AccordionToggleIcon, Typography } from '@visa/nova-react';
 
 export const CollapsedAccordion = () => {
   return (
     <Accordion>
       <AccordionHeading buttonSize="large" colorScheme="secondary">
-        <AccordionToggleIcon />
+        <AccordionToggleIcon elementClosed={<VisaChevronRightTiny rtl />} elementOpen={<VisaChevronDownTiny />} />
         Accordion title
       </AccordionHeading>
       <AccordionPanel>

@@ -21,7 +21,7 @@ const id = 'disabled-selection-chip';
 
 export const DisabledSelectionChip = () => {
   return (
-    <Chip chipType="selection" htmlFor={id} tag="label">
+    <Chip<'label'> chipType="selection" htmlFor={id} tag="label">
       Label
       <Checkbox disabled id={id} />
     </Chip>

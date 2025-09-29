@@ -15,28 +15,25 @@
  *
  **/
 import cn from 'clsx';
-import { ElementType, ForwardedRef } from 'react';
-import forwardRef from '../types';
+import { ComponentPropsWithRef, ElementType } from 'react';
 
 const CSS_PREFIX = 'v-panel-body';
 
-export type PanelBodyProperties = {
-  /** @ignore */
-  className?: string;
+export type PanelBodyProperties<ET extends ElementType = 'div',> = {
+
   /** Tag of Component */
   tag?: ElementType;
-};
-
-const PanelBody = <HTMLElementType,>(
-  { className, tag: Tag = 'div', ...remainingProps }: PanelBodyProperties,
-  ref: ForwardedRef<HTMLElementType>
-) => <Tag className={cn(CSS_PREFIX, className)} ref={ref} {...remainingProps} />;
+} & ComponentPropsWithRef<ET>;
 
 /**
  * Container for panel body elements.
  * @docs {@link https://design.visa.com/react/components/panel | See Docs}
  */
-export default forwardRef<PanelBodyProperties, HTMLDivElement>(PanelBody);
+const PanelBody = <ET extends ElementType = 'div',>(
+  { className, tag: Tag = 'div', ...remainingProps }: PanelBodyProperties<ET>,
+) => <Tag className={cn(CSS_PREFIX, className)} {...remainingProps} />;
+
+export default PanelBody;
 
 PanelBody.defaultProps = {
   tag: 'div',

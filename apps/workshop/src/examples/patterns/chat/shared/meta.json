@@ -1,0 +1,38 @@
+{
+  "chat-bubble": {
+    "file": "chat-bubble.tsx",
+    "id": "chat-bubble"
+  },
+  "chat-context": {
+    "file": "chat-context.tsx",
+    "id": "chat-context"
+  },
+  "chat-input": {
+    "file": "chat-input.tsx",
+    "id": "chat-input"
+  },
+  "chat-provider": {
+    "file": "chat-provider.tsx",
+    "id": "chat-provider"
+  },
+  "chat-suggestions": {
+    "file": "chat-suggestions.tsx",
+    "id": "chat-suggestions"
+  },
+  "chat-actions": {
+    "file": "chat-actions.tsx",
+    "id": "chat-actions"
+  },
+  "response-chat-bubble": {
+    "file": "response-chat-bubble.tsx",
+    "id": "response-chat-bubble"
+  },
+  "user-chat-bubble": {
+    "file": "user-chat-bubble.tsx",
+    "id": "user-chat-bubble"
+  },
+  "chat-code-block": {
+    "file": "chat-code-block.tsx",
+    "id": "chat-code-block"
+  }
+}

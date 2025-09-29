@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SingleFileUpload should render correctly 1`] = `
+<div>
+  <div
+    class="v-flex v-flex-col v-gap-25"
+  >
+    <div
+      class="v-flex v-flex-col v-gap-25"
+      style="max-width: 400px;"
+    >
+      <div
+        class="v-flex v-flex-col v-gap-16"
+      >
+        <div
+          class="v-flex v-flex-col v-gap-8"
+        >
+          <h4
+            class="v-typography-subtitle-1"
+          >
+            Upload file
+          </h4>
+          <p
+            class="v-typography-label-small"
+          >
+            Choose one file to upload, up to 25 MB each. Accepted file types are .pdf, .png, and .jpg.
+          </p>
+        </div>
+        <input
+          class="v-screen-reader"
+          hidden=""
+          type="file"
+        />
+        <button
+          class="v-button v-button-secondary v-align-self-start"
+        >
+          Select file
+        </button>
+      </div>
+      <div
+        class="v-screen-reader"
+        role="status"
+      />
+    </div>
+    <div
+      class="v-align-self-end"
+      role="alert"
+    />
+  </div>
+</div>
+`;

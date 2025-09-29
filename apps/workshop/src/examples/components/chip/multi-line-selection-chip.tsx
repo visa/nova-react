@@ -21,7 +21,7 @@ const id = 'multi-line-selection-chip';
 
 export const MultiLineSelectionChip = () => {
   return (
-    <Chip chipType="selection" htmlFor={id} tag="label">
+    <Chip<'label'> chipType="selection" htmlFor={id} tag="label">
       This is a chip label
       <br />
       that wraps on

@@ -41,7 +41,7 @@ const Resources = () => {
   delete dependencies['@visa/nova-react'];
   const optionalDependencies = {
     ...(packageJson?.optionalDependencies || {}),
-    ...(libPackageJson?.optionalDependencies || {}),
+    ...((libPackageJson as Record<string, unknown>)?.['optionalDependencies'] || {}),
   };
   const stats = {
     Components: meta.components.length,

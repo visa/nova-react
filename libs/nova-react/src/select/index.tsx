@@ -15,22 +15,15 @@
  *
  **/
 import cn from 'clsx';
-import { ElementType, ForwardedRef } from 'react';
-import forwardRef from '../types';
+import { ComponentPropsWithRef, ElementType } from 'react';
 
 const CSS_PREFIX = 'v-input';
 
-export type SelectProperties = {
-  /** @ignore */
-  className?: string;
+export type SelectProperties<ET extends ElementType = 'select',> = {
+
   /** Tag of Component */
   tag?: ElementType;
-};
-
-const Select = <HTMLElementType,>(
-  { className, tag: Tag = 'select', ...remainingProps }: SelectProperties,
-  ref: ForwardedRef<HTMLElementType>
-) => <Tag className={cn(CSS_PREFIX, className)} ref={ref} {...remainingProps} />;
+} & ComponentPropsWithRef<ET>;
 
 /**
  * HTML element that allows users to select one option from a list.
@@ -38,7 +31,11 @@ const Select = <HTMLElementType,>(
  * @vgar TODO
  * @wcag TODO
  */
-export default forwardRef<SelectProperties, HTMLSelectElement>(Select);
+const Select = <ET extends ElementType = 'select',>(
+  { className, tag: Tag = 'select', ...remainingProps }: SelectProperties<ET>,
+) => <Tag className={cn(CSS_PREFIX, className)} {...remainingProps} />;
+
+export default Select;
 
 Select.defaultProps = {
   tag: 'select',

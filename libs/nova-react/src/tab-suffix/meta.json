@@ -1,20 +1,20 @@
 {
   "description": "Utility class for positioning and styling elements at the end of tab components.",
-  "displayName": "TabSuffix",
+  "displayName": "tabsuffix",
   "filePath": "/tab-suffix/index.tsx",
-  "gitLink": "https://stash.trusted.visa.com:7990/projects/VC/repos/nova-react/browse/libs/nova-react/src/tab-suffix/index.tsx",
+  "gitLink": "https://github.com/visa/nova-react/blob/main/libs/nova-react/src/tab-suffix/index.tsx",
   "props": [
+    {
+      "description": "Child element that the styles are applies to. Only allows for single child element. (not compatible with element property)",
+      "name": "children",
+      "required": false,
+      "type": "ReactElement<ComponentPropsWithRef<ET>, string | JSXElementConstructor<any>>"
+    },
     {
       "description": "Cloned Element (not compatible with children)",
       "name": "element",
       "required": false,
-      "type": "ReactElement<any, string | JSXElementConstructor<any>>"
-    },
-    {
-      "description": "This is a useRef",
-      "name": "ref",
-      "required": false,
-      "type": "ForwardedRef<HTMLElementType>"
+      "type": "ReactElement<ComponentPropsWithRef<ET>, string | JSXElementConstructor<any>>"
     }
   ],
   "docs": "{@link https://design.visa.com/react/components/tabs See Docs}",

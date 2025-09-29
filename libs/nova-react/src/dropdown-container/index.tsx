@@ -15,28 +15,24 @@
  *
  **/
 import cn from 'clsx';
-import { ElementType, ForwardedRef } from 'react';
-import forwardRef from '../types';
+import { ComponentPropsWithRef, ElementType } from 'react';
 
 const CSS_PREFIX = 'v-dropdown';
 
-export type DropdownContainerProperties = {
-  /** @ignore */
-  className?: string;
+export type DropdownContainerProperties<ET extends ElementType = 'div',> = {
   /** Tag of the component */
   tag?: ElementType;
-};
-
-const DropdownContainer = <HTMLElementType,>(
-  { className, tag: Tag = 'div', ...remainingProps }: DropdownContainerProperties,
-  ref: ForwardedRef<HTMLElementType>
-) => <Tag className={cn(CSS_PREFIX, className)} ref={ref} {...remainingProps} />;
+} & ComponentPropsWithRef<ET>;
 
 /**
  * Container that styles the dropdown menu.
  * @docs {@link https://design.visa.com/react/components/dropdown-menu | See Docs}
  */
-export default forwardRef<DropdownContainerProperties, HTMLDivElement>(DropdownContainer);
+const DropdownContainer = <ET extends ElementType = 'div',>(
+  { className, tag: Tag = 'div', ...remainingProps }: DropdownContainerProperties<ET>,
+) => <Tag className={cn(CSS_PREFIX, className)} {...remainingProps} />;
+
+export default DropdownContainer;
 
 DropdownContainer.defaultProps = {
   tag: 'div',

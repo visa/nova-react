@@ -23,6 +23,9 @@ export type Tags = {
   docs?: boolean;
   wcag?: string;
   vgar?: string;
+  pattern?: boolean;
+  isShared?: boolean;
+  isSubComponent?: boolean;
 } & Record<string, boolean | string>;
 
 export type MetaData = {

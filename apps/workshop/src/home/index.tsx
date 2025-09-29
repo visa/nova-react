@@ -15,6 +15,7 @@
  *
  **/
 import {
+  MessageIcon,
   VisaCodeForkAltTiny,
   VisaDeveloperHigh,
   VisaGuideLow,
@@ -22,39 +23,28 @@ import {
   VisaTransitTrainHigh,
   VisaWrenchHigh,
 } from '@visa/nova-icons-react';
-import {
-  Button,
-  Divider,
-  Link,
-  SectionMessage,
-  SectionMessageContent,
-  SectionMessageIcon,
-  Tab,
-  Tabs,
-  Typography,
-} from '@visa/nova-react';
+import { Button, Divider, Link, SectionMessage, SectionMessageContent, Tab, Tabs, Typography } from '@visa/nova-react';
 import cn from 'clsx';
 import { FC, useState } from 'react';
 import ReactGA from 'react-ga4';
 import Code from '../components/code';
 import PackageInstaller from '../components/package-installer';
 import { PageContent, PageHeader } from '../components/page';
+import { GA_TRACKING_ID } from '../constants.ts';
 import { useDocContext } from '../hooks';
-import { defaultPreferencesProp, useAuth, useTheme } from '../providers';
+import { defaultPreferencesProp, useTheme } from '../providers';
 import Paths from '../routes/paths.ts';
 import YourComponentRawJS from './components/examples/your-component.jsx?raw';
 import YourComponent from './components/examples/your-component.tsx';
 import YourComponentRawTS from './components/examples/your-component.tsx?raw';
 import HomeHero from './components/hero';
 import Styles from './styles.module.scss';
-import { GA_TRACKING_ID } from '../constants.ts';
 
 ReactGA.initialize(GA_TRACKING_ID);
 
 const Index: FC = () => {
   const { preferences } = useTheme();
-  const { user } = useAuth();
-  const { version } = useDocContext();
+  const { version, docsPackageJson } = useDocContext();
   const [exampleLanguage, setExampleLanguage] = useState('tsx');
 
   const { themeKey } = preferences;
@@ -113,7 +103,7 @@ const Index: FC = () => {
           <Divider dividerType="decorative" className="v-mb-24" />
           <article className="v-flex v-flex-col v-gap-24 v-mb-24">
             <SectionMessage>
-              <SectionMessageIcon />
+              <MessageIcon />
               <SectionMessageContent>
                 <Typography tag="h3" variant="body-2-bold">
                   Prerequisite - React 18
@@ -136,10 +126,10 @@ const Index: FC = () => {
           <article className="v-flex v-flex-col v-gap-24 v-mb-24">
             <div className="v-flex v-flex-col v-gap-6">
               <Typography tag="h3" variant="headline-3">
-                Step 1 – Installation
+                Step 1 - Installation
               </Typography>
               <Typography colorScheme="subtle" variant="body-1">
-                First things first, install the library via Node or Yarn in your cli.
+                First things first, install the library via your favorite package manager.
               </Typography>
             </div>
             <PackageInstaller packageName="@visa/nova-react" packageOfficialName="Nova react" version={version} />
@@ -178,14 +168,12 @@ import { createRoot } from 'react-dom/client';
 
 // Import the styles:
 import '@visa/nova-styles/styles.css';
-// Import your desired theme${
-                  themeKey !== defaultPreferencesProp.themeKey && themeKey !== 'none'
+// Import your desired theme${themeKey !== defaultPreferencesProp.themeKey && themeKey !== 'none'
                     ? `. The default is '${defaultPreferencesProp.themeKey}' (your selected theme is currently '${themeKey}')`
                     : ''
-                }:
-import '@visa/nova-styles/themes/${
-                  themeKey && themeKey !== 'none' ? themeKey : defaultPreferencesProp.themeKey
-                }/index.css';
+                  }:
+import '@visa/nova-styles/themes/${themeKey && themeKey !== 'none' ? themeKey : defaultPreferencesProp.themeKey
+                  }/index.css';
 
 const root = createRoot(document.getElementById('root'));
 
@@ -202,7 +190,23 @@ root.render(
           <article className="v-flex v-flex-col v-gap-24 v-mb-24">
             <div className="v-flex v-flex-col v-gap-6">
               <Typography tag="h3" variant="headline-3">
-                Step 3 – Use the components
+                Step 3 - Add icons
+              </Typography>
+              <Typography colorScheme="subtle" variant="body-1">
+                Nova React can be used with Nova Icons or a custom icon library. This documentation site and the
+                component examples uses the Nova Icons library.
+              </Typography>
+            </div>
+            <PackageInstaller
+              packageName="@visa/nova-icons-react"
+              packageOfficialName="Nova icons react"
+              version={docsPackageJson.dependencies['@visa/nova-icons-react']}
+            />
+          </article>
+          <article className="v-flex v-flex-col v-gap-24 v-mb-24">
+            <div className="v-flex v-flex-col v-gap-6">
+              <Typography tag="h3" variant="headline-3">
+                Step 4 - Use the components
               </Typography>
               <Typography colorScheme="subtle" variant="body-1">
                 Lastly, import the components you want and put them to use!
@@ -251,7 +255,7 @@ root.render(
                 )}
 
                 <div className={cn(Styles.hoverCardResult, 'checkered-background', 'v-flex v-mt-16')}>
-                  <YourComponent name={user ? `${user.given_name} ${user.family_name}` : 'Alex Miller'} />
+                  <YourComponent name={'Alex Miller'} />
                 </div>
               </div>
             </div>

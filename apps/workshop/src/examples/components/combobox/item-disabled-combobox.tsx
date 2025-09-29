@@ -49,9 +49,9 @@ export const stateReducer = <ItemType,>(
   // this prevents on mouse hover, the item in the list is automatic selected
   type === useCombobox.stateChangeTypes.ItemMouseMove || type === useCombobox.stateChangeTypes.MenuMouseLeave
     ? {
-        ...changes, // default Downshift new state changes on item selection.
-        highlightedIndex: state.highlightedIndex,
-      }
+      ...changes, // default Downshift new state changes on item selection.
+      highlightedIndex: state.highlightedIndex,
+    }
     : changes;
 
 export const ItemDisabledCombobox = () => {
@@ -103,10 +103,10 @@ export const ItemDisabledCombobox = () => {
           {items.map((item, index) => (
             <ListboxItem
               className={highlightedIndex === index ? 'v-listbox-item-highlighted' : ''}
-              disabled={item.value === 'Option C'} // This is just to mock the third option to be disabled
               key={`item-disabled-example-${index}`}
               {...getItemProps({
                 'aria-selected': inputValue === item.value,
+                'aria-disabled': item.value === 'Option C', // This is just to mock the third option to be disabled
                 index,
                 item,
               })}

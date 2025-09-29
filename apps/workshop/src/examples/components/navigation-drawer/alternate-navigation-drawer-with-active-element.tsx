@@ -89,7 +89,7 @@ export const AlternateNavigationDrawerWithActiveElement = () => {
       </UtilityFragment>
 
       <UtilityFragment vMarginHorizontal={0}>
-        <Panel
+        <Panel<'dialog'>
           aria-modal="true"
           ref={navDrawerRef}
           id={id}

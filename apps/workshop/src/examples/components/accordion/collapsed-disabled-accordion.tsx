@@ -14,6 +14,7 @@
  * limitations under the License.
  *
  **/
+import { VisaChevronDownTiny, VisaChevronRightTiny } from '@visa/nova-icons-react';
 import { Accordion, AccordionHeading, AccordionPanel, AccordionToggleIcon, Typography } from '@visa/nova-react';
 
 // TIP: Customize this ID, pass it as a prop, or auto-generate it with useId() from @react
@@ -33,7 +34,11 @@ export const CollapsedDisabledAccordion = () => {
         id={`${id}-accordion-header`}
         tag="button"
       >
-        <AccordionToggleIcon accordionOpen={expanded} />
+        <AccordionToggleIcon
+          accordionOpen={expanded}
+          elementClosed={<VisaChevronRightTiny rtl />}
+          elementOpen={<VisaChevronDownTiny />}
+        />
         Accordion title
       </AccordionHeading>
       <AccordionPanel aria-hidden={!expanded} id={`${id}-accordion-panel`}>

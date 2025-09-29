@@ -15,32 +15,15 @@
  *
  **/
 import cn from 'clsx';
-import { ForwardedRef } from 'react';
+import { ComponentPropsWithRef, ElementType } from 'react';
 import Input from '../input';
-import forwardRef from '../types';
 
 const CSS_PREFIX = 'v-input';
 
-export type TextAreaProperties = {
-  /** @ignore */
-  children?: never;
-  /** @ignore */
-  className?: string;
+export type TextAreaProperties<ET extends ElementType = 'textarea',> = {
   /** fixed height */
   fixed?: boolean;
-};
-
-const Textarea = <HTMLElementType,>(
-  { className, fixed, ...remainingProps }: TextAreaProperties,
-  ref: ForwardedRef<HTMLElementType>
-) => (
-  <Input<HTMLElementType>
-    className={cn(fixed && `${CSS_PREFIX}-resize-none`, className)}
-    ref={ref}
-    tag="textarea"
-    {...remainingProps}
-  />
-);
+} & ComponentPropsWithRef<ET>;
 
 /**
  * Input component with optional dynamic sizing, usually used for long-form text input.
@@ -48,6 +31,16 @@ const Textarea = <HTMLElementType,>(
  * @vgar TODO
  * @wcag TODO
  */
-export default forwardRef<TextAreaProperties, HTMLInputElement>(Textarea);
+const Textarea = <ET extends ElementType = 'textarea',>(
+  { className, fixed, ...remainingProps }: TextAreaProperties<ET>,
+) => (
+  <Input
+    className={cn(fixed && `${CSS_PREFIX}-resize-none`, className)}
+    tag="textarea"
+    {...remainingProps}
+  />
+);
+
+export default Textarea;
 
 Textarea.displayName = 'Textarea';

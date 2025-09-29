@@ -14,13 +14,13 @@
  * limitations under the License.
  *
  **/
-import { VisaMaximizeTiny } from '@visa/nova-icons-react';
-import { Link, SectionMessage, SectionMessageContent, SectionMessageIcon, Typography } from '@visa/nova-react';
+import { MessageIcon, VisaMaximizeTiny } from '@visa/nova-icons-react';
+import { Link, SectionMessage, SectionMessageContent, Typography } from '@visa/nova-react';
 import { ExampleIndex } from '../../../types';
 
 const ValidationGroupNote = () => (
   <SectionMessage>
-    <SectionMessageIcon />
+    <MessageIcon />
     <SectionMessageContent>
       <Typography>
         <Link href="https://www.w3.org/TR/WCAG20-TECHS/H90.html#H90-ex4" rel="noopener noreferrer" target="_blank">
@@ -33,7 +33,7 @@ const ValidationGroupNote = () => (
   </SectionMessage>
 );
 
-const Examples: ExampleIndex[] = [
+export const Examples: ExampleIndex[] = [
   {
     id: 'Default checkbox headline',
     title: 'Default checkboxes',
@@ -107,5 +107,3 @@ const Examples: ExampleIndex[] = [
     id: 'error-group-panel-checkbox',
   },
 ];
-
-export default Examples;

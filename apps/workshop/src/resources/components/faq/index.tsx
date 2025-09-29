@@ -14,6 +14,7 @@
  * limitations under the License.
  *
  **/
+import { VisaChevronDownTiny, VisaChevronRightTiny } from '@visa/nova-icons-react';
 import {
   Accordion,
   AccordionHeading,
@@ -37,7 +38,11 @@ const FAQ = ({ children, lastUpdated, sourceLink = '', title }: FAQProps) => {
     <Utility tag="article" vFlexCol vGap={24}>
       <Accordion>
         <AccordionHeading buttonSize="large" colorScheme="tertiary" className="v-flex v-align-items-center">
-          <AccordionToggleIcon className="v-my-5" />
+          <AccordionToggleIcon
+            className="v-my-5"
+            elementClosed={<VisaChevronRightTiny rtl />}
+            elementOpen={<VisaChevronDownTiny />}
+          />
           <Typography tag="h3" variant="headline-3">
             {title}
           </Typography>

@@ -15,33 +15,16 @@
  *
  **/
 import cn from 'clsx';
-import { ElementType, ForwardedRef } from 'react';
-import forwardRef from '../types';
+import { ComponentPropsWithRef, ElementType } from 'react';
 
 const CSS_PREFIX = 'v-breadcrumbs';
 
-export type BreadcrumbsProperties = {
-  /** @deprecated migrate to native `aria-label` */
-  ariaLabel?: string;
-  /** @ignore */
-  className?: string;
+export type BreadcrumbsProperties<ET extends ElementType = 'nav',> = {
   /** Use Custom Separator */
   customSeparator?: boolean;
   /** Tag of Component */
   tag?: ElementType;
-};
-
-const Breadcrumbs = <HTMLElementType,>(
-  { ariaLabel = 'Breadcrumb', className, customSeparator, tag: Tag = 'nav', ...remainingProps }: BreadcrumbsProperties,
-  ref: ForwardedRef<HTMLElementType>
-) => (
-  <Tag
-    aria-label={ariaLabel}
-    className={cn(CSS_PREFIX, customSeparator && `${CSS_PREFIX}-custom`, className)}
-    ref={ref}
-    {...remainingProps}
-  />
-);
+} & ComponentPropsWithRef<ET>;
 
 /**
  * Supplemental navigation indicating the user's location in a site or app.
@@ -49,7 +32,16 @@ const Breadcrumbs = <HTMLElementType,>(
  * @vgar TODO
  * @wcag TODO
  */
-export default forwardRef<BreadcrumbsProperties, HTMLElement>(Breadcrumbs);
+const Breadcrumbs = <ET extends ElementType = 'div',>(
+  { className, customSeparator, tag: Tag = 'nav', ...remainingProps }: BreadcrumbsProperties<ET>,
+) => (
+  <Tag
+    className={cn(CSS_PREFIX, customSeparator && `${CSS_PREFIX}-custom`, className)}
+    {...remainingProps}
+  />
+);
+
+export default Breadcrumbs;
 
 Breadcrumbs.defaultProps = {
   ariaLabel: 'Breadcrumb',

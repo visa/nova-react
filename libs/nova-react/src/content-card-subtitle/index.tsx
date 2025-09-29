@@ -15,24 +15,21 @@
  *
  **/
 import cn from 'clsx';
-import { ForwardedRef } from 'react';
-import forwardRef from '../types';
 import Typography, { TypographyProperties } from '../typography';
 
 const CSS_PREFIX = 'v-content-card-subtitle';
 
 export type ContentCardSubtitleProperties = TypographyProperties;
 
-const ContentCardSubtitle = <HTMLElementType,>(
-  { className, tag = 'h4', ...remainingProps }: ContentCardSubtitleProperties,
-  ref: ForwardedRef<HTMLElementType>
-) => <Typography className={cn(CSS_PREFIX, className)} ref={ref} tag={tag} {...remainingProps} />;
-
 /**
  * Subtitle component for content card. Extends typography component.
  * @docs {@link https://design.visa.com/react/components/content-card | See Docs}
  */
-export default forwardRef<ContentCardSubtitleProperties, HTMLHeadingElement>(ContentCardSubtitle);
+const ContentCardSubtitle = (
+  { className, tag = 'h4', ...remainingProps }: ContentCardSubtitleProperties,
+) => <Typography className={cn(CSS_PREFIX, className)} tag={tag} {...remainingProps} />;
+
+export default ContentCardSubtitle;
 
 ContentCardSubtitle.defaultProps = {
   tag: 'h4',

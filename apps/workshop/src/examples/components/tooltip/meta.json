@@ -3,25 +3,25 @@
     "file": "bottom-tooltip.tsx",
     "id": "bottom-tooltip",
     "title": "Bottom-positioned tooltip",
-    "testAvg": 88
+    "testAvg": 100
   },
   "left-tooltip": {
     "file": "left-tooltip.tsx",
     "id": "left-tooltip",
     "title": "Left-positioned tooltip",
-    "testAvg": 88
+    "testAvg": 100
   },
   "right-tooltip": {
     "file": "right-tooltip.tsx",
     "id": "right-tooltip",
     "title": "Right-positioned tooltip",
-    "testAvg": 88
+    "testAvg": 100
   },
   "top-tooltip": {
     "file": "top-tooltip.tsx",
     "id": "top-tooltip",
     "title": "Top-positioned tooltip",
-    "testAvg": 88
+    "testAvg": 100
   },
   "meta": {
     "designReviewDate": "2024-05-09"

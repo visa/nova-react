@@ -60,7 +60,7 @@ export const NavigationDrawerWithSectionTitles = () => {
       </UtilityFragment>
 
       <UtilityFragment vMarginHorizontal={0}>
-        <Panel
+        <Panel<'dialog'>
           aria-modal="true"
           ref={navDrawerRef}
           id={id}
@@ -125,7 +125,7 @@ export const NavigationDrawerWithSectionTitles = () => {
                   </UtilityFragment>
                   <Tabs orientation="vertical">
                     <Tab>
-                      <UtilityFragment >
+                      <UtilityFragment>
                         <Button colorScheme="tertiary" element={<a href="./navigation-drawer">L1 label 1</a>} />
                       </UtilityFragment>
                     </Tab>

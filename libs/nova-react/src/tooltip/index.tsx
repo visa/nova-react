@@ -15,22 +15,16 @@
  *
  **/
 import cn from 'clsx';
-import { ElementType, ForwardedRef } from 'react';
-import forwardRef from '../types';
+import { ComponentPropsWithRef, ElementType } from 'react';
 
 const CSS_PREFIX = 'v-tooltip';
 
-export type TooltipProperties = {
+export type TooltipProperties<ET extends ElementType = 'span',> = {
   /** CSS Class Name */
   className?: string;
   /** Tag of Component */
   tag?: ElementType;
-};
-
-const Tooltip = <HTMLElementType,>(
-  { className, tag: Tag = 'span', ...remainingProps }: TooltipProperties,
-  ref: ForwardedRef<HTMLElementType>
-) => <Tag className={cn(CSS_PREFIX, 'v-surface', className)} ref={ref} {...remainingProps} />;
+} & ComponentPropsWithRef<ET>;
 
 /**
  * Short message communicating the function or context of a control or object.
@@ -38,7 +32,11 @@ const Tooltip = <HTMLElementType,>(
  * @vgar TODO
  * @wcag TODO
  */
-export default forwardRef<TooltipProperties, HTMLSpanElement>(Tooltip);
+const Tooltip = <ET extends ElementType = 'span',>(
+  { className, tag: Tag = 'span', ...remainingProps }: TooltipProperties<ET>,
+) => <Tag className={cn(CSS_PREFIX, 'v-surface', className)} {...remainingProps} />;
+
+export default Tooltip;
 
 Tooltip.defaultProps = {
   tag: 'span',

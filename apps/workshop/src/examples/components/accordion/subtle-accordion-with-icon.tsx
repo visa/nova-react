@@ -23,7 +23,7 @@ import {
   Typography,
   UtilityFragment,
 } from '@visa/nova-react';
-import { VisaCloudLow } from '@visa/nova-icons-react';
+import { VisaChevronDownTiny, VisaChevronRightTiny, VisaCloudLow } from '@visa/nova-icons-react';
 
 export const SubtleAccordionWithIcon = () => {
   return (
@@ -39,7 +39,7 @@ export const SubtleAccordionWithIcon = () => {
             } as CSSProperties
           }
         >
-          <AccordionToggleIcon />
+          <AccordionToggleIcon elementClosed={<VisaChevronRightTiny rtl />} elementOpen={<VisaChevronDownTiny />} />
           <VisaCloudLow />
           Accordion title
         </AccordionHeading>

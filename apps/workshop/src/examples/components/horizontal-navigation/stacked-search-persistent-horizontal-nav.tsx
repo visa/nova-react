@@ -79,8 +79,8 @@ export const StackedSearchPersistentHorizontalNav = () => {
   const [mobileAccountMenuOpen, setMobileAccountMenuOpen] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
-  const mobileSearchInputRef = useRef<HTMLInputElement | null>();
-  const mobileSearchButtonRef = useRef<HTMLButtonElement | null>();
+  const mobileSearchInputRef = useRef<HTMLInputElement | null>(null);
+  const mobileSearchButtonRef = useRef<HTMLButtonElement | null>(null);
 
   const [expandSearch, setExpandSearch] = useState(false);
 
@@ -258,7 +258,7 @@ export const StackedSearchPersistentHorizontalNav = () => {
                               <UtilityFragment key={accountSubItem.id}>
                                 <li>
                                   <UtilityFragment vPaddingVertical={4} vPaddingHorizontal={8}>
-                                    <ListboxItem href={accountSubItem.href} tag="a">
+                                    <ListboxItem<'a'> href={accountSubItem.href} tag="a">
                                       {accountSubItem.tabLabel}
                                     </ListboxItem>
                                   </UtilityFragment>

@@ -92,8 +92,8 @@ export const AutocompleteWithAutomaticSelectionCombobox = () => {
                 name="text-input-field-11"
                 type="text"
                 {...getInputProps({
-                  'aria-autocomplete': 'list',
-                  'aria-expanded': isOpen && items.length > 0,
+                  'aria-autocomplete': 'list' as const,
+                  'aria-expanded': isOpen,
                   'aria-owns': listboxId,
                 })}
               />

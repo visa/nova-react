@@ -15,12 +15,11 @@
  *
  **/
 import cn from 'clsx';
-import { ElementType, ForwardedRef } from 'react';
-import forwardRef from '../types';
+import { ComponentPropsWithRef, ElementType } from 'react';
 
 const CSS_PREFIX = 'v-wizard';
 
-export type WizardProperties = {
+export type WizardProperties<ET extends ElementType = "ol",> = {
   /** CSS Class Name */
   className?: string;
   /** show wizard in compact */
@@ -29,27 +28,25 @@ export type WizardProperties = {
   tag?: ElementType;
   /** show wizard in vertical */
   vertical?: boolean;
-};
-
-const Wizard = <HTMLElementType,>(
-  { className, compact, tag: Tag = 'ol', vertical, ...remainingProps }: WizardProperties,
-  ref: ForwardedRef<HTMLElementType>
-) => (
-  <Tag
-    className={cn(CSS_PREFIX, compact && `${CSS_PREFIX}-compact`, vertical && `${CSS_PREFIX}-vertical`, className)}
-    ref={ref}
-    {...remainingProps}
-  />
-);
+} & ComponentPropsWithRef<ET>;
 
 /**
  * Manages and navigates multi-step processes within your application.
  * @docs {@link https://design.visa.com/react/components/wizard | See Docs}
- * @related wizard-step, use-wizard, badge, button
+ * @related wizard-step, use-wizard, use-accordion, badge, button
  * @vgar TODO
  * @wcag TODO
  */
-export default forwardRef<WizardProperties, HTMLOListElement>(Wizard);
+const Wizard = <ET extends ElementType = "ol",>(
+  { className, compact, tag: Tag = 'ol', vertical, ...remainingProps }: WizardProperties<ET>,
+) => (
+  <Tag
+    className={cn(CSS_PREFIX, compact && `${CSS_PREFIX}-compact`, vertical && `${CSS_PREFIX}-vertical`, className)}
+    {...remainingProps}
+  />
+);
+
+export default Wizard;
 
 Wizard.defaultProps = {
   tag: 'ol',

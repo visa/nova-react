@@ -15,7 +15,7 @@
  *
  **/
 import cn from 'clsx';
-import { useId, forwardRef, SVGAttributes } from 'react';
+import { ComponentPropsWithRef, ElementType, SVGAttributes, useId } from 'react';
 
 const CSS_PREFIX = 'v-icon';
 const RESOLUTION = {
@@ -24,15 +24,12 @@ const RESOLUTION = {
   tiny: '16',
 };
 
-export type IconProperties = {
+export type IconProperties<ET extends ElementType = 'svg',> = {
   /** Aria Base ID */
   ariaBaseId?: number | string;
   /** Icon Branding */
   brand?: 'generic' | 'visa';
-  /** @ignore */
-  children?: never;
-  /** @ignore */
-  className?: string;
+  /** Description for Standalone SVG's */
   description?: string;
   /** Name of Icon */
   iconName?: string;
@@ -42,7 +39,7 @@ export type IconProperties = {
   rtl?: boolean;
   /** Title for Standalone SVG's */
   title?: string;
-} & SVGAttributes<SVGSVGElement>;
+} & SVGAttributes<SVGSVGElement> & ComponentPropsWithRef<ET>;
 
 /**
  * Meant for use with sprites only. Uses dom href linking of sprite elements expected to already be in the DOM to render the icon.
@@ -50,55 +47,52 @@ export type IconProperties = {
  * @vgar TODO
  * @wcag TODO
  */
-const Icon = forwardRef<SVGSVGElement, IconProperties>(
-  (
-    {
-      ariaBaseId,
-      brand = 'generic',
-      className,
-      description,
-      iconName = 'help',
-      resolution = 'low',
-      rtl,
-      title,
-      ...remainingProps
-    },
-    ref
-  ) => {
-    const uniqueId = useId();
+const Icon = <ET extends ElementType = 'svg',>(
+  {
+    ariaBaseId,
+    brand = 'generic',
+    className,
+    description,
+    iconName = 'help',
+    resolution = 'low',
+    rtl,
+    ref,
+    title,
+    ...remainingProps
+  }: IconProperties<ET>
+) => {
+  const uniqueId = useId();
 
-    const uid = ariaBaseId || uniqueId;
-    const ariaLabelledBy = `${title ? `title-${uid}` : ''}${title && description ? ',' : ''}${
-      description ? `description-${uid}` : ''
+  const uid = ariaBaseId || uniqueId;
+  const ariaLabelledBy = `${title ? `title-${uid}` : ''}${title && description ? ',' : ''}${description ? `description-${uid}` : ''
     }`;
-    const iconSize = RESOLUTION[resolution];
-    const symbolId = `${brand}-${iconName}-${resolution}`;
+  const iconSize = RESOLUTION[resolution as keyof typeof RESOLUTION];
+  const symbolId = `${brand}-${iconName}-${resolution}`;
 
-    return (
-      <svg
-        aria-hidden="true"
-        aria-labelledby={ariaLabelledBy || undefined}
-        className={cn(
-          CSS_PREFIX,
-          brand && `${CSS_PREFIX}-${brand}`,
-          resolution && `${CSS_PREFIX}-${resolution}`,
-          rtl && `${CSS_PREFIX}-rtl`,
-          className
-        )}
-        focusable="false"
-        height={iconSize}
-        ref={ref}
-        viewBox={`0 0 ${iconSize} ${iconSize}`}
-        width={iconSize}
-        {...remainingProps}
-      >
-        {title && <title id={`title-${uid}`}>{title}</title>}
-        {description && <desc id={`description-${uid}`}>{description}</desc>}
-        <use href={symbolId} xlinkHref={symbolId} />
-      </svg>
-    );
-  }
-);
+  return (
+    <svg
+      {...remainingProps}
+      aria-hidden="true"
+      aria-labelledby={ariaLabelledBy || undefined}
+      className={cn(
+        CSS_PREFIX,
+        brand && `${CSS_PREFIX}-${brand}`,
+        resolution && `${CSS_PREFIX}-${resolution}`,
+        rtl && `${CSS_PREFIX}-rtl`,
+        className
+      )}
+      focusable="false"
+      height={iconSize}
+      ref={ref}
+      viewBox={`0 0 ${iconSize} ${iconSize}`}
+      width={iconSize}
+    >
+      {title && <title id={`title-${uid}`}>{title}</title>}
+      {description && <desc id={`description-${uid}`}>{description}</desc>}
+      <use href={symbolId} xlinkHref={symbolId} />
+    </svg>
+  );
+}
 
 export default Icon;
 

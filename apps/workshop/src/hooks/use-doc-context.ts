@@ -14,6 +14,8 @@
  * limitations under the License.
  *
  **/
+import libPackageJson from '@visa/nova-react/package.json';
+import docsPackageJson from '../../package.json';
 import { Paths } from '../routes/paths';
 
 const devMode = import.meta.env.DEV;
@@ -22,7 +24,9 @@ const version = import.meta.env.VERSION || '';
 
 const UseDocContext = () => ({
   basename: Paths.base,
+  docsPackageJson,
   devMode,
+  libraryPackageJson: libPackageJson,
   prodMode,
   version,
 });

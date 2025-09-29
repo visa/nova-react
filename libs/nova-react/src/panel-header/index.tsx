@@ -15,28 +15,25 @@
  *
  **/
 import cn from 'clsx';
-import { ElementType, ForwardedRef } from 'react';
-import forwardRef from '../types';
+import { ComponentPropsWithRef, ElementType } from 'react';
 
 const CSS_PREFIX = 'v-panel-header';
 
-export type PanelHeaderProperties = {
-  /** @ignore */
-  className?: string;
+export type PanelHeaderProperties <ET extends ElementType = 'div',>= {
+
   /** Tag of Component */
   tag?: ElementType;
-};
-
-const PanelHeader = <HTMLElementType,>(
-  { className, tag: Tag = 'div', ...remainingProps }: PanelHeaderProperties,
-  ref: ForwardedRef<HTMLElementType>
-) => <Tag className={cn(CSS_PREFIX, className)} ref={ref} {...remainingProps} />;
+} & ComponentPropsWithRef<ET>;
 
 /**
  * Container for panel heading.
  * @docs {@link https://design.visa.com/react/components/panel | See Docs}
  */
-export default forwardRef<PanelHeaderProperties, HTMLElement>(PanelHeader);
+const PanelHeader = <ET extends ElementType = 'div',>(
+  { className, tag: Tag = 'div', ...remainingProps }: PanelHeaderProperties<ET>,
+) => <Tag className={cn(CSS_PREFIX, className)} {...remainingProps} />;
+
+export default PanelHeader;
 
 PanelHeader.defaultProps = {
   tag: 'div',

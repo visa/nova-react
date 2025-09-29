@@ -1,8 +1,8 @@
 {
   "description": "Linear indicator used to show the progress of a task or process.",
-  "displayName": "ProgressLinear",
+  "displayName": "progresslinear",
   "filePath": "/progress-linear/index.tsx",
-  "gitLink": "https://stash.trusted.visa.com:7990/projects/VC/repos/nova-react/browse/libs/nova-react/src/progress-linear/index.tsx",
+  "gitLink": "https://github.com/visa/nova-react/blob/main/libs/nova-react/src/progress-linear/index.tsx",
   "props": [
     {
       "description": "Is Completed",
@@ -24,12 +24,6 @@
       "type": "boolean"
     },
     {
-      "description": "This is a useRef",
-      "name": "ref",
-      "required": false,
-      "type": "ForwardedRef<HTMLElementType>"
-    },
-    {
       "defaultValue": "progress",
       "description": "Tag of Component",
       "name": "tag",
@@ -39,7 +33,7 @@
   ],
   "vgar": "TODO",
   "wcag": "TODO",
-  "testAvg": 100,
+  "testAvg": 97,
   "docs": "{@link https://design.visa.com/react/components/progress See Docs}",
   "related": [
     "progress-label"

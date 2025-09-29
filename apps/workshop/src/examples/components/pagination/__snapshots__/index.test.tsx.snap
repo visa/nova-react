@@ -1,4 +1,4 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
 
 exports[`Pagination examples Default pagination with first page selected should render correctly 1`] = `
 <div>
@@ -26,11 +26,6 @@ exports[`Pagination examples Default pagination with first page selected should 
             width="16"
             xmlns="http://www.w3.org/2000/svg"
           >
-            <rect
-              height="1"
-              transform="translate(7 7.00049)"
-              width="1"
-            />
             <path
               class="v-icon-primary"
               clip-rule="evenodd"
@@ -198,11 +193,6 @@ exports[`Pagination examples Default pagination with first page selected should 
             width="16"
             xmlns="http://www.w3.org/2000/svg"
           >
-            <rect
-              height="1"
-              transform="translate(8 7.00049)"
-              width="1"
-            />
             <path
               class="v-icon-primary"
               clip-rule="evenodd"
@@ -242,11 +232,6 @@ exports[`Pagination examples Default pagination with last page selected should r
             width="16"
             xmlns="http://www.w3.org/2000/svg"
           >
-            <rect
-              height="1"
-              transform="translate(7 7.00049)"
-              width="1"
-            />
             <path
               class="v-icon-primary"
               clip-rule="evenodd"
@@ -399,11 +384,6 @@ exports[`Pagination examples Default pagination with last page selected should r
             width="16"
             xmlns="http://www.w3.org/2000/svg"
           >
-            <rect
-              height="1"
-              transform="translate(8 7.00049)"
-              width="1"
-            />
             <path
               class="v-icon-primary"
               clip-rule="evenodd"
@@ -443,11 +423,6 @@ exports[`Pagination examples Default pagination with middle page selected should
             width="16"
             xmlns="http://www.w3.org/2000/svg"
           >
-            <rect
-              height="1"
-              transform="translate(7 7.00049)"
-              width="1"
-            />
             <path
               class="v-icon-primary"
               clip-rule="evenodd"
@@ -602,11 +577,6 @@ exports[`Pagination examples Default pagination with middle page selected should
             width="16"
             xmlns="http://www.w3.org/2000/svg"
           >
-            <rect
-              height="1"
-              transform="translate(8 7.00049)"
-              width="1"
-            />
             <path
               class="v-icon-primary"
               clip-rule="evenodd"
@@ -730,7 +700,7 @@ exports[`Pagination examples Pagination for tables should render correctly 1`] =
       style="text-wrap: nowrap;"
     >
       <label
-        class="v-label"
+        class="v-label v-flex-shrink-0"
         for="select-items-per-page"
       >
         Items Per Page
@@ -809,11 +779,6 @@ exports[`Pagination examples Pagination for tables should render correctly 1`] =
               width="16"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <rect
-                height="1"
-                transform="translate(7 7.00049)"
-                width="1"
-              />
               <path
                 class="v-icon-primary"
                 clip-rule="evenodd"
@@ -940,11 +905,6 @@ exports[`Pagination examples Pagination for tables should render correctly 1`] =
               width="16"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <rect
-                height="1"
-                transform="translate(8 7.00049)"
-                width="1"
-              />
               <path
                 class="v-icon-primary"
                 clip-rule="evenodd"
@@ -984,11 +944,6 @@ exports[`Pagination examples Pagination with minimum and maximum should render c
             width="16"
             xmlns="http://www.w3.org/2000/svg"
           >
-            <rect
-              height="1"
-              transform="translate(7 7.00049)"
-              width="1"
-            />
             <path
               class="v-icon-primary"
               clip-rule="evenodd"
@@ -1115,11 +1070,6 @@ exports[`Pagination examples Pagination with minimum and maximum should render c
             width="16"
             xmlns="http://www.w3.org/2000/svg"
           >
-            <rect
-              height="1"
-              transform="translate(8 7.00049)"
-              width="1"
-            />
             <path
               class="v-icon-primary"
               clip-rule="evenodd"

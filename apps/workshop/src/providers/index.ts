@@ -14,8 +14,8 @@
  * limitations under the License.
  *
  **/
-export * from './auth-provider';
-export { default as AuthProvider } from './auth-provider';
+//export * from './auth-provider';
+//export { default as AuthProvider } from './auth-provider';
 export * from './theme-provider';
 export { default as ColorSchemeProvider } from './theme-provider';
 export * from './versions-provider';

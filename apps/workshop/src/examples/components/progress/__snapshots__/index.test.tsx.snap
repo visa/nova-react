@@ -1,4 +1,4 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
 
 exports[`Progress examples Completed determinate circular progress indicator should render correctly 1`] = `
 <div>
@@ -357,7 +357,7 @@ exports[`Progress examples Indeterminate linear progress indicator should render
           <path
             class="v-icon-primary"
             clip-rule="evenodd"
-            d="M5 5L5 11H7L7 5H5ZM9 5V11H11L11 5H9Z"
+            d="M5 5V11H7L7 5H5ZM9 5L9 11H11L11 5H9Z"
             fill-rule="evenodd"
           />
           <defs>
@@ -415,7 +415,7 @@ exports[`Progress examples Indeterminate linear progress indicator without visib
           <path
             class="v-icon-primary"
             clip-rule="evenodd"
-            d="M5 5L5 11H7L7 5H5ZM9 5V11H11L11 5H9Z"
+            d="M5 5V11H7L7 5H5ZM9 5L9 11H11L11 5H9Z"
             fill-rule="evenodd"
           />
           <defs>
@@ -526,7 +526,7 @@ exports[`Progress examples Large indeterminate circular progress indicator shoul
           <path
             class="v-icon-primary"
             clip-rule="evenodd"
-            d="M5 5L5 11H7L7 5H5ZM9 5V11H11L11 5H9Z"
+            d="M5 5V11H7L7 5H5ZM9 5L9 11H11L11 5H9Z"
             fill-rule="evenodd"
           />
           <defs>
@@ -633,7 +633,7 @@ exports[`Progress examples Small indeterminate circular progress indicator shoul
           <path
             class="v-icon-primary"
             clip-rule="evenodd"
-            d="M5 5L5 11H7L7 5H5ZM9 5V11H11L11 5H9Z"
+            d="M5 5V11H7L7 5H5ZM9 5L9 11H11L11 5H9Z"
             fill-rule="evenodd"
           />
           <defs>

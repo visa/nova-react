@@ -15,8 +15,7 @@
  *
  **/
 import cn from 'clsx';
-import { CSSProperties, ForwardedRef, ReactNode } from 'react';
-import forwardRef from '../types';
+import { ComponentPropsWithRef, CSSProperties, ElementType } from 'react';
 
 const CSS_PREFIX = 'v-progress';
 const SIZES = {
@@ -24,24 +23,25 @@ const SIZES = {
   small: 48,
 };
 
-export type ProgressCircularProperties = {
-  /** @ignore */
-  children?: ReactNode;
-  /** @ignore */
-  className?: string;
+export type ProgressCircularProperties<ET extends ElementType = 'div',> = {
   /** If the Progress is Indeterminate Progress */
   indeterminate?: boolean;
   /** Is Paused */
   paused?: boolean;
   /** Width of the Circular Progress */
   progressSize?: number | keyof typeof SIZES;
-  /** @ignore */
-  style?: CSSProperties;
   /** Percent Complete */
   value?: HTMLProgressElement['value'];
-};
+} & Omit<ComponentPropsWithRef<ET>, ''>;
 
-const ProgressCircular = <HTMLElementType,>(
+/**
+ * Circular indicator used to show the progress of a task or process.
+ * @docs {@link https://design.visa.com/react/components/progress | See Docs}
+ * @related progress-label
+ * @vgar TODO
+ * @wcag TODO
+ */
+const ProgressCircular = <ET extends ElementType = 'div',>(
   {
     className,
     children,
@@ -51,8 +51,7 @@ const ProgressCircular = <HTMLElementType,>(
     style,
     value,
     ...remainingProps
-  }: ProgressCircularProperties,
-  ref: ForwardedRef<HTMLElementType>
+  }: ProgressCircularProperties<ET>,
 ) => {
   const width: number = typeof progressSize === 'string' ? SIZES[progressSize] : progressSize;
   const strokeDasharray = 2 * Math.PI * (width / 2 - 2);
@@ -66,7 +65,6 @@ const ProgressCircular = <HTMLElementType,>(
         indeterminate && `${CSS_PREFIX}-indeterminate`,
         className
       )}
-      ref={ref as ForwardedRef<HTMLDivElement>}
       role={!indeterminate ? 'progressbar' : undefined}
       style={
         {
@@ -99,13 +97,6 @@ const ProgressCircular = <HTMLElementType,>(
   );
 };
 
-/**
- * Circular indicator used to show the progress of a task or process.
- * @docs {@link https://design.visa.com/react/components/progress | See Docs}
- * @related progress-label
- * @vgar TODO
- * @wcag TODO
- */
-export default forwardRef<ProgressCircularProperties, HTMLDivElement>(ProgressCircular);
+export default ProgressCircular;
 
 ProgressCircular.displayName = 'ProgressCircular';

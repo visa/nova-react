@@ -32,8 +32,8 @@ const BASE_URL = import.meta.env.BASE_URL;
 
 export const ImageHeaderContentCard = () => {
   return (
-    <ContentCard style={{inlineSize: '50vw'}}>
-      <ContentCardImage
+    <ContentCard style={{ inlineSize: '50vw' }}>
+      <ContentCardImage<'img'>
         // If your image is NOT decorative, be sure to write alt text describing the image
         alt=""
         // Make sure the src path is correct for your image

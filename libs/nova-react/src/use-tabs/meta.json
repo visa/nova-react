@@ -2,7 +2,7 @@
   "description": "This hook allows us to set the <defaultSelected> value, which indicates that we are selecting that item by default.",
   "displayName": "useTabs",
   "filePath": "/use-tabs/index.ts",
-  "gitLink": "https://stash.trusted.visa.com:7990/projects/VC/repos/nova-react/browse/libs/nova-react/src/use-tabs/index.ts",
+  "gitLink": "https://github.com/visa/nova-react/blob/main/libs/nova-react/src/use-tabs/index.ts",
   "props": [
     {
       "defaultValue": null,

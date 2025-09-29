@@ -1,44 +1,20 @@
 {
-  "description": "Element to contain a ellipse to display as a badge. Usually display on top of another element.",
-  "displayName": "BadgeEllipse",
+  "description": "",
+  "displayName": "badgeellipse",
   "filePath": "/badge-ellipse/index.tsx",
-  "gitLink": "https://stash.trusted.visa.com:7990/projects/VC/repos/nova-react/browse/libs/nova-react/src/badge-ellipse/index.tsx",
+  "gitLink": "https://github.com/visa/nova-react/blob/main/libs/nova-react/src/badge-ellipse/index.tsx",
   "props": [
     {
-      "description": "Active style",
-      "name": "active",
+      "description": "aria-label\nDefines a string value that labels the current element.\n@see aria-labelledby.",
+      "name": "aria-label",
       "required": false,
-      "type": "boolean"
+      "type": "string"
     },
     {
-      "description": "Type of Badge",
-      "name": "badgeType",
+      "description": "CSS Class Name",
+      "name": "className",
       "required": false,
-      "type": "\"subtle\" | \"critical\" | \"neutral\" | \"stable\" | \"warning\""
-    },
-    {
-      "description": "Variant of Badge",
-      "name": "badgeVariant",
-      "required": false,
-      "type": "\"number\" | \"icon\""
-    },
-    {
-      "description": "Clear background",
-      "name": "clear",
-      "required": false,
-      "type": "boolean"
-    },
-    {
-      "description": "This is a useRef",
-      "name": "ref",
-      "required": false,
-      "type": "ForwardedRef<HTMLElementType>"
-    },
-    {
-      "description": "Tag of Component",
-      "name": "tag",
-      "required": false,
-      "type": "ElementType"
+      "type": "string"
     }
   ],
   "vgar": "TODO",

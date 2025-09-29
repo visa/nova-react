@@ -74,7 +74,9 @@ export const TablePagination = () => {
         vFlexRow
         vGap={12}
       >
-        <Label htmlFor="select-items-per-page">Items Per Page</Label>
+        <UtilityFragment vFlexShrink0>
+          <Label htmlFor="select-items-per-page">Items Per Page</Label>
+        </UtilityFragment>
         <InputContainer>
           <Select
             id="select-items-per-page"

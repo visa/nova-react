@@ -15,7 +15,7 @@
  *
  **/
 import { useQueries } from '@tanstack/react-query';
-import { VisaLinkTiny } from '@visa/nova-icons-react';
+import { VisaChevronDownTiny, VisaChevronRightTiny, VisaLinkTiny } from '@visa/nova-icons-react';
 import {
   Accordion,
   AccordionHeading,
@@ -36,6 +36,7 @@ import PropertiesTable from '../../components/properties-table';
 import VSuspense from '../../components/v-suspense';
 import { Paths } from '../../routes/paths';
 import { DocType, ExampleIndex, ExampleMetaData, LibMetaData } from '../../types';
+import meta from '../../examples/meta.json';
 
 const LazyCode = lazy(() => import('../../components/code'));
 
@@ -77,6 +78,15 @@ const HooksTemplate = () => {
 
   // const commitLink = Paths.commitLinkLib({ commitId: metaData.data?.commit, docName, isHook: true });
   const modificationDateFormatted = new Date(metaData.data?.dateModified || '').toLocaleDateString();
+
+  // Helper to determine type of related item
+  function getRelatedType(name: string): 'components' | 'patterns' | 'hooks' | 'utilities' | 'unknown' {
+    if (meta.components.includes(name)) return 'components';
+    if (meta.patterns.includes(name)) return 'patterns';
+    if (meta.hooks && meta.hooks.includes(name)) return 'hooks';
+    if (meta.utilities && meta.utilities.includes(name)) return 'utilities';
+    return 'unknown';
+  }
 
   return (
     <>
@@ -181,7 +191,11 @@ const HooksTemplate = () => {
                 onClick={() => setCodeExpanded(!codeExpanded)}
                 tag="button"
               >
-                <AccordionToggleIcon accordionOpen={codeExpanded} />
+                <AccordionToggleIcon
+                  accordionOpen={codeExpanded}
+                  elementClosed={<VisaChevronRightTiny rtl />}
+                  elementOpen={<VisaChevronDownTiny />}
+                />
                 TypeScript
                 <UtilityFragment vMarginLeft="auto">
                   <Badge
@@ -222,14 +236,18 @@ const HooksTemplate = () => {
                 See also
               </Typography>
               <Utility vFlex vFlexCol vGap={4} tag="ul">
-                {metaData.data.related.map(related => (
-                  <li key={`hooks-see-also-link-${related}`}>
-                    <VLink element={<Link to={Paths.documentationPage('components', related)} />} noUnderline>
-                      <VisaLinkTiny />
-                      {capitalCase(related)}
-                    </VLink>
-                  </li>
-                ))}
+                {metaData.data.related.map(related => {
+                  const type = getRelatedType(related);
+                  if (type === 'unknown') return null;
+                  return (
+                    <li key={`hooks-see-also-link-${type}-${related}`}>
+                      <VLink element={<Link to={Paths.documentationPage(type, related)} />} noUnderline>
+                        <VisaLinkTiny />
+                        {capitalCase(related)}
+                      </VLink>
+                    </li>
+                  );
+                })}
               </Utility>
             </Utility>
           )}

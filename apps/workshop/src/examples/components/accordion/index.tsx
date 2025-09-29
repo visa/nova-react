@@ -18,11 +18,12 @@ import { Link } from 'react-router-dom';
 import { Paths } from '../../../routes';
 import { ExampleIndex } from '../../../types';
 
-import { SectionMessage, SectionMessageContent, SectionMessageIcon, Typography, Link as VLink } from '@visa/nova-react';
+import { MessageIcon } from '@visa/nova-icons-react';
+import { SectionMessage, SectionMessageContent, Typography, Link as VLink } from '@visa/nova-react';
 
 const CustomExampleIntro = (
   <SectionMessage>
-    <SectionMessageIcon />
+    <MessageIcon />
     <SectionMessageContent>
       <Typography>
         We use <code>useAccordion()</code> to interact with custom accordion. This is a re-usable hook that will take in
@@ -36,7 +37,7 @@ const CustomExampleIntro = (
 
 const DisclosureNote = (
   <SectionMessage>
-    <SectionMessageIcon />
+    <MessageIcon />
     <SectionMessageContent>
       <Typography>
         In the example below, we set the <code>defaultSelected</code> value to be an array, which tells our hook that we
@@ -49,7 +50,7 @@ const DisclosureNote = (
 
 const KeyNavAccordionNote = (
   <SectionMessage>
-    <SectionMessageIcon />
+    <MessageIcon />
     <SectionMessageContent>
       <Typography>
         In the example below, we import <code>onKeyNavigation</code> from the hook, where we can optionally use arrow

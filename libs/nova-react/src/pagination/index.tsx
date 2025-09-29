@@ -15,22 +15,14 @@
  *
  **/
 import cn from 'clsx';
-import { ElementType, ForwardedRef } from 'react';
-import forwardRef from '../types';
+import { ComponentPropsWithRef, ElementType } from 'react';
 
 const CSS_PREFIX = 'v-pagination';
 
-export type PaginationProperties = {
-  /** @ignore */
-  className?: string;
+export type PaginationProperties<ET extends ElementType = 'ul',> = {
   /** Tag of Component */
   tag?: ElementType;
-};
-
-const Pagination = <HTMLElementType,>(
-  { className, tag: Tag = 'ul', ...remainingProps }: PaginationProperties,
-  ref: ForwardedRef<HTMLElementType>
-) => <Tag className={cn(CSS_PREFIX, className)} ref={ref} {...remainingProps} />;
+} & ComponentPropsWithRef<ET>;
 
 /**
  * Set of links used to navigate content split across multiple pages.
@@ -39,7 +31,11 @@ const Pagination = <HTMLElementType,>(
  * @wcag TODO
  * @related pagination-overflow, use-pagination
  */
-export default forwardRef<PaginationProperties, HTMLUListElement>(Pagination);
+const Pagination = <ET extends ElementType = 'ul',>(
+  { className, tag: Tag = 'ul', ...remainingProps }: PaginationProperties<ET>,
+) => <Tag className={cn(CSS_PREFIX, className)} {...remainingProps} />;
+
+export default Pagination;
 
 Pagination.defaultProps = {
   tag: 'ul',

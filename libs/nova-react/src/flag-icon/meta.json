@@ -1,8 +1,0 @@
-{
-  "description": "{@link https://productdesignsystem.visa.com/react/components/flag See Docs}",
-  "displayName": "FlagIcon",
-  "filePath": "/flag-icon/index.tsx",
-  "gitLink": "https://stash.trusted.visa.com:7990/projects/VC/repos/nova-react/browse/libs/nova-react/src/flag-icon/index.tsx",
-  "props": [],
-  "testAvg": 100
-}

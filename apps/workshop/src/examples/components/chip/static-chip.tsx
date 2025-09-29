@@ -18,7 +18,7 @@ import { Chip } from '@visa/nova-react';
 
 export const StaticChip = () => {
   return (
-    <Chip tag="label" readOnly>
+    <Chip<'label'> tag="label">
       Label
     </Chip>
   );

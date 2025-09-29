@@ -1,0 +1,18 @@
+{
+  "file-upload-with-alternate-display": {
+    "file": "file-upload-with-alternate-display.tsx",
+    "id": "file-upload-with-alternate-display"
+  },
+  "multi-file-manual-upload": {
+    "file": "multi-file-manual-upload.tsx",
+    "id": "multi-file-manual-upload"
+  },
+  "multi-file-upload": {
+    "file": "multi-file-upload.tsx",
+    "id": "multi-file-upload"
+  },
+  "single-file-upload": {
+    "file": "single-file-upload.tsx",
+    "id": "single-file-upload"
+  }
+}

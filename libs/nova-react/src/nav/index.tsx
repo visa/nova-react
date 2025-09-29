@@ -15,27 +15,30 @@
  *
  **/
 import cn from 'clsx';
-import { ElementType, ForwardedRef } from 'react';
-import forwardRef from '../types';
+import { ComponentPropsWithRef, ElementType } from 'react';
 
 const CSS_PREFIX = 'v-nav';
 
-export type NavProperties = {
+export type NavProperties<ET extends ElementType = 'nav',> = {
   /** Alternate */
   alternate?: boolean;
-  /** @ignore */
-  className?: string;
   /** Drawer */
   drawer?: boolean;
   /** Orientation */
   orientation?: 'horizontal' | 'vertical';
   /** Tag of Component */
   tag?: ElementType;
-};
+} & ComponentPropsWithRef<ET>;
 
-const Nav = <HTMLElementType,>(
-  { alternate, className, drawer, orientation, tag: Tag = 'nav', ...remainingProps }: NavProperties,
-  ref: ForwardedRef<HTMLElementType>
+/**
+ * Menu or panel at the top or next to page content that links to important pages or features.
+ * @docs {@link https://design.visa.com/react/components/nav | See Docs}
+ * @vgar TODO
+ * @wcag TODO
+ * @related tab, tabs
+ */
+const Nav = <ET extends ElementType = 'nav',>(
+  { alternate, className, drawer, orientation, tag: Tag = 'nav', ...remainingProps }: NavProperties<ET>,
 ) => (
   <Tag
     className={cn(
@@ -45,19 +48,11 @@ const Nav = <HTMLElementType,>(
       drawer && `${CSS_PREFIX}-drawer`,
       className
     )}
-    ref={ref}
     {...remainingProps}
   />
 );
 
-/**
- * Menu or panel at the top or next to page content that links to important pages or features.
- * @docs {@link https://design.visa.com/react/components/nav | See Docs}
- * @vgar TODO
- * @wcag TODO
- * @related tab, tabs
- */
-export default forwardRef<NavProperties, HTMLElement>(Nav);
+export default Nav;
 
 Nav.defaultProps = {
   tag: 'nav',

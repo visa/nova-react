@@ -15,30 +15,27 @@
  *
  **/
 import cn from 'clsx';
-import { ElementType, ForwardedRef } from 'react';
-import forwardRef from '../types';
+import { ComponentPropsWithRef, ElementType } from 'react';
 
 const CSS_PREFIX = 'v-th';
 
-export type ThProperties = {
+export type ThProperties <ET extends ElementType = 'th',>= {
   /** Alt */
   alternate?: boolean;
-  /** @ignore */
-  className?: string;
+
   /** Tag of Component */
   tag?: ElementType;
-};
-
-const Th = <HTMLElementType,>(
-  { alternate, className, tag: Tag = 'th', ...remainingProps }: ThProperties,
-  ref: ForwardedRef<HTMLElementType>
-) => <Tag className={cn(CSS_PREFIX, alternate && `${CSS_PREFIX}-alt`, className)} ref={ref} {...remainingProps} />;
+} & ComponentPropsWithRef<ET>;
 
 /**
  * Table header cell component usually used for titles and column/row descriptions.
  * @docs {@link https://design.visa.com/react/components/table | See Docs}
  */
-export default forwardRef<ThProperties, HTMLTableCellElement>(Th);
+const Th = <ET extends ElementType = 'th',>(
+  { alternate, className, tag: Tag = 'th', ...remainingProps }: ThProperties<ET>,
+) => <Tag className={cn(CSS_PREFIX, alternate && `${CSS_PREFIX}-alt`, className)} {...remainingProps} />;
+
+export default Th;
 
 Th.displayName = 'Th';
 

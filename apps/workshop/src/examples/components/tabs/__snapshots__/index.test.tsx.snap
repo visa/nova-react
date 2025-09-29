@@ -1,4 +1,4 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
 
 exports[`Tabs examples Alternate horizontal tablist should render correctly 1`] = `
 <div>
@@ -217,7 +217,7 @@ exports[`Tabs examples Alternate stacked tablist should render correctly 1`] = `
               <path
                 class="v-icon-primary"
                 clip-rule="evenodd"
-                d="M8.235e-05 7.91984L2.00008 9.19257V18H22.0001V6.82167L12.0001 14.1853L0.463207 5.84366C0.088112 5.60496 -0.0843435 5.14729 0.0399621 4.72041C0.164268 4.29354 0.555479 4 1.00008 4H24.0001V20H8.235e-05V7.91984ZM12.0001 11.8147L4.43414 6H19.566L12.0001 11.8147Z"
+                d="M8.23866e-05 7.91984L2.00008 9.19257V18H22.0001V6.82167L12.0001 14.1853L0.463207 5.84366C0.088112 5.60496 -0.0843434 5.14729 0.0399622 4.72041C0.164268 4.29354 0.555479 4 1.00008 4H24.0001V20H8.23866e-05V7.91984ZM12.0001 11.8147L4.43414 6H19.566L12.0001 11.8147Z"
                 fill-rule="evenodd"
               />
               <defs>
@@ -553,7 +553,7 @@ exports[`Tabs examples Default stacked tablist should render correctly 1`] = `
             <path
               class="v-icon-primary"
               clip-rule="evenodd"
-              d="M8.235e-05 7.91984L2.00008 9.19257V18H22.0001V6.82167L12.0001 14.1853L0.463207 5.84366C0.088112 5.60496 -0.0843435 5.14729 0.0399621 4.72041C0.164268 4.29354 0.555479 4 1.00008 4H24.0001V20H8.235e-05V7.91984ZM12.0001 11.8147L4.43414 6H19.566L12.0001 11.8147Z"
+              d="M8.23866e-05 7.91984L2.00008 9.19257V18H22.0001V6.82167L12.0001 14.1853L0.463207 5.84366C0.088112 5.60496 -0.0843434 5.14729 0.0399622 4.72041C0.164268 4.29354 0.555479 4 1.00008 4H24.0001V20H8.23866e-05V7.91984ZM12.0001 11.8147L4.43414 6H19.566L12.0001 11.8147Z"
               fill-rule="evenodd"
             />
             <defs>
@@ -807,7 +807,7 @@ exports[`Tabs examples Horizontal tab with icon should render correctly 1`] = `
             <path
               class="v-icon-primary"
               clip-rule="evenodd"
-              d="M16 6.48577L8 0.771484L0 6.48577V12.0004H2V7.51501L8 3.22929L14 7.51501V14.0004H0V16.0004H16V6.48577Z"
+              d="M16 6.4854L8 0.771118L0 6.4854V12H2V7.51464L8 3.22893L14 7.51464V14H0V16H16V6.4854Z"
               fill-rule="evenodd"
             />
             <defs>
@@ -871,7 +871,7 @@ exports[`Tabs examples Horizontal tab with menu should render correctly 1`] = `
         <path
           class="v-icon-primary"
           clip-rule="evenodd"
-          d="M16 6.48577L8 0.771484L0 6.48577V12.0004H2V7.51501L8 3.22929L14 7.51501V14.0004H0V16.0004H16V6.48577Z"
+          d="M16 6.4854L8 0.771118L0 6.4854V12H2V7.51464L8 3.22893L14 7.51464V14H0V16H16V6.4854Z"
           fill-rule="evenodd"
         />
         <defs>
@@ -1119,7 +1119,7 @@ exports[`Tabs examples Stacked tablist with disabled tab should render correctly
             <path
               class="v-icon-primary"
               clip-rule="evenodd"
-              d="M8.235e-05 7.91984L2.00008 9.19257V18H22.0001V6.82167L12.0001 14.1853L0.463207 5.84366C0.088112 5.60496 -0.0843435 5.14729 0.0399621 4.72041C0.164268 4.29354 0.555479 4 1.00008 4H24.0001V20H8.235e-05V7.91984ZM12.0001 11.8147L4.43414 6H19.566L12.0001 11.8147Z"
+              d="M8.23866e-05 7.91984L2.00008 9.19257V18H22.0001V6.82167L12.0001 14.1853L0.463207 5.84366C0.088112 5.60496 -0.0843434 5.14729 0.0399622 4.72041C0.164268 4.29354 0.555479 4 1.00008 4H24.0001V20H8.23866e-05V7.91984ZM12.0001 11.8147L4.43414 6H19.566L12.0001 11.8147Z"
               fill-rule="evenodd"
             />
             <defs>
@@ -1301,7 +1301,7 @@ exports[`Tabs examples Stacked tabs with notifications should render correctly 1
             <path
               class="v-icon-primary"
               clip-rule="evenodd"
-              d="M8.235e-05 7.91984L2.00008 9.19257V18H22.0001V6.82167L12.0001 14.1853L0.463207 5.84366C0.088112 5.60496 -0.0843435 5.14729 0.0399621 4.72041C0.164268 4.29354 0.555479 4 1.00008 4H24.0001V20H8.235e-05V7.91984ZM12.0001 11.8147L4.43414 6H19.566L12.0001 11.8147Z"
+              d="M8.23866e-05 7.91984L2.00008 9.19257V18H22.0001V6.82167L12.0001 14.1853L0.463207 5.84366C0.088112 5.60496 -0.0843434 5.14729 0.0399622 4.72041C0.164268 4.29354 0.555479 4 1.00008 4H24.0001V20H8.23866e-05V7.91984ZM12.0001 11.8147L4.43414 6H19.566L12.0001 11.8147Z"
               fill-rule="evenodd"
             />
             <defs>
@@ -1456,7 +1456,7 @@ exports[`Tabs examples Vertical tab with menu should render correctly 1`] = `
             <path
               class="v-icon-primary"
               clip-rule="evenodd"
-              d="M16 6.48577L8 0.771484L0 6.48577V12.0004H2V7.51501L8 3.22929L14 7.51501V14.0004H0V16.0004H16V6.48577Z"
+              d="M16 6.4854L8 0.771118L0 6.4854V12H2V7.51464L8 3.22893L14 7.51464V14H0V16H16V6.4854Z"
               fill-rule="evenodd"
             />
             <defs>
@@ -1720,7 +1720,7 @@ exports[`Tabs examples Vertical tablist with icon should render correctly 1`] = 
             <path
               class="v-icon-primary"
               clip-rule="evenodd"
-              d="M16 6.48577L8 0.771484L0 6.48577V12.0004H2V7.51501L8 3.22929L14 7.51501V14.0004H0V16.0004H16V6.48577Z"
+              d="M16 6.4854L8 0.771118L0 6.4854V12H2V7.51464L8 3.22893L14 7.51464V14H0V16H16V6.4854Z"
               fill-rule="evenodd"
             />
             <defs>

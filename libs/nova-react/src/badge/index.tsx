@@ -15,29 +15,32 @@
  *
  **/
 import cn from 'clsx';
-import { ElementType, ForwardedRef } from 'react';
-import forwardRef from '../types';
+import { ComponentPropsWithRef, ElementType } from 'react';
 
 const CSS_PREFIX = 'v-badge';
 
-export type BadgeProperties = {
+export type BadgeProperties<ET extends ElementType = 'div',> = {
   /** Active style */
   active?: boolean;
   /** Type of Badge */
   badgeType?: 'critical' | 'neutral' | 'stable' | 'subtle' | 'warning';
   /** Variant of Badge */
   badgeVariant?: 'number' | 'icon';
-  /** @ignore */
-  className?: string;
+
   /** Clear background */
   clear?: boolean;
   /** Tag of Component */
   tag?: ElementType;
-};
+} & ComponentPropsWithRef<ET>;
 
-const Badge = <HTMLElementType,>(
-  { active, badgeType, className, clear, tag: Tag = 'div', badgeVariant, ...remainingProps }: BadgeProperties,
-  ref: ForwardedRef<HTMLElementType>
+/**
+ * Visual indicators communicating the status of a component.
+ * @docs {@link https://design.visa.com/react/components/badge | See Docs}
+ * @vgar TODO
+ * @wcag TODO
+ */
+const Badge = <ET extends ElementType = 'div',>(
+  { active, badgeType, className, clear, tag: Tag = 'div', badgeVariant, ...remainingProps }: BadgeProperties<ET>,
 ) => (
   <Tag
     className={cn(
@@ -49,18 +52,11 @@ const Badge = <HTMLElementType,>(
       badgeVariant === 'number' && `v-typography-label-active`,
       className
     )}
-    ref={ref}
     {...remainingProps}
   />
 );
 
-/**
- * Visual indicators communicating the status of a component.
- * @docs {@link https://design.visa.com/react/components/badge | See Docs}
- * @vgar TODO
- * @wcag TODO
- */
-export default forwardRef<BadgeProperties, HTMLDivElement>(Badge);
+export default Badge;
 
 Badge.defaultProps = {
   tag: 'div',

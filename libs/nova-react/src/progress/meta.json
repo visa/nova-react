@@ -1,63 +1,6 @@
 {
-  "description": "Visual representation of the status of a system process.",
   "displayName": "Progress",
-  "filePath": "/progress/index.tsx",
-  "gitLink": "https://stash.trusted.visa.com:7990/projects/VC/repos/nova-react/browse/libs/nova-react/src/progress/index.tsx",
-  "props": [
-    {
-      "description": "Is Completed",
-      "name": "completed",
-      "required": false,
-      "type": "boolean"
-    },
-    {
-      "defaultValue": false,
-      "description": "If the Progress is Indeterminate Progress",
-      "name": "indeterminate",
-      "required": false,
-      "type": "boolean"
-    },
-    {
-      "description": "Is Error State",
-      "name": "invalid",
-      "required": false,
-      "type": "boolean"
-    },
-    {
-      "defaultValue": false,
-      "description": "Is Paused",
-      "name": "paused",
-      "required": false,
-      "type": "boolean"
-    },
-    {
-      "defaultValue": "large",
-      "description": "Width of the Circular Progress",
-      "name": "progressSize",
-      "required": false,
-      "type": "number | \"small\" | \"large\""
-    },
-    {
-      "defaultValue": "linear",
-      "description": "",
-      "name": "progressType",
-      "required": false,
-      "type": "\"circular\" | \"linear\""
-    },
-    {
-      "description": "This is a useRef",
-      "name": "ref",
-      "required": false,
-      "type": "ForwardedRef<HTMLElementType>"
-    },
-    {
-      "description": "Tag of Component",
-      "name": "tag",
-      "required": false,
-      "type": "ElementType"
-    }
-  ],
-  "deprecated": "This component is deprecated and will be removed in the next major version. Please use the ProgressCircular and ProgressLinear components.",
+  "description": "This component is deprecated and will be removed in the next major version. Please use the ProgressCircular and ProgressLinear components.",
   "related": [
     "progress-circular",
     "progress-label",

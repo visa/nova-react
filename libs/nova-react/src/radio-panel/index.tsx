@@ -15,22 +15,19 @@
  *
  **/
 import cn from 'clsx';
-import { ForwardedRef } from 'react';
 import Label, { LabelProperties } from '../label';
-import forwardRef from '../types';
 
 const CSS_PREFIX = 'v-radio-panel v-action v-action-secondary';
 export type RadioPanelProperties = LabelProperties;
-
-const RadioPanel = <HTMLElementType,>(
-  { className, ...remainingProps }: RadioPanelProperties,
-  ref: ForwardedRef<HTMLElementType>
-) => <Label<HTMLElementType> className={cn(CSS_PREFIX, className)} ref={ref} {...remainingProps} />;
 
 /**
  * Container used with a radio component to add a border and background color.
  * @docs {@link https://design.visa.com/react/components/radio | See Docs}
  */
-export default forwardRef<RadioPanelProperties, HTMLLabelElement>(RadioPanel);
+const RadioPanel = (
+  { className, ...remainingProps }: RadioPanelProperties,
+) => <Label className={cn(CSS_PREFIX, className)} {...remainingProps} />;
+
+export default RadioPanel;
 
 RadioPanel.displayName = 'RadioPanel';

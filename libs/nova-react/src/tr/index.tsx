@@ -14,19 +14,18 @@
  * limitations under the License.
  *
  **/
-import { ForwardedRef } from 'react';
-import forwardRef from '../types';
+import { ComponentPropsWithRef, ElementType } from 'react';
 
-export type TrProperties = Record<string, unknown>;
-
-const Tr = <HTMLElementType,>(props: TrProperties, ref: ForwardedRef<HTMLElementType>) => (
-  <tr ref={ref as ForwardedRef<HTMLTableRowElement>} {...props} />
-);
+export type TrProperties<ET extends ElementType = 'tr',> = Record<string, unknown> & ComponentPropsWithRef<ET>;
 
 /**
  * Table row component.
  * @docs {@link https://design.visa.com/react/components/table | See Docs}
  */
-export default forwardRef<TrProperties, HTMLTableRowElement>(Tr);
+const Tr = <ET extends ElementType = 'tr',>(props: TrProperties<ET>) => (
+  <tr  {...props} />
+);
+
+export default Tr;
 
 Tr.displayName = 'Tr';

@@ -31,12 +31,14 @@ import Styles from './styles.module.scss';
 const components = meta.components;
 const hooks = meta.hooks;
 const utilities = meta.utilities;
+const patterns = meta.patterns;
 
 const mobileWidth = 768;
 
 const SiteNav: FC = () => {
-  const [expandUtility, setExpandUtility] = useState(true);
-  const [hooksExpanded, setHooksExpanded] = useState(true);
+  const [expandUtility, setExpandUtility] = useState(false);
+  const [expandPatterns, setExpandPatterns] = useState(false);
+  const [hooksExpanded, setHooksExpanded] = useState(false);
   const [navOpen, setNavOpen] = useState(window.innerWidth >= mobileWidth);
   const prevScreenWidth = useRef(window.innerWidth);
 
@@ -87,7 +89,9 @@ const SiteNav: FC = () => {
                         <Button
                           colorScheme="tertiary"
                           element={
-                            <NavLink to={Paths.documentationPage('utilities', utility)}>{sentenceCase(utility)}</NavLink>
+                            <NavLink to={Paths.documentationPage('utilities', utility)}>
+                              {sentenceCase(utility)}
+                            </NavLink>
                           }
                         />
                       </Tab>
@@ -111,6 +115,30 @@ const SiteNav: FC = () => {
                         <Button
                           colorScheme="tertiary"
                           element={<NavLink to={Paths.documentationPage('hooks', hook)}>{camelCase(hook)}</NavLink>}
+                        />
+                      </Tab>
+                    ))}
+                  </Tabs>
+                )}
+              </Tab>
+              <Tab>
+                <Button
+                  aria-expanded={expandPatterns}
+                  colorScheme="tertiary"
+                  onClick={() => setExpandPatterns(!expandPatterns)}
+                >
+                  Patterns
+                  <TabSuffix element={expandPatterns ? <VisaChevronUpTiny /> : <VisaChevronDownTiny />} />
+                </Button>
+                {expandPatterns && (
+                  <Tabs orientation="vertical" role="none">
+                    {patterns.map((pattern, i) => (
+                      <Tab key={i}>
+                        <Button
+                          colorScheme="tertiary"
+                          element={
+                            <NavLink to={Paths.documentationPage('patterns', pattern)}>{sentenceCase(pattern)}</NavLink>
+                          }
                         />
                       </Tab>
                     ))}

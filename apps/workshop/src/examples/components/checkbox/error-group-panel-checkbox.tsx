@@ -81,7 +81,7 @@ export const ErrorPanelGroupCheckbox = () => {
             const optionId = `${id}-option-${index}`;
             const messageId = `${optionId}-message`;
             return (
-              <Utility element={<CheckboxPanel />} htmlFor={optionId} key={optionId} vAlignItems="start">
+              <Utility<'label'> element={<CheckboxPanel />} htmlFor={optionId} key={optionId} vAlignItems="start">
                 <Utility vFlex vGap={2} style={{ inlineSize: '100%' }}>
                   <Checkbox
                     aria-describedby={messageId}

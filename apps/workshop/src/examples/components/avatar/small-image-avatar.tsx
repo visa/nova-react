@@ -21,5 +21,5 @@ const BASE_URL = import.meta.env.BASE_URL;
 const user = 'Alex Miller';
 
 export const SmallImageAvatar = () => {
-  return <Avatar alt={user} small tag="img" src={BASE_URL + '/alex-miller-stock.png'} />;
+  return <Avatar<'img'> alt={user} small tag="img" src={BASE_URL + '/alex-miller-stock.png'} />;
 };

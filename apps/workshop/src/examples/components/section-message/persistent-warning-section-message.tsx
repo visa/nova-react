@@ -14,12 +14,13 @@
  * limitations under the License.
  *
  **/
-import { SectionMessage, SectionMessageContent, SectionMessageIcon, Typography, UtilityFragment } from '@visa/nova-react';
+import { MessageIcon } from '@visa/nova-icons-react';
+import { SectionMessage, SectionMessageContent, Typography, UtilityFragment } from '@visa/nova-react';
 
 export const PersistentWarningSectionMessage = () => {
   return (
     <SectionMessage messageType="warning">
-      <SectionMessageIcon />
+      <MessageIcon messageType="warning" />
       <UtilityFragment vPaddingLeft={2} vPaddingBottom={2}>
         <SectionMessageContent>
           <Typography>This is required text that describes the section message in more detail.</Typography>

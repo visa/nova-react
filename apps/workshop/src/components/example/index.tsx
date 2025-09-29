@@ -15,7 +15,7 @@
  *
  **/
 import { useQueries } from '@tanstack/react-query';
-import { VisaMaximizeTiny } from '@visa/nova-icons-react';
+import { VisaChevronDownTiny, VisaChevronRightTiny, VisaMaximizeTiny } from '@visa/nova-icons-react';
 import {
   Accordion,
   AccordionHeading,
@@ -31,7 +31,7 @@ import {
 } from '@visa/nova-react';
 import { noCase } from 'change-case';
 import cn from 'clsx';
-import { ElementType, FC, Suspense, forwardRef, lazy } from 'react';
+import { ElementType, FC, MutableRefObject, Suspense, lazy } from 'react';
 import { Link } from 'react-router-dom';
 import { Paths } from '../../routes/paths';
 import { DocType, ExampleMetaData } from '../../types';
@@ -44,8 +44,17 @@ const fetchExampleCode = async (docType: string, docName: string, fileName: stri
   return importResult.default.toString();
 };
 
-const fetchExample = async (docType: string, docName: string, exampleName: string): Promise<FC> =>
-  Object.values<FC>(await import(`../../examples/${docType}/${docName}/${exampleName}.tsx`))[0];
+const fetchExample = async (docType: string, docName: string, exampleName: string): Promise<FC> => {
+  const mod = await import(`../../examples/${docType}/${docName}/${exampleName}.tsx`);
+  // prefer default export if available and is a function/component
+  if (mod.default) return mod.default as FC;
+  // fallback to the first named export
+  const values = Object.values(mod).filter(Boolean) as FC[];
+  if (values.length === 0) {
+    throw new Error('No exports found in the example module');
+  }
+  return values[0];
+};
 
 type ExampleProps = {
   docName?: string;
@@ -53,179 +62,186 @@ type ExampleProps = {
   headerTag?: string;
   metaData: ExampleMetaData;
   showTitleAsLink?: boolean;
+  ref?: MutableRefObject<HTMLButtonElement | null> | undefined;
 };
 
-const Example = forwardRef<HTMLDivElement, ExampleProps>(
-  ({ docName = '', docType = 'components', headerTag = 'headerTag', metaData, showTitleAsLink = true }, ref) => {
-    const { isIndexExpanded, toggleIndexExpanded } = useAccordion();
-    const codeExpanded = isIndexExpanded(0);
+const Example = ({
+  docName = '',
+  docType = 'components',
+  headerTag = 'headerTag',
+  metaData,
+  showTitleAsLink = true,
+  ref,
+}: ExampleProps) => {
+  const { isIndexExpanded, toggleIndexExpanded } = useAccordion();
+  const codeExpanded = isIndexExpanded(0);
 
-    const results = useQueries({
-      queries: [
-        {
-          queryFn: () => fetchExample(docType, docName, metaData.id || ''),
-          queryKey: [`${docType}-${docName}-${metaData.id}`],
-        },
-        {
-          enabled: codeExpanded,
-          queryFn: () => fetchExampleCode(docType, docName, metaData.id || ''),
-          queryKey: [`${docType}-${docName}-${metaData.id}-code`],
-        },
-      ],
-    });
+  const results = useQueries({
+    queries: [
+      {
+        queryFn: () => fetchExample(docType, docName, metaData.id || ''),
+        queryKey: [`${docType}-${docName}-${metaData.id}`],
+      },
+      {
+        enabled: codeExpanded,
+        queryFn: () => fetchExampleCode(docType, docName, metaData.id || ''),
+        queryKey: [`${docType}-${docName}-${metaData.id}-code`],
+      },
+    ],
+  });
 
-    const [exampleResults, codeResults] = results;
+  const [exampleResults, codeResults] = results;
 
-    const ExampleComponent: FC = exampleResults.data ? exampleResults.data : () => <ProgressLinear />;
+  const ExampleComponent: FC = exampleResults.data ? exampleResults.data : () => <ProgressLinear />;
 
-    const code =
-      (codeResults.isError && 'Error loading code') || (codeResults.isPending && 'Loading code') || codeResults.data;
-    const exampleContent = (exampleResults.isError && "Error loading example :'(") || <ExampleComponent />;
-    const linkId = `v-example-${docType}-${docName}-${metaData.id}`;
-    const modificationDateFormatted = new Date(metaData.dateModified || '').toLocaleDateString();
-    const rawExamplePath = Paths.rawExample(docType, docName, metaData.id);
-    const { alternate = false, custom = false, docs = false, ...remainingTags } = metaData.tags || {};
-    const iframed = metaData.iframe;
+  const code =
+    (codeResults.isError && 'Error loading code') || (codeResults.isPending && 'Loading code') || codeResults.data;
+  const exampleContent = (exampleResults.isError && "Error loading example :'(") || <ExampleComponent />;
+  const linkId = `v-example-${docType}-${docName}-${metaData.id}`;
+  const modificationDateFormatted = new Date(metaData.dateModified || '').toLocaleDateString();
+  const rawExamplePath = Paths.rawExample(docType, docName, metaData.id);
+  const { alternate = false, custom = false, docs = false, isShared, isSubComponent, ...remainingTags } = metaData.tags || {};
+  const iframed = metaData.iframe;
 
-    return (
-      <div className={Styles.example}>
-        <Utility vFlex vFlexRow vFlexWrap vJustifyContent="between" vGap={4} vAlignItems="center">
-          <Typography className="v-p-4" id={linkId} tag={headerTag as ElementType} variant="headline-3">
-            {metaData.title}
-          </Typography>
-          {showTitleAsLink && (
-            <Button
-              aria-label={`scroll to ${metaData.title}`}
-              buttonSize="small"
-              className={cn(Styles.hashLink, 'v-p-4')}
-              colorScheme="tertiary"
-              element={<Link to={Paths.documentationExample(docType, docName, metaData.id)} />}
-              ref={ref}
-              subtle
-            >
-              <Typography tag="span" variant="headline-3">
-                #
-              </Typography>
-            </Button>
-          )}
-          <Utility vFlex vFlexGrow vGap={8} vJustifyContent="end">
-            {docs && <Badge badgeType="neutral">#docs</Badge>}
-            {alternate && <Badge badgeType="warning">#alternate</Badge>}
-            {custom && <Badge badgeType="stable">#custom</Badge>}
-            {Object.keys(remainingTags).length > 0 && (
-              <Badge badgeType="subtle">
-                {Object.entries(remainingTags).map(([key, value]) => (value === true ? key : `${key}: ${value}`))}
-              </Badge>
-            )}
-          </Utility>
+  return (<>
+    {!isShared && !isSubComponent && (<div className={Styles.example}>
+      <Utility vFlex vFlexRow vFlexWrap vJustifyContent="between" vGap={4} vAlignItems="center">
+        <Typography className="v-p-4" id={linkId} tag={headerTag as ElementType} variant="headline-3">
+          {metaData.title === "Default full page chat" ? "Default full-page chat" : metaData.title}
+        </Typography>
+        {showTitleAsLink && (
           <Button
-            aria-label={`Report feedback example (internal only, opens in a new tab)`}
+            aria-label={`scroll to ${metaData.title}`}
             buttonSize="small"
+            className={cn(Styles.hashLink, 'v-p-4')}
             colorScheme="tertiary"
-            href={Paths.ticketLink}
-            rel="noopener noreferrer"
-            tag="a"
-            target="_blank"
+            element={<Link to={Paths.documentationExample(docType, docName, metaData.id)} />}
+            ref={ref}
+            subtle
           >
-            Report feedback (internal only)
-            <VisaMaximizeTiny rtl />
+            <Typography tag="span" variant="headline-3">
+              #
+            </Typography>
           </Button>
-          <Button
-            colorScheme="tertiary"
-            buttonSize="small"
-            element={
-              <Link
-                aria-label={`View example of ${noCase(metaData.title || '')} (Opens in a new tab)`}
-                rel="noopener noreferrer"
-                target="_blank"
-                to={rawExamplePath}
-              >
-                View example
-                <VisaMaximizeTiny rtl />
-              </Link>
-            }
-          />
-        </Utility>
-        {metaData.description && (
-          <Utility vFlex vPaddingVertical={12}>
-            {metaData.description}
-          </Utility>
         )}
-        {metaData.devNote && (
-          <Utility vFlex vPaddingVertical={12}>
-            {metaData.devNote}
-          </Utility>
-        )}
-
-        <div
-          className={cn(
-            Styles.exampleContent,
-            !iframed && Styles.exampleContentUnframed,
-            !iframed && 'checkered-background'
+        <Utility vFlex vFlexGrow vGap={8} vJustifyContent="end">
+          {docs && <Badge badgeType="neutral">#docs</Badge>}
+          {alternate && <Badge badgeType="warning">#alternate</Badge>}
+          {custom && <Badge badgeType="stable">#custom</Badge>}
+          {Object.keys(remainingTags).length > 0 && (
+            <Badge badgeType="subtle">
+              {Object.entries(remainingTags).map(([key, value]) => (value === true ? key : `${key}: ${value}`))}
+            </Badge>
           )}
-        >
-          {iframed ? (
-            <iframe
-              className={Styles.exampleContentFramed}
-              src={Paths.base + rawExamplePath}
-              title={`Interaction example for ${docType} example "${metaData.title}"`}
+        </Utility>
+        <Button
+          buttonSize="small"
+          colorScheme="tertiary"
+          element={
+            <Link
+              aria-label={`Report feedback example (internal only, opens in a new tab)`}
+              to={Paths.ticketLink}
+              rel="noopener noreferrer"
+              target="_blank"
             />
-          ) : (
-            exampleContent
-          )}
-        </div>
-
-        <Accordion className={Styles.exampleCode} id={`${metaData.id}-example-code-accordion`} tag="div">
-          <AccordionHeading
-            aria-controls={`${metaData.id}-example-code-accordion-panel`}
-            aria-expanded={codeExpanded}
-            aria-label={`Typescript of ${metaData.title}`}
-            className="v-flex-wrap"
-            buttonSize="large"
-            colorScheme="secondary"
-            id={`${metaData.id}-example-code-accordion-header`}
-            onClick={() => toggleIndexExpanded(0)}
-            tag="button"
-          >
-            <AccordionToggleIcon accordionOpen={codeExpanded} />
-            TypeScript
-            <UtilityFragment vFlex vMarginLeft="auto">
-              <Badge badgeType={metaData.testAvg === 100 ? 'stable' : 'neutral'} tag="span">
-                {metaData.testAvg}% test coverage
-              </Badge>
-            </UtilityFragment>
-          </AccordionHeading>
-
-          <AccordionPanel
-            aria-hidden={!codeExpanded}
-            className="v-px-0 v-py-0"
-            id={`${metaData.id}-example-code-accordion-panel`}
-          >
-            <Suspense fallback={<></>}>
-              <LazyCode
-                className={Styles.codePanelSnippet}
-                code={code}
-                docName={docName}
-                exampleName={metaData.title}
-                inPanel
-              />
-            </Suspense>
-          </AccordionPanel>
-        </Accordion>
-        <Utility vMarginTop={10} vPaddingLeft={2}>
-          <Typography colorScheme="subtle" tag="span" variant="label">
-            Last modified: {modificationDateFormatted}
-          </Typography>
+          }
+        >
+          Report feedback (internal only)
+          <VisaMaximizeTiny rtl />
+        </Button>
+        <Button
+          colorScheme="tertiary"
+          buttonSize="small"
+          element={
+            <Link
+              aria-label={`View example of ${noCase(metaData.title || '')} (Opens in a new tab)`}
+              rel="noopener noreferrer"
+              target="_blank"
+              to={rawExamplePath}
+            >
+              View example
+              <VisaMaximizeTiny rtl />
+            </Link>
+          }
+        />
+      </Utility>
+      {metaData.description && (
+        <Utility vFlex vPaddingVertical={12}>
+          {metaData.description}
         </Utility>
+      )}
+      {metaData.devNote && (
+        <Utility vFlex vPaddingVertical={12}>
+          {metaData.devNote}
+        </Utility>
+      )}
+
+      <div
+        className={cn(
+          Styles.exampleContent,
+          !iframed && Styles.exampleContentUnframed,
+          !iframed && 'checkered-background'
+        )}
+      >
+        {iframed ? (
+          <iframe
+            className={Styles.exampleContentFramed}
+            src={Paths.base + rawExamplePath}
+            title={`Interaction example for ${docType} example "${metaData.title}"`}
+          />
+        ) : (
+          exampleContent
+        )}
       </div>
-    );
-  }
-);
 
-Example.displayName = 'Example';
+      <Accordion className={Styles.exampleCode} id={`${metaData.id}-example-code-accordion`} tag="div">
+        <AccordionHeading
+          aria-controls={`${metaData.id}-example-code-accordion-panel`}
+          aria-expanded={codeExpanded}
+          aria-label={`Typescript of ${metaData.title}`}
+          className="v-flex-wrap"
+          buttonSize="large"
+          colorScheme="secondary"
+          id={`${metaData.id}-example-code-accordion-header`}
+          onClick={() => toggleIndexExpanded(0)}
+          tag="button"
+        >
+          <AccordionToggleIcon
+            accordionOpen={codeExpanded}
+            elementClosed={<VisaChevronRightTiny rtl />}
+            elementOpen={<VisaChevronDownTiny />}
+          />
+          TypeScript
+          <UtilityFragment vFlex vMarginLeft="auto">
+            <Badge badgeType={metaData.testAvg === 100 ? 'stable' : 'neutral'} tag="span">
+              {metaData.testAvg}% test coverage
+            </Badge>
+          </UtilityFragment>
+        </AccordionHeading>
 
-Example.defaultProps = {
-  headerTag: 'h3',
+        <AccordionPanel
+          aria-hidden={!codeExpanded}
+          className="v-px-0 v-py-0"
+          id={`${metaData.id}-example-code-accordion-panel`}
+        >
+          <Suspense fallback={<></>}>
+            <LazyCode
+              className={Styles.codePanelSnippet}
+              code={code}
+              docName={docName}
+              exampleName={metaData.title}
+              inPanel
+            />
+          </Suspense>
+        </AccordionPanel>
+      </Accordion>
+      <Utility vMarginTop={10} vPaddingLeft={2}>
+        <Typography colorScheme="subtle" tag="span" variant="label">
+          Last modified: {modificationDateFormatted}
+        </Typography>
+      </Utility>
+    </div>)}
+  </>);
 };
 
 export default Example;

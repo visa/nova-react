@@ -16,58 +16,48 @@
  **/
 import { VisaChevronDownTiny, VisaChevronRightTiny } from '@visa/nova-icons-react';
 import cn from 'clsx';
-import { ForwardedRef, ReactElement, cloneElement } from 'react';
-import { default as forwardRef, DefaultProperties } from '../types';
+import { ComponentPropsWithRef, ElementType, ReactElement, cloneElement } from 'react';
 
 const CSS_PREFIX = 'v-accordion-toggle-icon';
 
-export type AccordionToggleIconProperties = {
+export type AccordionToggleIconProperties<ET extends ElementType = 'button',> = {
   /** manually assign the open state of the accordion */
   accordionOpen?: boolean;
-  /** @ignore */
-  children?: never;
-  /** @ignore */
-  className?: string;
   /** The icon in closed state */
   elementClosed?: ReactElement;
   /** The icon in the open state */
   elementOpen?: ReactElement;
-  /** @deprecated Migrate to `elementClosed` and `elementOpen` */
-  tag?: never;
-};
+} & ComponentPropsWithRef<ET>;
 
-const AccordionToggleIcon = <HTMLElementType,>(
+/**
+ * Component containing the icon and logic for the accordion toggle icon.
+ * @docs {@link https://design.visa.com/react/components/accordion | See Docs}
+ */
+const AccordionToggleIcon = <ET extends ElementType = 'div',>(
   {
     accordionOpen,
     className,
     elementClosed = <VisaChevronRightTiny rtl />,
     elementOpen = <VisaChevronDownTiny />,
     ...remainingProps
-  }: AccordionToggleIconProperties,
-  ref: ForwardedRef<HTMLElementType>
+  }: AccordionToggleIconProperties<ET>,
 ) => (
   <>
     {(!accordionOpen || accordionOpen === undefined) &&
-      cloneElement<AccordionToggleIconProperties & DefaultProperties<HTMLElementType>>(elementClosed, {
+      cloneElement<AccordionToggleIconProperties>(elementClosed, {
         className: cn(CSS_PREFIX, `${CSS_PREFIX}-closed`, className, elementClosed.props.className),
-        ref,
         style: { ...elementClosed.props.style },
         ...remainingProps,
       })}
     {(accordionOpen || accordionOpen === undefined) &&
-      cloneElement<AccordionToggleIconProperties & DefaultProperties<HTMLElementType>>(elementOpen, {
+      cloneElement<AccordionToggleIconProperties>(elementOpen, {
         className: cn(CSS_PREFIX, `${CSS_PREFIX}-open`, className, elementOpen.props.className),
-        ref,
         style: { ...elementOpen.props.style },
         ...remainingProps,
       })}
   </>
 );
 
-/**
- * Component containing the icon and logic for the accordion toggle icon.
- * @docs {@link https://design.visa.com/react/components/accordion | See Docs}
- */
-export default forwardRef<AccordionToggleIconProperties, HTMLElement>(AccordionToggleIcon);
+export default AccordionToggleIcon;
 
 AccordionToggleIcon.displayName = 'AccordionToggleIcon';

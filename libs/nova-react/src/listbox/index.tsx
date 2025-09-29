@@ -15,32 +15,18 @@
  *
  **/
 import cn from 'clsx';
-import { ElementType, ForwardedRef } from 'react';
-import forwardRef from '../types';
+import { ComponentPropsWithRef, ElementType } from 'react';
 
 const CSS_PREFIX = 'v-listbox';
 
-export type ListboxProperties = {
-  /** @ignore */
-  className?: string;
+export type ListboxProperties<ET extends ElementType = 'ul',> = {
   /** Multiselect */
   multiselect?: boolean;
   /** Scroll */
   scroll?: boolean;
   /** Tag of Component */
   tag?: ElementType;
-};
-
-const Listbox = <HTMLElementType,>(
-  { className, multiselect, scroll, tag: Tag = 'ul', ...remainingProps }: ListboxProperties,
-  ref: ForwardedRef<HTMLElementType>
-) => (
-  <Tag
-    className={cn(CSS_PREFIX, multiselect && `${CSS_PREFIX}-multiselect`, scroll && `${CSS_PREFIX}-scroll`, className)}
-    ref={ref}
-    {...remainingProps}
-  />
-);
+} & ComponentPropsWithRef<ET>;
 
 /**
  * Container that displays a list of items available for selection.
@@ -49,7 +35,16 @@ const Listbox = <HTMLElementType,>(
  * @vgar TODO
  * @wcag TODO
  */
-export default forwardRef<ListboxProperties, HTMLElement>(Listbox);
+const Listbox = <ET extends ElementType = 'ul',>(
+  { className, multiselect, scroll, tag: Tag = 'ul', ...remainingProps }: ListboxProperties<ET>,
+) => (
+  <Tag
+    className={cn(CSS_PREFIX, multiselect && `${CSS_PREFIX}-multiselect`, scroll && `${CSS_PREFIX}-scroll`, className)}
+    {...remainingProps}
+  />
+);
+
+export default Listbox;
 
 Listbox.defaultProps = {
   tag: 'ul',

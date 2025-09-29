@@ -14,13 +14,14 @@
  * limitations under the License.
  *
  **/
-import { SectionMessage, SectionMessageIcon, Typography, Link as VLink } from '@visa/nova-react';
+import { MessageIcon } from '@visa/nova-icons-react';
+import { SectionMessage, Typography, Link as VLink } from '@visa/nova-react';
 import { Link } from 'react-router-dom';
 import { ExampleIndex } from '../../../types';
 
 const ExampleIntro = () => (
   <SectionMessage>
-    <SectionMessageIcon />
+    <MessageIcon />
     <Typography variant="body-2">
       The default <code>{`<Typography />`}</code> is a <code>{`<p />`}</code> element. To use a different tag, pass it
       as the <code>tag</code> prop. Checkout this example:{' '}

@@ -1,8 +1,8 @@
 {
   "description": "Meant for use with sprites only. Uses dom href linking of sprite elements expected to already be in the DOM to render the icon.",
-  "displayName": "Icon",
+  "displayName": "icon",
   "filePath": "/icon/index.tsx",
-  "gitLink": "https://stash.trusted.visa.com:7990/projects/VC/repos/nova-react/browse/libs/nova-react/src/icon/index.tsx",
+  "gitLink": "https://github.com/visa/nova-react/blob/main/libs/nova-react/src/icon/index.tsx",
   "props": [
     {
       "description": "Aria Base ID",
@@ -18,7 +18,7 @@
       "type": "\"generic\" | \"visa\""
     },
     {
-      "description": "",
+      "description": "Description for Standalone SVG's",
       "name": "description",
       "required": false,
       "type": "string"
@@ -35,7 +35,7 @@
       "description": "Resolution of Icon",
       "name": "resolution",
       "required": false,
-      "type": "\"high\" | \"low\" | \"tiny\""
+      "type": "\"low\" | \"high\" | \"tiny\""
     },
     {
       "description": "Flips icon horizontally when document direction is set to right to left",

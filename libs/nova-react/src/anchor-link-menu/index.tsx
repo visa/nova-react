@@ -15,22 +15,15 @@
  *
  **/
 import cn from 'clsx';
-import { ElementType, ForwardedRef } from 'react';
-import forwardRef from '../types';
+import { ComponentPropsWithRef, ElementType } from 'react';
 
 const CSS_PREFIX = 'v-anchor-link-menu';
 
-export type AnchorLinkMenuProperties = {
-  /** @ignore */
-  className?: string;
+export type AnchorLinkMenuProperties<ET extends ElementType = 'aside',> = {
+
   /** Tag of Component */
   tag?: ElementType;
-};
-
-const AnchorLinkMenu = <HTMLElementType,>(
-  { className, tag: Tag = 'aside', ...remainingProps }: AnchorLinkMenuProperties,
-  ref: ForwardedRef<HTMLElementType>
-) => <Tag className={cn(CSS_PREFIX, className)} ref={ref} {...remainingProps} />;
+} & ComponentPropsWithRef<ET>;
 
 /**
  * Menu of links that navigate to sections within the current page.
@@ -39,7 +32,11 @@ const AnchorLinkMenu = <HTMLElementType,>(
  * @vgar TODO
  * @wcag TODO
  */
-export default forwardRef<AnchorLinkMenuProperties, HTMLElement>(AnchorLinkMenu);
+const AnchorLinkMenu = <ET extends ElementType = 'aside',>(
+  { className, tag: Tag = 'aside', ...remainingProps }: AnchorLinkMenuProperties<ET>,
+) => <Tag className={cn(CSS_PREFIX, className)} {...remainingProps} />;
+
+export default AnchorLinkMenu;
 
 AnchorLinkMenu.defaultProps = {
   tag: 'aside',

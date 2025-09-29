@@ -14,7 +14,7 @@
  * limitations under the License.
  *
  **/
-import { VisaSuccessTiny } from '@visa/nova-icons-react';
+import { VisaChevronDownTiny, VisaChevronRightTiny, VisaSuccessTiny } from '@visa/nova-icons-react';
 import {
   Accordion,
   AccordionHeading,
@@ -31,7 +31,11 @@ export const WithBadgeAccordion = () => {
       <UtilityFragment vAlignItems="center">
         <AccordionHeading buttonSize="large" colorScheme="secondary">
           {/* TODO: Remove this style tag after nova-styles fix */}
-          <AccordionToggleIcon style={{ alignSelf: 'center' }} />
+          <AccordionToggleIcon
+            elementClosed={<VisaChevronRightTiny rtl />}
+            elementOpen={<VisaChevronDownTiny />}
+            style={{ alignSelf: 'center' }}
+          />
           Accordion title
           <UtilityFragment vMarginLeft="auto">
             <Badge badgeType="stable">

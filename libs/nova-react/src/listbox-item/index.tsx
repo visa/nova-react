@@ -15,28 +15,25 @@
  *
  **/
 import cn from 'clsx';
-import { ElementType, ForwardedRef } from 'react';
-import forwardRef from '../types';
+import { ComponentPropsWithRef, ElementType } from 'react';
 
 const CSS_PREFIX = 'v-listbox-item';
 
-export type ListboxItemProperties = {
-  /** @ignore */
-  className?: string;
+export type ListboxItemProperties<ET extends ElementType = 'li',> = {
   /** Tag of Component */
   tag?: ElementType;
-};
 
-const ListboxItem = <HTMLElementType,>(
-  { className, tag: Tag = 'li', ...remainingProps }: ListboxItemProperties,
-  ref: ForwardedRef<HTMLElementType>
-) => <Tag className={cn(CSS_PREFIX, className)} ref={ref} {...remainingProps} />;
+} & ComponentPropsWithRef<ET>;
 
 /**
  * Container for elements used inside listbox.
  * @docs {@link https://design.visa.com/react/components/listbox | See Docs}
  */
-export default forwardRef<ListboxItemProperties, HTMLLIElement>(ListboxItem);
+const ListboxItem = <ET extends ElementType = 'li',>(
+  { className, tag: Tag = 'li', ...remainingProps }: ListboxItemProperties<ET>,
+) => <Tag className={cn(CSS_PREFIX, className)} {...remainingProps} />;
+
+export default ListboxItem;
 
 ListboxItem.defaultProps = {
   tag: 'li',

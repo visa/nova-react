@@ -15,23 +15,20 @@
  *
  **/
 import cn from 'clsx';
-import { ForwardedRef } from 'react';
 import Button, { ButtonProperties } from '../button';
-import forwardRef from '../types';
 
 const CSS_PREFIX = 'v-panel-toggle';
 
 export type PanelToggleProperties = ButtonProperties;
 
-const PanelToggle = <HTMLElementType,>(
-  { className, ...remainingProps }: PanelToggleProperties,
-  ref: ForwardedRef<HTMLElementType>
-) => <Button<HTMLElementType> className={cn(CSS_PREFIX, className)} ref={ref} {...remainingProps} />;
-
 /**
  * Button used with a panel component to hide or show the panel.
  * @docs {@link https://design.visa.com/react/components/panel | See Docs}
  */
-export default forwardRef<PanelToggleProperties, HTMLButtonElement>(PanelToggle);
+const PanelToggle = (
+  { className, ...remainingProps }: PanelToggleProperties,
+) => <Button className={cn(CSS_PREFIX, className)} {...remainingProps} />;
+
+export default PanelToggle;
 
 PanelToggle.displayName = 'PanelToggle';

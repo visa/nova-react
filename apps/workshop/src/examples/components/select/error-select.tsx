@@ -48,7 +48,7 @@ export const ErrorSelect = () => {
   };
 
   return (
-    <Utility noValidate onReset={onReset} onSubmit={onSubmit} tag="form" vFlex vFlexCol vGap={16}>
+    <Utility<'form'> noValidate onReset={onReset} onSubmit={onSubmit} tag="form" vFlex vFlexCol vGap={16}>
       <Utility aria-labelledby={`${id}-message`} tag="fieldset" vFlex vFlexCol vGap={6}>
         <Label htmlFor={id}>Label (required)</Label>
         <InputContainer>

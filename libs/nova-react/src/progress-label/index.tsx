@@ -15,22 +15,15 @@
  *
  **/
 import cn from 'clsx';
-import { ElementType, ForwardedRef } from 'react';
-import forwardRef from '../types';
+import { ComponentPropsWithRef, ElementType } from 'react';
 
 const CSS_PREFIX = 'v-progress-label';
 
-export type ProgressLabelProperties = {
-  /** @ignore */
-  className?: string;
+export type ProgressLabelProperties<ET extends ElementType = 'label',> = {
+
   /** Tag of Component */
   tag?: ElementType;
-};
-
-const ProgressLabel = <HTMLElementType,>(
-  { className, tag: Tag = 'label', ...remainingProps }: ProgressLabelProperties,
-  ref: ForwardedRef<HTMLElementType>
-) => <Tag className={cn(CSS_PREFIX, className)} ref={ref} {...remainingProps} />;
+} & ComponentPropsWithRef<ET>;
 
 /**
  * Label used with a progress component for textual representation of status.
@@ -38,7 +31,11 @@ const ProgressLabel = <HTMLElementType,>(
  * @vgar TODO
  * @wcag TODO
  */
-export default forwardRef<ProgressLabelProperties, HTMLLabelElement>(ProgressLabel);
+const ProgressLabel = <ET extends ElementType = 'label',>(
+  { className, tag: Tag = 'label', ...remainingProps }: ProgressLabelProperties<ET>,
+) => <Tag className={cn(CSS_PREFIX, className)} {...remainingProps} />;
+
+export default ProgressLabel;
 
 ProgressLabel.displayName = 'ProgressLabel';
 

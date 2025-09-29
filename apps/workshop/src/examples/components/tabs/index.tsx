@@ -14,14 +14,15 @@
  * limitations under the License.
  *
  **/
-import { SectionMessage, SectionMessageContent, SectionMessageIcon, Typography, Link as VLink } from '@visa/nova-react';
+import { MessageIcon } from '@visa/nova-icons-react';
+import { SectionMessage, SectionMessageContent, Typography, Link as VLink } from '@visa/nova-react';
 import { Link } from 'react-router-dom';
 import { Paths } from '../../../routes';
 import { ExampleIndex } from '../../../types';
 
 const ExampleIntro = () => (
   <SectionMessage>
-    <SectionMessageIcon />
+    <MessageIcon />
     <SectionMessageContent>
       <Typography variant="subtitle-1">
         We are using a custom-made <code>useTabs()</code> hook!
