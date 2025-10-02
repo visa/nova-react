@@ -19,7 +19,7 @@
   ],
   "vgar": "TODO",
   "wcag": "TODO",
-  "docs": "{@link https://productdesignsystem.visa.com/react/components/badge-ellipse See Docs}",
+  "docs": "{@link https://design.visa.com/react/components/badge-ellipse See Docs}",
   "testAvg": 100,
   "deprecated": "This component is deprecated and will be removed in the next major version. Please use the Badge component with the badgeVariant prop set to 'ellipse' instead."
 }

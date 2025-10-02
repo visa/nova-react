@@ -14,4 +14,4 @@
  * limitations under the License.
  *
  **/
-export const GA_TRACKING_ID = 'G-ER1Y9VSTKY';
+export const GA_TRACKING_ID = '';
